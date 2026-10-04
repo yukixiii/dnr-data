@@ -1,5 +1,5 @@
 // トップページと出典一覧
-import { ds, lastUpdated, listUnits, recipesByResult, sourceById, tablesByItem } from "../data.ts";
+import { ds, lastUpdated, listUnits, recipesByResult, sortDate, sourceById, tablesByItem } from "../data.ts";
 import { esc, href } from "../components/ui.ts";
 import { unitLink } from "./itemList.ts";
 
@@ -13,13 +13,13 @@ export function renderHome() {
     s.count++;
     if (u.members.some((m) => recipesByResult.has(m.id))) s.withRecipe++;
     s.level = Math.max(s.level, ...u.members.map((m) => m.level ?? 0));
-    // 系統が初登場した時期 (系統内で最も古い出典日) で並べる
+    // 系統が初登場した時期 (系統内で最も古い出典日) で並べる。告知の無い系統はクライアントの取得日
     const first =
       u.members
         .flatMap((m) => m.refs)
         .map((r) => sourceById.get(r.source)?.published_at ?? "")
         .filter(Boolean)
-        .sort()[0] ?? "";
+        .sort()[0] ?? sortDate(u.members.flatMap((m) => m.refs));
     if (first && (!s.latest || first < s.latest)) s.latest = first;
     series.set(u.series, s);
   }

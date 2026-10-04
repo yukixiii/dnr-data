@@ -1,7 +1,7 @@
 // 作成ルートの組み立て (表示は components/routeView.ts)。
 // ベース装備の流れ (base → result) を背骨にして、入手 → 手順 → … → 完成 の一本道に並べる。
 // 素材の入手レシピはたどらない (素材は各手順の葉として表示するだけ) ので、木が爆発しない。
-import { groupOf, interPreds, isIntra, memberIndex, recipeById, recipesByResult, refDate } from "./data.ts";
+import { groupOf, interPreds, isIntra, memberIndex, recipeById, recipesByResult, sortDate } from "./data.ts";
 import type { ItemGroup, Qty, Recipe } from "./types.ts";
 
 export const MAX_ROUTES = 4;
@@ -104,7 +104,7 @@ const stepRecipes = (s: RouteStep): Recipe[] =>
 /** 新しい告知のレシピを含むルートを先に。最大 MAX_ROUTES 件、残りは omitted */
 export function buildRoutes(target: string): { routes: Route[]; omitted: number } {
   const all = back(target, 0, new Set()).map((steps) => ({ steps }));
-  const newest = (r: Route) => r.steps.flatMap(stepRecipes).reduce((m, x) => (refDate(x.refs) > m ? refDate(x.refs) : m), "");
+  const newest = (r: Route) => r.steps.flatMap(stepRecipes).reduce((m, x) => (sortDate(x.refs) > m ? sortDate(x.refs) : m), "");
   const sorted = all.map((r, i) => ({ r, i, d: newest(r) })).sort((a, b) => b.d.localeCompare(a.d) || a.i - b.i);
   return { routes: sorted.slice(0, MAX_ROUTES).map((x) => x.r), omitted: Math.max(0, sorted.length - MAX_ROUTES) };
 }

@@ -1,5 +1,5 @@
 // 装備・素材一覧 (フィルタ・検索)。段階違いの同一装備は1件にまとめる
-import { allItems, defaultMember, ds, isIntra, listUnits, recipesByResult, tablesByItem, type ListUnit } from "../data.ts";
+import { allItems, defaultMember, ds, groupCountLabel, isIntra, listUnits, recipesByResult, tablesByItem, type ListUnit } from "../data.ts";
 import type { Item, ItemKind } from "../types.ts";
 import { KIND_LABEL, empty, esc, href, itemLink, itemMeta, regionBadges } from "../components/ui.ts";
 
@@ -32,7 +32,7 @@ function unitCard(u: ListUnit) {
   ].join("");
   return `<li class="card">
     <div class="card-title">${title}</div>
-    <div class="card-meta">${itemMeta(item)}${group ? `<span class="chip stages">全${group.members.length}段階</span>` : ""}</div>
+    <div class="card-meta">${itemMeta(item)}${group ? `<span class="chip stages">${groupCountLabel(group)}</span>` : ""}</div>
     <div class="card-foot">${regionBadges(members.flatMap((m) => m.refs))}${tags}</div>
   </li>`;
 }

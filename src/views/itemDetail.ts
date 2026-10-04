@@ -12,7 +12,9 @@ import {
   recipesByBase,
   recipesByMaterial,
   recipesByResult,
+  groupCountLabel,
   refDate,
+  sortDate,
   resolveDetail,
   selfRecipes,
   tablesByItem,
@@ -101,7 +103,7 @@ export function renderItemDetail(id: string) {
   const usedIn = uniq(ids.flatMap((x) => recipesByMaterial.get(x) ?? []));
   const tables = newestFirst(uniq(ids.flatMap((x) => tablesByItem.get(x) ?? [])));
   const tablesUsing = uniq(ids.flatMap((x) => tablesByMaterial.get(x) ?? []));
-  const drops = ids.flatMap((x) => dropsByItem.get(x) ?? []).sort((a, b) => refDate(b.table.refs).localeCompare(refDate(a.table.refs)));
+  const drops = ids.flatMap((x) => dropsByItem.get(x) ?? []).sort((a, b) => sortDate(b.table.refs).localeCompare(sortDate(a.table.refs)));
   const contents = !group && item.kind === "box" ? (dropsByLocation.get(focus) ?? []) : [];
   const selfOps = ids.flatMap((x) => selfRecipes.get(x) ?? []);
   const obtains = ids.flatMap((x) => (itemById.get(x)!.obtain ?? []).map((o) => ({ id: x, text: o })));
@@ -140,7 +142,7 @@ export function renderItemDetail(id: string) {
     sections.push(`<section><h2>強化・段階確率</h2>${tables
       .map((t) => {
         const target = group ? t.applies_to.filter((x) => ids.includes(x)).map(tag).join("") : "";
-        return `<p>${target}<a href="${href("enhance", t.id)}">${esc(t.name)}</a> ${refInline(t.refs)} <span class="muted">${esc(refDate(t.refs))} 告知 / ${t.rows.length}段階${
+        return `<p>${target}<a href="${href("enhance", t.id)}">${esc(t.name)}</a> ${refInline(t.refs)} <span class="muted">${refDate(t.refs) ? `${esc(refDate(t.refs))} 告知 / ` : ""}${t.rows.length}段階${
           t.rows.at(-1)?.rate !== undefined ? ` / 最終段階 ${t.rows.at(-1)!.rate}%` : ""
         }</span></p>`;
       })
@@ -195,7 +197,7 @@ export function renderItemDetail(id: string) {
   <header class="detail-head">
     <h1>${esc(group ? group.name : item.name)}</h1>
     <div class="names">${[item.name_ko, item.name_zh].filter(Boolean).map((n) => `<span>${esc(n)}</span>`).join("")}</div>
-    ${group ? `<p class="focus-line">選択中: <strong>${esc(item.name)}</strong> <span class="muted">(全${group.members.length}段階)</span></p>${stageNav(group, focus)}` : ""}
+    ${group ? `<p class="focus-line">選択中: <strong>${esc(item.name)}</strong> <span class="muted">(${groupCountLabel(group)})</span></p>${stageNav(group, focus)}` : ""}
     <div class="meta">${itemMeta(item)}${
       PROVISIONAL.test(item.description ?? "") ? `<span class="chip warn" title="公式に部位別の正式名称が無く、推定した名称です">名称推定</span>` : ""
     }${item.tradable ? `<span class="chip">${esc(item.tradable)}</span>` : ""} ${regionBadges(item.refs)}</div>

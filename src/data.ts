@@ -65,7 +65,23 @@ export function refDate(refs: Ref[]): string {
   }, "");
 }
 
-export const newestFirst = <T extends { refs: Ref[] }>(arr: T[]) => [...arr].sort((a, b) => refDate(b.refs).localeCompare(refDate(a.refs)));
+/**
+ * 並べ替え用の日付。告知日が無いゲームクライアントのデータ (jp-client-*) は取得日を使う
+ * (表示の「告知日」には使わない。クライアントにしか無い表・系統が一番古い扱いにならないように)
+ */
+export function sortDate(refs: Ref[]): string {
+  return refs.reduce((max, r) => {
+    const s = sourceById.get(r.source);
+    const p = s?.published_at ?? (s?.id.startsWith("jp-client-") ? s.fetched_at : "");
+    return p > max ? p : max;
+  }, "");
+}
+
+export const newestFirst = <T extends { refs: Ref[] }>(arr: T[]) => [...arr].sort((a, b) => sortDate(b.refs).localeCompare(sortDate(a.refs)));
+
+/** グループの件数の表記: 段階・強化値の違いなら「全N段階」、等級・物理/魔法などの違いなら「全N種」 */
+export const groupCountLabel = (g: ItemGroup) =>
+  `全${g.members.length}${g.members.some((m) => /段階|^\+\d|^基本$/.test(m.label) || m.phase) ? "段階" : "種"}`;
 
 export function regionsOf(refs: Ref[]): Region[] {
   const set = new Set<Region>();
