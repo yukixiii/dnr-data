@@ -209,6 +209,27 @@ for (const [k, s] of Object.entries(ex.sets)) {
 const setIds = new Set(sets.map((s) => s.id));
 
 // ---- アイテム ----
+/** 文 (括弧の外の「。」まで) と、統合時に足した「旧「…」: …」の区切りで分ける */
+function splitSentences(text: string): string[] {
+  const out: string[] = [];
+  let depth = 0, cur = "";
+  for (let i = 0; i < text.length; i++) {
+    const ch = text[i];
+    if (depth === 0 && cur && /\s/.test(ch) && text.startsWith("旧「", i + 1)) {
+      out.push(cur);
+      cur = "";
+    }
+    cur += ch;
+    if ("(（「".includes(ch)) depth++;
+    else if (")）」".includes(ch)) depth = Math.max(0, depth - 1);
+    else if (ch === "。" && depth === 0) {
+      out.push(cur);
+      cur = "";
+    }
+  }
+  if (cur) out.push(cur);
+  return out;
+}
 // 名前を推定・仮で付けていた旨と、告知の能力値表の説明 (能力値はクライアント値に置き換えた) は消す
 const PROVISIONAL_NAME = /便宜上|仮の名称|正式名称(は)?不明|正式なアイテム名|名称は(推定|類推)|から類推|部位別の正式名称が無い|^\s*stats の「/;
 const LEVEL_LABEL = /^\+(\d+)$/;
@@ -252,8 +273,7 @@ for (const it of [...items, ...materials]) {
   // 名前を推定・仮で付けていた旨の文は、クライアントの正式名になったので消す
   if (it.description) {
     // 文 (。で終わる) と、統合時に足した「旧「…」: …」の区切りで分け、該当する部分だけ取り除く
-    const kept = it.description
-      .split(/(?<=。)|(?=\s旧「)/)
+    const kept = splitSentences(it.description)
       .filter((x) => !PROVISIONAL_NAME.test(x))
       .join("")
       .replace(/\s{2,}/g, " ")
@@ -352,6 +372,7 @@ function matId(m: CMat) {
 }
 const missingMats = new Map<string, CMat>();
 
+const replacedOverseas = new Set<string>();
 const appliesClient = (t: EnhanceTable) => t.applies_to.some((a) => ex.items[a]);
 const outTables: EnhanceTable[] = [];
 const coveredEnchants = new Set<string>();
@@ -369,6 +390,7 @@ for (const t of tables) {
   }
   coveredEnchants.add(String(c.enchant_id));
   const overseas = isOverseas(t.refs);
+  if (overseas) replacedOverseas.add(t.id);
   const from = srcLabel(t.refs);
   // 既存の行の素材名とクライアントの素材名の対応 (同じ個数の素材)
   for (const row of t.rows) {
@@ -452,16 +474,29 @@ for (const [eid, ids] of byEnchant) {
     refs: [{ source: SRC }],
   });
 }
-// 海外版だけの表で、対象のアイテムがすべて日本版クライアントの強化表を持つものは削除する
-const enchantCovered = new Set([...coveredEnchants, ...byEnchant.keys()]);
-for (let i = outTables.length - 1; i >= 0; i--) {
-  const t = outTables[i];
-  if (ex.enhance[t.id] || !isOverseas(t.refs) || t.kind !== "enhance") continue;
-  const eids = t.applies_to.map((a) => ex.items[a]?.enchant_id);
-  if (eids.length && eids.every((e) => e !== undefined && enchantCovered.has(String(e)))) {
-    log.push(`海外版の表を削除 (日本版クライアントの表あり) ${t.id}`);
-    outTables.splice(i, 1);
-    inc("enhance.overseas_removed");
+// 海外版の表の整理: 対象のアイテムがすべて日本版の表 (告知 + クライアント、またはクライアントの新しい表) で
+// 覆われていれば削除する (海外版から置き換えた表も、日本版の告知の表があれば重複になるので削除)
+{
+  const jpItems = new Set(outTables.filter((t) => t.kind === "enhance" && ex.enhance[t.id] && !replacedOverseas.has(t.id)).flatMap((t) => t.applies_to));
+  const clientItems = new Set(outTables.filter((t) => t.id.startsWith("client-enh-")).flatMap((t) => t.applies_to));
+  const replacedItems = new Set(outTables.filter((t) => replacedOverseas.has(t.id)).flatMap((t) => t.applies_to));
+  for (let i = outTables.length - 1; i >= 0; i--) {
+    const t = outTables[i];
+    if (t.kind !== "enhance" || !t.applies_to.length) continue;
+    if (replacedOverseas.has(t.id)) {
+      if (t.applies_to.every((a) => jpItems.has(a))) {
+        log.push(`海外版から置き換えた表を削除 (日本版の告知の表あり) ${t.id}`);
+        outTables.splice(i, 1);
+        inc("enhance.overseas_removed");
+      }
+      continue;
+    }
+    if (ex.enhance[t.id] || !isOverseas(t.refs)) continue;
+    if (t.applies_to.every((a) => jpItems.has(a) || clientItems.has(a) || replacedItems.has(a))) {
+      log.push(`海外版の表を削除 (日本版の表あり) ${t.id}`);
+      outTables.splice(i, 1);
+      inc("enhance.overseas_removed");
+    }
   }
 }
 // 新しい表の素材で data に無いものはスタブを作る
