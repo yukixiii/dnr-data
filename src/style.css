@@ -461,17 +461,212 @@ table.stats td {
   font-weight: 600;
 }
 
-/* ---------- recipe tree ---------- */
-.recipe-tree {
+/* ---------- stage selector (段階違いの同一装備) ---------- */
+.focus-line {
+  margin: 4px 0;
+}
+.stage-nav {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  margin: 6px 0 8px;
+}
+.stage-row {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 4px;
+}
+.stage-phase {
+  font-size: 0.75rem;
+  font-weight: 700;
+  color: var(--muted);
+  min-width: 5.5em;
+}
+.stage-chip {
+  display: inline-block;
+  font-size: 0.8rem;
+  line-height: 1.6;
+  padding: 0 9px;
+  border-radius: 999px;
+  border: 1px solid var(--border);
+  background: var(--surface);
+  color: var(--text);
+  white-space: nowrap;
+  font-variant-numeric: tabular-nums;
+}
+.stage-chip:hover {
+  border-color: var(--accent);
+  text-decoration: none;
+}
+.stage-chip[aria-current] {
+  background: var(--accent-soft);
+  border-color: var(--accent);
+  color: var(--accent);
+  font-weight: 800;
+}
+.chip.member {
+  background: var(--accent-soft);
+  color: var(--accent);
+  font-weight: 700;
+}
+.chip.stages {
+  border: 1px solid var(--accent);
+  background: transparent;
+  color: var(--accent);
+}
+details.member-stats {
+  margin: 6px 0;
+}
+details.member-stats > summary,
+details.route-alt > summary,
+details.stage-detail > summary,
+details.howto > summary {
+  cursor: pointer;
+}
+details.member-stats > summary {
+  font-weight: 700;
+}
+table.data tr.is-focus > * {
+  background: var(--accent-soft);
+}
+
+/* ---------- route (作成ルート) ---------- */
+details.route-alt {
+  margin: 8px 0;
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  background: var(--surface);
+  padding: 6px 12px;
+}
+details.route-alt > summary {
+  font-weight: 700;
+  padding: 4px 0;
+}
+ol.route {
+  list-style: none;
+  margin: 8px 0;
+  padding: 0;
+}
+.step {
+  position: relative;
+  padding: 0 0 12px 40px;
+}
+/* 手順をつなぐ縦線 */
+.step::before {
+  content: "";
+  position: absolute;
+  left: 13px;
+  top: 28px;
+  bottom: 0;
+  border-left: 2px solid var(--border);
+}
+.step:last-child::before {
+  display: none;
+}
+.step-marker {
+  position: absolute;
+  left: 0;
+  top: 2px;
+  width: 28px;
+  height: 28px;
+  border-radius: 50%;
+  display: grid;
+  place-items: center;
+  font-size: 0.8rem;
+  font-weight: 800;
+  background: var(--accent);
+  color: #fff;
+  font-variant-numeric: tabular-nums;
+}
+.step-card {
   background: var(--surface);
   border: 1px solid var(--border);
   border-radius: var(--radius);
+  box-shadow: var(--shadow);
   padding: 8px 12px;
-  overflow-x: auto;
+  min-width: 0;
 }
-.recipe {
-  margin: 6px 0;
+.recipe-type.type-step {
+  color: var(--muted);
+  border-color: var(--border);
+  background: var(--surface-2);
 }
+.step-title {
+  font-weight: 600;
+  overflow-wrap: anywhere;
+}
+.step-meta {
+  font-size: 0.85rem;
+  color: var(--muted);
+  margin-top: 2px;
+}
+.step.gap .step-card {
+  border-style: dashed;
+  background: transparent;
+}
+.step.gap .step-marker {
+  background: var(--surface-2);
+  color: var(--muted);
+  border: 2px dashed var(--border);
+}
+.step-done .step-marker {
+  background: var(--rate-full);
+}
+.step-done .step-card {
+  border-color: var(--rate-full);
+}
+ul.mats {
+  list-style: none;
+  padding: 0;
+  margin: 6px 0 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+}
+li.mat {
+  background: var(--surface-2);
+  border-radius: 8px;
+  padding: 4px 10px;
+  min-width: 0;
+  max-width: 100%;
+  overflow-wrap: anywhere;
+}
+li.mat .obtain-hint {
+  display: block;
+  margin-left: 0;
+}
+details.howto {
+  font-size: 0.8rem;
+}
+details.howto > summary {
+  color: var(--link);
+}
+details.howto ul {
+  margin: 2px 0 0;
+  padding-left: 16px;
+}
+details.stage-detail {
+  margin-top: 6px;
+  font-size: 0.9rem;
+}
+details.stage-detail > summary {
+  color: var(--link);
+}
+table.data tr.gap > * {
+  border-bottom-style: dashed;
+}
+.totals-title {
+  margin-top: 16px;
+}
+.unsummed {
+  color: var(--rate-mid);
+  font-weight: 700;
+}
+table.data td.obtain-hint {
+  margin-left: 0;
+}
+
 .recipe-head {
   font-size: 0.85rem;
   color: var(--muted);
@@ -484,27 +679,12 @@ table.stats td {
   border: 1px solid var(--accent);
   border-radius: 4px;
   padding: 0 5px;
+  white-space: nowrap;
 }
 .gold {
   font-variant-numeric: tabular-nums;
   color: var(--cn);
   font-weight: 700;
-}
-ul.tree {
-  list-style: none;
-  margin: 2px 0 2px 6px;
-  padding-left: 14px;
-  border-left: 2px solid var(--border);
-}
-ul.tree li {
-  margin: 3px 0;
-}
-ul.tree li.leaf::before {
-  content: "・";
-  color: var(--muted);
-}
-ul.tree summary {
-  cursor: pointer;
 }
 .obtain-hint {
   font-size: 0.78rem;
@@ -550,6 +730,23 @@ td.num {
   text-align: right;
   font-variant-numeric: tabular-nums;
   white-space: nowrap;
+}
+td.num.empty {
+  color: var(--muted);
+}
+.cell-note {
+  display: block;
+  font-size: 0.72rem;
+  color: var(--muted);
+  white-space: normal;
+}
+table.data caption {
+  caption-side: top;
+  text-align: left;
+  padding: 6px 10px;
+  font-size: 0.85rem;
+  color: var(--muted);
+  border-bottom: 1px solid var(--border);
 }
 .rate {
   font-weight: 800;

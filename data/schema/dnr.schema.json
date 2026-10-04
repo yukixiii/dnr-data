@@ -171,6 +171,33 @@
         "notes": { "type": "string" },
         "refs": { "$ref": "#/definitions/refs" }
       }
+    },
+    "item_group": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["id", "name", "members"],
+      "properties": {
+        "id": { "type": "string" },
+        "name": { "type": "string" },
+        "members": {
+          "type": "array",
+          "minItems": 2,
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": ["item", "label"],
+            "properties": {
+              "item": { "type": "string" },
+              "label": { "type": "string" },
+              "phase": { "type": "string" },
+              "from": { "type": "string" },
+              "via": { "type": "string" }
+            }
+          }
+        },
+        "notes": { "type": "string" },
+        "refs": { "$ref": "#/definitions/refs" }
+      }
     }
   }
 }

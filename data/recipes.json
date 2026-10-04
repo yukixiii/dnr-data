@@ -4393,6 +4393,9 @@
     "refs": [
       {
         "source": "jp-notice-1265"
+      },
+      {
+        "source": "jp-notice-1411"
       }
     ]
   },
@@ -4425,6 +4428,9 @@
     "refs": [
       {
         "source": "jp-notice-1265"
+      },
+      {
+        "source": "jp-notice-1411"
       }
     ],
     "base": "未来時空測定器(9段階)",
@@ -4445,6 +4451,9 @@
     "refs": [
       {
         "source": "jp-notice-1265"
+      },
+      {
+        "source": "jp-notice-1411"
       }
     ],
     "base": "未来時空測定器(10段階)",
@@ -4465,6 +4474,9 @@
     "refs": [
       {
         "source": "jp-notice-1265"
+      },
+      {
+        "source": "jp-notice-1411"
       }
     ],
     "base": "未来時空測定器(11段階)",
@@ -4485,6 +4497,9 @@
     "refs": [
       {
         "source": "jp-notice-1265"
+      },
+      {
+        "source": "jp-notice-1411"
       }
     ],
     "base": "未来時空測定器(12段階)",
@@ -4505,6 +4520,9 @@
     "refs": [
       {
         "source": "jp-notice-1265"
+      },
+      {
+        "source": "jp-notice-1411"
       }
     ],
     "base": "未来時空測定器(13段階)",
@@ -4525,6 +4543,9 @@
     "refs": [
       {
         "source": "jp-notice-1265"
+      },
+      {
+        "source": "jp-notice-1411"
       }
     ],
     "base": "未来時空測定器(14段階)",
@@ -4545,6 +4566,9 @@
     "refs": [
       {
         "source": "jp-notice-1265"
+      },
+      {
+        "source": "jp-notice-1411"
       }
     ],
     "base": "未来時空測定器(1段階)",
@@ -4565,6 +4589,9 @@
     "refs": [
       {
         "source": "jp-notice-1265"
+      },
+      {
+        "source": "jp-notice-1411"
       }
     ],
     "base": "未来時空測定器(2段階)",
@@ -4585,6 +4612,9 @@
     "refs": [
       {
         "source": "jp-notice-1265"
+      },
+      {
+        "source": "jp-notice-1411"
       }
     ],
     "base": "未来時空測定器(3段階)",
@@ -4605,6 +4635,9 @@
     "refs": [
       {
         "source": "jp-notice-1265"
+      },
+      {
+        "source": "jp-notice-1411"
       }
     ],
     "base": "未来時空測定器(4段階)",
@@ -4625,6 +4658,9 @@
     "refs": [
       {
         "source": "jp-notice-1265"
+      },
+      {
+        "source": "jp-notice-1411"
       }
     ],
     "base": "未来時空測定器(5段階)",
@@ -4645,6 +4681,9 @@
     "refs": [
       {
         "source": "jp-notice-1265"
+      },
+      {
+        "source": "jp-notice-1411"
       }
     ],
     "base": "未来時空測定器(6段階)",
@@ -4665,6 +4704,9 @@
     "refs": [
       {
         "source": "jp-notice-1265"
+      },
+      {
+        "source": "jp-notice-1411"
       }
     ],
     "base": "未来時空測定器(7段階)",
@@ -4685,6 +4727,9 @@
     "refs": [
       {
         "source": "jp-notice-1265"
+      },
+      {
+        "source": "jp-notice-1411"
       }
     ],
     "base": "未来時空測定器(8段階)",
@@ -7097,6 +7142,9 @@
     "refs": [
       {
         "source": "jp-notice-1311"
+      },
+      {
+        "source": "jp-notice-1466"
       }
     ]
   },
@@ -7116,8 +7164,12 @@
     "refs": [
       {
         "source": "jp-notice-1311"
+      },
+      {
+        "source": "jp-notice-1466"
       }
-    ]
+    ],
+    "notes": "材料②として過去の化石(9段階) 1個を消費。"
   },
   {
     "id": "n1311-fossil-11",
@@ -7135,8 +7187,12 @@
     "refs": [
       {
         "source": "jp-notice-1311"
+      },
+      {
+        "source": "jp-notice-1466"
       }
-    ]
+    ],
+    "notes": "材料②として過去の化石(10段階) 1個を消費。"
   },
   {
     "id": "n1311-fossil-12",
@@ -7154,8 +7210,12 @@
     "refs": [
       {
         "source": "jp-notice-1311"
+      },
+      {
+        "source": "jp-notice-1466"
       }
-    ]
+    ],
+    "notes": "材料②として過去の化石(11段階) 1個を消費。"
   },
   {
     "id": "n1311-fossil-13",
@@ -7173,8 +7233,12 @@
     "refs": [
       {
         "source": "jp-notice-1311"
+      },
+      {
+        "source": "jp-notice-1466"
       }
-    ]
+    ],
+    "notes": "材料②として過去の化石(12段階) 1個を消費。"
   },
   {
     "id": "n1311-fossil-14",
@@ -7192,8 +7256,12 @@
     "refs": [
       {
         "source": "jp-notice-1311"
+      },
+      {
+        "source": "jp-notice-1466"
       }
-    ]
+    ],
+    "notes": "材料②として過去の化石(13段階) 1個を消費。"
   },
   {
     "id": "n1311-fossil-15",
@@ -7211,8 +7279,12 @@
     "refs": [
       {
         "source": "jp-notice-1311"
+      },
+      {
+        "source": "jp-notice-1466"
       }
-    ]
+    ],
+    "notes": "材料②として過去の化石(14段階) 1個を消費。"
   },
   {
     "id": "n1311-fossil-2",
@@ -7230,8 +7302,12 @@
     "refs": [
       {
         "source": "jp-notice-1311"
+      },
+      {
+        "source": "jp-notice-1466"
       }
-    ]
+    ],
+    "notes": "材料②として過去の化石(1段階) 1個を消費。"
   },
   {
     "id": "n1311-fossil-3",
@@ -7249,8 +7325,12 @@
     "refs": [
       {
         "source": "jp-notice-1311"
+      },
+      {
+        "source": "jp-notice-1466"
       }
-    ]
+    ],
+    "notes": "材料②として過去の化石(2段階) 1個を消費。"
   },
   {
     "id": "n1311-fossil-4",
@@ -7268,8 +7348,12 @@
     "refs": [
       {
         "source": "jp-notice-1311"
+      },
+      {
+        "source": "jp-notice-1466"
       }
-    ]
+    ],
+    "notes": "材料②として過去の化石(3段階) 1個を消費。"
   },
   {
     "id": "n1311-fossil-5",
@@ -7287,8 +7371,12 @@
     "refs": [
       {
         "source": "jp-notice-1311"
+      },
+      {
+        "source": "jp-notice-1466"
       }
-    ]
+    ],
+    "notes": "材料②として過去の化石(4段階) 1個を消費。"
   },
   {
     "id": "n1311-fossil-6",
@@ -7306,8 +7394,12 @@
     "refs": [
       {
         "source": "jp-notice-1311"
+      },
+      {
+        "source": "jp-notice-1466"
       }
-    ]
+    ],
+    "notes": "材料②として過去の化石(5段階) 1個を消費。"
   },
   {
     "id": "n1311-fossil-7",
@@ -7325,8 +7417,12 @@
     "refs": [
       {
         "source": "jp-notice-1311"
+      },
+      {
+        "source": "jp-notice-1466"
       }
-    ]
+    ],
+    "notes": "材料②として過去の化石(6段階) 1個を消費。"
   },
   {
     "id": "n1311-fossil-8",
@@ -7344,8 +7440,12 @@
     "refs": [
       {
         "source": "jp-notice-1311"
+      },
+      {
+        "source": "jp-notice-1466"
       }
-    ]
+    ],
+    "notes": "材料②として過去の化石(7段階) 1個を消費。"
   },
   {
     "id": "n1311-fossil-9",
@@ -7363,8 +7463,12 @@
     "refs": [
       {
         "source": "jp-notice-1311"
+      },
+      {
+        "source": "jp-notice-1466"
       }
-    ]
+    ],
+    "notes": "材料②として過去の化石(8段階) 1個を消費。"
   },
   {
     "id": "n1311-jakon-ark-1000",
@@ -10160,304 +10264,6 @@
     "notes": "購入制限: キャラクターあたり90日"
   },
   {
-    "id": "n1411-ark-meter-1",
-    "type": "craft",
-    "result": "未来時空測定器(1段階)",
-    "materials": [
-      {
-        "item": "未来時空集約体",
-        "qty": 2
-      }
-    ],
-    "gold": 1,
-    "where": "鍛冶屋",
-    "refs": [
-      {
-        "source": "jp-notice-1411"
-      }
-    ]
-  },
-  {
-    "id": "n1411-ark-meter-10",
-    "type": "upgrade",
-    "result": "未来時空測定器(10段階)",
-    "base": "未来時空測定器(9段階)",
-    "materials": [
-      {
-        "item": "未来時空集約体",
-        "qty": 2
-      }
-    ],
-    "gold": 1,
-    "where": "鍛冶屋",
-    "refs": [
-      {
-        "source": "jp-notice-1411"
-      }
-    ],
-    "notes": "原文の生産表では材料2として 未来時空測定器(9段階) 1個。"
-  },
-  {
-    "id": "n1411-ark-meter-11",
-    "type": "upgrade",
-    "result": "未来時空測定器(11段階)",
-    "base": "未来時空測定器(10段階)",
-    "materials": [
-      {
-        "item": "未来時空集約体",
-        "qty": 2
-      }
-    ],
-    "gold": 1,
-    "where": "鍛冶屋",
-    "refs": [
-      {
-        "source": "jp-notice-1411"
-      }
-    ],
-    "notes": "原文の生産表では材料2として 未来時空測定器(10段階) 1個。"
-  },
-  {
-    "id": "n1411-ark-meter-12",
-    "type": "upgrade",
-    "result": "未来時空測定器(12段階)",
-    "base": "未来時空測定器(11段階)",
-    "materials": [
-      {
-        "item": "未来時空集約体",
-        "qty": 2
-      }
-    ],
-    "gold": 1,
-    "where": "鍛冶屋",
-    "refs": [
-      {
-        "source": "jp-notice-1411"
-      }
-    ],
-    "notes": "原文の生産表では材料2として 未来時空測定器(11段階) 1個。"
-  },
-  {
-    "id": "n1411-ark-meter-13",
-    "type": "upgrade",
-    "result": "未来時空測定器(13段階)",
-    "base": "未来時空測定器(12段階)",
-    "materials": [
-      {
-        "item": "未来時空集約体",
-        "qty": 2
-      }
-    ],
-    "gold": 1,
-    "where": "鍛冶屋",
-    "refs": [
-      {
-        "source": "jp-notice-1411"
-      }
-    ],
-    "notes": "原文の生産表では材料2として 未来時空測定器(12段階) 1個。"
-  },
-  {
-    "id": "n1411-ark-meter-14",
-    "type": "upgrade",
-    "result": "未来時空測定器(14段階)",
-    "base": "未来時空測定器(13段階)",
-    "materials": [
-      {
-        "item": "未来時空集約体",
-        "qty": 2
-      }
-    ],
-    "gold": 1,
-    "where": "鍛冶屋",
-    "refs": [
-      {
-        "source": "jp-notice-1411"
-      }
-    ],
-    "notes": "原文の生産表では材料2として 未来時空測定器(13段階) 1個。"
-  },
-  {
-    "id": "n1411-ark-meter-15",
-    "type": "upgrade",
-    "result": "未来時空測定器(15段階)",
-    "base": "未来時空測定器(14段階)",
-    "materials": [
-      {
-        "item": "未来時空集約体",
-        "qty": 2
-      }
-    ],
-    "gold": 1,
-    "where": "鍛冶屋",
-    "refs": [
-      {
-        "source": "jp-notice-1411"
-      }
-    ],
-    "notes": "原文の生産表では材料2として 未来時空測定器(14段階) 1個。"
-  },
-  {
-    "id": "n1411-ark-meter-2",
-    "type": "upgrade",
-    "result": "未来時空測定器(2段階)",
-    "base": "未来時空測定器(1段階)",
-    "materials": [
-      {
-        "item": "未来時空集約体",
-        "qty": 2
-      }
-    ],
-    "gold": 1,
-    "where": "鍛冶屋",
-    "refs": [
-      {
-        "source": "jp-notice-1411"
-      }
-    ],
-    "notes": "原文の生産表では材料2として 未来時空測定器(1段階) 1個。"
-  },
-  {
-    "id": "n1411-ark-meter-3",
-    "type": "upgrade",
-    "result": "未来時空測定器(3段階)",
-    "base": "未来時空測定器(2段階)",
-    "materials": [
-      {
-        "item": "未来時空集約体",
-        "qty": 2
-      }
-    ],
-    "gold": 1,
-    "where": "鍛冶屋",
-    "refs": [
-      {
-        "source": "jp-notice-1411"
-      }
-    ],
-    "notes": "原文の生産表では材料2として 未来時空測定器(2段階) 1個。"
-  },
-  {
-    "id": "n1411-ark-meter-4",
-    "type": "upgrade",
-    "result": "未来時空測定器(4段階)",
-    "base": "未来時空測定器(3段階)",
-    "materials": [
-      {
-        "item": "未来時空集約体",
-        "qty": 2
-      }
-    ],
-    "gold": 1,
-    "where": "鍛冶屋",
-    "refs": [
-      {
-        "source": "jp-notice-1411"
-      }
-    ],
-    "notes": "原文の生産表では材料2として 未来時空測定器(3段階) 1個。"
-  },
-  {
-    "id": "n1411-ark-meter-5",
-    "type": "upgrade",
-    "result": "未来時空測定器(5段階)",
-    "base": "未来時空測定器(4段階)",
-    "materials": [
-      {
-        "item": "未来時空集約体",
-        "qty": 2
-      }
-    ],
-    "gold": 1,
-    "where": "鍛冶屋",
-    "refs": [
-      {
-        "source": "jp-notice-1411"
-      }
-    ],
-    "notes": "原文の生産表では材料2として 未来時空測定器(4段階) 1個。"
-  },
-  {
-    "id": "n1411-ark-meter-6",
-    "type": "upgrade",
-    "result": "未来時空測定器(6段階)",
-    "base": "未来時空測定器(5段階)",
-    "materials": [
-      {
-        "item": "未来時空集約体",
-        "qty": 2
-      }
-    ],
-    "gold": 1,
-    "where": "鍛冶屋",
-    "refs": [
-      {
-        "source": "jp-notice-1411"
-      }
-    ],
-    "notes": "原文の生産表では材料2として 未来時空測定器(5段階) 1個。"
-  },
-  {
-    "id": "n1411-ark-meter-7",
-    "type": "upgrade",
-    "result": "未来時空測定器(7段階)",
-    "base": "未来時空測定器(6段階)",
-    "materials": [
-      {
-        "item": "未来時空集約体",
-        "qty": 2
-      }
-    ],
-    "gold": 1,
-    "where": "鍛冶屋",
-    "refs": [
-      {
-        "source": "jp-notice-1411"
-      }
-    ],
-    "notes": "原文の生産表では材料2として 未来時空測定器(6段階) 1個。"
-  },
-  {
-    "id": "n1411-ark-meter-8",
-    "type": "upgrade",
-    "result": "未来時空測定器(8段階)",
-    "base": "未来時空測定器(7段階)",
-    "materials": [
-      {
-        "item": "未来時空集約体",
-        "qty": 2
-      }
-    ],
-    "gold": 1,
-    "where": "鍛冶屋",
-    "refs": [
-      {
-        "source": "jp-notice-1411"
-      }
-    ],
-    "notes": "原文の生産表では材料2として 未来時空測定器(7段階) 1個。"
-  },
-  {
-    "id": "n1411-ark-meter-9",
-    "type": "upgrade",
-    "result": "未来時空測定器(9段階)",
-    "base": "未来時空測定器(8段階)",
-    "materials": [
-      {
-        "item": "未来時空集約体",
-        "qty": 2
-      }
-    ],
-    "gold": 1,
-    "where": "鍛冶屋",
-    "refs": [
-      {
-        "source": "jp-notice-1411"
-      }
-    ],
-    "notes": "原文の生産表では材料2として 未来時空測定器(8段階) 1個。"
-  },
-  {
     "id": "n1411-collapse-jade-dismantle",
     "type": "dismantle",
     "result": "崩壊の竜珠合成器",
@@ -12220,304 +12026,6 @@
         "source": "jp-notice-1455"
       }
     ]
-  },
-  {
-    "id": "n1466-ark-fossil-1",
-    "type": "craft",
-    "result": "過去の化石(1段階)",
-    "materials": [
-      {
-        "item": "箱舟の石のかけら",
-        "qty": 2
-      }
-    ],
-    "gold": 1,
-    "where": "鍛冶屋 → アイテム生産 → 雑貨 → 貴重品 → 超越の箱舟[過去]",
-    "refs": [
-      {
-        "source": "jp-notice-1466"
-      }
-    ]
-  },
-  {
-    "id": "n1466-ark-fossil-10",
-    "type": "upgrade",
-    "result": "過去の化石(10段階)",
-    "materials": [
-      {
-        "item": "箱舟の石のかけら",
-        "qty": 2
-      }
-    ],
-    "gold": 1,
-    "where": "鍛冶屋 → アイテム生産 → 雑貨 → 貴重品 → 超越の箱舟[過去]",
-    "refs": [
-      {
-        "source": "jp-notice-1466"
-      }
-    ],
-    "base": "過去の化石(9段階)",
-    "notes": "材料②として過去の化石(9段階) 1個を消費。"
-  },
-  {
-    "id": "n1466-ark-fossil-11",
-    "type": "upgrade",
-    "result": "過去の化石(11段階)",
-    "materials": [
-      {
-        "item": "箱舟の石のかけら",
-        "qty": 2
-      }
-    ],
-    "gold": 1,
-    "where": "鍛冶屋 → アイテム生産 → 雑貨 → 貴重品 → 超越の箱舟[過去]",
-    "refs": [
-      {
-        "source": "jp-notice-1466"
-      }
-    ],
-    "base": "過去の化石(10段階)",
-    "notes": "材料②として過去の化石(10段階) 1個を消費。"
-  },
-  {
-    "id": "n1466-ark-fossil-12",
-    "type": "upgrade",
-    "result": "過去の化石(12段階)",
-    "materials": [
-      {
-        "item": "箱舟の石のかけら",
-        "qty": 2
-      }
-    ],
-    "gold": 1,
-    "where": "鍛冶屋 → アイテム生産 → 雑貨 → 貴重品 → 超越の箱舟[過去]",
-    "refs": [
-      {
-        "source": "jp-notice-1466"
-      }
-    ],
-    "base": "過去の化石(11段階)",
-    "notes": "材料②として過去の化石(11段階) 1個を消費。"
-  },
-  {
-    "id": "n1466-ark-fossil-13",
-    "type": "upgrade",
-    "result": "過去の化石(13段階)",
-    "materials": [
-      {
-        "item": "箱舟の石のかけら",
-        "qty": 2
-      }
-    ],
-    "gold": 1,
-    "where": "鍛冶屋 → アイテム生産 → 雑貨 → 貴重品 → 超越の箱舟[過去]",
-    "refs": [
-      {
-        "source": "jp-notice-1466"
-      }
-    ],
-    "base": "過去の化石(12段階)",
-    "notes": "材料②として過去の化石(12段階) 1個を消費。"
-  },
-  {
-    "id": "n1466-ark-fossil-14",
-    "type": "upgrade",
-    "result": "過去の化石(14段階)",
-    "materials": [
-      {
-        "item": "箱舟の石のかけら",
-        "qty": 2
-      }
-    ],
-    "gold": 1,
-    "where": "鍛冶屋 → アイテム生産 → 雑貨 → 貴重品 → 超越の箱舟[過去]",
-    "refs": [
-      {
-        "source": "jp-notice-1466"
-      }
-    ],
-    "base": "過去の化石(13段階)",
-    "notes": "材料②として過去の化石(13段階) 1個を消費。"
-  },
-  {
-    "id": "n1466-ark-fossil-15",
-    "type": "upgrade",
-    "result": "過去の化石(15段階)",
-    "materials": [
-      {
-        "item": "箱舟の石のかけら",
-        "qty": 2
-      }
-    ],
-    "gold": 1,
-    "where": "鍛冶屋 → アイテム生産 → 雑貨 → 貴重品 → 超越の箱舟[過去]",
-    "refs": [
-      {
-        "source": "jp-notice-1466"
-      }
-    ],
-    "base": "過去の化石(14段階)",
-    "notes": "材料②として過去の化石(14段階) 1個を消費。"
-  },
-  {
-    "id": "n1466-ark-fossil-2",
-    "type": "upgrade",
-    "result": "過去の化石(2段階)",
-    "materials": [
-      {
-        "item": "箱舟の石のかけら",
-        "qty": 2
-      }
-    ],
-    "gold": 1,
-    "where": "鍛冶屋 → アイテム生産 → 雑貨 → 貴重品 → 超越の箱舟[過去]",
-    "refs": [
-      {
-        "source": "jp-notice-1466"
-      }
-    ],
-    "base": "過去の化石(1段階)",
-    "notes": "材料②として過去の化石(1段階) 1個を消費。"
-  },
-  {
-    "id": "n1466-ark-fossil-3",
-    "type": "upgrade",
-    "result": "過去の化石(3段階)",
-    "materials": [
-      {
-        "item": "箱舟の石のかけら",
-        "qty": 2
-      }
-    ],
-    "gold": 1,
-    "where": "鍛冶屋 → アイテム生産 → 雑貨 → 貴重品 → 超越の箱舟[過去]",
-    "refs": [
-      {
-        "source": "jp-notice-1466"
-      }
-    ],
-    "base": "過去の化石(2段階)",
-    "notes": "材料②として過去の化石(2段階) 1個を消費。"
-  },
-  {
-    "id": "n1466-ark-fossil-4",
-    "type": "upgrade",
-    "result": "過去の化石(4段階)",
-    "materials": [
-      {
-        "item": "箱舟の石のかけら",
-        "qty": 2
-      }
-    ],
-    "gold": 1,
-    "where": "鍛冶屋 → アイテム生産 → 雑貨 → 貴重品 → 超越の箱舟[過去]",
-    "refs": [
-      {
-        "source": "jp-notice-1466"
-      }
-    ],
-    "base": "過去の化石(3段階)",
-    "notes": "材料②として過去の化石(3段階) 1個を消費。"
-  },
-  {
-    "id": "n1466-ark-fossil-5",
-    "type": "upgrade",
-    "result": "過去の化石(5段階)",
-    "materials": [
-      {
-        "item": "箱舟の石のかけら",
-        "qty": 2
-      }
-    ],
-    "gold": 1,
-    "where": "鍛冶屋 → アイテム生産 → 雑貨 → 貴重品 → 超越の箱舟[過去]",
-    "refs": [
-      {
-        "source": "jp-notice-1466"
-      }
-    ],
-    "base": "過去の化石(4段階)",
-    "notes": "材料②として過去の化石(4段階) 1個を消費。"
-  },
-  {
-    "id": "n1466-ark-fossil-6",
-    "type": "upgrade",
-    "result": "過去の化石(6段階)",
-    "materials": [
-      {
-        "item": "箱舟の石のかけら",
-        "qty": 2
-      }
-    ],
-    "gold": 1,
-    "where": "鍛冶屋 → アイテム生産 → 雑貨 → 貴重品 → 超越の箱舟[過去]",
-    "refs": [
-      {
-        "source": "jp-notice-1466"
-      }
-    ],
-    "base": "過去の化石(5段階)",
-    "notes": "材料②として過去の化石(5段階) 1個を消費。"
-  },
-  {
-    "id": "n1466-ark-fossil-7",
-    "type": "upgrade",
-    "result": "過去の化石(7段階)",
-    "materials": [
-      {
-        "item": "箱舟の石のかけら",
-        "qty": 2
-      }
-    ],
-    "gold": 1,
-    "where": "鍛冶屋 → アイテム生産 → 雑貨 → 貴重品 → 超越の箱舟[過去]",
-    "refs": [
-      {
-        "source": "jp-notice-1466"
-      }
-    ],
-    "base": "過去の化石(6段階)",
-    "notes": "材料②として過去の化石(6段階) 1個を消費。"
-  },
-  {
-    "id": "n1466-ark-fossil-8",
-    "type": "upgrade",
-    "result": "過去の化石(8段階)",
-    "materials": [
-      {
-        "item": "箱舟の石のかけら",
-        "qty": 2
-      }
-    ],
-    "gold": 1,
-    "where": "鍛冶屋 → アイテム生産 → 雑貨 → 貴重品 → 超越の箱舟[過去]",
-    "refs": [
-      {
-        "source": "jp-notice-1466"
-      }
-    ],
-    "base": "過去の化石(7段階)",
-    "notes": "材料②として過去の化石(7段階) 1個を消費。"
-  },
-  {
-    "id": "n1466-ark-fossil-9",
-    "type": "upgrade",
-    "result": "過去の化石(9段階)",
-    "materials": [
-      {
-        "item": "箱舟の石のかけら",
-        "qty": 2
-      }
-    ],
-    "gold": 1,
-    "where": "鍛冶屋 → アイテム生産 → 雑貨 → 貴重品 → 超越の箱舟[過去]",
-    "refs": [
-      {
-        "source": "jp-notice-1466"
-      }
-    ],
-    "base": "過去の化石(8段階)",
-    "notes": "材料②として過去の化石(8段階) 1個を消費。"
   },
   {
     "id": "n1466-ark-shop-01",

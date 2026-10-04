@@ -1,7 +1,22 @@
 // 強化・段階確率表と期待試行回数の計算
 import { ds, newestFirst, refDate, tableById } from "../data.ts";
 import type { EnhanceTable } from "../types.ts";
-import { empty, esc, href, itemLink, rateCell, refList, regionBadges } from "../components/ui.ts";
+import {
+  SPLIT_MAX_COLS,
+  empty,
+  esc,
+  href,
+  itemLink,
+  noteCaption,
+  rateCell,
+  refList,
+  regionBadges,
+  statColCount,
+  statGrid,
+  statHeadCells,
+  statLayout,
+  statRowCells,
+} from "../components/ui.ts";
 
 const KIND_LABEL: Record<EnhanceTable["kind"], string> = {
   enhance: "強化",
@@ -44,16 +59,28 @@ export function renderEnhanceTable(id: string) {
   const t = tableById.get(id);
   if (!t) return `<h1>${esc(id)}</h1>${empty("確率表が見つかりません")}`;
 
-  // 期待試行回数 = 100 / 成功率。失敗時に段階が下がる/壊れる場合は過小評価になる。
-  let cumTries = 0;
-  let cumGold = 0;
-  let goldKnown = true;
+  // 「その他」(ランダムオプション獲得率など) の rate は成功率ではないので期待回数は出さない
+  const isSuccessRate = t.kind !== "other";
   const hasFail = t.rows.some((r) => r.on_fail);
   const hasGold = t.rows.some((r) => r.gold !== undefined);
   const hasMat = t.rows.some((r) => r.materials?.length);
   const hasStats = t.rows.some((r) => r.stats?.length);
-  const canCalc = t.rows.every((r) => r.rate !== undefined && r.rate > 0);
+  // 全行が同じ定性表記 (「以下からランダムに1種」等) だけなら列にせず表の見出しに出す
+  const uniformText =
+    t.rows.every((r) => r.rate === undefined) && new Set(t.rows.map((r) => r.rate_text ?? "")).size === 1 ? t.rows[0]?.rate_text : undefined;
+  const hasRate = !uniformText && t.rows.some((r) => r.rate !== undefined || r.rate_text);
+  const canCalc = isSuccessRate && t.rows.every((r) => r.rate !== undefined && r.rate > 0);
 
+  const layout = hasStats ? statLayout(t.rows.map((r) => r.stats ?? [])) : undefined;
+  const baseCols = 1 + [hasRate, hasGold, hasMat, hasFail].filter(Boolean).length + (canCalc ? 2 + (hasGold ? 1 : 0) : 0);
+  // 能力値の列を足しても見やすい幅なら1つの表、多すぎるなら確率表とステータス表に分ける
+  const combined = !!layout && baseCols + statColCount(layout) <= SPLIT_MAX_COLS;
+  const showProb = baseCols > 1 || !layout;
+
+  // 期待試行回数 = 100 / 成功率。失敗時に段階が下がる/壊れる場合は過小評価になる。
+  let cumTries = 0;
+  let cumGold = 0;
+  let goldKnown = true;
   const rows = t.rows.map((r) => {
     let calc = "";
     if (canCalc) {
@@ -68,14 +95,32 @@ export function renderEnhanceTable(id: string) {
     }
     return `<tr>
       <th>${esc(r.level)}</th>
-      <td>${rateCell(r.rate, r.rate_text)}</td>
+      ${hasRate ? `<td>${rateCell(r.rate, r.rate_text)}</td>` : ""}
       ${hasGold ? `<td class="num">${esc(typeof r.gold === "number" ? r.gold.toLocaleString("ja-JP") : (r.gold ?? ""))}</td>` : ""}
       ${hasMat ? `<td>${(r.materials ?? []).map((m) => itemLink(m.item, m.qty)).join("<br>")}</td>` : ""}
       ${hasFail ? `<td>${esc(r.on_fail ?? "")}</td>` : ""}
-      ${hasStats ? `<td>${(r.stats ?? []).map((s) => `${esc(s.name)} ${esc(s.value)}`).join("<br>")}</td>` : ""}
+      ${combined ? statRowCells(layout!, r.stats ?? []) : ""}
       ${calc}
     </tr>`;
   });
+
+  const caption = [uniformText ? esc(uniformText) : "", combined ? noteCaption(layout!) : ""].filter(Boolean).join(" — ");
+  const probTable = `<div class="table-wrap"><table class="data enhance">${caption ? `<caption>${caption}</caption>` : ""}
+    <thead><tr><th>段階</th>${hasRate ? `<th>${isSuccessRate ? "成功率" : "確率"}</th>` : ""}${hasGold ? "<th>費用</th>" : ""}${
+      hasMat ? "<th>素材</th>" : ""
+    }${hasFail ? "<th>失敗時</th>" : ""}${combined ? statHeadCells(layout!) : ""}${
+      canCalc ? `<th>期待回数</th><th>累計期待回数</th>${hasGold ? "<th>累計期待費用</th>" : ""}` : ""
+    }</tr></thead>
+    <tbody>${rows.join("")}</tbody>
+  </table></div>`;
+  const statTable =
+    layout && !combined
+      ? statGrid(
+          t.rows.map((r) => ({ head: [r.level], stats: r.stats ?? [] })),
+          ["段階"],
+          { caption: !showProb ? uniformText : undefined },
+        )
+      : "";
 
   return `<nav class="crumbs"><a href="${href("enhance")}">確率表一覧</a></nav>
   <header class="detail-head">
@@ -85,12 +130,11 @@ export function renderEnhanceTable(id: string) {
     ${t.applies_note ? `<p class="desc">${esc(t.applies_note)}</p>` : ""}
     ${t.notes ? `<p class="note">${esc(t.notes)}</p>` : ""}
   </header>
-  <div class="table-wrap"><table class="data enhance">
-    <thead><tr><th>段階</th><th>成功率</th>${hasGold ? "<th>費用</th>" : ""}${hasMat ? "<th>素材</th>" : ""}${hasFail ? "<th>失敗時</th>" : ""}${
-      hasStats ? "<th>能力値</th>" : ""
-    }${canCalc ? `<th>期待回数</th><th>累計期待回数</th>${hasGold ? "<th>累計期待費用</th>" : ""}` : ""}</tr></thead>
-    <tbody>${rows.join("")}</tbody>
-  </table></div>
+  ${
+    statTable
+      ? `${showProb ? `<section><h2>確率表</h2>${probTable}</section>` : ""}<section><h2>ステータス表</h2>${statTable}</section>`
+      : probTable
+  }
   ${
     canCalc
       ? `<p class="muted">期待回数 = 100 ÷ 成功率。失敗しても段階が維持される前提の単純計算です${

@@ -1,27 +1,36 @@
 // トップページと出典一覧
-import { ds, lastUpdated, recipesByResult, sourceById, tablesByItem } from "../data.ts";
-import { esc, href, itemLink } from "../components/ui.ts";
+import { ds, lastUpdated, listUnits, recipesByResult, sourceById, tablesByItem } from "../data.ts";
+import { esc, href } from "../components/ui.ts";
+import { unitLink } from "./itemList.ts";
 
 export function renderHome() {
-  // 系統ごとの装備数。最新の公式お知らせで扱われた系統 (=最新装備) を先に並べる
+  // 系統ごとの装備数 (段階違いは1件)。最新の公式お知らせで扱われた系統 (=最新装備) を先に並べる
+  const units = listUnits("equipment");
   const series = new Map<string, { count: number; withRecipe: number; level: number; latest: string }>();
-  for (const it of ds.items) {
-    if (!it.series) continue;
-    const s = series.get(it.series) ?? { count: 0, withRecipe: 0, level: 0, latest: "" };
+  for (const u of units) {
+    if (!u.series) continue;
+    const s = series.get(u.series) ?? { count: 0, withRecipe: 0, level: 0, latest: "" };
     s.count++;
-    if (recipesByResult.has(it.id)) s.withRecipe++;
-    s.level = Math.max(s.level, it.level ?? 0);
+    if (u.members.some((m) => recipesByResult.has(m.id))) s.withRecipe++;
+    s.level = Math.max(s.level, ...u.members.map((m) => m.level ?? 0));
     // 系統が初登場した時期 (系統内で最も古い出典日) で並べる
-    const first = it.refs.map((r) => sourceById.get(r.source)?.published_at ?? "").filter(Boolean).sort()[0] ?? "";
+    const first =
+      u.members
+        .flatMap((m) => m.refs)
+        .map((r) => sourceById.get(r.source)?.published_at ?? "")
+        .filter(Boolean)
+        .sort()[0] ?? "";
     if (first && (!s.latest || first < s.latest)) s.latest = first;
-    series.set(it.series, s);
+    series.set(u.series, s);
   }
   const topSeries = [...series.entries()]
     .filter(([, s]) => s.count >= 2)
     .sort((a, b) => b[1].latest.localeCompare(a[1].latest) || b[1].count - a[1].count)
     .slice(0, 16);
   const latestSources = ds.sources.filter((s) => s.kind === "official").slice(0, 6);
-  const featured = ds.items.filter((it) => recipesByResult.has(it.id) && tablesByItem.has(it.id)).slice(0, 8);
+  const featured = units
+    .filter((u) => u.members.some((m) => recipesByResult.has(m.id)) && u.members.some((m) => tablesByItem.has(m.id)))
+    .slice(0, 8);
 
   return `
   <section class="hero">
@@ -32,8 +41,8 @@ export function renderHome() {
       <button type="submit">検索</button>
     </form>
     <dl class="stats-row">
-      <div><dt>装備</dt><dd><a href="${href("items")}">${ds.items.length}</a></dd></div>
-      <div><dt>素材・アイテム</dt><dd><a href="${href("materials")}">${ds.materials.length}</a></dd></div>
+      <div><dt>装備</dt><dd><a href="${href("items")}">${units.length}</a> <small class="muted" title="強化・段階・増幅などの違いを別に数えた件数">段階別 ${ds.items.length}</small></dd></div>
+      <div><dt>素材・アイテム</dt><dd><a href="${href("materials")}">${listUnits("materials").length}</a></dd></div>
       <div><dt>作成レシピ</dt><dd>${ds.recipes.length}</dd></div>
       <div><dt>確率表</dt><dd><a href="${href("enhance")}">${ds.enhance_tables.length}</a></dd></div>
       <div><dt>報酬表</dt><dd><a href="${href("drops")}">${ds.drops.length}</a></dd></div>
@@ -55,7 +64,7 @@ export function renderHome() {
 
   ${
     featured.length
-      ? `<section><h2>作成ルートと強化表がそろっている装備</h2><ul class="plain inline">${featured.map((it) => `<li>${itemLink(it.id)}</li>`).join("")}</ul></section>`
+      ? `<section><h2>作成ルートと強化表がそろっている装備</h2><ul class="plain inline">${featured.map((u) => `<li>${unitLink(u)}</li>`).join("")}</ul></section>`
       : ""
   }
 

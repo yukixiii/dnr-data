@@ -136,6 +136,23 @@ export interface Dungeon {
   refs: Ref[];
 }
 
+/** 段階・等級・増幅などの違いだけの同一装備グループ (data/item_groups.json)。生成規則は ingest/groups-lib.ts */
+export interface GroupMember {
+  item: string; // Item.id
+  label: string; // "3段階" "増幅" "通常" など
+  phase?: string; // 段階の区切り (ブローチの "封印" "マジック" "次元" 等)
+  from?: string; // レシピ未登録だが原文から前段と分かるメンバーの Item.id
+  via?: string; // その段階を説明する総称レシピの Recipe.id
+}
+
+export interface ItemGroup {
+  id: string; // 印を外した本体名 (メンバーの id と同じこともある)
+  name: string;
+  members: GroupMember[]; // 段階順
+  notes?: string;
+  refs?: Ref[];
+}
+
 export interface Dataset {
   sources: Source[];
   items: Item[];

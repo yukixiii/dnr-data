@@ -1,6 +1,6 @@
 // ハッシュルーター。静的ホスティングでサーバー設定なしに動くよう #/path?query 形式を使う。
 import "./style.css";
-import { lastUpdated } from "./data.ts";
+import { lastUpdated, resolveDetail } from "./data.ts";
 import { renderItemList } from "./views/itemList.ts";
 import { renderItemDetail } from "./views/itemDetail.ts";
 import { renderEnhanceList, renderEnhanceTable } from "./views/enhance.ts";
@@ -27,7 +27,7 @@ function render({ path, query }: Route): { html: string; title: string; nav: str
     case "materials":
       return { html: renderItemList(query, "materials"), title: "素材一覧", nav: "materials" };
     case "item":
-      return { html: renderItemDetail(id), title: id, nav: "items" };
+      return { html: renderItemDetail(id), title: resolveDetail(id)?.group?.name ?? id, nav: "items" };
     case "enhance":
       return id
         ? { html: renderEnhanceTable(id), title: "強化確率", nav: "enhance" }
