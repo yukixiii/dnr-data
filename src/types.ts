@@ -59,9 +59,26 @@ export interface Item {
   series?: string; // "金竜装備" "古竜装備" "ベルスカードアーティファクト" など系統
   max_enhance?: number;
   tradable?: string; // "取引不可" "1回取引可" 等
+  set?: string; // ItemSet.id (data/sets.json)
   description?: string;
   stats?: StatSet[];
   obtain?: string[]; // 入手方法の要約 (ドロップは drops.json から逆引きされるので重複不要)
+  refs: Ref[];
+}
+
+/** セット効果 (data/sets.json)。同じセットのアイテムを count 個以上装備すると bonuses が付く */
+export interface SetBonus {
+  count: number;
+  stats?: Stat[];
+  skill?: string; // スキル型の効果の説明
+}
+
+export interface ItemSet {
+  id: string; // 例: "client-864027618"
+  name: string; // "ヘイズフロストドラゴン防具" など
+  description?: string;
+  bonuses: SetBonus[];
+  notes?: string;
   refs: Ref[];
 }
 
@@ -161,4 +178,5 @@ export interface Dataset {
   enhance_tables: EnhanceTable[];
   drops: DropTable[];
   dungeons: Dungeon[];
+  sets: ItemSet[];
 }

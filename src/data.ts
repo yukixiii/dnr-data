@@ -7,7 +7,9 @@ import enhanceTables from "../data/enhance_tables.json";
 import drops from "../data/drops.json";
 import dungeons from "../data/dungeons.json";
 import itemGroups from "../data/item_groups.json";
-import type { Dataset, DropEntry, DropTable, Dungeon, EnhanceTable, GroupMember, Item, ItemGroup, Recipe, Ref, Region, Source } from "./types.ts";
+import sets from "../data/sets.json";
+import aliases from "../ingest/aliases.json";
+import type { Dataset, DropEntry, DropTable, Dungeon, EnhanceTable, GroupMember, Item, ItemGroup, ItemSet, Recipe, Ref, Region, Source } from "./types.ts";
 
 export const ds: Dataset = {
   sources: sources as Source[],
@@ -17,6 +19,7 @@ export const ds: Dataset = {
   enhance_tables: enhanceTables as EnhanceTable[],
   drops: drops as DropTable[],
   dungeons: dungeons as Dungeon[],
+  sets: sets as ItemSet[],
 };
 
 const group = <T>(pairs: [string, T][]) => {
@@ -35,6 +38,9 @@ export const itemById = new Map(allItems.map((x) => [x.id, x]));
 export const dungeonById = new Map(ds.dungeons.map((x) => [x.id, x]));
 export const sourceById = new Map(ds.sources.map((x) => [x.id, x]));
 export const tableById = new Map(ds.enhance_tables.map((x) => [x.id, x]));
+export const setById = new Map(ds.sets.map((x) => [x.id, x]));
+/** 改名・統合された旧 id → 新しい id (ingest/aliases.json)。古いリンクを開いたときに転送する */
+const aliasOf = aliases as Record<string, string>;
 
 // base と result が同じレシピ (ロック付与・同一装備の等級進化など) は作成ルートではなく「加工」として別扱い
 const isSelf = (r: Recipe) => r.base === r.result;
@@ -106,7 +112,10 @@ export const interPreds = (id: string) => (recipesByResult.get(id) ?? []).filter
 export function resolveDetail(id: string): { group?: ItemGroup; focus: string } | undefined {
   if (itemById.has(id)) return { group: groupOf(id), focus: id };
   const g = groupById.get(id);
-  return g ? { group: g, focus: defaultMember(g) } : undefined;
+  if (g) return { group: g, focus: defaultMember(g) };
+  // 旧 id: 分割されたものはグループ (または最初の分割先) へ
+  const to = aliasOf[id];
+  return to && to !== id ? resolveDetail(to) : undefined;
 }
 
 /** 一覧の1単位: グループは1件にまとめ、所属アイテムは個別に出さない。series/level は最初に値を持つ段階のもの */

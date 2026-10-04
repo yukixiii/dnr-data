@@ -7,7 +7,7 @@ import Ajv from "ajv";
 import type { Dataset, ItemGroup } from "../src/types.ts";
 import { baseNameOf, isGroupable } from "./groups-lib.ts";
 
-const COLLECTIONS = ["sources", "items", "materials", "recipes", "enhance_tables", "drops", "dungeons"] as const;
+const COLLECTIONS = ["sources", "items", "materials", "recipes", "enhance_tables", "drops", "dungeons", "sets"] as const;
 const DEF: Record<(typeof COLLECTIONS)[number], string> = {
   sources: "source",
   items: "item",
@@ -16,6 +16,7 @@ const DEF: Record<(typeof COLLECTIONS)[number], string> = {
   enhance_tables: "enhance_table",
   drops: "drop_table",
   dungeons: "dungeon",
+  sets: "item_set",
 };
 
 const root = new URL("../", import.meta.url);
@@ -56,7 +57,7 @@ async function main() {
     }
   };
   dup("items+materials", [...ds.items, ...ds.materials].map((x) => x.id));
-  for (const c of ["sources", "recipes", "enhance_tables", "drops", "dungeons"] as const) dup(c, ds[c].map((x) => x.id));
+  for (const c of ["sources", "recipes", "enhance_tables", "drops", "dungeons", "sets"] as const) dup(c, ds[c].map((x) => x.id));
 
   const itemIds = new Set([...ds.items, ...ds.materials].map((x) => x.id));
   const dungeonIds = new Set(ds.dungeons.map((x) => x.id));
@@ -80,6 +81,8 @@ async function main() {
     t.applies_to.forEach((id) => needItem(`enhance ${t.id} applies_to`, id));
     t.rows.forEach((row) => row.materials?.forEach((m) => needItem(`enhance ${t.id} ${row.level}`, m.item)));
   }
+  const setIds = new Set(ds.sets.map((x) => x.id));
+  for (const it of [...ds.items, ...ds.materials]) if (it.set && !setIds.has(it.set)) errors.push(`item ${it.id}: 未定義のセット "${it.set}"`);
   for (const d of ds.drops) {
     if (d.location_kind === "dungeon" && !dungeonIds.has(d.location)) errors.push(`drop ${d.id}: 未定義のダンジョン "${d.location}"`);
     if (d.location_kind === "box") needItem(`drop ${d.id} location`, d.location);
