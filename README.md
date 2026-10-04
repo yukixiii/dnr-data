@@ -12,6 +12,8 @@ npm run build      # validate → 型チェック → dist/ に静的ファイ�
 
 `dist/` はハッシュルーティング (`#/item/...`) なので、GitHub Pages / Cloudflare Pages / 任意の静的ホスティングに設定なしで置ける。
 
+公開: main に push すると `.github/workflows/pages.yml` が検証・ビルドして GitHub Pages (https://yukixiii.github.io/dnr-data/) にデプロイする。
+
 ## データ
 
 `data/*.json` が本体 (型: `src/types.ts`, スキーマ: `data/schema/dnr.schema.json`)。
