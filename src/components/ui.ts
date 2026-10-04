@@ -23,6 +23,11 @@ export const KIND_LABEL: Record<ItemKind, string> = {
   other: "その他",
 };
 
+/** 画面上の種類。ブローチはデータでは accessory (部位 ブローチ) だが、一覧の種類ではアクセサリーと分ける */
+export type ShownKind = ItemKind | "brooch";
+export const shownKind = (item: Item): ShownKind => (item.kind === "accessory" && item.slot === "ブローチ" ? "brooch" : item.kind);
+export const SHOWN_KIND_LABEL: Record<ShownKind, string> = { ...KIND_LABEL, brooch: "ブローチ" };
+
 export function itemLink(id: string, qty?: Qty["qty"]) {
   const item = itemById.get(id);
   const q = qty !== undefined && qty !== "" ? ` <span class="qty">×${esc(qty)}</span>` : "";
@@ -182,9 +187,10 @@ export function rateCell(rate?: number, text?: string) {
 }
 
 export function itemMeta(item: Item) {
+  const kind = SHOWN_KIND_LABEL[shownKind(item)];
   const parts = [
-    KIND_LABEL[item.kind],
-    item.slot,
+    kind,
+    item.slot === kind ? undefined : item.slot,
     item.grade,
     item.level ? `Lv${item.level}` : undefined,
     item.max_enhance ? `最大+${item.max_enhance}` : undefined,

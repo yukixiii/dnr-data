@@ -57,8 +57,43 @@ export const tablesByMaterial = group(
   ds.enhance_tables.flatMap((t) => t.rows.flatMap((row) => (row.materials ?? []).map((m) => [m.item, t] as [string, EnhanceTable]))),
 );
 export const dropsByLocation = group(ds.drops.map((d) => [d.location, d]));
+
+/**
+ * 中身が 1 種類だけの袋 (「未知の古代ネックレス袋(+12)」→ 未知の古代ネックレス など) → その中身。
+ * ドロップ表では袋の代わりに中身を出し、中身のアイテムの入手先にも載せる。袋自身のページはそのまま。
+ */
+export const simpleBags = new Map<string, DropEntry>();
+for (const [loc, ts] of dropsByLocation) {
+  if (itemById.get(loc)?.kind !== "box" || !ts.every((t) => t.location_kind === "box" && t.entries.length === 1)) continue;
+  if (new Set(ts.map((t) => t.entries[0].item)).size === 1) simpleBags.set(loc, ts[0].entries[0]);
+}
+
+/** 袋の個数 × 中身の個数 (どちらかが文字の表記ならそのまま並べる) */
+const mulQty = (a: DropEntry["qty"], b: DropEntry["qty"]): DropEntry["qty"] => {
+  if (a === undefined || a === "") return b;
+  if (b === undefined || b === "" || b === 1) return a;
+  if (typeof a === "number" && typeof b === "number") return a * b;
+  return a === 1 ? b : `${a}×${b}`;
+};
+
+/** ドロップ表の 1 行を表示用に: 単純な袋は中身に置き換え、経由した袋を via に持つ */
+export type ShownEntry = DropEntry & { via?: string };
+export const shownEntry = (e: DropEntry): ShownEntry => {
+  const inner = simpleBags.get(e.item);
+  return inner ? { ...e, item: inner.item, qty: mulQty(e.qty, inner.qty), via: e.item } : e;
+};
+
+export type DropHit = { table: DropTable; entry: ShownEntry };
 export const dropsByItem = group(
-  ds.drops.flatMap((d) => d.entries.map((e) => [e.item, { table: d, entry: e }] as [string, { table: DropTable; entry: DropEntry }])),
+  // 単純な袋の中身の表は、袋を経由した行 (via) で足りるので中身の入手先には出さない
+  ds.drops.filter((d) => !(d.location_kind === "box" && simpleBags.has(d.location))).flatMap((d) =>
+    d.entries.flatMap((e) => {
+      const hits: [string, DropHit][] = [[e.item, { table: d, entry: e }]];
+      const s = shownEntry(e);
+      if (s.via) hits.push([s.item, { table: d, entry: s }]);
+      return hits;
+    }),
+  ),
 );
 
 /** 出典の公開日のうち最新のもの (YYYY-MM-DD)。同じダンジョンの新旧シーズンの表を並べ替えるのに使う */

@@ -22,10 +22,12 @@ import {
   selfRecipes,
   tablesByItem,
   tablesByMaterial,
+  type DropHit,
 } from "../data.ts";
 import { RECIPE_LABEL, recipeHeader, routeSection, stageTable } from "../components/routeView.ts";
 import type { Transition } from "../route.ts";
-import type { ItemGroup, ItemSet, Ref } from "../types.ts";
+import { cmpKey, compareFloors, parseFloors } from "../floors.ts";
+import type { Item, ItemGroup, ItemSet, Ref, Stat, StatSet } from "../types.ts";
 import { empty, esc, href, itemLink, itemMeta, locationLink, rateCell, refInline, refList, regionBadges, statGrid, statSets } from "../components/ui.ts";
 import { dropTableHtml } from "./drops.ts";
 
@@ -47,15 +49,87 @@ function stageNav(g: ItemGroup, focus: string) {
     .join("")}</nav>`;
 }
 
-function statsSection(ids: string[], focus: string, grouped: boolean) {
+// ---------- [増幅]/[真] の差分 ----------
+// [増幅]・[真] は通常の装備に強化値によらず一定の能力値を足したものなので、全強化値の表を繰り返さず差分だけ出す
+
+/** [増幅]/[真] のメンバー → 基準にする「通常」のメンバー (無ければ undefined) */
+function variantBase(g: ItemGroup, id: string) {
+  const m = g.members.find((x) => x.item === id);
+  if (!m) return undefined;
+  // ヘイズフロストドラゴン装備: phase が 通常/真、label が等級
+  if (m.phase === "真") return g.members.find((x) => x.phase === "通常" && x.label === m.label)?.item;
+  if (m.label === "真" || m.label.includes("増幅")) return g.members.find((x) => x.label === "通常" && x.phase === m.phase)?.item;
+  return undefined;
+}
+
+type Num = { vs: number[]; pct: boolean; dec: number };
+function parseNum(v: string): Num | undefined {
+  const parts = v.split(/~|～/).map((x) => x.replace(/[,\s]/g, ""));
+  if (!parts.every((x) => /^[+-]?\d+(\.\d+)?%?$/.test(x))) return undefined;
+  const pct = parts.some((x) => x.endsWith("%"));
+  const dec = Math.max(...parts.map((x) => x.replace("%", "").split(".")[1]?.length ?? 0));
+  return { vs: parts.map((x) => parseFloat(x)), pct, dec };
+}
+const fmtDelta = (d: number, n: Num) => {
+  const abs = Math.abs(d);
+  const body = n.pct ? `${abs.toFixed(n.dec)}%` : abs.toLocaleString("en-US", { maximumFractionDigits: n.dec });
+  return `${d < 0 ? "-" : "+"}${body}`;
+};
+
+/** 全段階で能力ごとの差が一定ならその差 (0 の能力は除く)。一定でなければ undefined */
+function constantDelta(variant: StatSet[] | undefined, base: StatSet[] | undefined): Stat[] | undefined {
+  if (!variant?.length || !base?.length) return undefined;
+  const baseBy = new Map(base.map((s) => [s.label, s]));
+  if (variant.length !== base.length || variant.some((s) => !baseBy.has(s.label))) return undefined;
+  const delta = new Map<string, { ds: number[]; n: Num }>();
+  for (const vs of variant) {
+    const bs = baseBy.get(vs.label)!;
+    const names = [...new Set([...vs.stats, ...bs.stats].map((x) => x.name))];
+    for (const name of names) {
+      const v = vs.stats.find((x) => x.name === name);
+      const b = bs.stats.find((x) => x.name === name);
+      if (v && b && v.value === b.value && !parseNum(v.value)) continue; // 同じ文字の能力
+      const pv = v ? parseNum(v.value) : undefined;
+      const pb = b ? parseNum(b.value) : undefined;
+      if ((v && !pv) || (b && !pb)) return undefined; // 文字の能力が違う
+      const shape = (pv ?? pb)!;
+      const a = pv?.vs ?? shape.vs.map(() => 0);
+      const c = pb?.vs ?? shape.vs.map(() => 0);
+      if (a.length !== c.length) return undefined;
+      const ds = a.map((x, i) => Math.round((x - c[i]) * 1e6) / 1e6);
+      const prev = delta.get(name);
+      if (prev && (prev.ds.length !== ds.length || prev.ds.some((d, i) => d !== ds[i]))) return undefined;
+      if (!prev) delta.set(name, { ds, n: shape });
+    }
+  }
+  return [...delta.entries()]
+    .filter(([, { ds }]) => ds.some((d) => d !== 0))
+    .map(([name, { ds, n }]) => ({ name, value: ds.every((d) => d === ds[0]) ? fmtDelta(ds[0], n) : ds.map((d) => fmtDelta(d, n)).join("~") }));
+}
+
+const DELTA_LABEL = "通常との差 (全強化値共通)";
+
+function statsSection(ids: string[], focus: string, group?: ItemGroup) {
   const items = ids.map((x) => itemById.get(x)!);
-  if (!grouped) return statSets(items[0].stats);
+  if (!group) return statSets(items[0].stats);
+  // 差分で出すメンバー: id → 差分 (空なら通常と同じ)
+  const deltas = new Map<string, Stat[]>();
+  for (const it of items) {
+    const base = variantBase(group, it.id);
+    const d = base ? constantDelta(it.stats, itemById.get(base)?.stats) : undefined;
+    if (d) deltas.set(it.id, d);
+  }
+  const shownSets = (it: Item): StatSet[] =>
+    deltas.has(it.id) ? [{ label: deltas.get(it.id)!.length ? DELTA_LABEL : "通常と同じ (全強化値)", stats: deltas.get(it.id)! }] : it.stats!;
+  const deltaNote = deltas.size
+    ? `<p class="muted">${[...deltas.keys()].map((x) => esc(memberLabel(x))).join("、")} は通常の能力値に強化値によらず一定の値が足されるため、通常との差だけを載せています。</p>`
+    : "";
   const withStats = items.filter((it) => it.stats?.length);
   const missing = items.filter((it) => !it.stats?.length);
   const note = missing.length && withStats.length ? `<p class="muted">ステータス未登録: ${missing.map((it) => esc(memberLabel(it.id))).join("、")}</p>` : "";
   if (!withStats.length) return statSets(undefined);
   // 「段階 × 能力」の1つの表にまとめる (強化値別など複数組あれば 条件 列を足す)。行が多すぎるときだけ段階ごとに分ける
-  const sets = withStats.flatMap((it) => it.stats!.map((s) => ({ it, s })));
+  const sets = withStats.flatMap((it) => shownSets(it).map((s) => ({ it, s })));
   if (sets.length <= 40) {
     const showSet = sets.some(({ s }) => !["基本", ""].includes(s.label));
     return (
@@ -66,13 +140,17 @@ function statsSection(ids: string[], focus: string, grouped: boolean) {
           cls: it.id === focus ? "is-focus" : undefined,
         })),
         showSet ? ["段階", "条件"] : ["段階"],
-      ) + note
+      ) +
+      deltaNote +
+      note
     );
   }
   return (
     withStats
-      .map((it) => `<details class="member-stats" ${it.id === focus ? "open" : ""}><summary>${esc(memberLabel(it.id))}</summary>${statSets(it.stats)}</details>`)
-      .join("") + note
+      .map((it) => `<details class="member-stats" ${it.id === focus ? "open" : ""}><summary>${esc(memberLabel(it.id))}</summary>${statSets(shownSets(it))}</details>`)
+      .join("") +
+    deltaNote +
+    note
   );
 }
 
@@ -101,6 +179,51 @@ function stageTransitions(g: ItemGroup): Transition[] {
   return ts.sort((a, b) => memberIndex(g, a.to) - memberIndex(g, b.to) || memberIndex(g, a.from) - memberIndex(g, b.from));
 }
 
+/** 複数の階層表記 (階層順) をまとめた表記: 最初の開始～最も後ろの終了。解析できない表記を含むなら「最初 ほか」 */
+function floorSpanLabel(fl: string[]) {
+  const spans = fl.map((f) => parseFloors(f));
+  if (spans.some((x) => !x)) return `${fl[0] || "全階層"} ほか`;
+  const piece = (f: string, last: boolean) => {
+    const ps = f.split(/\s*[~～〜]\s*/);
+    return last ? ps.at(-1)! : ps[0];
+  };
+  const endIdx = spans.reduce((best, x, i) => (cmpKey(x!.end, spans[best]!.end) > 0 ? i : best), 0);
+  const end = spans[endIdx]!.end[1] === Infinity ? "" : piece(fl[endIdx], true);
+  return `${piece(fl[0], false)}～${end}`;
+}
+
+/**
+ * 入手先の行を 1 表 1 行にまとめる (同じ表・獲得元・対象段階・経由した袋ごと)。
+ * 階層は「最初～最後 (N区分)」、確率・個数は同じなら 1 つ、違えば最初～最後 (階層順) で表す。階層ごとの値はダンジョンのページで見る。
+ */
+function mergeDrops(drops: DropHit[]) {
+  const by = new Map<string, DropHit[]>();
+  for (const d of drops) {
+    const k = JSON.stringify([d.table.id, d.entry.from ?? "", d.entry.item, d.entry.via ?? ""]);
+    by.set(k, [...(by.get(k) ?? []), d]);
+  }
+  const range = (vs: string[]) => {
+    const u = [...new Set(vs.filter(Boolean))];
+    return u.length <= 1 ? (u[0] ?? "") : `${vs.filter(Boolean)[0]}～${vs.filter(Boolean).at(-1)}`;
+  };
+  return [...by.values()].map((hs) => {
+    const sorted = [...hs].sort((a, b) => compareFloors(a.entry.floors, b.entry.floors));
+    const es = sorted.map((h) => h.entry);
+    const fl = [...new Set(es.map((e) => e.floors ?? ""))];
+    const floors = fl.length <= 1 ? esc(fl[0] ?? "") : `<span title="${esc(fl.join(" / "))}">${esc(floorSpanLabel(fl))} <span class="muted">(${fl.length}区分)</span></span>`;
+    const rates = es.filter((e) => e.rate !== undefined).map((e) => e.rate!);
+    const texts = [...new Set(es.map((e) => e.rate_text).filter(Boolean))].join("、");
+    const lo = Math.min(...rates);
+    const hi = Math.max(...rates);
+    const rate = !rates.length
+      ? rateCell(undefined, texts)
+      : lo === hi
+        ? rateCell(lo, texts)
+        : `${rateCell(lo)}～${rateCell(hi, texts)}`;
+    return { table: hs[0].table, entry: es[0], floors, rate, qty: range(es.map((e) => String(e.qty ?? ""))) };
+  });
+}
+
 /** 段階が一本道 (前の行の結果が次の行のベース) のときだけ累計を出す */
 const isLinear = (ts: Transition[]) => ts.every((t, i) => i === 0 || ts[i - 1].to === t.from);
 
@@ -126,7 +249,7 @@ export function renderItemDetail(id: string) {
   const sections: string[] = [];
 
   if (ids.some((x) => itemById.get(x)!.stats?.length) || !NON_EQUIP.includes(item.kind)) {
-    sections.push(`<section><h2>ステータス</h2>${statsSection(ids, focus, !!group)}</section>`);
+    sections.push(`<section><h2>ステータス</h2>${statsSection(ids, focus, group)}</section>`);
   }
 
   const set = item.set ? setById.get(item.set) : undefined;
@@ -171,15 +294,17 @@ export function renderItemDetail(id: string) {
     sections.push(`<section><h2>入手先・ドロップ率</h2>
       <div class="table-wrap"><table class="data">
         <thead><tr>${group ? "<th>対象</th>" : ""}<th>入手先</th><th>区分</th><th>獲得元</th><th>階層/条件</th><th>確率</th><th>個数</th><th>告知日</th></tr></thead>
-        <tbody>${drops
+        <tbody>${mergeDrops(drops)
           .map(
-            ({ table, entry }) => `<tr>${group ? `<td>${tag(entry.item)}</td>` : ""}
-              <td>${locationLink(table.location, table.location_kind)}</td>
+            ({ table, entry, floors, rate, qty }) => `<tr>${group ? `<td>${tag(entry.item)}</td>` : ""}
+              <td>${locationLink(table.location, table.location_kind)}${
+                entry.via ? ` <a class="via muted" href="${href("item", entry.via)}" title="この袋から出る">(${esc(itemById.get(entry.via)?.name ?? entry.via)})</a>` : ""
+              }</td>
               <td>${esc(table.label ?? "")}</td>
               <td>${esc(entry.from ?? "")}</td>
-              <td>${esc(entry.floors ?? "")}</td>
-              <td>${rateCell(entry.rate, entry.rate_text)}</td>
-              <td>${esc(entry.qty ?? "")}</td>
+              <td>${floors}</td>
+              <td>${rate}</td>
+              <td>${esc(qty)}</td>
               <td class="num">${esc(refDate(table.refs))}${refInline(table.refs)}</td></tr>`,
           )
           .join("")}</tbody></table></div></section>`);

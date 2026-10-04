@@ -774,6 +774,25 @@ table.data caption {
   align-items: center;
   flex-wrap: wrap;
 }
+/* 階層ごとのドロップ表: セルにアイテムを縦に並べる */
+ul.drop-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+ul.drop-list li + li {
+  margin-top: 2px;
+}
+table.floor-table td {
+  min-width: 10em;
+}
+a.via {
+  text-decoration: none;
+  font-size: 0.78rem;
+}
+a.via:hover {
+  text-decoration: underline;
+}
 
 @media (max-width: 600px) {
   body {

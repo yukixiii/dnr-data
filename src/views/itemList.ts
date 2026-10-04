@@ -1,10 +1,10 @@
 // 装備・素材一覧 (フィルタ・検索)。段階違いの同一装備は1件にまとめる
 import { allItems, defaultMember, ds, groupCountLabel, isIntra, listUnits, recipesByResult, tablesByItem, type ListUnit } from "../data.ts";
-import type { Item, ItemKind } from "../types.ts";
-import { KIND_LABEL, empty, esc, href, itemLink, itemMeta, regionBadges } from "../components/ui.ts";
+import type { Item } from "../types.ts";
+import { SHOWN_KIND_LABEL, empty, esc, href, itemLink, itemMeta, regionBadges, shownKind, type ShownKind } from "../components/ui.ts";
 
-const EQUIP_KINDS: ItemKind[] = ["weapon", "armor", "accessory", "special_armor", "artifact", "talisman", "jade", "heraldry"];
-const MAT_KINDS: ItemKind[] = ["material", "currency", "box", "consumable", "other"];
+const EQUIP_KINDS: ShownKind[] = ["weapon", "armor", "accessory", "brooch", "special_armor", "artifact", "talisman", "jade", "heraldry"];
+const MAT_KINDS: ShownKind[] = ["material", "currency", "box", "consumable", "other"];
 
 export function matches(item: Item, q: string) {
   if (!q) return true;
@@ -49,7 +49,7 @@ export function renderItemList(query: URLSearchParams, mode: "equipment" | "mate
   // グループはどれか1段階でも条件に合えば表示 (グループ名でも検索できる)
   const list = units.filter(
     (u) =>
-      (!kind || u.members.some((m) => m.kind === kind)) &&
+      (!kind || u.members.some((m) => shownKind(m) === kind)) &&
       (!series || u.members.some((m) => m.series === series)) &&
       (u.members.some((m) => matches(m, q)) || (!!u.group && matches({ ...u.item, name: u.group.name }, q))),
   );
@@ -57,7 +57,7 @@ export function renderItemList(query: URLSearchParams, mode: "equipment" | "mate
   // 系統ごとにまとめる (系統なしは種類名で)
   const groups = new Map<string, ListUnit[]>();
   for (const u of list) {
-    const key = u.series || KIND_LABEL[u.item.kind];
+    const key = u.series || SHOWN_KIND_LABEL[shownKind(u.item)];
     groups.set(key, [...(groups.get(key) ?? []), u]);
   }
   const sortedGroups = [...groups.entries()].sort((a, b) => b[1].length - a[1].length || a[0].localeCompare(b[0], "ja"));
@@ -70,7 +70,7 @@ export function renderItemList(query: URLSearchParams, mode: "equipment" | "mate
     <input type="search" name="q" value="${esc(q)}" placeholder="名前・系統で検索 (日/韓/中)" aria-label="検索">
     <select name="kind" aria-label="種類">
       <option value="">すべての種類</option>
-      ${kinds.map((k) => `<option value="${k}" ${k === kind ? "selected" : ""}>${KIND_LABEL[k]}</option>`).join("")}
+      ${kinds.map((k) => `<option value="${k}" ${k === kind ? "selected" : ""}>${SHOWN_KIND_LABEL[k]}</option>`).join("")}
     </select>
     ${
       seriesList.length

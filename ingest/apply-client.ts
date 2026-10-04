@@ -77,11 +77,16 @@ const srcLabel = (refs: Ref[]) => {
   return s.region === "JP" ? (s.kind === "official" ? `告知(${s.id})` : `${s.title.slice(0, 20)}(${s.id})`) : `海外版(${s.id})`;
 };
 const LEGACY_NOTE = "空欄をクライアントデータで補完";
+// 出典の注記 (注記自体に「・」を含むので、区切りで分ける前にまとめて取り出す)
+const REF_NOTES = ["ゲームクライアントの値", "確率・費用・素材", "進化の組み合わせ", "交換の費用", "ゴールド・成功率・個数", "レシピ・強化・箱の素材"];
 const addRef = (refs: Ref[], note?: string) => {
   const cur = refs.find((r) => r.source === SRC);
   if (!cur) refs.push(note ? { source: SRC, note } : { source: SRC });
   else {
-    const parts = (cur.note ?? "").split("・").filter((x) => x && x !== LEGACY_NOTE);
+    let rest = cur.note ?? "";
+    const known = REF_NOTES.filter((k) => rest.includes(k));
+    for (const k of known) rest = rest.split(k).join("");
+    const parts = [...rest.split("・").filter((x) => x && x !== LEGACY_NOTE), ...known];
     if (note && !parts.includes(note)) parts.push(note);
     if (parts.length) cur.note = parts.join("・");
     else delete cur.note;
@@ -293,6 +298,9 @@ for (const it of [...items, ...materials]) {
     for (const [lv, ss] of Object.entries(c.levels ?? {})) fresh.push({ label: lv, stats: ss.map((s) => ({ ...s })) });
     for (const [lv, ss] of Object.entries(c.stages ?? {})) fresh.push({ label: lv, stats: ss.map((s) => ({ ...s })) });
     const freshBy = new Map(fresh.map((s) => [s.label, s]));
+    // スキル竜珠: クライアントにはスキル攻撃力しか無いので、告知にだけある能力 (再使用時間短縮・属性) は名前で分けて残す
+    const freshNames = new Set(fresh.flatMap((s) => s.stats.map((x) => x.name)));
+    const ownOnly = (o: StatSet) => (it.series === "スキル竜珠" ? o.stats.filter((s) => !freshNames.has(s.name) && !textStats([s]).length) : []);
     const keep: StatSet[] = [];
     const diffs: string[] = [];
     const noEnhance: string[] = [];
@@ -300,9 +308,10 @@ for (const it of [...items, ...materials]) {
       const lbl = ["基本", "+0", "通常"].includes(o.label) ? "基本" : o.label;
       const f = freshBy.get(lbl);
       if (f) {
-        const nums = o.stats.filter((s) => !textStats([s]).length);
+        const extra = ownOnly(o);
+        const nums = o.stats.filter((s) => !textStats([s]).length && !extra.includes(s));
         if (nums.length && !sameValues(nums, f.stats)) diffs.push(`${o.label}: ${fmtStats(nums)}`);
-        for (const t of textStats(o.stats)) if (!f.stats.some((x) => x.name === t.name)) f.stats.push(t);
+        for (const t of [...extra, ...textStats(o.stats)]) if (!f.stats.some((x) => x.name === t.name)) f.stats.push(t);
         continue;
       }
       if (/^セット効果/.test(o.label) && it.set) continue; // セット効果は sets.json へ
@@ -404,7 +413,8 @@ for (const t of tables) {
   }
   const diffs: string[] = [];
   const rows: EnhanceRow[] = [];
-  const statsMoved = appliesClient(t);
+  // 能力値をアイテム側に移すのは、クライアントに強化段階の能力値がある表だけ (無ければ表の stats を残す)
+  const statsMoved = t.applies_to.some((a) => ex.items[a]?.levels);
   for (const row of t.rows) {
     const cr = c.rows[row.level];
     if (!cr) {
