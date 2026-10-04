@@ -170,7 +170,8 @@ for (const [k, s] of Object.entries(ex.sets)) {
 const setIds = new Set(sets.map((s) => s.id));
 
 // ---- アイテム ----
-const PROVISIONAL_NAME = /便宜上|仮の名称|正式名称(は)?不明|正式なアイテム名|名称は(推定|類推)|から類推|部位別の正式名称が無い/;
+// 名前を推定・仮で付けていた旨と、告知の能力値表の説明 (能力値はクライアント値に置き換えた) は消す
+const PROVISIONAL_NAME = /便宜上|仮の名称|正式名称(は)?不明|正式なアイテム名|名称は(推定|類推)|から類推|部位別の正式名称が無い|^\s*stats の「/;
 const LEVEL_LABEL = /^\+(\d+)$/;
 for (const it of [...items, ...materials]) {
   const c = ex.items[it.id];
@@ -195,6 +196,12 @@ for (const it of [...items, ...materials]) {
   setField("level", c.level, "装備レベル");
   setField("slot", c.slot, "部位");
   setField("max_enhance", c.max_enhance, "最大強化");
+  if (!c.enchant_id && it.max_enhance !== undefined && ["weapon", "armor", "accessory", "special_armor"].includes(c.kind)) {
+    keepOld(it, "description", `${from}では最大強化「${it.max_enhance}」。`);
+    conflicts.push(`${it.id}: 最大強化 ${it.max_enhance} → なし (クライアントでは強化不可)`);
+    delete it.max_enhance;
+    changed.push("最大強化");
+  }
   if (c.set && setIds.has(setIdOf(c.set)) && it.set !== setIdOf(c.set)) {
     it.set = setIdOf(c.set);
     changed.push("セット");
@@ -229,6 +236,7 @@ for (const it of [...items, ...materials]) {
     const freshBy = new Map(fresh.map((s) => [s.label, s]));
     const keep: StatSet[] = [];
     const diffs: string[] = [];
+    const noEnhance: string[] = [];
     for (const o of old) {
       const lbl = ["基本", "+0", "通常"].includes(o.label) ? "基本" : o.label;
       const f = freshBy.get(lbl);
@@ -243,17 +251,28 @@ for (const it of [...items, ...materials]) {
         diffs.push(`${o.label}: ${fmtStats(o.stats)}`); // クライアントに無い段階 (最大強化を超える等)
         continue;
       }
+      if (LEVEL_LABEL.test(lbl) && !c.enchant_id) {
+        noEnhance.push(o.label); // クライアントでは強化できない装備
+        continue;
+      }
       keep.push(o); // 条件付きの能力 (エンシェント追加・増幅オプション・ランダムオプション範囲など) はそのまま
     }
     if (diffs.length) {
       keepOld(it, "description", `${from}の能力値 (クライアントと違う段階): ${diffs.join(" / ")}。`);
       conflicts.push(`${it.id}: 能力値 ${diffs.length} 段階が告知と違う`);
     }
+    if (noEnhance.length) {
+      keepOld(it, "description", `${from}には ${noEnhance[0]}～${noEnhance[noEnhance.length - 1]} の能力値表があるが、クライアントではこの等級は強化できない。`);
+      conflicts.push(`${it.id}: クライアントでは強化不可 (告知に ${noEnhance.length} 段階の表)`);
+    }
     if (c.stats_note) fresh[0] && (fresh[0].stats = fresh[0].stats.map((s, i) => (i === 0 ? { ...s, note: c.stats_note } : s)));
     it.stats = [...fresh, ...keep];
     changed.push("能力値");
   }
-  if (c.variants_note) keepOld(it, "description", `一部の職業の武器 (${c.variants_note.slice(0, 40)}) は能力値が少し違う。`);
+  if (c.variants_note)
+    keepOld(it, "description", c.kind === "weapon" && c.variants_note !== c.name
+      ? `一部の職業の武器 (${c.variants_note.slice(0, 40)}) は能力値が少し違う。`
+      : "クライアントには同じ名前で能力値が少し違う行もある (ここでは行数の多い方を掲載)。");
   addRef(it.refs, "ゲームクライアントの値");
   if (JSON.stringify(it) !== before) {
     inc("item");

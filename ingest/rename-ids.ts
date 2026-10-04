@@ -15,7 +15,7 @@
 //   能力値は、基本値がクライアント値と最も一致する分割先にだけ残す (他は apply:client がクライアント値で作る)。
 import { readFile, writeFile } from "node:fs/promises";
 import type { DropTable, EnhanceTable, GroupMember, Item, ItemGroup, Recipe } from "../src/types.ts";
-import { baseNameOf } from "./groups-lib.ts";
+import { baseNameOf, isGroupable, stageInfo } from "./groups-lib.ts";
 
 const root = new URL("../", import.meta.url);
 const dry = process.argv.includes("--dry");
@@ -80,7 +80,9 @@ function mergeInto(dst: Item, src: Item) {
   for (const k of ["slot", "grade", "level", "series", "max_enhance", "tradable", "name_ko", "name_zh"] as const)
     if (dst[k] === undefined && src[k] !== undefined) (dst as any)[k] = src[k];
   if (!dst.stats?.length && src.stats?.length) dst.stats = src.stats;
-  const note = src.description && !dst.description?.includes(src.description) ? `旧「${src.id}」: ${src.description}` : "";
+  const strip = (x?: string) => (x ?? "").replace(/^旧「[^」]*」を分割。\s*/, "");
+  const sd = strip(src.description);
+  const note = sd && !strip(dst.description).includes(sd) ? `旧「${src.id}」: ${sd}` : "";
   dst.description = [dst.description, note].filter(Boolean).join(" ") || undefined;
   if (!dst.description) delete dst.description;
 }
@@ -184,13 +186,52 @@ for (const r of recipes) {
   if (expanded.length > 1) log.push(`レシピ複製 ${r.id} → ${expanded.length} 件`);
 }
 
+// 統合で中身が同じになったレシピは 1 つにまとめ、複製時に付けた id の連番と注記を戻す
+{
+  const sig = (r: Recipe) => JSON.stringify([r.type, r.result, r.base, r.result_qty, r.materials, r.gold, r.rate, r.where]);
+  const byFamily = new Map<string, Recipe[]>();
+  const seen = new Map<string, Recipe>();
+  for (let i = outRecipes.length - 1; i >= 0; i--) {
+    const r = outRecipes[i];
+    const k = sig(r);
+    if (seen.has(k)) outRecipes.splice(i, 1);
+    seen.set(k, r);
+  }
+  for (const r of outRecipes) {
+    const fam = r.id.replace(/-\d+$/, "");
+    if (fam !== r.id) byFamily.set(fam, [...(byFamily.get(fam) ?? []), r]);
+  }
+  for (const [fam, rs] of byFamily) {
+    if (rs.length !== 1 || !recipes.some((x) => x.id === fam)) continue;
+    const r = rs[0];
+    r.id = fam;
+    r.notes = r.notes?.replace(/\s*原文の総称「[^」]*」を分割した各アイテムのレシピ。/, "").trim() || undefined;
+    if (!r.notes) delete r.notes;
+  }
+}
+
 for (const t of tables) {
   t.applies_to = [...new Set(t.applies_to.flatMap((a) => targetsOf(a).map((x) => x.id)))];
   for (const row of t.rows) row.materials = row.materials?.map((m) => ({ ...m, item: targetsOf(m.item)[0].id }));
 }
 for (const d of drops) {
   if (d.location_kind === "box") d.location = targetsOf(d.location)[0].id;
-  d.entries = d.entries.flatMap((e) => targetsOf(e.item).map((t) => ({ ...e, item: t.id })));
+  const splitNames = new Set<string>();
+  d.entries = d.entries.flatMap((e) => {
+    const ts = targetsOf(e.item);
+    if (ts.length > 1 && isVariantSplit(e.item)) splitNames.add(e.item);
+    return ts.map((t) => ({ ...e, item: t.id }));
+  });
+  // 統合で同じ行になったものは 1 つに
+  const seen = new Set<string>();
+  d.entries = d.entries.filter((e) => {
+    const k = JSON.stringify(e);
+    return !seen.has(k) && (seen.add(k), true);
+  });
+  if (splitNames.size) {
+    const note = `原文は分割前の名前 (${[...splitNames].slice(0, 2).join("・")}${splitNames.size > 2 ? " など" : ""}) での記載で、等級などの違いは区別されていない。`;
+    if (!d.notes?.includes(note)) d.notes = [d.notes, note].filter(Boolean).join(" ");
+  }
 }
 
 // ---- グループ ----
@@ -240,6 +281,24 @@ for (const [oldId, ts] of Object.entries(renames)) {
 }
 // 分割で 1 件になったグループ・空のグループは消す
 const outGroups = groups.filter((g) => g.members.length >= 2);
+// まとめ規則に当てはまるのにどのグループにも入っていないもの (部位で分けた後の Ⅰ/Ⅱ など) を足す
+{
+  const inGroup = new Set(outGroups.flatMap((g) => g.members.map((m) => m.item)));
+  const byBase = new Map<string, string[]>();
+  for (const { rec } of pool.values()) if (isGroupable(rec)) byBase.set(baseNameOf(rec.id), [...(byBase.get(baseNameOf(rec.id)) ?? []), rec.id]);
+  for (const [b, ids] of byBase) {
+    const missing = ids.filter((id) => !inGroup.has(id));
+    if (ids.length < 2 || !missing.length) continue;
+    let g = outGroups.find((x) => x.id === b) ?? outGroups.find((x) => x.members.some((m) => ids.includes(m.item)));
+    if (!g) outGroups.push((g = { id: b, name: b, members: [] }));
+    for (const id of missing) {
+      const st = stageInfo(id);
+      g.members.push({ item: id, label: st.label, ...(st.phase ? { phase: st.phase } : {}) });
+    }
+    if (!g.members.some((m) => m.phase)) g.members.sort((a, c) => { const x = stageInfo(a.item), y = stageInfo(c.item); return x.rank - y.rank || x.n - y.n; });
+    log.push(`グループ補完 ${g.id}: ${missing.join(", ")}`);
+  }
+}
 
 // ---- 書き出し ----
 const outItems: Item[] = [];
