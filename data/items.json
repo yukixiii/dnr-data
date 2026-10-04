@@ -2067,10 +2067,14 @@
       },
       {
         "source": "jp-notice-1287"
+      },
+      {
+        "source": "cn-dngamer-3909"
       }
     ],
     "series": "古代防具",
-    "description": "原文の総称表記。部位別の実名は例: [Ⅱ]黎明の古代ボトム"
+    "description": "原文の総称表記。部位別の実名は例: [Ⅱ]黎明の古代ボトム",
+    "name_zh": "古代人二阶防具"
   },
   {
     "id": "[イヤリング]アイオナの聲",
@@ -7543,6 +7547,9 @@
     "refs": [
       {
         "source": "jp-notice-1387"
+      },
+      {
+        "source": "cn-dngamer-11728"
       }
     ],
     "stats": [
@@ -7754,7 +7761,8 @@
           }
         ]
       }
-    ]
+    ],
+    "name_zh": "杰兰特的牺牲"
   },
   {
     "id": "ジェレイントの守護イヤリング",
@@ -8361,8 +8369,15 @@
     "refs": [
       {
         "source": "jp-notice-1311"
+      },
+      {
+        "source": "cn-dngamer-8615"
+      },
+      {
+        "source": "cn-dngamer-564"
       }
-    ]
+    ],
+    "name_zh": "混沌巴尔纳纹章"
   },
   {
     "id": "ブラックドラゴンの元素の特殊タリスマン",
@@ -8371,8 +8386,12 @@
     "refs": [
       {
         "source": "jp-notice-1265"
+      },
+      {
+        "source": "cn-dngamer-9031"
       }
-    ]
+    ],
+    "name_zh": "黑龙古代元素护符（L）"
   },
   {
     "id": "ヘイズガストドラゴンサブウェポン",
@@ -9015,8 +9034,12 @@
     "refs": [
       {
         "source": "jp-notice-1440"
+      },
+      {
+        "source": "cn-dngamer-11728"
       }
-    ]
+    ],
+    "name_zh": "贝思柯德的信赖"
   },
   {
     "id": "ベルスカードの責任",
@@ -9180,6 +9203,9 @@
       },
       {
         "source": "jp-notice-1440"
+      },
+      {
+        "source": "cn-dngamer-10760"
       }
     ],
     "stats": [
@@ -9268,7 +9294,8 @@
           }
         ]
       }
-    ]
+    ],
+    "name_zh": "异界龙玉"
   },
   {
     "id": "異世界の古代武器",
@@ -9284,6 +9311,9 @@
       },
       {
         "source": "jp-notice-1246"
+      },
+      {
+        "source": "cn-dngamer-1086"
       }
     ],
     "series": "古代武器",
@@ -9298,8 +9328,12 @@
       {
         "source": "jp-notice-1217",
         "note": "2025年2月: 分解で永遠のタリスマンの核を獲得可能に。次元の狭間-永遠のタリスマンルートで永遠のタリスマン(1段階)がドロップしなくなり、代わりに永遠のタリスマンの核(1段階)がドロップ"
+      },
+      {
+        "source": "cn-dngamer-1091"
       }
-    ]
+    ],
+    "name_zh": "永恒护符"
   },
   {
     "id": "永遠のタリスマン1段階",
@@ -9512,8 +9546,12 @@
     "refs": [
       {
         "source": "jp-notice-1162"
+      },
+      {
+        "source": "cn-dngamer-1091"
       }
-    ]
+    ],
+    "name_zh": "永恒之混沌护符"
   },
   {
     "id": "永遠の次元の変異型竜珠",
@@ -9524,8 +9562,12 @@
     "refs": [
       {
         "source": "jp-notice-1231"
+      },
+      {
+        "source": "cn-dngamer-1090"
       }
-    ]
+    ],
+    "name_zh": "永恒次元变异龙玉"
   },
   {
     "id": "永遠の次元の変異型竜珠(ユニーク)",
@@ -9937,8 +9979,12 @@
     "refs": [
       {
         "source": "jp-notice-1162"
+      },
+      {
+        "source": "cn-dngamer-4910"
       }
-    ]
+    ],
+    "name_zh": "永恒之强化纹章"
   },
   {
     "id": "永劫の異界の変異型竜珠",
@@ -9952,8 +9998,15 @@
     "refs": [
       {
         "source": "jp-notice-1440"
+      },
+      {
+        "source": "cn-dngamer-1090"
+      },
+      {
+        "source": "cn-dngamer-33"
       }
-    ]
+    ],
+    "name_zh": "永恒异界之变异龙玉"
   },
   {
     "id": "永劫の異界の変異型竜珠(ユニーク)",
@@ -12786,6 +12839,9 @@
       },
       {
         "source": "jp-notice-1347"
+      },
+      {
+        "source": "cn-dngamer-4995"
       }
     ],
     "series": "金竜の竜珠",
@@ -12844,6 +12900,9 @@
       },
       {
         "source": "jp-notice-1347"
+      },
+      {
+        "source": "cn-dngamer-4995"
       }
     ],
     "series": "金竜の竜珠",
@@ -12902,6 +12961,9 @@
       },
       {
         "source": "jp-notice-1347"
+      },
+      {
+        "source": "cn-dngamer-4995"
       }
     ],
     "series": "金竜の竜珠",
@@ -12960,6 +13022,9 @@
       },
       {
         "source": "jp-notice-1347"
+      },
+      {
+        "source": "cn-dngamer-4995"
       }
     ],
     "series": "金竜の竜珠",
@@ -13018,6 +13083,9 @@
       },
       {
         "source": "jp-notice-1347"
+      },
+      {
+        "source": "cn-dngamer-4995"
       }
     ],
     "series": "金竜の竜珠",
@@ -13077,6 +13145,9 @@
       },
       {
         "source": "jp-notice-1411"
+      },
+      {
+        "source": "cn-dngamer-3909"
       }
     ],
     "stats": [
@@ -13709,6 +13780,9 @@
       },
       {
         "source": "jp-notice-1411"
+      },
+      {
+        "source": "cn-dngamer-3909"
       }
     ],
     "stats": [
@@ -14341,6 +14415,9 @@
       },
       {
         "source": "jp-notice-1411"
+      },
+      {
+        "source": "cn-dngamer-3909"
       }
     ],
     "stats": [
@@ -15145,6 +15222,9 @@
       },
       {
         "source": "jp-notice-1411"
+      },
+      {
+        "source": "cn-dngamer-3909"
       }
     ],
     "stats": [
@@ -15945,6 +16025,9 @@
       },
       {
         "source": "jp-notice-1411"
+      },
+      {
+        "source": "cn-dngamer-3909"
       }
     ],
     "stats": [
@@ -16745,6 +16828,9 @@
       },
       {
         "source": "jp-notice-1411"
+      },
+      {
+        "source": "cn-dngamer-3909"
       }
     ],
     "stats": [
@@ -17465,6 +17551,9 @@
       },
       {
         "source": "jp-notice-1411"
+      },
+      {
+        "source": "cn-dngamer-3909"
       }
     ],
     "stats": [
@@ -18345,8 +18434,12 @@
     "refs": [
       {
         "source": "jp-notice-1193"
+      },
+      {
+        "source": "cn-dngamer-1090"
       }
-    ]
+    ],
+    "name_zh": "古代威胁变异龍玉"
   },
   {
     "id": "古代の保護の変異型防御竜珠(エンシェント)",
@@ -18356,8 +18449,12 @@
     "refs": [
       {
         "source": "jp-notice-1193"
+      },
+      {
+        "source": "cn-dngamer-1090"
       }
-    ]
+    ],
+    "name_zh": "古代保护变异龍玉"
   },
   {
     "id": "古代の竜珠",
@@ -18801,6 +18898,12 @@
       },
       {
         "source": "jp-notice-1347"
+      },
+      {
+        "source": "cn-dngamer-3909"
+      },
+      {
+        "source": "cn-dngamer-33"
       }
     ],
     "stats": [
@@ -18859,7 +18962,8 @@
       "ヘイズボーンドラゴンネスト クリア報酬(パーティー、低確率)"
     ],
     "description": "金竜の竜珠は古竜装備のスロット拡張後に装着可能。",
-    "tradable": "封印後に取引可能"
+    "tradable": "封印後に取引可能",
+    "name_zh": "古龙副武器"
   },
   {
     "id": "古竜の古代アーマー",
@@ -19430,8 +19534,15 @@
       },
       {
         "source": "jp-notice-1246"
+      },
+      {
+        "source": "cn-dngamer-3909"
+      },
+      {
+        "source": "cn-dngamer-8615"
       }
-    ]
+    ],
+    "name_zh": "古龙防具"
   },
   {
     "id": "古竜メインウェポン",
@@ -19456,6 +19567,12 @@
       },
       {
         "source": "jp-notice-1347"
+      },
+      {
+        "source": "cn-dngamer-3909"
+      },
+      {
+        "source": "cn-dngamer-33"
       }
     ],
     "stats": [
@@ -19514,7 +19631,8 @@
       "ヘイズボーンドラゴンネスト クリア報酬(パーティー、低確率)"
     ],
     "description": "金竜の竜珠は古竜装備のスロット拡張後に装着可能。",
-    "tradable": "封印後に取引可能"
+    "tradable": "封印後に取引可能",
+    "name_zh": "古龙主武器"
   },
   {
     "id": "攻撃エンシェント竜珠",
@@ -19527,6 +19645,9 @@
       {
         "source": "jp-vipwiki-status",
         "note": "ファンWiki情報"
+      },
+      {
+        "source": "cn-dngamer-4995"
       }
     ]
   },
@@ -19677,6 +19798,9 @@
       },
       {
         "source": "jp-notice-1440"
+      },
+      {
+        "source": "cn-dngamer-10760"
       }
     ],
     "series": "スキル竜珠",
@@ -19766,7 +19890,8 @@
           }
         ]
       }
-    ]
+    ],
+    "name_zh": "次元龙玉"
   },
   {
     "id": "邪根の変異型竜珠(エンシェント)",
@@ -19833,8 +19958,12 @@
     "refs": [
       {
         "source": "jp-notice-1311"
+      },
+      {
+        "source": "cn-dngamer-1090"
       }
-    ]
+    ],
+    "name_zh": "根深蒂固之变异龙玉（古代）"
   },
   {
     "id": "邪根の変異型竜珠(ユニーク)",
@@ -19961,6 +20090,9 @@
     "refs": [
       {
         "source": "jp-notice-1311"
+      },
+      {
+        "source": "cn-dngamer-1090"
       }
     ]
   },
@@ -20476,8 +20608,12 @@
     "refs": [
       {
         "source": "jp-notice-1387"
+      },
+      {
+        "source": "cn-dngamer-1762"
       }
-    ]
+    ],
+    "name_zh": "受祝福的杰兰特成长神器"
   },
   {
     "id": "祝福されたシャリカのタリスマン",
@@ -21215,8 +21351,12 @@
     "refs": [
       {
         "source": "jp-notice-1411"
+      },
+      {
+        "source": "cn-dngamer-33"
       }
-    ]
+    ],
+    "name_zh": "受祝福金龙之心"
   },
   {
     "id": "祝福された青い霜のタリスマン",
@@ -24337,6 +24477,9 @@
       {
         "source": "jp-vipwiki-status",
         "note": "ファンWiki情報"
+      },
+      {
+        "source": "cn-dngamer-4995"
       }
     ]
   },
@@ -24352,6 +24495,9 @@
       },
       {
         "source": "jp-notice-1276"
+      },
+      {
+        "source": "cn-dngamer-1783"
       }
     ]
   },
@@ -24367,6 +24513,9 @@
       },
       {
         "source": "jp-notice-1276"
+      },
+      {
+        "source": "cn-dngamer-1783"
       }
     ]
   },
@@ -24382,6 +24531,9 @@
       },
       {
         "source": "jp-notice-1276"
+      },
+      {
+        "source": "cn-dngamer-1783"
       }
     ]
   },

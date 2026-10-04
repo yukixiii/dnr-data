@@ -95,8 +95,12 @@
       },
       {
         "source": "jp-notice-1426"
+      },
+      {
+        "source": "cn-dngamer-1327"
       }
-    ]
+    ],
+    "name_zh": "[活动]黯淡黑色挚友星"
   },
   {
     "id": "[パッシブ] 友の応援(攻撃力) +100万",
@@ -218,8 +222,12 @@
     "refs": [
       {
         "source": "jp-notice-1162"
+      },
+      {
+        "source": "cn-dngamer-4910"
       }
-    ]
+    ],
+    "name_zh": "未鉴定永恒之混沌护符"
   },
   {
     "id": "[謎]独武討伐のタリスマン",
@@ -549,8 +557,12 @@
       },
       {
         "source": "jp-notice-1276"
+      },
+      {
+        "source": "cn-dngamer-9031"
       }
-    ]
+    ],
+    "name_zh": "翁巴拉的破锤子"
   },
   {
     "id": "エヴォハンマー：ヘイズフロストドラゴン(1段階)",
@@ -629,8 +641,12 @@
       },
       {
         "source": "jp-notice-1276"
+      },
+      {
+        "source": "cn-dngamer-9031"
       }
-    ]
+    ],
+    "name_zh": "巴欧帕的破喇叭"
   },
   {
     "id": "オーマイ女神さま！ポイント",
@@ -695,8 +711,12 @@
       },
       {
         "source": "jp-notice-1455"
+      },
+      {
+        "source": "cn-dngamer-11747"
       }
-    ]
+    ],
+    "name_zh": "闪耀黄金墨水"
   },
   {
     "id": "ギルドタリスマンスロット",
@@ -716,8 +736,12 @@
     "refs": [
       {
         "source": "jp-notice-1265"
+      },
+      {
+        "source": "cn-dngamer-1327"
       }
-    ]
+    ],
+    "name_zh": "公会之生命治疗药水"
   },
   {
     "id": "ギルドミッション収集アイテム",
@@ -739,8 +763,15 @@
       },
       {
         "source": "jp-notice-1347"
+      },
+      {
+        "source": "cn-dngamer-12305"
+      },
+      {
+        "source": "cn-dngamer-10760"
       }
-    ]
+    ],
+    "name_zh": "盟约物品"
   },
   {
     "id": "ギルド納品ミッション材料",
@@ -759,8 +790,12 @@
     "refs": [
       {
         "source": "jp-notice-1265"
+      },
+      {
+        "source": "cn-dngamer-1327"
       }
-    ]
+    ],
+    "name_zh": "公会之声望硬币"
   },
   {
     "id": "クアノスのかけら",
@@ -1085,8 +1120,18 @@
       },
       {
         "source": "jp-notice-1440"
+      },
+      {
+        "source": "cn-dngamer-12305"
+      },
+      {
+        "source": "cn-dngamer-10760"
+      },
+      {
+        "source": "cn-dngamer-4910"
       }
-    ]
+    ],
+    "name_zh": "黄金小妖精入场币"
   },
   {
     "id": "ゴールド",
@@ -1106,8 +1151,12 @@
     "refs": [
       {
         "source": "jp-notice-1347"
+      },
+      {
+        "source": "cn-dngamer-33"
       }
-    ]
+    ],
+    "name_zh": "光辉金龙交换券"
   },
   {
     "id": "ゴールド袋(100,000)",
@@ -1139,8 +1188,12 @@
     "refs": [
       {
         "source": "jp-notice-1426"
+      },
+      {
+        "source": "cn-dngamer-10760"
       }
-    ]
+    ],
+    "name_zh": "盾牌碎片"
   },
   {
     "id": "ジェレイントの犠牲袋",
@@ -1154,8 +1207,12 @@
       },
       {
         "source": "jp-notice-1398"
+      },
+      {
+        "source": "cn-dngamer-11747"
       }
-    ]
+    ],
+    "name_zh": "杰兰特牺牲袋子"
   },
   {
     "id": "ジェレイントの成長挑戦箱",
@@ -1190,8 +1247,12 @@
     "refs": [
       {
         "source": "jp-notice-1231"
+      },
+      {
+        "source": "cn-dngamer-1762"
       }
-    ]
+    ],
+    "name_zh": "信赖之锤选择袋"
   },
   {
     "id": "セイヴィア紋章進化ハンマー",
@@ -1201,8 +1262,12 @@
     "refs": [
       {
         "source": "jp-notice-1231"
+      },
+      {
+        "source": "cn-dngamer-1762"
       }
-    ]
+    ],
+    "name_zh": "信赖之锤"
   },
   {
     "id": "ゼリー",
@@ -1238,8 +1303,12 @@
       },
       {
         "source": "jp-notice-1276"
+      },
+      {
+        "source": "cn-dngamer-9031"
       }
-    ]
+    ],
+    "name_zh": "提塔尼安的破坏能量"
   },
   {
     "id": "デザートグラス",
@@ -1248,8 +1317,12 @@
     "refs": [
       {
         "source": "jp-notice-1311"
+      },
+      {
+        "source": "cn-dngamer-10760"
       }
-    ]
+    ],
+    "name_zh": "沙漠琉璃"
   },
   {
     "id": "テラマイのセイヴィア紋章(上級)",
@@ -1360,8 +1433,15 @@
       },
       {
         "source": "jp-notice-1466"
+      },
+      {
+        "source": "cn-dngamer-10760"
+      },
+      {
+        "source": "cn-dngamer-30"
       }
-    ]
+    ],
+    "name_zh": "扭曲树根"
   },
   {
     "id": "ネストパーティ入場券選択袋",
@@ -1461,8 +1541,12 @@
       },
       {
         "source": "jp-notice-1362"
+      },
+      {
+        "source": "cn-dngamer-8615"
       }
-    ]
+    ],
+    "name_zh": "波奇夏的零件"
   },
   {
     "id": "パキハの機械部品(取引不可)",
@@ -1632,8 +1716,15 @@
       },
       {
         "source": "jp-notice-1265"
+      },
+      {
+        "source": "cn-dngamer-9031"
+      },
+      {
+        "source": "cn-dngamer-4910"
       }
-    ]
+    ],
+    "name_zh": "冱龙之宝玉碎片"
   },
   {
     "id": "ヘイズフロストドラゴンの完全な宝珠",
@@ -1652,9 +1743,13 @@
     "refs": [
       {
         "source": "jp-notice-1265"
+      },
+      {
+        "source": "cn-dngamer-9031"
       }
     ],
-    "description": "g6ドラフトの「ヘイズフロストドラゴンの完全な宝珠」の取引不可版と思われる(原文は2箇所とも(取引不可)付き)"
+    "description": "g6ドラフトの「ヘイズフロストドラゴンの完全な宝珠」の取引不可版と思われる(原文は2箇所とも(取引不可)付き)",
+    "name_zh": "冱龙之完整宝玉（绑定）"
   },
   {
     "id": "ヘイズフロストドラゴンの痕跡",
@@ -1849,8 +1944,12 @@
       },
       {
         "source": "jp-notice-1276"
+      },
+      {
+        "source": "cn-dngamer-9031"
       }
-    ]
+    ],
+    "name_zh": "梅鲁卡的破坏之魂"
   },
   {
     "id": "ユニーク等級月食の竜珠選択袋",
@@ -1885,8 +1984,12 @@
       },
       {
         "source": "jp-notice-1231"
+      },
+      {
+        "source": "cn-dngamer-4910"
       }
-    ]
+    ],
+    "name_zh": "青金石"
   },
   {
     "id": "ラビリンスポイント",
@@ -1976,8 +2079,12 @@
       },
       {
         "source": "jp-notice-1466"
+      },
+      {
+        "source": "cn-dngamer-1096"
       }
-    ]
+    ],
+    "name_zh": "符文晶石"
   },
   {
     "id": "ルーンの清水",
@@ -2023,8 +2130,12 @@
     "refs": [
       {
         "source": "jp-notice-1440"
+      },
+      {
+        "source": "cn-dngamer-10760"
       }
-    ]
+    ],
+    "name_zh": "恶魔铃铛"
   },
   {
     "id": "闇夜の星影の鍵",
@@ -2052,8 +2163,12 @@
       },
       {
         "source": "jp-notice-1455"
+      },
+      {
+        "source": "cn-dngamer-1097"
       }
-    ]
+    ],
+    "name_zh": "委托解决证书"
   },
   {
     "id": "異界に封印されたネルウィンブローチ箱",
@@ -2112,8 +2227,12 @@
     "refs": [
       {
         "source": "jp-notice-1231"
+      },
+      {
+        "source": "cn-dngamer-1762"
       }
-    ]
+    ],
+    "name_zh": "异次元飞跃体"
   },
   {
     "id": "異世界の古代武器の破片",
@@ -2128,8 +2247,15 @@
       },
       {
         "source": "jp-notice-1276"
+      },
+      {
+        "source": "cn-dngamer-1086"
+      },
+      {
+        "source": "cn-dngamer-4910"
       }
-    ]
+    ],
+    "name_zh": "异界古代武器碎片"
   },
   {
     "id": "遺跡の破片",
@@ -2371,8 +2497,15 @@
       },
       {
         "source": "jp-notice-1466"
+      },
+      {
+        "source": "cn-dngamer-1096"
+      },
+      {
+        "source": "cn-dngamer-4910"
       }
-    ]
+    ],
+    "name_zh": "永恒护符精髓1阶"
   },
   {
     "id": "永遠のタリスマンの核(2段階)",
@@ -2387,8 +2520,15 @@
       },
       {
         "source": "jp-notice-1466"
+      },
+      {
+        "source": "cn-dngamer-1096"
+      },
+      {
+        "source": "cn-dngamer-9031"
       }
-    ]
+    ],
+    "name_zh": "永恒护符精髓（2阶）"
   },
   {
     "id": "永遠のタリスマンの核(3段階)",
@@ -2403,8 +2543,12 @@
       },
       {
         "source": "jp-notice-1466"
+      },
+      {
+        "source": "cn-dngamer-9031"
       }
-    ]
+    ],
+    "name_zh": "永恒护符精髓（3阶）"
   },
   {
     "id": "永遠のタリスマンの核(4段階)",
@@ -2436,8 +2580,18 @@
       },
       {
         "source": "jp-notice-1466"
+      },
+      {
+        "source": "cn-dngamer-1096"
+      },
+      {
+        "source": "cn-dngamer-9031"
+      },
+      {
+        "source": "cn-dngamer-4910"
       }
-    ]
+    ],
+    "name_zh": "永恒护符粉末"
   },
   {
     "id": "永遠の渇望のかけら",
@@ -2469,8 +2623,15 @@
       },
       {
         "source": "jp-notice-1265"
+      },
+      {
+        "source": "cn-dngamer-9031"
+      },
+      {
+        "source": "cn-dngamer-4910"
       }
-    ]
+    ],
+    "name_zh": "永恒痛苦漩涡"
   },
   {
     "id": "永遠の次元の幻影",
@@ -2483,8 +2644,15 @@
       },
       {
         "source": "jp-notice-1265"
+      },
+      {
+        "source": "cn-dngamer-9031"
+      },
+      {
+        "source": "cn-dngamer-4910"
       }
-    ]
+    ],
+    "name_zh": "永恒次元幻影"
   },
   {
     "id": "永遠の次元の証票",
@@ -2503,8 +2671,15 @@
       },
       {
         "source": "jp-notice-1276"
+      },
+      {
+        "source": "cn-dngamer-9031"
+      },
+      {
+        "source": "cn-dngamer-4910"
       }
-    ]
+    ],
+    "name_zh": "永恒的次元标志"
   },
   {
     "id": "永遠の能力強化紋章(エピック)ランダム袋",
@@ -2646,8 +2821,12 @@
     "refs": [
       {
         "source": "jp-notice-1398"
+      },
+      {
+        "source": "cn-dngamer-1762"
       }
-    ]
+    ],
+    "name_zh": "英雄月蚀龙玉+1强化锤（0~14）可交易"
   },
   {
     "id": "英雄の月食の竜珠+1強化ハンマー(+0～+9)(取引可)",
@@ -2656,8 +2835,12 @@
     "refs": [
       {
         "source": "jp-notice-1398"
+      },
+      {
+        "source": "cn-dngamer-1762"
       }
-    ]
+    ],
+    "name_zh": "英雄月蚀龙玉+1强化锤（0~9）可交易"
   },
   {
     "id": "英雄ブローチコイン",
@@ -2720,8 +2903,12 @@
     "refs": [
       {
         "source": "jp-notice-1311"
+      },
+      {
+        "source": "cn-dngamer-30"
       }
-    ]
+    ],
+    "name_zh": "被污染的意志"
   },
   {
     "id": "王城の紋章袋",
@@ -2789,8 +2976,18 @@
       },
       {
         "source": "jp-notice-1217"
+      },
+      {
+        "source": "cn-dngamer-33"
+      },
+      {
+        "source": "cn-dngamer-1096"
+      },
+      {
+        "source": "cn-dngamer-9031"
       }
-    ]
+    ],
+    "name_zh": "夏之宝石"
   },
   {
     "id": "過去の化石(10段階)",
@@ -3465,8 +3662,12 @@
       },
       {
         "source": "jp-notice-1455"
+      },
+      {
+        "source": "cn-dngamer-1097"
       }
-    ]
+    ],
+    "name_zh": "破碎的金沙武器结晶"
   },
   {
     "id": "壊れた金糸防具の結晶",
@@ -3496,8 +3697,12 @@
       },
       {
         "source": "jp-notice-1466"
+      },
+      {
+        "source": "cn-dngamer-10760"
       }
-    ]
+    ],
+    "name_zh": "破碎的金沙防具结晶"
   },
   {
     "id": "覚醒：秩序のトークン",
@@ -3581,8 +3786,12 @@
       },
       {
         "source": "jp-notice-1440"
+      },
+      {
+        "source": "cn-dngamer-10760"
       }
-    ]
+    ],
+    "name_zh": "混沌双决巢穴入场券"
   },
   {
     "id": "輝く冒険者の金貨",
@@ -3638,8 +3847,12 @@
     "refs": [
       {
         "source": "jp-notice-1193"
+      },
+      {
+        "source": "cn-dngamer-1762"
       }
-    ]
+    ],
+    "name_zh": "拯救标志"
   },
   {
     "id": "救援者の象徴",
@@ -3648,8 +3861,12 @@
     "refs": [
       {
         "source": "jp-notice-1231"
+      },
+      {
+        "source": "cn-dngamer-1762"
       }
-    ]
+    ],
+    "name_zh": "拯救者标志"
   },
   {
     "id": "共鳴の石",
@@ -3680,8 +3897,12 @@
     "refs": [
       {
         "source": "jp-notice-1455"
+      },
+      {
+        "source": "cn-dngamer-4910"
       }
-    ]
+    ],
+    "name_zh": "边界精髓（无法交易）"
   },
   {
     "id": "強烈な黄金の羽根",
@@ -3713,8 +3934,15 @@
       },
       {
         "source": "jp-notice-1455"
+      },
+      {
+        "source": "cn-dngamer-10760"
+      },
+      {
+        "source": "cn-dngamer-1097"
       }
-    ]
+    ],
+    "name_zh": "异界之力"
   },
   {
     "id": "脅威の変異型竜珠変換キューブ",
@@ -3859,8 +4087,12 @@
     "refs": [
       {
         "source": "jp-notice-1347"
+      },
+      {
+        "source": "cn-dngamer-4995"
       }
-    ]
+    ],
+    "name_zh": "金色记忆"
   },
   {
     "id": "金色の記憶のかけら",
@@ -3991,8 +4223,12 @@
       },
       {
         "source": "jp-notice-1411"
+      },
+      {
+        "source": "cn-dngamer-33"
       }
-    ]
+    ],
+    "name_zh": "金色的回忆"
   },
   {
     "id": "金色の能力強化紋章プレート",
@@ -4030,12 +4266,16 @@
       },
       {
         "source": "jp-notice-1411"
+      },
+      {
+        "source": "cn-dngamer-33"
       }
     ],
     "description": "金竜装備の強化、金竜の守護玉/鋭利宝石の生産に使用。",
     "obtain": [
       "ゴールドドラゴンネスト"
-    ]
+    ],
+    "name_zh": "金龙逆鳞粉末"
   },
   {
     "id": "金竜の守護玉",
@@ -4119,8 +4359,12 @@
       },
       {
         "source": "jp-notice-1217"
+      },
+      {
+        "source": "cn-dngamer-1327"
       }
-    ]
+    ],
+    "name_zh": "金莲宝"
   },
   {
     "id": "掲示板ポイント",
@@ -4138,8 +4382,15 @@
       },
       {
         "source": "jp-notice-1440"
+      },
+      {
+        "source": "cn-dngamer-11747"
+      },
+      {
+        "source": "cn-dngamer-10760"
       }
-    ]
+    ],
+    "name_zh": "血汗泪点数"
   },
   {
     "id": "掲示板ポイント(25000)",
@@ -4214,9 +4465,13 @@
       },
       {
         "source": "jp-notice-1411"
+      },
+      {
+        "source": "cn-dngamer-1095"
       }
     ],
-    "description": "原文では「月食のかけら6種」「上級月食のかけら6種」とまとめて表記(6種の総称スタブ)。"
+    "description": "原文では「月食のかけら6種」「上級月食のかけら6種」とまとめて表記(6種の総称スタブ)。",
+    "name_zh": "月蚀碎片"
   },
   {
     "id": "月食のかけら6種",
@@ -4287,8 +4542,21 @@
       },
       {
         "source": "jp-notice-1440"
+      },
+      {
+        "source": "cn-dngamer-4995"
+      },
+      {
+        "source": "cn-dngamer-1096"
+      },
+      {
+        "source": "cn-dngamer-9031"
+      },
+      {
+        "source": "cn-dngamer-1095"
       }
-    ]
+    ],
+    "name_zh": "月蚀结晶"
   },
   {
     "id": "月食の残骸",
@@ -4318,8 +4586,21 @@
       },
       {
         "source": "jp-notice-1440"
+      },
+      {
+        "source": "cn-dngamer-4995"
+      },
+      {
+        "source": "cn-dngamer-1096"
+      },
+      {
+        "source": "cn-dngamer-9031"
+      },
+      {
+        "source": "cn-dngamer-1095"
       }
-    ]
+    ],
+    "name_zh": "月蚀残渣"
   },
   {
     "id": "月食の聖痕",
@@ -4349,8 +4630,24 @@
       },
       {
         "source": "jp-notice-1332"
+      },
+      {
+        "source": "cn-dngamer-4995"
+      },
+      {
+        "source": "cn-dngamer-1096"
+      },
+      {
+        "source": "cn-dngamer-1327"
+      },
+      {
+        "source": "cn-dngamer-9031"
+      },
+      {
+        "source": "cn-dngamer-4910"
       }
-    ]
+    ],
+    "name_zh": "月蚀印痕"
   },
   {
     "id": "月食の防御宝玉(サブウェポン)",
@@ -5107,8 +5404,15 @@
       },
       {
         "source": "jp-notice-1466"
+      },
+      {
+        "source": "cn-dngamer-9031"
+      },
+      {
+        "source": "cn-dngamer-4910"
       }
-    ]
+    ],
+    "name_zh": "古代人的图纸"
   },
   {
     "id": "古代人の図面の断片",
@@ -5149,8 +5453,21 @@
       },
       {
         "source": "jp-notice-1455"
+      },
+      {
+        "source": "cn-dngamer-1096"
+      },
+      {
+        "source": "cn-dngamer-9031"
+      },
+      {
+        "source": "cn-dngamer-4910"
+      },
+      {
+        "source": "cn-dngamer-1097"
       }
-    ]
+    ],
+    "name_zh": "古代人的图纸碎片"
   },
   {
     "id": "古代人の礎",
@@ -5186,8 +5503,15 @@
       },
       {
         "source": "jp-notice-1455"
+      },
+      {
+        "source": "cn-dngamer-10760"
+      },
+      {
+        "source": "cn-dngamer-1097"
       }
-    ]
+    ],
+    "name_zh": "古代人的础石"
   },
   {
     "id": "古代人の断片選択袋",
@@ -5230,8 +5554,18 @@
       },
       {
         "source": "jp-notice-1466"
+      },
+      {
+        "source": "cn-dngamer-1086"
+      },
+      {
+        "source": "cn-dngamer-1783"
+      },
+      {
+        "source": "cn-dngamer-9031"
       }
-    ]
+    ],
+    "name_zh": "古代知识"
   },
   {
     "id": "古代人の宝物材料袋",
@@ -5312,8 +5646,18 @@
       },
       {
         "source": "jp-notice-1466"
+      },
+      {
+        "source": "cn-dngamer-1086"
+      },
+      {
+        "source": "cn-dngamer-1783"
+      },
+      {
+        "source": "cn-dngamer-9031"
       }
-    ]
+    ],
+    "name_zh": "古代人纹祥"
   },
   {
     "id": "古代人の力",
@@ -5328,9 +5672,13 @@
       },
       {
         "source": "jp-notice-1265"
+      },
+      {
+        "source": "cn-dngamer-9031"
       }
     ],
-    "description": "古代人の力の結晶を材料に生産([鍛冶屋]→[鍛冶屋取引]→[アイテム生産]→[古代人の防具])。月間女神様購読券保有で箱舟墜落地点LB20以上のステージ2種クリア時に低確率"
+    "description": "古代人の力の結晶を材料に生産([鍛冶屋]→[鍛冶屋取引]→[アイテム生産]→[古代人の防具])。月間女神様購読券保有で箱舟墜落地点LB20以上のステージ2種クリア時に低確率",
+    "name_zh": "古代人的魔力"
   },
   {
     "id": "古代人の力の結晶",
@@ -5345,8 +5693,12 @@
       },
       {
         "source": "jp-notice-1455"
+      },
+      {
+        "source": "cn-dngamer-1097"
       }
-    ]
+    ],
+    "name_zh": "古代人的魔力结晶"
   },
   {
     "id": "古代人の力の結晶箱",
@@ -5408,8 +5760,12 @@
       },
       {
         "source": "jp-notice-1231"
+      },
+      {
+        "source": "cn-dngamer-3909"
       }
-    ]
+    ],
+    "name_zh": "古龙之骨片"
   },
   {
     "id": "古竜の骨片袋",
@@ -5738,8 +6094,12 @@
       },
       {
         "source": "jp-notice-1466"
+      },
+      {
+        "source": "cn-dngamer-9031"
       }
-    ]
+    ],
+    "name_zh": "更精致的次元之核"
   },
   {
     "id": "高純度の新緑の核",
@@ -5871,8 +6231,18 @@
       },
       {
         "source": "jp-notice-1455"
+      },
+      {
+        "source": "cn-dngamer-10760"
+      },
+      {
+        "source": "cn-dngamer-4910"
+      },
+      {
+        "source": "cn-dngamer-1097"
       }
-    ]
+    ],
+    "name_zh": "次元之力"
   },
   {
     "id": "砂の息吹のつぼみ",
@@ -5884,8 +6254,12 @@
       },
       {
         "source": "jp-notice-1440"
+      },
+      {
+        "source": "cn-dngamer-10760"
       }
-    ]
+    ],
+    "name_zh": "沙息花花苞"
   },
   {
     "id": "砂の息吹の種",
@@ -5906,8 +6280,12 @@
       },
       {
         "source": "jp-notice-1440"
+      },
+      {
+        "source": "cn-dngamer-10760"
       }
-    ]
+    ],
+    "name_zh": "沙息花种子"
   },
   {
     "id": "最上級冒険の箱(アイテム保護魔法ゼリー)",
@@ -6060,8 +6438,12 @@
     "refs": [
       {
         "source": "jp-notice-1440"
+      },
+      {
+        "source": "cn-dngamer-10760"
       }
-    ]
+    ],
+    "name_zh": "邪血花之心"
   },
   {
     "id": "時の砂",
@@ -6077,8 +6459,12 @@
       },
       {
         "source": "jp-notice-1231"
+      },
+      {
+        "source": "cn-dngamer-8615"
       }
-    ]
+    ],
+    "name_zh": "时间沙"
   },
   {
     "id": "時間の砂",
@@ -6155,8 +6541,12 @@
     "refs": [
       {
         "source": "jp-notice-1300"
+      },
+      {
+        "source": "cn-dngamer-33"
       }
-    ]
+    ],
+    "name_zh": "次元之核职业选择袋子"
   },
   {
     "id": "次元の気",
@@ -6165,8 +6555,15 @@
     "refs": [
       {
         "source": "jp-notice-1387"
+      },
+      {
+        "source": "cn-dngamer-1096"
+      },
+      {
+        "source": "cn-dngamer-4910"
       }
-    ]
+    ],
+    "name_zh": "游离的次元气息"
   },
   {
     "id": "次元の砂",
@@ -6209,8 +6606,12 @@
       },
       {
         "source": "jp-notice-1466"
+      },
+      {
+        "source": "cn-dngamer-10760"
       }
-    ]
+    ],
+    "name_zh": "禁锢之次元沙"
   },
   {
     "id": "次元の残痕",
@@ -6237,8 +6638,15 @@
       },
       {
         "source": "jp-notice-1455"
+      },
+      {
+        "source": "cn-dngamer-10760"
+      },
+      {
+        "source": "cn-dngamer-1097"
       }
-    ]
+    ],
+    "name_zh": "次元之石榴石"
   },
   {
     "id": "次元の地図の欠片",
@@ -6259,8 +6667,15 @@
       },
       {
         "source": "jp-notice-1440"
+      },
+      {
+        "source": "cn-dngamer-9031"
+      },
+      {
+        "source": "cn-dngamer-4910"
       }
-    ]
+    ],
+    "name_zh": "次元地图碎片"
   },
   {
     "id": "次元の崩壊称号",
@@ -6306,8 +6721,12 @@
     "refs": [
       {
         "source": "jp-notice-1300"
+      },
+      {
+        "source": "cn-dngamer-33"
       }
-    ]
+    ],
+    "name_zh": "次元龙玉职业选择袋子"
   },
   {
     "id": "次元パフェ",
@@ -6380,8 +6799,15 @@
     "refs": [
       {
         "source": "jp-notice-1311"
+      },
+      {
+        "source": "cn-dngamer-10760"
+      },
+      {
+        "source": "cn-dngamer-30"
       }
-    ]
+    ],
+    "name_zh": "根深蒂固之渴望碎片"
   },
   {
     "id": "邪根の変異型竜珠変換キューブ",
@@ -6427,8 +6853,12 @@
       },
       {
         "source": "jp-notice-1411"
+      },
+      {
+        "source": "cn-dngamer-33"
       }
-    ]
+    ],
+    "name_zh": "守护者的气息"
   },
   {
     "id": "守護者の気の結晶",
@@ -6441,8 +6871,12 @@
       },
       {
         "source": "jp-notice-1411"
+      },
+      {
+        "source": "cn-dngamer-33"
       }
-    ]
+    ],
+    "name_zh": "守护者气息结晶"
   },
   {
     "id": "手笠キノコ",
@@ -6457,8 +6891,12 @@
       },
       {
         "source": "jp-notice-1466"
+      },
+      {
+        "source": "cn-dngamer-10760"
       }
-    ]
+    ],
+    "name_zh": "鬼手菇"
   },
   {
     "id": "手作りアイテム保護魔法ゼリー",
@@ -6497,8 +6935,18 @@
       },
       {
         "source": "jp-notice-1455"
+      },
+      {
+        "source": "cn-dngamer-12305"
+      },
+      {
+        "source": "cn-dngamer-9031"
+      },
+      {
+        "source": "cn-dngamer-1097"
       }
-    ]
+    ],
+    "name_zh": "秋之宝石"
   },
   {
     "id": "集結報酬箱",
@@ -6508,8 +6956,12 @@
     "refs": [
       {
         "source": "jp-notice-1455"
+      },
+      {
+        "source": "cn-dngamer-1097"
       }
-    ]
+    ],
+    "name_zh": "集结委托宝箱"
   },
   {
     "id": "祝福された金色のプレート",
@@ -6524,8 +6976,12 @@
       },
       {
         "source": "jp-notice-1362"
+      },
+      {
+        "source": "cn-dngamer-10760"
       }
-    ]
+    ],
+    "name_zh": "受祝福的金色金属板"
   },
   {
     "id": "祝福の石",
@@ -6540,8 +6996,12 @@
       },
       {
         "source": "jp-notice-1347"
+      },
+      {
+        "source": "cn-dngamer-10760"
       }
-    ]
+    ],
+    "name_zh": "祝福之石"
   },
   {
     "id": "春の宝石",
@@ -6550,8 +7010,12 @@
     "refs": [
       {
         "source": "jp-notice-1193"
+      },
+      {
+        "source": "cn-dngamer-4910"
       }
-    ]
+    ],
+    "name_zh": "春之宝石"
   },
   {
     "id": "小型進化加速器",
@@ -6671,8 +7135,12 @@
     "refs": [
       {
         "source": "jp-notice-1151"
+      },
+      {
+        "source": "cn-dngamer-3909"
       }
-    ]
+    ],
+    "name_zh": "高级石榴石"
   },
   {
     "id": "上級渇望のかけら",
@@ -6706,9 +7174,16 @@
       },
       {
         "source": "jp-notice-1411"
+      },
+      {
+        "source": "cn-dngamer-1096"
+      },
+      {
+        "source": "cn-dngamer-1095"
       }
     ],
-    "description": "原文では「月食のかけら6種」「上級月食のかけら6種」とまとめて表記(6種の総称スタブ)。"
+    "description": "原文では「月食のかけら6種」「上級月食のかけら6種」とまとめて表記(6種の総称スタブ)。",
+    "name_zh": "高级月蚀碎片"
   },
   {
     "id": "上級月食のかけら(100個)袋",
@@ -6840,8 +7315,12 @@
       },
       {
         "source": "jp-notice-1231"
+      },
+      {
+        "source": "cn-dngamer-3909"
       }
-    ]
+    ],
+    "name_zh": "高级生命精髓"
   },
   {
     "id": "上級燃える月食のかけら",
@@ -6892,8 +7371,12 @@
     "refs": [
       {
         "source": "jp-notice-1347"
+      },
+      {
+        "source": "cn-dngamer-4995"
       }
-    ]
+    ],
+    "name_zh": "褪色的记忆"
   },
   {
     "id": "色褪せた追憶",
@@ -6906,8 +7389,12 @@
       },
       {
         "source": "jp-notice-1411"
+      },
+      {
+        "source": "cn-dngamer-33"
       }
-    ]
+    ],
+    "name_zh": "褪色的回忆"
   },
   {
     "id": "信念のテラマイブローチ箱",
@@ -6927,8 +7414,12 @@
     "refs": [
       {
         "source": "jp-notice-1426"
+      },
+      {
+        "source": "cn-dngamer-1096"
       }
-    ]
+    ],
+    "name_zh": "审判魔杖"
   },
   {
     "id": "新緑の核(ランダム)",
@@ -6969,8 +7460,12 @@
       },
       {
         "source": "jp-notice-1387"
+      },
+      {
+        "source": "cn-dngamer-10760"
       }
-    ]
+    ],
+    "name_zh": "阳光宝石"
   },
   {
     "id": "真夜中の流星の輝きの宝石",
@@ -6982,8 +7477,12 @@
       },
       {
         "source": "jp-notice-1387"
+      },
+      {
+        "source": "cn-dngamer-4910"
       }
-    ]
+    ],
+    "name_zh": "星光宝石"
   },
   {
     "id": "進化する古代の形状(武器)",
@@ -7061,12 +7560,16 @@
       },
       {
         "source": "jp-notice-1455"
+      },
+      {
+        "source": "cn-dngamer-11747"
       }
     ],
     "tradable": "取引、アカウント倉庫不可",
     "obtain": [
       "幽冥の異境(悪夢)"
-    ]
+    ],
+    "name_zh": "星云之痕迹带"
   },
   {
     "id": "星屑の石(宝物)",
@@ -7151,8 +7654,12 @@
       },
       {
         "source": "jp-notice-1440"
+      },
+      {
+        "source": "cn-dngamer-1762"
       }
-    ]
+    ],
+    "name_zh": "精炼钢笔"
   },
   {
     "id": "青い霜の枝",
@@ -7186,8 +7693,12 @@
     "refs": [
       {
         "source": "jp-notice-1440"
+      },
+      {
+        "source": "cn-dngamer-10760"
       }
-    ]
+    ],
+    "name_zh": "多尾手镯"
   },
   {
     "id": "堕落したブラックドラゴンの記憶",
@@ -7202,8 +7713,12 @@
       },
       {
         "source": "jp-notice-1276"
+      },
+      {
+        "source": "cn-dngamer-9031"
       }
-    ]
+    ],
+    "name_zh": "堕落的黑龙之记忆"
   },
   {
     "id": "堕落した世界の片鱗",
@@ -7213,8 +7728,12 @@
     "refs": [
       {
         "source": "jp-notice-1193"
+      },
+      {
+        "source": "cn-dngamer-1762"
       }
-    ]
+    ],
+    "name_zh": "堕落世界碎片"
   },
   {
     "id": "濁った希望",
@@ -7282,8 +7801,12 @@
       },
       {
         "source": "jp-notice-1440"
+      },
+      {
+        "source": "cn-dngamer-8615"
       }
-    ]
+    ],
+    "name_zh": "秩序币"
   },
   {
     "id": "中型進化加速器",
@@ -7650,12 +8173,16 @@
       },
       {
         "source": "jp-notice-1455"
+      },
+      {
+        "source": "cn-dngamer-11747"
       }
     ],
     "tradable": "取引、アカウント倉庫不可",
     "obtain": [
       "幽冥の異境(悪夢)"
-    ]
+    ],
+    "name_zh": "刻印标记装置"
   },
   {
     "id": "瓶詰めの石化像",
@@ -7671,8 +8198,12 @@
       },
       {
         "source": "jp-notice-1455"
+      },
+      {
+        "source": "cn-dngamer-10760"
       }
-    ]
+    ],
+    "name_zh": "瓶装石化者"
   },
   {
     "id": "腐敗の根源",
@@ -7683,8 +8214,12 @@
     "refs": [
       {
         "source": "jp-notice-1311"
+      },
+      {
+        "source": "cn-dngamer-30"
       }
-    ]
+    ],
+    "name_zh": "腐败的初始"
   },
   {
     "id": "腐敗の幕",
@@ -7760,8 +8295,12 @@
       },
       {
         "source": "jp-notice-1231"
+      },
+      {
+        "source": "cn-dngamer-33"
       }
-    ]
+    ],
+    "name_zh": "变形进化加速器"
   },
   {
     "id": "保護の変異型竜珠変換キューブ",
@@ -7800,8 +8339,12 @@
       },
       {
         "source": "jp-notice-1311"
+      },
+      {
+        "source": "cn-dngamer-10760"
       }
-    ]
+    ],
+    "name_zh": "崩坏边界之罗盘"
   },
   {
     "id": "崩れた境界の羅針盤ランダム袋",
@@ -7813,8 +8356,15 @@
       },
       {
         "source": "jp-notice-1440"
+      },
+      {
+        "source": "cn-dngamer-12305"
+      },
+      {
+        "source": "cn-dngamer-10760"
       }
-    ]
+    ],
+    "name_zh": "崩坏边界之罗盘随机袋子"
   },
   {
     "id": "崩れた境界の羅針盤選択袋",
@@ -7833,8 +8383,15 @@
       },
       {
         "source": "jp-notice-1440"
+      },
+      {
+        "source": "cn-dngamer-12305"
+      },
+      {
+        "source": "cn-dngamer-10760"
       }
-    ]
+    ],
+    "name_zh": "崩坏边界之罗盘选择袋子"
   },
   {
     "id": "崩壊した次元の気",
@@ -7852,11 +8409,18 @@
       },
       {
         "source": "jp-notice-1440"
+      },
+      {
+        "source": "cn-dngamer-10760"
+      },
+      {
+        "source": "cn-dngamer-30"
       }
     ],
     "grade": "レジェンド",
     "tradable": "取引可",
-    "description": "獲得: サンドヒル防波堤 / 用途: 崩壊した次元の記憶生産 / アカウント倉庫○"
+    "description": "獲得: サンドヒル防波堤 / 用途: 崩壊した次元の記憶生産 / アカウント倉庫○",
+    "name_zh": "崩溃次元的气息"
   },
   {
     "id": "崩壊した次元の気の結晶箱",
@@ -7902,8 +8466,18 @@
       },
       {
         "source": "jp-notice-1455"
+      },
+      {
+        "source": "cn-dngamer-10760"
+      },
+      {
+        "source": "cn-dngamer-1097"
+      },
+      {
+        "source": "cn-dngamer-30"
       }
-    ]
+    ],
+    "name_zh": "崩溃次元的气息碎片"
   },
   {
     "id": "崩壊した武器刻印袋(14日)",
@@ -7980,8 +8554,12 @@
       },
       {
         "source": "jp-notice-1387"
+      },
+      {
+        "source": "cn-dngamer-4910"
       }
-    ]
+    ],
+    "name_zh": "湮灭碎片"
   },
   {
     "id": "崩壊の竜珠合成器",
@@ -8058,8 +8636,12 @@
       },
       {
         "source": "jp-notice-1440"
+      },
+      {
+        "source": "cn-dngamer-10760"
       }
-    ]
+    ],
+    "name_zh": "探险钥匙"
   },
   {
     "id": "冒険者のアイテム保護魔法ゼリー",
@@ -8075,8 +8657,15 @@
       },
       {
         "source": "jp-notice-1265"
+      },
+      {
+        "source": "cn-dngamer-3909"
+      },
+      {
+        "source": "cn-dngamer-1327"
       }
-    ]
+    ],
+    "name_zh": "保护药"
   },
   {
     "id": "冒険者の金貨",
@@ -8298,8 +8887,15 @@
       },
       {
         "source": "jp-notice-1411"
+      },
+      {
+        "source": "cn-dngamer-1783"
+      },
+      {
+        "source": "cn-dngamer-9031"
       }
-    ]
+    ],
+    "name_zh": "神秘古代饰品碎片"
   },
   {
     "id": "未知の古代イヤリング袋(+12)",
@@ -8346,8 +8942,12 @@
       },
       {
         "source": "jp-notice-1265"
+      },
+      {
+        "source": "cn-dngamer-9031"
       }
-    ]
+    ],
+    "name_zh": "古代饰品进化珠"
   },
   {
     "id": "未知の石のかけら",
@@ -8905,8 +9505,12 @@
     "refs": [
       {
         "source": "jp-notice-1455"
+      },
+      {
+        "source": "cn-dngamer-33"
       }
-    ]
+    ],
+    "name_zh": "矛盾之宝石萃取液"
   },
   {
     "id": "矛盾を抱いた心臓",
@@ -8971,8 +9575,12 @@
       },
       {
         "source": "jp-notice-1387"
+      },
+      {
+        "source": "cn-dngamer-10760"
       }
-    ]
+    ],
+    "name_zh": "露色宝石"
   },
   {
     "id": "勇者の装備保護魔法ゼリー",
@@ -9003,8 +9611,12 @@
       },
       {
         "source": "jp-notice-1466"
+      },
+      {
+        "source": "cn-dngamer-33"
       }
-    ]
+    ],
+    "name_zh": "红莲/赤月/新绿龙玉选择袋子 +15"
   },
   {
     "id": "幽幻の核(ランダム)",
@@ -9027,8 +9639,15 @@
       },
       {
         "source": "jp-notice-1440"
+      },
+      {
+        "source": "cn-dngamer-12305"
+      },
+      {
+        "source": "cn-dngamer-10760"
       }
-    ]
+    ],
+    "name_zh": "万丈深渊之噩梦邀请函"
   },
   {
     "id": "幽冥の門の鍵",
@@ -9128,8 +9747,12 @@
       },
       {
         "source": "jp-notice-1347"
+      },
+      {
+        "source": "cn-dngamer-10760"
       }
-    ]
+    ],
+    "name_zh": "蕴含夕阳气息的符文强化之锤（+6~+14）袋子"
   },
   {
     "id": "洛陽の鍵",
@@ -9163,8 +9786,12 @@
     "refs": [
       {
         "source": "jp-notice-1411"
+      },
+      {
+        "source": "cn-dngamer-33"
       }
-    ]
+    ],
+    "name_zh": "金龙之心稳定器碎片"
   },
   {
     "id": "竜鱗の細工板",

@@ -84,6 +84,9 @@
       },
       {
         "source": "jp-notice-1426"
+      },
+      {
+        "source": "cn-dngamer-33"
       }
     ]
   },
@@ -101,6 +104,9 @@
       },
       {
         "source": "jp-notice-1455"
+      },
+      {
+        "source": "cn-dngamer-33"
       }
     ]
   },
@@ -126,6 +132,9 @@
     "refs": [
       {
         "source": "jp-notice-1411"
+      },
+      {
+        "source": "cn-dngamer-33"
       }
     ]
   },
@@ -153,6 +162,9 @@
       },
       {
         "source": "jp-notice-1231"
+      },
+      {
+        "source": "cn-dngamer-1762"
       }
     ]
   },
@@ -166,6 +178,9 @@
     "refs": [
       {
         "source": "jp-notice-1231"
+      },
+      {
+        "source": "cn-dngamer-1762"
       }
     ]
   },
@@ -183,6 +198,9 @@
       },
       {
         "source": "jp-notice-1398"
+      },
+      {
+        "source": "cn-dngamer-9031"
       }
     ]
   },
@@ -211,6 +229,9 @@
     "refs": [
       {
         "source": "jp-notice-1455"
+      },
+      {
+        "source": "cn-dngamer-33"
       }
     ]
   },
@@ -223,6 +244,9 @@
     "refs": [
       {
         "source": "jp-notice-1300"
+      },
+      {
+        "source": "cn-dngamer-33"
       }
     ]
   },
@@ -290,6 +314,9 @@
     "refs": [
       {
         "source": "jp-notice-1231"
+      },
+      {
+        "source": "cn-dngamer-33"
       }
     ]
   },
@@ -330,6 +357,9 @@
       },
       {
         "source": "jp-notice-1398"
+      },
+      {
+        "source": "cn-dngamer-1096"
       }
     ],
     "entry": "入場券: AS-01以上はラビリンスの混沌石 1個"
@@ -371,6 +401,9 @@
       },
       {
         "source": "jp-notice-1455"
+      },
+      {
+        "source": "cn-dngamer-1095"
       }
     ]
   },
@@ -410,6 +443,9 @@
       },
       {
         "source": "jp-notice-1440"
+      },
+      {
+        "source": "cn-dngamer-10760"
       }
     ]
   },
@@ -433,6 +469,9 @@
       },
       {
         "source": "jp-notice-1440"
+      },
+      {
+        "source": "cn-dngamer-1762"
       }
     ]
   },
@@ -517,6 +556,9 @@
       },
       {
         "source": "jp-notice-1398"
+      },
+      {
+        "source": "cn-dngamer-4910"
       }
     ],
     "entry": "サンドヒルシェルター → サンドヒル防波堤 → 次元の狭間ゲート。入場: 次元の地図の欠片x25、再戦: 永遠の次元の証票x1。1人",
@@ -554,6 +596,9 @@
     "refs": [
       {
         "source": "jp-notice-1455"
+      },
+      {
+        "source": "cn-dngamer-1097"
       }
     ]
   },
@@ -574,6 +619,9 @@
       },
       {
         "source": "jp-notice-1398"
+      },
+      {
+        "source": "cn-dngamer-10760"
       }
     ],
     "notes": "次元の崩壊：侵犯 適用ステージ。ディメンションシフト時に次元共鳴(Lv.120: 5%、Lv.200: 10%)で移動(入場時に疲労度消費)。2026年1月アップデートで、入場後クリア時に追加報酬箱(次元レベル200以上のパーティ)が出現するよう変更。"
@@ -666,6 +714,9 @@
       },
       {
         "source": "jp-notice-1455"
+      },
+      {
+        "source": "cn-dngamer-12305"
       }
     ]
   },
@@ -707,6 +758,9 @@
     "refs": [
       {
         "source": "jp-notice-1265"
+      },
+      {
+        "source": "cn-dngamer-1327"
       }
     ]
   },
@@ -726,6 +780,9 @@
       },
       {
         "source": "jp-notice-1347"
+      },
+      {
+        "source": "cn-dngamer-30"
       }
     ],
     "notes": "2026年1月アップデートで、ボス討伐報酬がボス討伐時の即時出現からボス討伐後の宝箱からの獲得に変更。"
@@ -742,6 +799,9 @@
       },
       {
         "source": "jp-notice-1398"
+      },
+      {
+        "source": "cn-dngamer-4910"
       }
     ]
   },
@@ -770,6 +830,9 @@
       },
       {
         "source": "jp-notice-1440"
+      },
+      {
+        "source": "cn-dngamer-11747"
       }
     ]
   }

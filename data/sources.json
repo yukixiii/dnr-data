@@ -9,6 +9,15 @@
     "fetched_at": "2026-10-04"
   },
   {
+    "id": "cn-dngamer-1327",
+    "url": "https://dngamer.site/threads/1327/",
+    "region": "CN",
+    "kind": "community",
+    "title": "工会 勇者讨伐战 奖励",
+    "published_at": "2026-09-17",
+    "fetched_at": "2026-10-04"
+  },
+  {
     "id": "jp-notice-1466",
     "url": "https://dnr-hangame.brabragames.jp/news/notice.html?mode=read&no=1466",
     "region": "JP",
@@ -27,12 +36,93 @@
     "fetched_at": "2026-10-04"
   },
   {
+    "id": "cn-dngamer-10760",
+    "url": "https://dngamer.site/threads/10760/",
+    "region": "CN",
+    "kind": "community",
+    "title": "次元崩溃关卡",
+    "published_at": "2026-09-10",
+    "fetched_at": "2026-10-04"
+  },
+  {
+    "id": "cn-dngamer-564",
+    "url": "https://dngamer.site/threads/564/",
+    "region": "CN",
+    "kind": "community",
+    "title": "纹章",
+    "published_at": "2026-09-04",
+    "fetched_at": "2026-10-04"
+  },
+  {
+    "id": "cn-dngamer-1091",
+    "url": "https://dngamer.site/threads/1091/",
+    "region": "CN",
+    "kind": "community",
+    "title": "护符",
+    "published_at": "2026-08-25",
+    "fetched_at": "2026-10-04"
+  },
+  {
+    "id": "cn-dngamer-33",
+    "url": "https://dngamer.site/threads/33/",
+    "region": "CN",
+    "kind": "community",
+    "title": "【龙本】 血量 & 奖励",
+    "published_at": "2026-08-25",
+    "fetched_at": "2026-10-04"
+  },
+  {
     "id": "jp-notice-1455",
     "url": "https://dnr-hangame.brabragames.jp/news/notice.html?mode=read&no=1455",
     "region": "JP",
     "kind": "official",
     "title": "(更新2)2026年8月19日アップデートのお知らせ",
     "published_at": "2026-08-19",
+    "fetched_at": "2026-10-04"
+  },
+  {
+    "id": "cn-dngamer-1097",
+    "url": "https://dngamer.site/threads/1097/",
+    "region": "CN",
+    "kind": "community",
+    "title": "委托公告栏",
+    "published_at": "2026-08-18",
+    "fetched_at": "2026-10-04"
+  },
+  {
+    "id": "cn-dngamer-11747",
+    "url": "https://dngamer.site/threads/11747/",
+    "region": "CN",
+    "kind": "community",
+    "title": "万丈深渊噩梦",
+    "published_at": "2026-08-13",
+    "fetched_at": "2026-10-04"
+  },
+  {
+    "id": "cn-dngamer-1762",
+    "url": "https://dngamer.site/threads/1762/",
+    "region": "CN",
+    "kind": "community",
+    "title": "远征副本：神圣天堂巢穴、王城遗迹巢穴",
+    "published_at": "2026-08-06",
+    "fetched_at": "2026-10-04"
+  },
+  {
+    "id": "cn-dngamer-11728",
+    "url": "https://dngamer.site/threads/11728/",
+    "region": "CN",
+    "kind": "community",
+    "title": "龙魂圣器",
+    "published_at": "2026-07-30",
+    "fetched_at": "2026-10-04"
+  },
+  {
+    "id": "cn-dngamer-8615",
+    "url": "https://dngamer.site/threads/8615/",
+    "region": "CN",
+    "kind": "community",
+    "title": "方舟之力",
+    "published_at": "2026-07-28",
     "fetched_at": "2026-10-04"
   },
   {
@@ -45,12 +135,39 @@
     "fetched_at": "2026-10-04"
   },
   {
+    "id": "cn-dngamer-12305",
+    "url": "https://dngamer.site/threads/12305/",
+    "region": "CN",
+    "kind": "community",
+    "title": "关卡采集",
+    "published_at": "2026-07-15",
+    "fetched_at": "2026-10-04"
+  },
+  {
     "id": "jp-notice-1426",
     "url": "https://dnr-hangame.brabragames.jp/news/notice.html?mode=read&no=1426",
     "region": "JP",
     "kind": "official",
     "title": "(更新3)2026年6月17日アップデートのお知らせ",
     "published_at": "2026-06-17",
+    "fetched_at": "2026-10-04"
+  },
+  {
+    "id": "cn-dngamer-3909",
+    "url": "https://dngamer.site/threads/3909/",
+    "region": "CN",
+    "kind": "community",
+    "title": "古代人二阶、古龙、金龙装备",
+    "published_at": "2026-06-12",
+    "fetched_at": "2026-10-04"
+  },
+  {
+    "id": "cn-dngamer-1090",
+    "url": "https://dngamer.site/threads/1090/",
+    "region": "CN",
+    "kind": "community",
+    "title": "变异龙玉",
+    "published_at": "2026-06-12",
     "fetched_at": "2026-10-04"
   },
   {
@@ -72,12 +189,39 @@
     "fetched_at": "2026-10-04"
   },
   {
+    "id": "cn-dngamer-1096",
+    "url": "https://dngamer.site/threads/1096/",
+    "region": "CN",
+    "kind": "community",
+    "title": "【迷宫】 奖励",
+    "published_at": "2026-05-20",
+    "fetched_at": "2026-10-04"
+  },
+  {
+    "id": "cn-dngamer-4910",
+    "url": "https://dngamer.site/threads/4910/",
+    "region": "CN",
+    "kind": "community",
+    "title": "次元缝隙",
+    "published_at": "2026-05-07",
+    "fetched_at": "2026-10-04"
+  },
+  {
     "id": "jp-notice-1398",
     "url": "https://dnr-hangame.brabragames.jp/news/notice.html?mode=read&no=1398",
     "region": "JP",
     "kind": "official",
     "title": "(更新2)2026年4月22日アップデート＆イベント情報",
     "published_at": "2026-04-22",
+    "fetched_at": "2026-10-04"
+  },
+  {
+    "id": "cn-dngamer-4995",
+    "url": "https://dngamer.site/threads/4995/",
+    "region": "CN",
+    "kind": "community",
+    "title": "属性龙玉（侵蚀、古代月蚀，湮灭、金龙之心）",
+    "published_at": "2026-04-20",
     "fetched_at": "2026-10-04"
   },
   {
@@ -117,12 +261,48 @@
     "fetched_at": "2026-10-04"
   },
   {
+    "id": "cn-dngamer-1095",
+    "url": "https://dngamer.site/threads/1095/",
+    "region": "CN",
+    "kind": "community",
+    "title": "夜影修炼场 奖励",
+    "published_at": "2026-03-17",
+    "fetched_at": "2026-10-04"
+  },
+  {
+    "id": "cn-dngamer-30",
+    "url": "https://dngamer.site/threads/30/",
+    "region": "CN",
+    "kind": "community",
+    "title": "腐败的树根洞",
+    "published_at": "2026-03-14",
+    "fetched_at": "2026-10-04"
+  },
+  {
+    "id": "cn-dngamer-1783",
+    "url": "https://dngamer.site/threads/1783/",
+    "region": "CN",
+    "kind": "community",
+    "title": "古代人首饰强化",
+    "published_at": "2026-02-27",
+    "fetched_at": "2026-10-04"
+  },
+  {
     "id": "jp-notice-1376",
     "url": "https://dnr-hangame.brabragames.jp/news/notice.html?mode=read&no=1376",
     "region": "JP",
     "kind": "official",
     "title": "(更新)2026年2月10日アップデートのお知らせ",
     "published_at": "2026-02-10",
+    "fetched_at": "2026-10-04"
+  },
+  {
+    "id": "cn-dngamer-1086",
+    "url": "https://dngamer.site/threads/1086/",
+    "region": "CN",
+    "kind": "community",
+    "title": "【强化必上】古代人装备、金沙装备",
+    "published_at": "2026-02-08",
     "fetched_at": "2026-10-04"
   },
   {
@@ -168,6 +348,15 @@
     "kind": "official",
     "title": "(更新2)2025年9月24日アップデートのお知らせ",
     "published_at": "2025-09-24",
+    "fetched_at": "2026-10-04"
+  },
+  {
+    "id": "cn-dngamer-9031",
+    "url": "https://dngamer.site/threads/9031/",
+    "region": "CN",
+    "kind": "community",
+    "title": "混沌双决巢穴",
+    "published_at": "2025-09-04",
     "fetched_at": "2026-10-04"
   },
   {

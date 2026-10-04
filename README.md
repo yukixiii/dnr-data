@@ -51,6 +51,12 @@ npm run build      # validate → 型チェック → dist/ に静的ファイ�
    npm run fetch:notices -- 1466 1467        # 本文を ingest/raw/notice-<no>.txt に保存 (表はタブ区切り)
    npm run fetch:page -- vip-status "https://wikiwiki.jp/vipdranes/ステータス・装備" "#body"
    ```
+   中国版フォーラム dngamer.site (DN聚集地) はログインが必要なので、ログイン済みのブラウザで https://dngamer.site/ を開き、
+   `ingest/dngamer-export.js` を DevTools のコンソールで実行して JSON をダウンロードしてから変換する。
+   ```sh
+   npm run import:dngamer -- ~/Downloads/dngamer-export-YYYYMMDD.json   # ingest/raw/dngamer-<スレッドid>.txt
+   ```
+   中国語名 → 日本版の id の対応は `ingest/names-zh.json` に置く (日本版にあるものだけ)。
 2. `ingest/EXTRACTION_GUIDE.md` に従い `ingest/drafts/<名前>.json` を作成し、`npm run validate -- ingest/drafts/<名前>.json` で検証。
 3. 統合: `npm run merge -- tmp-merged` で別ディレクトリに出して `data/` と差分比較し、必要な部分を `data/` に反映。
    (`npm run merge` は `data/` を上書きするので、`data/` を手で直した後は使わないこと)
