@@ -35,7 +35,7 @@ export function renderHome() {
   return `
   <section class="hero">
     <h1>ドラゴンネストR 装備データベース</h1>
-    <p>最新装備の作成ルート・素材の入手先・ステータス・強化確率・ドロップ率を、公式お知らせと日中韓の情報源から出典付きでまとめています。</p>
+    <p>最新装備の作成ルート・素材の入手先・ステータス・強化確率・ドロップ率を、日本版ゲームクライアントのデータを基に、公式お知らせと日中韓の情報源で補って出典付きでまとめています。</p>
     <form class="hero-search" action="#/items" data-search>
       <input type="search" name="q" placeholder="装備名・素材名で検索" aria-label="検索">
       <button type="submit">検索</button>
@@ -82,7 +82,7 @@ export function renderSources() {
   const label = { JP: "日本", KR: "韓国", CN: "中国" };
   const kindLabel = { official: "公式", wiki: "Wiki", community: "コミュニティ" };
   return `<h1>出典・更新履歴</h1>
-  <p>各データには出典を付けています。<span class="badge region-JP">JP</span> 日本版、<span class="badge region-KR">KR</span> 韓国版、<span class="badge region-CN">CN</span> 中国版の情報です。日本版で数値が公開されていない場合のみ海外版の値で補完し、「海外版の値」と表示しています。海外版は実装時期や数値が日本版と異なる場合があります。</p>
+  <p>各データには出典を付けています。<span class="badge region-JP">JP</span> 日本版、<span class="badge region-KR">KR</span> 韓国版、<span class="badge region-CN">CN</span> 中国版の情報です。能力値・強化確率・レシピなどは日本版ゲームクライアントのデータを正とし、告知と違う場合は元の値を注記に残しています。日本版で値が分からない場合のみ海外版の値で補完し、「海外版の値」と表示しています。海外版は実装時期や数値が日本版と異なる場合があります。</p>
   ${(Object.keys(byRegion) as (keyof typeof byRegion)[])
     .filter((r) => byRegion[r].length)
     .map(
