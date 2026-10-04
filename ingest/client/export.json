@@ -170714,6 +170714,7455 @@
      "qty": 365
     }
    ]
+  },
+  "client-cmp-78790": {
+   "compound_id": 78790,
+   "rate": 100.0,
+   "gold": 10000.0,
+   "materials": [
+    {
+     "item": "[5段階]封印された力のテラマイブローチ",
+     "qty": 1
+    },
+    {
+     "item": "シールドのかけら",
+     "qty": 500
+    },
+    {
+     "item": "テラマイの力",
+     "qty": 2
+    },
+    {
+     "item": "審判のワンド",
+     "qty": 200
+    },
+    {
+     "item": "断片化したブローチの残骸",
+     "qty": 1000
+    }
+   ]
+  },
+  "client-cmp-78775": {
+   "compound_id": 78775,
+   "rate": 100.0,
+   "gold": 1000.0,
+   "materials": [
+    {
+     "item": "シールドのかけら",
+     "qty": 10
+    },
+    {
+     "item": "審判のワンド",
+     "qty": 10
+    },
+    {
+     "item": "封印された力のテラマイブローチ",
+     "qty": 1
+    },
+    {
+     "item": "断片化したブローチの残骸",
+     "qty": 100
+    }
+   ]
+  },
+  "client-cmp-78780": {
+   "compound_id": 78780,
+   "rate": 100.0,
+   "gold": 3000.0,
+   "materials": [
+    {
+     "item": "[5段階]封印された力のテラマイブローチ",
+     "qty": 1
+    },
+    {
+     "item": "シールドのかけら",
+     "qty": 30
+    },
+    {
+     "item": "テラマイの力",
+     "qty": 1
+    },
+    {
+     "item": "審判のワンド",
+     "qty": 20
+    },
+    {
+     "item": "断片化したブローチの残骸",
+     "qty": 350
+    }
+   ]
+  },
+  "client-cmp-78785": {
+   "compound_id": 78785,
+   "rate": 100.0,
+   "gold": 5000.0,
+   "materials": [
+    {
+     "item": "[5段階]封印された力のテラマイブローチ",
+     "qty": 1
+    },
+    {
+     "item": "シールドのかけら",
+     "qty": 100
+    },
+    {
+     "item": "テラマイの力",
+     "qty": 1
+    },
+    {
+     "item": "審判のワンド",
+     "qty": 25
+    },
+    {
+     "item": "断片化したブローチの残骸",
+     "qty": 600
+    }
+   ]
+  },
+  "client-cmp-78791": {
+   "compound_id": 78791,
+   "rate": 100.0,
+   "gold": 10000.0,
+   "materials": [
+    {
+     "item": "[1段階:異界]信念のテラマイブローチ",
+     "qty": 1
+    },
+    {
+     "item": "シールドのかけら",
+     "qty": 800
+    },
+    {
+     "item": "テラマイの力",
+     "qty": 2
+    },
+    {
+     "item": "審判のワンド",
+     "qty": 300
+    },
+    {
+     "item": "断片化したブローチの残骸",
+     "qty": 1300
+    }
+   ]
+  },
+  "client-cmp-78776": {
+   "compound_id": 78776,
+   "rate": 100.0,
+   "gold": 1000.0,
+   "materials": [
+    {
+     "item": "[1段階]封印された力のテラマイブローチ",
+     "qty": 1
+    },
+    {
+     "item": "シールドのかけら",
+     "qty": 30
+    },
+    {
+     "item": "審判のワンド",
+     "qty": 10
+    },
+    {
+     "item": "断片化したブローチの残骸",
+     "qty": 150
+    }
+   ]
+  },
+  "client-cmp-78781": {
+   "compound_id": 78781,
+   "rate": 100.0,
+   "gold": 3000.0,
+   "materials": [
+    {
+     "item": "[1段階]封印された力のテラマイブローチ",
+     "qty": 1
+    },
+    {
+     "item": "シールドのかけら",
+     "qty": 50
+    },
+    {
+     "item": "審判のワンド",
+     "qty": 20
+    },
+    {
+     "item": "断片化したブローチの残骸",
+     "qty": 400
+    }
+   ]
+  },
+  "client-cmp-78786": {
+   "compound_id": 78786,
+   "rate": 100.0,
+   "gold": 5000.0,
+   "materials": [
+    {
+     "item": "[1段階]封印された力のテラマイブローチ",
+     "qty": 1
+    },
+    {
+     "item": "シールドのかけら",
+     "qty": 130
+    },
+    {
+     "item": "テラマイの力",
+     "qty": 1
+    },
+    {
+     "item": "審判のワンド",
+     "qty": 25
+    },
+    {
+     "item": "断片化したブローチの残骸",
+     "qty": 650
+    }
+   ]
+  },
+  "client-cmp-78792": {
+   "compound_id": 78792,
+   "rate": 100.0,
+   "gold": 10000.0,
+   "materials": [
+    {
+     "item": "[2段階:異界]信念のテラマイブローチ",
+     "qty": 1
+    },
+    {
+     "item": "シールドのかけら",
+     "qty": 1200
+    },
+    {
+     "item": "テラマイの力",
+     "qty": 2
+    },
+    {
+     "item": "審判のワンド",
+     "qty": 400
+    },
+    {
+     "item": "断片化したブローチの残骸",
+     "qty": 1600
+    }
+   ]
+  },
+  "client-cmp-78777": {
+   "compound_id": 78777,
+   "rate": 100.0,
+   "gold": 1000.0,
+   "materials": [
+    {
+     "item": "[2段階]封印された力のテラマイブローチ",
+     "qty": 1
+    },
+    {
+     "item": "シールドのかけら",
+     "qty": 50
+    },
+    {
+     "item": "審判のワンド",
+     "qty": 10
+    },
+    {
+     "item": "断片化したブローチの残骸",
+     "qty": 200
+    }
+   ]
+  },
+  "client-cmp-78782": {
+   "compound_id": 78782,
+   "rate": 100.0,
+   "gold": 3000.0,
+   "materials": [
+    {
+     "item": "[2段階]封印された力のテラマイブローチ",
+     "qty": 1
+    },
+    {
+     "item": "シールドのかけら",
+     "qty": 70
+    },
+    {
+     "item": "審判のワンド",
+     "qty": 20
+    },
+    {
+     "item": "断片化したブローチの残骸",
+     "qty": 450
+    }
+   ]
+  },
+  "client-cmp-78787": {
+   "compound_id": 78787,
+   "rate": 100.0,
+   "gold": 5000.0,
+   "materials": [
+    {
+     "item": "[2段階]封印された力のテラマイブローチ",
+     "qty": 1
+    },
+    {
+     "item": "シールドのかけら",
+     "qty": 160
+    },
+    {
+     "item": "テラマイの力",
+     "qty": 1
+    },
+    {
+     "item": "審判のワンド",
+     "qty": 30
+    },
+    {
+     "item": "断片化したブローチの残骸",
+     "qty": 700
+    }
+   ]
+  },
+  "client-cmp-78793": {
+   "compound_id": 78793,
+   "rate": 100.0,
+   "gold": 10000.0,
+   "materials": [
+    {
+     "item": "[3段階:異界]信念のテラマイブローチ",
+     "qty": 1
+    },
+    {
+     "item": "シールドのかけら",
+     "qty": 1500
+    },
+    {
+     "item": "テラマイの力",
+     "qty": 3
+    },
+    {
+     "item": "審判のワンド",
+     "qty": 500
+    },
+    {
+     "item": "断片化したブローチの残骸",
+     "qty": 2000
+    }
+   ]
+  },
+  "client-cmp-78778": {
+   "compound_id": 78778,
+   "rate": 100.0,
+   "gold": 1000.0,
+   "materials": [
+    {
+     "item": "[3段階]封印された力のテラマイブローチ",
+     "qty": 1
+    },
+    {
+     "item": "シールドのかけら",
+     "qty": 70
+    },
+    {
+     "item": "審判のワンド",
+     "qty": 20
+    },
+    {
+     "item": "断片化したブローチの残骸",
+     "qty": 250
+    }
+   ]
+  },
+  "client-cmp-78783": {
+   "compound_id": 78783,
+   "rate": 100.0,
+   "gold": 3000.0,
+   "materials": [
+    {
+     "item": "[3段階]封印された力のテラマイブローチ",
+     "qty": 1
+    },
+    {
+     "item": "シールドのかけら",
+     "qty": 90
+    },
+    {
+     "item": "審判のワンド",
+     "qty": 30
+    },
+    {
+     "item": "断片化したブローチの残骸",
+     "qty": 500
+    }
+   ]
+  },
+  "client-cmp-78788": {
+   "compound_id": 78788,
+   "rate": 100.0,
+   "gold": 5000.0,
+   "materials": [
+    {
+     "item": "[3段階]封印された力のテラマイブローチ",
+     "qty": 1
+    },
+    {
+     "item": "シールドのかけら",
+     "qty": 200
+    },
+    {
+     "item": "テラマイの力",
+     "qty": 1
+    },
+    {
+     "item": "審判のワンド",
+     "qty": 40
+    },
+    {
+     "item": "断片化したブローチの残骸",
+     "qty": 750
+    }
+   ]
+  },
+  "client-cmp-78794": {
+   "compound_id": 78794,
+   "rate": 100.0,
+   "gold": 10000.0,
+   "materials": [
+    {
+     "item": "[4段階:異界]信念のテラマイブローチ",
+     "qty": 1
+    },
+    {
+     "item": "シールドのかけら",
+     "qty": 2000
+    },
+    {
+     "item": "テラマイの力",
+     "qty": 5
+    },
+    {
+     "item": "審判のワンド",
+     "qty": 700
+    },
+    {
+     "item": "断片化したブローチの残骸",
+     "qty": 2500
+    }
+   ]
+  },
+  "client-cmp-78779": {
+   "compound_id": 78779,
+   "rate": 100.0,
+   "gold": 1000.0,
+   "materials": [
+    {
+     "item": "[4段階]封印された力のテラマイブローチ",
+     "qty": 1
+    },
+    {
+     "item": "シールドのかけら",
+     "qty": 100
+    },
+    {
+     "item": "審判のワンド",
+     "qty": 20
+    },
+    {
+     "item": "断片化したブローチの残骸",
+     "qty": 300
+    }
+   ]
+  },
+  "client-cmp-78784": {
+   "compound_id": 78784,
+   "rate": 100.0,
+   "gold": 3000.0,
+   "materials": [
+    {
+     "item": "[4段階]封印された力のテラマイブローチ",
+     "qty": 1
+    },
+    {
+     "item": "シールドのかけら",
+     "qty": 120
+    },
+    {
+     "item": "審判のワンド",
+     "qty": 30
+    },
+    {
+     "item": "断片化したブローチの残骸",
+     "qty": 550
+    }
+   ]
+  },
+  "client-cmp-78789": {
+   "compound_id": 78789,
+   "rate": 100.0,
+   "gold": 5000.0,
+   "materials": [
+    {
+     "item": "[4段階]封印された力のテラマイブローチ",
+     "qty": 1
+    },
+    {
+     "item": "シールドのかけら",
+     "qty": 250
+    },
+    {
+     "item": "テラマイの力",
+     "qty": 1
+    },
+    {
+     "item": "審判のワンド",
+     "qty": 50
+    },
+    {
+     "item": "断片化したブローチの残骸",
+     "qty": 800
+    }
+   ]
+  },
+  "client-cmp-77632": {
+   "compound_id": 77632,
+   "rate": 100.0,
+   "gold": 100.0,
+   "materials": [
+    {
+     "item": "古代人の紋様",
+     "qty": 600
+    },
+    {
+     "item": "生命の古代ヘルムの破片",
+     "qty": 10
+    }
+   ]
+  },
+  "client-cmp-77633": {
+   "compound_id": 77633,
+   "rate": 100.0,
+   "gold": 100.0,
+   "materials": [
+    {
+     "item": "古代人の紋様",
+     "qty": 600
+    },
+    {
+     "item": "東方の古代アーマーの破片",
+     "qty": 10
+    }
+   ]
+  },
+  "client-cmp-77634": {
+   "compound_id": 77634,
+   "rate": 100.0,
+   "gold": 100.0,
+   "materials": [
+    {
+     "item": "古代人の紋様",
+     "qty": 600
+    },
+    {
+     "item": "黎明の古代ボトムの破片",
+     "qty": 10
+    }
+   ]
+  },
+  "client-cmp-77635": {
+   "compound_id": 77635,
+   "rate": 100.0,
+   "gold": 100.0,
+   "materials": [
+    {
+     "item": "古代人の紋様",
+     "qty": 600
+    },
+    {
+     "item": "密林の古代グローブの破片",
+     "qty": 10
+    }
+   ]
+  },
+  "client-cmp-77636": {
+   "compound_id": 77636,
+   "rate": 100.0,
+   "gold": 100.0,
+   "materials": [
+    {
+     "item": "古代人の紋様",
+     "qty": 600
+    },
+    {
+     "item": "深淵の古代ブーツの破片",
+     "qty": 10
+    }
+   ]
+  },
+  "client-cmp-77807": {
+   "compound_id": 77807,
+   "rate": 100.0,
+   "gold": 33000.0,
+   "materials": [
+    {
+     "item": "ウンブラのタリスマン",
+     "qty": 1
+    },
+    {
+     "item": "ウンブラの破壊されたハンマー",
+     "qty": 10
+    },
+    {
+     "item": "上級ガーネット",
+     "qty": 900
+    },
+    {
+     "item": "上級生命の清水",
+     "qty": 900
+    },
+    {
+     "item": "堕落したブラックドラゴンの記憶",
+     "qty": 450
+    }
+   ]
+  },
+  "client-cmp-77801": {
+   "compound_id": 77801,
+   "rate": 100.0,
+   "gold": 22000.0,
+   "materials": [
+    {
+     "item": "オーガダパのタリスマン",
+     "qty": 1
+    },
+    {
+     "item": "オーガダパの破壊されたラッパ",
+     "qty": 5
+    },
+    {
+     "item": "上級ガーネット",
+     "qty": 220
+    },
+    {
+     "item": "上級生命の清水",
+     "qty": 220
+    },
+    {
+     "item": "堕落したブラックドラゴンの記憶",
+     "qty": 110
+    }
+   ]
+  },
+  "client-cmp-77817": {
+   "compound_id": 77817,
+   "rate": 100.0,
+   "gold": 66000.0,
+   "materials": [
+    {
+     "item": "ティタニオンのタリスマン",
+     "qty": 1
+    },
+    {
+     "item": "ティタニオンの破壊されたエネルギー",
+     "qty": 20
+    },
+    {
+     "item": "上級ガーネット",
+     "qty": 3640
+    },
+    {
+     "item": "上級生命の清水",
+     "qty": 3640
+    },
+    {
+     "item": "堕落したブラックドラゴンの記憶",
+     "qty": 1820
+    }
+   ]
+  },
+  "client-cmp-268511354": {
+   "compound_id": 268511354,
+   "rate": 100.0,
+   "gold": 100000.0,
+   "materials": [
+    {
+     "item": "均衡のトークン",
+     "qty": 500
+    }
+   ]
+  },
+  "client-cmp-268509963": {
+   "compound_id": 268509963,
+   "rate": 100.0,
+   "gold": 100000.0,
+   "materials": [
+    {
+     "item": "秩序のトークン",
+     "qty": 2000
+    }
+   ]
+  },
+  "client-cmp-77812": {
+   "compound_id": 77812,
+   "rate": 100.0,
+   "gold": 44000.0,
+   "materials": [
+    {
+     "item": "メルカのタリスマン",
+     "qty": 1
+    },
+    {
+     "item": "メルカの破壊されたソウルエナジー",
+     "qty": 15
+    },
+    {
+     "item": "上級ガーネット",
+     "qty": 2040
+    },
+    {
+     "item": "上級生命の清水",
+     "qty": 2040
+    },
+    {
+     "item": "堕落したブラックドラゴンの記憶",
+     "qty": 1020
+    }
+   ]
+  },
+  "client-cmp-78396": {
+   "compound_id": 78396,
+   "rate": 100.0,
+   "gold": 100000.0,
+   "materials": [
+    {
+     "item": "色褪せた追憶",
+     "qty": 25
+    },
+    {
+     "item": "金色の追憶",
+     "qty": 5
+    }
+   ]
+  },
+  "client-cmp-78398": {
+   "compound_id": 78398,
+   "rate": 100.0,
+   "gold": 100000.0,
+   "materials": [
+    {
+     "item": "色褪せた追憶",
+     "qty": 25
+    },
+    {
+     "item": "金色の追憶",
+     "qty": 5
+    }
+   ]
+  },
+  "client-cmp-78399": {
+   "compound_id": 78399,
+   "rate": 100.0,
+   "gold": 100000.0,
+   "materials": [
+    {
+     "item": "色褪せた追憶",
+     "qty": 25
+    },
+    {
+     "item": "金色の追憶",
+     "qty": 5
+    }
+   ]
+  },
+  "client-cmp-78395": {
+   "compound_id": 78395,
+   "rate": 100.0,
+   "gold": 100000.0,
+   "materials": [
+    {
+     "item": "色褪せた追憶",
+     "qty": 25
+    },
+    {
+     "item": "金色の追憶",
+     "qty": 5
+    }
+   ]
+  },
+  "client-cmp-78397": {
+   "compound_id": 78397,
+   "rate": 100.0,
+   "gold": 100000.0,
+   "materials": [
+    {
+     "item": "色褪せた追憶",
+     "qty": 25
+    },
+    {
+     "item": "金色の追憶",
+     "qty": 5
+    }
+   ]
+  },
+  "client-cmp-77900": {
+   "compound_id": 77900,
+   "rate": 100.0,
+   "gold": 100.0,
+   "materials": [
+    {
+     "item": "清い月食のかけら",
+     "qty": 100
+    },
+    {
+     "item": "漆黒の月食のかけら",
+     "qty": 100
+    },
+    {
+     "item": "神聖な月食のかけら",
+     "qty": 100
+    }
+   ]
+  },
+  "client-cmp-77899": {
+   "compound_id": 77899,
+   "rate": 100.0,
+   "gold": 100.0,
+   "materials": [
+    {
+     "item": "堅固な月食のかけら",
+     "qty": 100
+    },
+    {
+     "item": "清い月食のかけら",
+     "qty": 100
+    },
+    {
+     "item": "神聖な月食のかけら",
+     "qty": 100
+    }
+   ]
+  },
+  "client-cmp-77624": {
+   "compound_id": 77624,
+   "rate": 100.0,
+   "gold": 100.0,
+   "materials": [
+    {
+     "item": "古代人の紋様",
+     "qty": 100
+    },
+    {
+     "item": "未知の古代アクセサリーの破片",
+     "qty": 10
+    }
+   ]
+  },
+  "client-cmp-77623": {
+   "compound_id": 77623,
+   "rate": 100.0,
+   "gold": 100.0,
+   "materials": [
+    {
+     "item": "古代人の紋様",
+     "qty": 100
+    },
+    {
+     "item": "未知の古代アクセサリーの破片",
+     "qty": 10
+    }
+   ]
+  },
+  "client-cmp-77625": {
+   "compound_id": 77625,
+   "rate": 100.0,
+   "gold": 100.0,
+   "materials": [
+    {
+     "item": "古代人の紋様",
+     "qty": 100
+    },
+    {
+     "item": "未知の古代アクセサリーの破片",
+     "qty": 10
+    }
+   ]
+  },
+  "client-cmp-77799": {
+   "compound_id": 77799,
+   "rate": 100.0,
+   "gold": 4000.0,
+   "materials": [
+    {
+     "item": "オーガダパの破壊されたラッパ",
+     "qty": 3
+    },
+    {
+     "item": "上級ガーネット",
+     "qty": 83
+    },
+    {
+     "item": "上級生命の清水",
+     "qty": 83
+    },
+    {
+     "item": "堕落したブラックドラゴンの記憶",
+     "qty": 66
+    }
+   ]
+  },
+  "client-cmp-77802": {
+   "compound_id": 77802,
+   "rate": 100.0,
+   "gold": 36000.0,
+   "materials": [
+    {
+     "item": "オーガダパのタリスマン",
+     "qty": 1
+    },
+    {
+     "item": "オーガダパの破壊されたラッパ",
+     "qty": 6
+    },
+    {
+     "item": "上級ガーネット",
+     "qty": 363
+    },
+    {
+     "item": "上級生命の清水",
+     "qty": 363
+    },
+    {
+     "item": "堕落したブラックドラゴンの記憶",
+     "qty": 132
+    }
+   ]
+  },
+  "client-cmp-77804": {
+   "compound_id": 77804,
+   "rate": 100.0,
+   "gold": 52000.0,
+   "materials": [
+    {
+     "item": "オーガダパのタリスマン",
+     "qty": 1
+    },
+    {
+     "item": "オーガダパの破壊されたラッパ",
+     "qty": 7
+    },
+    {
+     "item": "上級ガーネット",
+     "qty": 578
+    },
+    {
+     "item": "上級生命の清水",
+     "qty": 578
+    },
+    {
+     "item": "堕落したブラックドラゴンの記憶",
+     "qty": 154
+    }
+   ]
+  },
+  "client-cmp-77805": {
+   "compound_id": 77805,
+   "rate": 100.0,
+   "gold": 6000.0,
+   "materials": [
+    {
+     "item": "ウンブラの破壊されたハンマー",
+     "qty": 6
+    },
+    {
+     "item": "上級ガーネット",
+     "qty": 338
+    },
+    {
+     "item": "上級生命の清水",
+     "qty": 338
+    },
+    {
+     "item": "堕落したブラックドラゴンの記憶",
+     "qty": 270
+    }
+   ]
+  },
+  "client-cmp-77808": {
+   "compound_id": 77808,
+   "rate": 100.0,
+   "gold": 54000.0,
+   "materials": [
+    {
+     "item": "ウンブラのタリスマン",
+     "qty": 1
+    },
+    {
+     "item": "ウンブラの破壊されたハンマー",
+     "qty": 12
+    },
+    {
+     "item": "上級ガーネット",
+     "qty": 1485
+    },
+    {
+     "item": "上級生命の清水",
+     "qty": 1485
+    },
+    {
+     "item": "堕落したブラックドラゴンの記憶",
+     "qty": 540
+    }
+   ]
+  },
+  "client-cmp-77809": {
+   "compound_id": 77809,
+   "rate": 100.0,
+   "gold": 78000.0,
+   "materials": [
+    {
+     "item": "ウンブラのタリスマン",
+     "qty": 1
+    },
+    {
+     "item": "ウンブラの破壊されたハンマー",
+     "qty": 14
+    },
+    {
+     "item": "上級ガーネット",
+     "qty": 2363
+    },
+    {
+     "item": "上級生命の清水",
+     "qty": 2363
+    },
+    {
+     "item": "堕落したブラックドラゴンの記憶",
+     "qty": 630
+    }
+   ]
+  },
+  "client-cmp-77810": {
+   "compound_id": 77810,
+   "rate": 100.0,
+   "gold": 8000.0,
+   "materials": [
+    {
+     "item": "メルカの破壊されたソウルエナジー",
+     "qty": 9
+    },
+    {
+     "item": "上級ガーネット",
+     "qty": 765
+    },
+    {
+     "item": "上級生命の清水",
+     "qty": 765
+    },
+    {
+     "item": "堕落したブラックドラゴンの記憶",
+     "qty": 612
+    }
+   ]
+  },
+  "client-cmp-77813": {
+   "compound_id": 77813,
+   "rate": 100.0,
+   "gold": 72000.0,
+   "materials": [
+    {
+     "item": "メルカのタリスマン",
+     "qty": 1
+    },
+    {
+     "item": "メルカの破壊されたソウルエナジー",
+     "qty": 18
+    },
+    {
+     "item": "上級ガーネット",
+     "qty": 3366
+    },
+    {
+     "item": "上級生命の清水",
+     "qty": 3366
+    },
+    {
+     "item": "堕落したブラックドラゴンの記憶",
+     "qty": 1224
+    }
+   ]
+  },
+  "client-cmp-77814": {
+   "compound_id": 77814,
+   "rate": 100.0,
+   "gold": 104000.0,
+   "materials": [
+    {
+     "item": "メルカのタリスマン",
+     "qty": 1
+    },
+    {
+     "item": "メルカの破壊されたソウルエナジー",
+     "qty": 21
+    },
+    {
+     "item": "上級ガーネット",
+     "qty": 5355
+    },
+    {
+     "item": "上級生命の清水",
+     "qty": 5355
+    },
+    {
+     "item": "堕落したブラックドラゴンの記憶",
+     "qty": 1428
+    }
+   ]
+  },
+  "client-cmp-77815": {
+   "compound_id": 77815,
+   "rate": 100.0,
+   "gold": 12000.0,
+   "materials": [
+    {
+     "item": "ティタニオンの破壊されたエネルギー",
+     "qty": 12
+    },
+    {
+     "item": "上級ガーネット",
+     "qty": 1365
+    },
+    {
+     "item": "上級生命の清水",
+     "qty": 1365
+    },
+    {
+     "item": "堕落したブラックドラゴンの記憶",
+     "qty": 1092
+    }
+   ]
+  },
+  "client-cmp-77818": {
+   "compound_id": 77818,
+   "rate": 100.0,
+   "gold": 108000.0,
+   "materials": [
+    {
+     "item": "ティタニオンのタリスマン",
+     "qty": 1
+    },
+    {
+     "item": "ティタニオンの破壊されたエネルギー",
+     "qty": 24
+    },
+    {
+     "item": "上級ガーネット",
+     "qty": 6006
+    },
+    {
+     "item": "上級生命の清水",
+     "qty": 6006
+    },
+    {
+     "item": "堕落したブラックドラゴンの記憶",
+     "qty": 2184
+    }
+   ]
+  },
+  "client-cmp-77819": {
+   "compound_id": 77819,
+   "rate": 100.0,
+   "gold": 156000.0,
+   "materials": [
+    {
+     "item": "ティタニオンのタリスマン",
+     "qty": 1
+    },
+    {
+     "item": "ティタニオンの破壊されたエネルギー",
+     "qty": 28
+    },
+    {
+     "item": "上級ガーネット",
+     "qty": 9555
+    },
+    {
+     "item": "上級生命の清水",
+     "qty": 9555
+    },
+    {
+     "item": "堕落したブラックドラゴンの記憶",
+     "qty": 2548
+    }
+   ]
+  },
+  "client-cmp-268511330": {
+   "compound_id": 268511330,
+   "rate": 100.0,
+   "gold": 100000.0,
+   "materials": [
+    {
+     "item": "古代人の礎",
+     "qty": 16000
+    },
+    {
+     "item": "壊れた金糸武器の結晶",
+     "qty": 10000
+    },
+    {
+     "item": "壊れた金糸防具の結晶",
+     "qty": 30000
+    }
+   ]
+  },
+  "client-cmp-268511335": {
+   "compound_id": 268511335,
+   "rate": 100.0,
+   "gold": 100000.0,
+   "materials": [
+    {
+     "item": "古代人の礎",
+     "qty": 16000
+    },
+    {
+     "item": "壊れた金糸武器の結晶",
+     "qty": 10000
+    },
+    {
+     "item": "壊れた金糸防具の結晶",
+     "qty": 30000
+    }
+   ]
+  },
+  "client-cmp-268511340": {
+   "compound_id": 268511340,
+   "rate": 100.0,
+   "gold": 100000.0,
+   "materials": [
+    {
+     "item": "古代人の礎",
+     "qty": 16000
+    },
+    {
+     "item": "壊れた金糸武器の結晶",
+     "qty": 10000
+    },
+    {
+     "item": "壊れた金糸防具の結晶",
+     "qty": 30000
+    }
+   ]
+  },
+  "client-cmp-268511663": {
+   "compound_id": 268511663,
+   "rate": 50.0,
+   "gold": 50000.0,
+   "materials": [
+    {
+     "item": "剣の紋章",
+     "qty": 1
+    },
+    {
+     "item": "精製された遺跡の破片",
+     "qty": 25
+    }
+   ]
+  },
+  "client-cmp-268511664": {
+   "compound_id": 268511664,
+   "rate": 50.0,
+   "gold": 50000.0,
+   "materials": [
+    {
+     "item": "シールドの紋章",
+     "qty": 1
+    },
+    {
+     "item": "精製された遺跡の破片",
+     "qty": 25
+    }
+   ]
+  },
+  "client-cmp-268511665": {
+   "compound_id": 268511665,
+   "rate": 50.0,
+   "gold": 50000.0,
+   "materials": [
+    {
+     "item": "弓の紋章",
+     "qty": 1
+    },
+    {
+     "item": "精製された遺跡の破片",
+     "qty": 25
+    }
+   ]
+  },
+  "n1139-blueprint-shop": {
+   "shop_row": 280001100,
+   "gold": 500.0,
+   "materials": [
+    {
+     "item": "古代人の図面の断片",
+     "qty": 10
+    }
+   ],
+   "where": "【紋章学者】ルフィノス「ソードマスター」",
+   "result_qty": 1
+  },
+  "n1139-goddess-1-shop": {
+   "shop_row": 280001105,
+   "gold": 0,
+   "materials": [
+    {
+     "item": "古代人の図面の断片",
+     "qty": 300
+    }
+   ],
+   "where": "【紋章学者】ルフィノス「ソードマスター」",
+   "result_qty": 1
+  },
+  "n1139-goddess-10-shop": {
+   "shop_row": 280001114,
+   "gold": 0,
+   "materials": [
+    {
+     "item": "古代人の図面",
+     "qty": 8163
+    }
+   ],
+   "where": "【紋章学者】ルフィノス「ソードマスター」",
+   "result_qty": 1
+  },
+  "n1139-goddess-2-shop": {
+   "shop_row": 280001106,
+   "gold": 0,
+   "materials": [
+    {
+     "item": "古代人の図面の断片",
+     "qty": 900
+    }
+   ],
+   "where": "【紋章学者】ルフィノス「ソードマスター」",
+   "result_qty": 1
+  },
+  "n1139-goddess-3-shop": {
+   "shop_row": 280001107,
+   "gold": 0,
+   "materials": [
+    {
+     "item": "古代人の図面の断片",
+     "qty": 1980
+    }
+   ],
+   "where": "【紋章学者】ルフィノス「ソードマスター」",
+   "result_qty": 1
+  },
+  "n1139-goddess-4-shop": {
+   "shop_row": 280001108,
+   "gold": 0,
+   "materials": [
+    {
+     "item": "古代人の図面の断片",
+     "qty": 3930
+    }
+   ],
+   "where": "【紋章学者】ルフィノス「ソードマスター」",
+   "result_qty": 1
+  },
+  "n1139-goddess-5-shop": {
+   "shop_row": 280001109,
+   "gold": 0,
+   "materials": [
+    {
+     "item": "古代人の図面の断片",
+     "qty": 7440
+    }
+   ],
+   "where": "【紋章学者】ルフィノス「ソードマスター」",
+   "result_qty": 1
+  },
+  "n1139-goddess-6-shop": {
+   "shop_row": 280001110,
+   "gold": 0,
+   "materials": [
+    {
+     "item": "古代人の図面",
+     "qty": 1305
+    }
+   ],
+   "where": "【紋章学者】ルフィノス「ソードマスター」",
+   "result_qty": 1
+  },
+  "n1139-goddess-7-shop": {
+   "shop_row": 280001111,
+   "gold": 0,
+   "materials": [
+    {
+     "item": "古代人の図面",
+     "qty": 2148
+    }
+   ],
+   "where": "【紋章学者】ルフィノス「ソードマスター」",
+   "result_qty": 1
+  },
+  "n1139-goddess-8-shop": {
+   "shop_row": 280001112,
+   "gold": 0,
+   "materials": [
+    {
+     "item": "古代人の図面",
+     "qty": 3414
+    }
+   ],
+   "where": "【紋章学者】ルフィノス「ソードマスター」",
+   "result_qty": 1
+  },
+  "n1139-goddess-9-shop": {
+   "shop_row": 280001113,
+   "gold": 0,
+   "materials": [
+    {
+     "item": "古代人の図面",
+     "qty": 5313
+    }
+   ],
+   "where": "【紋章学者】ルフィノス「ソードマスター」",
+   "result_qty": 1
+  },
+  "n1139-iona-earring-shop": {
+   "shop_row": 70401102,
+   "gold": 0,
+   "materials": [
+    {
+     "item": "ホワイトコア",
+     "qty": 3900
+    }
+   ],
+   "where": "【商人】パニア・【商人】ファルバナ「ホワイトコア商店」",
+   "result_qty": 1
+  },
+  "n1139-iona-necklace-shop": {
+   "shop_row": 70401101,
+   "gold": 0,
+   "materials": [
+    {
+     "item": "ホワイトコア",
+     "qty": 3900
+    }
+   ],
+   "where": "【商人】パニア・【商人】ファルバナ「ホワイトコア商店」",
+   "result_qty": 1
+  },
+  "n1139-iona-ring-shop": {
+   "shop_row": 70401100,
+   "gold": 0,
+   "materials": [
+    {
+     "item": "ホワイトコア",
+     "qty": 3900
+    }
+   ],
+   "where": "【商人】パニア・【商人】ファルバナ「ホワイトコア商店」",
+   "result_qty": 1
+  },
+  "n1139-iona-road-shop": {
+   "shop_row": 70401104,
+   "gold": 0,
+   "materials": [
+    {
+     "item": "ホワイトコア",
+     "qty": 10
+    }
+   ],
+   "where": "【商人】パニア・【商人】ファルバナ「ホワイトコア商店」",
+   "result_qty": 1
+  },
+  "n1139-whitecore-from-hammer10": {
+   "shop_row": 70401105,
+   "gold": 0,
+   "materials": [
+    {
+     "item": "[10%確率]冷気が宿ったハンマー",
+     "qty": 1
+    }
+   ],
+   "where": "【商人】パニア・【商人】ファルバナ「ホワイトコア商店」",
+   "result_qty": 30
+  },
+  "n1139-whitecore-from-hammer20": {
+   "shop_row": 70401106,
+   "gold": 0,
+   "materials": [
+    {
+     "item": "[20%確率]冷気が宿ったハンマー",
+     "qty": 1
+    }
+   ],
+   "where": "【商人】パニア・【商人】ファルバナ「ホワイトコア商店」",
+   "result_qty": 60
+  },
+  "n1151-disposable-teleporter": {
+   "shop_row": 290001101,
+   "gold": 0,
+   "materials": [
+    {
+     "item": "ラズライト",
+     "qty": 100
+    }
+   ],
+   "where": "【エルフ警備兵】マベリア「古竜商店」",
+   "result_qty": 1
+  },
+  "n1162-ark-past-shop-4": {
+   "shop_row": 250001210,
+   "gold": 0,
+   "materials": [
+    {
+     "item": "超越の箱舟[過去]のコイン",
+     "qty": 5
+    }
+   ],
+   "where": "【エルフ警備兵】ロベリア「箱舟[過去]」",
+   "result_qty": 100
+  },
+  "n1162-ark-past-shop-5": {
+   "shop_row": 250001211,
+   "gold": 0,
+   "materials": [
+    {
+     "item": "超越の箱舟[過去]のコイン",
+     "qty": 30
+    }
+   ],
+   "where": "【エルフ警備兵】ロベリア「箱舟[過去]」",
+   "result_qty": 5
+  },
+  "n1193-saviour-shop-12": {
+   "shop_row": 241101255,
+   "gold": 0,
+   "materials": [
+    {
+     "item": "堕落した世界の片鱗",
+     "qty": 2
+    }
+   ],
+   "where": "入場権限発行機「セイヴィア」",
+   "result_qty": 30
+  },
+  "n1193-saviour-shop-13": {
+   "shop_row": 241101256,
+   "gold": 0,
+   "materials": [
+    {
+     "item": "堕落した世界の片鱗",
+     "qty": 2
+    }
+   ],
+   "where": "入場権限発行機「セイヴィア」",
+   "result_qty": 50
+  },
+  "n1193-saviour-shop-14": {
+   "shop_row": 241101257,
+   "gold": 0,
+   "materials": [
+    {
+     "item": "堕落した世界の片鱗",
+     "qty": 2
+    }
+   ],
+   "where": "入場権限発行機「セイヴィア」",
+   "result_qty": 20
+  },
+  "n1193-saviour-shop-15": {
+   "shop_row": 241101258,
+   "gold": 0,
+   "materials": [
+    {
+     "item": "堕落した世界の片鱗",
+     "qty": 2
+    }
+   ],
+   "where": "入場権限発行機「セイヴィア」",
+   "result_qty": 100
+  },
+  "n1231-bone-hard-ticket": {
+   "shop_row": 290001102,
+   "gold": 0,
+   "materials": [
+    {
+     "item": "ラズライト",
+     "qty": 100
+    }
+   ],
+   "where": "【エルフ警備兵】マベリア「古竜商店」",
+   "result_qty": 1
+  },
+  "n1246-bone-ticket": {
+   "shop_row": 290001100,
+   "gold": 0,
+   "materials": [
+    {
+     "item": "ラズライト",
+     "qty": 100
+    }
+   ],
+   "where": "【エルフ警備兵】マベリア「古竜商店」",
+   "result_qty": 1
+  },
+  "n1246-brooch-shop-31": {
+   "shop_row": 96003300,
+   "gold": 0,
+   "materials": [
+    {
+     "item": "断片化したブローチの残骸",
+     "qty": 10
+    }
+   ],
+   "where": "【万物商店ガイド】チェルニー「ブローチの残骸」",
+   "result_qty": 1
+  },
+  "n1246-brooch-shop-32": {
+   "shop_row": 96003301,
+   "gold": 0,
+   "materials": [
+    {
+     "item": "断片化したブローチの残骸",
+     "qty": 10
+    }
+   ],
+   "where": "【万物商店ガイド】チェルニー「ブローチの残骸」",
+   "result_qty": 1
+  },
+  "n1246-brooch-shop-33": {
+   "shop_row": 96003302,
+   "gold": 0,
+   "materials": [
+    {
+     "item": "断片化したブローチの残骸",
+     "qty": 10
+    }
+   ],
+   "where": "【万物商店ガイド】チェルニー「ブローチの残骸」",
+   "result_qty": 1
+  },
+  "n1246-brooch-shop-34": {
+   "shop_row": 96003303,
+   "gold": 0,
+   "materials": [
+    {
+     "item": "断片化したブローチの残骸",
+     "qty": 10
+    }
+   ],
+   "where": "【万物商店ガイド】チェルニー「ブローチの残骸」",
+   "result_qty": 1
+  },
+  "n1246-brooch-shop-35": {
+   "shop_row": 96003304,
+   "gold": 0,
+   "materials": [
+    {
+     "item": "断片化したブローチの残骸",
+     "qty": 10
+    }
+   ],
+   "where": "【万物商店ガイド】チェルニー「ブローチの残骸」",
+   "result_qty": 1
+  },
+  "n1246-brooch-shop-36": {
+   "shop_row": 96003220,
+   "gold": 0,
+   "materials": [
+    {
+     "item": "英雄ブローチコイン",
+     "qty": 3
+    }
+   ],
+   "where": "【万物商店ガイド】チェルニー「英雄ブローチ」",
+   "result_qty": 1
+  },
+  "n1246-brooch-shop-37": {
+   "shop_row": 96003200,
+   "gold": 0,
+   "materials": [
+    {
+     "item": "ベルスカードの次元幸運石",
+     "qty": 40
+    }
+   ],
+   "where": "【万物商店ガイド】チェルニー「英雄ブローチ」",
+   "result_qty": 1
+  },
+  "n1246-brooch-shop-38": {
+   "shop_row": 96003229,
+   "gold": 0,
+   "materials": [
+    {
+     "item": "英雄ブローチコイン",
+     "qty": 1
+    }
+   ],
+   "where": "【万物商店ガイド】チェルニー「英雄ブローチ」",
+   "result_qty": 100
+  },
+  "n1246-brooch-shop-39": {
+   "shop_row": 96003205,
+   "gold": 0,
+   "materials": [
+    {
+     "item": "ベルスカードの次元幸運石",
+     "qty": 10
+    }
+   ],
+   "where": "【万物商店ガイド】チェルニー「英雄ブローチ」",
+   "result_qty": 100
+  },
+  "n1265-ark-future-shop-1": {
+   "shop_row": 250001406,
+   "gold": 0,
+   "materials": [
+    {
+     "item": "超越の箱舟[未来]のコイン",
+     "qty": 40
+    }
+   ],
+   "where": "【エルフ警備兵】ロベリア「箱舟[未来]」",
+   "result_qty": 1
+  },
+  "n1265-ark-future-shop-2": {
+   "shop_row": 250001407,
+   "gold": 0,
+   "materials": [
+    {
+     "item": "超越の箱舟[未来]のコイン",
+     "qty": 15
+    }
+   ],
+   "where": "【エルフ警備兵】ロベリア「箱舟[未来]」",
+   "result_qty": 1
+  },
+  "n1265-ark-future-shop-5": {
+   "shop_row": 250001410,
+   "gold": 0,
+   "materials": [
+    {
+     "item": "超越の箱舟[未来]のコイン",
+     "qty": 5
+    }
+   ],
+   "where": "【エルフ警備兵】ロベリア「箱舟[未来]」",
+   "result_qty": 100
+  },
+  "n1265-ark-future-shop-6": {
+   "shop_row": 250001411,
+   "gold": 0,
+   "materials": [
+    {
+     "item": "超越の箱舟[未来]のコイン",
+     "qty": 30
+    }
+   ],
+   "where": "【エルフ警備兵】ロベリア「箱舟[未来]」",
+   "result_qty": 5
+  },
+  "n1287-nelwin-shop-box": {
+   "shop_row": 96003221,
+   "gold": 0,
+   "materials": [
+    {
+     "item": "英雄ブローチコイン",
+     "qty": 3
+    }
+   ],
+   "where": "【万物商店ガイド】チェルニー「英雄ブローチ」",
+   "result_qty": 1
+  },
+  "n1287-nelwin-shop-frag": {
+   "shop_row": 96003201,
+   "gold": 0,
+   "materials": [
+    {
+     "item": "ネルウィン異界波紋石",
+     "qty": 40
+    }
+   ],
+   "where": "【万物商店ガイド】チェルニー「英雄ブローチ」",
+   "result_qty": 1
+  },
+  "n1287-nelwin-shop-scrap": {
+   "shop_row": 96003206,
+   "gold": 0,
+   "materials": [
+    {
+     "item": "ネルウィン異界波紋石",
+     "qty": 10
+    }
+   ],
+   "where": "【万物商店ガイド】チェルニー「英雄ブローチ」",
+   "result_qty": 100
+  },
+  "n1300-hgd-ticket": {
+   "shop_row": 211001100,
+   "gold": 0,
+   "materials": [
+    {
+     "item": "金蓮宝",
+     "qty": 5
+    }
+   ],
+   "where": "紅蓮宮-外郭-門番「ﾍｲｽﾞｶﾞｽﾄﾄﾞﾗｺﾞﾝ」",
+   "result_qty": 1
+  },
+  "n1311-ark-past-shop-1-100-22": {
+   "shop_row": 250001205,
+   "gold": 0,
+   "materials": [
+    {
+     "item": "超越の箱舟[過去]のコイン",
+     "qty": 50
+    }
+   ],
+   "where": "【エルフ警備兵】ロベリア「箱舟[過去]」",
+   "result_qty": 1
+  },
+  "n1311-ark-past-shop-1-50-22": {
+   "shop_row": 250001207,
+   "gold": 0,
+   "materials": [
+    {
+     "item": "超越の箱舟[過去]のコイン",
+     "qty": 15
+    }
+   ],
+   "where": "【エルフ警備兵】ロベリア「箱舟[過去]」",
+   "result_qty": 1
+  },
+  "n1311-ark-past-shop-1-80-24": {
+   "shop_row": 250001206,
+   "gold": 0,
+   "materials": [
+    {
+     "item": "超越の箱舟[過去]のコイン",
+     "qty": 40
+    }
+   ],
+   "where": "【エルフ警備兵】ロベリア「箱舟[過去]」",
+   "result_qty": 1
+  },
+  "n1311-ark-past-shop-10-30-8": {
+   "shop_row": 250001211,
+   "gold": 0,
+   "materials": [
+    {
+     "item": "超越の箱舟[過去]のコイン",
+     "qty": 30
+    }
+   ],
+   "where": "【エルフ警備兵】ロベリア「箱舟[過去]」",
+   "result_qty": 5
+  },
+  "n1311-ark-past-shop-50-5-11": {
+   "shop_row": 250001210,
+   "gold": 0,
+   "materials": [
+    {
+     "item": "超越の箱舟[過去]のコイン",
+     "qty": 5
+    }
+   ],
+   "where": "【エルフ警備兵】ロベリア「箱舟[過去]」",
+   "result_qty": 100
+  },
+  "n1347-dimshop-01": {
+   "shop_row": 1000100,
+   "gold": 0,
+   "materials": [
+    {
+     "item": "砂の息吹のつぼみ",
+     "qty": 50
+    }
+   ],
+   "where": "【冒険者ギルド員】デービット・【次元商人】ミャオン「次元」",
+   "result_qty": 1
+  },
+  "n1347-dimshop-02": {
+   "shop_row": 1000100,
+   "gold": 0,
+   "materials": [
+    {
+     "item": "砂の息吹のつぼみ",
+     "qty": 50
+    }
+   ],
+   "where": "【冒険者ギルド員】デービット・【次元商人】ミャオン「次元」",
+   "result_qty": 1
+  },
+  "n1347-golden-feather": {
+   "shop_row": 300001100,
+   "gold": 1000.0,
+   "materials": [
+    {
+     "item": "次元の残痕",
+     "qty": 100
+    }
+   ],
+   "where": "執事B「金竜商店」",
+   "result_qty": 1
+  },
+  "n1362-arkshop-ancient-jade-shard": {
+   "shop_row": 250001311,
+   "gold": 0,
+   "materials": [
+    {
+     "item": "超越の箱舟[現在]のコイン",
+     "qty": 30
+    }
+   ],
+   "where": "【エルフ警備兵】ロベリア「箱舟[現在]」",
+   "result_qty": 1
+  },
+  "n1362-arkshop-broken-ancient-jade": {
+   "shop_row": 250001310,
+   "gold": 0,
+   "materials": [
+    {
+     "item": "超越の箱舟[現在]のコイン",
+     "qty": 5
+    }
+   ],
+   "where": "【エルフ警備兵】ロベリア「箱舟[現在]」",
+   "result_qty": 10
+  },
+  "n1362-arkshop-starshadow-key": {
+   "shop_row": 250001316,
+   "gold": 0,
+   "materials": [
+    {
+     "item": "超越の箱舟[現在]のコイン",
+     "qty": 5
+    }
+   ],
+   "where": "【エルフ警備兵】ロベリア「箱舟[現在]」",
+   "result_qty": 2
+  },
+  "n1362-arkshop-talisman-core4": {
+   "shop_row": 250001300,
+   "gold": 0,
+   "materials": [
+    {
+     "item": "超越の箱舟[現在]のコイン",
+     "qty": 100
+    }
+   ],
+   "where": "【エルフ警備兵】ロベリア「箱舟[現在]」",
+   "result_qty": 10
+  },
+  "n1362-arkshop-talisman3-select": {
+   "shop_row": 250001307,
+   "gold": 0,
+   "materials": [
+    {
+     "item": "超越の箱舟[現在]のコイン",
+     "qty": 15
+    }
+   ],
+   "where": "【エルフ警備兵】ロベリア「箱舟[現在]」",
+   "result_qty": 1
+  },
+  "n1362-arkshop-talisman4-random": {
+   "shop_row": 250001306,
+   "gold": 0,
+   "materials": [
+    {
+     "item": "超越の箱舟[現在]のコイン",
+     "qty": 40
+    }
+   ],
+   "where": "【エルフ警備兵】ロベリア「箱舟[現在]」",
+   "result_qty": 1
+  },
+  "n1362-arkshop-talisman4-select": {
+   "shop_row": 250001305,
+   "gold": 0,
+   "materials": [
+    {
+     "item": "超越の箱舟[現在]のコイン",
+     "qty": 50
+    }
+   ],
+   "where": "【エルフ警備兵】ロベリア「箱舟[現在]」",
+   "result_qty": 1
+  },
+  "n1362-stageshop-blessed": {
+   "shop_row": 28101100,
+   "gold": 0,
+   "materials": [
+    {
+     "item": "金色の誓い",
+     "qty": 25
+    }
+   ],
+   "where": "【闇の女神官】タルト・【闇の女神官】ビスケ・【闇の女神官】モカ「能力強化紋章」",
+   "result_qty": 1
+  },
+  "n1362-stageshop-p20-0": {
+   "shop_row": 28101110,
+   "gold": 0,
+   "materials": [
+    {
+     "item": "金色の誓い",
+     "qty": 2
+    }
+   ],
+   "where": "【闇の女神官】タルト・【闇の女神官】ビスケ・【闇の女神官】モカ「能力強化紋章」",
+   "result_qty": 1
+  },
+  "n1362-stageshop-p20-1": {
+   "shop_row": 28101111,
+   "gold": 0,
+   "materials": [
+    {
+     "item": "金色の誓い",
+     "qty": 2
+    }
+   ],
+   "where": "【闇の女神官】タルト・【闇の女神官】ビスケ・【闇の女神官】モカ「能力強化紋章」",
+   "result_qty": 1
+  },
+  "n1362-stageshop-p20-2": {
+   "shop_row": 28101112,
+   "gold": 0,
+   "materials": [
+    {
+     "item": "金色の誓い",
+     "qty": 2
+    }
+   ],
+   "where": "【闇の女神官】タルト・【闇の女神官】ビスケ・【闇の女神官】モカ「能力強化紋章」",
+   "result_qty": 1
+  },
+  "n1362-stageshop-p20-3": {
+   "shop_row": 28101113,
+   "gold": 0,
+   "materials": [
+    {
+     "item": "金色の誓い",
+     "qty": 2
+    }
+   ],
+   "where": "【闇の女神官】タルト・【闇の女神官】ビスケ・【闇の女神官】モカ「能力強化紋章」",
+   "result_qty": 1
+  },
+  "n1362-stageshop-p70-0": {
+   "shop_row": 28101105,
+   "gold": 0,
+   "materials": [
+    {
+     "item": "金色の誓い",
+     "qty": 4
+    }
+   ],
+   "where": "【闇の女神官】タルト・【闇の女神官】ビスケ・【闇の女神官】モカ「能力強化紋章」",
+   "result_qty": 1
+  },
+  "n1362-stageshop-p70-1": {
+   "shop_row": 28101106,
+   "gold": 0,
+   "materials": [
+    {
+     "item": "金色の誓い",
+     "qty": 4
+    }
+   ],
+   "where": "【闇の女神官】タルト・【闇の女神官】ビスケ・【闇の女神官】モカ「能力強化紋章」",
+   "result_qty": 1
+  },
+  "n1362-stageshop-p70-2": {
+   "shop_row": 28101107,
+   "gold": 0,
+   "materials": [
+    {
+     "item": "金色の誓い",
+     "qty": 4
+    }
+   ],
+   "where": "【闇の女神官】タルト・【闇の女神官】ビスケ・【闇の女神官】モカ「能力強化紋章」",
+   "result_qty": 1
+  },
+  "n1362-stageshop-p70-3": {
+   "shop_row": 28101108,
+   "gold": 0,
+   "materials": [
+    {
+     "item": "金色の誓い",
+     "qty": 4
+    }
+   ],
+   "where": "【闇の女神官】タルト・【闇の女神官】ビスケ・【闇の女神官】モカ「能力強化紋章」",
+   "result_qty": 1
+  },
+  "n1376-flawless-hammer": {
+   "shop_row": 29001200,
+   "gold": 0,
+   "materials": [
+    {
+     "item": "無欠の結晶",
+     "qty": 40
+    }
+   ],
+   "where": "【闇の女神官】タルト・【闇の女神官】ビスケ・【闇の女神官】モカ「スキル竜珠」",
+   "result_qty": 1
+  },
+  "n1387-shop-shining-crest-bag": {
+   "shop_row": 300011112,
+   "gold": 0,
+   "materials": [
+    {
+     "item": "精製された遺跡の破片",
+     "qty": 50
+    }
+   ],
+   "where": "執事B「王城廃墟」",
+   "result_qty": 1
+  },
+  "n1387-yumei-artifact-shop-1": {
+   "shop_row": 230001100,
+   "gold": 0,
+   "materials": [
+    {
+     "item": "調律コイン",
+     "qty": 2250
+    }
+   ],
+   "where": "【闇の女神官】スフレ「アーティファクト」",
+   "result_qty": 1
+  },
+  "n1387-yumei-artifact-shop-2": {
+   "shop_row": 230001105,
+   "gold": 0,
+   "materials": [
+    {
+     "item": "調律コイン",
+     "qty": 650
+    }
+   ],
+   "where": "【闇の女神官】スフレ「アーティファクト」",
+   "result_qty": 1
+  },
+  "n1387-yumei-artifact-shop-3": {
+   "shop_row": 230001106,
+   "gold": 0,
+   "materials": [
+    {
+     "item": "調律コイン",
+     "qty": 450
+    }
+   ],
+   "where": "【闇の女神官】スフレ「アーティファクト」",
+   "result_qty": 1
+  },
+  "n1387-yumei-artifact-shop-4": {
+   "shop_row": 230001107,
+   "gold": 0,
+   "materials": [
+    {
+     "item": "調律コイン",
+     "qty": 150
+    }
+   ],
+   "where": "【闇の女神官】スフレ「アーティファクト」",
+   "result_qty": 1
+  },
+  "n1398-cloning-shard-bag": {
+   "shop_row": 76000159,
+   "gold": 0,
+   "materials": [
+    {
+     "item": "魔力のクローニングの破片",
+     "qty": 1000
+    }
+   ],
+   "where": "アリン・オリン「クローニング商店」",
+   "result_qty": 1
+  },
+  "n1398-cloning-shard-convert-1": {
+   "shop_row": 76000155,
+   "gold": 0,
+   "materials": [
+    {
+     "item": "魔力のクローニング防具の破片",
+     "qty": 1
+    }
+   ],
+   "where": "アリン・オリン「クローニング商店」",
+   "result_qty": 1
+  },
+  "n1398-cloning-shard-convert-2": {
+   "shop_row": 76000156,
+   "gold": 0,
+   "materials": [
+    {
+     "item": "魔力のクローニング特殊防具の破片",
+     "qty": 1
+    }
+   ],
+   "where": "アリン・オリン「クローニング商店」",
+   "result_qty": 1
+  },
+  "n1398-cloning-shard-convert-3": {
+   "shop_row": 76000157,
+   "gold": 0,
+   "materials": [
+    {
+     "item": "魔力のクローニングアクセサリーの破片",
+     "qty": 1
+    }
+   ],
+   "where": "アリン・オリン「クローニング商店」",
+   "result_qty": 1
+  },
+  "n1398-cloning-shop-01-1": {
+   "shop_row": 76000130,
+   "gold": 0,
+   "materials": [
+    {
+     "item": "魔力のクローニングの破片",
+     "qty": 3500
+    }
+   ],
+   "where": "アリン・オリン「クローニング商店」",
+   "result_qty": 1
+  },
+  "n1398-cloning-shop-02-1": {
+   "shop_row": 76000131,
+   "gold": 0,
+   "materials": [
+    {
+     "item": "魔力のクローニングの破片",
+     "qty": 3500
+    }
+   ],
+   "where": "アリン・オリン「クローニング商店」",
+   "result_qty": 1
+  },
+  "n1398-cloning-shop-03-1": {
+   "shop_row": 76000132,
+   "gold": 0,
+   "materials": [
+    {
+     "item": "魔力のクローニングの破片",
+     "qty": 3500
+    }
+   ],
+   "where": "アリン・オリン「クローニング商店」",
+   "result_qty": 1
+  },
+  "n1398-cloning-shop-04-1": {
+   "shop_row": 76000133,
+   "gold": 0,
+   "materials": [
+    {
+     "item": "魔力のクローニングの破片",
+     "qty": 3500
+    }
+   ],
+   "where": "アリン・オリン「クローニング商店」",
+   "result_qty": 1
+  },
+  "n1398-cloning-shop-05-1": {
+   "shop_row": 76000134,
+   "gold": 0,
+   "materials": [
+    {
+     "item": "魔力のクローニングの破片",
+     "qty": 3500
+    }
+   ],
+   "where": "アリン・オリン「クローニング商店」",
+   "result_qty": 1
+  },
+  "n1398-cloning-shop-06-1": {
+   "shop_row": 76000135,
+   "gold": 0,
+   "materials": [
+    {
+     "item": "魔力のクローニングの破片",
+     "qty": 3500
+    }
+   ],
+   "where": "アリン・オリン「クローニング商店」",
+   "result_qty": 1
+  },
+  "n1398-cloning-shop-07-1": {
+   "shop_row": 76000136,
+   "gold": 0,
+   "materials": [
+    {
+     "item": "魔力のクローニングの破片",
+     "qty": 3500
+    }
+   ],
+   "where": "アリン・オリン「クローニング商店」",
+   "result_qty": 1
+  },
+  "n1398-cloning-shop-08-1": {
+   "shop_row": 76000137,
+   "gold": 0,
+   "materials": [
+    {
+     "item": "魔力のクローニングの破片",
+     "qty": 3500
+    }
+   ],
+   "where": "アリン・オリン「クローニング商店」",
+   "result_qty": 1
+  },
+  "n1398-cloning-shop-09-1": {
+   "shop_row": 76000140,
+   "gold": 0,
+   "materials": [
+    {
+     "item": "魔力のクローニングの破片",
+     "qty": 3500
+    }
+   ],
+   "where": "アリン・オリン「クローニング商店」",
+   "result_qty": 1
+  },
+  "n1398-cloning-shop-10-1": {
+   "shop_row": 76000141,
+   "gold": 0,
+   "materials": [
+    {
+     "item": "魔力のクローニングの破片",
+     "qty": 3500
+    }
+   ],
+   "where": "アリン・オリン「クローニング商店」",
+   "result_qty": 1
+  },
+  "n1398-cloning-shop-11-1": {
+   "shop_row": 76000142,
+   "gold": 0,
+   "materials": [
+    {
+     "item": "魔力のクローニングの破片",
+     "qty": 3500
+    }
+   ],
+   "where": "アリン・オリン「クローニング商店」",
+   "result_qty": 1
+  },
+  "n1398-yumei-gate-key": {
+   "shop_row": 230001200,
+   "gold": 10.0,
+   "materials": [],
+   "where": "【闇の女神官】スフレ「入場券」",
+   "result_qty": 1
+  },
+  "n1411-ark-future-shop-1": {
+   "shop_row": 250001400,
+   "gold": 0,
+   "materials": [
+    {
+     "item": "超越の箱舟[未来]のコイン",
+     "qty": 100
+    }
+   ],
+   "where": "【エルフ警備兵】ロベリア「箱舟[未来]」",
+   "result_qty": 15
+  },
+  "n1411-ark-future-shop-2": {
+   "shop_row": 250001405,
+   "gold": 0,
+   "materials": [
+    {
+     "item": "超越の箱舟[未来]のコイン",
+     "qty": 50
+    }
+   ],
+   "where": "【エルフ警備兵】ロベリア「箱舟[未来]」",
+   "result_qty": 1
+  },
+  "n1411-ark-future-shop-3": {
+   "shop_row": 250001406,
+   "gold": 0,
+   "materials": [
+    {
+     "item": "超越の箱舟[未来]のコイン",
+     "qty": 40
+    }
+   ],
+   "where": "【エルフ警備兵】ロベリア「箱舟[未来]」",
+   "result_qty": 1
+  },
+  "n1411-ark-future-shop-4": {
+   "shop_row": 250001407,
+   "gold": 0,
+   "materials": [
+    {
+     "item": "超越の箱舟[未来]のコイン",
+     "qty": 15
+    }
+   ],
+   "where": "【エルフ警備兵】ロベリア「箱舟[未来]」",
+   "result_qty": 1
+  },
+  "n1411-ark-future-shop-5": {
+   "shop_row": 250001410,
+   "gold": 0,
+   "materials": [
+    {
+     "item": "超越の箱舟[未来]のコイン",
+     "qty": 5
+    }
+   ],
+   "where": "【エルフ警備兵】ロベリア「箱舟[未来]」",
+   "result_qty": 100
+  },
+  "n1411-ark-future-shop-6": {
+   "shop_row": 250001411,
+   "gold": 0,
+   "materials": [
+    {
+     "item": "超越の箱舟[未来]のコイン",
+     "qty": 30
+    }
+   ],
+   "where": "【エルフ警備兵】ロベリア「箱舟[未来]」",
+   "result_qty": 5
+  },
+  "n1411-ark-future-shop-7": {
+   "shop_row": 250001412,
+   "gold": 0,
+   "materials": [
+    {
+     "item": "超越の箱舟[未来]のコイン",
+     "qty": 30
+    }
+   ],
+   "where": "【エルフ警備兵】ロベリア「箱舟[未来]」",
+   "result_qty": 50
+  },
+  "n1411-ark-future-shop-9": {
+   "shop_row": 250001416,
+   "gold": 0,
+   "materials": [
+    {
+     "item": "超越の箱舟[未来]のコイン",
+     "qty": 5
+    }
+   ],
+   "where": "【エルフ警備兵】ロベリア「箱舟[未来]」",
+   "result_qty": 2
+  },
+  "n1440-dimshop-01": {
+   "shop_row": 1000100,
+   "gold": 0,
+   "materials": [
+    {
+     "item": "砂の息吹のつぼみ",
+     "qty": 50
+    }
+   ],
+   "where": "【冒険者ギルド員】デービット・【次元商人】ミャオン「次元」",
+   "result_qty": 1
+  },
+  "n1440-dimshop-02": {
+   "shop_row": 1000101,
+   "gold": 0,
+   "materials": [
+    {
+     "item": "砂の息吹の種",
+     "qty": 1
+    }
+   ],
+   "where": "【冒険者ギルド員】デービット・【次元商人】ミャオン「次元」",
+   "result_qty": 1
+  },
+  "n1440-dimshop-03": {
+   "shop_row": 1000105,
+   "gold": 0,
+   "materials": [
+    {
+     "item": "砂の息吹のつぼみ",
+     "qty": 500
+    }
+   ],
+   "where": "【冒険者ギルド員】デービット・【次元商人】ミャオン「次元」",
+   "result_qty": 1
+  },
+  "n1440-dimshop-04": {
+   "shop_row": 1000110,
+   "gold": 0,
+   "materials": [
+    {
+     "item": "砂の息吹のつぼみ",
+     "qty": 50
+    }
+   ],
+   "where": "【冒険者ギルド員】デービット・【次元商人】ミャオン「次元」",
+   "result_qty": 1
+  },
+  "n1440-dimshop-05": {
+   "shop_row": 1000111,
+   "gold": 0,
+   "materials": [
+    {
+     "item": "砂の息吹のつぼみ",
+     "qty": 1000
+    }
+   ],
+   "where": "【冒険者ギルド員】デービット・【次元商人】ミャオン「次元」",
+   "result_qty": 1
+  },
+  "n1440-dimshop-06": {
+   "shop_row": 1000129,
+   "gold": 0.001,
+   "materials": [
+    {
+     "item": "砂の息吹のつぼみ",
+     "qty": 1
+    }
+   ],
+   "where": "【冒険者ギルド員】デービット・【次元商人】ミャオン「次元」",
+   "result_qty": 1
+  },
+  "n1440-dimshop-07": {
+   "shop_row": 1000102,
+   "gold": 0,
+   "materials": [
+    {
+     "item": "砂の息吹のつぼみ",
+     "qty": 50
+    }
+   ],
+   "where": "【冒険者ギルド員】デービット・【次元商人】ミャオン「次元」",
+   "result_qty": 10
+  },
+  "n1440-dimshop-08": {
+   "shop_row": 1000125,
+   "gold": 0,
+   "materials": [
+    {
+     "item": "砂の息吹のつぼみ",
+     "qty": 1000
+    }
+   ],
+   "where": "【冒険者ギルド員】デービット・【次元商人】ミャオン「次元」",
+   "result_qty": 1
+  },
+  "n1440-dimshop-10": {
+   "shop_row": 1000120,
+   "gold": 0,
+   "materials": [
+    {
+     "item": "砂の息吹のつぼみ",
+     "qty": 1500
+    }
+   ],
+   "where": "【冒険者ギルド員】デービット・【次元商人】ミャオン「次元」",
+   "result_qty": 1
+  },
+  "n1440-dimshop-11": {
+   "shop_row": 1000112,
+   "gold": 1000.0,
+   "materials": [
+    {
+     "item": "砂の息吹のつぼみ",
+     "qty": 200
+    }
+   ],
+   "where": "【冒険者ギルド員】デービット・【次元商人】ミャオン「次元」",
+   "result_qty": 1
+  },
+  "n1440-dimshop-12": {
+   "shop_row": 1000115,
+   "gold": 10000.0,
+   "materials": [
+    {
+     "item": "砂の息吹のつぼみ",
+     "qty": 500
+    }
+   ],
+   "where": "【冒険者ギルド員】デービット・【次元商人】ミャオン「次元」",
+   "result_qty": 1
+  },
+  "n1440-dimshop-13": {
+   "shop_row": 1000116,
+   "gold": 0,
+   "materials": [
+    {
+     "item": "砂の息吹のつぼみ",
+     "qty": 1500
+    }
+   ],
+   "where": "【冒険者ギルド員】デービット・【次元商人】ミャオン「次元」",
+   "result_qty": 1
+  },
+  "n1440-dimshop-14": {
+   "shop_row": 1000128,
+   "gold": 0,
+   "materials": [
+    {
+     "item": "砂の息吹のつぼみ",
+     "qty": 1000
+    }
+   ],
+   "where": "【冒険者ギルド員】デービット・【次元商人】ミャオン「次元」",
+   "result_qty": 1
+  },
+  "n1440-dimshop-15": {
+   "shop_row": 1000127,
+   "gold": 0,
+   "materials": [
+    {
+     "item": "砂の息吹のつぼみ",
+     "qty": 1000
+    }
+   ],
+   "where": "【冒険者ギルド員】デービット・【次元商人】ミャオン「次元」",
+   "result_qty": 1
+  },
+  "n1455-pdx-shop-01": {
+   "shop_row": 99001100,
+   "gold": 0,
+   "materials": [
+    {
+     "item": "残影の記録",
+     "qty": 450
+    }
+   ],
+   "where": "【警備兵】マーク「パラドックス」",
+   "result_qty": 1
+  },
+  "n1455-pdx-shop-02": {
+   "shop_row": 99001105,
+   "gold": 0,
+   "materials": [
+    {
+     "item": "残影の記録",
+     "qty": 15
+    }
+   ],
+   "where": "【警備兵】マーク「パラドックス」",
+   "result_qty": 1
+  },
+  "n1455-pdx-shop-03": {
+   "shop_row": 99001108,
+   "gold": 0,
+   "materials": [
+    {
+     "item": "残影の記録",
+     "qty": 15
+    }
+   ],
+   "where": "【警備兵】マーク「パラドックス」",
+   "result_qty": 1
+  },
+  "n1455-pdx-shop-04": {
+   "shop_row": 99001110,
+   "gold": 0,
+   "materials": [
+    {
+     "item": "残影の記録",
+     "qty": 15
+    }
+   ],
+   "where": "【警備兵】マーク「パラドックス」",
+   "result_qty": 1
+  },
+  "n1455-pdx-shop-05": {
+   "shop_row": 99001113,
+   "gold": 0,
+   "materials": [
+    {
+     "item": "残影の記録",
+     "qty": 15
+    }
+   ],
+   "where": "【警備兵】マーク「パラドックス」",
+   "result_qty": 1
+  },
+  "n1455-pdx-shop-06": {
+   "shop_row": 99001115,
+   "gold": 0,
+   "materials": [
+    {
+     "item": "矛盾の宝石抽出液",
+     "qty": 20
+    }
+   ],
+   "where": "【警備兵】マーク「パラドックス」",
+   "result_qty": 1
+  },
+  "n1455-pdx-shop-07": {
+   "shop_row": 99001118,
+   "gold": 0,
+   "materials": [
+    {
+     "item": "矛盾の宝石抽出液",
+     "qty": 25
+    }
+   ],
+   "where": "【警備兵】マーク「パラドックス」",
+   "result_qty": 1
+  },
+  "n1455-pdx-shop-08": {
+   "shop_row": 99001106,
+   "gold": 0,
+   "materials": [
+    {
+     "item": "矛盾の宝石抽出液",
+     "qty": 5
+    }
+   ],
+   "where": "【警備兵】マーク「パラドックス」",
+   "result_qty": 1
+  },
+  "n1455-pdx-shop-09": {
+   "shop_row": 99001109,
+   "gold": 0,
+   "materials": [
+    {
+     "item": "矛盾の宝石抽出液",
+     "qty": 7
+    }
+   ],
+   "where": "【警備兵】マーク「パラドックス」",
+   "result_qty": 1
+  },
+  "n1455-pdx-shop-10": {
+   "shop_row": 99001111,
+   "gold": 0,
+   "materials": [
+    {
+     "item": "矛盾の宝石抽出液",
+     "qty": 15
+    }
+   ],
+   "where": "【警備兵】マーク「パラドックス」",
+   "result_qty": 1
+  },
+  "n1455-pdx-shop-11": {
+   "shop_row": 99001114,
+   "gold": 0,
+   "materials": [
+    {
+     "item": "矛盾の宝石抽出液",
+     "qty": 20
+    }
+   ],
+   "where": "【警備兵】マーク「パラドックス」",
+   "result_qty": 1
+  },
+  "n1455-pdx-shop-12": {
+   "shop_row": 99001116,
+   "gold": 0,
+   "materials": [
+    {
+     "item": "矛盾の宝石抽出液",
+     "qty": 25
+    }
+   ],
+   "where": "【警備兵】マーク「パラドックス」",
+   "result_qty": 1
+  },
+  "n1455-pdx-shop-13": {
+   "shop_row": 99001119,
+   "gold": 0,
+   "materials": [
+    {
+     "item": "矛盾の宝石抽出液",
+     "qty": 40
+    }
+   ],
+   "where": "【警備兵】マーク「パラドックス」",
+   "result_qty": 1
+  },
+  "n1455-request-shop-1": {
+   "shop_row": 1000208,
+   "gold": 0,
+   "materials": [
+    {
+     "item": "依頼解決証明書",
+     "qty": 5
+    }
+   ],
+   "where": "【冒険者ギルド員】デービット・【次元商人】ミャオン「依頼」",
+   "result_qty": 3
+  },
+  "n1455-request-shop-3": {
+   "shop_row": 1000214,
+   "gold": 0,
+   "materials": [
+    {
+     "item": "依頼解決証明書",
+     "qty": 2
+    }
+   ],
+   "where": "【冒険者ギルド員】デービット・【次元商人】ミャオン「依頼」",
+   "result_qty": 1
+  },
+  "n1455-request-shop-4": {
+   "shop_row": 1000218,
+   "gold": 0,
+   "materials": [
+    {
+     "item": "依頼解決証明書",
+     "qty": 2
+    }
+   ],
+   "where": "【冒険者ギルド員】デービット・【次元商人】ミャオン「依頼」",
+   "result_qty": 1
+  },
+  "n1455-request-shop-5": {
+   "shop_row": 1000219,
+   "gold": 0,
+   "materials": [
+    {
+     "item": "依頼解決証明書",
+     "qty": 2
+    }
+   ],
+   "where": "【冒険者ギルド員】デービット・【次元商人】ミャオン「依頼」",
+   "result_qty": 1
+  },
+  "n1466-ark-shop-01": {
+   "shop_row": 250001200,
+   "gold": 0,
+   "materials": [
+    {
+     "item": "超越の箱舟[過去]のコイン",
+     "qty": 100
+    }
+   ],
+   "where": "【エルフ警備兵】ロベリア「箱舟[過去]」",
+   "result_qty": 15
+  },
+  "n1466-ark-shop-02": {
+   "shop_row": 250001205,
+   "gold": 0,
+   "materials": [
+    {
+     "item": "超越の箱舟[過去]のコイン",
+     "qty": 50
+    }
+   ],
+   "where": "【エルフ警備兵】ロベリア「箱舟[過去]」",
+   "result_qty": 1
+  },
+  "n1466-ark-shop-03": {
+   "shop_row": 250001206,
+   "gold": 0,
+   "materials": [
+    {
+     "item": "超越の箱舟[過去]のコイン",
+     "qty": 40
+    }
+   ],
+   "where": "【エルフ警備兵】ロベリア「箱舟[過去]」",
+   "result_qty": 1
+  },
+  "n1466-ark-shop-04": {
+   "shop_row": 250001207,
+   "gold": 0,
+   "materials": [
+    {
+     "item": "超越の箱舟[過去]のコイン",
+     "qty": 15
+    }
+   ],
+   "where": "【エルフ警備兵】ロベリア「箱舟[過去]」",
+   "result_qty": 1
+  },
+  "n1466-ark-shop-05": {
+   "shop_row": 250001210,
+   "gold": 0,
+   "materials": [
+    {
+     "item": "超越の箱舟[過去]のコイン",
+     "qty": 5
+    }
+   ],
+   "where": "【エルフ警備兵】ロベリア「箱舟[過去]」",
+   "result_qty": 100
+  },
+  "n1466-ark-shop-06": {
+   "shop_row": 250001211,
+   "gold": 0,
+   "materials": [
+    {
+     "item": "超越の箱舟[過去]のコイン",
+     "qty": 30
+    }
+   ],
+   "where": "【エルフ警備兵】ロベリア「箱舟[過去]」",
+   "result_qty": 5
+  },
+  "n1466-ark-shop-07": {
+   "shop_row": 250001212,
+   "gold": 0,
+   "materials": [
+    {
+     "item": "超越の箱舟[過去]のコイン",
+     "qty": 30
+    }
+   ],
+   "where": "【エルフ警備兵】ロベリア「箱舟[過去]」",
+   "result_qty": 50
+  },
+  "n1466-ark-shop-09": {
+   "shop_row": 250001216,
+   "gold": 0,
+   "materials": [
+    {
+     "item": "超越の箱舟[過去]のコイン",
+     "qty": 5
+    }
+   ],
+   "where": "【エルフ警備兵】ロベリア「箱舟[過去]」",
+   "result_qty": 2
+  },
+  "n1466-dokubu-shop-01": {
+   "shop_row": 320000200,
+   "gold": 0,
+   "materials": [
+    {
+     "item": "独武討伐戦コイン(シーズン3)",
+     "qty": 50
+    }
+   ],
+   "where": "【宮女】ユエ・紅蓮宮-外郭-門番「独武討伐戦」",
+   "result_qty": 5
+  },
+  "n1466-dokubu-shop-02": {
+   "shop_row": 320000201,
+   "gold": 0,
+   "materials": [
+    {
+     "item": "独武討伐戦コイン(シーズン3)",
+     "qty": 100
+    }
+   ],
+   "where": "【宮女】ユエ・紅蓮宮-外郭-門番「独武討伐戦」",
+   "result_qty": 5
+  },
+  "n1466-dokubu-shop-03": {
+   "shop_row": 320000202,
+   "gold": 0,
+   "materials": [
+    {
+     "item": "独武討伐戦コイン(シーズン3)",
+     "qty": 30
+    }
+   ],
+   "where": "【宮女】ユエ・紅蓮宮-外郭-門番「独武討伐戦」",
+   "result_qty": 5
+  },
+  "n1466-dokubu-shop-04": {
+   "shop_row": 320000205,
+   "gold": 0,
+   "materials": [
+    {
+     "item": "独武討伐戦コイン(シーズン3)",
+     "qty": 200
+    }
+   ],
+   "where": "【宮女】ユエ・紅蓮宮-外郭-門番「独武討伐戦」",
+   "result_qty": 1
+  },
+  "n1466-dokubu-shop-05": {
+   "shop_row": 320000206,
+   "gold": 0,
+   "materials": [
+    {
+     "item": "独武討伐戦コイン(シーズン3)",
+     "qty": 120
+    }
+   ],
+   "where": "【宮女】ユエ・紅蓮宮-外郭-門番「独武討伐戦」",
+   "result_qty": 2
+  },
+  "n1466-dokubu-shop-06": {
+   "shop_row": 320000207,
+   "gold": 0,
+   "materials": [
+    {
+     "item": "独武討伐戦コイン(シーズン3)",
+     "qty": 90
+    }
+   ],
+   "where": "【宮女】ユエ・紅蓮宮-外郭-門番「独武討伐戦」",
+   "result_qty": 5
+  },
+  "n1466-dokubu-shop-07": {
+   "shop_row": 320000208,
+   "gold": 0,
+   "materials": [
+    {
+     "item": "独武討伐戦コイン(シーズン3)",
+     "qty": 15
+    }
+   ],
+   "where": "【宮女】ユエ・紅蓮宮-外郭-門番「独武討伐戦」",
+   "result_qty": 5
+  },
+  "n1466-dokubu-shop-08": {
+   "shop_row": 320000209,
+   "gold": 0,
+   "materials": [
+    {
+     "item": "独武討伐戦コイン(シーズン3)",
+     "qty": 15
+    }
+   ],
+   "where": "【宮女】ユエ・紅蓮宮-外郭-門番「独武討伐戦」",
+   "result_qty": 2
+  },
+  "n1466-dokubu-shop-09": {
+   "shop_row": 320000210,
+   "gold": 0,
+   "materials": [
+    {
+     "item": "独武討伐戦コイン(シーズン3)",
+     "qty": 5
+    }
+   ],
+   "where": "【宮女】ユエ・紅蓮宮-外郭-門番「独武討伐戦」",
+   "result_qty": 1
+  },
+  "n1466-dokubu-shop-10": {
+   "shop_row": 320000211,
+   "gold": 0,
+   "materials": [
+    {
+     "item": "独武討伐戦コイン(シーズン3)",
+     "qty": 15
+    }
+   ],
+   "where": "【宮女】ユエ・紅蓮宮-外郭-門番「独武討伐戦」",
+   "result_qty": 1
+  },
+  "n1466-dokubu-shop-12": {
+   "shop_row": 320000213,
+   "gold": 0,
+   "materials": [
+    {
+     "item": "独武討伐戦コイン(シーズン3)",
+     "qty": 5
+    }
+   ],
+   "where": "【宮女】ユエ・紅蓮宮-外郭-門番「独武討伐戦」",
+   "result_qty": 1
+  },
+  "n1466-dokubu-shop-13": {
+   "shop_row": 320000214,
+   "gold": 0,
+   "materials": [
+    {
+     "item": "独武討伐戦コイン(シーズン3)",
+     "qty": 10
+    }
+   ],
+   "where": "【宮女】ユエ・紅蓮宮-外郭-門番「独武討伐戦」",
+   "result_qty": 1
+  },
+  "n1466-dokubu-shop-14": {
+   "shop_row": 320000215,
+   "gold": 0,
+   "materials": [
+    {
+     "item": "独武討伐戦コイン(シーズン3)",
+     "qty": 20
+    }
+   ],
+   "where": "【宮女】ユエ・紅蓮宮-外郭-門番「独武討伐戦」",
+   "result_qty": 1
+  },
+  "n1466-dokubu-shop-16": {
+   "shop_row": 320000220,
+   "gold": 0,
+   "materials": [
+    {
+     "item": "独武討伐戦コイン(シーズン3)",
+     "qty": 80
+    }
+   ],
+   "where": "【宮女】ユエ・紅蓮宮-外郭-門番「独武討伐戦」",
+   "result_qty": 300
+  },
+  "n1466-dokubu-shop-17": {
+   "shop_row": 320000221,
+   "gold": 0,
+   "materials": [
+    {
+     "item": "独武討伐戦コイン(シーズン3)",
+     "qty": 5
+    }
+   ],
+   "where": "【宮女】ユエ・紅蓮宮-外郭-門番「独武討伐戦」",
+   "result_qty": 10
+  },
+  "n1466-dokubu-shop-18": {
+   "shop_row": 320000222,
+   "gold": 0,
+   "materials": [
+    {
+     "item": "独武討伐戦コイン(シーズン3)",
+     "qty": 5
+    }
+   ],
+   "where": "【宮女】ユエ・紅蓮宮-外郭-門番「独武討伐戦」",
+   "result_qty": 12
+  },
+  "n1466-dokubu-shop-19": {
+   "shop_row": 320000225,
+   "gold": 0,
+   "materials": [
+    {
+     "item": "独武討伐戦コイン(シーズン3)",
+     "qty": 2
+    }
+   ],
+   "where": "【宮女】ユエ・紅蓮宮-外郭-門番「独武討伐戦」",
+   "result_qty": 500
+  },
+  "n1466-dokubu-shop-20": {
+   "shop_row": 320000226,
+   "gold": 0,
+   "materials": [
+    {
+     "item": "独武討伐戦コイン(シーズン3)",
+     "qty": 2
+    }
+   ],
+   "where": "【宮女】ユエ・紅蓮宮-外郭-門番「独武討伐戦」",
+   "result_qty": 500
+  },
+  "n1466-dokubu-shop-21": {
+   "shop_row": 320000227,
+   "gold": 0,
+   "materials": [
+    {
+     "item": "独武討伐戦コイン(シーズン3)",
+     "qty": 1
+    }
+   ],
+   "where": "【宮女】ユエ・紅蓮宮-外郭-門番「独武討伐戦」",
+   "result_qty": 50
+  },
+  "n1466-dokubu-shop-22": {
+   "shop_row": 320000230,
+   "gold": 0,
+   "materials": [
+    {
+     "item": "独武討伐戦コイン(シーズン3)",
+     "qty": 80
+    }
+   ],
+   "where": "【宮女】ユエ・紅蓮宮-外郭-門番「独武討伐戦」",
+   "result_qty": 1
+  },
+  "n1466-dokubu-shop-23": {
+   "shop_row": 320000232,
+   "gold": 0,
+   "materials": [
+    {
+     "item": "独武討伐戦コイン(シーズン3)",
+     "qty": 100
+    }
+   ],
+   "where": "【宮女】ユエ・紅蓮宮-外郭-門番「独武討伐戦」",
+   "result_qty": 1
+  },
+  "n1466-dokubu-shop-24": {
+   "shop_row": 320000231,
+   "gold": 0,
+   "materials": [
+    {
+     "item": "独武討伐戦コイン(シーズン3)",
+     "qty": 120
+    }
+   ],
+   "where": "【宮女】ユエ・紅蓮宮-外郭-門番「独武討伐戦」",
+   "result_qty": 1
+  },
+  "n1466-dokubu-shop-25": {
+   "shop_row": 320000233,
+   "gold": 0,
+   "materials": [
+    {
+     "item": "独武討伐戦コイン(シーズン3)",
+     "qty": 150
+    }
+   ],
+   "where": "【宮女】ユエ・紅蓮宮-外郭-門番「独武討伐戦」",
+   "result_qty": 1
+  },
+  "n1466-dokubu-shop-27": {
+   "shop_row": 320000235,
+   "gold": 0,
+   "materials": [
+    {
+     "item": "独武討伐戦コイン(シーズン3)",
+     "qty": 200
+    }
+   ],
+   "where": "【宮女】ユエ・紅蓮宮-外郭-門番「独武討伐戦」",
+   "result_qty": 1
+  },
+  "n1466-dokubu-shop-31": {
+   "shop_row": 320000241,
+   "gold": 0,
+   "materials": [
+    {
+     "item": "独武討伐戦コイン(シーズン3)",
+     "qty": 50
+    }
+   ],
+   "where": "【宮女】ユエ・紅蓮宮-外郭-門番「独武討伐戦」",
+   "result_qty": 50
+  },
+  "n1466-dokubu-shop-32": {
+   "shop_row": 320000250,
+   "gold": 0,
+   "materials": [
+    {
+     "item": "独武討伐戦コイン(シーズン3)",
+     "qty": 20
+    }
+   ],
+   "where": "【宮女】ユエ・紅蓮宮-外郭-門番「独武討伐戦」",
+   "result_qty": 1
+  },
+  "n1466-dokubu-shop-33": {
+   "shop_row": 320000251,
+   "gold": 0,
+   "materials": [
+    {
+     "item": "独武討伐戦コイン(シーズン3)",
+     "qty": 20
+    }
+   ],
+   "where": "【宮女】ユエ・紅蓮宮-外郭-門番「独武討伐戦」",
+   "result_qty": 1
+  },
+  "n1466-dokubu-shop-34": {
+   "shop_row": 320000252,
+   "gold": 0,
+   "materials": [
+    {
+     "item": "独武討伐戦コイン(シーズン3)",
+     "qty": 10
+    }
+   ],
+   "where": "【宮女】ユエ・紅蓮宮-外郭-門番「独武討伐戦」",
+   "result_qty": 1
+  },
+  "n1466-dokubu-shop-35": {
+   "shop_row": 320000255,
+   "gold": 0,
+   "materials": [
+    {
+     "item": "独武討伐戦コイン(シーズン3)",
+     "qty": 40
+    }
+   ],
+   "where": "【宮女】ユエ・紅蓮宮-外郭-門番「独武討伐戦」",
+   "result_qty": 5
+  },
+  "n1466-dokubu-shop-36": {
+   "shop_row": 320000256,
+   "gold": 0,
+   "materials": [
+    {
+     "item": "独武討伐戦コイン(シーズン3)",
+     "qty": 40
+    }
+   ],
+   "where": "【宮女】ユエ・紅蓮宮-外郭-門番「独武討伐戦」",
+   "result_qty": 5
+  },
+  "n1466-dokubu-shop-37": {
+   "shop_row": 320000257,
+   "gold": 0,
+   "materials": [
+    {
+     "item": "独武討伐戦コイン(シーズン3)",
+     "qty": 150
+    }
+   ],
+   "where": "【宮女】ユエ・紅蓮宮-外郭-門番「独武討伐戦」",
+   "result_qty": 1
+  },
+  "n1466-ibel-shop-1": {
+   "shop_row": 100004100,
+   "gold": 0,
+   "materials": [
+    {
+     "item": "まばゆい火種",
+     "qty": 15
+    }
+   ],
+   "where": "【噂好き】リュウレン・【語り部】ケーシー「氷のかけら」",
+   "result_qty": 50
+  },
+  "n1466-ibel-shop-2": {
+   "shop_row": 100004101,
+   "gold": 0,
+   "materials": [
+    {
+     "item": "まばゆい火種",
+     "qty": 15
+    }
+   ],
+   "where": "【噂好き】リュウレン・【語り部】ケーシー「氷のかけら」",
+   "result_qty": 50
+  },
+  "n1466-ibel-shop-3": {
+   "shop_row": 100004110,
+   "gold": 0,
+   "materials": [
+    {
+     "item": "まばゆい火種",
+     "qty": 10
+    }
+   ],
+   "where": "【噂好き】リュウレン・【語り部】ケーシー「氷のかけら」",
+   "result_qty": 150
+  },
+  "n1466-ibel-shop-4": {
+   "shop_row": 100004105,
+   "gold": 0,
+   "materials": [
+    {
+     "item": "まばゆい火種",
+     "qty": 20
+    }
+   ],
+   "where": "【噂好き】リュウレン・【語り部】ケーシー「氷のかけら」",
+   "result_qty": 1
+  },
+  "n1466-ibel-shop-5": {
+   "shop_row": 100004111,
+   "gold": 0,
+   "materials": [
+    {
+     "item": "まばゆい火種",
+     "qty": 1
+    }
+   ],
+   "where": "【噂好き】リュウレン・【語り部】ケーシー「氷のかけら」",
+   "result_qty": 1
+  },
+  "client-shop-260001105": {
+   "shop_row": 260001105,
+   "gold": 0,
+   "materials": [
+    {
+     "item": "古代の壊れた竜珠の破片",
+     "qty": 10
+    }
+   ],
+   "where": "【商人】セレナ「ウォーリアー&アーチャー」",
+   "result_qty": 1
+  },
+  "client-shop-200003179": {
+   "shop_row": 200003179,
+   "gold": 1.0,
+   "materials": [],
+   "where": "【紋章学者】ゲイル・【紋章学者】スターシュ・【紋章学者】ハンコック ほか「スキル強化紋章」",
+   "result_qty": 1
+  },
+  "client-shop-28101201": {
+   "shop_row": 28101201,
+   "gold": 0,
+   "materials": [
+    {
+     "item": "不敗のメビウスの紋章の破片",
+     "qty": 10
+    }
+   ],
+   "where": "【闇の女神官】タルト・【闇の女神官】ビスケ・【闇の女神官】モカ「メビウスの紋章」",
+   "result_qty": 1
+  },
+  "client-shop-28101300": {
+   "shop_row": 28101300,
+   "gold": 0,
+   "materials": [
+    {
+     "item": "永遠のタリスマンの核(1段階)",
+     "qty": 1
+    }
+   ],
+   "where": "【闇の女神官】タルト・【闇の女神官】ビスケ・【闇の女神官】モカ「タリスマン」",
+   "result_qty": 1
+  },
+  "client-shop-28101305": {
+   "shop_row": 28101305,
+   "gold": 0,
+   "materials": [
+    {
+     "item": "永遠のタリスマンの核(1段階)",
+     "qty": 1
+    }
+   ],
+   "where": "【闇の女神官】タルト・【闇の女神官】ビスケ・【闇の女神官】モカ「タリスマン」",
+   "result_qty": 1
+  },
+  "client-shop-28101301": {
+   "shop_row": 28101301,
+   "gold": 0,
+   "materials": [
+    {
+     "item": "永遠のタリスマンの核(1段階)",
+     "qty": 1
+    }
+   ],
+   "where": "【闇の女神官】タルト・【闇の女神官】ビスケ・【闇の女神官】モカ「タリスマン」",
+   "result_qty": 1
+  },
+  "client-shop-28101306": {
+   "shop_row": 28101306,
+   "gold": 0,
+   "materials": [
+    {
+     "item": "永遠のタリスマンの核(1段階)",
+     "qty": 1
+    }
+   ],
+   "where": "【闇の女神官】タルト・【闇の女神官】ビスケ・【闇の女神官】モカ「タリスマン」",
+   "result_qty": 1
+  },
+  "client-shop-28101307": {
+   "shop_row": 28101307,
+   "gold": 0,
+   "materials": [
+    {
+     "item": "永遠のタリスマンの核(1段階)",
+     "qty": 1
+    }
+   ],
+   "where": "【闇の女神官】タルト・【闇の女神官】ビスケ・【闇の女神官】モカ「タリスマン」",
+   "result_qty": 1
+  },
+  "client-shop-28101308": {
+   "shop_row": 28101308,
+   "gold": 0,
+   "materials": [
+    {
+     "item": "永遠のタリスマンの核(1段階)",
+     "qty": 1
+    }
+   ],
+   "where": "【闇の女神官】タルト・【闇の女神官】ビスケ・【闇の女神官】モカ「タリスマン」",
+   "result_qty": 1
+  },
+  "client-shop-28101302": {
+   "shop_row": 28101302,
+   "gold": 0,
+   "materials": [
+    {
+     "item": "永遠のタリスマンの核(1段階)",
+     "qty": 1
+    }
+   ],
+   "where": "【闇の女神官】タルト・【闇の女神官】ビスケ・【闇の女神官】モカ「タリスマン」",
+   "result_qty": 1
+  },
+  "client-shop-96003204": {
+   "shop_row": 96003204,
+   "gold": 0,
+   "materials": [
+    {
+     "item": "テラマイの力",
+     "qty": 2000
+    }
+   ],
+   "where": "【万物商店ガイド】チェルニー「英雄ブローチ」",
+   "result_qty": 1
+  },
+  "client-shop-70401210": {
+   "shop_row": 70401210,
+   "gold": 0,
+   "materials": [
+    {
+     "item": "パニアの宝の鍵",
+     "qty": 10
+    }
+   ],
+   "where": "【商人】パニア・【商人】ファルバナ「宝物交換商店」",
+   "result_qty": 1
+  },
+  "client-shop-70401211": {
+   "shop_row": 70401211,
+   "gold": 0,
+   "materials": [
+    {
+     "item": "パニアの宝の鍵",
+     "qty": 10
+    }
+   ],
+   "where": "【商人】パニア・【商人】ファルバナ「宝物交換商店」",
+   "result_qty": 1
+  },
+  "client-shop-70401204": {
+   "shop_row": 70401204,
+   "gold": 0,
+   "materials": [
+    {
+     "item": "パニアの宝の鍵",
+     "qty": 30
+    }
+   ],
+   "where": "【商人】パニア・【商人】ファルバナ「宝物交換商店」",
+   "result_qty": 1
+  },
+  "n1139-amp-unknown-earring": {
+   "change_row": 298626,
+   "accelerators": [
+    "未知の珠"
+   ]
+  },
+  "n1139-amp-unknown-necklace": {
+   "change_row": 298625,
+   "accelerators": [
+    "未知の珠"
+   ]
+  },
+  "n1139-amp-unknown-ring": {
+   "change_row": 298627,
+   "accelerators": [
+    "未知の珠"
+   ]
+  },
+  "n1151-evolve-armor": {
+   "change_row": 298816,
+   "accelerators": [
+    "中型進化加速器",
+    "古竜の防具進化石"
+   ]
+  },
+  "n1151-evolve-boots": {
+   "change_row": 298815,
+   "accelerators": [
+    "古竜の防具進化石",
+    "小型進化加速器"
+   ]
+  },
+  "n1151-evolve-bottom": {
+   "change_row": 298817,
+   "accelerators": [
+    "中型進化加速器",
+    "古竜の防具進化石"
+   ]
+  },
+  "n1151-evolve-glove": {
+   "change_row": 298814,
+   "accelerators": [
+    "古竜の防具進化石",
+    "小型進化加速器"
+   ]
+  },
+  "n1151-evolve-helm": {
+   "change_row": 298813,
+   "accelerators": [
+    "古竜の防具進化石",
+    "小型進化加速器"
+   ]
+  },
+  "n1151-evolve-true-main": {
+   "change_row": 298818,
+   "accelerators": [
+    "変形進化加速器"
+   ]
+  },
+  "n1151-evolve-true-sub": {
+   "change_row": 298843,
+   "accelerators": [
+    "変形進化加速器"
+   ]
+  },
+  "n1231-amp-armor": {
+   "change_row": 299673,
+   "accelerators": [
+    "古竜の燃える心臓",
+    "古竜の燃える心臓(取引不可)"
+   ]
+  },
+  "n1231-amp-boots": {
+   "change_row": 299676,
+   "accelerators": [
+    "古竜の燃える心臓",
+    "古竜の燃える心臓(取引不可)"
+   ]
+  },
+  "n1231-amp-bottom": {
+   "change_row": 299674,
+   "accelerators": [
+    "古竜の燃える心臓",
+    "古竜の燃える心臓(取引不可)"
+   ]
+  },
+  "n1231-amp-glove": {
+   "change_row": 299675,
+   "accelerators": [
+    "古竜の燃える心臓",
+    "古竜の燃える心臓(取引不可)"
+   ]
+  },
+  "n1231-amp-helm": {
+   "change_row": 299672,
+   "accelerators": [
+    "古竜の燃える心臓",
+    "古竜の燃える心臓(取引不可)"
+   ]
+  },
+  "n1231-amp-main": {
+   "change_row": 299677,
+   "accelerators": [
+    "古竜の燃える心臓",
+    "古竜の燃える心臓(取引不可)"
+   ]
+  },
+  "n1231-amp-sub": {
+   "change_row": 299702,
+   "accelerators": [
+    "古竜の燃える心臓",
+    "古竜の燃える心臓(取引不可)"
+   ]
+  },
+  "n1231-eternal-jade-evo": {
+   "change_row": 299671,
+   "accelerators": [
+    "永遠の変異型竜珠進化石"
+   ]
+  },
+  "n1231-savior-evo-carl": {
+   "change_row": 299663,
+   "accelerators": [
+    "カーライエンの信頼のハンマー"
+   ]
+  },
+  "n1231-savior-evo-cass": {
+   "change_row": 299664,
+   "accelerators": [
+    "カシウスの希望のハンマー"
+   ]
+  },
+  "n1231-savior-evo-doug": {
+   "change_row": 299666,
+   "accelerators": [
+    "ダグラスの勇気のハンマー"
+   ]
+  },
+  "n1231-savior-evo-tera": {
+   "change_row": 299665,
+   "accelerators": [
+    "テラマイ信念のハンマー"
+   ]
+  },
+  "n1246-elder-weapon-evo": {
+   "change_row": 299782,
+   "accelerators": [
+    "古竜の武器進化石",
+    "崩壊の攻撃宝玉",
+    "崩壊の防御宝玉",
+    "自然進化加速器"
+   ]
+  },
+  "n1287-goldthread-convert": {
+   "change_row": 300056,
+   "accelerators": [
+    "進化する古代の形状(防具)"
+   ]
+  },
+  "n1287-goldthread-evo-main": {
+   "change_row": 300016,
+   "accelerators": [
+    "進化する古代の形状(武器)"
+   ]
+  },
+  "n1287-goldthread-evo-sub": {
+   "change_row": 300041,
+   "accelerators": [
+    "進化する古代の形状(武器)"
+   ]
+  },
+  "n1287-goldthread-evo1-armor": {
+   "change_row": 300062,
+   "accelerators": [
+    "古代の形状(防具)"
+   ]
+  },
+  "n1287-goldthread-evo1-boots": {
+   "change_row": 300065,
+   "accelerators": [
+    "古代の形状(防具)"
+   ]
+  },
+  "n1287-goldthread-evo1-bottom": {
+   "change_row": 300063,
+   "accelerators": [
+    "古代の形状(防具)"
+   ]
+  },
+  "n1287-goldthread-evo1-glove": {
+   "change_row": 300064,
+   "accelerators": [
+    "古代の形状(防具)"
+   ]
+  },
+  "n1287-goldthread-evo1-helm": {
+   "change_row": 300061,
+   "accelerators": [
+    "古代の形状(防具)"
+   ]
+  },
+  "n1287-goldthread-evo2-armor": {
+   "change_row": 300057,
+   "accelerators": [
+    "進化する古代の形状(防具)"
+   ]
+  },
+  "n1287-goldthread-evo2-boots": {
+   "change_row": 300060,
+   "accelerators": [
+    "進化する古代の形状(防具)"
+   ]
+  },
+  "n1287-goldthread-evo2-bottom": {
+   "change_row": 300058,
+   "accelerators": [
+    "進化する古代の形状(防具)"
+   ]
+  },
+  "n1287-goldthread-evo2-glove": {
+   "change_row": 300059,
+   "accelerators": [
+    "進化する古代の形状(防具)"
+   ]
+  },
+  "n1287-goldthread-evo2-helm": {
+   "change_row": 300056,
+   "accelerators": [
+    "進化する古代の形状(防具)"
+   ]
+  },
+  "n1311-jakon-evo-ancient": {
+   "change_row": 300147,
+   "accelerators": [
+    "腐敗の根源"
+   ]
+  },
+  "n1311-jakon-evo-legend": {
+   "change_row": 300144,
+   "accelerators": [
+    "汚染されし意志"
+   ]
+  },
+  "n1347-goldthread-to-ancient-dragon-1": {
+   "change_row": 300854,
+   "accelerators": [
+    "小型進化加速器"
+   ]
+  },
+  "n1347-goldthread-to-ancient-dragon-2": {
+   "change_row": 300857,
+   "accelerators": [
+    "小型進化加速器"
+   ]
+  },
+  "n1347-goldthread-to-ancient-dragon-3": {
+   "change_row": 300858,
+   "accelerators": [
+    "小型進化加速器"
+   ]
+  },
+  "n1347-goldthread-to-ancient-dragon-4": {
+   "change_row": 300855,
+   "accelerators": [
+    "中型進化加速器"
+   ]
+  },
+  "n1347-goldthread-to-ancient-dragon-5": {
+   "change_row": 300856,
+   "accelerators": [
+    "中型進化加速器"
+   ]
+  },
+  "n1347-goldthread-to-ancient-dragon-6": {
+   "change_row": 300859,
+   "accelerators": [
+    "崩壊の攻撃宝玉",
+    "崩壊の防御宝玉",
+    "自然進化加速器"
+   ]
+  },
+  "n1347-goldthread-to-ancient-dragon-7": {
+   "change_row": 300885,
+   "accelerators": [
+    "崩壊の攻撃宝玉",
+    "崩壊の防御宝玉",
+    "自然進化加速器"
+   ]
+  },
+  "n1387-iona-evolve-earring": {
+   "change_row": 1201577,
+   "accelerators": [
+    "白竜の氷片"
+   ]
+  },
+  "n1387-iona-evolve-necklace": {
+   "change_row": 1201576,
+   "accelerators": [
+    "白竜の氷片"
+   ]
+  },
+  "n1387-iona-evolve-ring": {
+   "change_row": 1201575,
+   "accelerators": [
+    "白竜の氷片"
+   ]
+  },
+  "n1411-gd-armor-1-evolve": {
+   "change_row": 310012,
+   "accelerators": [
+    "金竜の守護玉"
+   ]
+  },
+  "n1411-gd-armor-2-evolve": {
+   "change_row": 310013,
+   "accelerators": [
+    "金竜の守護玉"
+   ]
+  },
+  "n1411-gd-armor-3-evolve": {
+   "change_row": 310014,
+   "accelerators": [
+    "金竜の守護玉"
+   ]
+  },
+  "n1411-gd-armor-4-evolve": {
+   "change_row": 310015,
+   "accelerators": [
+    "金竜の守護玉"
+   ]
+  },
+  "n1411-gd-armor-5-evolve": {
+   "change_row": 310016,
+   "accelerators": [
+    "金竜の守護玉"
+   ]
+  },
+  "n1411-gd-weapon-main-evolve": {
+   "change_row": 310042,
+   "accelerators": [
+    "金竜の鋭利な宝石"
+   ]
+  },
+  "n1411-gd-weapon-sub-evolve": {
+   "change_row": 310068,
+   "accelerators": [
+    "金竜の鋭利な宝石"
+   ]
+  },
+  "n1455-pdx-evolve-1": {
+   "change_row": 113335,
+   "accelerators": [
+    "クアノスのかけら"
+   ]
+  },
+  "n1455-pdx-evolve-2": {
+   "change_row": 113336,
+   "accelerators": [
+    "シャリカの鎖"
+   ]
+  },
+  "n1455-pdx-evolve-3": {
+   "change_row": 113337,
+   "accelerators": [
+    "ヘイズフロストドラゴンの鱗"
+   ]
+  },
+  "n1455-pdx-evolve-4": {
+   "change_row": 113339,
+   "accelerators": [
+    "イベールの竜魂"
+   ]
+  },
+  "n1455-pdx-evolve-5": {
+   "change_row": 113338,
+   "accelerators": [
+    "青い霜の枝"
+   ]
+  },
+  "n1455-pdx-evolve-6": {
+   "change_row": 113340,
+   "accelerators": [
+    "矛盾を抱いた心臓"
+   ]
+  },
+  "client-chg-290017": {
+   "change_row": 290017,
+   "accelerators": [
+    "エヴォハンマー：アルゼンタの冷徹"
+   ]
+  },
+  "client-chg-290018": {
+   "change_row": 290018,
+   "accelerators": [
+    "エヴォハンマー：アルゼンタの冷徹"
+   ]
+  },
+  "client-chg-290019": {
+   "change_row": 290019,
+   "accelerators": [
+    "エヴォハンマー：アルゼンタの冷徹"
+   ]
+  },
+  "client-chg-290020": {
+   "change_row": 290020,
+   "accelerators": [
+    "エヴォハンマー：アルゼンタの冷徹"
+   ]
+  },
+  "client-chg-290021": {
+   "change_row": 290021,
+   "accelerators": [
+    "エヴォハンマー：アルゼンタの冷徹"
+   ]
+  },
+  "client-chg-290022": {
+   "change_row": 290022,
+   "accelerators": [
+    "エヴォハンマー：アルゼンタの冷徹"
+   ]
+  },
+  "client-chg-290023": {
+   "change_row": 290023,
+   "accelerators": [
+    "エヴォハンマー：アルゼンタの冷徹"
+   ]
+  },
+  "client-chg-290024": {
+   "change_row": 290024,
+   "accelerators": [
+    "エヴォハンマー：アルゼンタの冷徹"
+   ]
+  },
+  "client-chg-290025": {
+   "change_row": 290025,
+   "accelerators": [
+    "エヴォハンマー：アルゼンタの冷徹"
+   ]
+  },
+  "client-chg-290026": {
+   "change_row": 290026,
+   "accelerators": [
+    "エヴォハンマー：アルゼンタの冷徹"
+   ]
+  },
+  "client-chg-290027": {
+   "change_row": 290027,
+   "accelerators": [
+    "エヴォハンマー：アルゼンタの冷徹"
+   ]
+  },
+  "client-chg-290028": {
+   "change_row": 290028,
+   "accelerators": [
+    "エヴォハンマー：アルゼンタの冷徹"
+   ]
+  },
+  "client-chg-290029": {
+   "change_row": 290029,
+   "accelerators": [
+    "エヴォハンマー：ジェレイントの守護"
+   ]
+  },
+  "client-chg-290030": {
+   "change_row": 290030,
+   "accelerators": [
+    "エヴォハンマー：ジェレイントの守護"
+   ]
+  },
+  "client-chg-290031": {
+   "change_row": 290031,
+   "accelerators": [
+    "エヴォハンマー：ジェレイントの守護"
+   ]
+  },
+  "client-chg-290032": {
+   "change_row": 290032,
+   "accelerators": [
+    "エヴォハンマー：ジェレイントの守護"
+   ]
+  },
+  "client-chg-290033": {
+   "change_row": 290033,
+   "accelerators": [
+    "エヴォハンマー：ジェレイントの守護"
+   ]
+  },
+  "client-chg-290034": {
+   "change_row": 290034,
+   "accelerators": [
+    "エヴォハンマー：ジェレイントの守護"
+   ]
+  },
+  "client-chg-290035": {
+   "change_row": 290035,
+   "accelerators": [
+    "エヴォハンマー：ジェレイントの守護"
+   ]
+  },
+  "client-chg-290036": {
+   "change_row": 290036,
+   "accelerators": [
+    "エヴォハンマー：ジェレイントの守護"
+   ]
+  },
+  "client-chg-290037": {
+   "change_row": 290037,
+   "accelerators": [
+    "エヴォハンマー：ジェレイントの守護"
+   ]
+  },
+  "client-chg-290196": {
+   "change_row": 290196,
+   "accelerators": [
+    "エヴォハンマー：ヘイズフロストドラゴン(1段階)",
+    "エヴォハンマー：ヘイズフロストドラゴン(1段階)(取引可能)"
+   ]
+  },
+  "client-chg-290197": {
+   "change_row": 290197,
+   "accelerators": [
+    "エヴォハンマー：ヘイズフロストドラゴン(1段階)",
+    "エヴォハンマー：ヘイズフロストドラゴン(1段階)(取引可能)"
+   ]
+  },
+  "client-chg-290198": {
+   "change_row": 290198,
+   "accelerators": [
+    "エヴォハンマー：ヘイズフロストドラゴン(1段階)",
+    "エヴォハンマー：ヘイズフロストドラゴン(1段階)(取引可能)"
+   ]
+  },
+  "client-chg-290199": {
+   "change_row": 290199,
+   "accelerators": [
+    "エヴォハンマー：ヘイズフロストドラゴン(1段階)",
+    "エヴォハンマー：ヘイズフロストドラゴン(1段階)(取引可能)"
+   ]
+  },
+  "client-chg-290200": {
+   "change_row": 290200,
+   "accelerators": [
+    "エヴォハンマー：ヘイズフロストドラゴン(1段階)",
+    "エヴォハンマー：ヘイズフロストドラゴン(1段階)(取引可能)"
+   ]
+  },
+  "client-chg-290201": {
+   "change_row": 290201,
+   "accelerators": [
+    "エヴォハンマー：ヘイズフロストドラゴン(2段階)",
+    "エヴォハンマー：ヘイズフロストドラゴン(2段階)(取引可能)"
+   ]
+  },
+  "client-chg-290202": {
+   "change_row": 290202,
+   "accelerators": [
+    "エヴォハンマー：ヘイズフロストドラゴン(2段階)",
+    "エヴォハンマー：ヘイズフロストドラゴン(2段階)(取引可能)"
+   ]
+  },
+  "client-chg-290203": {
+   "change_row": 290203,
+   "accelerators": [
+    "エヴォハンマー：ヘイズフロストドラゴン(2段階)",
+    "エヴォハンマー：ヘイズフロストドラゴン(2段階)(取引可能)"
+   ]
+  },
+  "client-chg-290204": {
+   "change_row": 290204,
+   "accelerators": [
+    "エヴォハンマー：ヘイズフロストドラゴン(2段階)",
+    "エヴォハンマー：ヘイズフロストドラゴン(2段階)(取引可能)"
+   ]
+  },
+  "client-chg-290205": {
+   "change_row": 290205,
+   "accelerators": [
+    "エヴォハンマー：ヘイズフロストドラゴン(2段階)",
+    "エヴォハンマー：ヘイズフロストドラゴン(2段階)(取引可能)"
+   ]
+  },
+  "client-chg-290206": {
+   "change_row": 290206,
+   "accelerators": [
+    "エヴォハンマー：ヘイズフロストドラゴン(3段階)",
+    "エヴォハンマー：ヘイズフロストドラゴン(3段階)(取引可能)"
+   ]
+  },
+  "client-chg-290207": {
+   "change_row": 290207,
+   "accelerators": [
+    "エヴォハンマー：ヘイズフロストドラゴン(3段階)",
+    "エヴォハンマー：ヘイズフロストドラゴン(3段階)(取引可能)"
+   ]
+  },
+  "client-chg-290208": {
+   "change_row": 290208,
+   "accelerators": [
+    "エヴォハンマー：ヘイズフロストドラゴン(3段階)",
+    "エヴォハンマー：ヘイズフロストドラゴン(3段階)(取引可能)"
+   ]
+  },
+  "client-chg-290209": {
+   "change_row": 290209,
+   "accelerators": [
+    "エヴォハンマー：ヘイズフロストドラゴン(3段階)",
+    "エヴォハンマー：ヘイズフロストドラゴン(3段階)(取引可能)"
+   ]
+  },
+  "client-chg-290210": {
+   "change_row": 290210,
+   "accelerators": [
+    "エヴォハンマー：ヘイズフロストドラゴン(3段階)",
+    "エヴォハンマー：ヘイズフロストドラゴン(3段階)(取引可能)"
+   ]
+  },
+  "client-chg-290211": {
+   "change_row": 290211,
+   "accelerators": [
+    "エヴォハンマー：ヘイズフロストドラゴン(1段階)",
+    "エヴォハンマー：ヘイズフロストドラゴン(1段階)(取引可能)"
+   ]
+  },
+  "client-chg-290212": {
+   "change_row": 290212,
+   "accelerators": [
+    "エヴォハンマー：ヘイズフロストドラゴン(1段階)",
+    "エヴォハンマー：ヘイズフロストドラゴン(1段階)(取引可能)"
+   ]
+  },
+  "client-chg-290213": {
+   "change_row": 290213,
+   "accelerators": [
+    "エヴォハンマー：ヘイズフロストドラゴン(1段階)",
+    "エヴォハンマー：ヘイズフロストドラゴン(1段階)(取引可能)"
+   ]
+  },
+  "client-chg-290214": {
+   "change_row": 290214,
+   "accelerators": [
+    "エヴォハンマー：ヘイズフロストドラゴン(1段階)",
+    "エヴォハンマー：ヘイズフロストドラゴン(1段階)(取引可能)"
+   ]
+  },
+  "client-chg-290215": {
+   "change_row": 290215,
+   "accelerators": [
+    "エヴォハンマー：ヘイズフロストドラゴン(1段階)",
+    "エヴォハンマー：ヘイズフロストドラゴン(1段階)(取引可能)"
+   ]
+  },
+  "client-chg-290216": {
+   "change_row": 290216,
+   "accelerators": [
+    "エヴォハンマー：ヘイズフロストドラゴン(2段階)",
+    "エヴォハンマー：ヘイズフロストドラゴン(2段階)(取引可能)"
+   ]
+  },
+  "client-chg-290217": {
+   "change_row": 290217,
+   "accelerators": [
+    "エヴォハンマー：ヘイズフロストドラゴン(2段階)",
+    "エヴォハンマー：ヘイズフロストドラゴン(2段階)(取引可能)"
+   ]
+  },
+  "client-chg-290218": {
+   "change_row": 290218,
+   "accelerators": [
+    "エヴォハンマー：ヘイズフロストドラゴン(2段階)",
+    "エヴォハンマー：ヘイズフロストドラゴン(2段階)(取引可能)"
+   ]
+  },
+  "client-chg-290219": {
+   "change_row": 290219,
+   "accelerators": [
+    "エヴォハンマー：ヘイズフロストドラゴン(2段階)",
+    "エヴォハンマー：ヘイズフロストドラゴン(2段階)(取引可能)"
+   ]
+  },
+  "client-chg-290220": {
+   "change_row": 290220,
+   "accelerators": [
+    "エヴォハンマー：ヘイズフロストドラゴン(2段階)",
+    "エヴォハンマー：ヘイズフロストドラゴン(2段階)(取引可能)"
+   ]
+  },
+  "client-chg-290221": {
+   "change_row": 290221,
+   "accelerators": [
+    "エヴォハンマー：ヘイズフロストドラゴン(3段階)",
+    "エヴォハンマー：ヘイズフロストドラゴン(3段階)(取引可能)"
+   ]
+  },
+  "client-chg-290222": {
+   "change_row": 290222,
+   "accelerators": [
+    "エヴォハンマー：ヘイズフロストドラゴン(3段階)",
+    "エヴォハンマー：ヘイズフロストドラゴン(3段階)(取引可能)"
+   ]
+  },
+  "client-chg-290223": {
+   "change_row": 290223,
+   "accelerators": [
+    "エヴォハンマー：ヘイズフロストドラゴン(3段階)",
+    "エヴォハンマー：ヘイズフロストドラゴン(3段階)(取引可能)"
+   ]
+  },
+  "client-chg-290224": {
+   "change_row": 290224,
+   "accelerators": [
+    "エヴォハンマー：ヘイズフロストドラゴン(3段階)",
+    "エヴォハンマー：ヘイズフロストドラゴン(3段階)(取引可能)"
+   ]
+  },
+  "client-chg-290225": {
+   "change_row": 290225,
+   "accelerators": [
+    "エヴォハンマー：ヘイズフロストドラゴン(3段階)",
+    "エヴォハンマー：ヘイズフロストドラゴン(3段階)(取引可能)"
+   ]
+  },
+  "client-chg-290226": {
+   "change_row": 290226,
+   "accelerators": [
+    "エヴォハンマー：ヘイズフロストドラゴン(1段階)",
+    "エヴォハンマー：ヘイズフロストドラゴン(1段階)(取引可能)"
+   ]
+  },
+  "client-chg-290227": {
+   "change_row": 290227,
+   "accelerators": [
+    "エヴォハンマー：ヘイズフロストドラゴン(1段階)",
+    "エヴォハンマー：ヘイズフロストドラゴン(1段階)(取引可能)"
+   ]
+  },
+  "client-chg-290228": {
+   "change_row": 290228,
+   "accelerators": [
+    "エヴォハンマー：ヘイズフロストドラゴン(1段階)",
+    "エヴォハンマー：ヘイズフロストドラゴン(1段階)(取引可能)"
+   ]
+  },
+  "client-chg-290229": {
+   "change_row": 290229,
+   "accelerators": [
+    "エヴォハンマー：ヘイズフロストドラゴン(2段階)",
+    "エヴォハンマー：ヘイズフロストドラゴン(2段階)(取引可能)"
+   ]
+  },
+  "client-chg-290230": {
+   "change_row": 290230,
+   "accelerators": [
+    "エヴォハンマー：ヘイズフロストドラゴン(2段階)",
+    "エヴォハンマー：ヘイズフロストドラゴン(2段階)(取引可能)"
+   ]
+  },
+  "client-chg-290231": {
+   "change_row": 290231,
+   "accelerators": [
+    "エヴォハンマー：ヘイズフロストドラゴン(2段階)",
+    "エヴォハンマー：ヘイズフロストドラゴン(2段階)(取引可能)"
+   ]
+  },
+  "client-chg-290232": {
+   "change_row": 290232,
+   "accelerators": [
+    "エヴォハンマー：ヘイズフロストドラゴン(3段階)",
+    "エヴォハンマー：ヘイズフロストドラゴン(3段階)(取引可能)"
+   ]
+  },
+  "client-chg-290233": {
+   "change_row": 290233,
+   "accelerators": [
+    "エヴォハンマー：ヘイズフロストドラゴン(3段階)",
+    "エヴォハンマー：ヘイズフロストドラゴン(3段階)(取引可能)"
+   ]
+  },
+  "client-chg-290234": {
+   "change_row": 290234,
+   "accelerators": [
+    "エヴォハンマー：ヘイズフロストドラゴン(3段階)",
+    "エヴォハンマー：ヘイズフロストドラゴン(3段階)(取引可能)"
+   ]
+  },
+  "client-chg-290235": {
+   "change_row": 290235,
+   "accelerators": [
+    "エヴォハンマー：ヘイズフロストドラゴン(1段階)",
+    "エヴォハンマー：ヘイズフロストドラゴン(1段階)(取引可能)"
+   ]
+  },
+  "client-chg-290236": {
+   "change_row": 290236,
+   "accelerators": [
+    "エヴォハンマー：ヘイズフロストドラゴン(1段階)",
+    "エヴォハンマー：ヘイズフロストドラゴン(1段階)(取引可能)"
+   ]
+  },
+  "client-chg-290237": {
+   "change_row": 290237,
+   "accelerators": [
+    "エヴォハンマー：ヘイズフロストドラゴン(1段階)",
+    "エヴォハンマー：ヘイズフロストドラゴン(1段階)(取引可能)"
+   ]
+  },
+  "client-chg-290238": {
+   "change_row": 290238,
+   "accelerators": [
+    "エヴォハンマー：ヘイズフロストドラゴン(2段階)",
+    "エヴォハンマー：ヘイズフロストドラゴン(2段階)(取引可能)"
+   ]
+  },
+  "client-chg-290239": {
+   "change_row": 290239,
+   "accelerators": [
+    "エヴォハンマー：ヘイズフロストドラゴン(2段階)",
+    "エヴォハンマー：ヘイズフロストドラゴン(2段階)(取引可能)"
+   ]
+  },
+  "client-chg-290240": {
+   "change_row": 290240,
+   "accelerators": [
+    "エヴォハンマー：ヘイズフロストドラゴン(2段階)",
+    "エヴォハンマー：ヘイズフロストドラゴン(2段階)(取引可能)"
+   ]
+  },
+  "client-chg-290241": {
+   "change_row": 290241,
+   "accelerators": [
+    "エヴォハンマー：ヘイズフロストドラゴン(3段階)",
+    "エヴォハンマー：ヘイズフロストドラゴン(3段階)(取引可能)"
+   ]
+  },
+  "client-chg-290242": {
+   "change_row": 290242,
+   "accelerators": [
+    "エヴォハンマー：ヘイズフロストドラゴン(3段階)",
+    "エヴォハンマー：ヘイズフロストドラゴン(3段階)(取引可能)"
+   ]
+  },
+  "client-chg-290243": {
+   "change_row": 290243,
+   "accelerators": [
+    "エヴォハンマー：ヘイズフロストドラゴン(3段階)",
+    "エヴォハンマー：ヘイズフロストドラゴン(3段階)(取引可能)"
+   ]
+  },
+  "client-chg-290244": {
+   "change_row": 290244,
+   "accelerators": [
+    "エヴォハンマー：ヘイズフロストドラゴン(1段階)",
+    "エヴォハンマー：ヘイズフロストドラゴン(1段階)(取引可能)"
+   ]
+  },
+  "client-chg-290317": {
+   "change_row": 290317,
+   "accelerators": [
+    "エヴォハンマー：ヘイズフロストドラゴン(2段階)",
+    "エヴォハンマー：ヘイズフロストドラゴン(2段階)(取引可能)"
+   ]
+  },
+  "client-chg-290390": {
+   "change_row": 290390,
+   "accelerators": [
+    "エヴォハンマー：ヘイズフロストドラゴン(3段階)",
+    "エヴォハンマー：ヘイズフロストドラゴン(3段階)(取引可能)"
+   ]
+  },
+  "client-chg-290463": {
+   "change_row": 290463,
+   "accelerators": [
+    "エヴォハンマー：ヘイズフロストドラゴン(1段階)",
+    "エヴォハンマー：ヘイズフロストドラゴン(1段階)(取引可能)"
+   ]
+  },
+  "client-chg-290536": {
+   "change_row": 290536,
+   "accelerators": [
+    "エヴォハンマー：ヘイズフロストドラゴン(2段階)",
+    "エヴォハンマー：ヘイズフロストドラゴン(2段階)(取引可能)"
+   ]
+  },
+  "client-chg-290609": {
+   "change_row": 290609,
+   "accelerators": [
+    "エヴォハンマー：ヘイズフロストドラゴン(3段階)",
+    "エヴォハンマー：ヘイズフロストドラゴン(3段階)(取引可能)"
+   ]
+  },
+  "client-chg-290682": {
+   "change_row": 290682,
+   "accelerators": [
+    "エヴォハンマー：ヘイズフロストドラゴン(1段階)",
+    "エヴォハンマー：ヘイズフロストドラゴン(1段階)(取引可能)"
+   ]
+  },
+  "client-chg-290730": {
+   "change_row": 290730,
+   "accelerators": [
+    "エヴォハンマー：ヘイズフロストドラゴン(2段階)",
+    "エヴォハンマー：ヘイズフロストドラゴン(2段階)(取引可能)"
+   ]
+  },
+  "client-chg-290778": {
+   "change_row": 290778,
+   "accelerators": [
+    "エヴォハンマー：ヘイズフロストドラゴン(3段階)",
+    "エヴォハンマー：ヘイズフロストドラゴン(3段階)(取引可能)"
+   ]
+  },
+  "client-chg-290826": {
+   "change_row": 290826,
+   "accelerators": [
+    "エヴォハンマー：ヘイズフロストドラゴン(1段階)",
+    "エヴォハンマー：ヘイズフロストドラゴン(1段階)(取引可能)"
+   ]
+  },
+  "client-chg-290874": {
+   "change_row": 290874,
+   "accelerators": [
+    "エヴォハンマー：ヘイズフロストドラゴン(2段階)",
+    "エヴォハンマー：ヘイズフロストドラゴン(2段階)(取引可能)"
+   ]
+  },
+  "client-chg-290922": {
+   "change_row": 290922,
+   "accelerators": [
+    "エヴォハンマー：ヘイズフロストドラゴン(3段階)",
+    "エヴォハンマー：ヘイズフロストドラゴン(3段階)(取引可能)"
+   ]
+  },
+  "client-chg-292770": {
+   "change_row": 292770,
+   "accelerators": [
+    "月食の防御宝玉(サブウェポン)"
+   ]
+  },
+  "client-chg-293303": {
+   "change_row": 293303,
+   "accelerators": [
+    "月食の防御宝玉(メインウェポン)"
+   ]
+  },
+  "client-chg-293737": {
+   "change_row": 293737,
+   "accelerators": [
+    "エヴォハンマー：アルゼンタとの別れ"
+   ]
+  },
+  "client-chg-293738": {
+   "change_row": 293738,
+   "accelerators": [
+    "エヴォハンマー：アルゼンタとの別れ"
+   ]
+  },
+  "client-chg-293739": {
+   "change_row": 293739,
+   "accelerators": [
+    "エヴォハンマー：アルゼンタとの別れ"
+   ]
+  },
+  "client-chg-293740": {
+   "change_row": 293740,
+   "accelerators": [
+    "エヴォハンマー：アルゼンタとの別れ"
+   ]
+  },
+  "client-chg-293741": {
+   "change_row": 293741,
+   "accelerators": [
+    "エヴォハンマー：アルゼンタとの別れ"
+   ]
+  },
+  "client-chg-293742": {
+   "change_row": 293742,
+   "accelerators": [
+    "エヴォハンマー：アルゼンタとの別れ"
+   ]
+  },
+  "client-chg-293743": {
+   "change_row": 293743,
+   "accelerators": [
+    "エヴォハンマー：アルゼンタとの別れ"
+   ]
+  },
+  "client-chg-293744": {
+   "change_row": 293744,
+   "accelerators": [
+    "エヴォハンマー：アルゼンタとの別れ"
+   ]
+  },
+  "client-chg-293745": {
+   "change_row": 293745,
+   "accelerators": [
+    "エヴォハンマー：アルゼンタとの別れ"
+   ]
+  },
+  "client-chg-293746": {
+   "change_row": 293746,
+   "accelerators": [
+    "エヴォハンマー：アルゼンタとの別れ"
+   ]
+  },
+  "client-chg-293747": {
+   "change_row": 293747,
+   "accelerators": [
+    "エヴォハンマー：アルゼンタとの別れ"
+   ]
+  },
+  "client-chg-293748": {
+   "change_row": 293748,
+   "accelerators": [
+    "エヴォハンマー：アルゼンタとの別れ"
+   ]
+  },
+  "client-chg-293749": {
+   "change_row": 293749,
+   "accelerators": [
+    "エヴォハンマー：ジェレイントとの別れ"
+   ]
+  },
+  "client-chg-293750": {
+   "change_row": 293750,
+   "accelerators": [
+    "エヴォハンマー：ジェレイントとの別れ"
+   ]
+  },
+  "client-chg-293751": {
+   "change_row": 293751,
+   "accelerators": [
+    "エヴォハンマー：ジェレイントとの別れ"
+   ]
+  },
+  "client-chg-293752": {
+   "change_row": 293752,
+   "accelerators": [
+    "エヴォハンマー：ジェレイントとの別れ"
+   ]
+  },
+  "client-chg-293753": {
+   "change_row": 293753,
+   "accelerators": [
+    "エヴォハンマー：ジェレイントとの別れ"
+   ]
+  },
+  "client-chg-293754": {
+   "change_row": 293754,
+   "accelerators": [
+    "エヴォハンマー：ジェレイントとの別れ"
+   ]
+  },
+  "client-chg-293755": {
+   "change_row": 293755,
+   "accelerators": [
+    "エヴォハンマー：ジェレイントとの別れ"
+   ]
+  },
+  "client-chg-293756": {
+   "change_row": 293756,
+   "accelerators": [
+    "エヴォハンマー：ジェレイントとの別れ"
+   ]
+  },
+  "client-chg-293757": {
+   "change_row": 293757,
+   "accelerators": [
+    "エヴォハンマー：ジェレイントとの別れ"
+   ]
+  },
+  "client-chg-295473": {
+   "change_row": 295473,
+   "accelerators": [
+    "15周年記念古代人の記憶",
+    "[未完]古代人の記憶",
+    "古代人の記憶"
+   ]
+  },
+  "client-chg-295474": {
+   "change_row": 295474,
+   "accelerators": [
+    "15周年記念古代人の記憶",
+    "[未完]古代人の記憶",
+    "古代人の記憶"
+   ]
+  },
+  "client-chg-295475": {
+   "change_row": 295475,
+   "accelerators": [
+    "15周年記念古代人の記憶",
+    "[未完]古代人の記憶",
+    "古代人の記憶"
+   ]
+  },
+  "client-chg-295476": {
+   "change_row": 295476,
+   "accelerators": [
+    "15周年記念古代人の記憶",
+    "[未完]古代人の記憶",
+    "古代人の記憶"
+   ]
+  },
+  "client-chg-295477": {
+   "change_row": 295477,
+   "accelerators": [
+    "15周年記念古代人の記憶",
+    "[未完]古代人の記憶",
+    "古代人の記憶"
+   ]
+  },
+  "client-chg-299712": {
+   "change_row": 299712,
+   "accelerators": [
+    "変形進化加速器"
+   ]
+  },
+  "client-chg-299737": {
+   "change_row": 299737,
+   "accelerators": [
+    "変形進化加速器"
+   ]
+  },
+  "client-chg-299747": {
+   "change_row": 299747,
+   "accelerators": [
+    "古竜の燃える心臓",
+    "古竜の燃える心臓(取引不可)"
+   ]
+  },
+  "client-chg-299772": {
+   "change_row": 299772,
+   "accelerators": [
+    "古竜の燃える心臓",
+    "古竜の燃える心臓(取引不可)"
+   ]
+  },
+  "client-chg-299807": {
+   "change_row": 299807,
+   "accelerators": [
+    "古竜の武器進化石",
+    "崩壊の攻撃宝玉",
+    "崩壊の防御宝玉",
+    "自然進化加速器"
+   ]
+  },
+  "client-chg-306561": {
+   "change_row": 306561,
+   "accelerators": [
+    "崩壊した次元の記憶"
+   ]
+  },
+  "client-chg-306562": {
+   "change_row": 306562,
+   "accelerators": [
+    "崩壊した次元の記憶"
+   ]
+  },
+  "client-chg-306563": {
+   "change_row": 306563,
+   "accelerators": [
+    "崩壊した次元の記憶"
+   ]
+  },
+  "client-chg-306564": {
+   "change_row": 306564,
+   "accelerators": [
+    "崩壊した次元の記憶"
+   ]
+  },
+  "client-chg-306565": {
+   "change_row": 306565,
+   "accelerators": [
+    "崩壊した次元の記憶"
+   ]
+  },
+  "client-chg-306566": {
+   "change_row": 306566,
+   "accelerators": [
+    "崩壊した次元の記憶"
+   ]
+  },
+  "client-chg-306592": {
+   "change_row": 306592,
+   "accelerators": [
+    "崩壊した次元の記憶"
+   ]
+  },
+  "client-chg-306603": {
+   "change_row": 306603,
+   "accelerators": [
+    "[未完]次元の変異型竜珠改良槌"
+   ]
+  },
+  "client-chg-324202": {
+   "change_row": 324202,
+   "accelerators": [
+    "永劫の変異型竜珠進化器"
+   ]
+  }
+ },
+ "new_recipes": [],
+ "boxes": {
+  "青い新芽のスキル竜珠選択袋": {
+   "client_id": 536885393,
+   "select": true,
+   "entries": [
+    {
+     "item": "幽幻の竜珠",
+     "qty": 1
+    },
+    {
+     "item": "紅月の竜珠",
+     "qty": 1
+    },
+    {
+     "item": "新緑の竜珠",
+     "qty": 1
+    }
+   ]
+  },
+  "未知の古代ネックレス袋(+12)": {
+   "client_id": 536886049,
+   "select": false,
+   "entries": [
+    {
+     "item": "未知の古代ネックレス",
+     "qty": 1,
+     "rate": 100.0
+    }
+   ]
+  },
+  "未知の古代イヤリング袋(+12)": {
+   "client_id": 536886050,
+   "select": false,
+   "entries": [
+    {
+     "item": "未知の古代イヤリング",
+     "qty": 1,
+     "rate": 100.0
+    }
+   ]
+  },
+  "未知の古代リング袋(+12)": {
+   "client_id": 536886051,
+   "select": false,
+   "entries": [
+    {
+     "item": "未知の古代リング",
+     "qty": 2,
+     "rate": 100.0
+    }
+   ]
+  },
+  "永遠の体力の能力強化紋章袋": {
+   "client_id": 536886134,
+   "select": false,
+   "entries": [
+    {
+     "item": "永遠の体力の能力強化紋章(ユニーク)",
+     "qty": 1
+    },
+    {
+     "item": "永遠の体力の能力強化紋章(エピック)",
+     "qty": 1
+    },
+    {
+     "item": "永遠の体力の能力強化紋章(レア)",
+     "qty": 1
+    },
+    {
+     "item": "永遠の究極の能力強化紋章(ユニーク)",
+     "qty": 1
+    },
+    {
+     "item": "永遠の究極の能力強化紋章(エピック)",
+     "qty": 1
+    },
+    {
+     "item": "永遠の究極の能力強化紋章(レア)",
+     "qty": 1
+    },
+    {
+     "item": "永遠の攻撃型能力強化紋章(ユニーク)",
+     "qty": 1
+    },
+    {
+     "item": "永遠の攻撃型能力強化紋章(エピック)",
+     "qty": 1
+    },
+    {
+     "item": "永遠の攻撃型能力強化紋章(レア)",
+     "qty": 1
+    },
+    {
+     "item": "永遠の防御型能力強化紋章(ユニーク)",
+     "qty": 1
+    },
+    {
+     "item": "永遠の防御型能力強化紋章(エピック)",
+     "qty": 1
+    },
+    {
+     "item": "永遠の防御型能力強化紋章(レア)",
+     "qty": 1
+    }
+   ]
+  },
+  "永遠の魔力の能力強化紋章袋": {
+   "client_id": 536886135,
+   "select": false,
+   "entries": [
+    {
+     "item": "永遠の魔力の能力強化紋章(ユニーク)",
+     "qty": 1
+    },
+    {
+     "item": "永遠の魔力の能力強化紋章(エピック)",
+     "qty": 1
+    },
+    {
+     "item": "永遠の魔力の能力強化紋章(レア)",
+     "qty": 1
+    },
+    {
+     "item": "永遠の究極の能力強化紋章(ユニーク)",
+     "qty": 1
+    },
+    {
+     "item": "永遠の究極の能力強化紋章(エピック)",
+     "qty": 1
+    },
+    {
+     "item": "永遠の究極の能力強化紋章(レア)",
+     "qty": 1
+    },
+    {
+     "item": "永遠の攻撃型能力強化紋章(ユニーク)",
+     "qty": 1
+    },
+    {
+     "item": "永遠の攻撃型能力強化紋章(エピック)",
+     "qty": 1
+    },
+    {
+     "item": "永遠の攻撃型能力強化紋章(レア)",
+     "qty": 1
+    },
+    {
+     "item": "永遠の防御型能力強化紋章(ユニーク)",
+     "qty": 1
+    },
+    {
+     "item": "永遠の防御型能力強化紋章(エピック)",
+     "qty": 1
+    },
+    {
+     "item": "永遠の防御型能力強化紋章(レア)",
+     "qty": 1
+    }
+   ]
+  },
+  "永遠の加護の能力強化紋章袋": {
+   "client_id": 536886136,
+   "select": false,
+   "entries": [
+    {
+     "item": "永遠の加護の能力強化紋章(ユニーク)",
+     "qty": 1
+    },
+    {
+     "item": "永遠の加護の能力強化紋章(エピック)",
+     "qty": 1
+    },
+    {
+     "item": "永遠の加護の能力強化紋章(レア)",
+     "qty": 1
+    },
+    {
+     "item": "永遠の究極の能力強化紋章(ユニーク)",
+     "qty": 1
+    },
+    {
+     "item": "永遠の究極の能力強化紋章(エピック)",
+     "qty": 1
+    },
+    {
+     "item": "永遠の究極の能力強化紋章(レア)",
+     "qty": 1
+    },
+    {
+     "item": "永遠の攻撃型能力強化紋章(ユニーク)",
+     "qty": 1
+    },
+    {
+     "item": "永遠の攻撃型能力強化紋章(エピック)",
+     "qty": 1
+    },
+    {
+     "item": "永遠の攻撃型能力強化紋章(レア)",
+     "qty": 1
+    },
+    {
+     "item": "永遠の防御型能力強化紋章(ユニーク)",
+     "qty": 1
+    },
+    {
+     "item": "永遠の防御型能力強化紋章(エピック)",
+     "qty": 1
+    },
+    {
+     "item": "永遠の防御型能力強化紋章(レア)",
+     "qty": 1
+    }
+   ]
+  },
+  "永遠の破壊の能力強化紋章袋": {
+   "client_id": 536886137,
+   "select": false,
+   "entries": [
+    {
+     "item": "永遠の破壊の能力強化紋章(ユニーク)",
+     "qty": 1
+    },
+    {
+     "item": "永遠の破壊の能力強化紋章(エピック)",
+     "qty": 1
+    },
+    {
+     "item": "永遠の破壊の能力強化紋章(レア)",
+     "qty": 1
+    },
+    {
+     "item": "永遠の究極の能力強化紋章(ユニーク)",
+     "qty": 1
+    },
+    {
+     "item": "永遠の究極の能力強化紋章(エピック)",
+     "qty": 1
+    },
+    {
+     "item": "永遠の究極の能力強化紋章(レア)",
+     "qty": 1
+    },
+    {
+     "item": "永遠の攻撃型能力強化紋章(ユニーク)",
+     "qty": 1
+    },
+    {
+     "item": "永遠の攻撃型能力強化紋章(エピック)",
+     "qty": 1
+    },
+    {
+     "item": "永遠の攻撃型能力強化紋章(レア)",
+     "qty": 1
+    },
+    {
+     "item": "永遠の防御型能力強化紋章(ユニーク)",
+     "qty": 1
+    },
+    {
+     "item": "永遠の防御型能力強化紋章(エピック)",
+     "qty": 1
+    },
+    {
+     "item": "永遠の防御型能力強化紋章(レア)",
+     "qty": 1
+    }
+   ]
+  },
+  "永遠の鉄壁の能力強化紋章袋": {
+   "client_id": 536886138,
+   "select": false,
+   "entries": [
+    {
+     "item": "永遠の鉄壁の能力強化紋章(ユニーク)",
+     "qty": 1
+    },
+    {
+     "item": "永遠の鉄壁の能力強化紋章(エピック)",
+     "qty": 1
+    },
+    {
+     "item": "永遠の鉄壁の能力強化紋章(レア)",
+     "qty": 1
+    },
+    {
+     "item": "永遠の究極の能力強化紋章(ユニーク)",
+     "qty": 1
+    },
+    {
+     "item": "永遠の究極の能力強化紋章(エピック)",
+     "qty": 1
+    },
+    {
+     "item": "永遠の究極の能力強化紋章(レア)",
+     "qty": 1
+    },
+    {
+     "item": "永遠の攻撃型能力強化紋章(ユニーク)",
+     "qty": 1
+    },
+    {
+     "item": "永遠の攻撃型能力強化紋章(エピック)",
+     "qty": 1
+    },
+    {
+     "item": "永遠の攻撃型能力強化紋章(レア)",
+     "qty": 1
+    },
+    {
+     "item": "永遠の防御型能力強化紋章(ユニーク)",
+     "qty": 1
+    },
+    {
+     "item": "永遠の防御型能力強化紋章(エピック)",
+     "qty": 1
+    },
+    {
+     "item": "永遠の防御型能力強化紋章(レア)",
+     "qty": 1
+    }
+   ]
+  },
+  "永遠の疾風の能力強化紋章袋": {
+   "client_id": 536886139,
+   "select": false,
+   "entries": [
+    {
+     "item": "永遠の疾風の能力強化紋章(ユニーク)",
+     "qty": 1
+    },
+    {
+     "item": "永遠の疾風の能力強化紋章(エピック)",
+     "qty": 1
+    },
+    {
+     "item": "永遠の疾風の能力強化紋章(レア)",
+     "qty": 1
+    },
+    {
+     "item": "永遠の究極の能力強化紋章(ユニーク)",
+     "qty": 1
+    },
+    {
+     "item": "永遠の究極の能力強化紋章(エピック)",
+     "qty": 1
+    },
+    {
+     "item": "永遠の究極の能力強化紋章(レア)",
+     "qty": 1
+    },
+    {
+     "item": "永遠の攻撃型能力強化紋章(ユニーク)",
+     "qty": 1
+    },
+    {
+     "item": "永遠の攻撃型能力強化紋章(エピック)",
+     "qty": 1
+    },
+    {
+     "item": "永遠の攻撃型能力強化紋章(レア)",
+     "qty": 1
+    },
+    {
+     "item": "永遠の防御型能力強化紋章(ユニーク)",
+     "qty": 1
+    },
+    {
+     "item": "永遠の防御型能力強化紋章(エピック)",
+     "qty": 1
+    },
+    {
+     "item": "永遠の防御型能力強化紋章(レア)",
+     "qty": 1
+    }
+   ]
+  },
+  "永遠の知恵の能力強化紋章袋": {
+   "client_id": 536886140,
+   "select": false,
+   "entries": [
+    {
+     "item": "永遠の知恵の能力強化紋章(ユニーク)",
+     "qty": 1
+    },
+    {
+     "item": "永遠の知恵の能力強化紋章(エピック)",
+     "qty": 1
+    },
+    {
+     "item": "永遠の知恵の能力強化紋章(レア)",
+     "qty": 1
+    },
+    {
+     "item": "永遠の究極の能力強化紋章(ユニーク)",
+     "qty": 1
+    },
+    {
+     "item": "永遠の究極の能力強化紋章(エピック)",
+     "qty": 1
+    },
+    {
+     "item": "永遠の究極の能力強化紋章(レア)",
+     "qty": 1
+    },
+    {
+     "item": "永遠の攻撃型能力強化紋章(ユニーク)",
+     "qty": 1
+    },
+    {
+     "item": "永遠の攻撃型能力強化紋章(エピック)",
+     "qty": 1
+    },
+    {
+     "item": "永遠の攻撃型能力強化紋章(レア)",
+     "qty": 1
+    },
+    {
+     "item": "永遠の防御型能力強化紋章(ユニーク)",
+     "qty": 1
+    },
+    {
+     "item": "永遠の防御型能力強化紋章(エピック)",
+     "qty": 1
+    },
+    {
+     "item": "永遠の防御型能力強化紋章(レア)",
+     "qty": 1
+    }
+   ]
+  },
+  "永遠の致命の能力強化紋章袋": {
+   "client_id": 536886141,
+   "select": false,
+   "entries": [
+    {
+     "item": "永遠の致命の能力強化紋章(ユニーク)",
+     "qty": 1
+    },
+    {
+     "item": "永遠の致命の能力強化紋章(エピック)",
+     "qty": 1
+    },
+    {
+     "item": "永遠の致命の能力強化紋章(レア)",
+     "qty": 1
+    },
+    {
+     "item": "永遠の究極の能力強化紋章(ユニーク)",
+     "qty": 1
+    },
+    {
+     "item": "永遠の究極の能力強化紋章(エピック)",
+     "qty": 1
+    },
+    {
+     "item": "永遠の究極の能力強化紋章(レア)",
+     "qty": 1
+    },
+    {
+     "item": "永遠の攻撃型能力強化紋章(ユニーク)",
+     "qty": 1
+    },
+    {
+     "item": "永遠の攻撃型能力強化紋章(エピック)",
+     "qty": 1
+    },
+    {
+     "item": "永遠の攻撃型能力強化紋章(レア)",
+     "qty": 1
+    },
+    {
+     "item": "永遠の防御型能力強化紋章(ユニーク)",
+     "qty": 1
+    },
+    {
+     "item": "永遠の防御型能力強化紋章(エピック)",
+     "qty": 1
+    },
+    {
+     "item": "永遠の防御型能力強化紋章(レア)",
+     "qty": 1
+    }
+   ]
+  },
+  "永遠の限界の能力強化紋章袋": {
+   "client_id": 536886142,
+   "select": false,
+   "entries": [
+    {
+     "item": "永遠の限界の能力強化紋章(ユニーク)",
+     "qty": 1
+    },
+    {
+     "item": "永遠の限界の能力強化紋章(エピック)",
+     "qty": 1
+    },
+    {
+     "item": "永遠の限界の能力強化紋章(レア)",
+     "qty": 1
+    },
+    {
+     "item": "永遠の究極の能力強化紋章(ユニーク)",
+     "qty": 1
+    },
+    {
+     "item": "永遠の究極の能力強化紋章(エピック)",
+     "qty": 1
+    },
+    {
+     "item": "永遠の究極の能力強化紋章(レア)",
+     "qty": 1
+    },
+    {
+     "item": "永遠の攻撃型能力強化紋章(ユニーク)",
+     "qty": 1
+    },
+    {
+     "item": "永遠の攻撃型能力強化紋章(エピック)",
+     "qty": 1
+    },
+    {
+     "item": "永遠の攻撃型能力強化紋章(レア)",
+     "qty": 1
+    },
+    {
+     "item": "永遠の防御型能力強化紋章(ユニーク)",
+     "qty": 1
+    },
+    {
+     "item": "永遠の防御型能力強化紋章(エピック)",
+     "qty": 1
+    },
+    {
+     "item": "永遠の防御型能力強化紋章(レア)",
+     "qty": 1
+    }
+   ]
+  },
+  "永遠の気迫の能力強化紋章袋": {
+   "client_id": 536886143,
+   "select": false,
+   "entries": [
+    {
+     "item": "永遠の気迫の能力強化紋章(ユニーク)",
+     "qty": 1
+    },
+    {
+     "item": "永遠の気迫の能力強化紋章(エピック)",
+     "qty": 1
+    },
+    {
+     "item": "永遠の気迫の能力強化紋章(レア)",
+     "qty": 1
+    },
+    {
+     "item": "永遠の究極の能力強化紋章(ユニーク)",
+     "qty": 1
+    },
+    {
+     "item": "永遠の究極の能力強化紋章(エピック)",
+     "qty": 1
+    },
+    {
+     "item": "永遠の究極の能力強化紋章(レア)",
+     "qty": 1
+    },
+    {
+     "item": "永遠の攻撃型能力強化紋章(ユニーク)",
+     "qty": 1
+    },
+    {
+     "item": "永遠の攻撃型能力強化紋章(エピック)",
+     "qty": 1
+    },
+    {
+     "item": "永遠の攻撃型能力強化紋章(レア)",
+     "qty": 1
+    },
+    {
+     "item": "永遠の防御型能力強化紋章(ユニーク)",
+     "qty": 1
+    },
+    {
+     "item": "永遠の防御型能力強化紋章(エピック)",
+     "qty": 1
+    },
+    {
+     "item": "永遠の防御型能力強化紋章(レア)",
+     "qty": 1
+    }
+   ]
+  },
+  "永遠の生命の能力強化紋章袋": {
+   "client_id": 536886144,
+   "select": false,
+   "entries": [
+    {
+     "item": "永遠の生命の能力強化紋章(ユニーク)",
+     "qty": 1
+    },
+    {
+     "item": "永遠の生命の能力強化紋章(エピック)",
+     "qty": 1
+    },
+    {
+     "item": "永遠の生命の能力強化紋章(レア)",
+     "qty": 1
+    },
+    {
+     "item": "永遠の究極の能力強化紋章(ユニーク)",
+     "qty": 1
+    },
+    {
+     "item": "永遠の究極の能力強化紋章(エピック)",
+     "qty": 1
+    },
+    {
+     "item": "永遠の究極の能力強化紋章(レア)",
+     "qty": 1
+    },
+    {
+     "item": "永遠の攻撃型能力強化紋章(ユニーク)",
+     "qty": 1
+    },
+    {
+     "item": "永遠の攻撃型能力強化紋章(エピック)",
+     "qty": 1
+    },
+    {
+     "item": "永遠の攻撃型能力強化紋章(レア)",
+     "qty": 1
+    },
+    {
+     "item": "永遠の防御型能力強化紋章(ユニーク)",
+     "qty": 1
+    },
+    {
+     "item": "永遠の防御型能力強化紋章(エピック)",
+     "qty": 1
+    },
+    {
+     "item": "永遠の防御型能力強化紋章(レア)",
+     "qty": 1
+    }
+   ]
+  },
+  "成長する新芽スキル竜珠選択袋": {
+   "client_id": 536886307,
+   "select": true,
+   "entries": [
+    {
+     "item": "幽幻の竜珠",
+     "qty": 1
+    },
+    {
+     "item": "紅月の竜珠",
+     "qty": 1
+    },
+    {
+     "item": "新緑の竜珠",
+     "qty": 1
+    }
+   ]
+  },
+  "幽幻/紅月/新緑の竜珠選択袋(取引不可)": {
+   "client_id": 536886443,
+   "select": true,
+   "entries": [
+    {
+     "item": "幽幻の竜珠",
+     "qty": 1
+    },
+    {
+     "item": "紅月の竜珠",
+     "qty": 1
+    },
+    {
+     "item": "新緑の竜珠",
+     "qty": 1
+    }
+   ]
+  },
+  "幽幻/紅月/新緑の竜珠選択袋(+10)": {
+   "client_id": 536886655,
+   "select": true,
+   "entries": [
+    {
+     "item": "幽幻の竜珠",
+     "qty": 1
+    },
+    {
+     "item": "紅月の竜珠",
+     "qty": 1
+    },
+    {
+     "item": "新緑の竜珠",
+     "qty": 1
+    }
+   ]
+  },
+  "[謎]永遠の混沌のタリスマン": {
+   "client_id": 536886797,
+   "select": false,
+   "entries": [
+    {
+     "item": "永遠の混沌のタリスマン",
+     "qty": 1
+    }
+   ]
+  },
+  "異世界の古代武器袋": {
+   "client_id": 536886823,
+   "select": false,
+   "entries": [
+    {
+     "item": "異世界の古代メインウェポン",
+     "qty": 1
+    },
+    {
+     "item": "異世界の古代サブウェポン",
+     "qty": 1
+    }
+   ]
+  },
+  "[封]次元の竜珠": {
+   "client_id": 536887147,
+   "select": false,
+   "entries": [
+    {
+     "item": "次元の竜珠",
+     "qty": 1
+    }
+   ]
+  },
+  "[謎]カーライエンのセイヴィア紋章": {
+   "client_id": 536887148,
+   "select": false,
+   "entries": [
+    {
+     "item": "カーライエンのセイヴィア紋章(上級)",
+     "qty": 1
+    },
+    {
+     "item": "カーライエンのセイヴィア紋章(中級)",
+     "qty": 1
+    },
+    {
+     "item": "カーライエンのセイヴィア紋章(下級)",
+     "qty": 1
+    }
+   ]
+  },
+  "[謎]カシウスのセイヴィア紋章": {
+   "client_id": 536887149,
+   "select": false,
+   "entries": [
+    {
+     "item": "カシウスのセイヴィア紋章(上級)",
+     "qty": 1
+    },
+    {
+     "item": "カシウスのセイヴィア紋章(中級)",
+     "qty": 1
+    },
+    {
+     "item": "カシウスのセイヴィア紋章(下級)",
+     "qty": 1
+    }
+   ]
+  },
+  "[謎]テラマイのセイヴィア紋章": {
+   "client_id": 536887150,
+   "select": false,
+   "entries": [
+    {
+     "item": "テラマイのセイヴィア紋章(上級)",
+     "qty": 1
+    },
+    {
+     "item": "テラマイのセイヴィア紋章(中級)",
+     "qty": 1
+    },
+    {
+     "item": "テラマイのセイヴィア紋章(下級)",
+     "qty": 1
+    }
+   ]
+  },
+  "[謎]ダグラスのセイヴィア紋章": {
+   "client_id": 536887151,
+   "select": false,
+   "entries": [
+    {
+     "item": "ダグラスのセイヴィア紋章(上級)",
+     "qty": 1
+    },
+    {
+     "item": "ダグラスのセイヴィア紋章(中級)",
+     "qty": 1
+    },
+    {
+     "item": "ダグラスのセイヴィア紋章(下級)",
+     "qty": 1
+    }
+   ]
+  },
+  "永遠の能力強化紋章(エピック)ランダム袋": {
+   "client_id": 536887186,
+   "select": false,
+   "entries": [
+    {
+     "item": "永遠の体力の能力強化紋章(エピック)",
+     "qty": 1
+    },
+    {
+     "item": "永遠の魔力の能力強化紋章(エピック)",
+     "qty": 1
+    },
+    {
+     "item": "永遠の加護の能力強化紋章(エピック)",
+     "qty": 1
+    },
+    {
+     "item": "永遠の破壊の能力強化紋章(エピック)",
+     "qty": 1
+    },
+    {
+     "item": "永遠の鉄壁の能力強化紋章(エピック)",
+     "qty": 1
+    },
+    {
+     "item": "永遠の疾風の能力強化紋章(エピック)",
+     "qty": 1
+    },
+    {
+     "item": "永遠の知恵の能力強化紋章(エピック)",
+     "qty": 1
+    },
+    {
+     "item": "永遠の究極の能力強化紋章(エピック)",
+     "qty": 1
+    },
+    {
+     "item": "永遠の致命の能力強化紋章(エピック)",
+     "qty": 1
+    },
+    {
+     "item": "永遠の限界の能力強化紋章(エピック)",
+     "qty": 1
+    },
+    {
+     "item": "永遠の気迫の能力強化紋章(エピック)",
+     "qty": 1
+    },
+    {
+     "item": "永遠の生命の能力強化紋章(エピック)",
+     "qty": 1
+    },
+    {
+     "item": "永遠の攻撃型能力強化紋章(エピック)",
+     "qty": 1
+    },
+    {
+     "item": "永遠の防御型能力強化紋章(エピック)",
+     "qty": 1
+    }
+   ]
+  },
+  "永遠のタリスマン(2段階)選択袋": {
+   "client_id": 536887187,
+   "select": true,
+   "entries": [
+    {
+     "item": "永遠の魔力のタリスマン(2段階)",
+     "qty": 1
+    },
+    {
+     "item": "永遠の加護のタリスマン(2段階)",
+     "qty": 1
+    },
+    {
+     "item": "永遠の破壊のタリスマン(2段階)",
+     "qty": 1
+    },
+    {
+     "item": "永遠の鉄壁のタリスマン(2段階)",
+     "qty": 1
+    },
+    {
+     "item": "永遠の致命のタリスマン(2段階)",
+     "qty": 1
+    },
+    {
+     "item": "永遠の限界のタリスマン(2段階)",
+     "qty": 1
+    },
+    {
+     "item": "永遠の生命のタリスマン(2段階)",
+     "qty": 1
+    }
+   ]
+  },
+  "ジェレイントとアルゼンタのアクセサリー選択袋": {
+   "client_id": 536887188,
+   "select": true,
+   "entries": [
+    {
+     "item": "祝福を受けた勇猛なゴールデンネックレス(物理)",
+     "qty": 1
+    },
+    {
+     "item": "祝福を受けた勇猛なゴールデンネックレス(魔法)",
+     "qty": 1
+    },
+    {
+     "item": "祝福を受けた勇猛なゴールデンネックレス(混合)",
+     "qty": 1
+    },
+    {
+     "item": "祝福を受けた勇猛なゴールデンイヤリング(物理)",
+     "qty": 1
+    },
+    {
+     "item": "祝福を受けた勇猛なゴールデンイヤリング(魔法)",
+     "qty": 1
+    },
+    {
+     "item": "祝福を受けた勇猛なゴールデンイヤリング(混合)",
+     "qty": 1
+    },
+    {
+     "item": "祝福を受けた勇猛なゴールデンリング(物理)",
+     "qty": 1
+    },
+    {
+     "item": "祝福を受けた勇猛なゴールデンリング(魔法)",
+     "qty": 1
+    },
+    {
+     "item": "祝福を受けた勇猛なゴールデンリング(混合)",
+     "qty": 1
+    },
+    {
+     "item": "激情を隠した冷徹なレッドリング",
+     "qty": 1
+    },
+    {
+     "item": "激情を隠した冷徹なレッドネックレス",
+     "qty": 1
+    },
+    {
+     "item": "激情を隠した冷徹なレッドイヤリング",
+     "qty": 1
+    }
+   ]
+  },
+  "永遠のタリスマン(4段階)選択袋": {
+   "client_id": 536887197,
+   "select": true,
+   "entries": [
+    {
+     "item": "永遠の魔力のタリスマン(4段階)",
+     "qty": 1
+    },
+    {
+     "item": "永遠の加護のタリスマン(4段階)",
+     "qty": 1
+    },
+    {
+     "item": "永遠の破壊のタリスマン(4段階)",
+     "qty": 1
+    },
+    {
+     "item": "永遠の鉄壁のタリスマン(4段階)",
+     "qty": 1
+    },
+    {
+     "item": "永遠の致命のタリスマン(4段階)",
+     "qty": 1
+    },
+    {
+     "item": "永遠の限界のタリスマン(4段階)",
+     "qty": 1
+    },
+    {
+     "item": "永遠の生命のタリスマン(4段階)",
+     "qty": 1
+    }
+   ]
+  },
+  "永遠のタリスマン(4段階)ランダム袋": {
+   "client_id": 536887198,
+   "select": false,
+   "entries": [
+    {
+     "item": "永遠の魔力のタリスマン(4段階)",
+     "qty": 1
+    },
+    {
+     "item": "永遠の加護のタリスマン(4段階)",
+     "qty": 1
+    },
+    {
+     "item": "永遠の破壊のタリスマン(4段階)",
+     "qty": 1
+    },
+    {
+     "item": "永遠の鉄壁のタリスマン(4段階)",
+     "qty": 1
+    },
+    {
+     "item": "永遠の致命のタリスマン(4段階)",
+     "qty": 1
+    },
+    {
+     "item": "永遠の限界のタリスマン(4段階)",
+     "qty": 1
+    },
+    {
+     "item": "永遠の生命のタリスマン(4段階)",
+     "qty": 1
+    }
+   ]
+  },
+  "永遠のタリスマン(3段階)選択袋": {
+   "client_id": 536887199,
+   "select": true,
+   "entries": [
+    {
+     "item": "永遠の魔力のタリスマン(3段階)",
+     "qty": 1
+    },
+    {
+     "item": "永遠の加護のタリスマン(3段階)",
+     "qty": 1
+    },
+    {
+     "item": "永遠の破壊のタリスマン(3段階)",
+     "qty": 1
+    },
+    {
+     "item": "永遠の鉄壁のタリスマン(3段階)",
+     "qty": 1
+    },
+    {
+     "item": "永遠の致命のタリスマン(3段階)",
+     "qty": 1
+    },
+    {
+     "item": "永遠の限界のタリスマン(3段階)",
+     "qty": 1
+    },
+    {
+     "item": "永遠の生命のタリスマン(3段階)",
+     "qty": 1
+    }
+   ]
+  },
+  "永遠のタリスマン(3段階)ランダム袋": {
+   "client_id": 536887200,
+   "select": false,
+   "entries": [
+    {
+     "item": "永遠の魔力のタリスマン(3段階)",
+     "qty": 1
+    },
+    {
+     "item": "永遠の加護のタリスマン(3段階)",
+     "qty": 1
+    },
+    {
+     "item": "永遠の破壊のタリスマン(3段階)",
+     "qty": 1
+    },
+    {
+     "item": "永遠の鉄壁のタリスマン(3段階)",
+     "qty": 1
+    },
+    {
+     "item": "永遠の致命のタリスマン(3段階)",
+     "qty": 1
+    },
+    {
+     "item": "永遠の限界のタリスマン(3段階)",
+     "qty": 1
+    },
+    {
+     "item": "永遠の生命のタリスマン(3段階)",
+     "qty": 1
+    }
+   ]
+  },
+  "永遠のタリスマン袋(1段階)": {
+   "client_id": 536887226,
+   "select": false,
+   "entries": [
+    {
+     "item": "永遠の魔力のタリスマン(1段階)",
+     "qty": 1
+    },
+    {
+     "item": "永遠の加護のタリスマン(1段階)",
+     "qty": 1
+    },
+    {
+     "item": "永遠の破壊のタリスマン(1段階)",
+     "qty": 1
+    },
+    {
+     "item": "永遠の鉄壁のタリスマン(1段階)",
+     "qty": 1
+    },
+    {
+     "item": "永遠の致命のタリスマン(1段階)",
+     "qty": 1
+    },
+    {
+     "item": "永遠の限界のタリスマン(1段階)",
+     "qty": 1
+    },
+    {
+     "item": "永遠の生命のタリスマン(1段階)",
+     "qty": 1
+    }
+   ]
+  },
+  "スキル竜珠(幽幻/紅月/新緑)+10選択袋": {
+   "client_id": 536887359,
+   "select": true,
+   "entries": [
+    {
+     "item": "幽幻の竜珠",
+     "qty": 1
+    },
+    {
+     "item": "紅月の竜珠",
+     "qty": 1
+    },
+    {
+     "item": "新緑の竜珠",
+     "qty": 1
+    }
+   ]
+  },
+  "[Ⅰ]古代防具袋": {
+   "client_id": 536887520,
+   "select": false,
+   "entries": [
+    {
+     "item": "生命の古代ヘルム",
+     "qty": 1
+    },
+    {
+     "item": "東方の古代アーマー",
+     "qty": 1
+    },
+    {
+     "item": "黎明の古代ボトム",
+     "qty": 1
+    },
+    {
+     "item": "密林の古代グローブ",
+     "qty": 1
+    },
+    {
+     "item": "深淵の古代ブーツ",
+     "qty": 1
+    }
+   ]
+  },
+  "[封]異界の竜珠": {
+   "client_id": 536887528,
+   "select": false,
+   "entries": [
+    {
+     "item": "異界の竜珠",
+     "qty": 1
+    }
+   ]
+  },
+  "生命の古代ヘルム(+3)袋": {
+   "client_id": 536887638,
+   "select": false,
+   "entries": [
+    {
+     "item": "金糸ヘルム",
+     "qty": 1
+    },
+    {
+     "item": "次元の砂(取引不可)",
+     "qty": 1
+    }
+   ]
+  },
+  "生命の古代ヘルム(+6)袋": {
+   "client_id": 536887639,
+   "select": false,
+   "entries": [
+    {
+     "item": "金糸ヘルム",
+     "qty": 1
+    },
+    {
+     "item": "次元の砂(取引不可)",
+     "qty": 2
+    }
+   ]
+  },
+  "生命の古代ヘルム(+9)袋": {
+   "client_id": 536887640,
+   "select": false,
+   "entries": [
+    {
+     "item": "金糸ヘルム",
+     "qty": 1
+    },
+    {
+     "item": "次元の砂(取引不可)",
+     "qty": 5
+    }
+   ]
+  },
+  "東方の古代アーマー(+3)袋": {
+   "client_id": 536887641,
+   "select": false,
+   "entries": [
+    {
+     "item": "金糸アーマー",
+     "qty": 1
+    },
+    {
+     "item": "次元の砂(取引不可)",
+     "qty": 1
+    }
+   ]
+  },
+  "東方の古代アーマー(+6)袋": {
+   "client_id": 536887642,
+   "select": false,
+   "entries": [
+    {
+     "item": "金糸アーマー",
+     "qty": 1
+    },
+    {
+     "item": "次元の砂(取引不可)",
+     "qty": 2
+    }
+   ]
+  },
+  "東方の古代アーマー(+9)袋": {
+   "client_id": 536887643,
+   "select": false,
+   "entries": [
+    {
+     "item": "金糸アーマー",
+     "qty": 1
+    },
+    {
+     "item": "次元の砂(取引不可)",
+     "qty": 5
+    }
+   ]
+  },
+  "黎明の古代ボトム(+3)袋": {
+   "client_id": 536887644,
+   "select": false,
+   "entries": [
+    {
+     "item": "金糸ボトム",
+     "qty": 1
+    },
+    {
+     "item": "次元の砂(取引不可)",
+     "qty": 1
+    }
+   ]
+  },
+  "黎明の古代ボトム(+6)袋": {
+   "client_id": 536887645,
+   "select": false,
+   "entries": [
+    {
+     "item": "金糸ボトム",
+     "qty": 1
+    },
+    {
+     "item": "次元の砂(取引不可)",
+     "qty": 2
+    }
+   ]
+  },
+  "黎明の古代ボトム(+9)袋": {
+   "client_id": 536887646,
+   "select": false,
+   "entries": [
+    {
+     "item": "金糸ボトム",
+     "qty": 1
+    },
+    {
+     "item": "次元の砂(取引不可)",
+     "qty": 5
+    }
+   ]
+  },
+  "密林の古代グローブ(+3)袋": {
+   "client_id": 536887647,
+   "select": false,
+   "entries": [
+    {
+     "item": "金糸グローブ",
+     "qty": 1
+    },
+    {
+     "item": "次元の砂(取引不可)",
+     "qty": 1
+    }
+   ]
+  },
+  "密林の古代グローブ(+6)袋": {
+   "client_id": 536887648,
+   "select": false,
+   "entries": [
+    {
+     "item": "金糸グローブ",
+     "qty": 1
+    },
+    {
+     "item": "次元の砂(取引不可)",
+     "qty": 2
+    }
+   ]
+  },
+  "密林の古代グローブ(+9)袋": {
+   "client_id": 536887649,
+   "select": false,
+   "entries": [
+    {
+     "item": "金糸グローブ",
+     "qty": 1
+    },
+    {
+     "item": "次元の砂(取引不可)",
+     "qty": 5
+    }
+   ]
+  },
+  "深淵の古代ブーツ(+3)袋": {
+   "client_id": 536887650,
+   "select": false,
+   "entries": [
+    {
+     "item": "金糸ブーツ",
+     "qty": 1
+    },
+    {
+     "item": "次元の砂(取引不可)",
+     "qty": 1
+    }
+   ]
+  },
+  "深淵の古代ブーツ(+6)袋": {
+   "client_id": 536887651,
+   "select": false,
+   "entries": [
+    {
+     "item": "金糸ブーツ",
+     "qty": 1
+    },
+    {
+     "item": "次元の砂(取引不可)",
+     "qty": 2
+    }
+   ]
+  },
+  "深淵の古代ブーツ(+9)袋": {
+   "client_id": 536887652,
+   "select": false,
+   "entries": [
+    {
+     "item": "金糸ブーツ",
+     "qty": 1
+    },
+    {
+     "item": "次元の砂(取引不可)",
+     "qty": 5
+    }
+   ]
+  },
+  "ギルドの特別なタリスマン袋": {
+   "client_id": 536887695,
+   "select": false,
+   "entries": [
+    {
+     "item": "勇猛なギルドのタリスマン",
+     "qty": 1
+    },
+    {
+     "item": "冷徹なギルドのタリスマン",
+     "qty": 1
+    },
+    {
+     "item": "致命型ギルドのタリスマン",
+     "qty": 1
+    },
+    {
+     "item": "守護のギルドのタリスマン",
+     "qty": 1
+    },
+    {
+     "item": "信頼のギルドのタリスマン",
+     "qty": 1
+    },
+    {
+     "item": "団結のギルドのタリスマン",
+     "qty": 1
+    }
+   ]
+  },
+  "幽幻/紅月/新緑の竜珠選択袋(+15)": {
+   "client_id": 536887708,
+   "select": true,
+   "entries": [
+    {
+     "item": "幽幻の竜珠",
+     "qty": 1
+    },
+    {
+     "item": "紅月の竜珠",
+     "qty": 1
+    },
+    {
+     "item": "新緑の竜珠",
+     "qty": 1
+    }
+   ]
+  },
+  "次元の竜珠袋": {
+   "client_id": 536887709,
+   "select": false,
+   "entries": [
+    {
+     "item": "次元の竜珠",
+     "qty": 1
+    }
+   ]
+  },
+  "永遠の能力強化紋章袋(エピック)": {
+   "client_id": 536887722,
+   "select": false,
+   "entries": [
+    {
+     "item": "永遠の体力の能力強化紋章(エピック)",
+     "qty": 1
+    },
+    {
+     "item": "永遠の魔力の能力強化紋章(エピック)",
+     "qty": 1
+    },
+    {
+     "item": "永遠の加護の能力強化紋章(エピック)",
+     "qty": 1
+    },
+    {
+     "item": "永遠の破壊の能力強化紋章(エピック)",
+     "qty": 1
+    },
+    {
+     "item": "永遠の鉄壁の能力強化紋章(エピック)",
+     "qty": 1
+    },
+    {
+     "item": "永遠の疾風の能力強化紋章(エピック)",
+     "qty": 1
+    },
+    {
+     "item": "永遠の知恵の能力強化紋章(エピック)",
+     "qty": 1
+    },
+    {
+     "item": "永遠の究極の能力強化紋章(エピック)",
+     "qty": 1
+    },
+    {
+     "item": "永遠の致命の能力強化紋章(エピック)",
+     "qty": 1
+    },
+    {
+     "item": "永遠の限界の能力強化紋章(エピック)",
+     "qty": 1
+    },
+    {
+     "item": "永遠の気迫の能力強化紋章(エピック)",
+     "qty": 1
+    },
+    {
+     "item": "永遠の生命の能力強化紋章(エピック)",
+     "qty": 1
+    },
+    {
+     "item": "永遠の攻撃型能力強化紋章(エピック)",
+     "qty": 1
+    },
+    {
+     "item": "永遠の防御型能力強化紋章(エピック)",
+     "qty": 1
+    }
+   ]
+  },
+  "成長の守石[12段階]：レベルアップボックス報酬袋": {
+   "client_id": 536887734,
+   "select": false,
+   "entries": [
+    {
+     "item": "永遠のタリスマン袋(2段階)",
+     "qty": 1,
+     "rate": 16.6667
+    },
+    {
+     "item": "カーライエンのセイヴィア紋章(下級)",
+     "qty": 1,
+     "rate": 16.6667
+    },
+    {
+     "item": "カシウスのセイヴィア紋章(下級)",
+     "qty": 1,
+     "rate": 16.6667
+    },
+    {
+     "item": "テラマイのセイヴィア紋章(下級)",
+     "qty": 1,
+     "rate": 16.6667
+    },
+    {
+     "item": "ダグラスのセイヴィア紋章(下級)",
+     "qty": 1,
+     "rate": 16.6667
+    },
+    {
+     "item": "[イベント]光を失った仲良し星",
+     "qty": 300,
+     "rate": 16.6667
+    }
+   ]
+  },
+  "成長の守石[13段階]：レベルアップボックス報酬袋": {
+   "client_id": 536887735,
+   "select": false,
+   "entries": [
+    {
+     "item": "永遠の世界のタリスマン(5段階)",
+     "qty": 1,
+     "rate": 50.0
+    },
+    {
+     "item": "永遠の苦痛の目(3段階)",
+     "qty": 1,
+     "rate": 50.0
+    }
+   ]
+  },
+  "アルタのためのセイヴィア紋章袋": {
+   "client_id": 536887952,
+   "select": false,
+   "entries": [
+    {
+     "item": "カーライエンのセイヴィア紋章(下級)",
+     "qty": 1
+    },
+    {
+     "item": "カシウスのセイヴィア紋章(下級)",
+     "qty": 1
+    },
+    {
+     "item": "テラマイのセイヴィア紋章(下級)",
+     "qty": 1
+    },
+    {
+     "item": "ダグラスのセイヴィア紋章(下級)",
+     "qty": 1
+    }
+   ]
+  },
+  "[謎]独武討伐のタリスマン": {
+   "client_id": 536888096,
+   "select": false,
+   "entries": [
+    {
+     "item": "独武討伐のタリスマン",
+     "qty": 1
+    }
+   ]
+  },
+  "[謎]独武討伐のタリスマン(下級)": {
+   "client_id": 536888097,
+   "select": false,
+   "entries": [
+    {
+     "item": "独武討伐のタリスマン",
+     "qty": 1
+    }
+   ]
+  },
+  "[謎]独武討伐のタリスマン(中級)": {
+   "client_id": 536888098,
+   "select": false,
+   "entries": [
+    {
+     "item": "独武討伐のタリスマン",
+     "qty": 1
+    }
+   ]
+  },
+  "[謎]独武討伐のタリスマン(上級)": {
+   "client_id": 536888099,
+   "select": false,
+   "entries": [
+    {
+     "item": "独武討伐のタリスマン",
+     "qty": 1
+    }
+   ]
+  },
+  "[謎]王城の紋章袋": {
+   "client_id": 536888103,
+   "select": false,
+   "entries": [
+    {
+     "item": "スタッフの紋章",
+     "qty": 1
+    },
+    {
+     "item": "剣の紋章",
+     "qty": 1
+    },
+    {
+     "item": "シールドの紋章",
+     "qty": 1
+    },
+    {
+     "item": "弓の紋章",
+     "qty": 1
+    }
+   ]
+  },
+  "[謎]煌めく王城の紋章袋": {
+   "client_id": 536888104,
+   "select": false,
+   "entries": [
+    {
+     "item": "煌めくスタッフの紋章",
+     "qty": 1
+    },
+    {
+     "item": "煌めく剣の紋章",
+     "qty": 1
+    },
+    {
+     "item": "煌めくシールドの紋章",
+     "qty": 1
+    },
+    {
+     "item": "煌めく弓の紋章",
+     "qty": 1
+    }
+   ]
+  },
+  "星輝神仙のための4段階達成報酬袋": {
+   "client_id": 536888328,
+   "select": false,
+   "entries": [
+    {
+     "item": "永遠の苦痛の目(1段階)",
+     "qty": 1
+    },
+    {
+     "item": "永遠の世界のタリスマン(3段階)",
+     "qty": 1
+    },
+    {
+     "item": "未知の珠",
+     "qty": 2
+    }
+   ]
+  },
+  "星輝神仙のための5段階達成報酬袋": {
+   "client_id": 536888329,
+   "select": false,
+   "entries": [
+    {
+     "item": "次元の竜珠",
+     "qty": 1
+    },
+    {
+     "item": "異界の竜珠",
+     "qty": 1
+    },
+    {
+     "item": "称号",
+     "qty": 1
+    }
+   ]
+  },
+  "4段階達成報酬袋": {
+   "client_id": 536888380,
+   "select": false,
+   "entries": [
+    {
+     "item": "永遠の苦痛の目(3段階)",
+     "qty": 1
+    },
+    {
+     "item": "永遠の世界のタリスマン(5段階)",
+     "qty": 1
+    },
+    {
+     "item": "未知の珠",
+     "qty": 4
+    }
+   ]
+  },
+  "5段階達成報酬袋": {
+   "client_id": 536888381,
+   "select": false,
+   "entries": [
+    {
+     "item": "次元の竜珠",
+     "qty": 1
+    },
+    {
+     "item": "異界の竜珠",
+     "qty": 1
+    }
+   ]
+  },
+  "パラドックスタリスマン(ライト)選択袋": {
+   "client_id": 536888433,
+   "select": true,
+   "entries": [
+    {
+     "item": "クアノスのタリスマン",
+     "qty": 1
+    },
+    {
+     "item": "シャリカのタリスマン",
+     "qty": 1
+    },
+    {
+     "item": "ヘイズフロストドラゴンの完全なタリスマン",
+     "qty": 1
+    },
+    {
+     "item": "イベールのタリスマン",
+     "qty": 1
+    }
+   ]
+  },
+  "永遠の能力強化紋章(ユニーク)選択袋": {
+   "client_id": 805314646,
+   "select": true,
+   "entries": [
+    {
+     "item": "永遠の体力の能力強化紋章(ユニーク)",
+     "qty": 1
+    },
+    {
+     "item": "永遠の魔力の能力強化紋章(ユニーク)",
+     "qty": 1
+    },
+    {
+     "item": "永遠の加護の能力強化紋章(ユニーク)",
+     "qty": 1
+    },
+    {
+     "item": "永遠の破壊の能力強化紋章(ユニーク)",
+     "qty": 1
+    },
+    {
+     "item": "永遠の鉄壁の能力強化紋章(ユニーク)",
+     "qty": 1
+    },
+    {
+     "item": "永遠の疾風の能力強化紋章(ユニーク)",
+     "qty": 1
+    },
+    {
+     "item": "永遠の知恵の能力強化紋章(ユニーク)",
+     "qty": 1
+    },
+    {
+     "item": "永遠の致命の能力強化紋章(ユニーク)",
+     "qty": 1
+    },
+    {
+     "item": "永遠の限界の能力強化紋章(ユニーク)",
+     "qty": 1
+    },
+    {
+     "item": "永遠の気迫の能力強化紋章(ユニーク)",
+     "qty": 1
+    },
+    {
+     "item": "永遠の生命の能力強化紋章(ユニーク)",
+     "qty": 1
+    }
+   ]
+  },
+  "永遠の攻撃/防御/究極の能力強化紋章(ユニーク)選択袋": {
+   "client_id": 805314649,
+   "select": true,
+   "entries": [
+    {
+     "item": "永遠の究極の能力強化紋章(ユニーク)",
+     "qty": 1
+    },
+    {
+     "item": "永遠の攻撃型能力強化紋章(ユニーク)",
+     "qty": 1
+    },
+    {
+     "item": "永遠の防御型能力強化紋章(ユニーク)",
+     "qty": 1
+    }
+   ]
+  },
+  "次元の竜珠+10選択袋": {
+   "client_id": 805314703,
+   "select": true,
+   "entries": [
+    {
+     "item": "次元の竜珠",
+     "qty": 1
+    }
+   ]
+  },
+  "[封]ブローチ(エピック1段階)選択袋": {
+   "client_id": 805314704,
+   "select": true,
+   "entries": [
+    {
+     "item": "[1段階]封印された力のネルウィンブローチ(エピック)",
+     "qty": 1
+    },
+    {
+     "item": "[1段階]封印された力のテラマイブローチ(エピック)",
+     "qty": 1
+    },
+    {
+     "item": "[1段階]封印された力のカーラブローチ",
+     "qty": 1
+    },
+    {
+     "item": "[1段階]封印された力のバルナックブローチ",
+     "qty": 1
+    }
+   ]
+  },
+  "永遠のタリスマン袋(2段階)": {
+   "client_id": 805314838,
+   "select": false,
+   "entries": [
+    {
+     "item": "永遠の魔力のタリスマン(2段階)",
+     "qty": 1
+    },
+    {
+     "item": "永遠の加護のタリスマン(2段階)",
+     "qty": 1
+    },
+    {
+     "item": "永遠の破壊のタリスマン(2段階)",
+     "qty": 1
+    },
+    {
+     "item": "永遠の鉄壁のタリスマン(2段階)",
+     "qty": 1
+    },
+    {
+     "item": "永遠の致命のタリスマン(2段階)",
+     "qty": 1
+    },
+    {
+     "item": "永遠の限界のタリスマン(2段階)",
+     "qty": 1
+    },
+    {
+     "item": "永遠の生命のタリスマン(2段階)",
+     "qty": 1
+    }
+   ]
+  },
+  "祝福されたブラックドラゴンエリアタリスマン選択袋": {
+   "client_id": 805315047,
+   "select": true,
+   "entries": [
+    {
+     "item": "祝福されたオーガダパのタリスマン",
+     "qty": 1
+    },
+    {
+     "item": "祝福されたウンブラのタリスマン",
+     "qty": 1
+    },
+    {
+     "item": "祝福されたメルカのタリスマン",
+     "qty": 1
+    }
+   ]
+  },
+  "異界の竜珠+10選択袋": {
+   "client_id": 805315245,
+   "select": true,
+   "entries": [
+    {
+     "item": "異界の竜珠",
+     "qty": 1
+    }
+   ]
+  },
+  "ジェレイントの犠牲袋": {
+   "client_id": 805315297,
+   "select": false,
+   "entries": [
+    {
+     "item": "ジェレイントの犠牲",
+     "qty": 1
+    }
+   ]
+  },
+  "金色の能力強化紋章(1段階)選択袋": {
+   "client_id": 805315299,
+   "select": true,
+   "entries": [
+    {
+     "item": "金色の気迫の能力強化紋章(1段階)",
+     "qty": 1
+    },
+    {
+     "item": "金色の疾風の能力強化紋章(1段階)",
+     "qty": 1
+    },
+    {
+     "item": "金色の知恵の能力強化紋章(1段階)",
+     "qty": 1
+    },
+    {
+     "item": "金色の体力の能力強化紋章(1段階)",
+     "qty": 1
+    }
+   ]
+  },
+  "祝福された金色の能力強化紋章選択袋": {
+   "client_id": 805315303,
+   "select": true,
+   "entries": [
+    {
+     "item": "祝福された金色の気迫の能力強化紋章",
+     "qty": 1
+    },
+    {
+     "item": "祝福された金色の疾風の能力強化紋章",
+     "qty": 1
+    },
+    {
+     "item": "祝福された金色の知恵の能力強化紋章",
+     "qty": 1
+    },
+    {
+     "item": "祝福された金色の体力の能力強化紋章",
+     "qty": 1
+    }
+   ]
+  },
+  "クローニング防具袋": {
+   "client_id": 1073915602,
+   "select": false,
+   "entries": [
+    {
+     "item": "クローニングヘルム(ユニーク)",
+     "qty": 1,
+     "rate": 20.0
+    },
+    {
+     "item": "クローニングアーマー(ユニーク)",
+     "qty": 1,
+     "rate": 20.0
+    },
+    {
+     "item": "クローニングボトム(ユニーク)",
+     "qty": 1,
+     "rate": 20.0
+    },
+    {
+     "item": "クローニンググローブ(ユニーク)",
+     "qty": 1,
+     "rate": 20.0
+    },
+    {
+     "item": "クローニングブーツ(ユニーク)",
+     "qty": 1,
+     "rate": 20.0
+    }
+   ]
+  },
+  "クローニング特殊防具袋": {
+   "client_id": 1073915603,
+   "select": false,
+   "entries": [
+    {
+     "item": "クローニングウィング(ユニーク)",
+     "qty": 1,
+     "rate": 33.3333
+    },
+    {
+     "item": "クローニングテール(ユニーク)",
+     "qty": 1,
+     "rate": 33.3333
+    },
+    {
+     "item": "クローニングデカール(ユニーク)",
+     "qty": 1,
+     "rate": 33.3333
+    }
+   ]
+  },
+  "クローニングアクセサリー袋": {
+   "client_id": 1073915604,
+   "select": false,
+   "entries": [
+    {
+     "item": "クローニングリング(ユニーク)",
+     "qty": 1,
+     "rate": 50.0
+    },
+    {
+     "item": "クローニングネックレス(ユニーク)",
+     "qty": 1,
+     "rate": 25.0
+    },
+    {
+     "item": "クローニングイヤリング(ユニーク)",
+     "qty": 1,
+     "rate": 25.0
+    }
+   ]
+  },
+  "[5段階]封印された力のベルスカードブローチ袋": {
+   "client_id": 1073950328,
+   "select": false,
+   "entries": [
+    {
+     "item": "[5段階]封印された力のベルスカードブローチ(エピック)",
+     "qty": 1,
+     "rate": 100.0
+    }
+   ]
+  },
+  "ノーマルブローチ袋": {
+   "client_id": 1073950427,
+   "select": false,
+   "entries": [
+    {
+     "item": "封印された力のベルスカードブローチ",
+     "qty": 1,
+     "rate": 20.0
+    },
+    {
+     "item": "封印された力のネルウィンブローチ",
+     "qty": 1,
+     "rate": 20.0
+    },
+    {
+     "item": "封印された力のテラマイブローチ",
+     "qty": 1,
+     "rate": 20.0
+    },
+    {
+     "item": "封印された力のカーラブローチ",
+     "qty": 1,
+     "rate": 20.0
+    },
+    {
+     "item": "封印された力のバルナックブローチ",
+     "qty": 1,
+     "rate": 20.0
+    }
+   ]
+  },
+  "ベルスカードの黒騎士ブローチLv.2分解袋": {
+   "client_id": 1073950437,
+   "select": false,
+   "entries": [
+    {
+     "item": "[2段階]封印された力のベルスカードブローチ(マジック)",
+     "qty": 1,
+     "rate": 50.0
+    },
+    {
+     "item": "ベルスカードの次元幸運石",
+     "qty": 2,
+     "rate": 50.0
+    }
+   ]
+  },
+  "ベルスカードの黒騎士ブローチLv.3分解袋": {
+   "client_id": 1073950438,
+   "select": false,
+   "entries": [
+    {
+     "item": "[3段階]封印された力のベルスカードブローチ(マジック)",
+     "qty": 1,
+     "rate": 50.0
+    },
+    {
+     "item": "ベルスカードの次元幸運石",
+     "qty": 3,
+     "rate": 50.0
+    }
+   ]
+  },
+  "ベルスカードの黒騎士ブローチLv.4分解袋": {
+   "client_id": 1073950439,
+   "select": false,
+   "entries": [
+    {
+     "item": "[3段階]封印された力のベルスカードブローチ(マジック)",
+     "qty": 1,
+     "rate": 50.0
+    },
+    {
+     "item": "ベルスカードの次元幸運石",
+     "qty": 8,
+     "rate": 50.0
+    }
+   ]
+  },
+  "ベルスカードの黒騎士ブローチLv.5分解袋": {
+   "client_id": 1073950440,
+   "select": false,
+   "entries": [
+    {
+     "item": "[4段階]封印された力のベルスカードブローチ(マジック)",
+     "qty": 1,
+     "rate": 50.0
+    },
+    {
+     "item": "ベルスカードの次元幸運石",
+     "qty": 10,
+     "rate": 50.0
+    }
+   ]
+  },
+  "ベルスカードの黒騎士ブローチLv.6分解袋": {
+   "client_id": 1073950441,
+   "select": false,
+   "entries": [
+    {
+     "item": "[4段階]封印された力のベルスカードブローチ(マジック)",
+     "qty": 1,
+     "rate": 50.0
+    },
+    {
+     "item": "ベルスカードの次元幸運石",
+     "qty": 11,
+     "rate": 50.0
+    }
+   ]
+  },
+  "ベルスカードの黒騎士ブローチLv.7分解袋": {
+   "client_id": 1073950442,
+   "select": false,
+   "entries": [
+    {
+     "item": "[4段階]封印された力のベルスカードブローチ(マジック)",
+     "qty": 1,
+     "rate": 50.0
+    },
+    {
+     "item": "ベルスカードの次元幸運石",
+     "qty": 12,
+     "rate": 50.0
+    }
+   ]
+  },
+  "ベルスカードの黒騎士ブローチLv.8分解袋": {
+   "client_id": 1073950443,
+   "select": false,
+   "entries": [
+    {
+     "item": "[4段階]封印された力のベルスカードブローチ(マジック)",
+     "qty": 1,
+     "rate": 50.0
+    },
+    {
+     "item": "ベルスカードの次元幸運石",
+     "qty": 17,
+     "rate": 50.0
+    }
+   ]
+  },
+  "ベルスカードの黒騎士ブローチLv.9分解袋": {
+   "client_id": 1073950444,
+   "select": false,
+   "entries": [
+    {
+     "item": "[5段階]封印された力のベルスカードブローチ(マジック)",
+     "qty": 1,
+     "rate": 50.0
+    },
+    {
+     "item": "ベルスカードの次元幸運石",
+     "qty": 22,
+     "rate": 50.0
+    }
+   ]
+  },
+  "ベルスカードの黒騎士ブローチLv.10分解袋": {
+   "client_id": 1073950445,
+   "select": false,
+   "entries": [
+    {
+     "item": "[1段階]封印された力のベルスカードブローチ(レア)",
+     "qty": 1,
+     "rate": 100.0
+    }
+   ]
+  },
+  "ネルウィンの三日月ブローチLv.2分解袋": {
+   "client_id": 1073950466,
+   "select": false,
+   "entries": [
+    {
+     "item": "[2段階]封印された力のネルウィンブローチ(マジック)",
+     "qty": 1,
+     "rate": 50.0
+    },
+    {
+     "item": "ネルウィン異界波紋石",
+     "qty": 2,
+     "rate": 50.0
+    }
+   ]
+  },
+  "ネルウィンの三日月ブローチLv.3分解袋": {
+   "client_id": 1073950467,
+   "select": false,
+   "entries": [
+    {
+     "item": "[3段階]封印された力のネルウィンブローチ(マジック)",
+     "qty": 1,
+     "rate": 50.0
+    },
+    {
+     "item": "ネルウィン異界波紋石",
+     "qty": 3,
+     "rate": 50.0
+    }
+   ]
+  },
+  "ネルウィンの三日月ブローチLv.4分解袋": {
+   "client_id": 1073950468,
+   "select": false,
+   "entries": [
+    {
+     "item": "[3段階]封印された力のネルウィンブローチ(マジック)",
+     "qty": 1,
+     "rate": 50.0
+    },
+    {
+     "item": "ネルウィン異界波紋石",
+     "qty": 8,
+     "rate": 50.0
+    }
+   ]
+  },
+  "ネルウィンの三日月ブローチLv.5分解袋": {
+   "client_id": 1073950469,
+   "select": false,
+   "entries": [
+    {
+     "item": "[4段階]封印された力のネルウィンブローチ(マジック)",
+     "qty": 1,
+     "rate": 50.0
+    },
+    {
+     "item": "ネルウィン異界波紋石",
+     "qty": 10,
+     "rate": 50.0
+    }
+   ]
+  },
+  "ネルウィンの三日月ブローチLv.6分解袋": {
+   "client_id": 1073950470,
+   "select": false,
+   "entries": [
+    {
+     "item": "[4段階]封印された力のネルウィンブローチ(マジック)",
+     "qty": 1,
+     "rate": 50.0
+    },
+    {
+     "item": "ネルウィン異界波紋石",
+     "qty": 11,
+     "rate": 50.0
+    }
+   ]
+  },
+  "ネルウィンの三日月ブローチLv.7分解袋": {
+   "client_id": 1073950471,
+   "select": false,
+   "entries": [
+    {
+     "item": "[4段階]封印された力のネルウィンブローチ(マジック)",
+     "qty": 1,
+     "rate": 50.0
+    },
+    {
+     "item": "ネルウィン異界波紋石",
+     "qty": 12,
+     "rate": 50.0
+    }
+   ]
+  },
+  "ネルウィンの三日月ブローチLv.8分解袋": {
+   "client_id": 1073950472,
+   "select": false,
+   "entries": [
+    {
+     "item": "[4段階]封印された力のネルウィンブローチ(マジック)",
+     "qty": 1,
+     "rate": 50.0
+    },
+    {
+     "item": "ネルウィン異界波紋石",
+     "qty": 17,
+     "rate": 50.0
+    }
+   ]
+  },
+  "ネルウィンの三日月ブローチLv.9分解袋": {
+   "client_id": 1073950473,
+   "select": false,
+   "entries": [
+    {
+     "item": "[5段階]封印された力のネルウィンブローチ(マジック)",
+     "qty": 1,
+     "rate": 50.0
+    },
+    {
+     "item": "ネルウィン異界波紋石",
+     "qty": 22,
+     "rate": 50.0
+    }
+   ]
+  },
+  "ネルウィンの三日月ブローチLv.10分解袋": {
+   "client_id": 1073950474,
+   "select": false,
+   "entries": [
+    {
+     "item": "[1段階]封印された力のネルウィンブローチ(レア)",
+     "qty": 1,
+     "rate": 100.0
+    }
+   ]
+  },
+  "テラマイの守護石ブローチLv.2分解袋": {
+   "client_id": 1073950553,
+   "select": false,
+   "entries": [
+    {
+     "item": "[2段階]封印された力のテラマイブローチ(マジック)",
+     "qty": 1,
+     "rate": 50.0
+    },
+    {
+     "item": "シールドのかけら",
+     "qty": 2,
+     "rate": 50.0
+    }
+   ]
+  },
+  "テラマイの守護石ブローチLv.3分解袋": {
+   "client_id": 1073950554,
+   "select": false,
+   "entries": [
+    {
+     "item": "[3段階]封印された力のテラマイブローチ(マジック)",
+     "qty": 1,
+     "rate": 50.0
+    },
+    {
+     "item": "シールドのかけら",
+     "qty": 3,
+     "rate": 50.0
+    }
+   ]
+  },
+  "テラマイの守護石ブローチLv.4分解袋": {
+   "client_id": 1073950555,
+   "select": false,
+   "entries": [
+    {
+     "item": "[3段階]封印された力のテラマイブローチ(マジック)",
+     "qty": 1,
+     "rate": 50.0
+    },
+    {
+     "item": "シールドのかけら",
+     "qty": 8,
+     "rate": 50.0
+    }
+   ]
+  },
+  "テラマイの守護石ブローチLv.5分解袋": {
+   "client_id": 1073950556,
+   "select": false,
+   "entries": [
+    {
+     "item": "[4段階]封印された力のテラマイブローチ(マジック)",
+     "qty": 1,
+     "rate": 50.0
+    },
+    {
+     "item": "シールドのかけら",
+     "qty": 10,
+     "rate": 50.0
+    }
+   ]
+  },
+  "テラマイの守護石ブローチLv.6分解袋": {
+   "client_id": 1073950557,
+   "select": false,
+   "entries": [
+    {
+     "item": "[4段階]封印された力のテラマイブローチ(マジック)",
+     "qty": 1,
+     "rate": 50.0
+    },
+    {
+     "item": "シールドのかけら",
+     "qty": 11,
+     "rate": 50.0
+    }
+   ]
+  },
+  "テラマイの守護石ブローチLv.7分解袋": {
+   "client_id": 1073950558,
+   "select": false,
+   "entries": [
+    {
+     "item": "[4段階]封印された力のテラマイブローチ(マジック)",
+     "qty": 1,
+     "rate": 50.0
+    },
+    {
+     "item": "シールドのかけら",
+     "qty": 12,
+     "rate": 50.0
+    }
+   ]
+  },
+  "テラマイの守護石ブローチLv.8分解袋": {
+   "client_id": 1073950559,
+   "select": false,
+   "entries": [
+    {
+     "item": "[4段階]封印された力のテラマイブローチ(マジック)",
+     "qty": 1,
+     "rate": 50.0
+    },
+    {
+     "item": "シールドのかけら",
+     "qty": 17,
+     "rate": 50.0
+    }
+   ]
+  },
+  "テラマイの守護石ブローチLv.9分解袋": {
+   "client_id": 1073950560,
+   "select": false,
+   "entries": [
+    {
+     "item": "[5段階]封印された力のテラマイブローチ(マジック)",
+     "qty": 1,
+     "rate": 50.0
+    },
+    {
+     "item": "シールドのかけら",
+     "qty": 22,
+     "rate": 50.0
+    }
+   ]
+  },
+  "テラマイの守護石ブローチLv.10分解袋": {
+   "client_id": 1073950561,
+   "select": false,
+   "entries": [
+    {
+     "item": "[1段階]封印された力のテラマイブローチ(レア)",
+     "qty": 1,
+     "rate": 100.0
+    }
+   ]
+  },
+  "[5段階]封印された力のネルウィンブローチ袋": {
+   "client_id": 1073951381,
+   "select": false,
+   "entries": [
+    {
+     "item": "[5段階]封印された力のネルウィンブローチ(エピック)",
+     "qty": 1,
+     "rate": 100.0
+    }
+   ]
+  },
+  "アイオナアクセサリー選択袋": {
+   "client_id": 1073952150,
+   "select": true,
+   "entries": [
+    {
+     "item": "[リング]アイオナの誓い",
+     "qty": 1
+    },
+    {
+     "item": "[ネックレス]アイオナの覚悟",
+     "qty": 1
+    },
+    {
+     "item": "[イヤリング]アイオナの聲",
+     "qty": 1
+    }
+   ]
+  },
+  "封印されたブローチ(エピック1段階)選択箱": {
+   "client_id": 1073954937,
+   "select": true,
+   "entries": [
+    {
+     "item": "[1段階]封印された力のベルスカードブローチ(エピック)",
+     "qty": 1
+    },
+    {
+     "item": "[1段階]封印された力のネルウィンブローチ(エピック)",
+     "qty": 1
+    },
+    {
+     "item": "[1段階]封印された力のテラマイブローチ(エピック)",
+     "qty": 1
+    },
+    {
+     "item": "[1段階]封印された力のカーラブローチ",
+     "qty": 1
+    },
+    {
+     "item": "[1段階]封印された力のバルナックブローチ",
+     "qty": 1
+    }
+   ]
+  },
+  "ユニーク英雄ブローチ(15段階)選択袋": {
+   "client_id": 1073955388,
+   "select": true,
+   "entries": [
+    {
+     "item": "[15段階]次元のベルスカードブローチ",
+     "qty": 1
+    },
+    {
+     "item": "[15段階]異界のネルウィンブローチ",
+     "qty": 1
+    }
+   ]
+  },
+  "堅固な信念のテラマイブローチ袋": {
+   "client_id": 1073955773,
+   "select": false,
+   "entries": [
+    {
+     "item": "[祝福：異界]堅固な信念のテラマイブローチ",
+     "qty": 1,
+     "rate": 100.0
+    }
+   ]
+  },
+  "[5段階]封印された力のテラマイブローチ袋": {
+   "client_id": 1073955774,
+   "select": false,
+   "entries": [
+    {
+     "item": "[5段階]封印された力のテラマイブローチ(エピック)",
+     "qty": 1,
+     "rate": 100.0
+    }
+   ]
+  },
+  "封印されたブローチ(エピック1段階)箱": {
+   "client_id": 1073956071,
+   "select": false,
+   "entries": [
+    {
+     "item": "[1段階]封印された力のベルスカードブローチ(エピック)",
+     "qty": 1,
+     "rate": 20.0
+    },
+    {
+     "item": "[1段階]封印された力のネルウィンブローチ(エピック)",
+     "qty": 1,
+     "rate": 20.0
+    },
+    {
+     "item": "[1段階]封印された力のテラマイブローチ(エピック)",
+     "qty": 1,
+     "rate": 20.0
+    },
+    {
+     "item": "[1段階]封印された力のカーラブローチ",
+     "qty": 1,
+     "rate": 20.0
+    },
+    {
+     "item": "[1段階]封印された力のバルナックブローチ",
+     "qty": 1,
+     "rate": 20.0
+    }
+   ]
+  }
+ },
+ "materials": {
+  "すごろくコイン(シーズン17)": {
+   "client_id": 805315712,
+   "kind": "material",
+   "grade": "エピック",
+   "description": "[イベントアイテム] シーズン17バトルすごろくを進行して獲得できる特殊なコイン。 【語り部】ケーシーの所で特別なアイテムを購入できる。"
+  },
+  "ギルド名誉コイン": {
+   "client_id": 536885266,
+   "kind": "material",
+   "grade": "ユニーク",
+   "description": "百花宴武場で高い成績を収めたギルドにのみ与えられる名誉あるコイン。専用商店を利用できる。"
+  },
+  "白銀蓮の刺繍": {
+   "client_id": 268483863,
+   "kind": "material",
+   "grade": "ユニーク",
+   "description": "[交換材料] 美しい蓮の花が刺繍された工芸品。白銀の糸の縁取りが繊細な魅力を引き立てる。 [使用場所] [紅蓮宮-朱雀大路-]→[【宮女】ユエ]→[金蓮宝商店]"
+  },
+  "黄金蓮の刺繍": {
+   "client_id": 268483864,
+   "kind": "material",
+   "grade": "レジェンド",
+   "description": "[交換材料] 美しい蓮の花が刺繍された工芸品。黄金の糸の縁取りが高級感を引き立てる。 [使用場所] [紅蓮宮-朱雀大路-]→[【宮女】ユエ]→[金蓮宝商店] アカウント倉庫に保管可。金蓮宝商店で金蓮宝を購入するのに使用する。"
+  },
+  "武陵仙境観光記念印章": {
+   "client_id": 805315702,
+   "kind": "material",
+   "grade": "エピック",
+   "description": "[イベントアイテム] イベント商店で様々なアイテムと交換できる。 [使用場所] [セントヘイブン]→[【語り部】ケーシー]または[紅蓮宮-朱雀大路-]→[【噂好き】リュウレン]の[イベント商店] 武陵仙境を巡り、足跡を刻んだ記念印章。仙境の美しい風景と追憶が込められており、イベント商店で様々な報酬と交換できる。"
+  },
+  "DNCメダル": {
+   "client_id": 268470202,
+   "kind": "material",
+   "grade": "レア",
+   "description": "[DNC専用メダル] DNC商店のアイテムを購入できるメダル。"
+  },
+  "色あせた白い羽": {
+   "client_id": 1073914928,
+   "kind": "material",
+   "grade": "ユニーク",
+   "description": "色あせた白い羽 [交換場所] 位置：セントヘイブン/紅蓮宮-朱雀大路- 交換場所：【万物商店ガイド】チェルニー [ブローチ商店]で交換"
+  },
+  "エヴォハンマー：ヘイズフロストドラゴン(1段階)(取引可能)": {
+   "client_id": 268503594,
+   "kind": "material",
+   "grade": "エピック",
+   "description": "[アイテム進化] 使用時、レア等級のヘイズフロストドラゴン装備(防具/武器/アクセサリー)をエピック等級に進化させる。 追加オプションを付与する。"
+  },
+  "エヴォハンマー：ヘイズフロストドラゴン(2段階)(取引可能)": {
+   "client_id": 268503595,
+   "kind": "material",
+   "grade": "ユニーク",
+   "description": "[アイテム進化] 使用時、エピック等級のヘイズフロストドラゴン装備(防具/武器/アクセサリー)をユニーク等級に進化させる。 既存オプションは維持され、追加オプションを付与する。"
+  },
+  "エヴォハンマー：ヘイズフロストドラゴン(3段階)(取引可能)": {
+   "client_id": 268503596,
+   "kind": "material",
+   "grade": "レジェンド",
+   "description": "[アイテム進化] 使用時、ユニーク等級のヘイズフロストドラゴン装備(防具/武器/アクセサリー)をレジェンド等級に進化させる。 既存オプションは維持され、追加オプションを付与する。"
+  },
+  "[未完]古代人の記憶": {
+   "client_id": 536887968,
+   "kind": "material",
+   "grade": "レジェンド",
+   "description": "[イベントアイテム] 古代人の力が凝縮されている古代人の記憶。 言葉では言い表せない力が感じられる。 古代人の防具に強く反応する。 ただし、古竜の力を引き出すにはやや力不足のようだ。 古代人防具の進化にのみ使用できる。 古竜防具の生産材料としては使用不可。"
+  },
+  "カーライエンの信頼のハンマー": {
+   "client_id": 268508828,
+   "kind": "material",
+   "grade": "レジェンド",
+   "description": "[紋章進化] カーライエンの信頼が宿るハンマー カーライエンのセイヴィア紋章を進化させることができる。"
+  },
+  "カシウスの希望のハンマー": {
+   "client_id": 268508829,
+   "kind": "material",
+   "grade": "レジェンド",
+   "description": "[紋章進化] カシウスの希望が宿るハンマー カシウスのセイヴィア紋章を進化させることができる。"
+  },
+  "テラマイ信念のハンマー": {
+   "client_id": 268508830,
+   "kind": "material",
+   "grade": "レジェンド",
+   "description": "[紋章進化] テラマイの信念が宿るハンマー テラマイセイヴィア紋章を進化させることができる。"
+  },
+  "ダグラスの勇気のハンマー": {
+   "client_id": 268508831,
+   "kind": "material",
+   "grade": "レジェンド",
+   "description": "[紋章進化] ダグラスの勇気が宿るハンマー ダグラスのセイヴィア紋章を進化させることができる。"
+  },
+  "古竜の燃える心臓(取引不可)": {
+   "client_id": 268508972,
+   "kind": "material",
+   "grade": "エンシェント",
+   "description": "[装備進化] ボーンドラゴンの力の源で、強大な力を感じる。 古竜装備に使用すると、ボーンドラゴンの増幅された力が装備に宿る。 既存オプションは維持され、追加オプションを付与する。"
+  },
+  "崩壊の防御宝玉": {
+   "client_id": 268509382,
+   "kind": "material",
+   "grade": "ユニーク",
+   "description": "[竜珠進化] 崩壊した次元の力を宿した宝玉 崩壊の竜珠に使用すれば、その力をさらに進化させることができそうだ。 [使用場所] 崩壊の竜珠"
+  },
+  "崩壊の攻撃宝玉": {
+   "client_id": 268509632,
+   "kind": "material",
+   "grade": "ユニーク",
+   "description": "[竜珠進化] 崩壊した次元の力を宿した宝玉 崩壊の竜珠に使用すれば、その力をさらに進化させることができそうだ。 [使用場所] 崩壊の竜珠"
+  },
+  "金竜の鋭利な宝石": {
+   "client_id": 268512778,
+   "kind": "material",
+   "grade": "ユニーク",
+   "description": "[金竜武器進化] 金竜の鋭い力を秘めた宝石 [真][増幅]古竜武器に使用すると強い力を引き出せそうだ。 [使用場所] +15以上の[真][増幅]古竜武器"
+  },
+  "古竜の防具進化石": {
+   "client_id": 536888386,
+   "kind": "material",
+   "grade": "レジェンド",
+   "description": "[説明] [Ⅱ]古代の防具に使用時、古竜の古代防具へ進化する。 進化時は封印不可状態が維持される。"
   }
  },
  "sets": {

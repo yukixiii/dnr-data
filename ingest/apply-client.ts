@@ -15,7 +15,7 @@
 //  - 能力値の名前は表記ゆれを 1 つに揃える (STAT_NAMES)。
 // export.json は非公開のツール (dnr-client) が書き出す。npm run merge / rename:ids の後は export.py → apply:client を再実行する。
 import { readFile, writeFile } from "node:fs/promises";
-import type { EnhanceRow, EnhanceTable, Item, ItemGroup, ItemSet, Qty, Recipe, Ref, Source, Stat, StatSet } from "../src/types.ts";
+import type { DropTable, EnhanceRow, EnhanceTable, Item, ItemGroup, ItemSet, Qty, Recipe, Ref, Source, Stat, StatSet } from "../src/types.ts";
 import { baseNameOf, completeGroups } from "./groups-lib.ts";
 
 const root = new URL("../", import.meta.url);
@@ -39,7 +39,11 @@ interface Export {
   keep: Record<string, string>;
   enhance: Record<string, { enchant_id: number; level_offset: number; rows: Record<string, CRow>; max_level: number }>;
   enchants: Record<string, Record<string, CRow>>;
-  recipes: Record<string, { compound_id: number; rate: number; gold: number; materials: { item: string; qty: number }[] }>;
+  // 製作: compound_id / 交換: shop_row (+where, result_qty) / 進化: change_row (+accelerators)
+  recipes: Record<string, { compound_id?: number; shop_row?: number; change_row?: number; rate?: number; gold?: number; materials?: { item: string; qty: number }[]; where?: string; result_qty?: number; accelerators?: string[] }>;
+  new_recipes: (Omit<Recipe, "refs"> & { accelerators?: string[] })[];
+  boxes: Record<string, { client_id: number; select: boolean; entries: { item: string; qty: number; rate?: number }[] }>;
+  materials: Record<string, { client_id: number; kind: string; grade?: string; description?: string }>;
   sets: Record<string, { name: string | null; text: string | null; bonuses: { count: number; stats?: CStat[]; skill?: string }[]; items: string[] }>;
   new_items: string[];
 }
@@ -468,43 +472,152 @@ for (const t of outTables)
 // ---- レシピ ----
 const RATE_TYPES = new Set<Recipe["type"]>(["craft", "evolve", "upgrade", "refine"]);
 const strip = (s: string) => s.replace(/\((マジック|レア|エピック|ユニーク|レジェンド)\)$/, "").normalize("NFKC").replace(/[\s　]+/g, "");
+const SPLIT_NOTE = /\s*原文の総称「[^」]*」を分割した各アイテムのレシピ。/;
+const removedRecipes: string[] = [];
+// 改名時に総称を分割して複製したレシピ (id 末尾 -N): クライアントで確認できたものだけ残す。
+// 1 つも確認できない組は、最初の 1 件を代表として元の id で残す (告知のレシピ自体は正しいので)
+{
+  const fams = new Map<string, Recipe[]>();
+  for (const r of recipes) if (r.notes && SPLIT_NOTE.test(r.notes)) fams.set(r.id.replace(/-\d+$/, ""), [...(fams.get(r.id.replace(/-\d+$/, "")) ?? []), r]);
+  const drop = new Set<Recipe>();
+  for (const [fam, rs] of fams) {
+    const ok = rs.filter((r) => ex.recipes[r.id]);
+    if (ok.length) {
+      for (const r of rs) if (!ex.recipes[r.id]) drop.add(r);
+      for (const r of ok) {
+        r.notes = r.notes!.replace(SPLIT_NOTE, "").trim() || undefined;
+        if (!r.notes) delete r.notes;
+      }
+    } else {
+      const [keep, ...rest] = rs;
+      rest.forEach((r) => drop.add(r));
+      const src = keep.notes!.match(/原文の総称「([^」]*)」/)?.[1] ?? "";
+      keep.notes = keep.notes!.replace(SPLIT_NOTE, ` 原文は分割前の「${src}」での記載で、分割後のどれが対象かは区別されていない (ここでは代表として1件だけ掲載)。`).trim();
+      if (!recipes.some((x) => x.id === fam)) keep.id = fam;
+    }
+  }
+  for (let i = recipes.length - 1; i >= 0; i--)
+    if (drop.has(recipes[i])) {
+      removedRecipes.push(recipes[i].id);
+      recipes.splice(i, 1);
+    }
+}
 for (const r of recipes) {
   const c = ex.recipes[r.id];
   if (!c) continue;
   const from = srcLabel(r.refs);
   const diffs: string[] = [];
-  if (r.gold !== undefined && r.gold !== c.gold) diffs.push(`${r.gold}G`);
-  if (c.gold) r.gold = c.gold;
-  else if (r.gold !== undefined && c.gold === 0) delete r.gold;
-  if (RATE_TYPES.has(r.type)) {
+  const what: string[] = [];
+  if (c.gold !== undefined) {
+    if (r.gold !== undefined && r.gold !== c.gold && !(c.gold === 0)) diffs.push(`${r.gold}G`);
+    if (c.gold) r.gold = c.gold;
+    else if (r.gold !== undefined && c.compound_id !== undefined) delete r.gold;
+    what.push("ゴールド");
+  }
+  if (c.rate !== undefined && RATE_TYPES.has(r.type)) {
     if (r.rate !== undefined && Math.abs(r.rate - c.rate) > 1e-6) diffs.push(`成功率${r.rate}%`);
     r.rate = c.rate;
+    what.push("成功率");
   }
   for (const m of r.materials) {
-    const cm = c.materials.find((x) => strip(x.item) === strip(m.item));
+    const cm = c.materials?.find((x) => strip(x.item) === strip(m.item));
     if (!cm) continue;
     if (typeof m.qty === "number" && m.qty !== cm.qty) diffs.push(`${m.item}×${m.qty}`);
     else if (typeof m.qty !== "number") log.push(`個数補完 ${r.id}: ${m.item} ${m.qty} → ${cm.qty}`);
     m.qty = cm.qty;
+    if (!what.includes("個数")) what.push("個数");
   }
+  if (c.where && !r.where) r.where = c.where;
+  if (c.result_qty && c.result_qty > 1 && r.result_qty === undefined) r.result_qty = c.result_qty;
   if (diffs.length) {
     keepOld(r, "notes", `${from}では ${diffs.join("、")}。`);
     conflicts.push(`${r.id}: ${diffs.join("、")}`);
   }
-  addRef(r.refs, "ゴールド・成功率・個数");
+  addRef(r.refs, c.change_row !== undefined ? "進化の組み合わせ" : c.shop_row !== undefined ? "交換の費用" : "ゴールド・成功率・個数");
   inc("recipe");
+}
+if (removedRecipes.length) log.push(`クライアントで確認できない分割レシピを削除 ${removedRecipes.length} 件: ${removedRecipes.slice(0, 8).join(", ")}${removedRecipes.length > 8 ? " ほか" : ""}`);
+
+// クライアントにだけあるレシピ (ショップ交換・進化・製作)
+const recipeIds = new Set(recipes.map((r) => r.id));
+const KIND_NOTE: Record<string, string> = { shop: "クライアントのショップ表の交換", chg: "クライアントの進化表 (加速器などで変換)", cmp: "クライアントの製作表" };
+for (const nr of ex.new_recipes ?? []) {
+  if (recipeIds.has(nr.id)) continue;
+  const { accelerators, ...rest } = nr;
+  const kind = nr.id.split("-")[1];
+  const rec: Recipe = { ...rest, refs: [{ source: SRC }] };
+  const notes = [KIND_NOTE[kind]];
+  if (accelerators && accelerators.length > 1) notes.push(`使える加速器: ${accelerators.join("・")}。`);
+  rec.notes = notes.filter(Boolean).join("。").replace(/。。/g, "。");
+  if (!rec.notes.endsWith("。")) rec.notes += "。";
+  recipes.push(rec);
+  recipeIds.add(nr.id);
+  inc("recipe.new");
+}
+
+// ---- 箱の中身 ----
+const drops = await readJson<DropTable[]>("data/drops.json");
+{
+  const boxTables = new Set(drops.filter((d) => d.location_kind === "box").map((d) => d.location));
+  for (const [name, b] of Object.entries(ex.boxes ?? {})) {
+    const id = `client-box-${b.client_id}`;
+    const prev = drops.findIndex((d) => d.id === id);
+    if (prev < 0 && boxTables.has(name)) {
+      log.push(`箱 ${name}: 告知の表があるのでクライアントの表は追加しない`);
+      continue;
+    }
+    const anyRate = b.entries.some((e) => e.rate !== undefined);
+    const table: DropTable = {
+      id,
+      location: name,
+      location_kind: "box",
+      label: b.select ? "選択" : "中身",
+      entries: b.entries.map((e) => ({
+        item: e.item,
+        ...(e.rate !== undefined ? { rate: e.rate } : b.select ? { rate_text: "選択" } : {}),
+        ...(e.qty !== 1 ? { qty: e.qty } : {}),
+      })),
+      notes: b.select
+        ? "中身から1つを選んで獲得 (クライアントのデータ)。"
+        : anyRate
+          ? "確率はクライアントのデータの重みから計算した値。"
+          : "クライアントのデータに確率の値が無い (均等かどうかは不明)。",
+      refs: [{ source: SRC }],
+    };
+    if (prev >= 0) drops[prev] = table;
+    else {
+      drops.push(table);
+      inc("box.new");
+    }
+  }
+}
+
+// レシピ・箱が参照する素材・袋で data に無いものはスタブを作る
+for (const r of recipes) for (const id of [r.result, r.base, ...r.materials.map((m) => m.item)]) if (id && !allIds.has(id)) missingMats.set(id, { item: id, qty: 0 });
+for (const d of drops) {
+  if (d.location_kind === "box" && !allIds.has(d.location)) missingMats.set(d.location, { item: d.location, qty: 0 });
+  for (const e of d.entries) if (!allIds.has(e.item)) missingMats.set(e.item, { item: e.item, qty: 0 });
 }
 
 // ---- 足りない素材のスタブ ----
 for (const [name] of missingMats) {
-  materials.push({ id: name, name, kind: "material", refs: [{ source: SRC, note: "強化素材" }] });
+  const info = ex.materials?.[name];
+  const kind = (info?.kind === "box" ? "box" : "material") as Item["kind"];
+  materials.push({
+    id: name,
+    name,
+    kind,
+    ...(info?.grade ? { grade: info.grade } : {}),
+    ...(info?.description ? { description: info.description } : {}),
+    refs: [{ source: SRC, note: "レシピ・強化・箱の素材" }],
+  });
   allIds.add(name);
   inc("material.stub");
 }
 
 // ---- 参照されなくなった出典 ----
 const used = new Set<string>();
-for (const coll of [items, materials, outTables, recipes, sets, await readJson<any[]>("data/drops.json"), await readJson<any[]>("data/dungeons.json"), groups] as any[][])
+for (const coll of [items, materials, outTables, recipes, sets, drops, await readJson<any[]>("data/dungeons.json"), groups] as any[][])
   for (const rec of coll) for (const r of rec.refs ?? []) used.add(r.source);
 const outSources = sources.filter((s) => used.has(s.id));
 for (const s of sources) if (!used.has(s.id)) log.push(`参照されなくなった出典を削除 ${s.id}`);
@@ -523,6 +636,7 @@ if (!dry) {
   await writeJson("data/materials.json", materials);
   await writeJson("data/enhance_tables.json", outTables);
   await writeJson("data/recipes.json", recipes);
+  await writeJson("data/drops.json", drops);
   await writeJson("data/sets.json", sets);
   await writeJson("data/item_groups.json", groups);
 }
