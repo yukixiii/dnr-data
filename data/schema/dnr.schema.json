@@ -74,6 +74,7 @@
           }
         },
         "obtain": { "type": "array", "items": { "type": "string" } },
+        "members": { "type": "array", "items": { "type": "string" }, "minItems": 1 },
         "refs": { "$ref": "#/definitions/refs" }
       }
     },

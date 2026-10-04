@@ -57,6 +57,8 @@ export const tablesByMaterial = group(
   ds.enhance_tables.flatMap((t) => t.rows.flatMap((row) => (row.materials ?? []).map((m) => [m.item, t] as [string, EnhanceTable]))),
 );
 export const dropsByLocation = group(ds.drops.map((d) => [d.location, d]));
+/** アイテム → それを含む総称 (members を持つアイテム。「上級堅固な月食のかけら」→「上級月食のかけら」) */
+export const aggregatesOf = group(allItems.flatMap((i) => (i.members ?? []).map((m) => [m, i.id] as [string, string])));
 
 /**
  * 中身が 1 種類だけの袋 (「未知の古代ネックレス袋(+12)」→ 未知の古代ネックレス など) → その中身。
@@ -76,8 +78,8 @@ const mulQty = (a: DropEntry["qty"], b: DropEntry["qty"]): DropEntry["qty"] => {
   return a === 1 ? b : `${a}×${b}`;
 };
 
-/** ドロップ表の 1 行を表示用に: 単純な袋は中身に置き換え、経由した袋を via に持つ */
-export type ShownEntry = DropEntry & { via?: string };
+/** ドロップ表の 1 行を表示用に: 単純な袋は中身に置き換え、経由した袋を via に持つ。総称の行から引いた中身は as に総称を持つ */
+export type ShownEntry = DropEntry & { via?: string; as?: string };
 export const shownEntry = (e: DropEntry): ShownEntry => {
   const inner = simpleBags.get(e.item);
   return inner ? { ...e, item: inner.item, qty: mulQty(e.qty, inner.qty), via: e.item } : e;
@@ -91,6 +93,8 @@ export const dropsByItem = group(
       const hits: [string, DropHit][] = [[e.item, { table: d, entry: e }]];
       const s = shownEntry(e);
       if (s.via) hits.push([s.item, { table: d, entry: s }]);
+      // 総称の行は、中身のそれぞれのアイテムの入手先にも出す
+      for (const m of itemById.get(e.item)?.members ?? []) hits.push([m, { table: d, entry: { ...e, item: m, as: e.item } }]);
       return hits;
     }),
   ),

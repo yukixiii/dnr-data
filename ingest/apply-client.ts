@@ -45,6 +45,8 @@ interface Export {
   boxes: Record<string, { client_id: number; select: boolean; entries: { item: string; qty: number; rate?: number }[] }>;
   materials: Record<string, { client_id: number; kind: string; grade?: string; description?: string }>;
   sets: Record<string, { name: string | null; text: string | null; bonuses: { count: number; stats?: CStat[]; skill?: string }[]; items: string[] }>;
+  // 総称のアイテム → 中身 (説明文「次の N種のアイテムが登場する。」)
+  members?: Record<string, string[]>;
   new_items: string[];
 }
 
@@ -635,6 +637,18 @@ const drops = await readJson<DropTable[]>("data/drops.json");
       inc("box.new");
     }
   }
+}
+
+// ---- 総称の中身 ----
+for (const [id, ms] of Object.entries(ex.members ?? {})) {
+  const rec = materials.find((m) => m.id === id) ?? itemById.get(id);
+  if (!rec) continue;
+  if (JSON.stringify(rec.members) !== JSON.stringify(ms)) {
+    rec.members = ms;
+    if (!rec.refs.some((r) => r.source === SRC)) rec.refs.push({ source: SRC });
+    inc("members");
+  }
+  for (const m of ms) if (!allIds.has(m)) missingMats.set(m, { item: m, qty: 0 });
 }
 
 // レシピ・箱が参照する素材・袋で data に無いものはスタブを作る

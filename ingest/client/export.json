@@ -104624,7 +104624,7 @@
   "永遠の能力強化紋章": "永遠の◯の能力強化紋章の総称",
   "月食の竜珠": "月食の◯竜珠 (部位・攻撃/防御・等級別) の総称",
   "古竜の防具": "原文の総称 (古竜の古代ヘルム等5部位)",
-  "攻撃エンシェント竜珠": "ファンWiki表記。公式名は未特定",
+  "攻撃エンシェント竜珠": "ファンWiki表記。実体はヘイズフロストドラゴンの月食◯攻撃竜珠(エンシェント) (職業×部位の多数の行、強化 ID 847258812) の総称",
   "祝福された金竜の竜珠": "ドロップ表での総称 (祝福された金竜の◯竜珠 5種のいずれか)",
   "上級ヘイズガストドラゴンサブウェポン": "クライアントでは職業・特性ごとの名前のみ",
   "増幅された古竜の防具": "原文の総称 ([増幅]古竜の古代ヘルム等5部位)",
@@ -104633,7 +104633,7 @@
   "崩壊の防御竜珠": "崩壊の◯防御竜珠 (部位別) の総称",
   "崩壊の防御竜珠(エピック)": "崩壊の◯防御竜珠 (部位別) の総称",
   "崩壊の竜珠(ユニーク)": "崩壊の竜珠合成器を使った後の総称",
-  "防御エンシェント竜珠": "ファンWiki表記。公式名は未特定"
+  "防御エンシェント竜珠": "ファンWiki表記。実体はヘイズフロストドラゴンの月食◯防御竜珠(エンシェント) (職業×部位の多数の行、強化 ID 847258811) の総称"
  },
  "enhance": {
   "cn1086-otherworld-weapon-enhance": {
@@ -170234,6 +170234,25 @@
     }
    ]
   },
+  "n1311-collapse-orb": {
+   "compound_id": 78382,
+   "rate": 100.0,
+   "gold": 10000.0,
+   "materials": [
+    {
+     "item": "古代人の礎",
+     "qty": 200
+    },
+    {
+     "item": "崩壊の竜珠の破片",
+     "qty": 1500
+    },
+    {
+     "item": "次元の残痕",
+     "qty": 1500
+    }
+   ]
+  },
   "n1311-fossil-1": {
    "compound_id": 77970,
    "rate": 100.0,
@@ -172257,6 +172276,54 @@
    "where": "【エルフ警備兵】ロベリア「箱舟[過去]」",
    "result_qty": 5
   },
+  "n1193-saviour-shop-01": {
+   "shop_row": 241101200,
+   "gold": 0,
+   "materials": [
+    {
+     "item": "救援の証",
+     "qty": 60
+    }
+   ],
+   "where": "入場権限発行機「セイヴィア」",
+   "result_qty": 1
+  },
+  "n1193-saviour-shop-02": {
+   "shop_row": 241101201,
+   "gold": 0,
+   "materials": [
+    {
+     "item": "救援の証",
+     "qty": 60
+    }
+   ],
+   "where": "入場権限発行機「セイヴィア」",
+   "result_qty": 1
+  },
+  "n1193-saviour-shop-03": {
+   "shop_row": 241101202,
+   "gold": 0,
+   "materials": [
+    {
+     "item": "救援の証",
+     "qty": 60
+    }
+   ],
+   "where": "入場権限発行機「セイヴィア」",
+   "result_qty": 1
+  },
+  "n1193-saviour-shop-04": {
+   "shop_row": 241101203,
+   "gold": 0,
+   "materials": [
+    {
+     "item": "救援の証",
+     "qty": 60
+    }
+   ],
+   "where": "入場権限発行機「セイヴィア」",
+   "result_qty": 1
+  },
   "n1193-saviour-shop-12": {
    "shop_row": 241101255,
    "gold": 0,
@@ -172485,6 +172552,18 @@
    "where": "【エルフ警備兵】ロベリア「箱舟[未来]」",
    "result_qty": 5
   },
+  "n1265-ark-future-shop-7": {
+   "shop_row": 250001415,
+   "gold": 0,
+   "materials": [
+    {
+     "item": "超越の箱舟[未来]のコイン",
+     "qty": 5
+    }
+   ],
+   "where": "【エルフ警備兵】ロベリア「箱舟[未来]」",
+   "result_qty": 2
+  },
   "n1287-nelwin-shop-box": {
    "shop_row": 96003221,
    "gold": 0,
@@ -172581,6 +172660,18 @@
    "where": "【エルフ警備兵】ロベリア「箱舟[過去]」",
    "result_qty": 5
   },
+  "n1311-ark-past-shop-2-5-10": {
+   "shop_row": 250001215,
+   "gold": 0,
+   "materials": [
+    {
+     "item": "超越の箱舟[過去]のコイン",
+     "qty": 5
+    }
+   ],
+   "where": "【エルフ警備兵】ロベリア「箱舟[過去]」",
+   "result_qty": 2
+  },
   "n1311-ark-past-shop-50-5-11": {
    "shop_row": 250001210,
    "gold": 0,
@@ -172652,6 +172743,18 @@
    ],
    "where": "【エルフ警備兵】ロベリア「箱舟[現在]」",
    "result_qty": 10
+  },
+  "n1362-arkshop-cardkey": {
+   "shop_row": 250001315,
+   "gold": 0,
+   "materials": [
+    {
+     "item": "超越の箱舟[現在]のコイン",
+     "qty": 5
+    }
+   ],
+   "where": "【エルフ警備兵】ロベリア「箱舟[現在]」",
+   "result_qty": 2
   },
   "n1362-arkshop-starshadow-key": {
    "shop_row": 250001316,
@@ -173164,6 +173267,18 @@
    "where": "【エルフ警備兵】ロベリア「箱舟[未来]」",
    "result_qty": 50
   },
+  "n1411-ark-future-shop-8": {
+   "shop_row": 250001415,
+   "gold": 0,
+   "materials": [
+    {
+     "item": "超越の箱舟[未来]のコイン",
+     "qty": 5
+    }
+   ],
+   "where": "【エルフ警備兵】ロベリア「箱舟[未来]」",
+   "result_qty": 2
+  },
   "n1411-ark-future-shop-9": {
    "shop_row": 250001416,
    "gold": 0,
@@ -173512,6 +173627,18 @@
    "where": "【冒険者ギルド員】デービット・【次元商人】ミャオン「依頼」",
    "result_qty": 3
   },
+  "n1455-request-shop-2": {
+   "shop_row": 1000213,
+   "gold": 0,
+   "materials": [
+    {
+     "item": "依頼解決証明書",
+     "qty": 3
+    }
+   ],
+   "where": "【冒険者ギルド員】デービット・【次元商人】ミャオン「依頼」",
+   "result_qty": 1
+  },
   "n1455-request-shop-3": {
    "shop_row": 1000214,
    "gold": 0,
@@ -173631,6 +173758,18 @@
    ],
    "where": "【エルフ警備兵】ロベリア「箱舟[過去]」",
    "result_qty": 50
+  },
+  "n1466-ark-shop-08": {
+   "shop_row": 250001215,
+   "gold": 0,
+   "materials": [
+    {
+     "item": "超越の箱舟[過去]のコイン",
+     "qty": 5
+    }
+   ],
+   "where": "【エルフ警備兵】ロベリア「箱舟[過去]」",
+   "result_qty": 2
   },
   "n1466-ark-shop-09": {
    "shop_row": 250001216,
@@ -173800,6 +173939,18 @@
    "where": "【宮女】ユエ・紅蓮宮-外郭-門番「独武討伐戦」",
    "result_qty": 1
   },
+  "n1466-dokubu-shop-15": {
+   "shop_row": 320000216,
+   "gold": 0,
+   "materials": [
+    {
+     "item": "独武討伐戦コイン(シーズン3)",
+     "qty": 5
+    }
+   ],
+   "where": "【宮女】ユエ・紅蓮宮-外郭-門番「独武討伐戦」",
+   "result_qty": 10
+  },
   "n1466-dokubu-shop-16": {
    "shop_row": 320000220,
    "gold": 0,
@@ -173931,6 +174082,30 @@
    ],
    "where": "【宮女】ユエ・紅蓮宮-外郭-門番「独武討伐戦」",
    "result_qty": 1
+  },
+  "n1466-dokubu-shop-29": {
+   "shop_row": 320000237,
+   "gold": 0,
+   "materials": [
+    {
+     "item": "独武討伐戦コイン(シーズン3)",
+     "qty": 150
+    }
+   ],
+   "where": "【宮女】ユエ・紅蓮宮-外郭-門番「独武討伐戦」",
+   "result_qty": 3
+  },
+  "n1466-dokubu-shop-30": {
+   "shop_row": 320000240,
+   "gold": 0,
+   "materials": [
+    {
+     "item": "独武討伐戦コイン(シーズン3)",
+     "qty": 30
+    }
+   ],
+   "where": "【宮女】ユエ・紅蓮宮-外郭-門番「独武討伐戦」",
+   "result_qty": 20
   },
   "n1466-dokubu-shop-31": {
    "shop_row": 320000241,
@@ -174237,6 +174412,1006 @@
     }
    ],
    "where": "【商人】パニア・【商人】ファルバナ「宝物交換商店」",
+   "result_qty": 1
+  },
+  "client-shop-97001115": {
+   "shop_row": 97001115,
+   "gold": 0,
+   "materials": [
+    {
+     "item": "ギルド名声コイン",
+     "qty": 10
+    }
+   ],
+   "where": "【ギルド補給兵】ジン「雑貨」",
+   "result_qty": 10
+  },
+  "client-shop-970000100": {
+   "shop_row": 970000100,
+   "gold": 0,
+   "materials": [
+    {
+     "item": "白銀蓮の刺繍",
+     "qty": 10
+    }
+   ],
+   "where": "【宮女】ユエ「雑貨」",
+   "result_qty": 1
+  },
+  "client-shop-970000101": {
+   "shop_row": 970000101,
+   "gold": 0,
+   "materials": [
+    {
+     "item": "黄金蓮の刺繍",
+     "qty": 1
+    }
+   ],
+   "where": "【宮女】ユエ「雑貨」",
+   "result_qty": 1
+  },
+  "client-shop-210001101": {
+   "shop_row": 210001101,
+   "gold": 400.0,
+   "materials": [],
+   "where": "【雑貨商人】エイプリル「雑貨」",
+   "result_qty": 1
+  },
+  "client-shop-210001102": {
+   "shop_row": 210001102,
+   "gold": 0,
+   "materials": [
+    {
+     "item": "猫目石",
+     "qty": 1
+    }
+   ],
+   "where": "【雑貨商人】エイプリル「雑貨」",
+   "result_qty": 1
+  },
+  "client-shop-97001112": {
+   "shop_row": 97001112,
+   "gold": 0,
+   "materials": [
+    {
+     "item": "ギルド名声コイン",
+     "qty": 5
+    }
+   ],
+   "where": "【ギルド補給兵】ジン「雑貨」",
+   "result_qty": 1
+  },
+  "client-shop-250001100": {
+   "shop_row": 250001100,
+   "gold": 0,
+   "materials": [
+    {
+     "item": "上級生命の清水",
+     "qty": 100
+    }
+   ],
+   "where": "【エルフ警備兵】ロベリア「入場券」",
+   "result_qty": 1
+  },
+  "client-shop-260001100": {
+   "shop_row": 260001100,
+   "gold": 10000.0,
+   "materials": [
+    {
+     "item": "古代の壊れた竜珠の破片",
+     "qty": 60
+    }
+   ],
+   "where": "【商人】セレナ「ウォーリアー&アーチャー」",
+   "result_qty": 1
+  },
+  "client-shop-340001101": {
+   "shop_row": 340001101,
+   "gold": 500.0,
+   "materials": [],
+   "where": "【商人】リサ・【雑貨商人】ケリー「雑貨」",
+   "result_qty": 1
+  },
+  "client-shop-97001110": {
+   "shop_row": 97001110,
+   "gold": 0,
+   "materials": [
+    {
+     "item": "ギルド名声コイン",
+     "qty": 5
+    }
+   ],
+   "where": "【ギルド補給兵】ジン「雑貨」",
+   "result_qty": 1
+  },
+  "client-shop-213001125": {
+   "shop_row": 213001125,
+   "gold": 0,
+   "materials": [
+    {
+     "item": "ランカーコイン",
+     "qty": 2
+    }
+   ],
+   "where": "【マゴブリン】ランカー「ランカー商店」",
+   "result_qty": 40
+  },
+  "client-shop-213001117": {
+   "shop_row": 213001117,
+   "gold": 0,
+   "materials": [
+    {
+     "item": "ランカーコイン",
+     "qty": 5
+    }
+   ],
+   "where": "【マゴブリン】ランカー「ランカー商店」",
+   "result_qty": 500
+  },
+  "client-shop-213001135": {
+   "shop_row": 213001135,
+   "gold": 0,
+   "materials": [
+    {
+     "item": "ランカーコイン",
+     "qty": 10
+    }
+   ],
+   "where": "【マゴブリン】ランカー「ランカー商店」",
+   "result_qty": 200
+  },
+  "client-shop-213001136": {
+   "shop_row": 213001136,
+   "gold": 0,
+   "materials": [
+    {
+     "item": "ランカーコイン",
+     "qty": 10
+    }
+   ],
+   "where": "【マゴブリン】ランカー「ランカー商店」",
+   "result_qty": 300
+  },
+  "client-shop-213001137": {
+   "shop_row": 213001137,
+   "gold": 0,
+   "materials": [
+    {
+     "item": "ランカーコイン",
+     "qty": 10
+    }
+   ],
+   "where": "【マゴブリン】ランカー「ランカー商店」",
+   "result_qty": 350
+  },
+  "client-shop-213001138": {
+   "shop_row": 213001138,
+   "gold": 0,
+   "materials": [
+    {
+     "item": "ランカーコイン",
+     "qty": 10
+    }
+   ],
+   "where": "【マゴブリン】ランカー「ランカー商店」",
+   "result_qty": 2000
+  },
+  "client-shop-213001140": {
+   "shop_row": 213001140,
+   "gold": 0,
+   "materials": [
+    {
+     "item": "ランカーコイン",
+     "qty": 10
+    }
+   ],
+   "where": "【マゴブリン】ランカー「ランカー商店」",
+   "result_qty": 500
+  },
+  "client-shop-213001141": {
+   "shop_row": 213001141,
+   "gold": 0,
+   "materials": [
+    {
+     "item": "ランカーコイン",
+     "qty": 10
+    }
+   ],
+   "where": "【マゴブリン】ランカー「ランカー商店」",
+   "result_qty": 30
+  },
+  "client-shop-213001105": {
+   "shop_row": 213001105,
+   "gold": 0,
+   "materials": [
+    {
+     "item": "ランカーコイン",
+     "qty": 10000
+    }
+   ],
+   "where": "【マゴブリン】ランカー「ランカー商店」",
+   "result_qty": 1
+  },
+  "client-shop-213001106": {
+   "shop_row": 213001106,
+   "gold": 0,
+   "materials": [
+    {
+     "item": "ランカーコイン",
+     "qty": 15000
+    }
+   ],
+   "where": "【マゴブリン】ランカー「ランカー商店」",
+   "result_qty": 1
+  },
+  "client-shop-213001107": {
+   "shop_row": 213001107,
+   "gold": 0,
+   "materials": [
+    {
+     "item": "ランカーコイン",
+     "qty": 20000
+    }
+   ],
+   "where": "【マゴブリン】ランカー「ランカー商店」",
+   "result_qty": 1
+  },
+  "client-shop-213001108": {
+   "shop_row": 213001108,
+   "gold": 0,
+   "materials": [
+    {
+     "item": "ランカーコイン",
+     "qty": 30000
+    }
+   ],
+   "where": "【マゴブリン】ランカー「ランカー商店」",
+   "result_qty": 1
+  },
+  "client-shop-97001100": {
+   "shop_row": 97001100,
+   "gold": 0,
+   "materials": [
+    {
+     "item": "ギルド名声コイン",
+     "qty": 50
+    }
+   ],
+   "where": "【ギルド補給兵】ジン「雑貨」",
+   "result_qty": 100
+  },
+  "client-shop-97001205": {
+   "shop_row": 97001205,
+   "gold": 0,
+   "materials": [
+    {
+     "item": "ギルド名声コイン",
+     "qty": 150
+    }
+   ],
+   "where": "【ギルド補給兵】ジン「消耗品」",
+   "result_qty": 1
+  },
+  "client-shop-97001101": {
+   "shop_row": 97001101,
+   "gold": 0,
+   "materials": [
+    {
+     "item": "ギルド名声コイン",
+     "qty": 2000
+    }
+   ],
+   "where": "【ギルド補給兵】ジン「雑貨」",
+   "result_qty": 10
+  },
+  "client-shop-97001310": {
+   "shop_row": 97001310,
+   "gold": 0,
+   "materials": [
+    {
+     "item": "ギルド名誉コイン",
+     "qty": 1
+    }
+   ],
+   "where": "【ギルド補給兵】ジン「名誉コイン」",
+   "result_qty": 100
+  },
+  "client-shop-97001305": {
+   "shop_row": 97001305,
+   "gold": 0,
+   "materials": [
+    {
+     "item": "ギルド名誉コイン",
+     "qty": 1
+    }
+   ],
+   "where": "【ギルド補給兵】ジン「名誉コイン」",
+   "result_qty": 1
+  },
+  "client-shop-29001101": {
+   "shop_row": 29001101,
+   "gold": 10.0,
+   "materials": [],
+   "where": "【闇の女神官】タルト・【闇の女神官】ビスケ・【闇の女神官】モカ「月食の竜珠」",
+   "result_qty": 1
+  },
+  "client-shop-97001400": {
+   "shop_row": 97001400,
+   "gold": 0,
+   "materials": [
+    {
+     "item": "ギルド名声コイン",
+     "qty": 1000
+    }
+   ],
+   "where": "【ギルド補給兵】ジン「ギルド名声コイン」",
+   "result_qty": 1
+  },
+  "client-shop-320000212": {
+   "shop_row": 320000212,
+   "gold": 0,
+   "materials": [
+    {
+     "item": "独武討伐戦コイン(シーズン3)",
+     "qty": 5
+    }
+   ],
+   "where": "【宮女】ユエ・紅蓮宮-外郭-門番「独武討伐戦」",
+   "result_qty": 1
+  },
+  "client-shop-96003125": {
+   "shop_row": 96003125,
+   "gold": 0,
+   "materials": [
+    {
+     "item": "色あせた白い羽",
+     "qty": 1
+    }
+   ],
+   "where": "【万物商店ガイド】チェルニー「ドラゴンブローチ」",
+   "result_qty": 1
+  },
+  "client-shop-96003325": {
+   "shop_row": 96003325,
+   "gold": 0,
+   "materials": [
+    {
+     "item": "断片化したブローチの残骸",
+     "qty": 30
+    }
+   ],
+   "where": "【万物商店ガイド】チェルニー「ブローチの残骸」",
+   "result_qty": 1
+  },
+  "client-shop-320000236": {
+   "shop_row": 320000236,
+   "gold": 0,
+   "materials": [
+    {
+     "item": "独武討伐戦コイン(シーズン3)",
+     "qty": 180
+    }
+   ],
+   "where": "【宮女】ユエ・紅蓮宮-外郭-門番「独武討伐戦」",
+   "result_qty": 1
+  },
+  "client-shop-320000234": {
+   "shop_row": 320000234,
+   "gold": 0,
+   "materials": [
+    {
+     "item": "独武討伐戦コイン(シーズン3)",
+     "qty": 250
+    }
+   ],
+   "where": "【宮女】ユエ・紅蓮宮-外郭-門番「独武討伐戦」",
+   "result_qty": 1
+  },
+  "client-shop-76000125": {
+   "shop_row": 76000125,
+   "gold": 0,
+   "materials": [
+    {
+     "item": "アストラルストーン",
+     "qty": 5
+    }
+   ],
+   "where": "アリン・オリン「クローニング商店」",
+   "result_qty": 1
+  },
+  "client-shop-85000125": {
+   "shop_row": 85000125,
+   "gold": 0,
+   "materials": [
+    {
+     "item": "バルクの心臓のかけら",
+     "qty": 500
+    }
+   ],
+   "where": "【レンジャー】ファーガス「入場券」",
+   "result_qty": 1
+  },
+  "client-shop-85001125": {
+   "shop_row": 85001125,
+   "gold": 0,
+   "materials": [
+    {
+     "item": "ムエルトスの珠のかけら",
+     "qty": 500
+    }
+   ],
+   "where": "【自警団長】スティーブ「入場券」",
+   "result_qty": 1
+  },
+  "client-shop-85002125": {
+   "shop_row": 85002125,
+   "gold": 0,
+   "materials": [
+    {
+     "item": "ブリュンヒルドの氷のかけら",
+     "qty": 500
+    }
+   ],
+   "where": "【ソーサレス】タラ「入場券」",
+   "result_qty": 1
+  },
+  "client-shop-300001101": {
+   "shop_row": 300001101,
+   "gold": 1000.0,
+   "materials": [
+    {
+     "item": "次元の残痕",
+     "qty": 100
+    }
+   ],
+   "where": "執事B「金竜商店」",
+   "result_qty": 1
+  },
+  "client-shop-300001110": {
+   "shop_row": 300001110,
+   "gold": 0,
+   "materials": [
+    {
+     "item": "金色の追憶のかけら",
+     "qty": 10
+    }
+   ],
+   "where": "執事B「金竜商店」",
+   "result_qty": 1
+  },
+  "client-shop-300001115": {
+   "shop_row": 300001115,
+   "gold": 0,
+   "materials": [
+    {
+     "item": "金竜の竜珠安定器の破片",
+     "qty": 40
+    }
+   ],
+   "where": "執事B「金竜商店」",
+   "result_qty": 1
+  },
+  "client-shop-300011100": {
+   "shop_row": 300011100,
+   "gold": 0,
+   "materials": [
+    {
+     "item": "次元の残痕",
+     "qty": 100
+    }
+   ],
+   "where": "執事B「王城廃墟」",
+   "result_qty": 1
+  },
+  "client-shop-300011111": {
+   "shop_row": 300011111,
+   "gold": 0,
+   "materials": [
+    {
+     "item": "遺跡の破片",
+     "qty": 30
+    }
+   ],
+   "where": "執事B「王城廃墟」",
+   "result_qty": 1
+  },
+  "client-shop-300011115": {
+   "shop_row": 300011115,
+   "gold": 10000.0,
+   "materials": [],
+   "where": "執事B「王城廃墟」",
+   "result_qty": 1
+  },
+  "client-shop-28101130": {
+   "shop_row": 28101130,
+   "gold": 0,
+   "materials": [
+    {
+     "item": "永遠の能力強化紋章箱のかけら",
+     "qty": 5000
+    }
+   ],
+   "where": "【闇の女神官】タルト・【闇の女神官】ビスケ・【闇の女神官】モカ「能力強化紋章」",
+   "result_qty": 1
+  },
+  "client-shop-28101135": {
+   "shop_row": 28101135,
+   "gold": 0,
+   "materials": [
+    {
+     "item": "永遠の能力強化紋章箱のかけら",
+     "qty": 9999
+    }
+   ],
+   "where": "【闇の女神官】タルト・【闇の女神官】ビスケ・【闇の女神官】モカ「能力強化紋章」",
+   "result_qty": 1
+  },
+  "client-shop-28101136": {
+   "shop_row": 28101136,
+   "gold": 0,
+   "materials": [
+    {
+     "item": "永遠の能力強化紋章箱のかけら",
+     "qty": 9999
+    }
+   ],
+   "where": "【闇の女神官】タルト・【闇の女神官】ビスケ・【闇の女神官】モカ「能力強化紋章」",
+   "result_qty": 1
+  },
+  "client-shop-28101137": {
+   "shop_row": 28101137,
+   "gold": 0,
+   "materials": [
+    {
+     "item": "永遠の能力強化紋章箱のかけら",
+     "qty": 9999
+    }
+   ],
+   "where": "【闇の女神官】タルト・【闇の女神官】ビスケ・【闇の女神官】モカ「能力強化紋章」",
+   "result_qty": 1
+  },
+  "client-shop-28101140": {
+   "shop_row": 28101140,
+   "gold": 0,
+   "materials": [
+    {
+     "item": "永遠の能力強化紋章箱のかけら",
+     "qty": 9999
+    }
+   ],
+   "where": "【闇の女神官】タルト・【闇の女神官】ビスケ・【闇の女神官】モカ「能力強化紋章」",
+   "result_qty": 1
+  },
+  "client-shop-28101141": {
+   "shop_row": 28101141,
+   "gold": 0,
+   "materials": [
+    {
+     "item": "永遠の能力強化紋章箱のかけら",
+     "qty": 9999
+    }
+   ],
+   "where": "【闇の女神官】タルト・【闇の女神官】ビスケ・【闇の女神官】モカ「能力強化紋章」",
+   "result_qty": 1
+  },
+  "client-shop-28101142": {
+   "shop_row": 28101142,
+   "gold": 0,
+   "materials": [
+    {
+     "item": "永遠の能力強化紋章箱のかけら",
+     "qty": 9999
+    }
+   ],
+   "where": "【闇の女神官】タルト・【闇の女神官】ビスケ・【闇の女神官】モカ「能力強化紋章」",
+   "result_qty": 1
+  },
+  "client-shop-28101143": {
+   "shop_row": 28101143,
+   "gold": 0,
+   "materials": [
+    {
+     "item": "永遠の能力強化紋章箱のかけら",
+     "qty": 9999
+    }
+   ],
+   "where": "【闇の女神官】タルト・【闇の女神官】ビスケ・【闇の女神官】モカ「能力強化紋章」",
+   "result_qty": 1
+  },
+  "client-shop-28101145": {
+   "shop_row": 28101145,
+   "gold": 0,
+   "materials": [
+    {
+     "item": "永遠の能力強化紋章箱のかけら",
+     "qty": 9999
+    }
+   ],
+   "where": "【闇の女神官】タルト・【闇の女神官】ビスケ・【闇の女神官】モカ「能力強化紋章」",
+   "result_qty": 1
+  },
+  "client-shop-28101146": {
+   "shop_row": 28101146,
+   "gold": 0,
+   "materials": [
+    {
+     "item": "永遠の能力強化紋章箱のかけら",
+     "qty": 9999
+    }
+   ],
+   "where": "【闇の女神官】タルト・【闇の女神官】ビスケ・【闇の女神官】モカ「能力強化紋章」",
+   "result_qty": 1
+  },
+  "client-shop-28101147": {
+   "shop_row": 28101147,
+   "gold": 0,
+   "materials": [
+    {
+     "item": "永遠の能力強化紋章箱のかけら",
+     "qty": 9999
+    }
+   ],
+   "where": "【闇の女神官】タルト・【闇の女神官】ビスケ・【闇の女神官】モカ「能力強化紋章」",
+   "result_qty": 1
+  },
+  "client-shop-28101148": {
+   "shop_row": 28101148,
+   "gold": 0,
+   "materials": [
+    {
+     "item": "永遠の能力強化紋章箱のかけら",
+     "qty": 9999
+    }
+   ],
+   "where": "【闇の女神官】タルト・【闇の女神官】ビスケ・【闇の女神官】モカ「能力強化紋章」",
+   "result_qty": 1
+  },
+  "client-shop-28101410": {
+   "shop_row": 28101410,
+   "gold": 0,
+   "materials": [
+    {
+     "item": "壊れた金糸防具の結晶",
+     "qty": 1
+    }
+   ],
+   "where": "【闇の女神官】タルト・【闇の女神官】ビスケ・【闇の女神官】モカ「材料」",
+   "result_qty": 10
+  },
+  "client-shop-28101411": {
+   "shop_row": 28101411,
+   "gold": 0,
+   "materials": [
+    {
+     "item": "壊れた金糸防具の結晶",
+     "qty": 1
+    }
+   ],
+   "where": "【闇の女神官】タルト・【闇の女神官】ビスケ・【闇の女神官】モカ「材料」",
+   "result_qty": 10
+  },
+  "client-shop-28101412": {
+   "shop_row": 28101412,
+   "gold": 0,
+   "materials": [
+    {
+     "item": "壊れた金糸防具の結晶",
+     "qty": 1
+    }
+   ],
+   "where": "【闇の女神官】タルト・【闇の女神官】ビスケ・【闇の女神官】モカ「材料」",
+   "result_qty": 10
+  },
+  "client-shop-28101413": {
+   "shop_row": 28101413,
+   "gold": 0,
+   "materials": [
+    {
+     "item": "壊れた金糸防具の結晶",
+     "qty": 1
+    }
+   ],
+   "where": "【闇の女神官】タルト・【闇の女神官】ビスケ・【闇の女神官】モカ「材料」",
+   "result_qty": 10
+  },
+  "client-shop-28101414": {
+   "shop_row": 28101414,
+   "gold": 0,
+   "materials": [
+    {
+     "item": "壊れた金糸防具の結晶",
+     "qty": 1
+    }
+   ],
+   "where": "【闇の女神官】タルト・【闇の女神官】ビスケ・【闇の女神官】モカ「材料」",
+   "result_qty": 10
+  },
+  "client-shop-28101415": {
+   "shop_row": 28101415,
+   "gold": 0,
+   "materials": [
+    {
+     "item": "壊れた金糸武器の結晶",
+     "qty": 1
+    }
+   ],
+   "where": "【闇の女神官】タルト・【闇の女神官】ビスケ・【闇の女神官】モカ「材料」",
+   "result_qty": 10
+  },
+  "client-shop-28101416": {
+   "shop_row": 28101416,
+   "gold": 0,
+   "materials": [
+    {
+     "item": "古代人の礎",
+     "qty": 1
+    }
+   ],
+   "where": "【闇の女神官】タルト・【闇の女神官】ビスケ・【闇の女神官】モカ「材料」",
+   "result_qty": 10
+  },
+  "client-shop-28101417": {
+   "shop_row": 28101417,
+   "gold": 0,
+   "materials": [
+    {
+     "item": "次元の残痕",
+     "qty": 1
+    }
+   ],
+   "where": "【闇の女神官】タルト・【闇の女神官】ビスケ・【闇の女神官】モカ「材料」",
+   "result_qty": 10
+  },
+  "client-shop-29001105": {
+   "shop_row": 29001105,
+   "gold": 0,
+   "materials": [
+    {
+     "item": "神聖な月食のかけら",
+     "qty": 100
+    }
+   ],
+   "where": "【闇の女神官】タルト・【闇の女神官】ビスケ・【闇の女神官】モカ「月食の竜珠」",
+   "result_qty": 1
+  },
+  "client-shop-29001106": {
+   "shop_row": 29001106,
+   "gold": 0,
+   "materials": [
+    {
+     "item": "清い月食のかけら",
+     "qty": 100
+    }
+   ],
+   "where": "【闇の女神官】タルト・【闇の女神官】ビスケ・【闇の女神官】モカ「月食の竜珠」",
+   "result_qty": 1
+  },
+  "client-shop-29001107": {
+   "shop_row": 29001107,
+   "gold": 0,
+   "materials": [
+    {
+     "item": "燃える月食のかけら",
+     "qty": 100
+    }
+   ],
+   "where": "【闇の女神官】タルト・【闇の女神官】ビスケ・【闇の女神官】モカ「月食の竜珠」",
+   "result_qty": 1
+  },
+  "client-shop-29001110": {
+   "shop_row": 29001110,
+   "gold": 0,
+   "materials": [
+    {
+     "item": "漆黒の月食のかけら",
+     "qty": 100
+    }
+   ],
+   "where": "【闇の女神官】タルト・【闇の女神官】ビスケ・【闇の女神官】モカ「月食の竜珠」",
+   "result_qty": 1
+  },
+  "client-shop-29001111": {
+   "shop_row": 29001111,
+   "gold": 0,
+   "materials": [
+    {
+     "item": "純風の月食のかけら",
+     "qty": 100
+    }
+   ],
+   "where": "【闇の女神官】タルト・【闇の女神官】ビスケ・【闇の女神官】モカ「月食の竜珠」",
+   "result_qty": 1
+  },
+  "client-shop-29001112": {
+   "shop_row": 29001112,
+   "gold": 0,
+   "materials": [
+    {
+     "item": "堅固な月食のかけら",
+     "qty": 100
+    }
+   ],
+   "where": "【闇の女神官】タルト・【闇の女神官】ビスケ・【闇の女神官】モカ「月食の竜珠」",
+   "result_qty": 1
+  },
+  "client-shop-241101251": {
+   "shop_row": 241101251,
+   "gold": 0,
+   "materials": [
+    {
+     "item": "堕落した世界の片鱗",
+     "qty": 3
+    }
+   ],
+   "where": "入場権限発行機「セイヴィア」",
+   "result_qty": 1
+  },
+  "client-shop-241101252": {
+   "shop_row": 241101252,
+   "gold": 0,
+   "materials": [
+    {
+     "item": "堕落した世界の片鱗",
+     "qty": 3
+    }
+   ],
+   "where": "入場権限発行機「セイヴィア」",
+   "result_qty": 100
+  },
+  "client-shop-970000115": {
+   "shop_row": 970000115,
+   "gold": 0,
+   "materials": [
+    {
+     "item": "黄金蓮の刺繍",
+     "qty": 1
+    }
+   ],
+   "where": "【宮女】ユエ「雑貨」",
+   "result_qty": 1
+  },
+  "client-shop-89061100": {
+   "shop_row": 89061100,
+   "gold": 0,
+   "materials": [
+    {
+     "item": "冥闇の邪気",
+     "qty": 2000
+    }
+   ],
+   "where": "【闇の女神官】カヌレ「雑貨」",
+   "result_qty": 1
+  },
+  "client-shop-89061101": {
+   "shop_row": 89061101,
+   "gold": 0,
+   "materials": [
+    {
+     "item": "冥闇の塊",
+     "qty": 300
+    }
+   ],
+   "where": "【闇の女神官】カヌレ「雑貨」",
+   "result_qty": 1
+  },
+  "client-shop-96003202": {
+   "shop_row": 96003202,
+   "gold": 0,
+   "materials": [
+    {
+     "item": "シールドのかけら",
+     "qty": 100
+    }
+   ],
+   "where": "【万物商店ガイド】チェルニー「英雄ブローチ」",
+   "result_qty": 1
+  },
+  "client-shop-96003310": {
+   "shop_row": 96003310,
+   "gold": 0,
+   "materials": [
+    {
+     "item": "断片化したブローチの残骸",
+     "qty": 1500
+    }
+   ],
+   "where": "【万物商店ガイド】チェルニー「ブローチの残骸」",
+   "result_qty": 1
+  },
+  "client-shop-96003311": {
+   "shop_row": 96003311,
+   "gold": 0,
+   "materials": [
+    {
+     "item": "断片化したブローチの残骸",
+     "qty": 1500
+    }
+   ],
+   "where": "【万物商店ガイド】チェルニー「ブローチの残骸」",
+   "result_qty": 1
+  },
+  "client-shop-96003222": {
+   "shop_row": 96003222,
+   "gold": 0,
+   "materials": [
+    {
+     "item": "英雄ブローチコイン",
+     "qty": 3
+    }
+   ],
+   "where": "【万物商店ガイド】チェルニー「英雄ブローチ」",
+   "result_qty": 1
+  },
+  "client-shop-96003312": {
+   "shop_row": 96003312,
+   "gold": 0,
+   "materials": [
+    {
+     "item": "断片化したブローチの残骸",
+     "qty": 1500
+    }
+   ],
+   "where": "【万物商店ガイド】チェルニー「ブローチの残骸」",
+   "result_qty": 1
+  },
+  "client-shop-220001110": {
+   "shop_row": 220001110,
+   "gold": 0,
+   "materials": [
+    {
+     "item": "VIPアクセサリーバウチャー",
+     "qty": 1
+    }
+   ],
+   "where": "【VIPガイド】ビップ「VIPアクセサリー商店」",
+   "result_qty": 1
+  },
+  "client-shop-220001112": {
+   "shop_row": 220001112,
+   "gold": 0,
+   "materials": [
+    {
+     "item": "VIPアクセサリーバウチャー",
+     "qty": 1
+    }
+   ],
+   "where": "【VIPガイド】ビップ「VIPアクセサリー商店」",
+   "result_qty": 1
+  },
+  "client-shop-220001140": {
+   "shop_row": 220001140,
+   "gold": 0,
+   "materials": [
+    {
+     "item": "VIPアクセサリーバウチャー",
+     "qty": 1
+    }
+   ],
+   "where": "【VIPガイド】ビップ「VIPアクセサリー商店」",
+   "result_qty": 1
+  },
+  "client-shop-220001142": {
+   "shop_row": 220001142,
+   "gold": 0,
+   "materials": [
+    {
+     "item": "VIPアクセサリーバウチャー",
+     "qty": 1
+    }
+   ],
+   "where": "【VIPガイド】ビップ「VIPアクセサリー商店」",
+   "result_qty": 1
+  },
+  "client-shop-70401124": {
+   "shop_row": 70401124,
+   "gold": 0,
+   "materials": [
+    {
+     "item": "ホワイトコア",
+     "qty": 300
+    }
+   ],
+   "where": "【商人】パニア・【商人】ファルバナ「ホワイトコア商店」",
    "result_qty": 1
   },
   "n1139-amp-unknown-earring": {
@@ -178075,24 +179250,6 @@
    "grade": "エピック",
    "description": "[イベントアイテム] シーズン17バトルすごろくを進行して獲得できる特殊なコイン。 【語り部】ケーシーの所で特別なアイテムを購入できる。"
   },
-  "ギルド名誉コイン": {
-   "client_id": 536885266,
-   "kind": "material",
-   "grade": "ユニーク",
-   "description": "百花宴武場で高い成績を収めたギルドにのみ与えられる名誉あるコイン。専用商店を利用できる。"
-  },
-  "白銀蓮の刺繍": {
-   "client_id": 268483863,
-   "kind": "material",
-   "grade": "ユニーク",
-   "description": "[交換材料] 美しい蓮の花が刺繍された工芸品。白銀の糸の縁取りが繊細な魅力を引き立てる。 [使用場所] [紅蓮宮-朱雀大路-]→[【宮女】ユエ]→[金蓮宝商店]"
-  },
-  "黄金蓮の刺繍": {
-   "client_id": 268483864,
-   "kind": "material",
-   "grade": "レジェンド",
-   "description": "[交換材料] 美しい蓮の花が刺繍された工芸品。黄金の糸の縁取りが高級感を引き立てる。 [使用場所] [紅蓮宮-朱雀大路-]→[【宮女】ユエ]→[金蓮宝商店] アカウント倉庫に保管可。金蓮宝商店で金蓮宝を購入するのに使用する。"
-  },
   "武陵仙境観光記念印章": {
    "client_id": 805315702,
    "kind": "material",
@@ -178104,12 +179261,6 @@
    "kind": "material",
    "grade": "レア",
    "description": "[DNC専用メダル] DNC商店のアイテムを購入できるメダル。"
-  },
-  "色あせた白い羽": {
-   "client_id": 1073914928,
-   "kind": "material",
-   "grade": "ユニーク",
-   "description": "色あせた白い羽 [交換場所] 位置：セントヘイブン/紅蓮宮-朱雀大路- 交換場所：【万物商店ガイド】チェルニー [ブローチ商店]で交換"
   },
   "エヴォハンマー：ヘイズフロストドラゴン(1段階)(取引可能)": {
    "client_id": 268503594,
@@ -178183,18 +179334,30 @@
    "grade": "ユニーク",
    "description": "[竜珠進化] 崩壊した次元の力を宿した宝玉 崩壊の竜珠に使用すれば、その力をさらに進化させることができそうだ。 [使用場所] 崩壊の竜珠"
   },
-  "金竜の鋭利な宝石": {
-   "client_id": 268512778,
-   "kind": "material",
-   "grade": "ユニーク",
-   "description": "[金竜武器進化] 金竜の鋭い力を秘めた宝石 [真][増幅]古竜武器に使用すると強い力を引き出せそうだ。 [使用場所] +15以上の[真][増幅]古竜武器"
-  },
   "古竜の防具進化石": {
    "client_id": 536888386,
    "kind": "material",
    "grade": "レジェンド",
    "description": "[説明] [Ⅱ]古代の防具に使用時、古竜の古代防具へ進化する。 進化時は封印不可状態が維持される。"
   }
+ },
+ "members": {
+  "上級月食のかけら": [
+   "上級神聖な月食のかけら",
+   "上級清い月食のかけら",
+   "上級燃える月食のかけら",
+   "上級漆黒の月食のかけら",
+   "上級純風の月食のかけら",
+   "上級堅固な月食のかけら"
+  ],
+  "月食のかけら": [
+   "神聖な月食のかけら",
+   "清い月食のかけら",
+   "燃える月食のかけら",
+   "漆黒の月食のかけら",
+   "純風の月食のかけら",
+   "堅固な月食のかけら"
+  ]
  },
  "sets": {
   "864027632": {

@@ -83,6 +83,7 @@ async function main() {
   }
   const setIds = new Set(ds.sets.map((x) => x.id));
   for (const it of [...ds.items, ...ds.materials]) if (it.set && !setIds.has(it.set)) errors.push(`item ${it.id}: 未定義のセット "${it.set}"`);
+  for (const it of [...ds.items, ...ds.materials]) it.members?.forEach((m) => needItem(`item ${it.id} members`, m));
   for (const d of ds.drops) {
     if (d.location_kind === "dungeon" && !dungeonIds.has(d.location)) errors.push(`drop ${d.id}: 未定義のダンジョン "${d.location}"`);
     if (d.location_kind === "box") needItem(`drop ${d.id} location`, d.location);

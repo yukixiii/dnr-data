@@ -63,6 +63,7 @@ export interface Item {
   description?: string;
   stats?: StatSet[];
   obtain?: string[]; // 入手方法の要約 (ドロップは drops.json から逆引きされるので重複不要)
+  members?: string[]; // 総称のアイテム (「月食のかけら」など) に含まれるアイテムの id
   refs: Ref[];
 }
 

@@ -1,6 +1,7 @@
 // 装備/素材の詳細: ステータス・作成ルート・強化表・入手先・使用先・出典
 // 段階違いの同一装備 (data/item_groups.json) は1ページにまとめ、段階を切り替えて見る。
 import {
+  aggregatesOf,
   dropsByItem,
   dropsByLocation,
   isIntra,
@@ -28,7 +29,7 @@ import { RECIPE_LABEL, recipeHeader, routeSection, stageTable } from "../compone
 import type { Transition } from "../route.ts";
 import { cmpKey, compareFloors, parseFloors } from "../floors.ts";
 import type { Item, ItemGroup, ItemSet, Ref, Stat, StatSet } from "../types.ts";
-import { empty, esc, href, itemLink, itemMeta, locationLink, rateCell, refInline, refList, regionBadges, statGrid, statSets } from "../components/ui.ts";
+import { empty, esc, href, itemLink, itemMeta, locationLink, rateCell, refInline, refList, regionBadges, statCell, statGrid, statSets } from "../components/ui.ts";
 import { dropTableHtml } from "./drops.ts";
 
 // 説明文に推定・仮名称である旨が書かれているアイテム
@@ -154,15 +155,63 @@ function statsSection(ids: string[], focus: string, group?: ItemGroup) {
   );
 }
 
-/** セット効果: 必要数ごとの効果と、同じセットの装備 (グループは 1 件にまとめる) */
+/** 能力値の表記 ("500,000" / "10.00%") → 数値と書式。読めなければ undefined */
+function parseStatValue(v: string) {
+  const m = v.replace(/,/g, "").match(/^\+?(\d+(?:\.(\d+))?)(%?)$/);
+  return m ? { n: Number(m[1]), dec: m[2]?.length ?? 0, pct: m[3] === "%" } : undefined;
+}
+
+/** 同じ能力の値の合計 (書式は最初の値に合わせる)。読めない値があれば undefined */
+function sumStatValues(vs: string[]) {
+  const ps = vs.map(parseStatValue);
+  if (!ps.length || ps.some((p) => !p || p.pct !== ps[0]!.pct)) return undefined;
+  const dec = Math.max(...ps.map((p) => p!.dec));
+  const n = ps.reduce((a, p) => a + p!.n, 0);
+  const body = dec ? n.toFixed(dec).replace(/^(\d+)/, (d) => Number(d).toLocaleString("en-US")) : Math.round(n).toLocaleString("en-US");
+  return body + (ps[0]!.pct ? "%" : "");
+}
+
+/**
+ * セット効果: 必要数ごとの効果 (能力名ごとの列) と、その必要数までの累計。スキル型の効果は行の下に出す。
+ * 同じセットの装備 (グループは 1 件にまとめる) も並べる。
+ */
 function setSection(set: ItemSet, focus: string) {
   const members = setMembers.get(set.id) ?? [];
   const units = [...new Set(members.map((id) => groupOf(id)?.id ?? id))];
-  const bonus = set.bonuses
-    .map((b) => `<tr><th>${b.count}セット</th><td>${[...(b.stats ?? []).map((s) => `${esc(s.name)} ${esc(s.value)}`), ...(b.skill ? [esc(b.skill)] : [])].join("、")}</td></tr>`)
+  const bonuses = [...set.bonuses].sort((a, b) => a.count - b.count);
+  const cols = [...new Set(bonuses.flatMap((b) => (b.stats ?? []).map((st) => st.name)))];
+  const cumulative = cols.length > 0 && bonuses.length > 1;
+  const span = cols.length * (cumulative ? 2 : 1) || 1;
+  const head = !cols.length
+    ? `<tr><th>必要数</th><th>効果</th></tr>`
+    : cumulative
+      ? `<tr><th rowspan="2">必要数</th><th colspan="${cols.length}" class="group">段階の効果</th><th colspan="${cols.length}" class="group cum-start">累計</th></tr>
+        <tr>${cols.map((c) => `<th>${esc(c)}</th>`).join("")}${cols.map((c, j) => `<th class="cum${j ? "" : " cum-start"}">${esc(c)}</th>`).join("")}</tr>`
+      : `<tr><th>必要数</th>${cols.map((c) => `<th>${esc(c)}</th>`).join("")}</tr>`;
+  const body = bonuses
+    .map((b, i) => {
+      const label = `${b.count}セット`;
+      if (!cols.length) return `<tr><th>${label}</th><td class="skill">${esc(b.skill ?? "")}</td></tr>`;
+      const own = cols.map((c) => statCell((b.stats ?? []).find((st) => st.name === c))).join("");
+      const cum = !cumulative
+        ? ""
+        : cols
+            .map((c, j) => {
+              const cls = `num cum${j ? "" : " cum-start"}`;
+              const vs = bonuses.slice(0, i + 1).flatMap((x) => (x.stats ?? []).filter((st) => st.name === c).map((st) => st.value));
+              const v = vs.length ? (vs.length === 1 ? vs[0] : sumStatValues(vs)) : undefined;
+              return v === undefined ? `<td class="${cls} empty">—</td>` : `<td class="${cls}">${esc(v)}</td>`;
+            })
+            .join("");
+      const skill = b.skill ? `<tr class="set-skill"><td colspan="${span}">${esc(b.skill)}</td></tr>` : "";
+      return `<tr><th${b.skill ? ` rowspan="2"` : ""}>${label}</th>${own}${cum}</tr>${skill}`;
+    })
     .join("");
-  return `<p><strong>${esc(set.name)}</strong>${set.description ? ` <span class="muted">${esc(set.description)}</span>` : ""}</p>
-    <table class="stats"><tbody>${bonus}</tbody></table>
+  // 「◯◯間でセット効果がある。」だけの説明は名前の繰り返しなので出さない
+  const desc = set.description && set.description !== `${set.name}間でセット効果がある。` ? set.description : "";
+  return `<p><strong>${esc(set.name)}</strong>${desc ? ` <span class="muted">${esc(desc)}</span>` : ""}</p>
+    <div class="table-wrap"><table class="data set-bonus"><thead>${head}</thead><tbody>${body}</tbody></table></div>
+    ${cumulative ? `<p class="muted">各段階の効果は重ねて適用される。累計はその必要数までの各段階の合計。</p>` : ""}
     <p class="muted">対象: ${units.map((u) => (u === (groupOf(focus)?.id ?? focus) ? `<strong>${esc(u)}</strong>` : `<a href="${href("item", u)}">${esc(u)}</a>`)).join("、")}</p>`;
 }
 
@@ -199,7 +248,7 @@ function floorSpanLabel(fl: string[]) {
 function mergeDrops(drops: DropHit[]) {
   const by = new Map<string, DropHit[]>();
   for (const d of drops) {
-    const k = JSON.stringify([d.table.id, d.entry.from ?? "", d.entry.item, d.entry.via ?? ""]);
+    const k = JSON.stringify([d.table.id, d.entry.from ?? "", d.entry.item, d.entry.via ?? "", d.entry.as ?? ""]);
     by.set(k, [...(by.get(k) ?? []), d]);
   }
   const range = (vs: string[]) => {
@@ -242,7 +291,9 @@ export function renderItemDetail(id: string) {
   const tables = newestFirst(uniq(ids.flatMap((x) => tablesByItem.get(x) ?? [])));
   const tablesUsing = uniq(ids.flatMap((x) => tablesByMaterial.get(x) ?? []));
   const drops = ids.flatMap((x) => dropsByItem.get(x) ?? []).sort((a, b) => sortDate(b.table.refs).localeCompare(sortDate(a.table.refs)));
-  const contents = !group && item.kind === "box" ? (dropsByLocation.get(focus) ?? []) : [];
+  // 箱の中身の表が複数 (提供割合の改定) なら新しい表を先に
+  const contents = !group && item.kind === "box" ? newestFirst(dropsByLocation.get(focus) ?? []) : [];
+  const aggregates = aggregatesOf.get(focus) ?? [];
   const selfOps = ids.flatMap((x) => selfRecipes.get(x) ?? []);
   const obtains = ids.flatMap((x) => (itemById.get(x)!.obtain ?? []).map((o) => ({ id: x, text: o })));
 
@@ -254,6 +305,15 @@ export function renderItemDetail(id: string) {
 
   const set = item.set ? setById.get(item.set) : undefined;
   if (set) sections.push(`<section><h2>セット効果</h2>${setSection(set, focus)}</section>`);
+
+  if (item.members?.length || aggregates.length) {
+    const link = (x: string) => `<a href="${href("item", x)}">${esc(itemById.get(x)?.name ?? x)}</a>`;
+    sections.push(`<section><h2>総称</h2>${
+      item.members?.length ? `<p>次の${item.members.length}種のアイテムをまとめた名前です: ${item.members.map(link).join("、")}</p>` : ""
+    }${
+      aggregates.length ? `<p>${aggregates.map(link).join("、")} (総称) の1つです。ドロップ表で総称の名前で載っている入手先も、下の入手先に含めています。</p>` : ""
+    }</section>`);
+  }
 
   const route = routeSection(focus);
   if (route) {
@@ -299,6 +359,8 @@ export function renderItemDetail(id: string) {
             ({ table, entry, floors, rate, qty }) => `<tr>${group ? `<td>${tag(entry.item)}</td>` : ""}
               <td>${locationLink(table.location, table.location_kind)}${
                 entry.via ? ` <a class="via muted" href="${href("item", entry.via)}" title="この袋から出る">(${esc(itemById.get(entry.via)?.name ?? entry.via)})</a>` : ""
+              }${
+                entry.as ? ` <a class="via muted" href="${href("item", entry.as)}" title="表では総称で記載">(${esc(itemById.get(entry.as)?.name ?? entry.as)}として)</a>` : ""
               }</td>
               <td>${esc(table.label ?? "")}</td>
               <td>${esc(entry.from ?? "")}</td>

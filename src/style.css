@@ -740,6 +740,32 @@ td.num.empty {
   color: var(--muted);
   white-space: normal;
 }
+/* セット効果: 必要数 × 能力 (段階の効果 | 累計) */
+table.data.set-bonus {
+  width: auto;
+}
+.table-wrap:has(> table.set-bonus) {
+  width: fit-content;
+  max-width: 100%;
+}
+table.data.set-bonus thead th {
+  position: static;
+}
+table.data.set-bonus thead th.group {
+  text-align: center;
+}
+table.data.set-bonus .cum-start {
+  border-left: 2px solid var(--border);
+}
+table.data.set-bonus tr:has(+ .set-skill) > td {
+  border-bottom: 0;
+}
+table.data.set-bonus .set-skill td,
+table.data.set-bonus td.skill {
+  font-size: 0.82rem;
+  white-space: normal;
+  min-width: 16em;
+}
 table.data caption {
   caption-side: top;
   text-align: left;

@@ -1326,7 +1326,7 @@
   {
     "id": "n1162-ark-past-shop-1",
     "type": "exchange",
-    "result": "レジェンド等級月食の竜珠選択袋",
+    "result": "月食の竜珠レジェンド選択袋",
     "result_qty": 1,
     "materials": [
       {
@@ -1345,7 +1345,7 @@
   {
     "id": "n1162-ark-past-shop-2",
     "type": "exchange",
-    "result": "ユニーク等級月食の竜珠選択袋",
+    "result": "月食の竜珠ユニーク選択袋",
     "result_qty": 1,
     "materials": [
       {
@@ -1904,11 +1904,11 @@
   {
     "id": "n1193-saviour-shop-01",
     "type": "exchange",
-    "result": "正体不明のカラエンのセイヴィア紋章",
+    "result": "[謎]カーライエンのセイヴィア紋章",
     "result_qty": 1,
     "materials": [
       {
-        "item": "救いの証",
+        "item": "救援の証",
         "qty": 60
       }
     ],
@@ -1916,6 +1916,10 @@
     "refs": [
       {
         "source": "jp-notice-1193"
+      },
+      {
+        "source": "jp-client-20261001",
+        "note": "交換の費用"
       }
     ],
     "notes": "2025年2月アップデートでラインナップ変更予定"
@@ -1923,11 +1927,11 @@
   {
     "id": "n1193-saviour-shop-02",
     "type": "exchange",
-    "result": "正体不明のカシウスのセイヴィアの紋章",
+    "result": "[謎]カシウスのセイヴィア紋章",
     "result_qty": 1,
     "materials": [
       {
-        "item": "救いの証",
+        "item": "救援の証",
         "qty": 60
       }
     ],
@@ -1935,6 +1939,10 @@
     "refs": [
       {
         "source": "jp-notice-1193"
+      },
+      {
+        "source": "jp-client-20261001",
+        "note": "交換の費用"
       }
     ],
     "notes": "2025年2月アップデートでラインナップ変更予定"
@@ -1942,11 +1950,11 @@
   {
     "id": "n1193-saviour-shop-03",
     "type": "exchange",
-    "result": "未確認テラマイのセイヴィアの紋章",
+    "result": "[謎]テラマイのセイヴィア紋章",
     "result_qty": 1,
     "materials": [
       {
-        "item": "救いの証",
+        "item": "救援の証",
         "qty": 60
       }
     ],
@@ -1954,6 +1962,10 @@
     "refs": [
       {
         "source": "jp-notice-1193"
+      },
+      {
+        "source": "jp-client-20261001",
+        "note": "交換の費用"
       }
     ],
     "notes": "2025年2月アップデートでラインナップ変更予定"
@@ -1961,11 +1973,11 @@
   {
     "id": "n1193-saviour-shop-04",
     "type": "exchange",
-    "result": "未確認ダグラスのセイヴィアの紋章",
+    "result": "[謎]ダグラスのセイヴィア紋章",
     "result_qty": 1,
     "materials": [
       {
-        "item": "救いの証",
+        "item": "救援の証",
         "qty": 60
       }
     ],
@@ -1973,6 +1985,10 @@
     "refs": [
       {
         "source": "jp-notice-1193"
+      },
+      {
+        "source": "jp-client-20261001",
+        "note": "交換の費用"
       }
     ],
     "notes": "2025年2月アップデートでラインナップ変更予定"
@@ -2915,7 +2931,7 @@
   {
     "id": "n1217-goddess-shop-6",
     "type": "exchange",
-    "result": "アイテム保護魔法ゼリー(10000個)袋",
+    "result": "アイテム保護魔法ゼリー袋(10,000個)",
     "result_qty": 1,
     "where": "オーマイ女神様！商店 (セントヘイブン 【VIPガイド】ビップ)",
     "notes": "購入制限: 週1回",
@@ -3411,7 +3427,7 @@
   {
     "id": "n1231-master-shop-1",
     "type": "exchange",
-    "result": "古代人の防具[Ⅰ]強化ハンマー(+0～+5)",
+    "result": "古代人の防具[Ⅰ]強化ハンマー(+0～+4)",
     "result_qty": 1,
     "where": "師弟ポイント商店",
     "notes": "購入制限: 週25回/アカウント",
@@ -3468,7 +3484,7 @@
   {
     "id": "n1231-master-shop-2",
     "type": "exchange",
-    "result": "古代人の防具[Ⅰ]強化ハンマー(+6～+10)",
+    "result": "古代人の防具[Ⅰ]強化ハンマー(+5～+9)",
     "result_qty": 1,
     "where": "師弟ポイント商店",
     "notes": "購入制限: 週25回/アカウント",
@@ -3487,7 +3503,7 @@
   {
     "id": "n1231-master-shop-3",
     "type": "exchange",
-    "result": "古代人の防具[Ⅰ]強化ハンマー(+11～+15)",
+    "result": "古代人の防具[Ⅰ]強化ハンマー(+10～+14)",
     "result_qty": 1,
     "where": "師弟ポイント商店",
     "notes": "購入制限: 週25回/アカウント",
@@ -3506,7 +3522,7 @@
   {
     "id": "n1231-master-shop-4",
     "type": "exchange",
-    "result": "古代人の防具[Ⅰ]強化ハンマー(+16～+20)",
+    "result": "古代人の防具[Ⅰ]強化ハンマー(+15～+19)",
     "result_qty": 1,
     "where": "師弟ポイント商店",
     "notes": "購入制限: 週25回/アカウント",
@@ -4953,7 +4969,7 @@
   {
     "id": "n1265-ark-future-shop-7",
     "type": "exchange",
-    "result": "超越の箱舟カードキー",
+    "result": "超越の箱舟箱カードキー",
     "result_qty": 2,
     "materials": [
       {
@@ -4965,6 +4981,10 @@
     "refs": [
       {
         "source": "jp-notice-1265"
+      },
+      {
+        "source": "jp-client-20261001",
+        "note": "交換の費用"
       }
     ],
     "notes": "購入制限: キャラクター当り90日"
@@ -7948,7 +7968,7 @@
   {
     "id": "n1311-ark-past-shop-2-5-10",
     "type": "exchange",
-    "result": "超越の箱舟カードキー",
+    "result": "超越の箱舟箱カードキー",
     "result_qty": 2,
     "where": "箱舟[過去]商店 (ミラローレル 【エルフ警備兵】ロベリア)",
     "notes": "購入制限: キャラクター当り90日",
@@ -7961,6 +7981,10 @@
     "refs": [
       {
         "source": "jp-notice-1311"
+      },
+      {
+        "source": "jp-client-20261001",
+        "note": "交換の費用"
       }
     ]
   },
@@ -8013,7 +8037,7 @@
     "notes": "ベースは+20が条件。宝玉の個数は原文で明記なし。",
     "materials": [
       {
-        "item": "崩壊の宝玉(ユニーク)",
+        "item": "崩壊の宝玉",
         "qty": "不明"
       }
     ],
@@ -8026,7 +8050,7 @@
   {
     "id": "n1311-collapse-orb",
     "type": "craft",
-    "result": "崩壊の宝玉(ユニーク)",
+    "result": "崩壊の宝玉",
     "gold": 10000,
     "where": "鍛冶屋",
     "notes": "2025/9/25 12:45 更新で追記された内容。",
@@ -8047,6 +8071,10 @@
     "refs": [
       {
         "source": "jp-notice-1311"
+      },
+      {
+        "source": "jp-client-20261001",
+        "note": "ゴールド・成功率・個数"
       }
     ],
     "rate": 100
@@ -8770,7 +8798,7 @@
   {
     "id": "n1311-nm-key",
     "type": "exchange",
-    "result": "混沌の中の秩序の鍵",
+    "result": "混沌の理の鍵",
     "where": "次元商店",
     "notes": "キャラクター毎週1個、次元レベル100以上。",
     "materials": [
@@ -9374,7 +9402,7 @@
   {
     "id": "n1362-arkshop-cardkey",
     "type": "exchange",
-    "result": "超越の箱舟カードキー",
+    "result": "超越の箱舟箱カードキー",
     "result_qty": 2,
     "materials": [
       {
@@ -9387,6 +9415,10 @@
     "refs": [
       {
         "source": "jp-notice-1362"
+      },
+      {
+        "source": "jp-client-20261001",
+        "note": "交換の費用"
       }
     ]
   },
@@ -10232,7 +10264,7 @@
   {
     "id": "n1376-dokubu-shop-08",
     "type": "exchange",
-    "result": "[パッシブ] 友の応援(攻撃力) +10万",
+    "result": "[パッシブ]友達の応援(攻撃力)+10万",
     "result_qty": 1,
     "materials": [
       {
@@ -10289,7 +10321,7 @@
   {
     "id": "n1376-dokubu-shop-11",
     "type": "exchange",
-    "result": "崩壊した武器刻印袋(14日)",
+    "result": "崩壊した武器刻印袋",
     "result_qty": 10,
     "materials": [
       {
@@ -10555,7 +10587,7 @@
   {
     "id": "n1376-dokubu-shop-25",
     "type": "exchange",
-    "result": "[パッシブ] 友の応援(攻撃力) +50万",
+    "result": "[パッシブ]友達の応援(攻撃力)+50万",
     "result_qty": 1,
     "materials": [
       {
@@ -10574,7 +10606,7 @@
   {
     "id": "n1376-dokubu-shop-26",
     "type": "exchange",
-    "result": "洛陽のルーン強化ハンマー(+6～+14)",
+    "result": "[20%確率]洛陽のルーン強化ハンマー(+6～+14)",
     "result_qty": 3,
     "materials": [
       {
@@ -10593,7 +10625,7 @@
   {
     "id": "n1376-dokubu-shop-27",
     "type": "exchange",
-    "result": "ホワイトコアボール(取引不可)(14日)",
+    "result": "ホワイトコアボール(取引不可)",
     "result_qty": 20,
     "materials": [
       {
@@ -10654,7 +10686,7 @@
     "type": "other",
     "result": "精製された遺跡の破片",
     "result_qty": 20,
-    "base": "古代の遺跡の破片凝縮器",
+    "base": "古代遺跡の破片凝縮器",
     "materials": [
       {
         "item": "遺跡の破片",
@@ -11561,7 +11593,7 @@
   {
     "id": "n1411-ark-future-shop-8",
     "type": "exchange",
-    "result": "超越の箱舟カードキー",
+    "result": "超越の箱舟箱カードキー",
     "result_qty": 2,
     "materials": [
       {
@@ -11573,6 +11605,10 @@
     "refs": [
       {
         "source": "jp-notice-1411"
+      },
+      {
+        "source": "jp-client-20261001",
+        "note": "交換の費用"
       }
     ],
     "notes": "購入制限: キャラクターあたり90日"
@@ -11877,7 +11913,7 @@
   {
     "id": "n1411-gd-sharp-gem-craft",
     "type": "craft",
-    "result": "金竜の鋭利宝石",
+    "result": "金竜の鋭利な宝石",
     "materials": [
       {
         "item": "金竜の鱗粉",
@@ -11908,7 +11944,7 @@
     "base": "祝福された[増幅]古竜のメインウェポン",
     "materials": [
       {
-        "item": "金竜の鋭利宝石",
+        "item": "金竜の鋭利な宝石",
         "qty": "不明"
       }
     ],
@@ -11930,7 +11966,7 @@
     "base": "祝福された[増幅]古竜のサブウェポン",
     "materials": [
       {
-        "item": "金竜の鋭利宝石",
+        "item": "金竜の鋭利な宝石",
         "qty": "不明"
       }
     ],
@@ -12100,7 +12136,7 @@
   {
     "id": "n1426-dokubu-shop-09",
     "type": "exchange",
-    "result": "[パッシブ]友の応援(攻撃力) +10万",
+    "result": "[パッシブ]友達の応援(攻撃力)+10万",
     "result_qty": 1,
     "materials": [
       {
@@ -12176,7 +12212,7 @@
   {
     "id": "n1426-dokubu-shop-13",
     "type": "exchange",
-    "result": "崩壊した武器刻印袋(14日)",
+    "result": "崩壊した武器刻印袋",
     "result_qty": 10,
     "materials": [
       {
@@ -12385,7 +12421,7 @@
   {
     "id": "n1426-dokubu-shop-24",
     "type": "exchange",
-    "result": "[パッシブ]友の応援(攻撃力) +100万",
+    "result": "[パッシブ]友達の応援(攻撃力)+100万",
     "result_qty": 1,
     "materials": [
       {
@@ -12423,7 +12459,7 @@
   {
     "id": "n1426-dokubu-shop-26",
     "type": "exchange",
-    "result": "[パッシブ]友の応援(攻撃力) +50万",
+    "result": "[パッシブ]友達の応援(攻撃力)+50万",
     "result_qty": 1,
     "materials": [
       {
@@ -12442,7 +12478,7 @@
   {
     "id": "n1426-dokubu-shop-27",
     "type": "exchange",
-    "result": "洛陽のルーン強化ハンマー(+6～+14)",
+    "result": "[20%確率]洛陽のルーン強化ハンマー(+6～+14)",
     "result_qty": 3,
     "materials": [
       {
@@ -12461,7 +12497,7 @@
   {
     "id": "n1426-dokubu-shop-28",
     "type": "exchange",
-    "result": "ホワイトコアボール(取引不可)(14日)",
+    "result": "ホワイトコアボール(取引不可)",
     "result_qty": 20,
     "materials": [
       {
@@ -13404,7 +13440,7 @@
   {
     "id": "n1455-request-shop-2",
     "type": "exchange",
-    "result": "パキハの機械部品(取引不可)",
+    "result": "パキハの機械部品(トレード不可)",
     "result_qty": 1,
     "materials": [
       {
@@ -13417,6 +13453,10 @@
     "refs": [
       {
         "source": "jp-notice-1455"
+      },
+      {
+        "source": "jp-client-20261001",
+        "note": "交換の費用"
       }
     ]
   },
@@ -13679,7 +13719,7 @@
   {
     "id": "n1466-ark-shop-08",
     "type": "exchange",
-    "result": "超越の箱舟カードキー",
+    "result": "超越の箱舟箱カードキー",
     "result_qty": 2,
     "materials": [
       {
@@ -13691,6 +13731,10 @@
     "refs": [
       {
         "source": "jp-notice-1466"
+      },
+      {
+        "source": "jp-client-20261001",
+        "note": "交換の費用"
       }
     ],
     "notes": "購入制限: キャラクターあたり90日"
@@ -14020,7 +14064,7 @@
   {
     "id": "n1466-dokubu-shop-15",
     "type": "exchange",
-    "result": "崩壊した武器刻印袋(14日)",
+    "result": "崩壊した武器刻印袋",
     "result_qty": 10,
     "materials": [
       {
@@ -14033,6 +14077,10 @@
     "refs": [
       {
         "source": "jp-notice-1466"
+      },
+      {
+        "source": "jp-client-20261001",
+        "note": "交換の費用"
       }
     ]
   },
@@ -14292,7 +14340,7 @@
   {
     "id": "n1466-dokubu-shop-29",
     "type": "exchange",
-    "result": "洛陽のルーン強化ハンマー(+6～+14)",
+    "result": "[20%確率]洛陽のルーン強化ハンマー(+6～+14)",
     "result_qty": 3,
     "materials": [
       {
@@ -14305,13 +14353,17 @@
     "refs": [
       {
         "source": "jp-notice-1466"
+      },
+      {
+        "source": "jp-client-20261001",
+        "note": "交換の費用"
       }
     ]
   },
   {
     "id": "n1466-dokubu-shop-30",
     "type": "exchange",
-    "result": "ホワイトコアボール(取引不可)(14日)",
+    "result": "ホワイトコアボール(取引不可)",
     "result_qty": 20,
     "materials": [
       {
@@ -14324,6 +14376,10 @@
     "refs": [
       {
         "source": "jp-notice-1466"
+      },
+      {
+        "source": "jp-client-20261001",
+        "note": "交換の費用"
       }
     ]
   },
@@ -14560,7 +14616,7 @@
   {
     "id": "n1466-ibel-shop-4",
     "type": "exchange",
-    "result": "英雄の月食の竜珠 +1強化ハンマー(+0～+14)(取引不可)",
+    "result": "英雄の月食の竜珠+1強化ハンマー(+0～+14)(取引不可)",
     "result_qty": 1,
     "materials": [
       {
@@ -18623,7 +18679,7 @@
     "result": "未知の古代イヤリング",
     "materials": [
       {
-        "item": "未知の古代ｱｸｾｻﾘｰの 破片",
+        "item": "未知の古代アクセサリーの破片",
         "qty": 10
       },
       {
@@ -18647,7 +18703,7 @@
     "result": "未知の古代ネックレス",
     "materials": [
       {
-        "item": "未知の古代ｱｸｾｻﾘｰの 破片",
+        "item": "未知の古代アクセサリーの破片",
         "qty": 10
       },
       {
@@ -18671,7 +18727,7 @@
     "result": "未知の古代リング",
     "materials": [
       {
-        "item": "未知の古代ｱｸｾｻﾘｰの 破片",
+        "item": "未知の古代アクセサリーの破片",
         "qty": 10
       },
       {
@@ -19355,5 +19411,1691 @@
       }
     ],
     "notes": "クライアントの製作表。"
+  },
+  {
+    "id": "client-shop-97001115",
+    "type": "exchange",
+    "result": "金蓮宝",
+    "materials": [
+      {
+        "item": "ギルド名声コイン",
+        "qty": 10
+      }
+    ],
+    "where": "【ギルド補給兵】ジン「雑貨」、【ギルドアジト商店】ガブリエラ「雑貨」",
+    "result_qty": 10,
+    "refs": [
+      {
+        "source": "jp-client-20261001",
+        "note": "交換の費用"
+      }
+    ],
+    "notes": "クライアントのショップ表の交換。"
+  },
+  {
+    "id": "client-shop-970000100",
+    "type": "exchange",
+    "result": "金蓮宝",
+    "materials": [
+      {
+        "item": "白銀蓮の刺繍",
+        "qty": 10
+      }
+    ],
+    "where": "【宮女】ユエ「雑貨」",
+    "result_qty": 1,
+    "refs": [
+      {
+        "source": "jp-client-20261001",
+        "note": "交換の費用"
+      }
+    ],
+    "notes": "クライアントのショップ表の交換。"
+  },
+  {
+    "id": "client-shop-970000101",
+    "type": "exchange",
+    "result": "金蓮宝",
+    "materials": [
+      {
+        "item": "黄金蓮の刺繍",
+        "qty": 1
+      }
+    ],
+    "where": "【宮女】ユエ「雑貨」",
+    "result_qty": 1,
+    "refs": [
+      {
+        "source": "jp-client-20261001",
+        "note": "交換の費用"
+      }
+    ],
+    "notes": "クライアントのショップ表の交換。"
+  },
+  {
+    "id": "client-shop-210001101",
+    "type": "exchange",
+    "result": "ラズライト",
+    "gold": 400,
+    "materials": [],
+    "where": "【雑貨商人】エイプリル「雑貨」",
+    "result_qty": 1,
+    "refs": [
+      {
+        "source": "jp-client-20261001",
+        "note": "交換の費用"
+      }
+    ],
+    "notes": "クライアントのショップ表の交換。"
+  },
+  {
+    "id": "client-shop-210001102",
+    "type": "exchange",
+    "result": "ラズライト",
+    "materials": [
+      {
+        "item": "猫目石",
+        "qty": 1
+      }
+    ],
+    "where": "【雑貨商人】エイプリル「雑貨」",
+    "result_qty": 1,
+    "refs": [
+      {
+        "source": "jp-client-20261001",
+        "note": "交換の費用"
+      }
+    ],
+    "notes": "クライアントのショップ表の交換。"
+  },
+  {
+    "id": "client-shop-97001112",
+    "type": "exchange",
+    "result": "ラズライト",
+    "materials": [
+      {
+        "item": "ギルド名声コイン",
+        "qty": 5
+      }
+    ],
+    "where": "【ギルド補給兵】ジン「雑貨」、【ギルドアジト商店】ガブリエラ「雑貨」",
+    "result_qty": 1,
+    "refs": [
+      {
+        "source": "jp-client-20261001",
+        "note": "交換の費用"
+      }
+    ],
+    "notes": "クライアントのショップ表の交換。"
+  },
+  {
+    "id": "client-shop-250001100",
+    "type": "exchange",
+    "result": "超越の箱舟箱カードキー",
+    "materials": [
+      {
+        "item": "上級生命の清水",
+        "qty": 100
+      }
+    ],
+    "where": "【エルフ警備兵】ロベリア「入場券」",
+    "result_qty": 1,
+    "refs": [
+      {
+        "source": "jp-client-20261001",
+        "note": "交換の費用"
+      }
+    ],
+    "notes": "クライアントのショップ表の交換。"
+  },
+  {
+    "id": "client-shop-260001100",
+    "type": "exchange",
+    "result": "古代の竜珠の破片",
+    "gold": 10000,
+    "materials": [
+      {
+        "item": "古代の壊れた竜珠の破片",
+        "qty": 60
+      }
+    ],
+    "where": "【商人】セレナ「ウォーリアー&アーチャー」、【商人】セレナ「ソーサレス&クレリック」、【商人】セレナ「アカデミック&カーリー」 ほか",
+    "result_qty": 1,
+    "refs": [
+      {
+        "source": "jp-client-20261001",
+        "note": "交換の費用"
+      }
+    ],
+    "notes": "クライアントのショップ表の交換。"
+  },
+  {
+    "id": "client-shop-340001101",
+    "type": "exchange",
+    "result": "猫目石",
+    "gold": 500,
+    "materials": [],
+    "where": "【商人】リサ・【雑貨商人】ケリー「雑貨」",
+    "result_qty": 1,
+    "refs": [
+      {
+        "source": "jp-client-20261001",
+        "note": "交換の費用"
+      }
+    ],
+    "notes": "クライアントのショップ表の交換。"
+  },
+  {
+    "id": "client-shop-97001110",
+    "type": "exchange",
+    "result": "猫目石",
+    "materials": [
+      {
+        "item": "ギルド名声コイン",
+        "qty": 5
+      }
+    ],
+    "where": "【ギルド補給兵】ジン「雑貨」、【ギルドアジト商店】ガブリエラ「雑貨」",
+    "result_qty": 1,
+    "refs": [
+      {
+        "source": "jp-client-20261001",
+        "note": "交換の費用"
+      }
+    ],
+    "notes": "クライアントのショップ表の交換。"
+  },
+  {
+    "id": "client-shop-213001125",
+    "type": "exchange",
+    "result": "上級渇望のかけら",
+    "materials": [
+      {
+        "item": "ランカーコイン",
+        "qty": 2
+      }
+    ],
+    "where": "【マゴブリン】ランカー「ランカー商店」",
+    "result_qty": 40,
+    "refs": [
+      {
+        "source": "jp-client-20261001",
+        "note": "交換の費用"
+      }
+    ],
+    "notes": "クライアントのショップ表の交換。"
+  },
+  {
+    "id": "client-shop-213001117",
+    "type": "exchange",
+    "result": "古代の叡智",
+    "materials": [
+      {
+        "item": "ランカーコイン",
+        "qty": 5
+      }
+    ],
+    "where": "【マゴブリン】ランカー「ランカー商店」",
+    "result_qty": 500,
+    "refs": [
+      {
+        "source": "jp-client-20261001",
+        "note": "交換の費用"
+      }
+    ],
+    "notes": "クライアントのショップ表の交換。"
+  },
+  {
+    "id": "client-shop-213001135",
+    "type": "exchange",
+    "result": "壊れた金糸武器の結晶",
+    "materials": [
+      {
+        "item": "ランカーコイン",
+        "qty": 10
+      }
+    ],
+    "where": "【マゴブリン】ランカー「ランカー商店」",
+    "result_qty": 200,
+    "refs": [
+      {
+        "source": "jp-client-20261001",
+        "note": "交換の費用"
+      }
+    ],
+    "notes": "クライアントのショップ表の交換。"
+  },
+  {
+    "id": "client-shop-213001136",
+    "type": "exchange",
+    "result": "壊れた金糸防具の結晶",
+    "materials": [
+      {
+        "item": "ランカーコイン",
+        "qty": 10
+      }
+    ],
+    "where": "【マゴブリン】ランカー「ランカー商店」",
+    "result_qty": 300,
+    "refs": [
+      {
+        "source": "jp-client-20261001",
+        "note": "交換の費用"
+      }
+    ],
+    "notes": "クライアントのショップ表の交換。"
+  },
+  {
+    "id": "client-shop-213001137",
+    "type": "exchange",
+    "result": "古代人の礎",
+    "materials": [
+      {
+        "item": "ランカーコイン",
+        "qty": 10
+      }
+    ],
+    "where": "【マゴブリン】ランカー「ランカー商店」",
+    "result_qty": 350,
+    "refs": [
+      {
+        "source": "jp-client-20261001",
+        "note": "交換の費用"
+      }
+    ],
+    "notes": "クライアントのショップ表の交換。"
+  },
+  {
+    "id": "client-shop-213001138",
+    "type": "exchange",
+    "result": "砂の息吹の種",
+    "materials": [
+      {
+        "item": "ランカーコイン",
+        "qty": 10
+      }
+    ],
+    "where": "【マゴブリン】ランカー「ランカー商店」",
+    "result_qty": 2000,
+    "refs": [
+      {
+        "source": "jp-client-20261001",
+        "note": "交換の費用"
+      }
+    ],
+    "notes": "クライアントのショップ表の交換。"
+  },
+  {
+    "id": "client-shop-213001140",
+    "type": "exchange",
+    "result": "崩壊の竜珠の破片",
+    "materials": [
+      {
+        "item": "ランカーコイン",
+        "qty": 10
+      }
+    ],
+    "where": "【マゴブリン】ランカー「ランカー商店」",
+    "result_qty": 500,
+    "refs": [
+      {
+        "source": "jp-client-20261001",
+        "note": "交換の費用"
+      }
+    ],
+    "notes": "クライアントのショップ表の交換。"
+  },
+  {
+    "id": "client-shop-213001141",
+    "type": "exchange",
+    "result": "依頼解決証明書",
+    "materials": [
+      {
+        "item": "ランカーコイン",
+        "qty": 10
+      }
+    ],
+    "where": "【マゴブリン】ランカー「ランカー商店」",
+    "result_qty": 30,
+    "refs": [
+      {
+        "source": "jp-client-20261001",
+        "note": "交換の費用"
+      }
+    ],
+    "notes": "クライアントのショップ表の交換。"
+  },
+  {
+    "id": "client-shop-213001105",
+    "type": "exchange",
+    "result": "古竜の力が宿った防具強化ハンマー(+12)",
+    "materials": [
+      {
+        "item": "ランカーコイン",
+        "qty": 10000
+      }
+    ],
+    "where": "【マゴブリン】ランカー「ランカー商店」",
+    "result_qty": 1,
+    "refs": [
+      {
+        "source": "jp-client-20261001",
+        "note": "交換の費用"
+      }
+    ],
+    "notes": "クライアントのショップ表の交換。"
+  },
+  {
+    "id": "client-shop-213001106",
+    "type": "exchange",
+    "result": "古竜の力が宿った武器強化ハンマー(+12)",
+    "materials": [
+      {
+        "item": "ランカーコイン",
+        "qty": 15000
+      }
+    ],
+    "where": "【マゴブリン】ランカー「ランカー商店」",
+    "result_qty": 1,
+    "refs": [
+      {
+        "source": "jp-client-20261001",
+        "note": "交換の費用"
+      }
+    ],
+    "notes": "クライアントのショップ表の交換。"
+  },
+  {
+    "id": "client-shop-213001107",
+    "type": "exchange",
+    "result": "古竜の力が宿った防具強化ハンマー(+14)",
+    "materials": [
+      {
+        "item": "ランカーコイン",
+        "qty": 20000
+      }
+    ],
+    "where": "【マゴブリン】ランカー「ランカー商店」",
+    "result_qty": 1,
+    "refs": [
+      {
+        "source": "jp-client-20261001",
+        "note": "交換の費用"
+      }
+    ],
+    "notes": "クライアントのショップ表の交換。"
+  },
+  {
+    "id": "client-shop-213001108",
+    "type": "exchange",
+    "result": "古竜の力が宿った武器強化ハンマー(+14)",
+    "materials": [
+      {
+        "item": "ランカーコイン",
+        "qty": 30000
+      }
+    ],
+    "where": "【マゴブリン】ランカー「ランカー商店」",
+    "result_qty": 1,
+    "refs": [
+      {
+        "source": "jp-client-20261001",
+        "note": "交換の費用"
+      }
+    ],
+    "notes": "クライアントのショップ表の交換。"
+  },
+  {
+    "id": "client-shop-97001100",
+    "type": "exchange",
+    "result": "アルテイアのたいまつ",
+    "materials": [
+      {
+        "item": "ギルド名声コイン",
+        "qty": 50
+      }
+    ],
+    "where": "【ギルド補給兵】ジン「雑貨」、【ギルドアジト商店】ガブリエラ「雑貨」",
+    "result_qty": 100,
+    "refs": [
+      {
+        "source": "jp-client-20261001",
+        "note": "交換の費用"
+      }
+    ],
+    "notes": "クライアントのショップ表の交換。"
+  },
+  {
+    "id": "client-shop-97001205",
+    "type": "exchange",
+    "result": "ドラゴンベイクドケーキ",
+    "materials": [
+      {
+        "item": "ギルド名声コイン",
+        "qty": 150
+      }
+    ],
+    "where": "【ギルド補給兵】ジン「消耗品」",
+    "result_qty": 1,
+    "refs": [
+      {
+        "source": "jp-client-20261001",
+        "note": "交換の費用"
+      }
+    ],
+    "notes": "クライアントのショップ表の交換。"
+  },
+  {
+    "id": "client-shop-97001101",
+    "type": "exchange",
+    "result": "秋の宝石",
+    "materials": [
+      {
+        "item": "ギルド名声コイン",
+        "qty": 2000
+      }
+    ],
+    "where": "【ギルド補給兵】ジン「雑貨」、【ギルドアジト商店】ガブリエラ「雑貨」",
+    "result_qty": 10,
+    "refs": [
+      {
+        "source": "jp-client-20261001",
+        "note": "交換の費用"
+      }
+    ],
+    "notes": "クライアントのショップ表の交換。"
+  },
+  {
+    "id": "client-shop-97001310",
+    "type": "exchange",
+    "result": "秋の宝石",
+    "materials": [
+      {
+        "item": "ギルド名誉コイン",
+        "qty": 1
+      }
+    ],
+    "where": "【ギルド補給兵】ジン「名誉コイン」",
+    "result_qty": 100,
+    "refs": [
+      {
+        "source": "jp-client-20261001",
+        "note": "交換の費用"
+      }
+    ],
+    "notes": "クライアントのショップ表の交換。"
+  },
+  {
+    "id": "client-shop-97001305",
+    "type": "exchange",
+    "result": "月食の聖痕",
+    "materials": [
+      {
+        "item": "ギルド名誉コイン",
+        "qty": 1
+      }
+    ],
+    "where": "【ギルド補給兵】ジン「名誉コイン」",
+    "result_qty": 1,
+    "refs": [
+      {
+        "source": "jp-client-20261001",
+        "note": "交換の費用"
+      }
+    ],
+    "notes": "クライアントのショップ表の交換。"
+  },
+  {
+    "id": "client-shop-29001101",
+    "type": "exchange",
+    "result": "月食の聖痕",
+    "gold": 10,
+    "materials": [],
+    "where": "【闇の女神官】タルト・【闇の女神官】ビスケ・【闇の女神官】モカ「月食の竜珠」",
+    "result_qty": 1,
+    "refs": [
+      {
+        "source": "jp-client-20261001",
+        "note": "交換の費用"
+      }
+    ],
+    "notes": "クライアントのショップ表の交換。"
+  },
+  {
+    "id": "client-shop-97001400",
+    "type": "exchange",
+    "result": "ギルドの特別なタリスマン袋",
+    "materials": [
+      {
+        "item": "ギルド名声コイン",
+        "qty": 1000
+      }
+    ],
+    "where": "【ギルド補給兵】ジン「ギルド名声コイン」",
+    "result_qty": 1,
+    "refs": [
+      {
+        "source": "jp-client-20261001",
+        "note": "交換の費用"
+      }
+    ],
+    "notes": "クライアントのショップ表の交換。"
+  },
+  {
+    "id": "client-shop-320000212",
+    "type": "exchange",
+    "result": "[パッシブ]友達の応援(攻撃力)+10万",
+    "materials": [
+      {
+        "item": "独武討伐戦コイン(シーズン3)",
+        "qty": 5
+      }
+    ],
+    "where": "【宮女】ユエ・紅蓮宮-外郭-門番「独武討伐戦」",
+    "result_qty": 1,
+    "refs": [
+      {
+        "source": "jp-client-20261001",
+        "note": "交換の費用"
+      }
+    ],
+    "notes": "クライアントのショップ表の交換。"
+  },
+  {
+    "id": "client-shop-96003125",
+    "type": "exchange",
+    "result": "ブローチリング",
+    "materials": [
+      {
+        "item": "色あせた白い羽",
+        "qty": 1
+      }
+    ],
+    "where": "【万物商店ガイド】チェルニー「ドラゴンブローチ」",
+    "result_qty": 1,
+    "refs": [
+      {
+        "source": "jp-client-20261001",
+        "note": "交換の費用"
+      }
+    ],
+    "notes": "クライアントのショップ表の交換。"
+  },
+  {
+    "id": "client-shop-96003325",
+    "type": "exchange",
+    "result": "ブローチリング",
+    "materials": [
+      {
+        "item": "断片化したブローチの残骸",
+        "qty": 30
+      }
+    ],
+    "where": "【万物商店ガイド】チェルニー「ブローチの残骸」",
+    "result_qty": 1,
+    "refs": [
+      {
+        "source": "jp-client-20261001",
+        "note": "交換の費用"
+      }
+    ],
+    "notes": "クライアントのショップ表の交換。"
+  },
+  {
+    "id": "client-shop-320000236",
+    "type": "exchange",
+    "result": "[パッシブ]友達の応援(攻撃力)+50万",
+    "materials": [
+      {
+        "item": "独武討伐戦コイン(シーズン3)",
+        "qty": 180
+      }
+    ],
+    "where": "【宮女】ユエ・紅蓮宮-外郭-門番「独武討伐戦」",
+    "result_qty": 1,
+    "refs": [
+      {
+        "source": "jp-client-20261001",
+        "note": "交換の費用"
+      }
+    ],
+    "notes": "クライアントのショップ表の交換。"
+  },
+  {
+    "id": "client-shop-320000234",
+    "type": "exchange",
+    "result": "[パッシブ]友達の応援(攻撃力)+100万",
+    "materials": [
+      {
+        "item": "独武討伐戦コイン(シーズン3)",
+        "qty": 250
+      }
+    ],
+    "where": "【宮女】ユエ・紅蓮宮-外郭-門番「独武討伐戦」",
+    "result_qty": 1,
+    "refs": [
+      {
+        "source": "jp-client-20261001",
+        "note": "交換の費用"
+      }
+    ],
+    "notes": "クライアントのショップ表の交換。"
+  },
+  {
+    "id": "client-shop-76000125",
+    "type": "exchange",
+    "result": "アストラルジュエル",
+    "materials": [
+      {
+        "item": "アストラルストーン",
+        "qty": 5
+      }
+    ],
+    "where": "アリン・オリン「クローニング商店」",
+    "result_qty": 1,
+    "refs": [
+      {
+        "source": "jp-client-20261001",
+        "note": "交換の費用"
+      }
+    ],
+    "notes": "クライアントのショップ表の交換。"
+  },
+  {
+    "id": "client-shop-85000125",
+    "type": "exchange",
+    "result": "バルクの角",
+    "materials": [
+      {
+        "item": "バルクの心臓のかけら",
+        "qty": 500
+      }
+    ],
+    "where": "【レンジャー】ファーガス「入場券」",
+    "result_qty": 1,
+    "refs": [
+      {
+        "source": "jp-client-20261001",
+        "note": "交換の費用"
+      }
+    ],
+    "notes": "クライアントのショップ表の交換。"
+  },
+  {
+    "id": "client-shop-85001125",
+    "type": "exchange",
+    "result": "ムエルトスの魔力",
+    "materials": [
+      {
+        "item": "ムエルトスの珠のかけら",
+        "qty": 500
+      }
+    ],
+    "where": "【自警団長】スティーブ「入場券」",
+    "result_qty": 1,
+    "refs": [
+      {
+        "source": "jp-client-20261001",
+        "note": "交換の費用"
+      }
+    ],
+    "notes": "クライアントのショップ表の交換。"
+  },
+  {
+    "id": "client-shop-85002125",
+    "type": "exchange",
+    "result": "ブリュンヒルドの仮面",
+    "materials": [
+      {
+        "item": "ブリュンヒルドの氷のかけら",
+        "qty": 500
+      }
+    ],
+    "where": "【ソーサレス】タラ「入場券」",
+    "result_qty": 1,
+    "refs": [
+      {
+        "source": "jp-client-20261001",
+        "note": "交換の費用"
+      }
+    ],
+    "notes": "クライアントのショップ表の交換。"
+  },
+  {
+    "id": "client-shop-300001101",
+    "type": "exchange",
+    "result": "強烈な黄金の羽根",
+    "gold": 1000,
+    "materials": [
+      {
+        "item": "次元の残痕",
+        "qty": 100
+      }
+    ],
+    "where": "執事B「金竜商店」",
+    "result_qty": 1,
+    "refs": [
+      {
+        "source": "jp-client-20261001",
+        "note": "交換の費用"
+      }
+    ],
+    "notes": "クライアントのショップ表の交換。"
+  },
+  {
+    "id": "client-shop-300001110",
+    "type": "exchange",
+    "result": "金色の追憶",
+    "materials": [
+      {
+        "item": "金色の追憶のかけら",
+        "qty": 10
+      }
+    ],
+    "where": "執事B「金竜商店」",
+    "result_qty": 1,
+    "refs": [
+      {
+        "source": "jp-client-20261001",
+        "note": "交換の費用"
+      }
+    ],
+    "notes": "クライアントのショップ表の交換。"
+  },
+  {
+    "id": "client-shop-300001115",
+    "type": "exchange",
+    "result": "金竜の竜珠安定器",
+    "materials": [
+      {
+        "item": "金竜の竜珠安定器の破片",
+        "qty": 40
+      }
+    ],
+    "where": "執事B「金竜商店」",
+    "result_qty": 1,
+    "refs": [
+      {
+        "source": "jp-client-20261001",
+        "note": "交換の費用"
+      }
+    ],
+    "notes": "クライアントのショップ表の交換。"
+  },
+  {
+    "id": "client-shop-300011100",
+    "type": "exchange",
+    "result": "古い遺跡の案内文",
+    "materials": [
+      {
+        "item": "次元の残痕",
+        "qty": 100
+      }
+    ],
+    "where": "執事B「王城廃墟」",
+    "result_qty": 1,
+    "refs": [
+      {
+        "source": "jp-client-20261001",
+        "note": "交換の費用"
+      }
+    ],
+    "notes": "クライアントのショップ表の交換。"
+  },
+  {
+    "id": "client-shop-300011111",
+    "type": "exchange",
+    "result": "[謎]王城の紋章袋",
+    "materials": [
+      {
+        "item": "遺跡の破片",
+        "qty": 30
+      }
+    ],
+    "where": "執事B「王城廃墟」",
+    "result_qty": 1,
+    "refs": [
+      {
+        "source": "jp-client-20261001",
+        "note": "交換の費用"
+      }
+    ],
+    "notes": "クライアントのショップ表の交換。"
+  },
+  {
+    "id": "client-shop-300011115",
+    "type": "exchange",
+    "result": "遺跡の破片凝縮器",
+    "gold": 10000,
+    "materials": [],
+    "where": "執事B「王城廃墟」",
+    "result_qty": 1,
+    "refs": [
+      {
+        "source": "jp-client-20261001",
+        "note": "交換の費用"
+      }
+    ],
+    "notes": "クライアントのショップ表の交換。"
+  },
+  {
+    "id": "client-shop-28101130",
+    "type": "exchange",
+    "result": "永遠の能力強化紋章箱",
+    "materials": [
+      {
+        "item": "永遠の能力強化紋章箱のかけら",
+        "qty": 5000
+      }
+    ],
+    "where": "【闇の女神官】タルト・【闇の女神官】ビスケ・【闇の女神官】モカ「能力強化紋章」",
+    "result_qty": 1,
+    "refs": [
+      {
+        "source": "jp-client-20261001",
+        "note": "交換の費用"
+      }
+    ],
+    "notes": "クライアントのショップ表の交換。"
+  },
+  {
+    "id": "client-shop-28101135",
+    "type": "exchange",
+    "result": "永遠の体力の能力強化紋章袋",
+    "materials": [
+      {
+        "item": "永遠の能力強化紋章箱のかけら",
+        "qty": 9999
+      }
+    ],
+    "where": "【闇の女神官】タルト・【闇の女神官】ビスケ・【闇の女神官】モカ「能力強化紋章」",
+    "result_qty": 1,
+    "refs": [
+      {
+        "source": "jp-client-20261001",
+        "note": "交換の費用"
+      }
+    ],
+    "notes": "クライアントのショップ表の交換。"
+  },
+  {
+    "id": "client-shop-28101136",
+    "type": "exchange",
+    "result": "永遠の魔力の能力強化紋章袋",
+    "materials": [
+      {
+        "item": "永遠の能力強化紋章箱のかけら",
+        "qty": 9999
+      }
+    ],
+    "where": "【闇の女神官】タルト・【闇の女神官】ビスケ・【闇の女神官】モカ「能力強化紋章」",
+    "result_qty": 1,
+    "refs": [
+      {
+        "source": "jp-client-20261001",
+        "note": "交換の費用"
+      }
+    ],
+    "notes": "クライアントのショップ表の交換。"
+  },
+  {
+    "id": "client-shop-28101137",
+    "type": "exchange",
+    "result": "永遠の加護の能力強化紋章袋",
+    "materials": [
+      {
+        "item": "永遠の能力強化紋章箱のかけら",
+        "qty": 9999
+      }
+    ],
+    "where": "【闇の女神官】タルト・【闇の女神官】ビスケ・【闇の女神官】モカ「能力強化紋章」",
+    "result_qty": 1,
+    "refs": [
+      {
+        "source": "jp-client-20261001",
+        "note": "交換の費用"
+      }
+    ],
+    "notes": "クライアントのショップ表の交換。"
+  },
+  {
+    "id": "client-shop-28101140",
+    "type": "exchange",
+    "result": "永遠の破壊の能力強化紋章袋",
+    "materials": [
+      {
+        "item": "永遠の能力強化紋章箱のかけら",
+        "qty": 9999
+      }
+    ],
+    "where": "【闇の女神官】タルト・【闇の女神官】ビスケ・【闇の女神官】モカ「能力強化紋章」",
+    "result_qty": 1,
+    "refs": [
+      {
+        "source": "jp-client-20261001",
+        "note": "交換の費用"
+      }
+    ],
+    "notes": "クライアントのショップ表の交換。"
+  },
+  {
+    "id": "client-shop-28101141",
+    "type": "exchange",
+    "result": "永遠の鉄壁の能力強化紋章袋",
+    "materials": [
+      {
+        "item": "永遠の能力強化紋章箱のかけら",
+        "qty": 9999
+      }
+    ],
+    "where": "【闇の女神官】タルト・【闇の女神官】ビスケ・【闇の女神官】モカ「能力強化紋章」",
+    "result_qty": 1,
+    "refs": [
+      {
+        "source": "jp-client-20261001",
+        "note": "交換の費用"
+      }
+    ],
+    "notes": "クライアントのショップ表の交換。"
+  },
+  {
+    "id": "client-shop-28101142",
+    "type": "exchange",
+    "result": "永遠の疾風の能力強化紋章袋",
+    "materials": [
+      {
+        "item": "永遠の能力強化紋章箱のかけら",
+        "qty": 9999
+      }
+    ],
+    "where": "【闇の女神官】タルト・【闇の女神官】ビスケ・【闇の女神官】モカ「能力強化紋章」",
+    "result_qty": 1,
+    "refs": [
+      {
+        "source": "jp-client-20261001",
+        "note": "交換の費用"
+      }
+    ],
+    "notes": "クライアントのショップ表の交換。"
+  },
+  {
+    "id": "client-shop-28101143",
+    "type": "exchange",
+    "result": "永遠の知恵の能力強化紋章袋",
+    "materials": [
+      {
+        "item": "永遠の能力強化紋章箱のかけら",
+        "qty": 9999
+      }
+    ],
+    "where": "【闇の女神官】タルト・【闇の女神官】ビスケ・【闇の女神官】モカ「能力強化紋章」",
+    "result_qty": 1,
+    "refs": [
+      {
+        "source": "jp-client-20261001",
+        "note": "交換の費用"
+      }
+    ],
+    "notes": "クライアントのショップ表の交換。"
+  },
+  {
+    "id": "client-shop-28101145",
+    "type": "exchange",
+    "result": "永遠の致命の能力強化紋章袋",
+    "materials": [
+      {
+        "item": "永遠の能力強化紋章箱のかけら",
+        "qty": 9999
+      }
+    ],
+    "where": "【闇の女神官】タルト・【闇の女神官】ビスケ・【闇の女神官】モカ「能力強化紋章」",
+    "result_qty": 1,
+    "refs": [
+      {
+        "source": "jp-client-20261001",
+        "note": "交換の費用"
+      }
+    ],
+    "notes": "クライアントのショップ表の交換。"
+  },
+  {
+    "id": "client-shop-28101146",
+    "type": "exchange",
+    "result": "永遠の限界の能力強化紋章袋",
+    "materials": [
+      {
+        "item": "永遠の能力強化紋章箱のかけら",
+        "qty": 9999
+      }
+    ],
+    "where": "【闇の女神官】タルト・【闇の女神官】ビスケ・【闇の女神官】モカ「能力強化紋章」",
+    "result_qty": 1,
+    "refs": [
+      {
+        "source": "jp-client-20261001",
+        "note": "交換の費用"
+      }
+    ],
+    "notes": "クライアントのショップ表の交換。"
+  },
+  {
+    "id": "client-shop-28101147",
+    "type": "exchange",
+    "result": "永遠の気迫の能力強化紋章袋",
+    "materials": [
+      {
+        "item": "永遠の能力強化紋章箱のかけら",
+        "qty": 9999
+      }
+    ],
+    "where": "【闇の女神官】タルト・【闇の女神官】ビスケ・【闇の女神官】モカ「能力強化紋章」",
+    "result_qty": 1,
+    "refs": [
+      {
+        "source": "jp-client-20261001",
+        "note": "交換の費用"
+      }
+    ],
+    "notes": "クライアントのショップ表の交換。"
+  },
+  {
+    "id": "client-shop-28101148",
+    "type": "exchange",
+    "result": "永遠の生命の能力強化紋章袋",
+    "materials": [
+      {
+        "item": "永遠の能力強化紋章箱のかけら",
+        "qty": 9999
+      }
+    ],
+    "where": "【闇の女神官】タルト・【闇の女神官】ビスケ・【闇の女神官】モカ「能力強化紋章」",
+    "result_qty": 1,
+    "refs": [
+      {
+        "source": "jp-client-20261001",
+        "note": "交換の費用"
+      }
+    ],
+    "notes": "クライアントのショップ表の交換。"
+  },
+  {
+    "id": "client-shop-28101410",
+    "type": "exchange",
+    "result": "生命の古代ヘルムの破片",
+    "materials": [
+      {
+        "item": "壊れた金糸防具の結晶",
+        "qty": 1
+      }
+    ],
+    "where": "【闇の女神官】タルト・【闇の女神官】ビスケ・【闇の女神官】モカ「材料」",
+    "result_qty": 10,
+    "refs": [
+      {
+        "source": "jp-client-20261001",
+        "note": "交換の費用"
+      }
+    ],
+    "notes": "クライアントのショップ表の交換。"
+  },
+  {
+    "id": "client-shop-28101411",
+    "type": "exchange",
+    "result": "東方の古代アーマーの破片",
+    "materials": [
+      {
+        "item": "壊れた金糸防具の結晶",
+        "qty": 1
+      }
+    ],
+    "where": "【闇の女神官】タルト・【闇の女神官】ビスケ・【闇の女神官】モカ「材料」",
+    "result_qty": 10,
+    "refs": [
+      {
+        "source": "jp-client-20261001",
+        "note": "交換の費用"
+      }
+    ],
+    "notes": "クライアントのショップ表の交換。"
+  },
+  {
+    "id": "client-shop-28101412",
+    "type": "exchange",
+    "result": "黎明の古代ボトムの破片",
+    "materials": [
+      {
+        "item": "壊れた金糸防具の結晶",
+        "qty": 1
+      }
+    ],
+    "where": "【闇の女神官】タルト・【闇の女神官】ビスケ・【闇の女神官】モカ「材料」",
+    "result_qty": 10,
+    "refs": [
+      {
+        "source": "jp-client-20261001",
+        "note": "交換の費用"
+      }
+    ],
+    "notes": "クライアントのショップ表の交換。"
+  },
+  {
+    "id": "client-shop-28101413",
+    "type": "exchange",
+    "result": "密林の古代グローブの破片",
+    "materials": [
+      {
+        "item": "壊れた金糸防具の結晶",
+        "qty": 1
+      }
+    ],
+    "where": "【闇の女神官】タルト・【闇の女神官】ビスケ・【闇の女神官】モカ「材料」",
+    "result_qty": 10,
+    "refs": [
+      {
+        "source": "jp-client-20261001",
+        "note": "交換の費用"
+      }
+    ],
+    "notes": "クライアントのショップ表の交換。"
+  },
+  {
+    "id": "client-shop-28101414",
+    "type": "exchange",
+    "result": "深淵の古代ブーツの破片",
+    "materials": [
+      {
+        "item": "壊れた金糸防具の結晶",
+        "qty": 1
+      }
+    ],
+    "where": "【闇の女神官】タルト・【闇の女神官】ビスケ・【闇の女神官】モカ「材料」",
+    "result_qty": 10,
+    "refs": [
+      {
+        "source": "jp-client-20261001",
+        "note": "交換の費用"
+      }
+    ],
+    "notes": "クライアントのショップ表の交換。"
+  },
+  {
+    "id": "client-shop-28101415",
+    "type": "exchange",
+    "result": "異世界の古代武器の破片",
+    "materials": [
+      {
+        "item": "壊れた金糸武器の結晶",
+        "qty": 1
+      }
+    ],
+    "where": "【闇の女神官】タルト・【闇の女神官】ビスケ・【闇の女神官】モカ「材料」",
+    "result_qty": 10,
+    "refs": [
+      {
+        "source": "jp-client-20261001",
+        "note": "交換の費用"
+      }
+    ],
+    "notes": "クライアントのショップ表の交換。"
+  },
+  {
+    "id": "client-shop-28101416",
+    "type": "exchange",
+    "result": "古代人の知識",
+    "materials": [
+      {
+        "item": "古代人の礎",
+        "qty": 1
+      }
+    ],
+    "where": "【闇の女神官】タルト・【闇の女神官】ビスケ・【闇の女神官】モカ「材料」",
+    "result_qty": 10,
+    "refs": [
+      {
+        "source": "jp-client-20261001",
+        "note": "交換の費用"
+      }
+    ],
+    "notes": "クライアントのショップ表の交換。"
+  },
+  {
+    "id": "client-shop-28101417",
+    "type": "exchange",
+    "result": "古代人の紋様",
+    "materials": [
+      {
+        "item": "次元の残痕",
+        "qty": 1
+      }
+    ],
+    "where": "【闇の女神官】タルト・【闇の女神官】ビスケ・【闇の女神官】モカ「材料」",
+    "result_qty": 10,
+    "refs": [
+      {
+        "source": "jp-client-20261001",
+        "note": "交換の費用"
+      }
+    ],
+    "notes": "クライアントのショップ表の交換。"
+  },
+  {
+    "id": "client-shop-29001105",
+    "type": "exchange",
+    "result": "上級神聖な月食のかけら",
+    "materials": [
+      {
+        "item": "神聖な月食のかけら",
+        "qty": 100
+      }
+    ],
+    "where": "【闇の女神官】タルト・【闇の女神官】ビスケ・【闇の女神官】モカ「月食の竜珠」",
+    "result_qty": 1,
+    "refs": [
+      {
+        "source": "jp-client-20261001",
+        "note": "交換の費用"
+      }
+    ],
+    "notes": "クライアントのショップ表の交換。"
+  },
+  {
+    "id": "client-shop-29001106",
+    "type": "exchange",
+    "result": "上級清い月食のかけら",
+    "materials": [
+      {
+        "item": "清い月食のかけら",
+        "qty": 100
+      }
+    ],
+    "where": "【闇の女神官】タルト・【闇の女神官】ビスケ・【闇の女神官】モカ「月食の竜珠」",
+    "result_qty": 1,
+    "refs": [
+      {
+        "source": "jp-client-20261001",
+        "note": "交換の費用"
+      }
+    ],
+    "notes": "クライアントのショップ表の交換。"
+  },
+  {
+    "id": "client-shop-29001107",
+    "type": "exchange",
+    "result": "上級燃える月食のかけら",
+    "materials": [
+      {
+        "item": "燃える月食のかけら",
+        "qty": 100
+      }
+    ],
+    "where": "【闇の女神官】タルト・【闇の女神官】ビスケ・【闇の女神官】モカ「月食の竜珠」",
+    "result_qty": 1,
+    "refs": [
+      {
+        "source": "jp-client-20261001",
+        "note": "交換の費用"
+      }
+    ],
+    "notes": "クライアントのショップ表の交換。"
+  },
+  {
+    "id": "client-shop-29001110",
+    "type": "exchange",
+    "result": "上級漆黒の月食のかけら",
+    "materials": [
+      {
+        "item": "漆黒の月食のかけら",
+        "qty": 100
+      }
+    ],
+    "where": "【闇の女神官】タルト・【闇の女神官】ビスケ・【闇の女神官】モカ「月食の竜珠」",
+    "result_qty": 1,
+    "refs": [
+      {
+        "source": "jp-client-20261001",
+        "note": "交換の費用"
+      }
+    ],
+    "notes": "クライアントのショップ表の交換。"
+  },
+  {
+    "id": "client-shop-29001111",
+    "type": "exchange",
+    "result": "上級純風の月食のかけら",
+    "materials": [
+      {
+        "item": "純風の月食のかけら",
+        "qty": 100
+      }
+    ],
+    "where": "【闇の女神官】タルト・【闇の女神官】ビスケ・【闇の女神官】モカ「月食の竜珠」",
+    "result_qty": 1,
+    "refs": [
+      {
+        "source": "jp-client-20261001",
+        "note": "交換の費用"
+      }
+    ],
+    "notes": "クライアントのショップ表の交換。"
+  },
+  {
+    "id": "client-shop-29001112",
+    "type": "exchange",
+    "result": "上級堅固な月食のかけら",
+    "materials": [
+      {
+        "item": "堅固な月食のかけら",
+        "qty": 100
+      }
+    ],
+    "where": "【闇の女神官】タルト・【闇の女神官】ビスケ・【闇の女神官】モカ「月食の竜珠」",
+    "result_qty": 1,
+    "refs": [
+      {
+        "source": "jp-client-20261001",
+        "note": "交換の費用"
+      }
+    ],
+    "notes": "クライアントのショップ表の交換。"
+  },
+  {
+    "id": "client-shop-241101251",
+    "type": "exchange",
+    "result": "永遠の苦痛の渦",
+    "materials": [
+      {
+        "item": "堕落した世界の片鱗",
+        "qty": 3
+      }
+    ],
+    "where": "入場権限発行機「セイヴィア」",
+    "result_qty": 1,
+    "refs": [
+      {
+        "source": "jp-client-20261001",
+        "note": "交換の費用"
+      }
+    ],
+    "notes": "クライアントのショップ表の交換。"
+  },
+  {
+    "id": "client-shop-241101252",
+    "type": "exchange",
+    "result": "永遠の次元の幻影",
+    "materials": [
+      {
+        "item": "堕落した世界の片鱗",
+        "qty": 3
+      }
+    ],
+    "where": "入場権限発行機「セイヴィア」",
+    "result_qty": 100,
+    "refs": [
+      {
+        "source": "jp-client-20261001",
+        "note": "交換の費用"
+      }
+    ],
+    "notes": "クライアントのショップ表の交換。"
+  },
+  {
+    "id": "client-shop-970000115",
+    "type": "exchange",
+    "result": "夢の触媒",
+    "materials": [
+      {
+        "item": "黄金蓮の刺繍",
+        "qty": 1
+      }
+    ],
+    "where": "【宮女】ユエ「雑貨」",
+    "result_qty": 1,
+    "refs": [
+      {
+        "source": "jp-client-20261001",
+        "note": "交換の費用"
+      }
+    ],
+    "notes": "クライアントのショップ表の交換。"
+  },
+  {
+    "id": "client-shop-89061100",
+    "type": "exchange",
+    "result": "冥闇の塊",
+    "materials": [
+      {
+        "item": "冥闇の邪気",
+        "qty": 2000
+      }
+    ],
+    "where": "【闇の女神官】カヌレ「雑貨」",
+    "result_qty": 1,
+    "refs": [
+      {
+        "source": "jp-client-20261001",
+        "note": "交換の費用"
+      }
+    ],
+    "notes": "クライアントのショップ表の交換。"
+  },
+  {
+    "id": "client-shop-89061101",
+    "type": "exchange",
+    "result": "冥闇の星片",
+    "materials": [
+      {
+        "item": "冥闇の塊",
+        "qty": 300
+      }
+    ],
+    "where": "【闇の女神官】カヌレ「雑貨」",
+    "result_qty": 1,
+    "refs": [
+      {
+        "source": "jp-client-20261001",
+        "note": "交換の費用"
+      }
+    ],
+    "notes": "クライアントのショップ表の交換。"
+  },
+  {
+    "id": "client-shop-96003202",
+    "type": "exchange",
+    "result": "審判のワンド",
+    "materials": [
+      {
+        "item": "シールドのかけら",
+        "qty": 100
+      }
+    ],
+    "where": "【万物商店ガイド】チェルニー「英雄ブローチ」",
+    "result_qty": 1,
+    "refs": [
+      {
+        "source": "jp-client-20261001",
+        "note": "交換の費用"
+      }
+    ],
+    "notes": "クライアントのショップ表の交換。"
+  },
+  {
+    "id": "client-shop-96003310",
+    "type": "exchange",
+    "result": "次元を秘めたベルスカードブローチ箱",
+    "materials": [
+      {
+        "item": "断片化したブローチの残骸",
+        "qty": 1500
+      }
+    ],
+    "where": "【万物商店ガイド】チェルニー「ブローチの残骸」",
+    "result_qty": 1,
+    "refs": [
+      {
+        "source": "jp-client-20261001",
+        "note": "交換の費用"
+      }
+    ],
+    "notes": "クライアントのショップ表の交換。"
+  },
+  {
+    "id": "client-shop-96003311",
+    "type": "exchange",
+    "result": "異界に封印されたネルウィンブローチ箱",
+    "materials": [
+      {
+        "item": "断片化したブローチの残骸",
+        "qty": 1500
+      }
+    ],
+    "where": "【万物商店ガイド】チェルニー「ブローチの残骸」",
+    "result_qty": 1,
+    "refs": [
+      {
+        "source": "jp-client-20261001",
+        "note": "交換の費用"
+      }
+    ],
+    "notes": "クライアントのショップ表の交換。"
+  },
+  {
+    "id": "client-shop-96003222",
+    "type": "exchange",
+    "result": "信念のテラマイブローチ箱",
+    "materials": [
+      {
+        "item": "英雄ブローチコイン",
+        "qty": 3
+      }
+    ],
+    "where": "【万物商店ガイド】チェルニー「英雄ブローチ」",
+    "result_qty": 1,
+    "refs": [
+      {
+        "source": "jp-client-20261001",
+        "note": "交換の費用"
+      }
+    ],
+    "notes": "クライアントのショップ表の交換。"
+  },
+  {
+    "id": "client-shop-96003312",
+    "type": "exchange",
+    "result": "信念のテラマイブローチ箱",
+    "materials": [
+      {
+        "item": "断片化したブローチの残骸",
+        "qty": 1500
+      }
+    ],
+    "where": "【万物商店ガイド】チェルニー「ブローチの残骸」",
+    "result_qty": 1,
+    "refs": [
+      {
+        "source": "jp-client-20261001",
+        "note": "交換の費用"
+      }
+    ],
+    "notes": "クライアントのショップ表の交換。"
+  },
+  {
+    "id": "client-shop-220001110",
+    "type": "exchange",
+    "result": "エヴォハンマー：ジェレイントの守護",
+    "materials": [
+      {
+        "item": "VIPアクセサリーバウチャー",
+        "qty": 1
+      }
+    ],
+    "where": "【VIPガイド】ビップ「VIPアクセサリー商店」",
+    "result_qty": 1,
+    "refs": [
+      {
+        "source": "jp-client-20261001",
+        "note": "交換の費用"
+      }
+    ],
+    "notes": "クライアントのショップ表の交換。"
+  },
+  {
+    "id": "client-shop-220001112",
+    "type": "exchange",
+    "result": "エヴォハンマー：ジェレイントとの別れ",
+    "materials": [
+      {
+        "item": "VIPアクセサリーバウチャー",
+        "qty": 1
+      }
+    ],
+    "where": "【VIPガイド】ビップ「VIPアクセサリー商店」",
+    "result_qty": 1,
+    "refs": [
+      {
+        "source": "jp-client-20261001",
+        "note": "交換の費用"
+      }
+    ],
+    "notes": "クライアントのショップ表の交換。"
+  },
+  {
+    "id": "client-shop-220001140",
+    "type": "exchange",
+    "result": "エヴォハンマー：アルゼンタの冷徹",
+    "materials": [
+      {
+        "item": "VIPアクセサリーバウチャー",
+        "qty": 1
+      }
+    ],
+    "where": "【VIPガイド】ビップ「VIPアクセサリー商店」",
+    "result_qty": 1,
+    "refs": [
+      {
+        "source": "jp-client-20261001",
+        "note": "交換の費用"
+      }
+    ],
+    "notes": "クライアントのショップ表の交換。"
+  },
+  {
+    "id": "client-shop-220001142",
+    "type": "exchange",
+    "result": "エヴォハンマー：アルゼンタとの別れ",
+    "materials": [
+      {
+        "item": "VIPアクセサリーバウチャー",
+        "qty": 1
+      }
+    ],
+    "where": "【VIPガイド】ビップ「VIPアクセサリー商店」",
+    "result_qty": 1,
+    "refs": [
+      {
+        "source": "jp-client-20261001",
+        "note": "交換の費用"
+      }
+    ],
+    "notes": "クライアントのショップ表の交換。"
+  },
+  {
+    "id": "client-shop-70401124",
+    "type": "exchange",
+    "result": "白竜の氷片",
+    "materials": [
+      {
+        "item": "ホワイトコア",
+        "qty": 300
+      }
+    ],
+    "where": "【商人】パニア・【商人】ファルバナ「ホワイトコア商店」",
+    "result_qty": 1,
+    "refs": [
+      {
+        "source": "jp-client-20261001",
+        "note": "交換の費用"
+      }
+    ],
+    "notes": "クライアントのショップ表の交換。"
   }
 ]
