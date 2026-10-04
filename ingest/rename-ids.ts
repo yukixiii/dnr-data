@@ -15,7 +15,7 @@
 //   能力値は、基本値がクライアント値と最も一致する分割先にだけ残す (他は apply:client がクライアント値で作る)。
 import { readFile, writeFile } from "node:fs/promises";
 import type { DropTable, EnhanceTable, GroupMember, Item, ItemGroup, Recipe } from "../src/types.ts";
-import { baseNameOf, isGroupable, stageInfo } from "./groups-lib.ts";
+import { baseNameOf, completeGroups } from "./groups-lib.ts";
 
 const root = new URL("../", import.meta.url);
 const dry = process.argv.includes("--dry");
@@ -282,23 +282,7 @@ for (const [oldId, ts] of Object.entries(renames)) {
 // 分割で 1 件になったグループ・空のグループは消す
 const outGroups = groups.filter((g) => g.members.length >= 2);
 // まとめ規則に当てはまるのにどのグループにも入っていないもの (部位で分けた後の Ⅰ/Ⅱ など) を足す
-{
-  const inGroup = new Set(outGroups.flatMap((g) => g.members.map((m) => m.item)));
-  const byBase = new Map<string, string[]>();
-  for (const { rec } of pool.values()) if (isGroupable(rec)) byBase.set(baseNameOf(rec.id), [...(byBase.get(baseNameOf(rec.id)) ?? []), rec.id]);
-  for (const [b, ids] of byBase) {
-    const missing = ids.filter((id) => !inGroup.has(id));
-    if (ids.length < 2 || !missing.length) continue;
-    let g = outGroups.find((x) => x.id === b) ?? outGroups.find((x) => x.members.some((m) => ids.includes(m.item)));
-    if (!g) outGroups.push((g = { id: b, name: b, members: [] }));
-    for (const id of missing) {
-      const st = stageInfo(id);
-      g.members.push({ item: id, label: st.label, ...(st.phase ? { phase: st.phase } : {}) });
-    }
-    if (!g.members.some((m) => m.phase)) g.members.sort((a, c) => { const x = stageInfo(a.item), y = stageInfo(c.item); return x.rank - y.rank || x.n - y.n; });
-    log.push(`グループ補完 ${g.id}: ${missing.join(", ")}`);
-  }
-}
+for (const [g, id] of completeGroups(outGroups, [...pool.values()].map((p) => p.rec))) log.push(`グループ補完 ${g}: ${id}`);
 
 // ---- 書き出し ----
 const outItems: Item[] = [];

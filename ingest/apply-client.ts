@@ -16,6 +16,7 @@
 // export.json は非公開のツール (dnr-client) が書き出す。npm run merge / rename:ids の後は export.py → apply:client を再実行する。
 import { readFile, writeFile } from "node:fs/promises";
 import type { EnhanceRow, EnhanceTable, Item, ItemGroup, ItemSet, Qty, Recipe, Ref, Source, Stat, StatSet } from "../src/types.ts";
+import { baseNameOf, completeGroups } from "./groups-lib.ts";
 
 const root = new URL("../", import.meta.url);
 const dry = process.argv.includes("--dry");
@@ -40,6 +41,7 @@ interface Export {
   enchants: Record<string, Record<string, CRow>>;
   recipes: Record<string, { compound_id: number; rate: number; gold: number; materials: { item: string; qty: number }[] }>;
   sets: Record<string, { name: string | null; text: string | null; bonuses: { count: number; stats?: CStat[]; skill?: string }[]; items: string[] }>;
+  new_items: string[];
 }
 
 const ex = await readJson<Export>("ingest/client/export.json");
@@ -145,6 +147,39 @@ const count: Record<string, number> = {};
 const inc = (k: string, n = 1) => (count[k] = (count[k] ?? 0) + n);
 const GRADES = ["ノーマル", "マジック", "レア", "エピック", "ユニーク", "レジェンド", "エンシェント"];
 const atomic = (v: unknown) => typeof v === "number" || (typeof v === "string" && !/[\/→~～、,]/.test(v) && v.length < 20);
+
+// ---- 新しいアイテム (最新世代の装備でまだ data に無いもの) ----
+// 系統: 同じ本体名 (段階・等級違い) か同じセットの既存アイテムの系統、無ければ名前の規則
+const SERIES_RULES: [RegExp, string][] = [
+  [/^永遠の.+?(の|型)能力強化紋章/, "永遠の能力強化紋章"],
+  [/^永遠の.+のタリスマン/, "永遠のタリスマン"],
+  [/ヴァズモス/, "ヴァズモス武器"],
+  [/メビウスの紋章$/, "メビウスの紋章"],
+  [/ブラックドラゴンの.*タリスマン/, "ブラックドラゴンタリスマン"],
+  [/^(祝福された)?(オーガダパ|ウンブラ|メルカ|ティタニオン|イベール|クアノス|シャリカ)のタリスマン/, "パラドックスタリスマン"],
+  [/^金糸.*\[Ⅱ\]$/, "金糸装備[Ⅱ]"],
+  [/^金糸/, "金糸装備"],
+];
+{
+  const existing = new Set([...items, ...materials].map((i) => i.id));
+  const seriesByBase = new Map<string, string>();
+  for (const it of items) if (it.series && !seriesByBase.has(baseNameOf(it.id))) seriesByBase.set(baseNameOf(it.id), it.series);
+  const seriesBySet = new Map<string, string>();
+  for (const it of items) {
+    const c = ex.items[it.id];
+    if (c?.set && it.series && !seriesBySet.has(c.set)) seriesBySet.set(c.set, it.series);
+  }
+  for (const id of ex.new_items ?? []) {
+    if (existing.has(id)) continue;
+    const c = ex.items[id];
+    const series = seriesByBase.get(baseNameOf(id)) ?? (c.set ? seriesBySet.get(c.set) : undefined) ?? SERIES_RULES.find(([re]) => re.test(id))?.[1];
+    items.push({ id, name: id, kind: c.kind as Item["kind"], ...(series ? { series } : {}), refs: [{ source: SRC, note: "ゲームクライアントの値" }] });
+    existing.add(id);
+    inc("item.new");
+    if (verbose) log.push(`新しいアイテム ${id} (${series ?? "系統なし"})`);
+  }
+  for (const [g, id] of completeGroups(groups, [...items, ...materials])) log.push(`グループに追加 ${g}: ${id}`);
+}
 
 // ---- 能力値の名前を全体で統一 ----
 for (const it of [...items, ...materials]) for (const s of it.stats ?? []) s.stats = normStats(s.stats);
@@ -489,4 +524,5 @@ if (!dry) {
   await writeJson("data/enhance_tables.json", outTables);
   await writeJson("data/recipes.json", recipes);
   await writeJson("data/sets.json", sets);
+  await writeJson("data/item_groups.json", groups);
 }

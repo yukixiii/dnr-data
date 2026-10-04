@@ -1,7 +1,7 @@
 // 段階・等級・増幅などの違いだけで「同じ装備」とみなすアイテムのまとめ方 (data/item_groups.json の生成・検証で共用)。
 // 規則: 名前から段階/等級/増幅/[真]/祝福 などの印を外した本体名が同じものを1装備にまとめる。
 // 例外: ブローチはキャラクターごとに1系統 (封印された力 → 次元/異界/信念 を含む)。
-import type { Item } from "../src/types.ts";
+import type { Item, ItemGroup } from "../src/types.ts";
 
 const EQUIP_KINDS = new Set(["weapon", "armor", "accessory", "special_armor", "artifact", "talisman", "jade", "heraldry"]);
 
@@ -50,18 +50,19 @@ export function baseNameOf(id: string): string {
 /** 並び順と表示ラベル。phase はブローチの「封印/マジック/…/次元」のような段階の区切り */
 export function stageInfo(id: string): { rank: number; n: number; phase?: string; label: string } {
   const n = Number(id.match(/(\d+)段階/)?.[1] ?? 0);
+  // 等級は 1 未満の小数で順序だけ付ける (段階・増幅などの印より前)
   const marks: [RegExp, number, string][] = [
     [/^下級|\(下級\)$/, 1, "下級"],
     [/^中級|\(中級\)$/, 2, "中級"],
     [/^上級|\(上級\)$/, 3, "上級"],
     [/\(ヒロイック\)$/, 4, "ヒロイック"],
-    [/\(ノーマル\)$/, 0, "ノーマル"],
-    [/\(マジック\)$/, 1, "マジック"],
-    [/\(レア\)$/, 2, "レア"],
-    [/\(エピック\)$/, 3, "エピック"],
-    [/\(ユニーク\)$/, 1, "ユニーク"],
-    [/\(レジェンド\)$/, 2, "レジェンド"],
-    [/\(エンシェント\)$/, 3, "エンシェント"],
+    [/\(ノーマル\)$/, 0.1, "ノーマル"],
+    [/\(マジック\)$/, 0.2, "マジック"],
+    [/\(レア\)$/, 0.3, "レア"],
+    [/\(エピック\)$/, 0.4, "エピック"],
+    [/\(ユニーク\)$/, 0.5, "ユニーク"],
+    [/\(レジェンド\)$/, 0.6, "レジェンド"],
+    [/\(エンシェント\)$/, 0.7, "エンシェント"],
     [/\(物理\)$/, 0, "物理"],
     [/\(魔法\)$/, 0, "魔法"],
     [/\(混合\)$/, 0, "混合"],
@@ -99,4 +100,32 @@ export function stageInfo(id: string): { rank: number; n: number; phase?: string
     return { rank, n, phase, label };
   }
   return { rank, n, label: [...words, stage].filter(Boolean).join(" ") || "通常" };
+}
+
+/**
+ * まとめ規則に当てはまるのにどのグループにも入っていないアイテムをグループに足す (既存のグループに追加 / 新しいグループ)。
+ * 戻り値は追加したメンバーの [グループ id, アイテム id]。groups は書き換える。
+ */
+export function completeGroups(groups: ItemGroup[], items: Item[]): [string, string][] {
+  const added: [string, string][] = [];
+  const inGroup = new Set(groups.flatMap((g) => g.members.map((m) => m.item)));
+  const byBase = new Map<string, string[]>();
+  for (const it of items) if (isGroupable(it)) byBase.set(baseNameOf(it.id), [...(byBase.get(baseNameOf(it.id)) ?? []), it.id]);
+  for (const [b, ids] of byBase) {
+    const missing = ids.filter((id) => !inGroup.has(id));
+    if (ids.length < 2 || !missing.length) continue;
+    let g = groups.find((x) => x.id === b) ?? groups.find((x) => x.members.some((m) => ids.includes(m.item)));
+    if (!g) groups.push((g = { id: b, name: b, members: [] }));
+    for (const id of missing) {
+      const st = stageInfo(id);
+      g.members.push({ item: id, label: st.label, ...(st.phase ? { phase: st.phase } : {}) });
+      added.push([g.id, id]);
+    }
+    if (!g.members.some((m) => m.phase))
+      g.members.sort((a, c) => {
+        const x = stageInfo(a.item), y = stageInfo(c.item);
+        return x.rank - y.rank || x.n - y.n;
+      });
+  }
+  return added;
 }
