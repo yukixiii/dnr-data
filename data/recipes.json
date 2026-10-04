@@ -21097,5 +21097,1306 @@
       }
     ],
     "notes": "クライアントのショップ表の交換。"
+  },
+  {
+    "id": "client-shop-310001205",
+    "type": "exchange",
+    "result": "暗黒の結晶",
+    "gold": 0.5,
+    "materials": [],
+    "where": "【商人】アガペー「生産材料」、【商人】リサ・【雑貨商人】ケリー「生産材料」",
+    "result_qty": 1,
+    "refs": [
+      {
+        "source": "jp-client-20261001",
+        "note": "交換の費用"
+      }
+    ],
+    "notes": "クライアントのショップ表の交換。"
+  },
+  {
+    "id": "client-dis-268511812-0-0",
+    "type": "dismantle",
+    "result": "ホワイトコア",
+    "result_qty": 1950,
+    "base": "[イヤリング]凍てつく白竜の残響",
+    "materials": [],
+    "gold": 1.5,
+    "notes": "クライアントには +0 の分解表だけがある (強化段階ごとの表は無い)。クライアントの分解表。",
+    "refs": [
+      {
+        "source": "jp-client-20261001"
+      }
+    ]
+  },
+  {
+    "id": "client-dis-268511811-0-0",
+    "type": "dismantle",
+    "result": "ホワイトコア",
+    "result_qty": 1950,
+    "base": "[ネックレス]眠れる白竜の雫",
+    "materials": [],
+    "gold": 1.5,
+    "notes": "クライアントには +0 の分解表だけがある (強化段階ごとの表は無い)。クライアントの分解表。",
+    "refs": [
+      {
+        "source": "jp-client-20261001"
+      }
+    ]
+  },
+  {
+    "id": "client-dis-268511810-0-0",
+    "type": "dismantle",
+    "result": "ホワイトコア",
+    "result_qty": 1950,
+    "base": "[リング]悠久なる白竜の盟約",
+    "materials": [],
+    "gold": 1.5,
+    "notes": "クライアントには +0 の分解表だけがある (強化段階ごとの表は無い)。クライアントの分解表。",
+    "refs": [
+      {
+        "source": "jp-client-20261001"
+      }
+    ]
+  },
+  {
+    "id": "client-dis-268514179-0-0",
+    "type": "dismantle",
+    "result": "残影の記録",
+    "result_qty": 5,
+    "base": "イベールのタリスマン",
+    "materials": [],
+    "gold": 100,
+    "notes": "この分解表には 3 件の候補 (残影の記録×5・残影の記録×10・矛盾の宝石抽出液×1) があり、確率と出方 (1つだけか、それぞれ判定か) はクライアントのデータに無い。クライアントの分解表。",
+    "refs": [
+      {
+        "source": "jp-client-20261001"
+      }
+    ]
+  },
+  {
+    "id": "client-dis-268514179-0-1",
+    "type": "dismantle",
+    "result": "残影の記録",
+    "result_qty": 10,
+    "base": "イベールのタリスマン",
+    "materials": [],
+    "gold": 100,
+    "notes": "この分解表には 3 件の候補 (残影の記録×5・残影の記録×10・矛盾の宝石抽出液×1) があり、確率と出方 (1つだけか、それぞれ判定か) はクライアントのデータに無い。クライアントの分解表。",
+    "refs": [
+      {
+        "source": "jp-client-20261001"
+      }
+    ]
+  },
+  {
+    "id": "client-dis-268514179-0-2",
+    "type": "dismantle",
+    "result": "矛盾の宝石抽出液",
+    "base": "イベールのタリスマン",
+    "materials": [],
+    "gold": 100,
+    "notes": "この分解表には 3 件の候補 (残影の記録×5・残影の記録×10・矛盾の宝石抽出液×1) があり、確率と出方 (1つだけか、それぞれ判定か) はクライアントのデータに無い。クライアントの分解表。",
+    "refs": [
+      {
+        "source": "jp-client-20261001"
+      }
+    ]
+  },
+  {
+    "id": "client-dis-268506590-0-0",
+    "type": "dismantle",
+    "result": "ウンブラの破壊されたハンマー",
+    "result_qty": 18,
+    "base": "ウンブラのタリスマン(エピック)",
+    "materials": [],
+    "gold": 100,
+    "notes": "クライアントの分解表。",
+    "refs": [
+      {
+        "source": "jp-client-20261001"
+      }
+    ]
+  },
+  {
+    "id": "client-dis-268506587-0-0",
+    "type": "dismantle",
+    "result": "ウンブラの破壊されたハンマー",
+    "result_qty": 3,
+    "base": "ウンブラのタリスマン(ノーマル)",
+    "materials": [],
+    "gold": 100,
+    "notes": "クライアントの分解表。",
+    "refs": [
+      {
+        "source": "jp-client-20261001"
+      }
+    ]
+  },
+  {
+    "id": "client-dis-268506588-0-0",
+    "type": "dismantle",
+    "result": "ウンブラの破壊されたハンマー",
+    "result_qty": 7,
+    "base": "ウンブラのタリスマン(マジック)",
+    "materials": [],
+    "gold": 100,
+    "notes": "クライアントの分解表。",
+    "refs": [
+      {
+        "source": "jp-client-20261001"
+      }
+    ]
+  },
+  {
+    "id": "client-dis-268506591-0-0",
+    "type": "dismantle",
+    "result": "ウンブラの破壊されたハンマー",
+    "result_qty": 25,
+    "base": "ウンブラのタリスマン(ユニーク)",
+    "materials": [],
+    "gold": 100,
+    "notes": "クライアントの分解表。",
+    "refs": [
+      {
+        "source": "jp-client-20261001"
+      }
+    ]
+  },
+  {
+    "id": "client-dis-268506589-0-0",
+    "type": "dismantle",
+    "result": "ウンブラの破壊されたハンマー",
+    "result_qty": 12,
+    "base": "ウンブラのタリスマン(レア)",
+    "materials": [],
+    "gold": 100,
+    "notes": "クライアントの分解表。",
+    "refs": [
+      {
+        "source": "jp-client-20261001"
+      }
+    ]
+  },
+  {
+    "id": "client-dis-268506584-0-0",
+    "type": "dismantle",
+    "result": "オーガダパの破壊されたラッパ",
+    "result_qty": 9,
+    "base": "オーガダパのタリスマン(エピック)",
+    "materials": [],
+    "gold": 100,
+    "notes": "クライアントの分解表。",
+    "refs": [
+      {
+        "source": "jp-client-20261001"
+      }
+    ]
+  },
+  {
+    "id": "client-dis-268506581-0-0",
+    "type": "dismantle",
+    "result": "オーガダパの破壊されたラッパ",
+    "result_qty": 2,
+    "base": "オーガダパのタリスマン(ノーマル)",
+    "materials": [],
+    "gold": 100,
+    "notes": "クライアントの分解表。",
+    "refs": [
+      {
+        "source": "jp-client-20261001"
+      }
+    ]
+  },
+  {
+    "id": "client-dis-268506582-0-0",
+    "type": "dismantle",
+    "result": "オーガダパの破壊されたラッパ",
+    "result_qty": 4,
+    "base": "オーガダパのタリスマン(マジック)",
+    "materials": [],
+    "gold": 100,
+    "notes": "クライアントの分解表。",
+    "refs": [
+      {
+        "source": "jp-client-20261001"
+      }
+    ]
+  },
+  {
+    "id": "client-dis-268506585-0-0",
+    "type": "dismantle",
+    "result": "オーガダパの破壊されたラッパ",
+    "result_qty": 13,
+    "base": "オーガダパのタリスマン(ユニーク)",
+    "materials": [],
+    "gold": 100,
+    "notes": "クライアントの分解表。",
+    "refs": [
+      {
+        "source": "jp-client-20261001"
+      }
+    ]
+  },
+  {
+    "id": "client-dis-268506583-0-0",
+    "type": "dismantle",
+    "result": "オーガダパの破壊されたラッパ",
+    "result_qty": 6,
+    "base": "オーガダパのタリスマン(レア)",
+    "materials": [],
+    "gold": 100,
+    "notes": "クライアントの分解表。",
+    "refs": [
+      {
+        "source": "jp-client-20261001"
+      }
+    ]
+  },
+  {
+    "id": "client-dis-268514171-0-0",
+    "type": "dismantle",
+    "result": "残影の記録",
+    "result_qty": 5,
+    "base": "クアノスのタリスマン",
+    "materials": [],
+    "gold": 100,
+    "notes": "この分解表には 3 件の候補 (残影の記録×5・残影の記録×10・矛盾の宝石抽出液×1) があり、確率と出方 (1つだけか、それぞれ判定か) はクライアントのデータに無い。クライアントの分解表。",
+    "refs": [
+      {
+        "source": "jp-client-20261001"
+      }
+    ]
+  },
+  {
+    "id": "client-dis-268514171-0-1",
+    "type": "dismantle",
+    "result": "残影の記録",
+    "result_qty": 10,
+    "base": "クアノスのタリスマン",
+    "materials": [],
+    "gold": 100,
+    "notes": "この分解表には 3 件の候補 (残影の記録×5・残影の記録×10・矛盾の宝石抽出液×1) があり、確率と出方 (1つだけか、それぞれ判定か) はクライアントのデータに無い。クライアントの分解表。",
+    "refs": [
+      {
+        "source": "jp-client-20261001"
+      }
+    ]
+  },
+  {
+    "id": "client-dis-268514171-0-2",
+    "type": "dismantle",
+    "result": "矛盾の宝石抽出液",
+    "base": "クアノスのタリスマン",
+    "materials": [],
+    "gold": 100,
+    "notes": "この分解表には 3 件の候補 (残影の記録×5・残影の記録×10・矛盾の宝石抽出液×1) があり、確率と出方 (1つだけか、それぞれ判定か) はクライアントのデータに無い。クライアントの分解表。",
+    "refs": [
+      {
+        "source": "jp-client-20261001"
+      }
+    ]
+  },
+  {
+    "id": "client-dis-268514173-0-0",
+    "type": "dismantle",
+    "result": "残影の記録",
+    "result_qty": 5,
+    "base": "シャリカのタリスマン",
+    "materials": [],
+    "gold": 100,
+    "notes": "この分解表には 3 件の候補 (残影の記録×5・残影の記録×10・矛盾の宝石抽出液×1) があり、確率と出方 (1つだけか、それぞれ判定か) はクライアントのデータに無い。クライアントの分解表。",
+    "refs": [
+      {
+        "source": "jp-client-20261001"
+      }
+    ]
+  },
+  {
+    "id": "client-dis-268514173-0-1",
+    "type": "dismantle",
+    "result": "残影の記録",
+    "result_qty": 10,
+    "base": "シャリカのタリスマン",
+    "materials": [],
+    "gold": 100,
+    "notes": "この分解表には 3 件の候補 (残影の記録×5・残影の記録×10・矛盾の宝石抽出液×1) があり、確率と出方 (1つだけか、それぞれ判定か) はクライアントのデータに無い。クライアントの分解表。",
+    "refs": [
+      {
+        "source": "jp-client-20261001"
+      }
+    ]
+  },
+  {
+    "id": "client-dis-268514173-0-2",
+    "type": "dismantle",
+    "result": "矛盾の宝石抽出液",
+    "base": "シャリカのタリスマン",
+    "materials": [],
+    "gold": 100,
+    "notes": "この分解表には 3 件の候補 (残影の記録×5・残影の記録×10・矛盾の宝石抽出液×1) があり、確率と出方 (1つだけか、それぞれ判定か) はクライアントのデータに無い。クライアントの分解表。",
+    "refs": [
+      {
+        "source": "jp-client-20261001"
+      }
+    ]
+  },
+  {
+    "id": "client-dis-268506602-0-0",
+    "type": "dismantle",
+    "result": "ティタニオンの破壊されたエネルギー",
+    "result_qty": 36,
+    "base": "ティタニオンのタリスマン(エピック)",
+    "materials": [],
+    "gold": 100,
+    "notes": "クライアントの分解表。",
+    "refs": [
+      {
+        "source": "jp-client-20261001"
+      }
+    ]
+  },
+  {
+    "id": "client-dis-268506599-0-0",
+    "type": "dismantle",
+    "result": "ティタニオンの破壊されたエネルギー",
+    "result_qty": 6,
+    "base": "ティタニオンのタリスマン(ノーマル)",
+    "materials": [],
+    "gold": 100,
+    "notes": "クライアントの分解表。",
+    "refs": [
+      {
+        "source": "jp-client-20261001"
+      }
+    ]
+  },
+  {
+    "id": "client-dis-268506600-0-0",
+    "type": "dismantle",
+    "result": "ティタニオンの破壊されたエネルギー",
+    "result_qty": 14,
+    "base": "ティタニオンのタリスマン(マジック)",
+    "materials": [],
+    "gold": 100,
+    "notes": "クライアントの分解表。",
+    "refs": [
+      {
+        "source": "jp-client-20261001"
+      }
+    ]
+  },
+  {
+    "id": "client-dis-268506603-0-0",
+    "type": "dismantle",
+    "result": "ティタニオンの破壊されたエネルギー",
+    "result_qty": 50,
+    "base": "ティタニオンのタリスマン(ユニーク)",
+    "materials": [],
+    "gold": 100,
+    "notes": "クライアントの分解表。",
+    "refs": [
+      {
+        "source": "jp-client-20261001"
+      }
+    ]
+  },
+  {
+    "id": "client-dis-268506601-0-0",
+    "type": "dismantle",
+    "result": "ティタニオンの破壊されたエネルギー",
+    "result_qty": 24,
+    "base": "ティタニオンのタリスマン(レア)",
+    "materials": [],
+    "gold": 100,
+    "notes": "クライアントの分解表。",
+    "refs": [
+      {
+        "source": "jp-client-20261001"
+      }
+    ]
+  },
+  {
+    "id": "client-dis-268514175-0-0",
+    "type": "dismantle",
+    "result": "残影の記録",
+    "result_qty": 5,
+    "base": "ヘイズフロストドラゴンの完全なタリスマン",
+    "materials": [],
+    "gold": 100,
+    "notes": "この分解表には 3 件の候補 (残影の記録×5・残影の記録×10・矛盾の宝石抽出液×1) があり、確率と出方 (1つだけか、それぞれ判定か) はクライアントのデータに無い。クライアントの分解表。",
+    "refs": [
+      {
+        "source": "jp-client-20261001"
+      }
+    ]
+  },
+  {
+    "id": "client-dis-268514175-0-1",
+    "type": "dismantle",
+    "result": "残影の記録",
+    "result_qty": 10,
+    "base": "ヘイズフロストドラゴンの完全なタリスマン",
+    "materials": [],
+    "gold": 100,
+    "notes": "この分解表には 3 件の候補 (残影の記録×5・残影の記録×10・矛盾の宝石抽出液×1) があり、確率と出方 (1つだけか、それぞれ判定か) はクライアントのデータに無い。クライアントの分解表。",
+    "refs": [
+      {
+        "source": "jp-client-20261001"
+      }
+    ]
+  },
+  {
+    "id": "client-dis-268514175-0-2",
+    "type": "dismantle",
+    "result": "矛盾の宝石抽出液",
+    "base": "ヘイズフロストドラゴンの完全なタリスマン",
+    "materials": [],
+    "gold": 100,
+    "notes": "この分解表には 3 件の候補 (残影の記録×5・残影の記録×10・矛盾の宝石抽出液×1) があり、確率と出方 (1つだけか、それぞれ判定か) はクライアントのデータに無い。クライアントの分解表。",
+    "refs": [
+      {
+        "source": "jp-client-20261001"
+      }
+    ]
+  },
+  {
+    "id": "client-dis-268506596-0-0",
+    "type": "dismantle",
+    "result": "メルカの破壊されたソウルエナジー",
+    "result_qty": 27,
+    "base": "メルカのタリスマン(エピック)",
+    "materials": [],
+    "gold": 100,
+    "notes": "クライアントの分解表。",
+    "refs": [
+      {
+        "source": "jp-client-20261001"
+      }
+    ]
+  },
+  {
+    "id": "client-dis-268506593-0-0",
+    "type": "dismantle",
+    "result": "メルカの破壊されたソウルエナジー",
+    "result_qty": 5,
+    "base": "メルカのタリスマン(ノーマル)",
+    "materials": [],
+    "gold": 100,
+    "notes": "クライアントの分解表。",
+    "refs": [
+      {
+        "source": "jp-client-20261001"
+      }
+    ]
+  },
+  {
+    "id": "client-dis-268506594-0-0",
+    "type": "dismantle",
+    "result": "メルカの破壊されたソウルエナジー",
+    "result_qty": 11,
+    "base": "メルカのタリスマン(マジック)",
+    "materials": [],
+    "gold": 100,
+    "notes": "クライアントの分解表。",
+    "refs": [
+      {
+        "source": "jp-client-20261001"
+      }
+    ]
+  },
+  {
+    "id": "client-dis-268506597-0-0",
+    "type": "dismantle",
+    "result": "メルカの破壊されたソウルエナジー",
+    "result_qty": 38,
+    "base": "メルカのタリスマン(ユニーク)",
+    "materials": [],
+    "gold": 100,
+    "notes": "クライアントの分解表。",
+    "refs": [
+      {
+        "source": "jp-client-20261001"
+      }
+    ]
+  },
+  {
+    "id": "client-dis-268506595-0-0",
+    "type": "dismantle",
+    "result": "メルカの破壊されたソウルエナジー",
+    "result_qty": 18,
+    "base": "メルカのタリスマン(レア)",
+    "materials": [],
+    "gold": 100,
+    "notes": "クライアントの分解表。",
+    "refs": [
+      {
+        "source": "jp-client-20261001"
+      }
+    ]
+  },
+  {
+    "id": "client-dis-268484393-0-0",
+    "type": "dismantle",
+    "result": "幽幻の核",
+    "base": "幽幻の竜珠",
+    "materials": [],
+    "gold": 0.01,
+    "notes": "強化 +0～+14 のとき。この段階の分解表には 3 件の候補 (幽幻の核×1・幽幻の核×2・高純度の幽幻の核×1) があり、確率と出方 (1つだけか、それぞれ判定か) はクライアントのデータに無い。クライアントの分解表。",
+    "refs": [
+      {
+        "source": "jp-client-20261001"
+      }
+    ]
+  },
+  {
+    "id": "client-dis-268484393-0-1",
+    "type": "dismantle",
+    "result": "幽幻の核",
+    "result_qty": 2,
+    "base": "幽幻の竜珠",
+    "materials": [],
+    "gold": 0.01,
+    "notes": "強化 +0～+14 のとき。この段階の分解表には 3 件の候補 (幽幻の核×1・幽幻の核×2・高純度の幽幻の核×1) があり、確率と出方 (1つだけか、それぞれ判定か) はクライアントのデータに無い。クライアントの分解表。",
+    "refs": [
+      {
+        "source": "jp-client-20261001"
+      }
+    ]
+  },
+  {
+    "id": "client-dis-268484393-0-2",
+    "type": "dismantle",
+    "result": "高純度の幽幻の核",
+    "base": "幽幻の竜珠",
+    "materials": [],
+    "gold": 0.01,
+    "notes": "強化 +0～+14 のとき。この段階の分解表には 3 件の候補 (幽幻の核×1・幽幻の核×2・高純度の幽幻の核×1) があり、確率と出方 (1つだけか、それぞれ判定か) はクライアントのデータに無い。クライアントの分解表。",
+    "refs": [
+      {
+        "source": "jp-client-20261001"
+      }
+    ]
+  },
+  {
+    "id": "client-dis-268484393-1-0",
+    "type": "dismantle",
+    "result": "高純度の幽幻の核",
+    "base": "幽幻の竜珠",
+    "materials": [],
+    "gold": 0.01,
+    "notes": "強化 +15 のとき。この段階の分解表には 3 件の候補 (高純度の幽幻の核×1・無欠の核×1・無欠の核×3) があり、確率と出方 (1つだけか、それぞれ判定か) はクライアントのデータに無い。クライアントの分解表。",
+    "refs": [
+      {
+        "source": "jp-client-20261001"
+      }
+    ]
+  },
+  {
+    "id": "client-dis-268484393-1-1",
+    "type": "dismantle",
+    "result": "無欠の核",
+    "base": "幽幻の竜珠",
+    "materials": [],
+    "gold": 0.01,
+    "notes": "強化 +15 のとき。この段階の分解表には 3 件の候補 (高純度の幽幻の核×1・無欠の核×1・無欠の核×3) があり、確率と出方 (1つだけか、それぞれ判定か) はクライアントのデータに無い。クライアントの分解表。",
+    "refs": [
+      {
+        "source": "jp-client-20261001"
+      }
+    ]
+  },
+  {
+    "id": "client-dis-268484393-1-2",
+    "type": "dismantle",
+    "result": "無欠の核",
+    "result_qty": 3,
+    "base": "幽幻の竜珠",
+    "materials": [],
+    "gold": 0.01,
+    "notes": "強化 +15 のとき。この段階の分解表には 3 件の候補 (高純度の幽幻の核×1・無欠の核×1・無欠の核×3) があり、確率と出方 (1つだけか、それぞれ判定か) はクライアントのデータに無い。クライアントの分解表。",
+    "refs": [
+      {
+        "source": "jp-client-20261001"
+      }
+    ]
+  },
+  {
+    "id": "client-dis-268490044-0-0",
+    "type": "dismantle",
+    "result": "新緑の核",
+    "base": "新緑の竜珠",
+    "materials": [],
+    "gold": 0.01,
+    "notes": "強化 +0～+14 のとき。この段階の分解表には 3 件の候補 (新緑の核×1・新緑の核×2・高純度の新緑の核×1) があり、確率と出方 (1つだけか、それぞれ判定か) はクライアントのデータに無い。クライアントの分解表。",
+    "refs": [
+      {
+        "source": "jp-client-20261001"
+      }
+    ]
+  },
+  {
+    "id": "client-dis-268490044-0-1",
+    "type": "dismantle",
+    "result": "新緑の核",
+    "result_qty": 2,
+    "base": "新緑の竜珠",
+    "materials": [],
+    "gold": 0.01,
+    "notes": "強化 +0～+14 のとき。この段階の分解表には 3 件の候補 (新緑の核×1・新緑の核×2・高純度の新緑の核×1) があり、確率と出方 (1つだけか、それぞれ判定か) はクライアントのデータに無い。クライアントの分解表。",
+    "refs": [
+      {
+        "source": "jp-client-20261001"
+      }
+    ]
+  },
+  {
+    "id": "client-dis-268490044-0-2",
+    "type": "dismantle",
+    "result": "高純度の新緑の核",
+    "base": "新緑の竜珠",
+    "materials": [],
+    "gold": 0.01,
+    "notes": "強化 +0～+14 のとき。この段階の分解表には 3 件の候補 (新緑の核×1・新緑の核×2・高純度の新緑の核×1) があり、確率と出方 (1つだけか、それぞれ判定か) はクライアントのデータに無い。クライアントの分解表。",
+    "refs": [
+      {
+        "source": "jp-client-20261001"
+      }
+    ]
+  },
+  {
+    "id": "client-dis-268490044-1-0",
+    "type": "dismantle",
+    "result": "高純度の新緑の核",
+    "base": "新緑の竜珠",
+    "materials": [],
+    "gold": 0.01,
+    "notes": "強化 +15 のとき。この段階の分解表には 3 件の候補 (高純度の新緑の核×1・無欠の核×1・無欠の核×3) があり、確率と出方 (1つだけか、それぞれ判定か) はクライアントのデータに無い。クライアントの分解表。",
+    "refs": [
+      {
+        "source": "jp-client-20261001"
+      }
+    ]
+  },
+  {
+    "id": "client-dis-268490044-1-1",
+    "type": "dismantle",
+    "result": "無欠の核",
+    "base": "新緑の竜珠",
+    "materials": [],
+    "gold": 0.01,
+    "notes": "強化 +15 のとき。この段階の分解表には 3 件の候補 (高純度の新緑の核×1・無欠の核×1・無欠の核×3) があり、確率と出方 (1つだけか、それぞれ判定か) はクライアントのデータに無い。クライアントの分解表。",
+    "refs": [
+      {
+        "source": "jp-client-20261001"
+      }
+    ]
+  },
+  {
+    "id": "client-dis-268490044-1-2",
+    "type": "dismantle",
+    "result": "無欠の核",
+    "result_qty": 3,
+    "base": "新緑の竜珠",
+    "materials": [],
+    "gold": 0.01,
+    "notes": "強化 +15 のとき。この段階の分解表には 3 件の候補 (高純度の新緑の核×1・無欠の核×1・無欠の核×3) があり、確率と出方 (1つだけか、それぞれ判定か) はクライアントのデータに無い。クライアントの分解表。",
+    "refs": [
+      {
+        "source": "jp-client-20261001"
+      }
+    ]
+  },
+  {
+    "id": "client-dis-268501359-0-0",
+    "type": "dismantle",
+    "result": "月食のノーマル竜珠のかけら袋(サブウェポン)",
+    "base": "月食のサブウェポン防御竜珠(ノーマル)",
+    "materials": [],
+    "gold": 1,
+    "notes": "クライアントの分解表。",
+    "refs": [
+      {
+        "source": "jp-client-20261001"
+      }
+    ]
+  },
+  {
+    "id": "client-dis-268501360-0-0",
+    "type": "dismantle",
+    "result": "月食のマジック竜珠のかけら袋(サブウェポン)",
+    "base": "月食のサブウェポン防御竜珠(マジック)",
+    "materials": [],
+    "gold": 1,
+    "notes": "クライアントの分解表。",
+    "refs": [
+      {
+        "source": "jp-client-20261001"
+      }
+    ]
+  },
+  {
+    "id": "client-dis-268501727-0-0",
+    "type": "dismantle",
+    "result": "月食のノーマル竜珠のかけら袋(メインウェポン)",
+    "base": "月食のメインウェポン防御竜珠(ノーマル)",
+    "materials": [],
+    "gold": 1,
+    "notes": "クライアントの分解表。",
+    "refs": [
+      {
+        "source": "jp-client-20261001"
+      }
+    ]
+  },
+  {
+    "id": "client-dis-268501732-0-0",
+    "type": "dismantle",
+    "result": "月食のマジック竜珠のかけら袋(メインウェポン)",
+    "base": "月食のメインウェポン防御竜珠(マジック)",
+    "materials": [],
+    "gold": 1,
+    "notes": "クライアントの分解表。",
+    "refs": [
+      {
+        "source": "jp-client-20261001"
+      }
+    ]
+  },
+  {
+    "id": "client-dis-268506726-0-0",
+    "type": "dismantle",
+    "result": "永遠のタリスマンの核(1段階)",
+    "base": "永遠の加護のタリスマン(1段階)",
+    "materials": [],
+    "notes": "クライアントの分解表。",
+    "refs": [
+      {
+        "source": "jp-client-20261001"
+      }
+    ]
+  },
+  {
+    "id": "client-dis-268506727-0-0",
+    "type": "dismantle",
+    "result": "永遠のタリスマンの核(2段階)",
+    "base": "永遠の加護のタリスマン(2段階)",
+    "materials": [],
+    "notes": "クライアントの分解表。",
+    "refs": [
+      {
+        "source": "jp-client-20261001"
+      }
+    ]
+  },
+  {
+    "id": "client-dis-268506728-0-0",
+    "type": "dismantle",
+    "result": "永遠のタリスマンの核(3段階)",
+    "base": "永遠の加護のタリスマン(3段階)",
+    "materials": [],
+    "notes": "クライアントの分解表。",
+    "refs": [
+      {
+        "source": "jp-client-20261001"
+      }
+    ]
+  },
+  {
+    "id": "client-dis-268506729-0-0",
+    "type": "dismantle",
+    "result": "永遠のタリスマンの核(4段階)",
+    "base": "永遠の加護のタリスマン(4段階)",
+    "materials": [],
+    "notes": "クライアントの分解表。",
+    "refs": [
+      {
+        "source": "jp-client-20261001"
+      }
+    ]
+  },
+  {
+    "id": "client-dis-268506751-0-0",
+    "type": "dismantle",
+    "result": "永遠のタリスマンの核(1段階)",
+    "base": "永遠の生命のタリスマン(1段階)",
+    "materials": [],
+    "notes": "クライアントの分解表。",
+    "refs": [
+      {
+        "source": "jp-client-20261001"
+      }
+    ]
+  },
+  {
+    "id": "client-dis-268506752-0-0",
+    "type": "dismantle",
+    "result": "永遠のタリスマンの核(2段階)",
+    "base": "永遠の生命のタリスマン(2段階)",
+    "materials": [],
+    "notes": "クライアントの分解表。",
+    "refs": [
+      {
+        "source": "jp-client-20261001"
+      }
+    ]
+  },
+  {
+    "id": "client-dis-268506753-0-0",
+    "type": "dismantle",
+    "result": "永遠のタリスマンの核(3段階)",
+    "base": "永遠の生命のタリスマン(3段階)",
+    "materials": [],
+    "notes": "クライアントの分解表。",
+    "refs": [
+      {
+        "source": "jp-client-20261001"
+      }
+    ]
+  },
+  {
+    "id": "client-dis-268506754-0-0",
+    "type": "dismantle",
+    "result": "永遠のタリスマンの核(4段階)",
+    "base": "永遠の生命のタリスマン(4段階)",
+    "materials": [],
+    "notes": "クライアントの分解表。",
+    "refs": [
+      {
+        "source": "jp-client-20261001"
+      }
+    ]
+  },
+  {
+    "id": "client-dis-268506731-0-0",
+    "type": "dismantle",
+    "result": "永遠のタリスマンの核(1段階)",
+    "base": "永遠の破壊のタリスマン(1段階)",
+    "materials": [],
+    "notes": "クライアントの分解表。",
+    "refs": [
+      {
+        "source": "jp-client-20261001"
+      }
+    ]
+  },
+  {
+    "id": "client-dis-268506732-0-0",
+    "type": "dismantle",
+    "result": "永遠のタリスマンの核(2段階)",
+    "base": "永遠の破壊のタリスマン(2段階)",
+    "materials": [],
+    "notes": "クライアントの分解表。",
+    "refs": [
+      {
+        "source": "jp-client-20261001"
+      }
+    ]
+  },
+  {
+    "id": "client-dis-268506733-0-0",
+    "type": "dismantle",
+    "result": "永遠のタリスマンの核(3段階)",
+    "base": "永遠の破壊のタリスマン(3段階)",
+    "materials": [],
+    "notes": "クライアントの分解表。",
+    "refs": [
+      {
+        "source": "jp-client-20261001"
+      }
+    ]
+  },
+  {
+    "id": "client-dis-268506734-0-0",
+    "type": "dismantle",
+    "result": "永遠のタリスマンの核(4段階)",
+    "base": "永遠の破壊のタリスマン(4段階)",
+    "materials": [],
+    "notes": "クライアントの分解表。",
+    "refs": [
+      {
+        "source": "jp-client-20261001"
+      }
+    ]
+  },
+  {
+    "id": "client-dis-268506741-0-0",
+    "type": "dismantle",
+    "result": "永遠のタリスマンの核(1段階)",
+    "base": "永遠の致命のタリスマン(1段階)",
+    "materials": [],
+    "notes": "クライアントの分解表。",
+    "refs": [
+      {
+        "source": "jp-client-20261001"
+      }
+    ]
+  },
+  {
+    "id": "client-dis-268506742-0-0",
+    "type": "dismantle",
+    "result": "永遠のタリスマンの核(2段階)",
+    "base": "永遠の致命のタリスマン(2段階)",
+    "materials": [],
+    "notes": "クライアントの分解表。",
+    "refs": [
+      {
+        "source": "jp-client-20261001"
+      }
+    ]
+  },
+  {
+    "id": "client-dis-268506743-0-0",
+    "type": "dismantle",
+    "result": "永遠のタリスマンの核(3段階)",
+    "base": "永遠の致命のタリスマン(3段階)",
+    "materials": [],
+    "notes": "クライアントの分解表。",
+    "refs": [
+      {
+        "source": "jp-client-20261001"
+      }
+    ]
+  },
+  {
+    "id": "client-dis-268506744-0-0",
+    "type": "dismantle",
+    "result": "永遠のタリスマンの核(4段階)",
+    "base": "永遠の致命のタリスマン(4段階)",
+    "materials": [],
+    "notes": "クライアントの分解表。",
+    "refs": [
+      {
+        "source": "jp-client-20261001"
+      }
+    ]
+  },
+  {
+    "id": "client-dis-268506736-0-0",
+    "type": "dismantle",
+    "result": "永遠のタリスマンの核(1段階)",
+    "base": "永遠の鉄壁のタリスマン(1段階)",
+    "materials": [],
+    "notes": "クライアントの分解表。",
+    "refs": [
+      {
+        "source": "jp-client-20261001"
+      }
+    ]
+  },
+  {
+    "id": "client-dis-268506737-0-0",
+    "type": "dismantle",
+    "result": "永遠のタリスマンの核(2段階)",
+    "base": "永遠の鉄壁のタリスマン(2段階)",
+    "materials": [],
+    "notes": "クライアントの分解表。",
+    "refs": [
+      {
+        "source": "jp-client-20261001"
+      }
+    ]
+  },
+  {
+    "id": "client-dis-268506738-0-0",
+    "type": "dismantle",
+    "result": "永遠のタリスマンの核(3段階)",
+    "base": "永遠の鉄壁のタリスマン(3段階)",
+    "materials": [],
+    "notes": "クライアントの分解表。",
+    "refs": [
+      {
+        "source": "jp-client-20261001"
+      }
+    ]
+  },
+  {
+    "id": "client-dis-268506739-0-0",
+    "type": "dismantle",
+    "result": "永遠のタリスマンの核(4段階)",
+    "base": "永遠の鉄壁のタリスマン(4段階)",
+    "materials": [],
+    "notes": "クライアントの分解表。",
+    "refs": [
+      {
+        "source": "jp-client-20261001"
+      }
+    ]
+  },
+  {
+    "id": "client-dis-268506746-0-0",
+    "type": "dismantle",
+    "result": "永遠のタリスマンの核(1段階)",
+    "base": "永遠の限界のタリスマン(1段階)",
+    "materials": [],
+    "notes": "クライアントの分解表。",
+    "refs": [
+      {
+        "source": "jp-client-20261001"
+      }
+    ]
+  },
+  {
+    "id": "client-dis-268506747-0-0",
+    "type": "dismantle",
+    "result": "永遠のタリスマンの核(2段階)",
+    "base": "永遠の限界のタリスマン(2段階)",
+    "materials": [],
+    "notes": "クライアントの分解表。",
+    "refs": [
+      {
+        "source": "jp-client-20261001"
+      }
+    ]
+  },
+  {
+    "id": "client-dis-268506748-0-0",
+    "type": "dismantle",
+    "result": "永遠のタリスマンの核(3段階)",
+    "base": "永遠の限界のタリスマン(3段階)",
+    "materials": [],
+    "notes": "クライアントの分解表。",
+    "refs": [
+      {
+        "source": "jp-client-20261001"
+      }
+    ]
+  },
+  {
+    "id": "client-dis-268506749-0-0",
+    "type": "dismantle",
+    "result": "永遠のタリスマンの核(4段階)",
+    "base": "永遠の限界のタリスマン(4段階)",
+    "materials": [],
+    "notes": "クライアントの分解表。",
+    "refs": [
+      {
+        "source": "jp-client-20261001"
+      }
+    ]
+  },
+  {
+    "id": "client-dis-268506721-0-0",
+    "type": "dismantle",
+    "result": "永遠のタリスマンの核(1段階)",
+    "base": "永遠の魔力のタリスマン(1段階)",
+    "materials": [],
+    "notes": "クライアントの分解表。",
+    "refs": [
+      {
+        "source": "jp-client-20261001"
+      }
+    ]
+  },
+  {
+    "id": "client-dis-268506722-0-0",
+    "type": "dismantle",
+    "result": "永遠のタリスマンの核(2段階)",
+    "base": "永遠の魔力のタリスマン(2段階)",
+    "materials": [],
+    "notes": "クライアントの分解表。",
+    "refs": [
+      {
+        "source": "jp-client-20261001"
+      }
+    ]
+  },
+  {
+    "id": "client-dis-268506723-0-0",
+    "type": "dismantle",
+    "result": "永遠のタリスマンの核(3段階)",
+    "base": "永遠の魔力のタリスマン(3段階)",
+    "materials": [],
+    "notes": "クライアントの分解表。",
+    "refs": [
+      {
+        "source": "jp-client-20261001"
+      }
+    ]
+  },
+  {
+    "id": "client-dis-268506724-0-0",
+    "type": "dismantle",
+    "result": "永遠のタリスマンの核(4段階)",
+    "base": "永遠の魔力のタリスマン(4段階)",
+    "materials": [],
+    "notes": "クライアントの分解表。",
+    "refs": [
+      {
+        "source": "jp-client-20261001"
+      }
+    ]
+  },
+  {
+    "id": "client-dis-268509392-0-0",
+    "type": "dismantle",
+    "result": "異界の核",
+    "base": "異界の竜珠",
+    "materials": [],
+    "gold": 0.01,
+    "notes": "強化 +0～+14 のとき。この段階の分解表には 3 件の候補 (異界の核×1・異界の核×2・高純度の異界の核×1) があり、確率と出方 (1つだけか、それぞれ判定か) はクライアントのデータに無い。クライアントの分解表。",
+    "refs": [
+      {
+        "source": "jp-client-20261001"
+      }
+    ]
+  },
+  {
+    "id": "client-dis-268509392-0-1",
+    "type": "dismantle",
+    "result": "異界の核",
+    "result_qty": 2,
+    "base": "異界の竜珠",
+    "materials": [],
+    "gold": 0.01,
+    "notes": "強化 +0～+14 のとき。この段階の分解表には 3 件の候補 (異界の核×1・異界の核×2・高純度の異界の核×1) があり、確率と出方 (1つだけか、それぞれ判定か) はクライアントのデータに無い。クライアントの分解表。",
+    "refs": [
+      {
+        "source": "jp-client-20261001"
+      }
+    ]
+  },
+  {
+    "id": "client-dis-268509392-0-2",
+    "type": "dismantle",
+    "result": "高純度の異界の核",
+    "base": "異界の竜珠",
+    "materials": [],
+    "gold": 0.01,
+    "notes": "強化 +0～+14 のとき。この段階の分解表には 3 件の候補 (異界の核×1・異界の核×2・高純度の異界の核×1) があり、確率と出方 (1つだけか、それぞれ判定か) はクライアントのデータに無い。クライアントの分解表。",
+    "refs": [
+      {
+        "source": "jp-client-20261001"
+      }
+    ]
+  },
+  {
+    "id": "client-dis-268509392-1-0",
+    "type": "dismantle",
+    "result": "高純度の異界の核",
+    "base": "異界の竜珠",
+    "materials": [],
+    "gold": 0.01,
+    "notes": "強化 +15 のとき。この段階の分解表には 3 件の候補 (高純度の異界の核×1・無欠の核×1・無欠の核×3) があり、確率と出方 (1つだけか、それぞれ判定か) はクライアントのデータに無い。クライアントの分解表。",
+    "refs": [
+      {
+        "source": "jp-client-20261001"
+      }
+    ]
+  },
+  {
+    "id": "client-dis-268509392-1-1",
+    "type": "dismantle",
+    "result": "無欠の核",
+    "base": "異界の竜珠",
+    "materials": [],
+    "gold": 0.01,
+    "notes": "強化 +15 のとき。この段階の分解表には 3 件の候補 (高純度の異界の核×1・無欠の核×1・無欠の核×3) があり、確率と出方 (1つだけか、それぞれ判定か) はクライアントのデータに無い。クライアントの分解表。",
+    "refs": [
+      {
+        "source": "jp-client-20261001"
+      }
+    ]
+  },
+  {
+    "id": "client-dis-268509392-1-2",
+    "type": "dismantle",
+    "result": "無欠の核",
+    "result_qty": 3,
+    "base": "異界の竜珠",
+    "materials": [],
+    "gold": 0.01,
+    "notes": "強化 +15 のとき。この段階の分解表には 3 件の候補 (高純度の異界の核×1・無欠の核×1・無欠の核×3) があり、確率と出方 (1つだけか、それぞれ判定か) はクライアントのデータに無い。クライアントの分解表。",
+    "refs": [
+      {
+        "source": "jp-client-20261001"
+      }
+    ]
+  },
+  {
+    "id": "client-dis-268484975-0-0",
+    "type": "dismantle",
+    "result": "紅月の核",
+    "base": "紅月の竜珠",
+    "materials": [],
+    "gold": 0.01,
+    "notes": "強化 +0～+14 のとき。この段階の分解表には 3 件の候補 (紅月の核×1・紅月の核×2・高純度の紅月の核×1) があり、確率と出方 (1つだけか、それぞれ判定か) はクライアントのデータに無い。クライアントの分解表。",
+    "refs": [
+      {
+        "source": "jp-client-20261001"
+      }
+    ]
+  },
+  {
+    "id": "client-dis-268484975-0-1",
+    "type": "dismantle",
+    "result": "紅月の核",
+    "result_qty": 2,
+    "base": "紅月の竜珠",
+    "materials": [],
+    "gold": 0.01,
+    "notes": "強化 +0～+14 のとき。この段階の分解表には 3 件の候補 (紅月の核×1・紅月の核×2・高純度の紅月の核×1) があり、確率と出方 (1つだけか、それぞれ判定か) はクライアントのデータに無い。クライアントの分解表。",
+    "refs": [
+      {
+        "source": "jp-client-20261001"
+      }
+    ]
+  },
+  {
+    "id": "client-dis-268484975-0-2",
+    "type": "dismantle",
+    "result": "高純度の紅月の核",
+    "base": "紅月の竜珠",
+    "materials": [],
+    "gold": 0.01,
+    "notes": "強化 +0～+14 のとき。この段階の分解表には 3 件の候補 (紅月の核×1・紅月の核×2・高純度の紅月の核×1) があり、確率と出方 (1つだけか、それぞれ判定か) はクライアントのデータに無い。クライアントの分解表。",
+    "refs": [
+      {
+        "source": "jp-client-20261001"
+      }
+    ]
+  },
+  {
+    "id": "client-dis-268484975-1-0",
+    "type": "dismantle",
+    "result": "高純度の紅月の核",
+    "base": "紅月の竜珠",
+    "materials": [],
+    "gold": 0.01,
+    "notes": "強化 +15 のとき。この段階の分解表には 3 件の候補 (高純度の紅月の核×1・無欠の核×1・無欠の核×3) があり、確率と出方 (1つだけか、それぞれ判定か) はクライアントのデータに無い。クライアントの分解表。",
+    "refs": [
+      {
+        "source": "jp-client-20261001"
+      }
+    ]
+  },
+  {
+    "id": "client-dis-268484975-1-1",
+    "type": "dismantle",
+    "result": "無欠の核",
+    "base": "紅月の竜珠",
+    "materials": [],
+    "gold": 0.01,
+    "notes": "強化 +15 のとき。この段階の分解表には 3 件の候補 (高純度の紅月の核×1・無欠の核×1・無欠の核×3) があり、確率と出方 (1つだけか、それぞれ判定か) はクライアントのデータに無い。クライアントの分解表。",
+    "refs": [
+      {
+        "source": "jp-client-20261001"
+      }
+    ]
+  },
+  {
+    "id": "client-dis-268484975-1-2",
+    "type": "dismantle",
+    "result": "無欠の核",
+    "result_qty": 3,
+    "base": "紅月の竜珠",
+    "materials": [],
+    "gold": 0.01,
+    "notes": "強化 +15 のとき。この段階の分解表には 3 件の候補 (高純度の紅月の核×1・無欠の核×1・無欠の核×3) があり、確率と出方 (1つだけか、それぞれ判定か) はクライアントのデータに無い。クライアントの分解表。",
+    "refs": [
+      {
+        "source": "jp-client-20261001"
+      }
+    ]
   }
 ]

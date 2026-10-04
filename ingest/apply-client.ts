@@ -12,6 +12,9 @@
 //    強化表の無いアイテムには、強化 ID ごとの表 (client-enh-<強化ID>) を作る。
 //  - レシピ: 照合できたもの (itemcompoundtable) はゴールド・成功率・素材の個数をクライアント値にする。
 //  - セット効果: data/sets.json をクライアント値で作る。
+//  - 分解: 告知の分解レシピが無い装備に、クライアントの分解表からレシピ (client-dis-*) を作る。
+//  - クリア報酬: ダンジョンのクリア報酬の箱 (金箱・銀箱) の表 (client-clear-*) を作る。
+//    ドロップ表の確率はクライアントで 0 にされているので、分解とクリア報酬は出る候補と個数だけ。
 //  - 能力値の名前は表記ゆれを 1 つに揃える (STAT_NAMES)。
 // export.json は非公開のツール (dnr-client) が書き出す。npm run merge / rename:ids の後は export.py → apply:client を再実行する。
 import { readFile, writeFile } from "node:fs/promises";
@@ -42,7 +45,13 @@ interface Export {
   // 製作: compound_id / 交換: shop_row (+where, result_qty) / 進化: change_row (+accelerators)
   recipes: Record<string, { compound_id?: number; shop_row?: number; change_row?: number; rate?: number; gold?: number; materials?: { item: string; qty: number }[]; where?: string; result_qty?: number; accelerators?: string[] }>;
   new_recipes: (Omit<Recipe, "refs"> & { accelerators?: string[] })[];
-  boxes: Record<string, { client_id: number; select: boolean; entries: { item: string; qty: number; rate?: number }[] }>;
+  // all: 中身を全て獲得する袋 (_Type 112)
+  boxes: Record<string, { client_id: number; select: boolean; all?: boolean; entries: { item: string; qty: number; rate?: number }[] }>;
+  // 分解の結果 (確率はクライアントに無い)。levels は強化段階の範囲 [from, to]
+  // plus0_only: 強化できる装備だが +0 の分解表しか無い
+  dismantles?: Record<string, { client_id: number; gold?: number; plus0_only?: boolean; rows: { levels: [number, number]; entries: { item: string; qty: number }[] }[] }>;
+  // ダンジョンのクリア報酬の箱 (確率はクライアントに無い)。counts は箱の種類ごとの個数
+  clears?: Record<string, { clear_id: number; show: number; select: number; counts: Record<string, number>; boxes: { box: string; floors?: string; entries: { item: string; qty: number }[] }[] }[]>;
   materials: Record<string, { client_id: number; kind: string; grade?: string; description?: string }>;
   sets: Record<string, { name: string | null; text: string | null; bonuses: { count: number; stats?: CStat[]; skill?: string }[]; items: string[] }>;
   // 総称のアイテム → 中身 (説明文「次の N種のアイテムが登場する。」)
@@ -618,23 +627,84 @@ const drops = await readJson<DropTable[]>("data/drops.json");
       id,
       location: name,
       location_kind: "box",
-      label: b.select ? "選択" : "中身",
+      label: b.select ? "選択" : b.all ? "中身 (全て獲得)" : "中身",
       entries: b.entries.map((e) => ({
         item: e.item,
-        ...(e.rate !== undefined ? { rate: e.rate } : b.select ? { rate_text: "選択" } : {}),
+        ...(e.rate !== undefined ? { rate: e.rate } : b.select ? { rate_text: "選択" } : b.all ? { rate_text: "確定" } : {}),
         ...(e.qty !== 1 ? { qty: e.qty } : {}),
       })),
       notes: b.select
         ? "中身から1つを選んで獲得 (クライアントのデータ)。"
-        : anyRate
-          ? "確率はクライアントのデータの重みから計算した値。"
-          : "クライアントのデータに確率の値が無い (均等かどうかは不明)。",
+        : b.all
+          ? "中身を全て獲得する袋 (クライアントのデータ)。"
+          : anyRate
+            ? "確率はクライアントのデータの重みから計算した値。"
+            : "クライアントのデータに確率の値が無い (均等かどうかは不明)。",
       refs: [{ source: SRC }],
     };
     if (prev >= 0) drops[prev] = table;
     else {
       drops.push(table);
       inc("box.new");
+    }
+  }
+}
+
+// ---- 分解 ----
+// 告知の分解レシピがある装備は告知のまま。クライアントの分解表は段階の範囲ごとに、出る候補 1 件につき 1 レシピ
+{
+  for (let i = recipes.length - 1; i >= 0; i--) if (recipes[i].id.startsWith("client-dis-")) recipes.splice(i, 1);
+  const noticeBases = new Set(recipes.filter((r) => r.type === "dismantle" && r.base).map((r) => r.base!));
+  for (const [base, d] of Object.entries(ex.dismantles ?? {})) {
+    if (!allIds.has(base)) continue;
+    if (noticeBases.has(base)) {
+      if (verbose) log.push(`分解 ${base}: 告知のレシピがあるのでクライアントの分解表は使わない`);
+      continue;
+    }
+    const whole = d.rows.length === 1;
+    d.rows.forEach((row, ri) => {
+      const [a, b] = row.levels;
+      const lv = d.plus0_only ? "クライアントには +0 の分解表だけがある (強化段階ごとの表は無い)。" : whole ? "" : a === b ? `強化 +${a} のとき。` : `強化 +${a}～+${b} のとき。`;
+      const cand = row.entries.length > 1
+        ? `この${whole ? "" : "段階の"}分解表には ${row.entries.length} 件の候補 (${row.entries.map((e) => `${e.item}×${e.qty}`).join("・")}) があり、確率と出方 (1つだけか、それぞれ判定か) はクライアントのデータに無い。`
+        : "";
+      row.entries.forEach((e, ei) => {
+        recipes.push({
+          id: `client-dis-${d.client_id}-${ri}-${ei}`,
+          type: "dismantle",
+          result: e.item,
+          ...(e.qty > 1 ? { result_qty: e.qty } : {}),
+          base,
+          materials: [],
+          ...(d.gold ? { gold: d.gold } : {}),
+          notes: [lv, cand, "クライアントの分解表。"].filter(Boolean).join(""),
+          refs: [{ source: SRC }],
+        });
+        inc("dismantle");
+      });
+    });
+  }
+}
+
+// ---- クリア報酬の箱 ----
+{
+  for (let i = drops.length - 1; i >= 0; i--) if (drops[i].id.startsWith("client-clear-")) drops.splice(i, 1);
+  for (const [dungeon, ts] of Object.entries(ex.clears ?? {})) {
+    for (const t of ts) {
+      const counts = Object.entries(t.counts).map(([k, v]) => `${k}${v}`).join("・");
+      const head = t.show ? `クリア時に箱が${t.show}個並び${t.select ? `、${t.select}個を選ぶ` : ""}${counts ? ` (${counts})` : ""}。` : "";
+      let id = `client-clear-${t.clear_id}`;
+      if (drops.some((x) => x.id === id)) id += `-${drops.filter((x) => x.id.startsWith(id)).length}`;
+      drops.push({
+        id,
+        location: dungeon,
+        location_kind: "dungeon",
+        label: "クリア報酬の箱 (候補)",
+        entries: t.boxes.flatMap((b) => b.entries.map((e) => ({ item: e.item, from: b.box, ...(b.floors ? { floors: b.floors } : {}), qty: e.qty }))),
+        notes: `${head}クライアントのデータには確率が無い (0 で配布されている) ため、出る候補と個数だけを載せている。同じ箱・階層に同じアイテムが個数違いで並ぶものは、どの個数が出るかの確率が不明。`,
+        refs: [{ source: SRC }],
+      });
+      inc("clear");
     }
   }
 }

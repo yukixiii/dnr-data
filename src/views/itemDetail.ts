@@ -286,7 +286,10 @@ export function renderItemDetail(id: string) {
   const tag = (x: string) => (group ? `<span class="chip member" title="${esc(x)}">${esc(memberLabel(x))}</span> ` : "");
   const uniq = <T>(arr: T[]) => [...new Set(arr)];
 
-  const nextTier = uniq(ids.flatMap((x) => recipesByBase.get(x) ?? [])).filter((r) => !isIntra(r));
+  const fromBase = uniq(ids.flatMap((x) => recipesByBase.get(x) ?? []));
+  const nextTier = fromBase.filter((r) => !isIntra(r) && r.type !== "dismantle");
+  const dismantles = fromBase.filter((r) => r.type === "dismantle");
+  const dismantledFrom = uniq(ids.flatMap((x) => recipesByResult.get(x) ?? [])).filter((r) => r.type === "dismantle");
   const usedIn = uniq(ids.flatMap((x) => recipesByMaterial.get(x) ?? []));
   const tables = newestFirst(uniq(ids.flatMap((x) => tablesByItem.get(x) ?? [])));
   const tablesUsing = uniq(ids.flatMap((x) => tablesByMaterial.get(x) ?? []));
@@ -339,6 +342,18 @@ export function renderItemDetail(id: string) {
       .join("")}</ul></section>`);
   }
 
+  if (dismantles.length) {
+    // 同じ装備・同じ段階の候補 (注記が同じレシピ) は 1 行にまとめる
+    const rows = new Map<string, typeof dismantles>();
+    for (const r of dismantles) {
+      const k = `${r.base} ${r.notes ?? ""} ${r.gold ?? ""}`;
+      rows.set(k, [...(rows.get(k) ?? []), r]);
+    }
+    sections.push(`<section><h2>分解</h2><ul class="plain">${[...rows.values()]
+      .map((rs) => `<li>${tag(rs[0].base!)}${rs.map((r) => itemLink(r.result, r.result_qty)).join(" / ")} — ${recipeHeader({ ...rs[0], result_qty: undefined })}</li>`)
+      .join("")}</ul></section>`);
+  }
+
   if (tables.length) {
     sections.push(`<section><h2>強化・段階確率</h2>${tables
       .map((t) => {
@@ -370,6 +385,15 @@ export function renderItemDetail(id: string) {
               <td class="num">${esc(refDate(table.refs))}${refInline(table.refs)}</td></tr>`,
           )
           .join("")}</tbody></table></div></section>`);
+  }
+
+  if (dismantledFrom.length) {
+    // 段階の範囲 (「強化 +0～+14 のとき。」) と候補が複数あることだけを短く添える
+    const brief = (r: (typeof dismantledFrom)[number]) =>
+      [r.notes?.match(/^強化 [^。]+のとき/)?.[0], r.notes?.includes("件の候補") ? "候補の1つ" : ""].filter(Boolean).join("、");
+    sections.push(`<section><h2>分解で入手</h2><ul class="plain">${dismantledFrom
+      .map((r) => `<li>${tag(r.result)}${itemLink(r.base!)} を分解 <span class="qty">×${esc(r.result_qty ?? 1)}</span>${brief(r) ? ` <span class="muted">(${esc(brief(r))})</span>` : ""} ${refInline(r.refs)}</li>`)
+      .join("")}</ul></section>`);
   }
 
   if (contents.length) {
