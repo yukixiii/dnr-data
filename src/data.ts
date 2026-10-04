@@ -1,14 +1,17 @@
 // data/*.json を読み込み、画面から引きやすい索引を作る。
-import sources from "../data/sources.json";
-import items from "../data/items.json";
-import materials from "../data/materials.json";
-import recipes from "../data/recipes.json";
-import enhanceTables from "../data/enhance_tables.json";
-import drops from "../data/drops.json";
-import dungeons from "../data/dungeons.json";
-import itemGroups from "../data/item_groups.json";
-import sets from "../data/sets.json";
-import aliases from "../ingest/aliases.json";
+// JSON は別チャンクとして並行に読み込む (本体の JS を小さくし、データだけ後から取得する)
+const [sources, items, materials, recipes, enhanceTables, drops, dungeons, itemGroups, sets, aliases] = await Promise.all([
+  import("../data/sources.json"),
+  import("../data/items.json"),
+  import("../data/materials.json"),
+  import("../data/recipes.json"),
+  import("../data/enhance_tables.json"),
+  import("../data/drops.json"),
+  import("../data/dungeons.json"),
+  import("../data/item_groups.json"),
+  import("../data/sets.json"),
+  import("../ingest/aliases.json"),
+]).then((ms) => ms.map((m) => m.default as unknown));
 import type { Dataset, DropEntry, DropTable, Dungeon, EnhanceTable, GroupMember, Item, ItemGroup, ItemSet, Recipe, Ref, Region, Source } from "./types.ts";
 
 export const ds: Dataset = {
@@ -39,6 +42,7 @@ export const dungeonById = new Map(ds.dungeons.map((x) => [x.id, x]));
 export const sourceById = new Map(ds.sources.map((x) => [x.id, x]));
 export const tableById = new Map(ds.enhance_tables.map((x) => [x.id, x]));
 export const setById = new Map(ds.sets.map((x) => [x.id, x]));
+export const setMembers = group(allItems.filter((i) => i.set).map((i) => [i.set!, i.id]));
 /** 改名・統合された旧 id → 新しい id (ingest/aliases.json)。古いリンクを開いたときに転送する */
 const aliasOf = aliases as Record<string, string>;
 

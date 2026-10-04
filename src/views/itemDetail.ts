@@ -13,6 +13,9 @@ import {
   recipesByMaterial,
   recipesByResult,
   groupCountLabel,
+  groupOf,
+  setById,
+  setMembers,
   refDate,
   sortDate,
   resolveDetail,
@@ -22,7 +25,7 @@ import {
 } from "../data.ts";
 import { RECIPE_LABEL, recipeHeader, routeSection, stageTable } from "../components/routeView.ts";
 import type { Transition } from "../route.ts";
-import type { ItemGroup, Ref } from "../types.ts";
+import type { ItemGroup, ItemSet, Ref } from "../types.ts";
 import { empty, esc, href, itemLink, itemMeta, locationLink, rateCell, refInline, refList, regionBadges, statGrid, statSets } from "../components/ui.ts";
 import { dropTableHtml } from "./drops.ts";
 
@@ -73,6 +76,18 @@ function statsSection(ids: string[], focus: string, grouped: boolean) {
   );
 }
 
+/** セット効果: 必要数ごとの効果と、同じセットの装備 (グループは 1 件にまとめる) */
+function setSection(set: ItemSet, focus: string) {
+  const members = setMembers.get(set.id) ?? [];
+  const units = [...new Set(members.map((id) => groupOf(id)?.id ?? id))];
+  const bonus = set.bonuses
+    .map((b) => `<tr><th>${b.count}セット</th><td>${[...(b.stats ?? []).map((s) => `${esc(s.name)} ${esc(s.value)}`), ...(b.skill ? [esc(b.skill)] : [])].join("、")}</td></tr>`)
+    .join("");
+  return `<p><strong>${esc(set.name)}</strong>${set.description ? ` <span class="muted">${esc(set.description)}</span>` : ""}</p>
+    <table class="stats"><tbody>${bonus}</tbody></table>
+    <p class="muted">対象: ${units.map((u) => (u === (groupOf(focus)?.id ?? focus) ? `<strong>${esc(u)}</strong>` : `<a href="${href("item", u)}">${esc(u)}</a>`)).join("、")}</p>`;
+}
+
 /** グループ内の段階上げ (レシピ + 原文から前段だけ分かるもの) を段階順に */
 function stageTransitions(g: ItemGroup): Transition[] {
   const ts: Transition[] = [];
@@ -113,6 +128,9 @@ export function renderItemDetail(id: string) {
   if (ids.some((x) => itemById.get(x)!.stats?.length) || !NON_EQUIP.includes(item.kind)) {
     sections.push(`<section><h2>ステータス</h2>${statsSection(ids, focus, !!group)}</section>`);
   }
+
+  const set = item.set ? setById.get(item.set) : undefined;
+  if (set) sections.push(`<section><h2>セット効果</h2>${setSection(set, focus)}</section>`);
 
   const route = routeSection(focus);
   if (route) {
