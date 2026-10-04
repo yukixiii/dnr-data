@@ -14,6 +14,7 @@
 //  - セット効果: data/sets.json をクライアント値で作る。
 //  - 分解: 告知の分解レシピが無い装備に、クライアントの分解表からレシピ (client-dis-*) を作る。
 //  - クリア報酬: ダンジョンのクリア報酬の箱 (金箱・銀箱) の表 (client-clear-*) を作る。
+//  - エリア報酬: ネストの中間 (エリア) 報酬の表 (client-area-*)、マップのトリガーの報酬の表 (client-trig-*) を作る。
 //    ドロップ表の確率はクライアントで 0 にされているので、分解とクリア報酬は出る候補と個数だけ。
 //  - 能力値の名前は表記ゆれを 1 つに揃える (STAT_NAMES)。
 // export.json は非公開のツール (dnr-client) が書き出す。npm run merge / rename:ids の後は export.py → apply:client を再実行する。
@@ -51,6 +52,10 @@ interface Export {
   // plus0_only: 強化できる装備だが +0 の分解表しか無い
   dismantles?: Record<string, { client_id: number; gold?: number; plus0_only?: boolean; rows: { levels: [number, number]; entries: { item: string; qty: number }[] }[] }>;
   // ダンジョンのクリア報酬の箱 (確率はクライアントに無い)。counts は箱の種類ごとの個数
+  // ネストのエリア (関門) 報酬 (nestareadrop.lua)。times はパーティー員 1 人あたりの回数
+  nest_areas?: Record<string, { map_id: number; area: number; rows: { floors?: string; times?: number; entries: { item: string; qty: number }[] }[] }[]>;
+  // マップのトリガーが落とす報酬 (trigger.ini)。key はマップのファイル名 (表の id に使う)
+  map_triggers?: Record<string, { key: string; rows: { trigger: string; floors?: string; entries: { item: string; qty: number }[] }[] }>;
   clears?: Record<string, { clear_id: number; show: number; select: number; counts: Record<string, number>; boxes: { box: string; floors?: string; entries: { item: string; qty: number }[] }[] }[]>;
   materials: Record<string, { client_id: number; kind: string; grade?: string; description?: string }>;
   sets: Record<string, { name: string | null; text: string | null; bonuses: { count: number; stats?: CStat[]; skill?: string }[]; items: string[] }>;
@@ -706,6 +711,40 @@ const drops = await readJson<DropTable[]>("data/drops.json");
       });
       inc("clear");
     }
+  }
+}
+
+// ---- エリア報酬・マップのトリガーの報酬 ----
+{
+  for (let i = drops.length - 1; i >= 0; i--) if (/^client-(area|trig)-/.test(drops[i].id)) drops.splice(i, 1);
+  const NO_RATE = "クライアントのデータには確率が無い (0 で配布されている) ため、出る候補と個数だけを載せている。同じアイテムが個数違いで並ぶものは、どの個数が出るかの確率が不明。";
+  for (const [dungeon, areas] of Object.entries(ex.nest_areas ?? {})) {
+    drops.push({
+      id: `client-area-${areas[0].map_id}`,
+      location: dungeon,
+      location_kind: "dungeon",
+      label: "エリア報酬 (候補)",
+      entries: areas.flatMap((a) =>
+        a.rows.flatMap((r) =>
+          r.entries.map((e) => ({ item: e.item, from: `第${a.area}エリア${r.times ? ` (${r.times}回)` : ""}`, ...(r.floors ? { floors: r.floors } : {}), qty: e.qty })),
+        ),
+      ),
+      notes: `各エリアのボスを倒したときの中間報酬 (クライアントのネストのエリア報酬スクリプト)。報酬を受け取れるパーティー員 1 人ごとに出る。${NO_RATE}`,
+      refs: [{ source: SRC }],
+    });
+    inc("area");
+  }
+  for (const [dungeon, t] of Object.entries(ex.map_triggers ?? {})) {
+    drops.push({
+      id: `client-trig-${t.key}`,
+      location: dungeon,
+      location_kind: "dungeon",
+      label: "マップのトリガーの報酬 (候補)",
+      entries: t.rows.flatMap((r) => r.entries.map((e) => ({ item: e.item, from: r.trigger, ...(r.floors ? { floors: r.floors } : {}), qty: e.qty }))),
+      notes: `マップのトリガー (クリア時の報酬の箱・特別報酬など) が落とすアイテム。獲得元はトリガーの名前 (開発用の名前のまま) で、同じ中身のトリガーはまとめている (8 人分の「Reward_Click_1～8」など)。1 つのトリガーに複数の行があるものは、行ごとに 1 回ずつ落ちる。${NO_RATE}`,
+      refs: [{ source: SRC }],
+    });
+    inc("trigger");
   }
 }
 

@@ -21115,6 +21115,138 @@
     "notes": "クライアントのショップ表の交換。"
   },
   {
+    "id": "client-shop-310001200",
+    "type": "exchange",
+    "result": "白銀石",
+    "gold": 10,
+    "materials": [],
+    "where": "【商人】アガペー「生産材料」、【商人】リサ・【雑貨商人】ケリー「生産材料」",
+    "result_qty": 1,
+    "refs": [
+      {
+        "source": "jp-client-20261001",
+        "note": "交換の費用"
+      }
+    ],
+    "notes": "クライアントのショップ表の交換。"
+  },
+  {
+    "id": "client-shop-97001111",
+    "type": "exchange",
+    "result": "白銀石",
+    "materials": [
+      {
+        "item": "ギルド名声コイン",
+        "qty": 5
+      }
+    ],
+    "where": "【ギルド補給兵】ジン「雑貨」、【ギルドアジト商店】ガブリエラ「雑貨」",
+    "result_qty": 1,
+    "refs": [
+      {
+        "source": "jp-client-20261001",
+        "note": "交換の費用"
+      }
+    ],
+    "notes": "クライアントのショップ表の交換。"
+  },
+  {
+    "id": "client-shop-310001206",
+    "type": "exchange",
+    "result": "凝縮された暗黒の結晶体",
+    "gold": 25,
+    "materials": [],
+    "where": "【商人】アガペー「生産材料」、【商人】リサ・【雑貨商人】ケリー「生産材料」",
+    "result_qty": 1,
+    "refs": [
+      {
+        "source": "jp-client-20261001",
+        "note": "交換の費用"
+      }
+    ],
+    "notes": "クライアントのショップ表の交換。"
+  },
+  {
+    "id": "client-shop-241101205",
+    "type": "exchange",
+    "result": "カーライエンの信頼のハンマー",
+    "materials": [
+      {
+        "item": "救援者の象徴",
+        "qty": 60
+      }
+    ],
+    "where": "入場権限発行機「セイヴィア」",
+    "result_qty": 1,
+    "refs": [
+      {
+        "source": "jp-client-20261001",
+        "note": "交換の費用"
+      }
+    ],
+    "notes": "クライアントのショップ表の交換。"
+  },
+  {
+    "id": "client-shop-241101206",
+    "type": "exchange",
+    "result": "カシウスの希望のハンマー",
+    "materials": [
+      {
+        "item": "救援者の象徴",
+        "qty": 60
+      }
+    ],
+    "where": "入場権限発行機「セイヴィア」",
+    "result_qty": 1,
+    "refs": [
+      {
+        "source": "jp-client-20261001",
+        "note": "交換の費用"
+      }
+    ],
+    "notes": "クライアントのショップ表の交換。"
+  },
+  {
+    "id": "client-shop-241101207",
+    "type": "exchange",
+    "result": "テラマイ信念のハンマー",
+    "materials": [
+      {
+        "item": "救援者の象徴",
+        "qty": 60
+      }
+    ],
+    "where": "入場権限発行機「セイヴィア」",
+    "result_qty": 1,
+    "refs": [
+      {
+        "source": "jp-client-20261001",
+        "note": "交換の費用"
+      }
+    ],
+    "notes": "クライアントのショップ表の交換。"
+  },
+  {
+    "id": "client-shop-241101208",
+    "type": "exchange",
+    "result": "ダグラスの勇気のハンマー",
+    "materials": [
+      {
+        "item": "救援者の象徴",
+        "qty": 60
+      }
+    ],
+    "where": "入場権限発行機「セイヴィア」",
+    "result_qty": 1,
+    "refs": [
+      {
+        "source": "jp-client-20261001",
+        "note": "交換の費用"
+      }
+    ],
+    "notes": "クライアントのショップ表の交換。"
+  },
+  {
     "id": "client-dis-268511812-0-0",
     "type": "dismantle",
     "result": "ホワイトコア",

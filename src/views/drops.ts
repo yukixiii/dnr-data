@@ -1,5 +1,5 @@
 // ドロップ率・報酬表 / ダンジョン詳細
-import { ds, dropsByLocation, dungeonById, itemById, newestFirst, refDate, shownEntry, simpleBags, type ShownEntry } from "../data.ts";
+import { currentId, ds, dropsByLocation, dungeonById, itemById, newestFirst, refDate, shownEntry, simpleBags, type ShownEntry } from "../data.ts";
 import { compareFloors, floorRowKey } from "../floors.ts";
 import type { DropEntry, DropTable } from "../types.ts";
 import { empty, esc, href, itemLink, locationLink, rateCell, refInline, refList, regionBadges } from "../components/ui.ts";
@@ -151,6 +151,7 @@ export function renderDrops(query: URLSearchParams) {
 }
 
 export function renderDungeon(id: string) {
+  if (!dungeonById.has(id) && !dropsByLocation.has(id)) id = currentId(id); // 統合・改名された旧名のリンク
   const d = dungeonById.get(id);
   const tables = newestFirst(dropsByLocation.get(id) ?? []);
   if (!d && !tables.length) return `<h1>${esc(id)}</h1>${empty("登録されていません")}`;

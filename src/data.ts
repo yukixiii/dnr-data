@@ -45,6 +45,8 @@ export const setById = new Map(ds.sets.map((x) => [x.id, x]));
 export const setMembers = group(allItems.filter((i) => i.set).map((i) => [i.set!, i.id]));
 /** 改名・統合された旧 id → 新しい id (ingest/aliases.json)。古いリンクを開いたときに転送する */
 const aliasOf = aliases as Record<string, string>;
+/** 旧 id を今の id に (改名・統合されていなければそのまま) */
+export const currentId = (id: string) => aliasOf[id] ?? id;
 
 // base と result が同じレシピ (ロック付与・同一装備の等級進化など) は作成ルートではなく「加工」として別扱い
 const isSelf = (r: Recipe) => r.base === r.result;
