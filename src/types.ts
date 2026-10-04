@@ -1,0 +1,147 @@
+// データ型定義。data/*.json はこの形に従う (検証は data/schema/dnr.schema.json)。
+// アイテム・ダンジョンの id は日本語の正式名称そのもの (例: "ベルスカードの責任")。
+// 地域をまたいで同名が別物になる場合のみ "名称@KR" のように接尾辞を付ける。
+
+export type Region = "JP" | "KR" | "CN";
+
+/** 出典参照。region は sources.json の地域を上書きしたい場合のみ指定。 */
+export interface Ref {
+  source: string;
+  note?: string;
+}
+
+export interface Source {
+  id: string; // 例: "jp-notice-1440", "jp-vipwiki-status", "cn-dngamer-1091"
+  url: string;
+  region: Region;
+  kind: "official" | "wiki" | "community";
+  title: string;
+  published_at?: string; // YYYY-MM-DD
+  fetched_at: string; // YYYY-MM-DD
+}
+
+export interface Stat {
+  name: string; // "物理/魔法攻撃力", "FD", "HP(%)" など表記は出典準拠
+  value: string; // "260,000" / "17.00%" など出典の表記をそのまま
+  note?: string;
+}
+
+/** 強化段階など条件別のステータス */
+export interface StatSet {
+  label: string; // "+0", "+10", "(L)", "基本" など
+  stats: Stat[];
+}
+
+export type ItemKind =
+  | "weapon"
+  | "armor"
+  | "accessory"
+  | "special_armor" // 羽・尻尾・デカール等
+  | "artifact"
+  | "talisman"
+  | "jade" // 竜珠
+  | "heraldry" // 紋章
+  | "material"
+  | "currency"
+  | "box" // 袋・箱 (中身は drops.json)
+  | "consumable"
+  | "other";
+
+export interface Item {
+  id: string;
+  name: string;
+  name_ko?: string;
+  name_zh?: string;
+  kind: ItemKind;
+  slot?: string; // "ヘルム" "メイン武器" 等
+  grade?: string; // "ノーマル" "マジック" "レア" "エピック" "ユニーク" "レジェンド" "ディヴァイン" 等
+  level?: number;
+  series?: string; // "金竜装備" "古竜装備" "ベルスカードアーティファクト" など系統
+  max_enhance?: number;
+  tradable?: string; // "取引不可" "1回取引可" 等
+  description?: string;
+  stats?: StatSet[];
+  obtain?: string[]; // 入手方法の要約 (ドロップは drops.json から逆引きされるので重複不要)
+  refs: Ref[];
+}
+
+export interface Qty {
+  item: string; // Item.id
+  qty: number | string; // 数値が不明/範囲なら文字列 ("1~3")
+}
+
+export interface Recipe {
+  id: string;
+  type: "craft" | "evolve" | "refine" | "exchange" | "upgrade" | "dismantle" | "other";
+  result: string; // Item.id
+  result_qty?: number;
+  base?: string; // 消費される前段装備の Item.id
+  materials: Qty[];
+  gold?: number;
+  where?: string; // NPC/商店/システム名
+  rate?: number; // 成功率 %
+  rate_text?: string;
+  notes?: string;
+  refs: Ref[];
+}
+
+export interface EnhanceRow {
+  level: string; // "+1" / "0→1" / "1段階" 等
+  rate?: number; // %
+  rate_text?: string;
+  gold?: number | string;
+  materials?: Qty[];
+  on_fail?: string; // "維持" "-1" "破壊" 等
+  stats?: Stat[]; // その段階で上がる能力値があれば
+}
+
+export interface EnhanceTable {
+  id: string;
+  name: string;
+  kind: "enhance" | "craft_stage" | "refine" | "evolve" | "other";
+  applies_to: string[]; // Item.id (空なら applies_note を参照)
+  applies_note?: string;
+  rows: EnhanceRow[];
+  notes?: string;
+  refs: Ref[];
+}
+
+export interface DropEntry {
+  item: string; // Item.id
+  from?: string; // "一般魔物" "ボス" "金箱" "安息所" 等
+  floors?: string; // "AS-05階層～" 等
+  rate?: number; // %
+  rate_text?: string; // "確定" "一定確率" "低確率" 等の定性表記
+  qty?: number | string;
+}
+
+export interface DropTable {
+  id: string;
+  location: string; // Dungeon.id か Item.id(kind=box)
+  location_kind: "dungeon" | "box" | "shop" | "quest" | "gather" | "other";
+  label?: string; // "クリア報酬" "採集" 等
+  entries: DropEntry[];
+  notes?: string;
+  refs: Ref[];
+}
+
+export interface Dungeon {
+  id: string;
+  name: string;
+  kind: "nest" | "stage" | "dungeon" | "raid" | "pvp" | "event" | "other";
+  entry?: string; // 入場条件・場所
+  level?: number;
+  difficulty?: string;
+  notes?: string;
+  refs: Ref[];
+}
+
+export interface Dataset {
+  sources: Source[];
+  items: Item[];
+  materials: Item[];
+  recipes: Recipe[];
+  enhance_tables: EnhanceTable[];
+  drops: DropTable[];
+  dungeons: Dungeon[];
+}

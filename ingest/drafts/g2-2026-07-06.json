@@ -1,0 +1,7006 @@
+{
+  "sources": [
+    {
+      "id": "jp-notice-1440",
+      "url": "https://dnr-hangame.brabragames.jp/news/notice.html?mode=read&no=1440",
+      "region": "JP",
+      "kind": "official",
+      "title": "(更新3)2026年7月15日アップデートのお知らせ",
+      "published_at": "2026-07-15",
+      "fetched_at": "2026-10-04"
+    },
+    {
+      "id": "jp-notice-1426",
+      "url": "https://dnr-hangame.brabragames.jp/news/notice.html?mode=read&no=1426",
+      "region": "JP",
+      "kind": "official",
+      "title": "(更新3)2026年6月17日アップデートのお知らせ",
+      "published_at": "2026-06-17",
+      "fetched_at": "2026-10-04"
+    }
+  ],
+  "items": [
+    {
+      "id": "ベルスカードの忠義",
+      "name": "ベルスカードの忠義",
+      "kind": "artifact",
+      "series": "ベルスカードアーティファクト",
+      "max_enhance": 10,
+      "tradable": "破壊、トレード、アカウント倉庫不可",
+      "description": "細工最大6段階。精製(確率上昇上限)6回まで適用(精製時、細工段階の再設定/強化段階を維持)。細工最終段階到達時にランダムオプション付与。細工シナジー: アーティファクト細工の合計が4/8/12段階に到達するごとにシナジー1/2/3段階(累積適用)。1段階: 戦闘マップ入場時、物理/魔法攻撃力15%上昇。2段階: 異界の竜珠スキル使用時、CT追加ダメージ5%(持続30秒、内部再使用時間10秒)。3段階: 次元の竜珠対象スキル使用時、CT追加ダメージ30%(持続20秒、内部再使用時間40秒)。",
+      "stats": [
+        {
+          "label": "+0",
+          "stats": [
+            {
+              "name": "物魔攻",
+              "value": "100,000"
+            }
+          ]
+        },
+        {
+          "label": "+10",
+          "stats": [
+            {
+              "name": "物魔攻",
+              "value": "5,000,000"
+            }
+          ]
+        },
+        {
+          "label": "細工+6",
+          "stats": [
+            {
+              "name": "物魔攻(%)",
+              "value": "30%"
+            }
+          ]
+        }
+      ],
+      "obtain": [
+        "ミッション > アーティファクト > ベルスカード > 始まりのベルスカードの忠義 (超越の箱舟34階層以上をクリアすると達成)"
+      ],
+      "refs": [
+        {
+          "source": "jp-notice-1440"
+        }
+      ]
+    },
+    {
+      "id": "ベルスカードの信頼",
+      "name": "ベルスカードの信頼",
+      "kind": "artifact",
+      "series": "ベルスカードアーティファクト",
+      "max_enhance": 15,
+      "tradable": "破壊、トレード、アカウント倉庫不可",
+      "description": "細工最大3段階。精製(確率上昇上限)10回まで適用(精製時、細工段階の再設定/強化段階を維持)。細工最終段階到達時にランダムオプション付与。細工シナジー: アーティファクト細工の合計が4/8/12段階に到達するごとにシナジー1/2/3段階(累積適用)。1段階: 戦闘マップ入場時、物理/魔法攻撃力15%上昇。2段階: 異界の竜珠スキル使用時、CT追加ダメージ5%(持続30秒、内部再使用時間10秒)。3段階: 次元の竜珠対象スキル使用時、CT追加ダメージ30%(持続20秒、内部再使用時間40秒)。",
+      "stats": [
+        {
+          "label": "+0",
+          "stats": [
+            {
+              "name": "物魔攻",
+              "value": "50,000"
+            },
+            {
+              "name": "MaxHP",
+              "value": "300,000"
+            }
+          ]
+        },
+        {
+          "label": "+15",
+          "stats": [
+            {
+              "name": "物魔攻",
+              "value": "2,500,000"
+            },
+            {
+              "name": "MaxHP",
+              "value": "15,000,000"
+            }
+          ]
+        },
+        {
+          "label": "細工+3",
+          "stats": [
+            {
+              "name": "MaxHP(%)",
+              "value": "50%"
+            }
+          ]
+        }
+      ],
+      "obtain": [
+        "ミッション > アーティファクト > ベルスカード > 伝えられるベルスカードの信頼 (ベルスカードの忠義 +7強化成功時に達成)"
+      ],
+      "refs": [
+        {
+          "source": "jp-notice-1440"
+        }
+      ]
+    },
+    {
+      "id": "ベルスカードの責任",
+      "name": "ベルスカードの責任",
+      "kind": "artifact",
+      "series": "ベルスカードアーティファクト",
+      "max_enhance": 20,
+      "tradable": "封印時、トレード、アカウント倉庫可能 (封印3回可能)",
+      "description": "細工最大3段階。基本情報表に精製の行はなく、ランダムオプション表も掲載なし。細工シナジー: アーティファクト細工の合計が4/8/12段階に到達するごとにシナジー1/2/3段階(累積適用)。1段階: 戦闘マップ入場時、物理/魔法攻撃力15%上昇。2段階: 異界の竜珠スキル使用時、CT追加ダメージ5%(持続30秒、内部再使用時間10秒)。3段階: 次元の竜珠対象スキル使用時、CT追加ダメージ30%(持続20秒、内部再使用時間40秒)。",
+      "stats": [
+        {
+          "label": "+0",
+          "stats": [
+            {
+              "name": "属性",
+              "value": "5.00%"
+            }
+          ]
+        },
+        {
+          "label": "+20",
+          "stats": [
+            {
+              "name": "属性",
+              "value": "140.00%"
+            }
+          ]
+        },
+        {
+          "label": "細工+3",
+          "stats": [
+            {
+              "name": "物魔攻",
+              "value": "13,125,000"
+            }
+          ]
+        }
+      ],
+      "obtain": [
+        "桃郷苑ステージ > 安息所 退治"
+      ],
+      "refs": [
+        {
+          "source": "jp-notice-1440"
+        }
+      ]
+    },
+    {
+      "id": "+20 3細工ベルスカードの責任",
+      "name": "+20 3細工ベルスカードの責任",
+      "kind": "artifact",
+      "series": "ベルスカードアーティファクト",
+      "description": "ベルスカードの責任挑戦箱の構成品。+20強化・3細工済みのベルスカードの責任 (ベルスカードの責任 を参照)。",
+      "refs": [
+        {
+          "source": "jp-notice-1440"
+        }
+      ]
+    },
+    {
+      "id": "永劫の異界の変異型竜珠",
+      "name": "永劫の異界の変異型竜珠",
+      "kind": "jade",
+      "max_enhance": 10,
+      "description": "永劫の渇望のかけらを消費して最大+10まで強化可能。追加に伴い一部イヤリングアクセサリーにスロット拡張が実施された。",
+      "obtain": [
+        "ゴールドドラゴンネスト"
+      ],
+      "refs": [
+        {
+          "source": "jp-notice-1440"
+        }
+      ]
+    },
+    {
+      "id": "独武の栄光ネックレス",
+      "name": "独武の栄光ネックレス",
+      "kind": "accessory",
+      "slot": "ネックレス",
+      "obtain": [
+        "独武討伐戦：決戦ミッション報酬"
+      ],
+      "refs": [
+        {
+          "source": "jp-notice-1426"
+        }
+      ]
+    },
+    {
+      "id": "独武の栄光イヤリング",
+      "name": "独武の栄光イヤリング",
+      "kind": "accessory",
+      "slot": "イヤリング",
+      "obtain": [
+        "独武討伐戦：決戦ミッション報酬"
+      ],
+      "refs": [
+        {
+          "source": "jp-notice-1426"
+        }
+      ]
+    },
+    {
+      "id": "独武の栄光リング",
+      "name": "独武の栄光リング",
+      "kind": "accessory",
+      "slot": "リング",
+      "obtain": [
+        "独武討伐戦：決戦ミッション報酬"
+      ],
+      "refs": [
+        {
+          "source": "jp-notice-1426"
+        }
+      ]
+    },
+    {
+      "id": "独武討伐のタリスマン",
+      "name": "独武討伐のタリスマン",
+      "kind": "talisman",
+      "description": "「[謎]独武討伐のタリスマン」開封で獲得。「討伐のタリスマン」と重複着用不可。属性攻撃力オプションは最大値が同時に複数出現しない。分解不可。",
+      "stats": [
+        {
+          "label": "ランダムオプション範囲(最小～最大)",
+          "stats": [
+            {
+              "name": "火属性攻撃力",
+              "value": "2%～10%"
+            },
+            {
+              "name": "氷属性攻撃力",
+              "value": "2%～10%"
+            },
+            {
+              "name": "雷属性攻撃力",
+              "value": "2%～10%"
+            },
+            {
+              "name": "闇属性攻撃力",
+              "value": "2%～10%"
+            },
+            {
+              "name": "物理攻撃力",
+              "value": "50,000～200,000"
+            },
+            {
+              "name": "物理攻撃力",
+              "value": "1%～6%"
+            },
+            {
+              "name": "魔法攻撃力",
+              "value": "50,000～200,000"
+            },
+            {
+              "name": "魔法攻撃力",
+              "value": "1%～6%"
+            },
+            {
+              "name": "CT",
+              "value": "-100,000～50,000"
+            },
+            {
+              "name": "CTダメージ",
+              "value": "-450,000～225,000"
+            },
+            {
+              "name": "物理防御力",
+              "value": "-30,000～15,000"
+            },
+            {
+              "name": "魔法防御力",
+              "value": "-30,000～15,000"
+            }
+          ]
+        }
+      ],
+      "obtain": [
+        "[謎]独武討伐のタリスマン を開封"
+      ],
+      "refs": [
+        {
+          "source": "jp-notice-1426"
+        }
+      ]
+    },
+    {
+      "id": "封印された力のテラマイブローチ",
+      "name": "封印された力のテラマイブローチ",
+      "kind": "accessory",
+      "slot": "ブローチ",
+      "series": "テラマイブローチ",
+      "grade": "ノーマル",
+      "tradable": "アカウント倉庫移動及び取引不可",
+      "stats": [
+        {
+          "label": "ノーマル",
+          "stats": []
+        }
+      ],
+      "refs": [
+        {
+          "source": "jp-notice-1426"
+        }
+      ]
+    },
+    {
+      "id": "[1段階]封印された力のテラマイブローチ",
+      "name": "[1段階]封印された力のテラマイブローチ",
+      "kind": "accessory",
+      "slot": "ブローチ",
+      "series": "テラマイブローチ",
+      "grade": "マジック/レア/エピック",
+      "tradable": "アカウント倉庫移動及び取引不可",
+      "stats": [
+        {
+          "label": "マジック",
+          "stats": [
+            {
+              "name": "物理防御",
+              "value": "1,000"
+            }
+          ]
+        },
+        {
+          "label": "レア",
+          "stats": [
+            {
+              "name": "物理防御",
+              "value": "15,000"
+            },
+            {
+              "name": "FD",
+              "value": "50"
+            },
+            {
+              "name": "HP%",
+              "value": "3"
+            }
+          ]
+        },
+        {
+          "label": "エピック",
+          "stats": [
+            {
+              "name": "物理防御",
+              "value": "30,000"
+            },
+            {
+              "name": "FD",
+              "value": "100"
+            },
+            {
+              "name": "HP%",
+              "value": "5"
+            }
+          ]
+        }
+      ],
+      "refs": [
+        {
+          "source": "jp-notice-1426"
+        }
+      ],
+      "description": "同名で等級(マジック/レア/エピック)違いが存在するため、stats の label を等級で分けて記録。"
+    },
+    {
+      "id": "[2段階]封印された力のテラマイブローチ",
+      "name": "[2段階]封印された力のテラマイブローチ",
+      "kind": "accessory",
+      "slot": "ブローチ",
+      "series": "テラマイブローチ",
+      "grade": "マジック/レア/エピック",
+      "tradable": "アカウント倉庫移動及び取引不可",
+      "stats": [
+        {
+          "label": "マジック",
+          "stats": [
+            {
+              "name": "物理防御",
+              "value": "3,000"
+            }
+          ]
+        },
+        {
+          "label": "レア",
+          "stats": [
+            {
+              "name": "物理防御",
+              "value": "18,000"
+            },
+            {
+              "name": "FD",
+              "value": "50"
+            },
+            {
+              "name": "HP%",
+              "value": "3"
+            }
+          ]
+        },
+        {
+          "label": "エピック",
+          "stats": [
+            {
+              "name": "物理防御",
+              "value": "33,000"
+            },
+            {
+              "name": "FD",
+              "value": "125"
+            },
+            {
+              "name": "HP%",
+              "value": "5"
+            }
+          ]
+        }
+      ],
+      "refs": [
+        {
+          "source": "jp-notice-1426"
+        }
+      ],
+      "description": "同名で等級(マジック/レア/エピック)違いが存在するため、stats の label を等級で分けて記録。"
+    },
+    {
+      "id": "[3段階]封印された力のテラマイブローチ",
+      "name": "[3段階]封印された力のテラマイブローチ",
+      "kind": "accessory",
+      "slot": "ブローチ",
+      "series": "テラマイブローチ",
+      "grade": "マジック/レア/エピック",
+      "tradable": "アカウント倉庫移動及び取引不可",
+      "stats": [
+        {
+          "label": "マジック",
+          "stats": [
+            {
+              "name": "物理防御",
+              "value": "6,000"
+            }
+          ]
+        },
+        {
+          "label": "レア",
+          "stats": [
+            {
+              "name": "物理防御",
+              "value": "21,000"
+            },
+            {
+              "name": "FD",
+              "value": "50"
+            },
+            {
+              "name": "HP%",
+              "value": "3"
+            }
+          ]
+        },
+        {
+          "label": "エピック",
+          "stats": [
+            {
+              "name": "物理防御",
+              "value": "36,000"
+            },
+            {
+              "name": "HP",
+              "value": "1,000,000"
+            },
+            {
+              "name": "FD",
+              "value": "150"
+            },
+            {
+              "name": "HP%",
+              "value": "10"
+            }
+          ]
+        }
+      ],
+      "refs": [
+        {
+          "source": "jp-notice-1426"
+        }
+      ],
+      "description": "同名で等級(マジック/レア/エピック)違いが存在するため、stats の label を等級で分けて記録。"
+    },
+    {
+      "id": "[4段階]封印された力のテラマイブローチ",
+      "name": "[4段階]封印された力のテラマイブローチ",
+      "kind": "accessory",
+      "slot": "ブローチ",
+      "series": "テラマイブローチ",
+      "grade": "マジック/レア/エピック",
+      "tradable": "アカウント倉庫移動及び取引不可",
+      "stats": [
+        {
+          "label": "マジック",
+          "stats": [
+            {
+              "name": "物理防御",
+              "value": "9,000"
+            }
+          ]
+        },
+        {
+          "label": "レア",
+          "stats": [
+            {
+              "name": "物理防御",
+              "value": "24,000"
+            },
+            {
+              "name": "FD",
+              "value": "50"
+            },
+            {
+              "name": "HP%",
+              "value": "3"
+            }
+          ]
+        },
+        {
+          "label": "エピック",
+          "stats": [
+            {
+              "name": "物理防御",
+              "value": "39,000"
+            },
+            {
+              "name": "HP",
+              "value": "1,000,000"
+            },
+            {
+              "name": "FD",
+              "value": "175"
+            },
+            {
+              "name": "HP%",
+              "value": "10"
+            }
+          ]
+        }
+      ],
+      "refs": [
+        {
+          "source": "jp-notice-1426"
+        }
+      ],
+      "description": "同名で等級(マジック/レア/エピック)違いが存在するため、stats の label を等級で分けて記録。"
+    },
+    {
+      "id": "[5段階]封印された力のテラマイブローチ",
+      "name": "[5段階]封印された力のテラマイブローチ",
+      "kind": "accessory",
+      "slot": "ブローチ",
+      "series": "テラマイブローチ",
+      "grade": "マジック/レア/エピック",
+      "tradable": "アカウント倉庫移動及び取引不可",
+      "stats": [
+        {
+          "label": "マジック",
+          "stats": [
+            {
+              "name": "物理防御",
+              "value": "12,000"
+            }
+          ]
+        },
+        {
+          "label": "レア",
+          "stats": [
+            {
+              "name": "物理防御",
+              "value": "27,000"
+            },
+            {
+              "name": "FD",
+              "value": "50"
+            },
+            {
+              "name": "HP%",
+              "value": "3"
+            }
+          ]
+        },
+        {
+          "label": "エピック",
+          "stats": [
+            {
+              "name": "物理防御",
+              "value": "45,000"
+            },
+            {
+              "name": "HP",
+              "value": "1,000,000"
+            },
+            {
+              "name": "FD",
+              "value": "200"
+            },
+            {
+              "name": "HP%",
+              "value": "10"
+            }
+          ]
+        }
+      ],
+      "refs": [
+        {
+          "source": "jp-notice-1426"
+        }
+      ],
+      "description": "同名で等級(マジック/レア/エピック)違いが存在するため、stats の label を等級で分けて記録。"
+    },
+    {
+      "id": "[1段階：異界]信念のテラマイブローチ",
+      "name": "[1段階：異界]信念のテラマイブローチ",
+      "kind": "accessory",
+      "slot": "ブローチ",
+      "series": "テラマイブローチ",
+      "grade": "ユニーク",
+      "tradable": "アカウント倉庫移動及び取引不可",
+      "stats": [
+        {
+          "label": "ユニーク",
+          "stats": [
+            {
+              "name": "物理防御",
+              "value": "45,000"
+            },
+            {
+              "name": "HP",
+              "value": "1,000,000"
+            },
+            {
+              "name": "FD",
+              "value": "200"
+            },
+            {
+              "name": "HP%",
+              "value": "10"
+            },
+            {
+              "name": "属性",
+              "value": "1%"
+            },
+            {
+              "name": "異界の竜珠FD",
+              "value": "50%"
+            }
+          ]
+        }
+      ],
+      "refs": [
+        {
+          "source": "jp-notice-1426"
+        }
+      ],
+      "obtain": [
+        "チェルニーのブローチ商店",
+        "キャッシュショップ",
+        "鍛冶屋NPCでの生産"
+      ]
+    },
+    {
+      "id": "[2段階：異界]信念のテラマイブローチ",
+      "name": "[2段階：異界]信念のテラマイブローチ",
+      "kind": "accessory",
+      "slot": "ブローチ",
+      "series": "テラマイブローチ",
+      "grade": "ユニーク",
+      "tradable": "アカウント倉庫移動及び取引不可",
+      "stats": [
+        {
+          "label": "ユニーク",
+          "stats": [
+            {
+              "name": "物理防御",
+              "value": "45,000"
+            },
+            {
+              "name": "HP",
+              "value": "1,000,000"
+            },
+            {
+              "name": "FD",
+              "value": "200"
+            },
+            {
+              "name": "HP%",
+              "value": "10"
+            },
+            {
+              "name": "属性",
+              "value": "3%"
+            },
+            {
+              "name": "異界の竜珠FD",
+              "value": "120%"
+            }
+          ]
+        }
+      ],
+      "refs": [
+        {
+          "source": "jp-notice-1426"
+        }
+      ],
+      "obtain": [
+        "チェルニーのブローチ商店",
+        "キャッシュショップ",
+        "鍛冶屋NPCでの生産"
+      ]
+    },
+    {
+      "id": "[3段階：異界]信念のテラマイブローチ",
+      "name": "[3段階：異界]信念のテラマイブローチ",
+      "kind": "accessory",
+      "slot": "ブローチ",
+      "series": "テラマイブローチ",
+      "grade": "ユニーク",
+      "tradable": "アカウント倉庫移動及び取引不可",
+      "stats": [
+        {
+          "label": "ユニーク",
+          "stats": [
+            {
+              "name": "物理防御",
+              "value": "45,000"
+            },
+            {
+              "name": "HP",
+              "value": "1,000,000"
+            },
+            {
+              "name": "FD",
+              "value": "200"
+            },
+            {
+              "name": "HP%",
+              "value": "10"
+            },
+            {
+              "name": "属性",
+              "value": "6%"
+            },
+            {
+              "name": "異界の竜珠FD",
+              "value": "200%"
+            }
+          ]
+        }
+      ],
+      "refs": [
+        {
+          "source": "jp-notice-1426"
+        }
+      ],
+      "obtain": [
+        "チェルニーのブローチ商店",
+        "キャッシュショップ",
+        "鍛冶屋NPCでの生産"
+      ]
+    },
+    {
+      "id": "[4段階：異界]信念のテラマイブローチ",
+      "name": "[4段階：異界]信念のテラマイブローチ",
+      "kind": "accessory",
+      "slot": "ブローチ",
+      "series": "テラマイブローチ",
+      "grade": "ユニーク",
+      "tradable": "アカウント倉庫移動及び取引不可",
+      "stats": [
+        {
+          "label": "ユニーク",
+          "stats": [
+            {
+              "name": "物理防御",
+              "value": "45,000"
+            },
+            {
+              "name": "HP",
+              "value": "1,000,000"
+            },
+            {
+              "name": "FD",
+              "value": "200"
+            },
+            {
+              "name": "HP%",
+              "value": "10"
+            },
+            {
+              "name": "属性",
+              "value": "10%"
+            },
+            {
+              "name": "異界の竜珠FD",
+              "value": "300%"
+            }
+          ]
+        }
+      ],
+      "refs": [
+        {
+          "source": "jp-notice-1426"
+        }
+      ],
+      "obtain": [
+        "チェルニーのブローチ商店",
+        "キャッシュショップ",
+        "鍛冶屋NPCでの生産"
+      ]
+    },
+    {
+      "id": "[5段階：異界]信念のテラマイブローチ",
+      "name": "[5段階：異界]信念のテラマイブローチ",
+      "kind": "accessory",
+      "slot": "ブローチ",
+      "series": "テラマイブローチ",
+      "grade": "ユニーク",
+      "tradable": "アカウント倉庫移動及び取引不可",
+      "stats": [
+        {
+          "label": "ユニーク",
+          "stats": [
+            {
+              "name": "物理防御",
+              "value": "45,000"
+            },
+            {
+              "name": "HP",
+              "value": "1,000,000"
+            },
+            {
+              "name": "FD",
+              "value": "200"
+            },
+            {
+              "name": "HP%",
+              "value": "10"
+            },
+            {
+              "name": "属性",
+              "value": "15%"
+            },
+            {
+              "name": "異界の竜珠FD",
+              "value": "400%"
+            }
+          ]
+        }
+      ],
+      "refs": [
+        {
+          "source": "jp-notice-1426"
+        }
+      ],
+      "obtain": [
+        "チェルニーのブローチ商店",
+        "キャッシュショップ",
+        "鍛冶屋NPCでの生産"
+      ]
+    },
+    {
+      "id": "[祝福：異界]信念のテラマイブローチ",
+      "name": "[祝福：異界]信念のテラマイブローチ",
+      "kind": "accessory",
+      "slot": "ブローチ",
+      "series": "テラマイブローチ",
+      "grade": "レジェンド",
+      "tradable": "アカウント倉庫移動及び取引不可",
+      "stats": [
+        {
+          "label": "レジェンド",
+          "stats": [
+            {
+              "name": "物理防御",
+              "value": "45,000"
+            },
+            {
+              "name": "HP",
+              "value": "1,000,000"
+            },
+            {
+              "name": "FD",
+              "value": "200"
+            },
+            {
+              "name": "HP%",
+              "value": "10"
+            },
+            {
+              "name": "属性",
+              "value": "30%"
+            },
+            {
+              "name": "異界の竜珠FD",
+              "value": "600%"
+            }
+          ]
+        }
+      ],
+      "refs": [
+        {
+          "source": "jp-notice-1426"
+        }
+      ],
+      "obtain": [
+        "チェルニーのブローチ商店",
+        "キャッシュショップ",
+        "鍛冶屋NPCでの生産"
+      ]
+    }
+  ],
+  "materials": [
+    {
+      "id": "きらめく黄金インク",
+      "name": "きらめく黄金インク",
+      "kind": "material",
+      "obtain": [
+        "幽冥の異境(悪夢)"
+      ],
+      "refs": [
+        {
+          "source": "jp-notice-1440"
+        }
+      ]
+    },
+    {
+      "id": "手笠キノコ",
+      "name": "手笠キノコ",
+      "kind": "material",
+      "obtain": [
+        "桃郷苑ステージ"
+      ],
+      "refs": [
+        {
+          "source": "jp-notice-1440"
+        }
+      ]
+    },
+    {
+      "id": "悪魔の骨の鈴",
+      "name": "悪魔の骨の鈴",
+      "kind": "material",
+      "obtain": [
+        "桃郷苑ステージ"
+      ],
+      "description": "別表記: 悪魔の骨鈴 (強化段階表・説明文)。",
+      "refs": [
+        {
+          "source": "jp-notice-1440"
+        }
+      ]
+    },
+    {
+      "id": "星雲の生成痕跡帯",
+      "name": "星雲の生成痕跡帯",
+      "kind": "material",
+      "obtain": [
+        "幽冥の異境(悪夢)"
+      ],
+      "refs": [
+        {
+          "source": "jp-notice-1440"
+        }
+      ]
+    },
+    {
+      "id": "死血花の心臓",
+      "name": "死血花の心臓",
+      "kind": "material",
+      "obtain": [
+        "桃郷苑ステージ"
+      ],
+      "refs": [
+        {
+          "source": "jp-notice-1440"
+        }
+      ]
+    },
+    {
+      "id": "クリスタルポイント",
+      "name": "クリスタルポイント",
+      "kind": "currency",
+      "refs": [
+        {
+          "source": "jp-notice-1440"
+        }
+      ]
+    },
+    {
+      "id": "多尾のブレスレット",
+      "name": "多尾のブレスレット",
+      "kind": "material",
+      "obtain": [
+        "桃郷苑ステージ"
+      ],
+      "description": "別表記: 多尾の腕輪 (ベルスカードの信頼 強化段階表)。",
+      "refs": [
+        {
+          "source": "jp-notice-1440"
+        }
+      ]
+    },
+    {
+      "id": "ゼリー",
+      "name": "ゼリー",
+      "kind": "currency",
+      "description": "ベルスカードの信頼 強化段階表の列見出し「必要ゼリー」より。正式なアイテム/財貨名は原文に記載なし。",
+      "refs": [
+        {
+          "source": "jp-notice-1440"
+        }
+      ]
+    },
+    {
+      "id": "ラビリンスポイント",
+      "name": "ラビリンスポイント",
+      "kind": "currency",
+      "refs": [
+        {
+          "source": "jp-notice-1440"
+        }
+      ]
+    },
+    {
+      "id": "亡者の時間の涙",
+      "name": "亡者の時間の涙",
+      "kind": "material",
+      "obtain": [
+        "桃郷苑ステージ"
+      ],
+      "refs": [
+        {
+          "source": "jp-notice-1440"
+        }
+      ]
+    },
+    {
+      "id": "瓶詰めの石化像",
+      "name": "瓶詰めの石化像",
+      "kind": "material",
+      "obtain": [
+        "桃郷苑ステージ"
+      ],
+      "description": "別表記: 瓶詰めの石化薬 (ベルスカードの責任挑戦箱 構成内容)。",
+      "refs": [
+        {
+          "source": "jp-notice-1440"
+        }
+      ]
+    },
+    {
+      "id": "棘付きの仮面",
+      "name": "棘付きの仮面",
+      "kind": "material",
+      "obtain": [
+        "桃郷苑ステージ"
+      ],
+      "description": "別表記: 棘のついた仮面 (ベルスカードの責任 細工段階表・説明文)。",
+      "refs": [
+        {
+          "source": "jp-notice-1440"
+        }
+      ]
+    },
+    {
+      "id": "精製の万年筆",
+      "name": "精製の万年筆",
+      "kind": "material",
+      "obtain": [
+        "王城廃墟EXネスト",
+        "アイテムモール"
+      ],
+      "description": "強化・細工が最高段階のアーティファクトに使用して精製を行う。",
+      "refs": [
+        {
+          "source": "jp-notice-1440"
+        }
+      ]
+    },
+    {
+      "id": "崩れた境界の羅針盤ランダム袋",
+      "name": "崩れた境界の羅針盤ランダム袋",
+      "kind": "box",
+      "refs": [
+        {
+          "source": "jp-notice-1440"
+        }
+      ]
+    },
+    {
+      "id": "星屑の石(宝物)",
+      "name": "星屑の石(宝物)",
+      "kind": "material",
+      "refs": [
+        {
+          "source": "jp-notice-1440"
+        }
+      ]
+    },
+    {
+      "id": "ゴールデンゴブリンコイン",
+      "name": "ゴールデンゴブリンコイン",
+      "kind": "currency",
+      "refs": [
+        {
+          "source": "jp-notice-1440"
+        }
+      ]
+    },
+    {
+      "id": "幽冥の招待状",
+      "name": "幽冥の招待状",
+      "kind": "material",
+      "refs": [
+        {
+          "source": "jp-notice-1440"
+        }
+      ]
+    },
+    {
+      "id": "崩れた境界の羅針盤選択袋",
+      "name": "崩れた境界の羅針盤選択袋",
+      "kind": "box",
+      "refs": [
+        {
+          "source": "jp-notice-1440"
+        }
+      ]
+    },
+    {
+      "id": "さっぱりミラクルゼリー",
+      "name": "さっぱりミラクルゼリー",
+      "kind": "consumable",
+      "refs": [
+        {
+          "source": "jp-notice-1440"
+        }
+      ]
+    },
+    {
+      "id": "ヌルヌル水草",
+      "name": "ヌルヌル水草",
+      "kind": "material",
+      "refs": [
+        {
+          "source": "jp-notice-1440"
+        }
+      ]
+    },
+    {
+      "id": "屍苔",
+      "name": "屍苔",
+      "kind": "material",
+      "refs": [
+        {
+          "source": "jp-notice-1440"
+        }
+      ]
+    },
+    {
+      "id": "アワフジツボ",
+      "name": "アワフジツボ",
+      "kind": "material",
+      "refs": [
+        {
+          "source": "jp-notice-1440"
+        }
+      ]
+    },
+    {
+      "id": "称号：軍団の略奪者",
+      "name": "称号：軍団の略奪者",
+      "kind": "other",
+      "description": "取引可能な称号アイテム(物理/魔法攻撃力 + 30,000)。",
+      "refs": [
+        {
+          "source": "jp-notice-1440"
+        }
+      ]
+    },
+    {
+      "id": "灼熱石",
+      "name": "灼熱石",
+      "kind": "material",
+      "refs": [
+        {
+          "source": "jp-notice-1440"
+        }
+      ]
+    },
+    {
+      "id": "六角ボルト",
+      "name": "六角ボルト",
+      "kind": "material",
+      "refs": [
+        {
+          "source": "jp-notice-1440"
+        }
+      ]
+    },
+    {
+      "id": "黒々茸",
+      "name": "黒々茸",
+      "kind": "material",
+      "refs": [
+        {
+          "source": "jp-notice-1440"
+        }
+      ]
+    },
+    {
+      "id": "称号：氷雪の放浪者",
+      "name": "称号：氷雪の放浪者",
+      "kind": "other",
+      "description": "取引可能な称号アイテム(物理/魔法攻撃力 + 30,000)。",
+      "refs": [
+        {
+          "source": "jp-notice-1440"
+        }
+      ]
+    },
+    {
+      "id": "黄金色のカタマリ",
+      "name": "黄金色のカタマリ",
+      "kind": "material",
+      "refs": [
+        {
+          "source": "jp-notice-1440"
+        }
+      ]
+    },
+    {
+      "id": "万年繭",
+      "name": "万年繭",
+      "kind": "material",
+      "refs": [
+        {
+          "source": "jp-notice-1440"
+        }
+      ]
+    },
+    {
+      "id": "栴檀の実",
+      "name": "栴檀の実",
+      "kind": "material",
+      "refs": [
+        {
+          "source": "jp-notice-1440"
+        }
+      ]
+    },
+    {
+      "id": "称号：紅岩の生存者",
+      "name": "称号：紅岩の生存者",
+      "kind": "other",
+      "description": "取引可能な称号アイテム(物理/魔法攻撃力 + 30,000)。",
+      "refs": [
+        {
+          "source": "jp-notice-1440"
+        }
+      ]
+    },
+    {
+      "id": "砂の息吹のつぼみ",
+      "name": "砂の息吹のつぼみ",
+      "kind": "material",
+      "refs": [
+        {
+          "source": "jp-notice-1440"
+        }
+      ]
+    },
+    {
+      "id": "ネスト入場券",
+      "name": "ネスト入場券",
+      "kind": "consumable",
+      "refs": [
+        {
+          "source": "jp-notice-1440"
+        }
+      ]
+    },
+    {
+      "id": "掲示板ポイント",
+      "name": "掲示板ポイント",
+      "kind": "currency",
+      "refs": [
+        {
+          "source": "jp-notice-1440"
+        }
+      ]
+    },
+    {
+      "id": "魂のかけら",
+      "name": "魂のかけら",
+      "kind": "material",
+      "refs": [
+        {
+          "source": "jp-notice-1440"
+        }
+      ]
+    },
+    {
+      "id": "次元の竜珠",
+      "name": "次元の竜珠",
+      "kind": "jade",
+      "refs": [
+        {
+          "source": "jp-notice-1440"
+        }
+      ]
+    },
+    {
+      "id": "金色のプレート(20%)",
+      "name": "金色のプレート(20%)",
+      "kind": "material",
+      "refs": [
+        {
+          "source": "jp-notice-1440"
+        }
+      ]
+    },
+    {
+      "id": "金色のプレート(70%)",
+      "name": "金色のプレート(70%)",
+      "kind": "material",
+      "refs": [
+        {
+          "source": "jp-notice-1440"
+        }
+      ]
+    },
+    {
+      "id": "狭間のかけら",
+      "name": "狭間のかけら",
+      "kind": "material",
+      "refs": [
+        {
+          "source": "jp-notice-1440"
+        }
+      ]
+    },
+    {
+      "id": "異界の竜珠",
+      "name": "異界の竜珠",
+      "kind": "jade",
+      "refs": [
+        {
+          "source": "jp-notice-1440"
+        }
+      ]
+    },
+    {
+      "id": "ランカーのたからもの",
+      "name": "ランカーのたからもの",
+      "kind": "box",
+      "refs": [
+        {
+          "source": "jp-notice-1440"
+        }
+      ]
+    },
+    {
+      "id": "ゴールド",
+      "name": "ゴールド",
+      "kind": "currency",
+      "refs": [
+        {
+          "source": "jp-notice-1440"
+        }
+      ]
+    },
+    {
+      "id": "紅蓮の竜脳香",
+      "name": "紅蓮の竜脳香",
+      "kind": "material",
+      "refs": [
+        {
+          "source": "jp-notice-1440"
+        }
+      ]
+    },
+    {
+      "id": "冒険の鍵",
+      "name": "冒険の鍵",
+      "kind": "consumable",
+      "refs": [
+        {
+          "source": "jp-notice-1440"
+        }
+      ]
+    },
+    {
+      "id": "輝く混沌のキューブ",
+      "name": "輝く混沌のキューブ",
+      "kind": "material",
+      "refs": [
+        {
+          "source": "jp-notice-1440"
+        }
+      ]
+    },
+    {
+      "id": "古代人の礎",
+      "name": "古代人の礎",
+      "kind": "material",
+      "refs": [
+        {
+          "source": "jp-notice-1440"
+        },
+        {
+          "source": "jp-notice-1426"
+        }
+      ]
+    },
+    {
+      "id": "崩壊した次元の気",
+      "name": "崩壊した次元の気",
+      "kind": "material",
+      "refs": [
+        {
+          "source": "jp-notice-1440"
+        }
+      ]
+    },
+    {
+      "id": "崩壊した次元の力のかけら",
+      "name": "崩壊した次元の力のかけら",
+      "kind": "material",
+      "refs": [
+        {
+          "source": "jp-notice-1440"
+        }
+      ]
+    },
+    {
+      "id": "断片化したブローチの残骸",
+      "name": "断片化したブローチの残骸",
+      "kind": "material",
+      "refs": [
+        {
+          "source": "jp-notice-1440"
+        },
+        {
+          "source": "jp-notice-1426"
+        }
+      ]
+    },
+    {
+      "id": "次元パフェ",
+      "name": "次元パフェ",
+      "kind": "consumable",
+      "refs": [
+        {
+          "source": "jp-notice-1440"
+        }
+      ]
+    },
+    {
+      "id": "砂の息吹の種",
+      "name": "砂の息吹の種",
+      "kind": "material",
+      "refs": [
+        {
+          "source": "jp-notice-1440"
+        }
+      ]
+    },
+    {
+      "id": "次元のダイス",
+      "name": "次元のダイス",
+      "kind": "material",
+      "refs": [
+        {
+          "source": "jp-notice-1440"
+        }
+      ]
+    },
+    {
+      "id": "崩壊の清水(取引不可)",
+      "name": "崩壊の清水(取引不可)",
+      "kind": "material",
+      "refs": [
+        {
+          "source": "jp-notice-1440"
+        }
+      ]
+    },
+    {
+      "id": "エネルギー抽出変換器",
+      "name": "エネルギー抽出変換器",
+      "kind": "consumable",
+      "refs": [
+        {
+          "source": "jp-notice-1440"
+        }
+      ]
+    },
+    {
+      "id": "次元の残痕",
+      "name": "次元の残痕",
+      "kind": "material",
+      "refs": [
+        {
+          "source": "jp-notice-1440"
+        }
+      ]
+    },
+    {
+      "id": "次元転移ポーション",
+      "name": "次元転移ポーション",
+      "kind": "consumable",
+      "refs": [
+        {
+          "source": "jp-notice-1440"
+        }
+      ]
+    },
+    {
+      "id": "腐敗の幕",
+      "name": "腐敗の幕",
+      "kind": "material",
+      "refs": [
+        {
+          "source": "jp-notice-1440"
+        }
+      ]
+    },
+    {
+      "id": "願いの花",
+      "name": "願いの花",
+      "kind": "material",
+      "refs": [
+        {
+          "source": "jp-notice-1440"
+        }
+      ]
+    },
+    {
+      "id": "揺るがぬ信念のキューブ",
+      "name": "揺るがぬ信念のキューブ",
+      "kind": "material",
+      "refs": [
+        {
+          "source": "jp-notice-1440"
+        }
+      ]
+    },
+    {
+      "id": "混沌の理の鍵",
+      "name": "混沌の理の鍵",
+      "kind": "consumable",
+      "refs": [
+        {
+          "source": "jp-notice-1440"
+        }
+      ]
+    },
+    {
+      "id": "ナイトメア バルナックプレート",
+      "name": "ナイトメア バルナックプレート",
+      "kind": "material",
+      "refs": [
+        {
+          "source": "jp-notice-1440"
+        }
+      ]
+    },
+    {
+      "id": "ナイトメア ジェレイントプレート",
+      "name": "ナイトメア ジェレイントプレート",
+      "kind": "material",
+      "refs": [
+        {
+          "source": "jp-notice-1440"
+        }
+      ]
+    },
+    {
+      "id": "永劫の変異型竜珠改良槌",
+      "name": "永劫の変異型竜珠改良槌",
+      "kind": "material",
+      "obtain": [
+        "ゴールドドラゴンネスト(ハード)"
+      ],
+      "refs": [
+        {
+          "source": "jp-notice-1440"
+        }
+      ]
+    },
+    {
+      "id": "永劫の渇望のかけら",
+      "name": "永劫の渇望のかけら",
+      "kind": "material",
+      "description": "永劫の異界の変異型竜珠の強化素材。",
+      "refs": [
+        {
+          "source": "jp-notice-1440"
+        }
+      ]
+    },
+    {
+      "id": "英雄称号：ゴッドランカー",
+      "name": "英雄称号：ゴッドランカー",
+      "kind": "other",
+      "refs": [
+        {
+          "source": "jp-notice-1440"
+        }
+      ]
+    },
+    {
+      "id": "英雄称号：大ランカー",
+      "name": "英雄称号：大ランカー",
+      "kind": "other",
+      "refs": [
+        {
+          "source": "jp-notice-1440"
+        }
+      ]
+    },
+    {
+      "id": "英雄称号：超ランカー",
+      "name": "英雄称号：超ランカー",
+      "kind": "other",
+      "refs": [
+        {
+          "source": "jp-notice-1440"
+        }
+      ]
+    },
+    {
+      "id": "永遠のタリスマン(4段階)(イベント)選択袋",
+      "name": "永遠のタリスマン(4段階)(イベント)選択袋",
+      "kind": "box",
+      "refs": [
+        {
+          "source": "jp-notice-1440"
+        }
+      ]
+    },
+    {
+      "id": "永遠のタリスマン(4段階)(イベント)ランダム袋",
+      "name": "永遠のタリスマン(4段階)(イベント)ランダム袋",
+      "kind": "box",
+      "refs": [
+        {
+          "source": "jp-notice-1440"
+        }
+      ]
+    },
+    {
+      "id": "脅威の変異型竜珠変換キューブ",
+      "name": "脅威の変異型竜珠変換キューブ",
+      "kind": "consumable",
+      "refs": [
+        {
+          "source": "jp-notice-1440"
+        }
+      ]
+    },
+    {
+      "id": "保護の変異型竜珠変換キューブ",
+      "name": "保護の変異型竜珠変換キューブ",
+      "kind": "consumable",
+      "refs": [
+        {
+          "source": "jp-notice-1440"
+        }
+      ]
+    },
+    {
+      "id": "季節の宝石選択袋",
+      "name": "季節の宝石選択袋",
+      "kind": "box",
+      "refs": [
+        {
+          "source": "jp-notice-1440"
+        }
+      ]
+    },
+    {
+      "id": "古代人の図面",
+      "name": "古代人の図面",
+      "kind": "material",
+      "refs": [
+        {
+          "source": "jp-notice-1440"
+        },
+        {
+          "source": "jp-notice-1426"
+        }
+      ]
+    },
+    {
+      "id": "次元の地図の欠片",
+      "name": "次元の地図の欠片",
+      "kind": "material",
+      "refs": [
+        {
+          "source": "jp-notice-1440"
+        }
+      ]
+    },
+    {
+      "id": "古代の叡智",
+      "name": "古代の叡智",
+      "kind": "material",
+      "refs": [
+        {
+          "source": "jp-notice-1440"
+        }
+      ]
+    },
+    {
+      "id": "上級渇望のかけら",
+      "name": "上級渇望のかけら",
+      "kind": "material",
+      "refs": [
+        {
+          "source": "jp-notice-1440"
+        }
+      ]
+    },
+    {
+      "id": "ランカーコイン",
+      "name": "ランカーコイン",
+      "kind": "currency",
+      "refs": [
+        {
+          "source": "jp-notice-1440"
+        }
+      ]
+    },
+    {
+      "id": "上級神聖な月食のかけら",
+      "name": "上級神聖な月食のかけら",
+      "kind": "material",
+      "refs": [
+        {
+          "source": "jp-notice-1440"
+        }
+      ]
+    },
+    {
+      "id": "上級清い月食のかけら",
+      "name": "上級清い月食のかけら",
+      "kind": "material",
+      "refs": [
+        {
+          "source": "jp-notice-1440"
+        }
+      ]
+    },
+    {
+      "id": "上級燃える月食のかけら",
+      "name": "上級燃える月食のかけら",
+      "kind": "material",
+      "refs": [
+        {
+          "source": "jp-notice-1440"
+        }
+      ]
+    },
+    {
+      "id": "上級漆黒の月食のかけら",
+      "name": "上級漆黒の月食のかけら",
+      "kind": "material",
+      "refs": [
+        {
+          "source": "jp-notice-1440"
+        }
+      ]
+    },
+    {
+      "id": "上級純風の月食のかけら",
+      "name": "上級純風の月食のかけら",
+      "kind": "material",
+      "refs": [
+        {
+          "source": "jp-notice-1440"
+        }
+      ]
+    },
+    {
+      "id": "上級堅固な月食のかけら",
+      "name": "上級堅固な月食のかけら",
+      "kind": "material",
+      "refs": [
+        {
+          "source": "jp-notice-1440"
+        }
+      ]
+    },
+    {
+      "id": "月食の結晶",
+      "name": "月食の結晶",
+      "kind": "material",
+      "refs": [
+        {
+          "source": "jp-notice-1440"
+        }
+      ]
+    },
+    {
+      "id": "月食の残骸",
+      "name": "月食の残骸",
+      "kind": "material",
+      "refs": [
+        {
+          "source": "jp-notice-1440"
+        }
+      ]
+    },
+    {
+      "id": "古竜の力が宿りし防具強化ハンマー(+12)",
+      "name": "古竜の力が宿りし防具強化ハンマー(+12)",
+      "kind": "consumable",
+      "refs": [
+        {
+          "source": "jp-notice-1440"
+        }
+      ]
+    },
+    {
+      "id": "古竜の力が宿りし武器強化ハンマー(+12)",
+      "name": "古竜の力が宿りし武器強化ハンマー(+12)",
+      "kind": "consumable",
+      "refs": [
+        {
+          "source": "jp-notice-1440"
+        }
+      ]
+    },
+    {
+      "id": "古竜の力が宿りし防具強化ハンマー(+14)",
+      "name": "古竜の力が宿りし防具強化ハンマー(+14)",
+      "kind": "consumable",
+      "refs": [
+        {
+          "source": "jp-notice-1440"
+        }
+      ]
+    },
+    {
+      "id": "古竜の力が宿りし武器強化ハンマー(+14)",
+      "name": "古竜の力が宿りし武器強化ハンマー(+14)",
+      "kind": "consumable",
+      "refs": [
+        {
+          "source": "jp-notice-1440"
+        }
+      ]
+    },
+    {
+      "id": "秩序のトークン",
+      "name": "秩序のトークン",
+      "kind": "currency",
+      "refs": [
+        {
+          "source": "jp-notice-1440"
+        }
+      ]
+    },
+    {
+      "id": "ねじれた根",
+      "name": "ねじれた根",
+      "kind": "material",
+      "refs": [
+        {
+          "source": "jp-notice-1440"
+        }
+      ]
+    },
+    {
+      "id": "永劫の異界の変異型竜珠(ユニーク)",
+      "name": "永劫の異界の変異型竜珠(ユニーク)",
+      "kind": "jade",
+      "refs": [
+        {
+          "source": "jp-notice-1440"
+        }
+      ]
+    },
+    {
+      "id": "ベルスカードの責任挑戦箱",
+      "name": "ベルスカードの責任挑戦箱",
+      "kind": "box",
+      "description": "アイテムモール<メイン-アーティファクト/週間限定/月間限定>で販売。",
+      "refs": [
+        {
+          "source": "jp-notice-1440"
+        }
+      ]
+    },
+    {
+      "id": "独武討伐戦報酬袋",
+      "name": "独武討伐戦報酬袋",
+      "kind": "box",
+      "refs": [
+        {
+          "source": "jp-notice-1426"
+        }
+      ]
+    },
+    {
+      "id": "[イベント]光を失った仲良し星",
+      "name": "[イベント]光を失った仲良し星",
+      "kind": "other",
+      "refs": [
+        {
+          "source": "jp-notice-1426"
+        }
+      ]
+    },
+    {
+      "id": "独武討伐戦コイン",
+      "name": "独武討伐戦コイン",
+      "kind": "currency",
+      "refs": [
+        {
+          "source": "jp-notice-1426"
+        }
+      ]
+    },
+    {
+      "id": "[仲良し][Ⅰ]空中浮遊",
+      "name": "[仲良し][Ⅰ]空中浮遊",
+      "kind": "other",
+      "refs": [
+        {
+          "source": "jp-notice-1426"
+        }
+      ]
+    },
+    {
+      "id": "レジェンドペット選択箱",
+      "name": "レジェンドペット選択箱",
+      "kind": "box",
+      "refs": [
+        {
+          "source": "jp-notice-1426"
+        }
+      ]
+    },
+    {
+      "id": "[謎]独武討伐のタリスマン(下級)",
+      "name": "[謎]独武討伐のタリスマン(下級)",
+      "kind": "box",
+      "refs": [
+        {
+          "source": "jp-notice-1426"
+        }
+      ]
+    },
+    {
+      "id": "[謎]独武討伐のタリスマン(中級)",
+      "name": "[謎]独武討伐のタリスマン(中級)",
+      "kind": "box",
+      "refs": [
+        {
+          "source": "jp-notice-1426"
+        }
+      ]
+    },
+    {
+      "id": "[謎]独武討伐のタリスマン(上級)",
+      "name": "[謎]独武討伐のタリスマン(上級)",
+      "kind": "box",
+      "refs": [
+        {
+          "source": "jp-notice-1426"
+        }
+      ]
+    },
+    {
+      "id": "古竜の力が宿った防具強化ハンマー (+5～+11)(20%)",
+      "name": "古竜の力が宿った防具強化ハンマー (+5～+11)(20%)",
+      "kind": "consumable",
+      "refs": [
+        {
+          "source": "jp-notice-1426"
+        }
+      ]
+    },
+    {
+      "id": "[イベント]輝く仲良し星",
+      "name": "[イベント]輝く仲良し星",
+      "kind": "other",
+      "refs": [
+        {
+          "source": "jp-notice-1426"
+        }
+      ]
+    },
+    {
+      "id": "古竜の力が宿った武器強化ハンマー (+5～+11)(20%)",
+      "name": "古竜の力が宿った武器強化ハンマー (+5～+11)(20%)",
+      "kind": "consumable",
+      "refs": [
+        {
+          "source": "jp-notice-1426"
+        }
+      ]
+    },
+    {
+      "id": "古竜の力が宿った防具強化ハンマー (+5～+13)(20%)",
+      "name": "古竜の力が宿った防具強化ハンマー (+5～+13)(20%)",
+      "kind": "consumable",
+      "refs": [
+        {
+          "source": "jp-notice-1426"
+        }
+      ]
+    },
+    {
+      "id": "称号：独武に耐えし",
+      "name": "称号：独武に耐えし",
+      "kind": "other",
+      "refs": [
+        {
+          "source": "jp-notice-1426"
+        }
+      ]
+    },
+    {
+      "id": "称号：独武を凌ぎし",
+      "name": "称号：独武を凌ぎし",
+      "kind": "other",
+      "refs": [
+        {
+          "source": "jp-notice-1426"
+        }
+      ]
+    },
+    {
+      "id": "称号：独武を突破せし",
+      "name": "称号：独武を突破せし",
+      "kind": "other",
+      "refs": [
+        {
+          "source": "jp-notice-1426"
+        }
+      ]
+    },
+    {
+      "id": "思い出の時間が留まる箱",
+      "name": "思い出の時間が留まる箱",
+      "kind": "box",
+      "refs": [
+        {
+          "source": "jp-notice-1426"
+        }
+      ]
+    },
+    {
+      "id": "称号：独武を打ち破りし者",
+      "name": "称号：独武を打ち破りし者",
+      "kind": "other",
+      "refs": [
+        {
+          "source": "jp-notice-1426"
+        }
+      ]
+    },
+    {
+      "id": "称号：独武を越えし者",
+      "name": "称号：独武を越えし者",
+      "kind": "other",
+      "refs": [
+        {
+          "source": "jp-notice-1426"
+        }
+      ]
+    },
+    {
+      "id": "独武討伐戦挑戦状(シーズン2)",
+      "name": "独武討伐戦挑戦状(シーズン2)",
+      "kind": "consumable",
+      "refs": [
+        {
+          "source": "jp-notice-1426"
+        }
+      ]
+    },
+    {
+      "id": "[謎]独武討伐のタリスマン",
+      "name": "[謎]独武討伐のタリスマン",
+      "kind": "box",
+      "refs": [
+        {
+          "source": "jp-notice-1426"
+        }
+      ]
+    },
+    {
+      "id": "永遠のタリスマン(3段階)(イベント)選択袋",
+      "name": "永遠のタリスマン(3段階)(イベント)選択袋",
+      "kind": "box",
+      "refs": [
+        {
+          "source": "jp-notice-1426"
+        }
+      ]
+    },
+    {
+      "id": "永遠のタリスマン(3段階)(イベント)ランダム袋",
+      "name": "永遠のタリスマン(3段階)(イベント)ランダム袋",
+      "kind": "box",
+      "refs": [
+        {
+          "source": "jp-notice-1426"
+        }
+      ]
+    },
+    {
+      "id": "[パッシブ]友の応援(攻撃力) +10万",
+      "name": "[パッシブ]友の応援(攻撃力) +10万",
+      "kind": "consumable",
+      "refs": [
+        {
+          "source": "jp-notice-1426"
+        }
+      ]
+    },
+    {
+      "id": "[未完]次元の変異型竜珠",
+      "name": "[未完]次元の変異型竜珠",
+      "kind": "jade",
+      "refs": [
+        {
+          "source": "jp-notice-1426"
+        }
+      ]
+    },
+    {
+      "id": "[未完]次元の変異型竜珠改良槌",
+      "name": "[未完]次元の変異型竜珠改良槌",
+      "kind": "consumable",
+      "refs": [
+        {
+          "source": "jp-notice-1426"
+        }
+      ]
+    },
+    {
+      "id": "アストラルパウダー(500)",
+      "name": "アストラルパウダー(500)",
+      "kind": "material",
+      "refs": [
+        {
+          "source": "jp-notice-1426"
+        }
+      ]
+    },
+    {
+      "id": "崩壊した武器刻印袋(14日)",
+      "name": "崩壊した武器刻印袋(14日)",
+      "kind": "box",
+      "refs": [
+        {
+          "source": "jp-notice-1426"
+        }
+      ]
+    },
+    {
+      "id": "次元の砂(取引不可)",
+      "name": "次元の砂(取引不可)",
+      "kind": "material",
+      "refs": [
+        {
+          "source": "jp-notice-1426"
+        }
+      ]
+    },
+    {
+      "id": "ブローチリング",
+      "name": "ブローチリング",
+      "kind": "material",
+      "refs": [
+        {
+          "source": "jp-notice-1426"
+        }
+      ]
+    },
+    {
+      "id": "壊れた金糸の防具結晶",
+      "name": "壊れた金糸の防具結晶",
+      "kind": "material",
+      "refs": [
+        {
+          "source": "jp-notice-1426"
+        }
+      ]
+    },
+    {
+      "id": "壊れた金糸武器の結晶",
+      "name": "壊れた金糸武器の結晶",
+      "kind": "material",
+      "refs": [
+        {
+          "source": "jp-notice-1426"
+        }
+      ]
+    },
+    {
+      "id": "古竜の力が宿った防具強化ハンマー(+11)",
+      "name": "古竜の力が宿った防具強化ハンマー(+11)",
+      "kind": "consumable",
+      "refs": [
+        {
+          "source": "jp-notice-1426"
+        }
+      ]
+    },
+    {
+      "id": "古竜の力が宿った防具強化ハンマー(+13)",
+      "name": "古竜の力が宿った防具強化ハンマー(+13)",
+      "kind": "consumable",
+      "refs": [
+        {
+          "source": "jp-notice-1426"
+        }
+      ]
+    },
+    {
+      "id": "古竜の力が宿った武器強化ハンマー(+11)",
+      "name": "古竜の力が宿った武器強化ハンマー(+11)",
+      "kind": "consumable",
+      "refs": [
+        {
+          "source": "jp-notice-1426"
+        }
+      ]
+    },
+    {
+      "id": "古竜の力が宿った武器強化ハンマー(+13)",
+      "name": "古竜の力が宿った武器強化ハンマー(+13)",
+      "kind": "consumable",
+      "refs": [
+        {
+          "source": "jp-notice-1426"
+        }
+      ]
+    },
+    {
+      "id": "[パッシブ]友の応援(攻撃力) +100万",
+      "name": "[パッシブ]友の応援(攻撃力) +100万",
+      "kind": "consumable",
+      "refs": [
+        {
+          "source": "jp-notice-1426"
+        }
+      ]
+    },
+    {
+      "id": "月食の竜珠(エンシェント)+5強化ハンマー",
+      "name": "月食の竜珠(エンシェント)+5強化ハンマー",
+      "kind": "consumable",
+      "refs": [
+        {
+          "source": "jp-notice-1426"
+        }
+      ]
+    },
+    {
+      "id": "[パッシブ]友の応援(攻撃力) +50万",
+      "name": "[パッシブ]友の応援(攻撃力) +50万",
+      "kind": "consumable",
+      "refs": [
+        {
+          "source": "jp-notice-1426"
+        }
+      ]
+    },
+    {
+      "id": "洛陽のルーン強化ハンマー(+6～+14)",
+      "name": "洛陽のルーン強化ハンマー(+6～+14)",
+      "kind": "consumable",
+      "refs": [
+        {
+          "source": "jp-notice-1426"
+        }
+      ]
+    },
+    {
+      "id": "ホワイトコアボール(取引不可)(14日)",
+      "name": "ホワイトコアボール(取引不可)(14日)",
+      "kind": "material",
+      "refs": [
+        {
+          "source": "jp-notice-1426"
+        }
+      ]
+    },
+    {
+      "id": "永遠の渇望のかけら",
+      "name": "永遠の渇望のかけら",
+      "kind": "material",
+      "refs": [
+        {
+          "source": "jp-notice-1426"
+        }
+      ]
+    },
+    {
+      "id": "次元の竜珠+10選択袋",
+      "name": "次元の竜珠+10選択袋",
+      "kind": "box",
+      "refs": [
+        {
+          "source": "jp-notice-1426"
+        }
+      ]
+    },
+    {
+      "id": "異界の竜珠+10選択袋",
+      "name": "異界の竜珠+10選択袋",
+      "kind": "box",
+      "refs": [
+        {
+          "source": "jp-notice-1426"
+        }
+      ]
+    },
+    {
+      "id": "幽幻/紅月/新緑の竜珠選択袋(+15)",
+      "name": "幽幻/紅月/新緑の竜珠選択袋(+15)",
+      "kind": "box",
+      "refs": [
+        {
+          "source": "jp-notice-1426"
+        }
+      ]
+    },
+    {
+      "id": "高純度の次元の核",
+      "name": "高純度の次元の核",
+      "kind": "material",
+      "refs": [
+        {
+          "source": "jp-notice-1426"
+        }
+      ]
+    },
+    {
+      "id": "高純度の異界の核",
+      "name": "高純度の異界の核",
+      "kind": "material",
+      "refs": [
+        {
+          "source": "jp-notice-1426"
+        }
+      ]
+    },
+    {
+      "id": "無欠の核",
+      "name": "無欠の核",
+      "kind": "material",
+      "refs": [
+        {
+          "source": "jp-notice-1426"
+        }
+      ]
+    },
+    {
+      "id": "堅固な信念のテラマイブローチ袋",
+      "name": "堅固な信念のテラマイブローチ袋",
+      "kind": "box",
+      "refs": [
+        {
+          "source": "jp-notice-1426"
+        }
+      ]
+    },
+    {
+      "id": "[5段階]封印された力のテラマイブローチ袋",
+      "name": "[5段階]封印された力のテラマイブローチ袋",
+      "kind": "box",
+      "refs": [
+        {
+          "source": "jp-notice-1426"
+        }
+      ]
+    },
+    {
+      "id": "審判のワンド",
+      "name": "審判のワンド",
+      "kind": "material",
+      "refs": [
+        {
+          "source": "jp-notice-1426"
+        }
+      ]
+    },
+    {
+      "id": "シールドのかけら",
+      "name": "シールドのかけら",
+      "kind": "material",
+      "refs": [
+        {
+          "source": "jp-notice-1426"
+        }
+      ]
+    },
+    {
+      "id": "信念のテラマイブローチ箱",
+      "name": "信念のテラマイブローチ箱",
+      "kind": "box",
+      "description": "アイテムモール<メイン-オススメ>/<パッケージ-ブローチ商品>で販売。ポテンゲージなし。",
+      "refs": [
+        {
+          "source": "jp-notice-1426"
+        }
+      ]
+    }
+  ],
+  "recipes": [
+    {
+      "id": "n1440-belscard-loyalty-refine",
+      "type": "refine",
+      "result": "ベルスカードの忠義",
+      "base": "ベルスカードの忠義",
+      "materials": [
+        {
+          "item": "精製の万年筆",
+          "qty": "数量記載なし"
+        }
+      ],
+      "where": "アーティファクト精製",
+      "notes": "進行条件: 強化最高段階かつ細工最高段階。精製後は強化段階を維持し、精製回数に応じて細工段階を再設定(精製回数0～1→0、2～3→2、4→3、5～→4)。再度細工最終段階に到達するとランダムオプションを再抽選、上位オプション確率が上昇(上限6回、以降も精製可能だが追加上昇なし)。使用個数は原文に記載なし。ベルスカードの責任の精製については記載なし。",
+      "refs": [
+        {
+          "source": "jp-notice-1440"
+        }
+      ]
+    },
+    {
+      "id": "n1440-belscard-trust-refine",
+      "type": "refine",
+      "result": "ベルスカードの信頼",
+      "base": "ベルスカードの信頼",
+      "materials": [
+        {
+          "item": "精製の万年筆",
+          "qty": "数量記載なし"
+        }
+      ],
+      "where": "アーティファクト精製",
+      "notes": "進行条件: 強化最高段階かつ細工最高段階。精製後は強化段階を維持し、精製回数に応じて細工段階を再設定(精製回数0～2→0、3～6→1、7～→2)。再度細工最終段階に到達するとランダムオプションを再抽選、上位オプション確率が上昇(上限10回、以降も精製可能だが追加上昇なし)。使用個数は原文に記載なし。ベルスカードの責任の精製については記載なし。",
+      "refs": [
+        {
+          "source": "jp-notice-1440"
+        }
+      ]
+    },
+    {
+      "id": "n1440-dimshop-01",
+      "type": "exchange",
+      "result": "次元パフェ",
+      "result_qty": 1,
+      "materials": [
+        {
+          "item": "砂の息吹のつぼみ",
+          "qty": 50
+        }
+      ],
+      "where": "次元商店",
+      "notes": "次元レベル制限 1。2026年7月アップデートの次元商店構成。紅蓮宮-朱雀大路-に「【次元商人】ミャオン」NPCも追加。",
+      "refs": [
+        {
+          "source": "jp-notice-1440"
+        }
+      ]
+    },
+    {
+      "id": "n1440-dimshop-02",
+      "type": "exchange",
+      "result": "砂の息吹のつぼみ",
+      "result_qty": 1,
+      "materials": [
+        {
+          "item": "砂の息吹の種",
+          "qty": 1
+        }
+      ],
+      "where": "次元商店",
+      "notes": "次元レベル制限 1。2026年7月アップデートの次元商店構成。紅蓮宮-朱雀大路-に「【次元商人】ミャオン」NPCも追加。",
+      "refs": [
+        {
+          "source": "jp-notice-1440"
+        }
+      ]
+    },
+    {
+      "id": "n1440-dimshop-03",
+      "type": "exchange",
+      "result": "崩れた境界の羅針盤選択袋",
+      "result_qty": 1,
+      "materials": [
+        {
+          "item": "砂の息吹のつぼみ",
+          "qty": 500
+        }
+      ],
+      "where": "次元商店",
+      "notes": "次元レベル制限 20。購入可能数量: [ワールド] あたり週5回。2026年7月アップデートの次元商店構成。紅蓮宮-朱雀大路-に「【次元商人】ミャオン」NPCも追加。",
+      "refs": [
+        {
+          "source": "jp-notice-1440"
+        }
+      ]
+    },
+    {
+      "id": "n1440-dimshop-04",
+      "type": "exchange",
+      "result": "次元のダイス",
+      "result_qty": 1,
+      "materials": [
+        {
+          "item": "砂の息吹のつぼみ",
+          "qty": 50
+        }
+      ],
+      "where": "次元商店",
+      "notes": "次元レベル制限 40。2026年7月アップデートの次元商店構成。紅蓮宮-朱雀大路-に「【次元商人】ミャオン」NPCも追加。",
+      "refs": [
+        {
+          "source": "jp-notice-1440"
+        }
+      ]
+    },
+    {
+      "id": "n1440-dimshop-05",
+      "type": "exchange",
+      "result": "崩壊の清水(取引不可)",
+      "result_qty": 1,
+      "materials": [
+        {
+          "item": "砂の息吹のつぼみ",
+          "qty": 1000
+        }
+      ],
+      "where": "次元商店",
+      "notes": "次元レベル制限 60。購入可能数量: [ワールド] あたり週7回。2026年7月アップデートの次元商店構成。紅蓮宮-朱雀大路-に「【次元商人】ミャオン」NPCも追加。",
+      "refs": [
+        {
+          "source": "jp-notice-1440"
+        }
+      ]
+    },
+    {
+      "id": "n1440-dimshop-06",
+      "type": "exchange",
+      "result": "エネルギー抽出変換器",
+      "result_qty": 1,
+      "materials": [
+        {
+          "item": "砂の息吹のつぼみ",
+          "qty": 1
+        }
+      ],
+      "where": "次元商店",
+      "notes": "次元レベル制限 1。費用: 10カッパー。2026年7月アップデートの次元商店構成。紅蓮宮-朱雀大路-に「【次元商人】ミャオン」NPCも追加。",
+      "refs": [
+        {
+          "source": "jp-notice-1440"
+        }
+      ]
+    },
+    {
+      "id": "n1440-dimshop-07",
+      "type": "exchange",
+      "result": "次元の残痕",
+      "result_qty": 10,
+      "materials": [
+        {
+          "item": "砂の息吹のつぼみ",
+          "qty": 50
+        }
+      ],
+      "where": "次元商店",
+      "notes": "次元レベル制限 1。2026年7月アップデートの次元商店構成。紅蓮宮-朱雀大路-に「【次元商人】ミャオン」NPCも追加。",
+      "refs": [
+        {
+          "source": "jp-notice-1440"
+        }
+      ]
+    },
+    {
+      "id": "n1440-dimshop-08",
+      "type": "exchange",
+      "result": "次元転移ポーション",
+      "result_qty": 1,
+      "materials": [
+        {
+          "item": "砂の息吹のつぼみ",
+          "qty": 1000
+        }
+      ],
+      "where": "次元商店",
+      "notes": "次元レベル制限 140。2026年7月アップデートの次元商店構成。紅蓮宮-朱雀大路-に「【次元商人】ミャオン」NPCも追加。",
+      "refs": [
+        {
+          "source": "jp-notice-1440"
+        }
+      ]
+    },
+    {
+      "id": "n1440-dimshop-09",
+      "type": "exchange",
+      "result": "腐敗の幕",
+      "result_qty": 1,
+      "materials": [
+        {
+          "item": "砂の息吹のつぼみ",
+          "qty": 1500
+        }
+      ],
+      "where": "次元商店",
+      "notes": "次元レベル制限 120。購入可能数量: [ワールド] あたり週3回。2026年7月アップデートの次元商店構成。紅蓮宮-朱雀大路-に「【次元商人】ミャオン」NPCも追加。",
+      "refs": [
+        {
+          "source": "jp-notice-1440"
+        }
+      ]
+    },
+    {
+      "id": "n1440-dimshop-10",
+      "type": "exchange",
+      "result": "腐敗の幕",
+      "result_qty": 1,
+      "materials": [
+        {
+          "item": "砂の息吹のつぼみ",
+          "qty": 1500
+        }
+      ],
+      "where": "次元商店",
+      "notes": "次元レベル制限 160。購入可能数量: [ワールド] あたり週3回。2026年7月アップデートの次元商店構成。紅蓮宮-朱雀大路-に「【次元商人】ミャオン」NPCも追加。",
+      "refs": [
+        {
+          "source": "jp-notice-1440"
+        }
+      ]
+    },
+    {
+      "id": "n1440-dimshop-11",
+      "type": "exchange",
+      "result": "願いの花",
+      "result_qty": 1,
+      "materials": [
+        {
+          "item": "砂の息吹のつぼみ",
+          "qty": 200
+        }
+      ],
+      "where": "次元商店",
+      "gold": 1000,
+      "notes": "次元レベル制限 60。購入可能数量: [ワールド] あたり週10回。2026年7月アップデートの次元商店構成。紅蓮宮-朱雀大路-に「【次元商人】ミャオン」NPCも追加。",
+      "refs": [
+        {
+          "source": "jp-notice-1440"
+        }
+      ]
+    },
+    {
+      "id": "n1440-dimshop-12",
+      "type": "exchange",
+      "result": "揺るがぬ信念のキューブ",
+      "result_qty": 1,
+      "materials": [
+        {
+          "item": "砂の息吹のつぼみ",
+          "qty": 500
+        }
+      ],
+      "where": "次元商店",
+      "gold": 10000,
+      "notes": "次元レベル制限 100。購入可能数量: キャラクターあたり週1回。2026年7月アップデートの次元商店構成。紅蓮宮-朱雀大路-に「【次元商人】ミャオン」NPCも追加。",
+      "refs": [
+        {
+          "source": "jp-notice-1440"
+        }
+      ]
+    },
+    {
+      "id": "n1440-dimshop-13",
+      "type": "exchange",
+      "result": "混沌の理の鍵",
+      "result_qty": 1,
+      "materials": [
+        {
+          "item": "砂の息吹のつぼみ",
+          "qty": 1500
+        }
+      ],
+      "where": "次元商店",
+      "notes": "次元レベル制限 100。購入可能数量: キャラクターあたり週1回。2026年7月アップデートの次元商店構成。紅蓮宮-朱雀大路-に「【次元商人】ミャオン」NPCも追加。",
+      "refs": [
+        {
+          "source": "jp-notice-1440"
+        }
+      ]
+    },
+    {
+      "id": "n1440-dimshop-14",
+      "type": "exchange",
+      "result": "ナイトメア バルナックプレート",
+      "result_qty": 1,
+      "materials": [
+        {
+          "item": "砂の息吹のつぼみ",
+          "qty": 1000
+        }
+      ],
+      "where": "次元商店",
+      "notes": "次元レベル制限 100。2026年7月アップデートの次元商店構成。紅蓮宮-朱雀大路-に「【次元商人】ミャオン」NPCも追加。",
+      "refs": [
+        {
+          "source": "jp-notice-1440"
+        }
+      ]
+    },
+    {
+      "id": "n1440-dimshop-15",
+      "type": "exchange",
+      "result": "ナイトメア ジェレイントプレート",
+      "result_qty": 1,
+      "materials": [
+        {
+          "item": "砂の息吹のつぼみ",
+          "qty": 1000
+        }
+      ],
+      "where": "次元商店",
+      "notes": "次元レベル制限 100。2026年7月アップデートの次元商店構成。紅蓮宮-朱雀大路-に「【次元商人】ミャオン」NPCも追加。",
+      "refs": [
+        {
+          "source": "jp-notice-1440"
+        }
+      ]
+    },
+    {
+      "id": "n1426-dokubu-shop-01",
+      "type": "exchange",
+      "result": "独武討伐戦挑戦状(シーズン2)",
+      "result_qty": 1,
+      "materials": [
+        {
+          "item": "独武討伐戦コイン",
+          "qty": 1
+        }
+      ],
+      "where": "独武討伐戦商店 (紅蓮宮-朱雀大路- 【宮女】ユエ / 紅蓮宮-市場小路- 紅蓮宮-外郭-門番、購入制限共有)",
+      "notes": "購入制限: -、取引: -、アカウント倉庫: OK。2026/6/23 更新の商店表。",
+      "refs": [
+        {
+          "source": "jp-notice-1426"
+        }
+      ]
+    },
+    {
+      "id": "n1426-dokubu-shop-02",
+      "type": "exchange",
+      "result": "[謎]独武討伐のタリスマン(上級)",
+      "result_qty": 1,
+      "materials": [
+        {
+          "item": "独武討伐戦コイン",
+          "qty": 200
+        }
+      ],
+      "where": "独武討伐戦商店 (紅蓮宮-朱雀大路- 【宮女】ユエ / 紅蓮宮-市場小路- 紅蓮宮-外郭-門番、購入制限共有)",
+      "notes": "購入制限: 1回/アカウント、取引: OK、アカウント倉庫: OK。2026/6/23 更新の商店表。",
+      "refs": [
+        {
+          "source": "jp-notice-1426"
+        }
+      ]
+    },
+    {
+      "id": "n1426-dokubu-shop-03",
+      "type": "exchange",
+      "result": "[謎]独武討伐のタリスマン(上級)",
+      "result_qty": 2,
+      "materials": [
+        {
+          "item": "独武討伐戦コイン",
+          "qty": 120
+        }
+      ],
+      "where": "独武討伐戦商店 (紅蓮宮-朱雀大路- 【宮女】ユエ / 紅蓮宮-市場小路- 紅蓮宮-外郭-門番、購入制限共有)",
+      "notes": "購入制限: 1回/アカウント、取引: NG、アカウント倉庫: NG。2026/6/23 更新の商店表。",
+      "refs": [
+        {
+          "source": "jp-notice-1426"
+        }
+      ]
+    },
+    {
+      "id": "n1426-dokubu-shop-04",
+      "type": "exchange",
+      "result": "[謎]独武討伐のタリスマン(中級)",
+      "result_qty": 5,
+      "materials": [
+        {
+          "item": "独武討伐戦コイン",
+          "qty": 90
+        }
+      ],
+      "where": "独武討伐戦商店 (紅蓮宮-朱雀大路- 【宮女】ユエ / 紅蓮宮-市場小路- 紅蓮宮-外郭-門番、購入制限共有)",
+      "notes": "購入制限: 1回/アカウント、取引: NG、アカウント倉庫: NG。2026/6/23 更新の商店表。",
+      "refs": [
+        {
+          "source": "jp-notice-1426"
+        }
+      ]
+    },
+    {
+      "id": "n1426-dokubu-shop-05",
+      "type": "exchange",
+      "result": "[謎]独武討伐のタリスマン(下級)",
+      "result_qty": 5,
+      "materials": [
+        {
+          "item": "独武討伐戦コイン",
+          "qty": 15
+        }
+      ],
+      "where": "独武討伐戦商店 (紅蓮宮-朱雀大路- 【宮女】ユエ / 紅蓮宮-市場小路- 紅蓮宮-外郭-門番、購入制限共有)",
+      "notes": "購入制限: 1回/アカウント、取引: NG、アカウント倉庫: NG。2026/6/23 更新の商店表。",
+      "refs": [
+        {
+          "source": "jp-notice-1426"
+        }
+      ]
+    },
+    {
+      "id": "n1426-dokubu-shop-06",
+      "type": "exchange",
+      "result": "[謎]独武討伐のタリスマン",
+      "result_qty": 2,
+      "materials": [
+        {
+          "item": "独武討伐戦コイン",
+          "qty": 15
+        }
+      ],
+      "where": "独武討伐戦商店 (紅蓮宮-朱雀大路- 【宮女】ユエ / 紅蓮宮-市場小路- 紅蓮宮-外郭-門番、購入制限共有)",
+      "notes": "購入制限: 1回/アカウント、取引: NG、アカウント倉庫: NG。2026/6/23 更新の商店表。",
+      "refs": [
+        {
+          "source": "jp-notice-1426"
+        }
+      ]
+    },
+    {
+      "id": "n1426-dokubu-shop-07",
+      "type": "exchange",
+      "result": "永遠のタリスマン(3段階)(イベント)選択袋",
+      "result_qty": 1,
+      "materials": [
+        {
+          "item": "独武討伐戦コイン",
+          "qty": 5
+        }
+      ],
+      "where": "独武討伐戦商店 (紅蓮宮-朱雀大路- 【宮女】ユエ / 紅蓮宮-市場小路- 紅蓮宮-外郭-門番、購入制限共有)",
+      "notes": "購入制限: 週1回/アカウント、取引: NG、アカウント倉庫: OK。2026/6/23 更新の商店表。",
+      "refs": [
+        {
+          "source": "jp-notice-1426"
+        }
+      ]
+    },
+    {
+      "id": "n1426-dokubu-shop-08",
+      "type": "exchange",
+      "result": "永遠のタリスマン(3段階)(イベント)ランダム袋",
+      "result_qty": 1,
+      "materials": [
+        {
+          "item": "独武討伐戦コイン",
+          "qty": 2
+        }
+      ],
+      "where": "独武討伐戦商店 (紅蓮宮-朱雀大路- 【宮女】ユエ / 紅蓮宮-市場小路- 紅蓮宮-外郭-門番、購入制限共有)",
+      "notes": "購入制限: 週1回/アカウント、取引: NG、アカウント倉庫: OK。2026/6/23 更新の商店表。",
+      "refs": [
+        {
+          "source": "jp-notice-1426"
+        }
+      ]
+    },
+    {
+      "id": "n1426-dokubu-shop-09",
+      "type": "exchange",
+      "result": "[パッシブ]友の応援(攻撃力) +10万",
+      "result_qty": 1,
+      "materials": [
+        {
+          "item": "独武討伐戦コイン",
+          "qty": 5
+        }
+      ],
+      "where": "独武討伐戦商店 (紅蓮宮-朱雀大路- 【宮女】ユエ / 紅蓮宮-市場小路- 紅蓮宮-外郭-門番、購入制限共有)",
+      "notes": "購入制限: 1回/キャラクター、取引: NG、アカウント倉庫: NG。2026/6/23 更新の商店表。",
+      "refs": [
+        {
+          "source": "jp-notice-1426"
+        }
+      ]
+    },
+    {
+      "id": "n1426-dokubu-shop-10",
+      "type": "exchange",
+      "result": "[未完]次元の変異型竜珠",
+      "result_qty": 1,
+      "materials": [
+        {
+          "item": "独武討伐戦コイン",
+          "qty": 5
+        }
+      ],
+      "where": "独武討伐戦商店 (紅蓮宮-朱雀大路- 【宮女】ユエ / 紅蓮宮-市場小路- 紅蓮宮-外郭-門番、購入制限共有)",
+      "notes": "購入制限: 週1回/アカウント、取引: NG、アカウント倉庫: NG。2026/6/23 更新の商店表。",
+      "refs": [
+        {
+          "source": "jp-notice-1426"
+        }
+      ]
+    },
+    {
+      "id": "n1426-dokubu-shop-11",
+      "type": "exchange",
+      "result": "[未完]次元の変異型竜珠改良槌",
+      "result_qty": 1,
+      "materials": [
+        {
+          "item": "独武討伐戦コイン",
+          "qty": 10
+        }
+      ],
+      "where": "独武討伐戦商店 (紅蓮宮-朱雀大路- 【宮女】ユエ / 紅蓮宮-市場小路- 紅蓮宮-外郭-門番、購入制限共有)",
+      "notes": "購入制限: 週1回/アカウント、取引: NG、アカウント倉庫: OK。2026/6/23 更新の商店表。",
+      "refs": [
+        {
+          "source": "jp-notice-1426"
+        }
+      ]
+    },
+    {
+      "id": "n1426-dokubu-shop-12",
+      "type": "exchange",
+      "result": "アストラルパウダー(500)",
+      "result_qty": 1,
+      "materials": [
+        {
+          "item": "独武討伐戦コイン",
+          "qty": 20
+        }
+      ],
+      "where": "独武討伐戦商店 (紅蓮宮-朱雀大路- 【宮女】ユエ / 紅蓮宮-市場小路- 紅蓮宮-外郭-門番、購入制限共有)",
+      "notes": "購入制限: 1回/アカウント、取引: NG、アカウント倉庫: NG。2026/6/23 更新の商店表。",
+      "refs": [
+        {
+          "source": "jp-notice-1426"
+        }
+      ]
+    },
+    {
+      "id": "n1426-dokubu-shop-13",
+      "type": "exchange",
+      "result": "崩壊した武器刻印袋(14日)",
+      "result_qty": 10,
+      "materials": [
+        {
+          "item": "独武討伐戦コイン",
+          "qty": 5
+        }
+      ],
+      "where": "独武討伐戦商店 (紅蓮宮-朱雀大路- 【宮女】ユエ / 紅蓮宮-市場小路- 紅蓮宮-外郭-門番、購入制限共有)",
+      "notes": "購入制限: 1回/アカウント、取引: NG、アカウント倉庫: NG。2026/6/23 更新の商店表。",
+      "refs": [
+        {
+          "source": "jp-notice-1426"
+        }
+      ]
+    },
+    {
+      "id": "n1426-dokubu-shop-14",
+      "type": "exchange",
+      "result": "古代人の図面",
+      "result_qty": 300,
+      "materials": [
+        {
+          "item": "独武討伐戦コイン",
+          "qty": 80
+        }
+      ],
+      "where": "独武討伐戦商店 (紅蓮宮-朱雀大路- 【宮女】ユエ / 紅蓮宮-市場小路- 紅蓮宮-外郭-門番、購入制限共有)",
+      "notes": "購入制限: 1回/アカウント、取引: OK、アカウント倉庫: OK。2026/6/23 更新の商店表。",
+      "refs": [
+        {
+          "source": "jp-notice-1426"
+        }
+      ]
+    },
+    {
+      "id": "n1426-dokubu-shop-15",
+      "type": "exchange",
+      "result": "次元の砂(取引不可)",
+      "result_qty": 10,
+      "materials": [
+        {
+          "item": "独武討伐戦コイン",
+          "qty": 5
+        }
+      ],
+      "where": "独武討伐戦商店 (紅蓮宮-朱雀大路- 【宮女】ユエ / 紅蓮宮-市場小路- 紅蓮宮-外郭-門番、購入制限共有)",
+      "notes": "購入制限: 週1回/アカウント、取引: NG、アカウント倉庫: OK。2026/6/23 更新の商店表。",
+      "refs": [
+        {
+          "source": "jp-notice-1426"
+        }
+      ]
+    },
+    {
+      "id": "n1426-dokubu-shop-16",
+      "type": "exchange",
+      "result": "ブローチリング",
+      "result_qty": 12,
+      "materials": [
+        {
+          "item": "独武討伐戦コイン",
+          "qty": 5
+        }
+      ],
+      "where": "独武討伐戦商店 (紅蓮宮-朱雀大路- 【宮女】ユエ / 紅蓮宮-市場小路- 紅蓮宮-外郭-門番、購入制限共有)",
+      "notes": "購入制限: 1回/アカウント、取引: NG、アカウント倉庫: OK。2026/6/23 更新の商店表。",
+      "refs": [
+        {
+          "source": "jp-notice-1426"
+        }
+      ]
+    },
+    {
+      "id": "n1426-dokubu-shop-17",
+      "type": "exchange",
+      "result": "壊れた金糸の防具結晶",
+      "result_qty": 500,
+      "materials": [
+        {
+          "item": "独武討伐戦コイン",
+          "qty": 2
+        }
+      ],
+      "where": "独武討伐戦商店 (紅蓮宮-朱雀大路- 【宮女】ユエ / 紅蓮宮-市場小路- 紅蓮宮-外郭-門番、購入制限共有)",
+      "notes": "購入制限: 週2回/アカウント、取引: NG、アカウント倉庫: NG。2026/6/23 更新の商店表。notice-1440 では「壊れた金糸防具の結晶」と表記(同一物の可能性、原文表記のまま記録)。",
+      "refs": [
+        {
+          "source": "jp-notice-1426"
+        }
+      ]
+    },
+    {
+      "id": "n1426-dokubu-shop-18",
+      "type": "exchange",
+      "result": "壊れた金糸武器の結晶",
+      "result_qty": 500,
+      "materials": [
+        {
+          "item": "独武討伐戦コイン",
+          "qty": 2
+        }
+      ],
+      "where": "独武討伐戦商店 (紅蓮宮-朱雀大路- 【宮女】ユエ / 紅蓮宮-市場小路- 紅蓮宮-外郭-門番、購入制限共有)",
+      "notes": "購入制限: 週2回/アカウント、取引: NG、アカウント倉庫: NG。2026/6/23 更新の商店表。",
+      "refs": [
+        {
+          "source": "jp-notice-1426"
+        }
+      ]
+    },
+    {
+      "id": "n1426-dokubu-shop-19",
+      "type": "exchange",
+      "result": "古代人の礎",
+      "result_qty": 50,
+      "materials": [
+        {
+          "item": "独武討伐戦コイン",
+          "qty": 1
+        }
+      ],
+      "where": "独武討伐戦商店 (紅蓮宮-朱雀大路- 【宮女】ユエ / 紅蓮宮-市場小路- 紅蓮宮-外郭-門番、購入制限共有)",
+      "notes": "購入制限: -、取引: NG、アカウント倉庫: NG。2026/6/23 更新の商店表。",
+      "refs": [
+        {
+          "source": "jp-notice-1426"
+        }
+      ]
+    },
+    {
+      "id": "n1426-dokubu-shop-20",
+      "type": "exchange",
+      "result": "古竜の力が宿った防具強化ハンマー(+11)",
+      "result_qty": 1,
+      "materials": [
+        {
+          "item": "独武討伐戦コイン",
+          "qty": 80
+        }
+      ],
+      "where": "独武討伐戦商店 (紅蓮宮-朱雀大路- 【宮女】ユエ / 紅蓮宮-市場小路- 紅蓮宮-外郭-門番、購入制限共有)",
+      "notes": "購入制限: 1回/アカウント、取引: OK(要封印)、アカウント倉庫: OK(要封印)。2026/6/23 更新の商店表。",
+      "refs": [
+        {
+          "source": "jp-notice-1426"
+        }
+      ]
+    },
+    {
+      "id": "n1426-dokubu-shop-21",
+      "type": "exchange",
+      "result": "古竜の力が宿った防具強化ハンマー(+13)",
+      "result_qty": 1,
+      "materials": [
+        {
+          "item": "独武討伐戦コイン",
+          "qty": 120
+        }
+      ],
+      "where": "独武討伐戦商店 (紅蓮宮-朱雀大路- 【宮女】ユエ / 紅蓮宮-市場小路- 紅蓮宮-外郭-門番、購入制限共有)",
+      "notes": "購入制限: 1回/アカウント、取引: OK(要封印)、アカウント倉庫: OK(要封印)。2026/6/23 更新の商店表。",
+      "refs": [
+        {
+          "source": "jp-notice-1426"
+        }
+      ]
+    },
+    {
+      "id": "n1426-dokubu-shop-22",
+      "type": "exchange",
+      "result": "古竜の力が宿った武器強化ハンマー(+11)",
+      "result_qty": 1,
+      "materials": [
+        {
+          "item": "独武討伐戦コイン",
+          "qty": 100
+        }
+      ],
+      "where": "独武討伐戦商店 (紅蓮宮-朱雀大路- 【宮女】ユエ / 紅蓮宮-市場小路- 紅蓮宮-外郭-門番、購入制限共有)",
+      "notes": "購入制限: 1回/アカウント、取引: OK(要封印)、アカウント倉庫: OK(要封印)。2026/6/23 更新の商店表。",
+      "refs": [
+        {
+          "source": "jp-notice-1426"
+        }
+      ]
+    },
+    {
+      "id": "n1426-dokubu-shop-23",
+      "type": "exchange",
+      "result": "古竜の力が宿った武器強化ハンマー(+13)",
+      "result_qty": 1,
+      "materials": [
+        {
+          "item": "独武討伐戦コイン",
+          "qty": 150
+        }
+      ],
+      "where": "独武討伐戦商店 (紅蓮宮-朱雀大路- 【宮女】ユエ / 紅蓮宮-市場小路- 紅蓮宮-外郭-門番、購入制限共有)",
+      "notes": "購入制限: 1回/アカウント、取引: OK(要封印)、アカウント倉庫: OK(要封印)。2026/6/23 更新の商店表。",
+      "refs": [
+        {
+          "source": "jp-notice-1426"
+        }
+      ]
+    },
+    {
+      "id": "n1426-dokubu-shop-24",
+      "type": "exchange",
+      "result": "[パッシブ]友の応援(攻撃力) +100万",
+      "result_qty": 1,
+      "materials": [
+        {
+          "item": "独武討伐戦コイン",
+          "qty": 250
+        }
+      ],
+      "where": "独武討伐戦商店 (紅蓮宮-朱雀大路- 【宮女】ユエ / 紅蓮宮-市場小路- 紅蓮宮-外郭-門番、購入制限共有)",
+      "notes": "購入制限: 1回/アカウント、取引: OK、アカウント倉庫: NG。2026/6/23 更新の商店表。",
+      "refs": [
+        {
+          "source": "jp-notice-1426"
+        }
+      ]
+    },
+    {
+      "id": "n1426-dokubu-shop-25",
+      "type": "exchange",
+      "result": "月食の竜珠(エンシェント)+5強化ハンマー",
+      "result_qty": 1,
+      "materials": [
+        {
+          "item": "独武討伐戦コイン",
+          "qty": 200
+        }
+      ],
+      "where": "独武討伐戦商店 (紅蓮宮-朱雀大路- 【宮女】ユエ / 紅蓮宮-市場小路- 紅蓮宮-外郭-門番、購入制限共有)",
+      "notes": "購入制限: 1回/アカウント、取引: OK、アカウント倉庫: OK。2026/6/23 更新の商店表。",
+      "refs": [
+        {
+          "source": "jp-notice-1426"
+        }
+      ]
+    },
+    {
+      "id": "n1426-dokubu-shop-26",
+      "type": "exchange",
+      "result": "[パッシブ]友の応援(攻撃力) +50万",
+      "result_qty": 1,
+      "materials": [
+        {
+          "item": "独武討伐戦コイン",
+          "qty": 200
+        }
+      ],
+      "where": "独武討伐戦商店 (紅蓮宮-朱雀大路- 【宮女】ユエ / 紅蓮宮-市場小路- 紅蓮宮-外郭-門番、購入制限共有)",
+      "notes": "購入制限: 1回/アカウント、取引: OK、アカウント倉庫: OK。2026/6/23 更新の商店表。",
+      "refs": [
+        {
+          "source": "jp-notice-1426"
+        }
+      ]
+    },
+    {
+      "id": "n1426-dokubu-shop-27",
+      "type": "exchange",
+      "result": "洛陽のルーン強化ハンマー(+6～+14)",
+      "result_qty": 3,
+      "materials": [
+        {
+          "item": "独武討伐戦コイン",
+          "qty": 150
+        }
+      ],
+      "where": "独武討伐戦商店 (紅蓮宮-朱雀大路- 【宮女】ユエ / 紅蓮宮-市場小路- 紅蓮宮-外郭-門番、購入制限共有)",
+      "notes": "購入制限: 1回/アカウント、取引: NG、アカウント倉庫: NG。2026/6/23 更新の商店表。",
+      "refs": [
+        {
+          "source": "jp-notice-1426"
+        }
+      ]
+    },
+    {
+      "id": "n1426-dokubu-shop-28",
+      "type": "exchange",
+      "result": "ホワイトコアボール(取引不可)(14日)",
+      "result_qty": 20,
+      "materials": [
+        {
+          "item": "独武討伐戦コイン",
+          "qty": 30
+        }
+      ],
+      "where": "独武討伐戦商店 (紅蓮宮-朱雀大路- 【宮女】ユエ / 紅蓮宮-市場小路- 紅蓮宮-外郭-門番、購入制限共有)",
+      "notes": "購入制限: 1回/アカウント、取引: NG、アカウント倉庫: NG。2026/6/23 更新の商店表。",
+      "refs": [
+        {
+          "source": "jp-notice-1426"
+        }
+      ]
+    },
+    {
+      "id": "n1426-dokubu-shop-29",
+      "type": "exchange",
+      "result": "永遠の渇望のかけら",
+      "result_qty": 50,
+      "materials": [
+        {
+          "item": "独武討伐戦コイン",
+          "qty": 50
+        }
+      ],
+      "where": "独武討伐戦商店 (紅蓮宮-朱雀大路- 【宮女】ユエ / 紅蓮宮-市場小路- 紅蓮宮-外郭-門番、購入制限共有)",
+      "notes": "購入制限: 1回/アカウント、取引: NG、アカウント倉庫: OK。2026/6/23 更新の商店表。",
+      "refs": [
+        {
+          "source": "jp-notice-1426"
+        }
+      ]
+    },
+    {
+      "id": "n1426-dokubu-shop-30",
+      "type": "exchange",
+      "result": "次元の竜珠+10選択袋",
+      "result_qty": 1,
+      "materials": [
+        {
+          "item": "独武討伐戦コイン",
+          "qty": 20
+        }
+      ],
+      "where": "独武討伐戦商店 (紅蓮宮-朱雀大路- 【宮女】ユエ / 紅蓮宮-市場小路- 紅蓮宮-外郭-門番、購入制限共有)",
+      "notes": "購入制限: 1回/アカウント、取引: NG、アカウント倉庫: OK。2026/6/23 更新の商店表。",
+      "refs": [
+        {
+          "source": "jp-notice-1426"
+        }
+      ]
+    },
+    {
+      "id": "n1426-dokubu-shop-31",
+      "type": "exchange",
+      "result": "異界の竜珠+10選択袋",
+      "result_qty": 1,
+      "materials": [
+        {
+          "item": "独武討伐戦コイン",
+          "qty": 20
+        }
+      ],
+      "where": "独武討伐戦商店 (紅蓮宮-朱雀大路- 【宮女】ユエ / 紅蓮宮-市場小路- 紅蓮宮-外郭-門番、購入制限共有)",
+      "notes": "購入制限: 1回/アカウント、取引: NG、アカウント倉庫: OK。2026/6/23 更新の商店表。",
+      "refs": [
+        {
+          "source": "jp-notice-1426"
+        }
+      ]
+    },
+    {
+      "id": "n1426-dokubu-shop-32",
+      "type": "exchange",
+      "result": "幽幻/紅月/新緑の竜珠選択袋(+15)",
+      "result_qty": 1,
+      "materials": [
+        {
+          "item": "独武討伐戦コイン",
+          "qty": 10
+        }
+      ],
+      "where": "独武討伐戦商店 (紅蓮宮-朱雀大路- 【宮女】ユエ / 紅蓮宮-市場小路- 紅蓮宮-外郭-門番、購入制限共有)",
+      "notes": "購入制限: 1回/アカウント、取引: NG、アカウント倉庫: OK。2026/6/23 更新の商店表。",
+      "refs": [
+        {
+          "source": "jp-notice-1426"
+        }
+      ]
+    },
+    {
+      "id": "n1426-dokubu-shop-33",
+      "type": "exchange",
+      "result": "高純度の次元の核",
+      "result_qty": 5,
+      "materials": [
+        {
+          "item": "独武討伐戦コイン",
+          "qty": 40
+        }
+      ],
+      "where": "独武討伐戦商店 (紅蓮宮-朱雀大路- 【宮女】ユエ / 紅蓮宮-市場小路- 紅蓮宮-外郭-門番、購入制限共有)",
+      "notes": "購入制限: 1回/アカウント、取引: OK、アカウント倉庫: OK。2026/6/23 更新の商店表。",
+      "refs": [
+        {
+          "source": "jp-notice-1426"
+        }
+      ]
+    },
+    {
+      "id": "n1426-dokubu-shop-34",
+      "type": "exchange",
+      "result": "高純度の異界の核",
+      "result_qty": 5,
+      "materials": [
+        {
+          "item": "独武討伐戦コイン",
+          "qty": 40
+        }
+      ],
+      "where": "独武討伐戦商店 (紅蓮宮-朱雀大路- 【宮女】ユエ / 紅蓮宮-市場小路- 紅蓮宮-外郭-門番、購入制限共有)",
+      "notes": "購入制限: 1回/アカウント、取引: OK、アカウント倉庫: OK。2026/6/23 更新の商店表。",
+      "refs": [
+        {
+          "source": "jp-notice-1426"
+        }
+      ]
+    },
+    {
+      "id": "n1426-dokubu-shop-35",
+      "type": "exchange",
+      "result": "無欠の核",
+      "result_qty": 1,
+      "materials": [
+        {
+          "item": "独武討伐戦コイン",
+          "qty": 150
+        }
+      ],
+      "where": "独武討伐戦商店 (紅蓮宮-朱雀大路- 【宮女】ユエ / 紅蓮宮-市場小路- 紅蓮宮-外郭-門番、購入制限共有)",
+      "notes": "購入制限: 1回/アカウント、取引: OK、アカウント倉庫: OK。2026/6/23 更新の商店表。",
+      "refs": [
+        {
+          "source": "jp-notice-1426"
+        }
+      ]
+    }
+  ],
+  "enhance_tables": [
+    {
+      "id": "n1440-belscard-loyalty-enhance",
+      "name": "ベルスカードの忠義 強化段階別情報",
+      "kind": "enhance",
+      "applies_to": [
+        "ベルスカードの忠義"
+      ],
+      "rows": [
+        {
+          "level": "+0",
+          "stats": [
+            {
+              "name": "物魔攻",
+              "value": "100,000"
+            }
+          ]
+        },
+        {
+          "level": "+1",
+          "rate": 100,
+          "gold": 2500,
+          "materials": [
+            {
+              "item": "きらめく黄金インク",
+              "qty": 60
+            },
+            {
+              "item": "手笠キノコ",
+              "qty": 300
+            }
+          ],
+          "stats": [
+            {
+              "name": "物魔攻",
+              "value": "149,000"
+            }
+          ]
+        },
+        {
+          "level": "+2",
+          "rate": 100,
+          "gold": 3000,
+          "materials": [
+            {
+              "item": "きらめく黄金インク",
+              "qty": 90
+            },
+            {
+              "item": "手笠キノコ",
+              "qty": 350
+            }
+          ],
+          "stats": [
+            {
+              "name": "物魔攻",
+              "value": "296,000"
+            }
+          ]
+        },
+        {
+          "level": "+3",
+          "rate": 100,
+          "gold": 3500,
+          "materials": [
+            {
+              "item": "きらめく黄金インク",
+              "qty": 120
+            },
+            {
+              "item": "手笠キノコ",
+              "qty": 470
+            }
+          ],
+          "stats": [
+            {
+              "name": "物魔攻",
+              "value": "541,000"
+            }
+          ]
+        },
+        {
+          "level": "+4",
+          "rate": 70,
+          "gold": 4000,
+          "materials": [
+            {
+              "item": "きらめく黄金インク",
+              "qty": 180
+            },
+            {
+              "item": "手笠キノコ",
+              "qty": 600
+            }
+          ],
+          "stats": [
+            {
+              "name": "物魔攻",
+              "value": "884,000"
+            }
+          ]
+        },
+        {
+          "level": "+5",
+          "rate": 70,
+          "gold": 4500,
+          "materials": [
+            {
+              "item": "きらめく黄金インク",
+              "qty": 240
+            },
+            {
+              "item": "手笠キノコ",
+              "qty": 850
+            },
+            {
+              "item": "悪魔の骨の鈴",
+              "qty": 175
+            }
+          ],
+          "stats": [
+            {
+              "name": "物魔攻",
+              "value": "1,325,000"
+            }
+          ]
+        },
+        {
+          "level": "+6",
+          "rate": 70,
+          "gold": 5000,
+          "materials": [
+            {
+              "item": "きらめく黄金インク",
+              "qty": 300
+            },
+            {
+              "item": "手笠キノコ",
+              "qty": 1100
+            },
+            {
+              "item": "悪魔の骨の鈴",
+              "qty": 175
+            }
+          ],
+          "stats": [
+            {
+              "name": "物魔攻",
+              "value": "1,864,000"
+            }
+          ]
+        },
+        {
+          "level": "+7",
+          "rate": 40,
+          "gold": 6000,
+          "materials": [
+            {
+              "item": "きらめく黄金インク",
+              "qty": 480
+            },
+            {
+              "item": "手笠キノコ",
+              "qty": 1300
+            },
+            {
+              "item": "悪魔の骨の鈴",
+              "qty": 250
+            }
+          ],
+          "stats": [
+            {
+              "name": "物魔攻",
+              "value": "2,501,000"
+            }
+          ]
+        },
+        {
+          "level": "+8",
+          "rate": 40,
+          "gold": 7000,
+          "materials": [
+            {
+              "item": "きらめく黄金インク",
+              "qty": 660
+            },
+            {
+              "item": "手笠キノコ",
+              "qty": 1600
+            },
+            {
+              "item": "悪魔の骨の鈴",
+              "qty": 250
+            }
+          ],
+          "stats": [
+            {
+              "name": "物魔攻",
+              "value": "3,236,000"
+            }
+          ]
+        },
+        {
+          "level": "+9",
+          "rate": 40,
+          "gold": 8000,
+          "materials": [
+            {
+              "item": "きらめく黄金インク",
+              "qty": 840
+            },
+            {
+              "item": "手笠キノコ",
+              "qty": 2100
+            },
+            {
+              "item": "悪魔の骨の鈴",
+              "qty": 300
+            }
+          ],
+          "stats": [
+            {
+              "name": "物魔攻",
+              "value": "4,069,000"
+            }
+          ]
+        },
+        {
+          "level": "+10",
+          "rate": 20,
+          "gold": 10000,
+          "materials": [
+            {
+              "item": "きらめく黄金インク",
+              "qty": 1200
+            },
+            {
+              "item": "手笠キノコ",
+              "qty": 2750
+            },
+            {
+              "item": "悪魔の骨の鈴",
+              "qty": 350
+            }
+          ],
+          "stats": [
+            {
+              "name": "物魔攻",
+              "value": "5,000,000"
+            }
+          ]
+        }
+      ],
+      "notes": "stats は各段階到達時の物魔攻(累計値)。失敗時の挙動は原文に記載なし。原文表記は「悪魔の骨鈴」(悪魔の骨の鈴 に統一)。きらめく黄金インクは幽冥の異境(悪夢)、手笠キノコ・悪魔の骨鈴は桃郷苑ステージで獲得。",
+      "refs": [
+        {
+          "source": "jp-notice-1440"
+        }
+      ]
+    },
+    {
+      "id": "n1440-belscard-loyalty-craft",
+      "name": "ベルスカードの忠義 細工段階別情報",
+      "kind": "craft_stage",
+      "applies_to": [
+        "ベルスカードの忠義"
+      ],
+      "rows": [
+        {
+          "level": "+0",
+          "stats": [
+            {
+              "name": "物魔攻(%)",
+              "value": "0"
+            }
+          ]
+        },
+        {
+          "level": "+1",
+          "rate": 100,
+          "rate_text": "必要強化段階 +1以上",
+          "gold": 50000,
+          "materials": [
+            {
+              "item": "クリスタルポイント",
+              "qty": 15000
+            },
+            {
+              "item": "星雲の生成痕跡帯",
+              "qty": 260
+            },
+            {
+              "item": "死血花の心臓",
+              "qty": 75
+            }
+          ],
+          "stats": [
+            {
+              "name": "物魔攻(%)",
+              "value": "5%"
+            }
+          ]
+        },
+        {
+          "level": "+2",
+          "rate": 100,
+          "rate_text": "必要強化段階 +4以上",
+          "gold": 50000,
+          "materials": [
+            {
+              "item": "クリスタルポイント",
+              "qty": 15000
+            },
+            {
+              "item": "星雲の生成痕跡帯",
+              "qty": 470
+            },
+            {
+              "item": "死血花の心臓",
+              "qty": 75
+            }
+          ],
+          "stats": [
+            {
+              "name": "物魔攻(%)",
+              "value": "10%"
+            }
+          ]
+        },
+        {
+          "level": "+3",
+          "rate": 100,
+          "rate_text": "必要強化段階 +6以上",
+          "gold": 50000,
+          "materials": [
+            {
+              "item": "クリスタルポイント",
+              "qty": 15000
+            },
+            {
+              "item": "星雲の生成痕跡帯",
+              "qty": 820
+            },
+            {
+              "item": "死血花の心臓",
+              "qty": 75
+            }
+          ],
+          "stats": [
+            {
+              "name": "物魔攻(%)",
+              "value": "15%"
+            }
+          ]
+        },
+        {
+          "level": "+4",
+          "rate": 100,
+          "rate_text": "必要強化段階 +7以上",
+          "gold": 50000,
+          "materials": [
+            {
+              "item": "クリスタルポイント",
+              "qty": 15000
+            },
+            {
+              "item": "星雲の生成痕跡帯",
+              "qty": 1600
+            },
+            {
+              "item": "死血花の心臓",
+              "qty": 75
+            }
+          ],
+          "stats": [
+            {
+              "name": "物魔攻(%)",
+              "value": "20%"
+            }
+          ]
+        },
+        {
+          "level": "+5",
+          "rate": 100,
+          "rate_text": "必要強化段階 +9以上",
+          "gold": 50000,
+          "materials": [
+            {
+              "item": "クリスタルポイント",
+              "qty": 15000
+            },
+            {
+              "item": "星雲の生成痕跡帯",
+              "qty": 3400
+            },
+            {
+              "item": "死血花の心臓",
+              "qty": 75
+            }
+          ],
+          "stats": [
+            {
+              "name": "物魔攻(%)",
+              "value": "25%"
+            }
+          ]
+        },
+        {
+          "level": "+6",
+          "rate": 100,
+          "rate_text": "必要強化段階 +10以上",
+          "gold": 50000,
+          "materials": [
+            {
+              "item": "クリスタルポイント",
+              "qty": 15000
+            },
+            {
+              "item": "星雲の生成痕跡帯",
+              "qty": 7200
+            },
+            {
+              "item": "死血花の心臓",
+              "qty": 75
+            }
+          ],
+          "stats": [
+            {
+              "name": "物魔攻(%)",
+              "value": "30%"
+            }
+          ]
+        }
+      ],
+      "notes": "細工は条件として設定された強化段階以上の場合のみ進行可能(rate_text に必要強化段階を記載)。細工は100%成功し、強化段階は維持。細工最終段階到達時にランダムオプション付与。星雲の生成痕跡帯は幽冥の異境(悪夢)、死血花の心臓は桃郷苑ステージで獲得。細工シナジー: アーティファクト細工の合計が4/8/12段階に到達するごとにシナジー1/2/3段階(累積適用)。1段階: 戦闘マップ入場時、物理/魔法攻撃力15%上昇。2段階: 異界の竜珠スキル使用時、CT追加ダメージ5%(持続30秒、内部再使用時間10秒)。3段階: 次元の竜珠対象スキル使用時、CT追加ダメージ30%(持続20秒、内部再使用時間40秒)。",
+      "refs": [
+        {
+          "source": "jp-notice-1440"
+        }
+      ]
+    },
+    {
+      "id": "n1440-belscard-loyalty-randopt",
+      "name": "ベルスカードの忠義 ランダムオプション (精製回数別)",
+      "kind": "refine",
+      "applies_to": [
+        "ベルスカードの忠義"
+      ],
+      "rows": [
+        {
+          "level": "精製0回: 物理攻撃力+5%",
+          "rate": 21.6
+        },
+        {
+          "level": "精製0回: 魔法攻撃力+5%",
+          "rate": 21.6
+        },
+        {
+          "level": "精製0回: 物理攻撃力+10%",
+          "rate": 12.5
+        },
+        {
+          "level": "精製0回: 魔法攻撃力+10%",
+          "rate": 12.5
+        },
+        {
+          "level": "精製0回: 物理攻撃力+15%",
+          "rate": 7.5
+        },
+        {
+          "level": "精製0回: 魔法攻撃力+15%",
+          "rate": 7.5
+        },
+        {
+          "level": "精製0回: 物理攻撃力+20%",
+          "rate": 5
+        },
+        {
+          "level": "精製0回: 魔法攻撃力+20%",
+          "rate": 5
+        },
+        {
+          "level": "精製0回: 物理攻撃力+25%",
+          "rate": 2.5
+        },
+        {
+          "level": "精製0回: 魔法攻撃力+25%",
+          "rate": 2.5
+        },
+        {
+          "level": "精製0回: 物理攻撃力+30%",
+          "rate": 0.5
+        },
+        {
+          "level": "精製0回: 魔法攻撃力+30%",
+          "rate": 0.5
+        },
+        {
+          "level": "精製0回: 物理攻撃力+40%",
+          "rate": 0.25
+        },
+        {
+          "level": "精製0回: 魔法攻撃力+40%",
+          "rate": 0.25
+        },
+        {
+          "level": "精製0回: 物理攻撃力+50%",
+          "rate": 0.15
+        },
+        {
+          "level": "精製0回: 魔法攻撃力+50%",
+          "rate": 0.15
+        },
+        {
+          "level": "精製1回: 物理攻撃力+5%",
+          "rate": 16
+        },
+        {
+          "level": "精製1回: 魔法攻撃力+5%",
+          "rate": 16
+        },
+        {
+          "level": "精製1回: 物理攻撃力+10%",
+          "rate": 15
+        },
+        {
+          "level": "精製1回: 魔法攻撃力+10%",
+          "rate": 15
+        },
+        {
+          "level": "精製1回: 物理攻撃力+15%",
+          "rate": 10
+        },
+        {
+          "level": "精製1回: 魔法攻撃力+15%",
+          "rate": 10
+        },
+        {
+          "level": "精製1回: 物理攻撃力+20%",
+          "rate": 5
+        },
+        {
+          "level": "精製1回: 魔法攻撃力+20%",
+          "rate": 5
+        },
+        {
+          "level": "精製1回: 物理攻撃力+25%",
+          "rate": 2.5
+        },
+        {
+          "level": "精製1回: 魔法攻撃力+25%",
+          "rate": 2.5
+        },
+        {
+          "level": "精製1回: 物理攻撃力+30%",
+          "rate": 0.75
+        },
+        {
+          "level": "精製1回: 魔法攻撃力+30%",
+          "rate": 0.75
+        },
+        {
+          "level": "精製1回: 物理攻撃力+40%",
+          "rate": 0.5
+        },
+        {
+          "level": "精製1回: 魔法攻撃力+40%",
+          "rate": 0.5
+        },
+        {
+          "level": "精製1回: 物理攻撃力+50%",
+          "rate": 0.25
+        },
+        {
+          "level": "精製1回: 魔法攻撃力+50%",
+          "rate": 0.25
+        },
+        {
+          "level": "精製2回: 物理攻撃力+5%",
+          "rate": 9.5
+        },
+        {
+          "level": "精製2回: 魔法攻撃力+5%",
+          "rate": 9.5
+        },
+        {
+          "level": "精製2回: 物理攻撃力+10%",
+          "rate": 17.5
+        },
+        {
+          "level": "精製2回: 魔法攻撃力+10%",
+          "rate": 17.5
+        },
+        {
+          "level": "精製2回: 物理攻撃力+15%",
+          "rate": 12.5
+        },
+        {
+          "level": "精製2回: 魔法攻撃力+15%",
+          "rate": 12.5
+        },
+        {
+          "level": "精製2回: 物理攻撃力+20%",
+          "rate": 5
+        },
+        {
+          "level": "精製2回: 魔法攻撃力+20%",
+          "rate": 5
+        },
+        {
+          "level": "精製2回: 物理攻撃力+25%",
+          "rate": 2.5
+        },
+        {
+          "level": "精製2回: 魔法攻撃力+25%",
+          "rate": 2.5
+        },
+        {
+          "level": "精製2回: 物理攻撃力+30%",
+          "rate": 1.5
+        },
+        {
+          "level": "精製2回: 魔法攻撃力+30%",
+          "rate": 1.5
+        },
+        {
+          "level": "精製2回: 物理攻撃力+40%",
+          "rate": 1
+        },
+        {
+          "level": "精製2回: 魔法攻撃力+40%",
+          "rate": 1
+        },
+        {
+          "level": "精製2回: 物理攻撃力+50%",
+          "rate": 0.5
+        },
+        {
+          "level": "精製2回: 魔法攻撃力+50%",
+          "rate": 0.5
+        },
+        {
+          "level": "精製3回: 物理攻撃力+5%",
+          "rate": 5
+        },
+        {
+          "level": "精製3回: 魔法攻撃力+5%",
+          "rate": 5
+        },
+        {
+          "level": "精製3回: 物理攻撃力+10%",
+          "rate": 15
+        },
+        {
+          "level": "精製3回: 魔法攻撃力+10%",
+          "rate": 15
+        },
+        {
+          "level": "精製3回: 物理攻撃力+15%",
+          "rate": 10
+        },
+        {
+          "level": "精製3回: 魔法攻撃力+15%",
+          "rate": 10
+        },
+        {
+          "level": "精製3回: 物理攻撃力+20%",
+          "rate": 7.5
+        },
+        {
+          "level": "精製3回: 魔法攻撃力+20%",
+          "rate": 7.5
+        },
+        {
+          "level": "精製3回: 物理攻撃力+25%",
+          "rate": 5
+        },
+        {
+          "level": "精製3回: 魔法攻撃力+25%",
+          "rate": 5
+        },
+        {
+          "level": "精製3回: 物理攻撃力+30%",
+          "rate": 3.5
+        },
+        {
+          "level": "精製3回: 魔法攻撃力+30%",
+          "rate": 3.5
+        },
+        {
+          "level": "精製3回: 物理攻撃力+40%",
+          "rate": 2.5
+        },
+        {
+          "level": "精製3回: 魔法攻撃力+40%",
+          "rate": 2.5
+        },
+        {
+          "level": "精製3回: 物理攻撃力+50%",
+          "rate": 1.5
+        },
+        {
+          "level": "精製3回: 魔法攻撃力+50%",
+          "rate": 1.5
+        },
+        {
+          "level": "精製4回: 物理攻撃力+5%",
+          "rate": 5
+        },
+        {
+          "level": "精製4回: 魔法攻撃力+5%",
+          "rate": 5
+        },
+        {
+          "level": "精製4回: 物理攻撃力+10%",
+          "rate": 6
+        },
+        {
+          "level": "精製4回: 魔法攻撃力+10%",
+          "rate": 6
+        },
+        {
+          "level": "精製4回: 物理攻撃力+15%",
+          "rate": 7.5
+        },
+        {
+          "level": "精製4回: 魔法攻撃力+15%",
+          "rate": 7.5
+        },
+        {
+          "level": "精製4回: 物理攻撃力+20%",
+          "rate": 7.5
+        },
+        {
+          "level": "精製4回: 魔法攻撃力+20%",
+          "rate": 7.5
+        },
+        {
+          "level": "精製4回: 物理攻撃力+25%",
+          "rate": 12.5
+        },
+        {
+          "level": "精製4回: 魔法攻撃力+25%",
+          "rate": 12.5
+        },
+        {
+          "level": "精製4回: 物理攻撃力+30%",
+          "rate": 5
+        },
+        {
+          "level": "精製4回: 魔法攻撃力+30%",
+          "rate": 5
+        },
+        {
+          "level": "精製4回: 物理攻撃力+40%",
+          "rate": 4
+        },
+        {
+          "level": "精製4回: 魔法攻撃力+40%",
+          "rate": 4
+        },
+        {
+          "level": "精製4回: 物理攻撃力+50%",
+          "rate": 2.5
+        },
+        {
+          "level": "精製4回: 魔法攻撃力+50%",
+          "rate": 2.5
+        },
+        {
+          "level": "精製5回: 物理攻撃力+5%",
+          "rate": 3.5
+        },
+        {
+          "level": "精製5回: 魔法攻撃力+5%",
+          "rate": 3.5
+        },
+        {
+          "level": "精製5回: 物理攻撃力+10%",
+          "rate": 4
+        },
+        {
+          "level": "精製5回: 魔法攻撃力+10%",
+          "rate": 4
+        },
+        {
+          "level": "精製5回: 物理攻撃力+15%",
+          "rate": 6
+        },
+        {
+          "level": "精製5回: 魔法攻撃力+15%",
+          "rate": 6
+        },
+        {
+          "level": "精製5回: 物理攻撃力+20%",
+          "rate": 6.5
+        },
+        {
+          "level": "精製5回: 魔法攻撃力+20%",
+          "rate": 6.5
+        },
+        {
+          "level": "精製5回: 物理攻撃力+25%",
+          "rate": 13.75
+        },
+        {
+          "level": "精製5回: 魔法攻撃力+25%",
+          "rate": 13.75
+        },
+        {
+          "level": "精製5回: 物理攻撃力+30%",
+          "rate": 7.5
+        },
+        {
+          "level": "精製5回: 魔法攻撃力+30%",
+          "rate": 7.5
+        },
+        {
+          "level": "精製5回: 物理攻撃力+40%",
+          "rate": 5
+        },
+        {
+          "level": "精製5回: 魔法攻撃力+40%",
+          "rate": 5
+        },
+        {
+          "level": "精製5回: 物理攻撃力+50%",
+          "rate": 3.75
+        },
+        {
+          "level": "精製5回: 魔法攻撃力+50%",
+          "rate": 3.75
+        },
+        {
+          "level": "精製6回以上: 物理攻撃力+5%",
+          "rate": 0
+        },
+        {
+          "level": "精製6回以上: 魔法攻撃力+5%",
+          "rate": 0
+        },
+        {
+          "level": "精製6回以上: 物理攻撃力+10%",
+          "rate": 0
+        },
+        {
+          "level": "精製6回以上: 魔法攻撃力+10%",
+          "rate": 0
+        },
+        {
+          "level": "精製6回以上: 物理攻撃力+15%",
+          "rate": 0
+        },
+        {
+          "level": "精製6回以上: 魔法攻撃力+15%",
+          "rate": 0
+        },
+        {
+          "level": "精製6回以上: 物理攻撃力+20%",
+          "rate": 15
+        },
+        {
+          "level": "精製6回以上: 魔法攻撃力+20%",
+          "rate": 15
+        },
+        {
+          "level": "精製6回以上: 物理攻撃力+25%",
+          "rate": 15
+        },
+        {
+          "level": "精製6回以上: 魔法攻撃力+25%",
+          "rate": 15
+        },
+        {
+          "level": "精製6回以上: 物理攻撃力+30%",
+          "rate": 9
+        },
+        {
+          "level": "精製6回以上: 魔法攻撃力+30%",
+          "rate": 9
+        },
+        {
+          "level": "精製6回以上: 物理攻撃力+40%",
+          "rate": 6
+        },
+        {
+          "level": "精製6回以上: 魔法攻撃力+40%",
+          "rate": 6
+        },
+        {
+          "level": "精製6回以上: 物理攻撃力+50%",
+          "rate": 5
+        },
+        {
+          "level": "精製6回以上: 魔法攻撃力+50%",
+          "rate": 5
+        }
+      ],
+      "notes": "細工の最終段階(+6)到達時に付与されるランダムオプションの出現確率。level は「精製回数: オプション」。精製による確率上昇は6回まで(以降は最大増加状態を維持)。精製後の細工段階: 精製回数0～1→0、2～3→2、4→3、5～→4。",
+      "refs": [
+        {
+          "source": "jp-notice-1440"
+        }
+      ]
+    },
+    {
+      "id": "n1440-belscard-trust-randopt",
+      "name": "ベルスカードの信頼 ランダムオプション (精製回数別)",
+      "kind": "refine",
+      "applies_to": [
+        "ベルスカードの信頼"
+      ],
+      "rows": [
+        {
+          "level": "精製0回: MaxHP +50%",
+          "rate": 47.9
+        },
+        {
+          "level": "精製0回: MaxHP +75%",
+          "rate": 25.2
+        },
+        {
+          "level": "精製0回: MaxHP +100%",
+          "rate": 13.2
+        },
+        {
+          "level": "精製0回: MaxHP +125%",
+          "rate": 7.1
+        },
+        {
+          "level": "精製0回: MaxHP +150%",
+          "rate": 3.6
+        },
+        {
+          "level": "精製0回: MaxHP +175%",
+          "rate": 1.9
+        },
+        {
+          "level": "精製0回: MaxHP +200%",
+          "rate": 0.9
+        },
+        {
+          "level": "精製0回: 最大HP +200% 物攻 + 30%",
+          "rate": 0.1
+        },
+        {
+          "level": "精製0回: 最大HP +200% 魔攻 + 30%",
+          "rate": 0.1
+        },
+        {
+          "level": "精製1回: MaxHP +50%",
+          "rate": 43
+        },
+        {
+          "level": "精製1回: MaxHP +75%",
+          "rate": 23.9
+        },
+        {
+          "level": "精製1回: MaxHP +100%",
+          "rate": 12.5
+        },
+        {
+          "level": "精製1回: MaxHP +125%",
+          "rate": 12.2
+        },
+        {
+          "level": "精製1回: MaxHP +150%",
+          "rate": 4.7
+        },
+        {
+          "level": "精製1回: MaxHP +175%",
+          "rate": 2.3
+        },
+        {
+          "level": "精製1回: MaxHP +200%",
+          "rate": 1
+        },
+        {
+          "level": "精製1回: 最大HP +200% 物攻 + 30%",
+          "rate": 0.2
+        },
+        {
+          "level": "精製1回: 最大HP +200% 魔攻 + 30%",
+          "rate": 0.2
+        },
+        {
+          "level": "精製2回: MaxHP +50%",
+          "rate": 38.6
+        },
+        {
+          "level": "精製2回: MaxHP +75%",
+          "rate": 22.7
+        },
+        {
+          "level": "精製2回: MaxHP +100%",
+          "rate": 11.9
+        },
+        {
+          "level": "精製2回: MaxHP +125%",
+          "rate": 16.2
+        },
+        {
+          "level": "精製2回: MaxHP +150%",
+          "rate": 6.1
+        },
+        {
+          "level": "精製2回: MaxHP +175%",
+          "rate": 2.8
+        },
+        {
+          "level": "精製2回: MaxHP +200%",
+          "rate": 1.1
+        },
+        {
+          "level": "精製2回: 最大HP +200% 物攻 + 30%",
+          "rate": 0.3
+        },
+        {
+          "level": "精製2回: 最大HP +200% 魔攻 + 30%",
+          "rate": 0.3
+        },
+        {
+          "level": "精製3回: MaxHP +50%",
+          "rate": 31.7
+        },
+        {
+          "level": "精製3回: MaxHP +75%",
+          "rate": 19.3
+        },
+        {
+          "level": "精製3回: MaxHP +100%",
+          "rate": 11.3
+        },
+        {
+          "level": "精製3回: MaxHP +125%",
+          "rate": 24.8
+        },
+        {
+          "level": "精製3回: MaxHP +150%",
+          "rate": 7.3
+        },
+        {
+          "level": "精製3回: MaxHP +175%",
+          "rate": 3.4
+        },
+        {
+          "level": "精製3回: MaxHP +200%",
+          "rate": 1.2
+        },
+        {
+          "level": "精製3回: 最大HP +200% 物攻 + 30%",
+          "rate": 0.5
+        },
+        {
+          "level": "精製3回: 最大HP +200% 魔攻 + 30%",
+          "rate": 0.5
+        },
+        {
+          "level": "精製4回: MaxHP +50%",
+          "rate": 24.15
+        },
+        {
+          "level": "精製4回: MaxHP +75%",
+          "rate": 18.4
+        },
+        {
+          "level": "精製4回: MaxHP +100%",
+          "rate": 10.7
+        },
+        {
+          "level": "精製4回: MaxHP +125%",
+          "rate": 31.1
+        },
+        {
+          "level": "精製4回: MaxHP +150%",
+          "rate": 8.8
+        },
+        {
+          "level": "精製4回: MaxHP +175%",
+          "rate": 4.1
+        },
+        {
+          "level": "精製4回: MaxHP +200%",
+          "rate": 1.25
+        },
+        {
+          "level": "精製4回: 最大HP +200% 物攻 + 30%",
+          "rate": 0.75
+        },
+        {
+          "level": "精製4回: 最大HP +200% 魔攻 + 30%",
+          "rate": 0.75
+        },
+        {
+          "level": "精製5回: MaxHP +50%",
+          "rate": 17.7
+        },
+        {
+          "level": "精製5回: MaxHP +75%",
+          "rate": 14.7
+        },
+        {
+          "level": "精製5回: MaxHP +100%",
+          "rate": 10.2
+        },
+        {
+          "level": "精製5回: MaxHP +125%",
+          "rate": 38.1
+        },
+        {
+          "level": "精製5回: MaxHP +150%",
+          "rate": 10.6
+        },
+        {
+          "level": "精製5回: MaxHP +175%",
+          "rate": 4.9
+        },
+        {
+          "level": "精製5回: MaxHP +200%",
+          "rate": 2
+        },
+        {
+          "level": "精製5回: 最大HP +200% 物攻 + 30%",
+          "rate": 0.9
+        },
+        {
+          "level": "精製5回: 最大HP +200% 魔攻 + 30%",
+          "rate": 0.9
+        },
+        {
+          "level": "精製6回: MaxHP +50%",
+          "rate": 12.5
+        },
+        {
+          "level": "精製6回: MaxHP +75%",
+          "rate": 11.8
+        },
+        {
+          "level": "精製6回: MaxHP +100%",
+          "rate": 9.7
+        },
+        {
+          "level": "精製6回: MaxHP +125%",
+          "rate": 42
+        },
+        {
+          "level": "精製6回: MaxHP +150%",
+          "rate": 12.7
+        },
+        {
+          "level": "精製6回: MaxHP +175%",
+          "rate": 5.9
+        },
+        {
+          "level": "精製6回: MaxHP +200%",
+          "rate": 3
+        },
+        {
+          "level": "精製6回: 最大HP +200% 物攻 + 30%",
+          "rate": 1.2
+        },
+        {
+          "level": "精製6回: 最大HP +200% 魔攻 + 30%",
+          "rate": 1.2
+        },
+        {
+          "level": "精製7回: MaxHP +50%",
+          "rate": 8.8
+        },
+        {
+          "level": "精製7回: MaxHP +75%",
+          "rate": 7.9
+        },
+        {
+          "level": "精製7回: MaxHP +100%",
+          "rate": 8.7
+        },
+        {
+          "level": "精製7回: MaxHP +125%",
+          "rate": 44.4
+        },
+        {
+          "level": "精製7回: MaxHP +150%",
+          "rate": 15.2
+        },
+        {
+          "level": "精製7回: MaxHP +175%",
+          "rate": 7.1
+        },
+        {
+          "level": "精製7回: MaxHP +200%",
+          "rate": 4.9
+        },
+        {
+          "level": "精製7回: 最大HP +200% 物攻 + 30%",
+          "rate": 1.5
+        },
+        {
+          "level": "精製7回: 最大HP +200% 魔攻 + 30%",
+          "rate": 1.5
+        },
+        {
+          "level": "精製8回: MaxHP +50%",
+          "rate": 5.7
+        },
+        {
+          "level": "精製8回: MaxHP +75%",
+          "rate": 5.4
+        },
+        {
+          "level": "精製8回: MaxHP +100%",
+          "rate": 7.8
+        },
+        {
+          "level": "精製8回: MaxHP +125%",
+          "rate": 42.3
+        },
+        {
+          "level": "精製8回: MaxHP +150%",
+          "rate": 18.2
+        },
+        {
+          "level": "精製8回: MaxHP +175%",
+          "rate": 9.2
+        },
+        {
+          "level": "精製8回: MaxHP +200%",
+          "rate": 6.4
+        },
+        {
+          "level": "精製8回: 最大HP +200% 物攻 + 30%",
+          "rate": 2.5
+        },
+        {
+          "level": "精製8回: 最大HP +200% 魔攻 + 30%",
+          "rate": 2.5
+        },
+        {
+          "level": "精製9回: MaxHP +50%",
+          "rate": 3.8
+        },
+        {
+          "level": "精製9回: MaxHP +75%",
+          "rate": 4
+        },
+        {
+          "level": "精製9回: MaxHP +100%",
+          "rate": 6
+        },
+        {
+          "level": "精製9回: MaxHP +125%",
+          "rate": 32.15
+        },
+        {
+          "level": "精製9回: MaxHP +150%",
+          "rate": 21.8
+        },
+        {
+          "level": "精製9回: MaxHP +175%",
+          "rate": 15.6
+        },
+        {
+          "level": "精製9回: MaxHP +200%",
+          "rate": 10.15
+        },
+        {
+          "level": "精製9回: 最大HP +200% 物攻 + 30%",
+          "rate": 3.25
+        },
+        {
+          "level": "精製9回: 最大HP +200% 魔攻 + 30%",
+          "rate": 3.25
+        },
+        {
+          "level": "精製10回以上: MaxHP +50%",
+          "rate": 0
+        },
+        {
+          "level": "精製10回以上: MaxHP +75%",
+          "rate": 0
+        },
+        {
+          "level": "精製10回以上: MaxHP +100%",
+          "rate": 0
+        },
+        {
+          "level": "精製10回以上: MaxHP +125%",
+          "rate": 28.4
+        },
+        {
+          "level": "精製10回以上: MaxHP +150%",
+          "rate": 24.2
+        },
+        {
+          "level": "精製10回以上: MaxHP +175%",
+          "rate": 22.4
+        },
+        {
+          "level": "精製10回以上: MaxHP +200%",
+          "rate": 15
+        },
+        {
+          "level": "精製10回以上: 最大HP +200% 物攻 + 30%",
+          "rate": 5
+        },
+        {
+          "level": "精製10回以上: 最大HP +200% 魔攻 + 30%",
+          "rate": 5
+        }
+      ],
+      "notes": "細工の最終段階(+3)到達時に付与されるランダムオプションの出現確率。level は「精製回数: オプション」。精製による確率上昇は10回まで。精製後の細工段階: 精製回数0～2→0、3～6→1、7～→2 (原文ではこの見出しが「[ベルスカードの責任 精製後の細工段階]」となっているが、信頼の節内にあり信頼の精製上限10回とも整合するため信頼のものと解釈)。",
+      "refs": [
+        {
+          "source": "jp-notice-1440"
+        }
+      ]
+    },
+    {
+      "id": "n1440-belscard-trust-enhance",
+      "name": "ベルスカードの信頼 強化段階別情報",
+      "kind": "enhance",
+      "applies_to": [
+        "ベルスカードの信頼"
+      ],
+      "rows": [
+        {
+          "level": "+0",
+          "stats": [
+            {
+              "name": "物魔攻",
+              "value": "50,000"
+            },
+            {
+              "name": "MaxHP",
+              "value": "300,000"
+            }
+          ]
+        },
+        {
+          "level": "+1",
+          "rate": 100,
+          "gold": 5000,
+          "materials": [
+            {
+              "item": "悪魔の骨の鈴",
+              "qty": 130
+            },
+            {
+              "item": "多尾のブレスレット",
+              "qty": 614
+            }
+          ],
+          "on_fail": "維持 (下落値0)",
+          "stats": [
+            {
+              "name": "物魔攻",
+              "value": "61,000"
+            },
+            {
+              "name": "MaxHP",
+              "value": "553,000"
+            }
+          ]
+        },
+        {
+          "level": "+2",
+          "rate": 100,
+          "gold": 5000,
+          "materials": [
+            {
+              "item": "悪魔の骨の鈴",
+              "qty": 130
+            },
+            {
+              "item": "多尾のブレスレット",
+              "qty": 614
+            }
+          ],
+          "on_fail": "維持 (下落値0)",
+          "stats": [
+            {
+              "name": "物魔攻",
+              "value": "94,000"
+            },
+            {
+              "name": "MaxHP",
+              "value": "1,016,000"
+            }
+          ]
+        },
+        {
+          "level": "+3",
+          "rate": 100,
+          "gold": 5000,
+          "materials": [
+            {
+              "item": "悪魔の骨の鈴",
+              "qty": 130
+            },
+            {
+              "item": "多尾のブレスレット",
+              "qty": 614
+            }
+          ],
+          "on_fail": "維持 (下落値0)",
+          "stats": [
+            {
+              "name": "物魔攻",
+              "value": "148,000"
+            },
+            {
+              "name": "MaxHP",
+              "value": "1,615,000"
+            }
+          ]
+        },
+        {
+          "level": "+4",
+          "rate": 100,
+          "gold": 5000,
+          "materials": [
+            {
+              "item": "悪魔の骨の鈴",
+              "qty": 130
+            },
+            {
+              "item": "多尾のブレスレット",
+              "qty": 614
+            }
+          ],
+          "on_fail": "維持 (下落値0)",
+          "stats": [
+            {
+              "name": "物魔攻",
+              "value": "224,000"
+            },
+            {
+              "name": "MaxHP",
+              "value": "2,324,000"
+            }
+          ]
+        },
+        {
+          "level": "+5",
+          "rate": 100,
+          "gold": 5000,
+          "materials": [
+            {
+              "item": "悪魔の骨の鈴",
+              "qty": 130
+            },
+            {
+              "item": "多尾のブレスレット",
+              "qty": 614
+            }
+          ],
+          "on_fail": "維持 (下落値0)",
+          "stats": [
+            {
+              "name": "物魔攻",
+              "value": "322,000"
+            },
+            {
+              "name": "MaxHP",
+              "value": "3,129,000"
+            }
+          ]
+        },
+        {
+          "level": "+6",
+          "rate": 50,
+          "gold": 10000,
+          "materials": [
+            {
+              "item": "ゼリー",
+              "qty": 2400
+            },
+            {
+              "item": "悪魔の骨の鈴",
+              "qty": 135
+            },
+            {
+              "item": "多尾のブレスレット",
+              "qty": 620
+            }
+          ],
+          "on_fail": "-1 (下落値1)",
+          "stats": [
+            {
+              "name": "物魔攻",
+              "value": "442,000"
+            },
+            {
+              "name": "MaxHP",
+              "value": "4,019,000"
+            }
+          ]
+        },
+        {
+          "level": "+7",
+          "rate": 50,
+          "gold": 10000,
+          "materials": [
+            {
+              "item": "ゼリー",
+              "qty": 2900
+            },
+            {
+              "item": "悪魔の骨の鈴",
+              "qty": 140
+            },
+            {
+              "item": "多尾のブレスレット",
+              "qty": 640
+            }
+          ],
+          "on_fail": "-1 (下落値1)",
+          "stats": [
+            {
+              "name": "物魔攻",
+              "value": "584,000"
+            },
+            {
+              "name": "MaxHP",
+              "value": "4,986,000"
+            }
+          ]
+        },
+        {
+          "level": "+8",
+          "rate": 50,
+          "gold": 10000,
+          "materials": [
+            {
+              "item": "ゼリー",
+              "qty": 3500
+            },
+            {
+              "item": "悪魔の骨の鈴",
+              "qty": 150
+            },
+            {
+              "item": "多尾のブレスレット",
+              "qty": 660
+            }
+          ],
+          "on_fail": "-1 (下落値1)",
+          "stats": [
+            {
+              "name": "物魔攻",
+              "value": "747,000"
+            },
+            {
+              "name": "MaxHP",
+              "value": "6,026,000"
+            }
+          ]
+        },
+        {
+          "level": "+9",
+          "rate": 50,
+          "gold": 10000,
+          "materials": [
+            {
+              "item": "ゼリー",
+              "qty": 4100
+            },
+            {
+              "item": "悪魔の骨の鈴",
+              "qty": 160
+            },
+            {
+              "item": "多尾のブレスレット",
+              "qty": 680
+            }
+          ],
+          "on_fail": "-1 (下落値1)",
+          "stats": [
+            {
+              "name": "物魔攻",
+              "value": "932,000"
+            },
+            {
+              "name": "MaxHP",
+              "value": "7,132,000"
+            }
+          ]
+        },
+        {
+          "level": "+10",
+          "rate": 50,
+          "gold": 10000,
+          "materials": [
+            {
+              "item": "ゼリー",
+              "qty": 5000
+            },
+            {
+              "item": "悪魔の骨の鈴",
+              "qty": 180
+            },
+            {
+              "item": "多尾のブレスレット",
+              "qty": 700
+            }
+          ],
+          "on_fail": "-1 (下落値1)",
+          "stats": [
+            {
+              "name": "物魔攻",
+              "value": "1,139,000"
+            },
+            {
+              "name": "MaxHP",
+              "value": "8,302,000"
+            }
+          ]
+        },
+        {
+          "level": "+11",
+          "rate": 20,
+          "gold": 15000,
+          "materials": [
+            {
+              "item": "ゼリー",
+              "qty": 5900
+            },
+            {
+              "item": "悪魔の骨の鈴",
+              "qty": 200
+            },
+            {
+              "item": "多尾のブレスレット",
+              "qty": 760
+            }
+          ],
+          "on_fail": "-1 (下落値1)",
+          "stats": [
+            {
+              "name": "物魔攻",
+              "value": "1,368,000"
+            },
+            {
+              "name": "MaxHP",
+              "value": "9,531,000"
+            }
+          ]
+        },
+        {
+          "level": "+12",
+          "rate": 20,
+          "gold": 15000,
+          "materials": [
+            {
+              "item": "ゼリー",
+              "qty": 7000
+            },
+            {
+              "item": "悪魔の骨の鈴",
+              "qty": 230
+            },
+            {
+              "item": "多尾のブレスレット",
+              "qty": 820
+            }
+          ],
+          "on_fail": "-1 (下落値1)",
+          "stats": [
+            {
+              "name": "物魔攻",
+              "value": "1,618,000"
+            },
+            {
+              "name": "MaxHP",
+              "value": "10,818,000"
+            }
+          ]
+        },
+        {
+          "level": "+13",
+          "rate": 20,
+          "gold": 15000,
+          "materials": [
+            {
+              "item": "ゼリー",
+              "qty": 8400
+            },
+            {
+              "item": "悪魔の骨の鈴",
+              "qty": 270
+            },
+            {
+              "item": "多尾のブレスレット",
+              "qty": 900
+            }
+          ],
+          "on_fail": "-1 (下落値1)",
+          "stats": [
+            {
+              "name": "物魔攻",
+              "value": "1,890,000"
+            },
+            {
+              "name": "MaxHP",
+              "value": "12,160,000"
+            }
+          ]
+        },
+        {
+          "level": "+14",
+          "rate": 20,
+          "gold": 15000,
+          "materials": [
+            {
+              "item": "ゼリー",
+              "qty": 10000
+            },
+            {
+              "item": "悪魔の骨の鈴",
+              "qty": 330
+            },
+            {
+              "item": "多尾のブレスレット",
+              "qty": 980
+            }
+          ],
+          "on_fail": "-1 (下落値1)",
+          "stats": [
+            {
+              "name": "物魔攻",
+              "value": "2,184,000"
+            },
+            {
+              "name": "MaxHP",
+              "value": "13,555,000"
+            }
+          ]
+        },
+        {
+          "level": "+15",
+          "rate": 10,
+          "gold": 15000,
+          "materials": [
+            {
+              "item": "ゼリー",
+              "qty": 12000
+            },
+            {
+              "item": "悪魔の骨の鈴",
+              "qty": 400
+            },
+            {
+              "item": "多尾のブレスレット",
+              "qty": 1100
+            }
+          ],
+          "on_fail": "-1 (下落値1)",
+          "stats": [
+            {
+              "name": "物魔攻",
+              "value": "2,500,000"
+            },
+            {
+              "name": "MaxHP",
+              "value": "15,000,000"
+            }
+          ]
+        }
+      ],
+      "notes": "stats は各段階到達時の累計値。on_fail は原文の「下落値」列(0/1)からの解釈 (+1～+5は下落値0・確率100%)。「必要ゼリー」列は materials の ゼリー として記録(0の段階は省略)。原文表記は「悪魔の骨鈴」「多尾の腕輪」(悪魔の骨の鈴/多尾のブレスレット に統一)。いずれも桃郷苑ステージで獲得。",
+      "refs": [
+        {
+          "source": "jp-notice-1440"
+        }
+      ]
+    },
+    {
+      "id": "n1440-belscard-trust-craft",
+      "name": "ベルスカードの信頼 細工段階別情報",
+      "kind": "craft_stage",
+      "applies_to": [
+        "ベルスカードの信頼"
+      ],
+      "rows": [
+        {
+          "level": "+0",
+          "stats": [
+            {
+              "name": "MaxHP(%)",
+              "value": "0"
+            }
+          ]
+        },
+        {
+          "level": "+1",
+          "rate": 100,
+          "rate_text": "必要強化段階 +3以上",
+          "gold": 75000,
+          "materials": [
+            {
+              "item": "ラビリンスポイント",
+              "qty": 100000
+            },
+            {
+              "item": "亡者の時間の涙",
+              "qty": 10
+            }
+          ],
+          "stats": [
+            {
+              "name": "MaxHP(%)",
+              "value": "10%"
+            }
+          ]
+        },
+        {
+          "level": "+2",
+          "rate": 100,
+          "rate_text": "必要強化段階 +9以上",
+          "gold": 75000,
+          "materials": [
+            {
+              "item": "ラビリンスポイント",
+              "qty": 100000
+            },
+            {
+              "item": "亡者の時間の涙",
+              "qty": 15
+            }
+          ],
+          "stats": [
+            {
+              "name": "MaxHP(%)",
+              "value": "30%"
+            }
+          ]
+        },
+        {
+          "level": "+3",
+          "rate": 100,
+          "rate_text": "必要強化段階 +15以上",
+          "gold": 75000,
+          "materials": [
+            {
+              "item": "ラビリンスポイント",
+              "qty": 100000
+            },
+            {
+              "item": "亡者の時間の涙",
+              "qty": 25
+            }
+          ],
+          "stats": [
+            {
+              "name": "MaxHP(%)",
+              "value": "50%"
+            }
+          ]
+        }
+      ],
+      "notes": "細工は100%成功し、強化段階は維持。必要強化段階は rate_text に記載。細工最終段階到達時にランダムオプション付与。亡者の時間の涙は桃郷苑ステージで獲得。",
+      "refs": [
+        {
+          "source": "jp-notice-1440"
+        }
+      ]
+    },
+    {
+      "id": "n1440-belscard-resp-enhance",
+      "name": "ベルスカードの責任 強化段階別情報",
+      "kind": "enhance",
+      "applies_to": [
+        "ベルスカードの責任"
+      ],
+      "rows": [
+        {
+          "level": "+0",
+          "stats": [
+            {
+              "name": "属性",
+              "value": "5.00%"
+            }
+          ]
+        },
+        {
+          "level": "+1",
+          "rate": 100,
+          "materials": [
+            {
+              "item": "手笠キノコ",
+              "qty": 150
+            }
+          ],
+          "stats": [
+            {
+              "name": "属性",
+              "value": "6.00%"
+            }
+          ]
+        },
+        {
+          "level": "+2",
+          "rate": 100,
+          "materials": [
+            {
+              "item": "手笠キノコ",
+              "qty": 190
+            }
+          ],
+          "stats": [
+            {
+              "name": "属性",
+              "value": "7.00%"
+            }
+          ]
+        },
+        {
+          "level": "+3",
+          "rate": 100,
+          "materials": [
+            {
+              "item": "手笠キノコ",
+              "qty": 230
+            }
+          ],
+          "stats": [
+            {
+              "name": "属性",
+              "value": "8.00%"
+            }
+          ]
+        },
+        {
+          "level": "+4",
+          "rate": 70,
+          "materials": [
+            {
+              "item": "手笠キノコ",
+              "qty": 270
+            }
+          ],
+          "stats": [
+            {
+              "name": "属性",
+              "value": "10.00%"
+            }
+          ]
+        },
+        {
+          "level": "+5",
+          "rate": 70,
+          "materials": [
+            {
+              "item": "手笠キノコ",
+              "qty": 310
+            }
+          ],
+          "stats": [
+            {
+              "name": "属性",
+              "value": "12.00%"
+            }
+          ]
+        },
+        {
+          "level": "+6",
+          "rate": 70,
+          "materials": [
+            {
+              "item": "手笠キノコ",
+              "qty": 350
+            }
+          ],
+          "stats": [
+            {
+              "name": "属性",
+              "value": "14.00%"
+            }
+          ]
+        },
+        {
+          "level": "+7",
+          "rate": 70,
+          "materials": [
+            {
+              "item": "手笠キノコ",
+              "qty": 430
+            }
+          ],
+          "stats": [
+            {
+              "name": "属性",
+              "value": "17.00%"
+            }
+          ]
+        },
+        {
+          "level": "+8",
+          "rate": 40,
+          "materials": [
+            {
+              "item": "手笠キノコ",
+              "qty": 500
+            }
+          ],
+          "stats": [
+            {
+              "name": "属性",
+              "value": "20.00%"
+            }
+          ]
+        },
+        {
+          "level": "+9",
+          "rate": 40,
+          "materials": [
+            {
+              "item": "手笠キノコ",
+              "qty": 580
+            }
+          ],
+          "stats": [
+            {
+              "name": "属性",
+              "value": "23.00%"
+            }
+          ]
+        },
+        {
+          "level": "+10",
+          "rate": 40,
+          "materials": [
+            {
+              "item": "手笠キノコ",
+              "qty": 660
+            }
+          ],
+          "stats": [
+            {
+              "name": "属性",
+              "value": "27.00%"
+            }
+          ]
+        },
+        {
+          "level": "+11",
+          "rate": 40,
+          "materials": [
+            {
+              "item": "手笠キノコ",
+              "qty": 700
+            }
+          ],
+          "stats": [
+            {
+              "name": "属性",
+              "value": "32.00%"
+            }
+          ]
+        },
+        {
+          "level": "+12",
+          "rate": 30,
+          "materials": [
+            {
+              "item": "手笠キノコ",
+              "qty": 810
+            }
+          ],
+          "stats": [
+            {
+              "name": "属性",
+              "value": "40.00%"
+            }
+          ]
+        },
+        {
+          "level": "+13",
+          "rate": 30,
+          "gold": 50000,
+          "materials": [
+            {
+              "item": "手笠キノコ",
+              "qty": 930
+            },
+            {
+              "item": "瓶詰めの石化像",
+              "qty": 3
+            }
+          ],
+          "stats": [
+            {
+              "name": "属性",
+              "value": "50.00%"
+            }
+          ]
+        },
+        {
+          "level": "+14",
+          "rate": 30,
+          "gold": 50000,
+          "materials": [
+            {
+              "item": "手笠キノコ",
+              "qty": 1080
+            },
+            {
+              "item": "瓶詰めの石化像",
+              "qty": 3
+            }
+          ],
+          "stats": [
+            {
+              "name": "属性",
+              "value": "60.00%"
+            }
+          ]
+        },
+        {
+          "level": "+15",
+          "rate": 20,
+          "gold": 50000,
+          "materials": [
+            {
+              "item": "手笠キノコ",
+              "qty": 1240
+            },
+            {
+              "item": "瓶詰めの石化像",
+              "qty": 3
+            }
+          ],
+          "stats": [
+            {
+              "name": "属性",
+              "value": "70.00%"
+            }
+          ]
+        },
+        {
+          "level": "+16",
+          "rate": 20,
+          "gold": 50000,
+          "materials": [
+            {
+              "item": "手笠キノコ",
+              "qty": 1390
+            },
+            {
+              "item": "瓶詰めの石化像",
+              "qty": 3
+            }
+          ],
+          "stats": [
+            {
+              "name": "属性",
+              "value": "80.00%"
+            }
+          ]
+        },
+        {
+          "level": "+17",
+          "rate": 10,
+          "gold": 50000,
+          "materials": [
+            {
+              "item": "手笠キノコ",
+              "qty": 1700
+            },
+            {
+              "item": "瓶詰めの石化像",
+              "qty": 3
+            }
+          ],
+          "stats": [
+            {
+              "name": "属性",
+              "value": "90.00%"
+            }
+          ]
+        },
+        {
+          "level": "+18",
+          "rate": 10,
+          "gold": 50000,
+          "materials": [
+            {
+              "item": "手笠キノコ",
+              "qty": 2010
+            },
+            {
+              "item": "瓶詰めの石化像",
+              "qty": 3
+            }
+          ],
+          "stats": [
+            {
+              "name": "属性",
+              "value": "100.00%"
+            }
+          ]
+        },
+        {
+          "level": "+19",
+          "rate": 5,
+          "gold": 50000,
+          "materials": [
+            {
+              "item": "手笠キノコ",
+              "qty": 2320
+            },
+            {
+              "item": "瓶詰めの石化像",
+              "qty": 3
+            }
+          ],
+          "stats": [
+            {
+              "name": "属性",
+              "value": "110.00%"
+            }
+          ]
+        },
+        {
+          "level": "+20",
+          "rate": 3,
+          "gold": 50000,
+          "materials": [
+            {
+              "item": "手笠キノコ",
+              "qty": 2560
+            },
+            {
+              "item": "瓶詰めの石化像",
+              "qty": 3
+            }
+          ],
+          "stats": [
+            {
+              "name": "属性",
+              "value": "140.00%"
+            }
+          ]
+        }
+      ],
+      "notes": "stats は各段階到達時の属性(累計値)。+1～+12はゴールド「-」。失敗時の挙動は原文に記載なし。手笠キノコ・瓶詰めの石化像は桃郷苑ステージで獲得。",
+      "refs": [
+        {
+          "source": "jp-notice-1440"
+        }
+      ]
+    },
+    {
+      "id": "n1440-belscard-resp-craft",
+      "name": "ベルスカードの責任 細工段階別情報",
+      "kind": "craft_stage",
+      "applies_to": [
+        "ベルスカードの責任"
+      ],
+      "rows": [
+        {
+          "level": "+0",
+          "stats": [
+            {
+              "name": "物魔攻",
+              "value": "0"
+            }
+          ]
+        },
+        {
+          "level": "+1",
+          "rate": 100,
+          "rate_text": "必要強化段階 +4以上",
+          "gold": 500000,
+          "materials": [
+            {
+              "item": "棘付きの仮面",
+              "qty": 5
+            }
+          ],
+          "stats": [
+            {
+              "name": "物魔攻",
+              "value": "4,375,000"
+            }
+          ]
+        },
+        {
+          "level": "+2",
+          "rate": 100,
+          "rate_text": "必要強化段階 +8以上",
+          "gold": 500000,
+          "materials": [
+            {
+              "item": "棘付きの仮面",
+              "qty": 10
+            }
+          ],
+          "stats": [
+            {
+              "name": "物魔攻",
+              "value": "8,750,000"
+            }
+          ]
+        },
+        {
+          "level": "+3",
+          "rate": 100,
+          "rate_text": "必要強化段階 +12以上",
+          "gold": 500000,
+          "materials": [
+            {
+              "item": "棘付きの仮面",
+              "qty": 15
+            }
+          ],
+          "stats": [
+            {
+              "name": "物魔攻",
+              "value": "13,125,000"
+            }
+          ]
+        }
+      ],
+      "notes": "細工は100%成功し、強化段階は維持。必要強化段階は rate_text に記載。2026年7月27日13時更新で必要強化段階の数値の誤りが修正された旨の記載あり(取得テキストは修正後の値、修正前の値は不明)。原文表記は「棘のついた仮面」(棘付きの仮面 に統一)。",
+      "refs": [
+        {
+          "source": "jp-notice-1440"
+        }
+      ]
+    },
+    {
+      "id": "n1440-eternal-jade-enhance",
+      "name": "永劫の異界の変異型竜珠 強化",
+      "kind": "enhance",
+      "applies_to": [
+        "永劫の異界の変異型竜珠"
+      ],
+      "rows": [
+        {
+          "level": "+1～+10",
+          "materials": [
+            {
+              "item": "永劫の渇望のかけら",
+              "qty": "段階別個数記載なし"
+            }
+          ]
+        }
+      ],
+      "notes": "最大+10まで強化可能、強化素材は永劫の渇望のかけら。段階別の確率・個数は原文に記載なし。",
+      "refs": [
+        {
+          "source": "jp-notice-1440"
+        }
+      ]
+    }
+  ],
+  "drops": [
+    {
+      "id": "n1440-touko-stage",
+      "location": "桃郷苑",
+      "location_kind": "dungeon",
+      "label": "ステージ報酬",
+      "entries": [
+        {
+          "item": "手笠キノコ",
+          "from": "一般魔物",
+          "floors": "全階層",
+          "rate_text": "確定"
+        },
+        {
+          "item": "悪魔の骨の鈴",
+          "from": "一般魔物",
+          "floors": "全階層",
+          "rate_text": "確定"
+        },
+        {
+          "item": "死血花の心臓",
+          "from": "ボス",
+          "floors": "全階層",
+          "rate_text": "確定"
+        },
+        {
+          "item": "多尾のブレスレット",
+          "from": "一般魔物",
+          "floors": "全階層",
+          "rate_text": "一定確率"
+        },
+        {
+          "item": "多尾のブレスレット",
+          "from": "安息所",
+          "floors": "全階層",
+          "rate_text": "確定"
+        },
+        {
+          "item": "亡者の時間の涙",
+          "from": "安息所",
+          "floors": "AS-05階層～",
+          "rate_text": "一定確率"
+        },
+        {
+          "item": "瓶詰めの石化像",
+          "from": "ボス",
+          "floors": "AS-05階層～",
+          "rate_text": "一定確率"
+        },
+        {
+          "item": "棘付きの仮面",
+          "from": "金箱",
+          "floors": "AS-05階層～",
+          "rate_text": "一定確率"
+        },
+        {
+          "item": "ベルスカードの責任",
+          "from": "安息所",
+          "floors": "AS-05階層～",
+          "rate_text": "一定確率"
+        }
+      ],
+      "notes": "桃郷苑ステージ(3種共通)の新規報酬。既存ステージの報酬に変更なし。原文5行目「安息所 全階層 確定」はセル数不足(rowspan)のため前行の多尾のブレスレットを引き継ぐと解釈。",
+      "refs": [
+        {
+          "source": "jp-notice-1440"
+        }
+      ]
+    },
+    {
+      "id": "n1440-touko-gather",
+      "location": "桃郷苑",
+      "location_kind": "gather",
+      "label": "採集 (ステージ共通)",
+      "entries": [
+        {
+          "item": "崩れた境界の羅針盤ランダム袋",
+          "from": "採集ポイント",
+          "rate_text": "確定"
+        },
+        {
+          "item": "星屑の石(宝物)",
+          "from": "採集ポイント",
+          "rate_text": "一定確率"
+        },
+        {
+          "item": "ゴールデンゴブリンコイン",
+          "from": "採集ポイント",
+          "rate_text": "一定確率"
+        },
+        {
+          "item": "幽冥の招待状",
+          "from": "採集ポイント",
+          "rate_text": "一定確率"
+        },
+        {
+          "item": "崩れた境界の羅針盤選択袋",
+          "from": "採集ポイント",
+          "rate_text": "一定確率"
+        },
+        {
+          "item": "さっぱりミラクルゼリー",
+          "from": "採集ポイント",
+          "rate_text": "一定確率"
+        }
+      ],
+      "notes": "桃郷苑ステージでは既存の採集ポイント3個が確定で登場し、異なる3つのギルド納品アイテムがドロップ。低確率で「巨大な採集ポイント」が登場: ギルド納品アイテム9種中3種が確定、崩れた境界の羅針盤ランダム(1個)袋を確定獲得、低確率で称号。星屑の石の登場確率及び報酬は変更なし。",
+      "refs": [
+        {
+          "source": "jp-notice-1440"
+        }
+      ]
+    },
+    {
+      "id": "n1440-gather-gundan",
+      "location": "軍団補給地",
+      "location_kind": "gather",
+      "label": "採集",
+      "entries": [
+        {
+          "item": "ヌルヌル水草",
+          "from": "採集ポイント",
+          "rate_text": "確定"
+        },
+        {
+          "item": "屍苔",
+          "from": "採集ポイント",
+          "rate_text": "確定"
+        },
+        {
+          "item": "アワフジツボ",
+          "from": "採集ポイント",
+          "rate_text": "確定"
+        },
+        {
+          "item": "称号：軍団の略奪者",
+          "from": "採集ポイント",
+          "rate_text": "一定確率"
+        }
+      ],
+      "notes": "確定3種はギルド納品アイテム。称号は巨大な採集ポイントから低確率と思われる(採集アイテム表では「一定確率」)。",
+      "refs": [
+        {
+          "source": "jp-notice-1440"
+        }
+      ]
+    },
+    {
+      "id": "n1440-gather-kooritsuita",
+      "location": "凍りついた市街地",
+      "location_kind": "gather",
+      "label": "採集",
+      "entries": [
+        {
+          "item": "灼熱石",
+          "from": "採集ポイント",
+          "rate_text": "確定"
+        },
+        {
+          "item": "六角ボルト",
+          "from": "採集ポイント",
+          "rate_text": "確定"
+        },
+        {
+          "item": "黒々茸",
+          "from": "採集ポイント",
+          "rate_text": "確定"
+        },
+        {
+          "item": "称号：氷雪の放浪者",
+          "from": "採集ポイント",
+          "rate_text": "一定確率"
+        }
+      ],
+      "notes": "確定3種はギルド納品アイテム。称号は巨大な採集ポイントから低確率と思われる(採集アイテム表では「一定確率」)。",
+      "refs": [
+        {
+          "source": "jp-notice-1440"
+        }
+      ]
+    },
+    {
+      "id": "n1440-gather-kogan",
+      "location": "紅岩谷の廃墟",
+      "location_kind": "gather",
+      "label": "採集",
+      "entries": [
+        {
+          "item": "黄金色のカタマリ",
+          "from": "採集ポイント",
+          "rate_text": "確定"
+        },
+        {
+          "item": "万年繭",
+          "from": "採集ポイント",
+          "rate_text": "確定"
+        },
+        {
+          "item": "栴檀の実",
+          "from": "採集ポイント",
+          "rate_text": "確定"
+        },
+        {
+          "item": "称号：紅岩の生存者",
+          "from": "採集ポイント",
+          "rate_text": "一定確率"
+        }
+      ],
+      "notes": "確定3種はギルド納品アイテム。称号は巨大な採集ポイントから低確率と思われる(採集アイテム表では「一定確率」)。称号名は称号表では「赤岩の生存者」、採集表では「称号：紅岩の生存者」と表記ゆれあり。",
+      "refs": [
+        {
+          "source": "jp-notice-1440"
+        }
+      ]
+    },
+    {
+      "id": "n1440-sandhill-bonus",
+      "location": "異界のかけら世界：サンドヒル",
+      "location_kind": "dungeon",
+      "label": "クリア時 追加報酬箱",
+      "entries": [
+        {
+          "item": "砂の息吹のつぼみ",
+          "floors": "全階層",
+          "rate_text": "確定"
+        },
+        {
+          "item": "ネスト入場券",
+          "floors": "全階層",
+          "rate_text": "一定確率"
+        },
+        {
+          "item": "掲示板ポイント",
+          "floors": "全階層",
+          "rate_text": "確定"
+        },
+        {
+          "item": "魂のかけら",
+          "floors": "全階層",
+          "rate_text": "確定"
+        },
+        {
+          "item": "次元の竜珠",
+          "floors": "全階層",
+          "rate_text": "一定確率"
+        },
+        {
+          "item": "金色のプレート(20%)",
+          "floors": "全階層",
+          "rate_text": "一定確率"
+        },
+        {
+          "item": "金色のプレート(70%)",
+          "floors": "全階層",
+          "rate_text": "一定確率"
+        },
+        {
+          "item": "狭間のかけら",
+          "floors": "AS-01階層～",
+          "rate_text": "一定確率"
+        },
+        {
+          "item": "異界の竜珠",
+          "floors": "AS-01階層～",
+          "rate_text": "一定確率"
+        },
+        {
+          "item": "ランカーのたからもの",
+          "floors": "全階層",
+          "rate_text": "一定確率"
+        },
+        {
+          "item": "悪魔の骨の鈴",
+          "floors": "全階層",
+          "rate_text": "確定"
+        },
+        {
+          "item": "多尾のブレスレット",
+          "floors": "AS-01階層～",
+          "rate_text": "一定確率"
+        },
+        {
+          "item": "ゴールド",
+          "floors": "AS-01階層～",
+          "rate_text": "確定"
+        }
+      ],
+      "notes": "クリア時に[深紅に染まる邪根の洞窟/ボスゾーンへ直行]と同じ報酬箱が登場。追加報酬箱に桃郷苑ステージで獲得できるアイテムを追加。",
+      "refs": [
+        {
+          "source": "jp-notice-1440"
+        }
+      ]
+    },
+    {
+      "id": "n1440-hidden-vault",
+      "location": "隠された次元の宝物庫",
+      "location_kind": "dungeon",
+      "label": "宝箱報酬",
+      "entries": [
+        {
+          "item": "砂の息吹のつぼみ",
+          "floors": "全階層",
+          "rate_text": "確定"
+        },
+        {
+          "item": "紅蓮の竜脳香",
+          "floors": "全階層",
+          "rate_text": "確定"
+        },
+        {
+          "item": "掲示板ポイント",
+          "floors": "全階層",
+          "rate_text": "確定"
+        },
+        {
+          "item": "冒険の鍵",
+          "floors": "全階層",
+          "rate_text": "確定"
+        },
+        {
+          "item": "ゴールデンゴブリンコイン",
+          "floors": "全階層",
+          "rate_text": "一定確率"
+        },
+        {
+          "item": "輝く混沌のキューブ",
+          "floors": "全階層",
+          "rate_text": "一定確率"
+        },
+        {
+          "item": "古代人の礎",
+          "floors": "全階層",
+          "rate_text": "確定"
+        },
+        {
+          "item": "手笠キノコ",
+          "floors": "全階層",
+          "rate_text": "確定"
+        },
+        {
+          "item": "悪魔の骨の鈴",
+          "floors": "全階層",
+          "rate_text": "確定"
+        },
+        {
+          "item": "多尾のブレスレット",
+          "floors": "全階層",
+          "rate_text": "一定確率"
+        },
+        {
+          "item": "死血花の心臓",
+          "floors": "全階層",
+          "rate_text": "確定"
+        },
+        {
+          "item": "崩壊した次元の気",
+          "floors": "全階層",
+          "rate_text": "一定確率"
+        },
+        {
+          "item": "崩壊した次元の力のかけら",
+          "floors": "全階層",
+          "rate_text": "一定確率"
+        },
+        {
+          "item": "断片化したブローチの残骸",
+          "floors": "全階層",
+          "rate_text": "確定"
+        }
+      ],
+      "notes": "2026年7月アップデートで宝箱報酬に桃郷苑ステージのアイテムを追加。",
+      "refs": [
+        {
+          "source": "jp-notice-1440"
+        }
+      ]
+    },
+    {
+      "id": "n1440-gdn-eternal-jade",
+      "location": "ゴールドドラゴンネスト",
+      "location_kind": "dungeon",
+      "entries": [
+        {
+          "item": "永劫の異界の変異型竜珠",
+          "rate_text": "獲得可能(確率記載なし)"
+        }
+      ],
+      "notes": "2026/7/17 追記。",
+      "refs": [
+        {
+          "source": "jp-notice-1440"
+        }
+      ]
+    },
+    {
+      "id": "n1440-gdnh-eternal-hammer",
+      "location": "ゴールドドラゴンネスト(ハード)",
+      "location_kind": "dungeon",
+      "entries": [
+        {
+          "item": "永劫の変異型竜珠改良槌",
+          "rate_text": "獲得可能(確率記載なし)"
+        }
+      ],
+      "notes": "2026/7/17 追記。",
+      "refs": [
+        {
+          "source": "jp-notice-1440"
+        }
+      ]
+    },
+    {
+      "id": "n1440-ourajo-pen",
+      "location": "王城廃墟EXネスト",
+      "location_kind": "dungeon",
+      "entries": [
+        {
+          "item": "精製の万年筆",
+          "rate_text": "獲得可能(確率記載なし)"
+        }
+      ],
+      "notes": "アイテムモールでも獲得可能。",
+      "refs": [
+        {
+          "source": "jp-notice-1440"
+        }
+      ]
+    },
+    {
+      "id": "n1440-yuumei-nightmare",
+      "location": "幽冥の異境(悪夢)",
+      "location_kind": "dungeon",
+      "entries": [
+        {
+          "item": "きらめく黄金インク",
+          "rate_text": "獲得可能(確率記載なし)"
+        },
+        {
+          "item": "星雲の生成痕跡帯",
+          "rate_text": "獲得可能(確率記載なし)"
+        }
+      ],
+      "refs": [
+        {
+          "source": "jp-notice-1440"
+        }
+      ]
+    },
+    {
+      "id": "n1440-ranker-treasure",
+      "location": "ランカーのたからもの",
+      "location_kind": "box",
+      "label": "内容物",
+      "entries": [
+        {
+          "item": "英雄称号：ゴッドランカー",
+          "qty": 1,
+          "rate": 0.005
+        },
+        {
+          "item": "英雄称号：大ランカー",
+          "qty": 1,
+          "rate": 0.005
+        },
+        {
+          "item": "英雄称号：超ランカー",
+          "qty": 1,
+          "rate": 0.01
+        },
+        {
+          "item": "永遠のタリスマン(4段階)(イベント)選択袋",
+          "qty": 1,
+          "rate": 0.2
+        },
+        {
+          "item": "永遠のタリスマン(4段階)(イベント)ランダム袋",
+          "qty": 1,
+          "rate": 0.6
+        },
+        {
+          "item": "脅威の変異型竜珠変換キューブ",
+          "qty": 1,
+          "rate": 0.6
+        },
+        {
+          "item": "保護の変異型竜珠変換キューブ",
+          "qty": 1,
+          "rate": 0.6
+        },
+        {
+          "item": "季節の宝石選択袋",
+          "qty": 1,
+          "rate": 1
+        },
+        {
+          "item": "古代人の図面",
+          "qty": 10,
+          "rate": 8
+        },
+        {
+          "item": "次元の地図の欠片",
+          "qty": 25,
+          "rate": 3.9
+        },
+        {
+          "item": "次元のダイス",
+          "qty": 1,
+          "rate": 10.5
+        },
+        {
+          "item": "古代の叡智",
+          "qty": 500,
+          "rate": 2
+        },
+        {
+          "item": "上級渇望のかけら",
+          "qty": 40,
+          "rate": 1.5
+        },
+        {
+          "item": "ランカーコイン",
+          "qty": 1,
+          "rate": 9.977
+        },
+        {
+          "item": "上級神聖な月食のかけら",
+          "qty": 200,
+          "rate": 3
+        },
+        {
+          "item": "上級清い月食のかけら",
+          "qty": 200,
+          "rate": 3
+        },
+        {
+          "item": "上級燃える月食のかけら",
+          "qty": 200,
+          "rate": 3
+        },
+        {
+          "item": "上級漆黒の月食のかけら",
+          "qty": 200,
+          "rate": 3
+        },
+        {
+          "item": "上級純風の月食のかけら",
+          "qty": 200,
+          "rate": 3
+        },
+        {
+          "item": "上級堅固な月食のかけら",
+          "qty": 200,
+          "rate": 3
+        },
+        {
+          "item": "月食の結晶",
+          "qty": 1000,
+          "rate": 6
+        },
+        {
+          "item": "月食の残骸",
+          "qty": 2000,
+          "rate": 6.05
+        },
+        {
+          "item": "古竜の力が宿りし防具強化ハンマー(+12)",
+          "qty": 1,
+          "rate": 0.015
+        },
+        {
+          "item": "古竜の力が宿りし武器強化ハンマー(+12)",
+          "qty": 1,
+          "rate": 0.005
+        },
+        {
+          "item": "古竜の力が宿りし防具強化ハンマー(+14)",
+          "qty": 1,
+          "rate": 0.002
+        },
+        {
+          "item": "古竜の力が宿りし武器強化ハンマー(+14)",
+          "qty": 1,
+          "rate": 0.001
+        },
+        {
+          "item": "秩序のトークン",
+          "qty": 1,
+          "rate": 10
+        },
+        {
+          "item": "秩序のトークン",
+          "qty": 5,
+          "rate": 2
+        },
+        {
+          "item": "ねじれた根",
+          "qty": 20,
+          "rate": 1
+        },
+        {
+          "item": "永劫の異界の変異型竜珠(ユニーク)",
+          "qty": 1,
+          "rate": 1
+        },
+        {
+          "item": "永劫の変異型竜珠改良槌",
+          "qty": 1,
+          "rate": 0.03
+        },
+        {
+          "item": "永劫の渇望のかけら",
+          "qty": 1,
+          "rate": 15
+        },
+        {
+          "item": "永劫の渇望のかけら",
+          "qty": 5,
+          "rate": 2
+        }
+      ],
+      "notes": "2026/7/17 追記の内容更新。永劫の異界の変異型竜珠(ユニーク)は 永劫の異界の変異型竜珠 のユニーク等級と思われるが別idで記録。",
+      "refs": [
+        {
+          "source": "jp-notice-1440"
+        }
+      ]
+    },
+    {
+      "id": "n1440-resp-challenge-box",
+      "location": "ベルスカードの責任挑戦箱",
+      "location_kind": "box",
+      "label": "構成内容(ランダム出現)",
+      "entries": [
+        {
+          "item": "+20 3細工ベルスカードの責任",
+          "qty": 1,
+          "rate": 0.002
+        },
+        {
+          "item": "棘付きの仮面",
+          "qty": 1,
+          "rate": 0.05
+        },
+        {
+          "item": "瓶詰めの石化像",
+          "qty": 1,
+          "rate": 0.6
+        },
+        {
+          "item": "亡者の時間の涙",
+          "qty": 1,
+          "rate": 3
+        },
+        {
+          "item": "亡者の時間の涙",
+          "qty": 2,
+          "rate": 1
+        },
+        {
+          "item": "多尾のブレスレット",
+          "qty": 5,
+          "rate": 20
+        },
+        {
+          "item": "多尾のブレスレット",
+          "qty": 15,
+          "rate": 7.848
+        },
+        {
+          "item": "手笠キノコ",
+          "qty": 10,
+          "rate": 41.5
+        },
+        {
+          "item": "手笠キノコ",
+          "qty": 25,
+          "rate": 20
+        },
+        {
+          "item": "手笠キノコ",
+          "qty": 100,
+          "rate": 6
+        }
+      ],
+      "notes": "原文では「瓶詰めの石化薬」と表記(他箇所の 瓶詰めの石化像 と同一物と判断し統一)。",
+      "refs": [
+        {
+          "source": "jp-notice-1440"
+        }
+      ]
+    },
+    {
+      "id": "n1426-dokubu-missions",
+      "location": "独武討伐戦",
+      "location_kind": "dungeon",
+      "label": "決戦ミッション報酬 (シーズン2)",
+      "entries": [
+        {
+          "item": "独武討伐戦報酬袋",
+          "floors": "AS-01",
+          "from": "決戦をクリアすると達成",
+          "rate_text": "確定(ミッション達成時)"
+        },
+        {
+          "item": "独武討伐戦報酬袋",
+          "floors": "AS-02",
+          "from": "決戦をクリアすると達成",
+          "rate_text": "確定(ミッション達成時)"
+        },
+        {
+          "item": "[イベント]光を失った仲良し星",
+          "floors": "AS-03",
+          "from": "決戦終了時に魔物のHPが75%未満なら達成",
+          "rate_text": "確定(ミッション達成時)"
+        },
+        {
+          "item": "[イベント]光を失った仲良し星",
+          "floors": "AS-03",
+          "from": "決戦終了時に魔物のHPが50%未満なら達成",
+          "rate_text": "確定(ミッション達成時)"
+        },
+        {
+          "item": "独武討伐戦コイン",
+          "floors": "AS-03",
+          "from": "決戦終了時に魔物のHPが25%未満なら達成",
+          "rate_text": "確定(ミッション達成時)"
+        },
+        {
+          "item": "[仲良し][Ⅰ]空中浮遊",
+          "floors": "AS-03～AS-03-2",
+          "from": "決戦をクリアすると達成",
+          "rate_text": "確定(ミッション達成時)"
+        },
+        {
+          "item": "[イベント]光を失った仲良し星",
+          "floors": "AS-03-3～AS-03-4",
+          "from": "決戦終了時に魔物のHPが50%未満なら達成",
+          "rate_text": "確定(ミッション達成時)"
+        },
+        {
+          "item": "[イベント]光を失った仲良し星",
+          "floors": "AS-03-5～AS-03-7",
+          "from": "決戦終了時に魔物のHPが50%未満なら達成",
+          "rate_text": "確定(ミッション達成時)"
+        },
+        {
+          "item": "独武討伐戦コイン",
+          "floors": "AS-03-8",
+          "from": "決戦終了時に魔物のHPが50%未満なら達成",
+          "rate_text": "確定(ミッション達成時)"
+        },
+        {
+          "item": "レジェンドペット選択箱",
+          "floors": "AS-04",
+          "from": "決戦をクリアすると達成",
+          "rate_text": "確定(ミッション達成時)"
+        },
+        {
+          "item": "独武討伐戦コイン",
+          "floors": "AS-04-1～AS-04-2",
+          "from": "決戦終了時に魔物のHPが50%未満なら達成",
+          "rate_text": "確定(ミッション達成時)"
+        },
+        {
+          "item": "[謎]独武討伐のタリスマン(下級)",
+          "floors": "AS-04-3～AS-04-4",
+          "from": "決戦終了時に魔物のHPが50%未満なら達成",
+          "rate_text": "確定(ミッション達成時)"
+        },
+        {
+          "item": "独武討伐戦コイン",
+          "floors": "AS-04-5",
+          "from": "決戦終了時に魔物のHPが50%未満なら達成",
+          "rate_text": "確定(ミッション達成時)"
+        },
+        {
+          "item": "[謎]独武討伐のタリスマン(中級)",
+          "floors": "AS-05",
+          "from": "決戦をクリアすると達成",
+          "rate_text": "確定(ミッション達成時)"
+        },
+        {
+          "item": "[イベント]光を失った仲良し星",
+          "floors": "AS-05-1～AS-05-2",
+          "from": "決戦終了時に魔物のHPが50%未満なら達成",
+          "rate_text": "確定(ミッション達成時)"
+        },
+        {
+          "item": "[謎]独武討伐のタリスマン(中級)",
+          "floors": "AS-05-3～AS-05-4",
+          "from": "決戦終了時に魔物のHPが50%未満なら達成",
+          "rate_text": "確定(ミッション達成時)"
+        },
+        {
+          "item": "独武討伐戦コイン",
+          "floors": "AS-05-5",
+          "from": "決戦終了時に魔物のHPが50%未満なら達成",
+          "rate_text": "確定(ミッション達成時)"
+        },
+        {
+          "item": "[謎]独武討伐のタリスマン(上級)",
+          "floors": "AS-06",
+          "from": "決戦をクリアすると達成",
+          "rate_text": "確定(ミッション達成時)"
+        },
+        {
+          "item": "独武討伐戦コイン",
+          "floors": "DM-01",
+          "from": "決戦終了時に魔物のHPが50%未満なら達成",
+          "rate_text": "確定(ミッション達成時)"
+        },
+        {
+          "item": "古竜の力が宿った防具強化ハンマー (+5～+11)(20%)",
+          "floors": "DM-01",
+          "from": "決戦をクリアすると達成",
+          "rate_text": "確定(ミッション達成時)"
+        },
+        {
+          "item": "[イベント]輝く仲良し星",
+          "floors": "DM-02",
+          "from": "決戦終了時に魔物のHPが50%未満なら達成",
+          "rate_text": "確定(ミッション達成時)"
+        },
+        {
+          "item": "古竜の力が宿った武器強化ハンマー (+5～+11)(20%)",
+          "floors": "DM-02",
+          "from": "決戦をクリアすると達成",
+          "rate_text": "確定(ミッション達成時)"
+        },
+        {
+          "item": "独武討伐戦コイン",
+          "floors": "DM-03",
+          "from": "決戦終了時に魔物のHPが50%未満なら達成",
+          "rate_text": "確定(ミッション達成時)"
+        },
+        {
+          "item": "古竜の力が宿った防具強化ハンマー (+5～+13)(20%)",
+          "floors": "DM-03",
+          "from": "決戦をクリアすると達成",
+          "rate_text": "確定(ミッション達成時)"
+        },
+        {
+          "item": "独武討伐戦コイン",
+          "floors": "DM-04",
+          "from": "決戦終了時に魔物のHPが50%未満なら達成",
+          "rate_text": "確定(ミッション達成時)"
+        },
+        {
+          "item": "[謎]独武討伐のタリスマン(上級)",
+          "floors": "DM-04",
+          "from": "決戦をクリアすると達成",
+          "rate_text": "確定(ミッション達成時)"
+        },
+        {
+          "item": "古竜の力が宿った武器強化ハンマー (+5～+11)(20%)",
+          "floors": "DM-05",
+          "from": "決戦終了時に魔物のHPが50%未満なら達成",
+          "rate_text": "確定(ミッション達成時)"
+        },
+        {
+          "item": "独武討伐戦コイン",
+          "floors": "DM-05",
+          "from": "決戦をクリアすると達成",
+          "rate_text": "確定(ミッション達成時)"
+        },
+        {
+          "item": "独武の栄光ネックレス",
+          "floors": "DM-06",
+          "from": "決戦終了時に魔物のHPが50%未満なら達成",
+          "rate_text": "確定(ミッション達成時)"
+        },
+        {
+          "item": "称号：独武に耐えし",
+          "floors": "DM-06",
+          "from": "決戦をクリアすると達成",
+          "rate_text": "確定(ミッション達成時)"
+        },
+        {
+          "item": "独武の栄光イヤリング",
+          "floors": "DM-07",
+          "from": "決戦終了時に魔物のHPが50%未満なら達成",
+          "rate_text": "確定(ミッション達成時)"
+        },
+        {
+          "item": "称号：独武を凌ぎし",
+          "floors": "DM-07",
+          "from": "決戦をクリアすると達成",
+          "rate_text": "確定(ミッション達成時)"
+        },
+        {
+          "item": "独武の栄光リング",
+          "floors": "DM-08",
+          "from": "決戦終了時に魔物のHPが50%未満なら達成",
+          "rate_text": "確定(ミッション達成時)"
+        },
+        {
+          "item": "称号：独武を突破せし",
+          "floors": "DM-08",
+          "from": "決戦をクリアすると達成",
+          "rate_text": "確定(ミッション達成時)"
+        },
+        {
+          "item": "思い出の時間が留まる箱",
+          "floors": "DM-09",
+          "from": "決戦終了時に魔物のHPが50%未満なら達成",
+          "rate_text": "確定(ミッション達成時)"
+        },
+        {
+          "item": "称号：独武を打ち破りし者",
+          "floors": "DM-09",
+          "from": "決戦をクリアすると達成",
+          "rate_text": "確定(ミッション達成時)"
+        },
+        {
+          "item": "思い出の時間が留まる箱",
+          "floors": "DM-10",
+          "from": "決戦終了時に魔物のHPが50%未満なら達成",
+          "rate_text": "確定(ミッション達成時)"
+        },
+        {
+          "item": "称号：独武を越えし者",
+          "floors": "DM-10",
+          "from": "決戦をクリアすると達成",
+          "rate_text": "確定(ミッション達成時)"
+        }
+      ],
+      "notes": "上位段階のミッションをクリアすると下位ミッションも自動完了。報酬はメールで受取。数量は原文に記載なし。",
+      "refs": [
+        {
+          "source": "jp-notice-1426"
+        }
+      ]
+    },
+    {
+      "id": "n1426-mystery-talisman-high",
+      "location": "[謎]独武討伐のタリスマン(上級)",
+      "location_kind": "box",
+      "label": "開封",
+      "entries": [
+        {
+          "item": "独武討伐のタリスマン",
+          "rate_text": "確定"
+        }
+      ],
+      "notes": "上級/中級/下級による違い(オプション範囲等)は原文に記載なし。",
+      "refs": [
+        {
+          "source": "jp-notice-1426"
+        }
+      ]
+    },
+    {
+      "id": "n1426-mystery-talisman-mid",
+      "location": "[謎]独武討伐のタリスマン(中級)",
+      "location_kind": "box",
+      "label": "開封",
+      "entries": [
+        {
+          "item": "独武討伐のタリスマン",
+          "rate_text": "確定"
+        }
+      ],
+      "notes": "上級/中級/下級による違い(オプション範囲等)は原文に記載なし。",
+      "refs": [
+        {
+          "source": "jp-notice-1426"
+        }
+      ]
+    },
+    {
+      "id": "n1426-mystery-talisman-low",
+      "location": "[謎]独武討伐のタリスマン(下級)",
+      "location_kind": "box",
+      "label": "開封",
+      "entries": [
+        {
+          "item": "独武討伐のタリスマン",
+          "rate_text": "確定"
+        }
+      ],
+      "notes": "上級/中級/下級による違い(オプション範囲等)は原文に記載なし。",
+      "refs": [
+        {
+          "source": "jp-notice-1426"
+        }
+      ]
+    },
+    {
+      "id": "n1426-mystery-talisman-base",
+      "location": "[謎]独武討伐のタリスマン",
+      "location_kind": "box",
+      "label": "開封",
+      "entries": [
+        {
+          "item": "独武討伐のタリスマン",
+          "rate_text": "確定"
+        }
+      ],
+      "notes": "上級/中級/下級による違い(オプション範囲等)は原文に記載なし。",
+      "refs": [
+        {
+          "source": "jp-notice-1426"
+        }
+      ]
+    },
+    {
+      "id": "n1426-terramai-box",
+      "location": "信念のテラマイブローチ箱",
+      "location_kind": "box",
+      "label": "内容物",
+      "entries": [
+        {
+          "item": "堅固な信念のテラマイブローチ袋",
+          "qty": 1,
+          "rate_text": "でやすさ ★☆☆☆☆"
+        },
+        {
+          "item": "[5段階]封印された力のテラマイブローチ袋",
+          "qty": 1,
+          "rate_text": "でやすさ ★☆☆☆☆"
+        },
+        {
+          "item": "審判のワンド",
+          "qty": 20,
+          "rate_text": "でやすさ ★★☆☆☆"
+        },
+        {
+          "item": "審判のワンド",
+          "qty": 10,
+          "rate_text": "でやすさ ★★☆☆☆"
+        },
+        {
+          "item": "審判のワンド",
+          "qty": 5,
+          "rate_text": "でやすさ ★★★☆☆"
+        },
+        {
+          "item": "シールドのかけら",
+          "qty": 40,
+          "rate_text": "でやすさ ★★★☆☆"
+        },
+        {
+          "item": "シールドのかけら",
+          "qty": 20,
+          "rate_text": "でやすさ ★★★☆☆"
+        },
+        {
+          "item": "シールドのかけら",
+          "qty": 10,
+          "rate_text": "でやすさ ★★★★☆"
+        },
+        {
+          "item": "断片化したブローチの残骸",
+          "qty": 200,
+          "rate_text": "でやすさ ★★★☆☆"
+        },
+        {
+          "item": "断片化したブローチの残骸",
+          "qty": 100,
+          "rate_text": "でやすさ ★★★★☆"
+        },
+        {
+          "item": "断片化したブローチの残骸",
+          "qty": 50,
+          "rate_text": "でやすさ ★★★★★"
+        }
+      ],
+      "notes": "確率は数値非公開で「でやすさ」の星表記のみ。",
+      "refs": [
+        {
+          "source": "jp-notice-1426"
+        }
+      ]
+    }
+  ],
+  "dungeons": [
+    {
+      "name": "桃郷苑",
+      "id": "桃郷苑",
+      "kind": "stage",
+      "entry": "紅蓮宮-朱雀大路- → 桃郷苑",
+      "notes": "新規ステージ3種(軍団補給地 / 凍りついた市街地 / 紅岩谷の廃墟)への入場エリア。ディメンションシフトの移動先も桃郷苑ステージ3種に変更。デイリーミッション「桃郷苑ステージを1回クリア」(報酬: スタミナドリンク(1500) 2個)。",
+      "refs": [
+        {
+          "source": "jp-notice-1440"
+        }
+      ]
+    },
+    {
+      "name": "軍団補給地",
+      "id": "軍団補給地",
+      "kind": "stage",
+      "entry": "紅蓮宮-朱雀大路- → 桃郷苑",
+      "notes": "桃郷苑ステージ3種の一つ。",
+      "refs": [
+        {
+          "source": "jp-notice-1440"
+        }
+      ]
+    },
+    {
+      "name": "凍りついた市街地",
+      "id": "凍りついた市街地",
+      "kind": "stage",
+      "entry": "紅蓮宮-朱雀大路- → 桃郷苑",
+      "notes": "桃郷苑ステージ3種の一つ。別表記: 凍りついた市町地 (本文2箇所)。",
+      "refs": [
+        {
+          "source": "jp-notice-1440"
+        }
+      ]
+    },
+    {
+      "name": "紅岩谷の廃墟",
+      "id": "紅岩谷の廃墟",
+      "kind": "stage",
+      "entry": "紅蓮宮-朱雀大路- → 桃郷苑",
+      "notes": "桃郷苑ステージ3種の一つ。",
+      "refs": [
+        {
+          "source": "jp-notice-1440"
+        }
+      ]
+    },
+    {
+      "name": "異界のかけら世界：サンドヒル",
+      "id": "異界のかけら世界：サンドヒル",
+      "kind": "stage",
+      "entry": "ステージ進行中のディメンションシフトで確率入場 (次元共鳴Lv.340で2%、Lv.400で4%、入場時に疲労度消費)",
+      "refs": [
+        {
+          "source": "jp-notice-1440"
+        }
+      ]
+    },
+    {
+      "name": "隠された次元の宝物庫",
+      "id": "隠された次元の宝物庫",
+      "kind": "stage",
+      "entry": "ディメンションシフト (次元のハウンドの選択肢等)",
+      "notes": "2026年7月アップデートで疲労度ブーストカウントを消費せず、消費疲労度0に変更。",
+      "refs": [
+        {
+          "source": "jp-notice-1440"
+        }
+      ]
+    },
+    {
+      "name": "幽冥の異境(悪夢)",
+      "id": "幽冥の異境(悪夢)",
+      "kind": "dungeon",
+      "notes": "きらめく黄金インク、星雲の生成痕跡帯の獲得先として記載。",
+      "refs": [
+        {
+          "source": "jp-notice-1440"
+        }
+      ]
+    },
+    {
+      "name": "王城廃墟EXネスト",
+      "id": "王城廃墟EXネスト",
+      "kind": "nest",
+      "notes": "精製の万年筆の獲得先として記載。",
+      "refs": [
+        {
+          "source": "jp-notice-1440"
+        }
+      ]
+    },
+    {
+      "name": "ゴールドドラゴンネスト",
+      "id": "ゴールドドラゴンネスト",
+      "kind": "nest",
+      "notes": "永劫の異界の変異型竜珠の獲得先。notice-1426 ではゴールドドラゴンネスト（名誉 / Hardcore / Zero）としてバランス調整(モンスター体力・攻撃力下方)の記載あり。",
+      "refs": [
+        {
+          "source": "jp-notice-1440"
+        },
+        {
+          "source": "jp-notice-1426"
+        }
+      ]
+    },
+    {
+      "name": "ゴールドドラゴンネスト(ハード)",
+      "id": "ゴールドドラゴンネスト(ハード)",
+      "kind": "nest",
+      "notes": "永劫の変異型竜珠改良槌の獲得先として記載。notice-1426 の「Hardcore」と同一かは不明。",
+      "refs": [
+        {
+          "source": "jp-notice-1440"
+        }
+      ]
+    },
+    {
+      "name": "独武討伐戦",
+      "id": "独武討伐戦",
+      "kind": "other",
+      "entry": "紅蓮宮-朱雀大路- → 婆娑の古道 → 婆娑の演武場ゲート。入場券: 独武討伐戦挑戦状(シーズン2)(決戦)",
+      "level": 100,
+      "difficulty": "AS-01 ～ DS-10",
+      "notes": "ボスと1:1のソロ戦闘、入場1人、復活不可、週間クリア制限無制限。「模擬戦」(報酬なし・無制限)と「決戦」(入場券使用、ミッション達成で報酬をメール受取)。シーズン2: 2026/6/17～2026/7/15、ボス「真天剣ユエン」。難易度表記は入場情報で「DS-10」、ミッション表では「DM-01～DM-10」。独武の記録箱はシーズン2では登場しない(2026/6/21 更新で訂正)。",
+      "refs": [
+        {
+          "source": "jp-notice-1426"
+        }
+      ]
+    }
+  ]
+}

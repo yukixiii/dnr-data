@@ -1,0 +1,23 @@
+{
+  "name": "dnr-data",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "npm run validate && tsc --noEmit && vite build",
+    "preview": "vite preview",
+    "validate": "tsx ingest/validate.ts",
+    "fetch:notices": "tsx ingest/fetch-notices.ts",
+    "fetch:page": "tsx ingest/fetch-page.ts",
+    "merge": "tsx ingest/merge-drafts.ts"
+  },
+  "devDependencies": {
+    "@types/node": "^26.6.4",
+    "ajv": "^8.20.0",
+    "cheerio": "^1.2.0",
+    "tsx": "^4.23.15",
+    "typescript": "^7.0.2",
+    "vite": "^8.3.2"
+  }
+}

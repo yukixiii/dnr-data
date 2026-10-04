@@ -1,0 +1,9283 @@
+[
+  {
+    "id": "[10%確率]冷気が宿ったハンマー",
+    "name": "[10%確率]冷気が宿ったハンマー",
+    "kind": "consumable",
+    "description": "10%の成功確率でアイオナアクセサリーを強化できるハンマー。使用時に強化用ホワイトコアは消費されず、ハンマーは消滅。",
+    "refs": [
+      {
+        "source": "jp-notice-1139"
+      }
+    ]
+  },
+  {
+    "id": "[20%確率]冷気が宿ったハンマー",
+    "name": "[20%確率]冷気が宿ったハンマー",
+    "kind": "consumable",
+    "description": "20%の成功確率でアイオナアクセサリーを強化できるハンマー。使用時に強化用ホワイトコアは消費されず、ハンマーは消滅。",
+    "refs": [
+      {
+        "source": "jp-notice-1139"
+      }
+    ]
+  },
+  {
+    "id": "[5%確率]冷気が宿ったハンマー",
+    "name": "[5%確率]冷気が宿ったハンマー",
+    "kind": "consumable",
+    "description": "5%の成功確率でアイオナアクセサリーを強化できるハンマー。使用時に強化用ホワイトコアは消費されず、ハンマーは消滅。",
+    "refs": [
+      {
+        "source": "jp-notice-1139"
+      }
+    ]
+  },
+  {
+    "id": "[5段階]封印された力のテラマイブローチ袋",
+    "name": "[5段階]封印された力のテラマイブローチ袋",
+    "kind": "box",
+    "refs": [
+      {
+        "source": "jp-notice-1426"
+      }
+    ]
+  },
+  {
+    "id": "[5段階]封印された力のネルウィンブローチ袋",
+    "name": "[5段階]封印された力のネルウィンブローチ袋",
+    "kind": "box",
+    "refs": [
+      {
+        "source": "jp-notice-1287"
+      }
+    ]
+  },
+  {
+    "id": "[5段階]封印された力のベルスカードブローチ袋",
+    "name": "[5段階]封印された力のベルスカードブローチ袋",
+    "kind": "box",
+    "refs": [
+      {
+        "source": "jp-notice-1246"
+      }
+    ]
+  },
+  {
+    "id": "[イベント][古代]スキルレベルアップ紋章袋",
+    "name": "[イベント][古代]スキルレベルアップ紋章袋",
+    "kind": "box",
+    "refs": [
+      {
+        "source": "jp-notice-1276"
+      }
+    ]
+  },
+  {
+    "id": "[イベント]輝く仲良し星",
+    "name": "[イベント]輝く仲良し星",
+    "kind": "other",
+    "refs": [
+      {
+        "source": "jp-notice-1376"
+      },
+      {
+        "source": "jp-notice-1426"
+      }
+    ]
+  },
+  {
+    "id": "[イベント]光を失った仲良し星",
+    "name": "[イベント]光を失った仲良し星",
+    "kind": "other",
+    "refs": [
+      {
+        "source": "jp-notice-1376"
+      },
+      {
+        "source": "jp-notice-1426"
+      }
+    ]
+  },
+  {
+    "id": "[パッシブ] 友の応援(攻撃力) +100万",
+    "name": "[パッシブ] 友の応援(攻撃力) +100万",
+    "kind": "other",
+    "refs": [
+      {
+        "source": "jp-notice-1376"
+      }
+    ]
+  },
+  {
+    "id": "[パッシブ] 友の応援(攻撃力) +10万",
+    "name": "[パッシブ] 友の応援(攻撃力) +10万",
+    "kind": "other",
+    "refs": [
+      {
+        "source": "jp-notice-1376"
+      }
+    ]
+  },
+  {
+    "id": "[パッシブ] 友の応援(攻撃力) +50万",
+    "name": "[パッシブ] 友の応援(攻撃力) +50万",
+    "kind": "other",
+    "refs": [
+      {
+        "source": "jp-notice-1376"
+      }
+    ]
+  },
+  {
+    "id": "[パッシブ]友の応援(攻撃力) +100万",
+    "name": "[パッシブ]友の応援(攻撃力) +100万",
+    "kind": "consumable",
+    "refs": [
+      {
+        "source": "jp-notice-1426"
+      }
+    ]
+  },
+  {
+    "id": "[パッシブ]友の応援(攻撃力) +10万",
+    "name": "[パッシブ]友の応援(攻撃力) +10万",
+    "kind": "consumable",
+    "refs": [
+      {
+        "source": "jp-notice-1426"
+      }
+    ]
+  },
+  {
+    "id": "[パッシブ]友の応援(攻撃力) +50万",
+    "name": "[パッシブ]友の応援(攻撃力) +50万",
+    "kind": "consumable",
+    "refs": [
+      {
+        "source": "jp-notice-1426"
+      }
+    ]
+  },
+  {
+    "id": "[激]ヘイズガストドラゴンの逆鱗",
+    "name": "[激]ヘイズガストドラゴンの逆鱗",
+    "kind": "material",
+    "refs": [
+      {
+        "source": "jp-notice-1300",
+        "note": "2025年8月アップデートで収集品化"
+      }
+    ]
+  },
+  {
+    "id": "[仲良し][Ⅰ]空中浮遊",
+    "name": "[仲良し][Ⅰ]空中浮遊",
+    "kind": "other",
+    "refs": [
+      {
+        "source": "jp-notice-1426"
+      }
+    ]
+  },
+  {
+    "id": "[仲良し]クロドラム",
+    "name": "[仲良し]クロドラム",
+    "kind": "other",
+    "refs": [
+      {
+        "source": "jp-notice-1376"
+      }
+    ]
+  },
+  {
+    "id": "[仲良し]ゴールドワイバーン袋",
+    "name": "[仲良し]ゴールドワイバーン袋",
+    "kind": "box",
+    "refs": [
+      {
+        "source": "jp-notice-1411"
+      }
+    ]
+  },
+  {
+    "id": "[統合]師弟ポイント",
+    "name": "[統合]師弟ポイント",
+    "kind": "currency",
+    "refs": [
+      {
+        "source": "jp-notice-1231"
+      }
+    ]
+  },
+  {
+    "id": "[謎]永遠の混沌のタリスマン",
+    "name": "[謎]永遠の混沌のタリスマン",
+    "kind": "box",
+    "tradable": "取引可",
+    "description": "次元の狭間で確率ドロップ。永遠の混沌のタリスマン(未鑑定)と思われる。",
+    "refs": [
+      {
+        "source": "jp-notice-1162"
+      }
+    ]
+  },
+  {
+    "id": "[謎]独武討伐のタリスマン",
+    "name": "[謎]独武討伐のタリスマン",
+    "kind": "box",
+    "refs": [
+      {
+        "source": "jp-notice-1376"
+      },
+      {
+        "source": "jp-notice-1426"
+      },
+      {
+        "source": "jp-notice-1466"
+      }
+    ],
+    "description": "開封すると「独武討伐のタリスマン」を獲得(等級表記なし)。"
+  },
+  {
+    "id": "[謎]独武討伐のタリスマン(下級)",
+    "name": "[謎]独武討伐のタリスマン(下級)",
+    "kind": "box",
+    "refs": [
+      {
+        "source": "jp-notice-1376"
+      },
+      {
+        "source": "jp-notice-1426"
+      },
+      {
+        "source": "jp-notice-1466"
+      }
+    ],
+    "description": "開封すると「独武討伐のタリスマン」を獲得(下級)。"
+  },
+  {
+    "id": "[謎]独武討伐のタリスマン(上級)",
+    "name": "[謎]独武討伐のタリスマン(上級)",
+    "kind": "box",
+    "refs": [
+      {
+        "source": "jp-notice-1376"
+      },
+      {
+        "source": "jp-notice-1426"
+      },
+      {
+        "source": "jp-notice-1466"
+      }
+    ],
+    "description": "開封すると「独武討伐のタリスマン」を獲得(上級)。"
+  },
+  {
+    "id": "[謎]独武討伐のタリスマン(中級)",
+    "name": "[謎]独武討伐のタリスマン(中級)",
+    "kind": "box",
+    "refs": [
+      {
+        "source": "jp-notice-1376"
+      },
+      {
+        "source": "jp-notice-1426"
+      },
+      {
+        "source": "jp-notice-1466"
+      }
+    ],
+    "description": "開封すると「独武討伐のタリスマン」を獲得(中級)。"
+  },
+  {
+    "id": "[謎]煌めく王城の紋章袋",
+    "name": "[謎]煌めく王城の紋章袋",
+    "kind": "box",
+    "description": "開封で煌めく王城の紋章1種をランダム獲得。原文表記は「[謎]煌めく王城の紋章王城の紋章袋」",
+    "refs": [
+      {
+        "source": "jp-notice-1387"
+      }
+    ]
+  },
+  {
+    "id": "[封]異界の竜珠",
+    "name": "[封]異界の竜珠",
+    "kind": "box",
+    "description": "使用すると特定キャラクターの異界の竜珠を獲得",
+    "refs": [
+      {
+        "source": "jp-notice-1287"
+      }
+    ]
+  },
+  {
+    "id": "[封]次元の竜珠",
+    "name": "[封]次元の竜珠",
+    "kind": "box",
+    "description": "使用すると特定キャラクターの次元の竜珠を獲得。鍛冶屋生産。",
+    "refs": [
+      {
+        "source": "jp-notice-1193"
+      }
+    ]
+  },
+  {
+    "id": "[未完]王城の紋章袋",
+    "name": "[未完]王城の紋章袋",
+    "kind": "box",
+    "refs": [
+      {
+        "source": "jp-notice-1387"
+      }
+    ]
+  },
+  {
+    "id": "[未完]次元の変異型竜珠改良槌",
+    "name": "[未完]次元の変異型竜珠改良槌",
+    "kind": "material",
+    "refs": [
+      {
+        "source": "jp-notice-1376"
+      },
+      {
+        "source": "jp-notice-1426"
+      },
+      {
+        "source": "jp-notice-1466"
+      }
+    ]
+  },
+  {
+    "id": "「霜花」称号",
+    "name": "「霜花」称号",
+    "kind": "material",
+    "refs": [
+      {
+        "source": "jp-notice-1217"
+      }
+    ]
+  },
+  {
+    "id": "R欠片",
+    "name": "R欠片",
+    "kind": "material",
+    "description": "ファンWiki表記「必要R欠片数」の素材。公式アイテム名は未特定(月食竜珠の強化材料)。",
+    "refs": [
+      {
+        "source": "jp-vipwiki-status",
+        "note": "ファンWiki情報"
+      }
+    ]
+  },
+  {
+    "id": "アイオナの道",
+    "name": "アイオナの道",
+    "kind": "consumable",
+    "description": "アルゼンタ&ジェレイントアクセサリー(VIPアクセサリー3段階目以降)を登録して魂が宿った宝石に変換するアイテム。",
+    "refs": [
+      {
+        "source": "jp-notice-1139"
+      }
+    ]
+  },
+  {
+    "id": "アイテム保護魔法ゼリー",
+    "name": "アイテム保護魔法ゼリー",
+    "kind": "consumable",
+    "refs": [
+      {
+        "source": "jp-notice-1276"
+      }
+    ]
+  },
+  {
+    "id": "アイテム保護魔法ゼリー(10000個)袋",
+    "name": "アイテム保護魔法ゼリー(10000個)袋",
+    "kind": "box",
+    "refs": [
+      {
+        "source": "jp-notice-1217"
+      }
+    ]
+  },
+  {
+    "id": "アストラルジュエル",
+    "name": "アストラルジュエル",
+    "kind": "material",
+    "refs": [
+      {
+        "source": "jp-notice-1466"
+      },
+      {
+        "source": "jp-notice-1455"
+      }
+    ]
+  },
+  {
+    "id": "アストラルストーン",
+    "name": "アストラルストーン",
+    "kind": "material",
+    "refs": [
+      {
+        "source": "jp-notice-1376"
+      },
+      {
+        "source": "jp-notice-1455"
+      },
+      {
+        "source": "jp-notice-1162"
+      },
+      {
+        "source": "jp-vipwiki-status",
+        "note": "ファンWiki情報: L進化素材(石)"
+      }
+    ],
+    "description": "クローニングアバターをレジェンド等級に成長させる新規材料。"
+  },
+  {
+    "id": "アストラルパウダー",
+    "name": "アストラルパウダー",
+    "kind": "material",
+    "refs": [
+      {
+        "source": "jp-notice-1376"
+      },
+      {
+        "source": "jp-notice-1455"
+      },
+      {
+        "source": "jp-notice-1162"
+      },
+      {
+        "source": "jp-vipwiki-status",
+        "note": "ファンWiki情報: L進化素材(粉)"
+      }
+    ],
+    "description": "クローニングアバターをレジェンド等級に成長させる新規材料。"
+  },
+  {
+    "id": "アストラルパウダー(500)",
+    "name": "アストラルパウダー(500)",
+    "kind": "material",
+    "refs": [
+      {
+        "source": "jp-notice-1376"
+      },
+      {
+        "source": "jp-notice-1426"
+      },
+      {
+        "source": "jp-notice-1466"
+      }
+    ]
+  },
+  {
+    "id": "アストラルパウダーボール(取引不可)",
+    "name": "アストラルパウダーボール(取引不可)",
+    "kind": "material",
+    "refs": [
+      {
+        "source": "jp-notice-1217"
+      }
+    ]
+  },
+  {
+    "id": "アルテイアのたいまつ",
+    "name": "アルテイアのたいまつ",
+    "kind": "material",
+    "refs": [
+      {
+        "source": "jp-notice-1311"
+      }
+    ]
+  },
+  {
+    "id": "アレンデルトカゲ",
+    "name": "アレンデルトカゲ",
+    "kind": "material",
+    "refs": [
+      {
+        "source": "jp-notice-1347"
+      }
+    ]
+  },
+  {
+    "id": "アワフジツボ",
+    "name": "アワフジツボ",
+    "kind": "material",
+    "refs": [
+      {
+        "source": "jp-notice-1440"
+      }
+    ]
+  },
+  {
+    "id": "イベールの竜魂",
+    "name": "イベールの竜魂",
+    "kind": "material",
+    "description": "パラドックスタリスマンの祝福進化材料。",
+    "refs": [
+      {
+        "source": "jp-notice-1455"
+      }
+    ]
+  },
+  {
+    "id": "ヴァズモスメインウェポン/サブウェポン(取引不可)選択袋",
+    "name": "ヴァズモスメインウェポン/サブウェポン(取引不可)選択袋",
+    "kind": "box",
+    "refs": [
+      {
+        "source": "jp-notice-1217"
+      },
+      {
+        "source": "jp-notice-1276"
+      }
+    ]
+  },
+  {
+    "id": "ウンブラの破壊されたハンマー",
+    "name": "ウンブラの破壊されたハンマー",
+    "kind": "consumable",
+    "refs": [
+      {
+        "source": "jp-notice-1217"
+      },
+      {
+        "source": "jp-notice-1265"
+      },
+      {
+        "source": "jp-notice-1276"
+      }
+    ]
+  },
+  {
+    "id": "エヴォハンマー：ヘイズフロストドラゴン(1段階)",
+    "name": "エヴォハンマー：ヘイズフロストドラゴン(1段階)",
+    "kind": "consumable",
+    "refs": [
+      {
+        "source": "jp-notice-1217"
+      }
+    ]
+  },
+  {
+    "id": "エヴォハンマー：ヘイズフロストドラゴン(2段階)",
+    "name": "エヴォハンマー：ヘイズフロストドラゴン(2段階)",
+    "kind": "consumable",
+    "refs": [
+      {
+        "source": "jp-notice-1217"
+      }
+    ]
+  },
+  {
+    "id": "エヴォハンマー：ヘイズフロストドラゴン(3段階)",
+    "name": "エヴォハンマー：ヘイズフロストドラゴン(3段階)",
+    "kind": "consumable",
+    "refs": [
+      {
+        "source": "jp-notice-1217"
+      }
+    ]
+  },
+  {
+    "id": "エネルギー抽出変換器",
+    "name": "エネルギー抽出変換器",
+    "kind": "consumable",
+    "description": "+3/6/9の[Ⅱ]古代防具に使用すると強化数値に応じた袋を獲得、開封で該当部位の金糸防具と次元の砂(取引不可)1/2/5個。次元商店表では「エネルギ抽出変換器」表記",
+    "refs": [
+      {
+        "source": "jp-notice-1287"
+      },
+      {
+        "source": "jp-notice-1440"
+      }
+    ]
+  },
+  {
+    "id": "エレメンタルリーフサブウェポン選択箱",
+    "name": "エレメンタルリーフサブウェポン選択箱",
+    "kind": "box",
+    "refs": [
+      {
+        "source": "jp-notice-1276"
+      }
+    ]
+  },
+  {
+    "id": "エレメンタルリーフメインウェポン選択箱",
+    "name": "エレメンタルリーフメインウェポン選択箱",
+    "kind": "box",
+    "refs": [
+      {
+        "source": "jp-notice-1276"
+      }
+    ]
+  },
+  {
+    "id": "オーガダパの破壊されたラッパ",
+    "name": "オーガダパの破壊されたラッパ",
+    "kind": "material",
+    "refs": [
+      {
+        "source": "jp-notice-1217"
+      },
+      {
+        "source": "jp-notice-1265"
+      },
+      {
+        "source": "jp-notice-1276"
+      }
+    ]
+  },
+  {
+    "id": "オーマイ女神さま！ポイント",
+    "name": "オーマイ女神さま！ポイント",
+    "kind": "currency",
+    "refs": [
+      {
+        "source": "jp-notice-1217"
+      }
+    ]
+  },
+  {
+    "id": "カーライエンのセイヴィア紋章(上級)",
+    "name": "カーライエンのセイヴィア紋章(上級)",
+    "kind": "material",
+    "refs": [
+      {
+        "source": "jp-notice-1231"
+      }
+    ]
+  },
+  {
+    "id": "カシウスのセイヴィア紋章(上級)",
+    "name": "カシウスのセイヴィア紋章(上級)",
+    "kind": "material",
+    "refs": [
+      {
+        "source": "jp-notice-1231"
+      }
+    ]
+  },
+  {
+    "id": "カマチョーナチケット",
+    "name": "カマチョーナチケット",
+    "kind": "material",
+    "description": "カマチョーナネスト入場券。ワールドデイリーミッション[AS-01以上でディメンションシフト1回発動]報酬。獲得後1日間使用可能。",
+    "refs": [
+      {
+        "source": "jp-notice-1466"
+      }
+    ]
+  },
+  {
+    "id": "きらめく黄金インク",
+    "name": "きらめく黄金インク",
+    "kind": "material",
+    "tradable": "取引、アカウント倉庫不可",
+    "obtain": [
+      "幽冥の異境(第1冥層)",
+      "幽冥の異境(悪夢) クリア箱 AS-01～",
+      "幽冥の異境(悪夢)"
+    ],
+    "refs": [
+      {
+        "source": "jp-notice-1387"
+      },
+      {
+        "source": "jp-notice-1398"
+      },
+      {
+        "source": "jp-notice-1440"
+      },
+      {
+        "source": "jp-notice-1455"
+      }
+    ]
+  },
+  {
+    "id": "ギルドタリスマンスロット",
+    "name": "ギルドタリスマンスロット",
+    "kind": "other",
+    "description": "ギルド名声コイン+ゴールドで解放: 200%=10,000+100,000G / 175%=7,000+70,000G / 125%=5,000+50,000G / 100%=3,000+30,000G",
+    "refs": [
+      {
+        "source": "jp-notice-1287"
+      }
+    ]
+  },
+  {
+    "id": "ギルドのHPポーション",
+    "name": "ギルドのHPポーション",
+    "kind": "consumable",
+    "refs": [
+      {
+        "source": "jp-notice-1265"
+      }
+    ]
+  },
+  {
+    "id": "ギルドミッション収集アイテム",
+    "name": "ギルドミッション収集アイテム",
+    "kind": "material",
+    "refs": [
+      {
+        "source": "jp-notice-1231"
+      }
+    ]
+  },
+  {
+    "id": "ギルド納品アイテム",
+    "name": "ギルド納品アイテム",
+    "kind": "material",
+    "refs": [
+      {
+        "source": "jp-notice-1287"
+      },
+      {
+        "source": "jp-notice-1347"
+      }
+    ]
+  },
+  {
+    "id": "ギルド納品ミッション材料",
+    "name": "ギルド納品ミッション材料",
+    "kind": "material",
+    "refs": [
+      {
+        "source": "jp-notice-1311"
+      }
+    ]
+  },
+  {
+    "id": "ギルド名声コイン",
+    "name": "ギルド名声コイン",
+    "kind": "currency",
+    "refs": [
+      {
+        "source": "jp-notice-1265"
+      }
+    ]
+  },
+  {
+    "id": "クアノスのかけら",
+    "name": "クアノスのかけら",
+    "kind": "material",
+    "description": "パラドックスタリスマンの祝福進化材料。",
+    "refs": [
+      {
+        "source": "jp-notice-1455"
+      }
+    ]
+  },
+  {
+    "id": "クリスタルポイント",
+    "name": "クリスタルポイント",
+    "kind": "currency",
+    "refs": [
+      {
+        "source": "jp-notice-1387"
+      },
+      {
+        "source": "jp-notice-1440"
+      }
+    ]
+  },
+  {
+    "id": "クリスタルポイント(10000)",
+    "name": "クリスタルポイント(10000)",
+    "kind": "currency",
+    "refs": [
+      {
+        "source": "jp-notice-1311"
+      },
+      {
+        "source": "jp-notice-1231"
+      }
+    ]
+  },
+  {
+    "id": "クリスタルポイント(100000)",
+    "name": "クリスタルポイント(100000)",
+    "kind": "currency",
+    "refs": [
+      {
+        "source": "jp-notice-1231"
+      }
+    ]
+  },
+  {
+    "id": "クリスタルポイント(50000)",
+    "name": "クリスタルポイント(50000)",
+    "kind": "currency",
+    "refs": [
+      {
+        "source": "jp-notice-1311"
+      },
+      {
+        "source": "jp-notice-1231"
+      }
+    ]
+  },
+  {
+    "id": "クローニングサブウェポン",
+    "name": "クローニングサブウェポン",
+    "kind": "other",
+    "slot": "サブウェポン",
+    "series": "クローニングアバター",
+    "grade": "ユニーク→レジェンド",
+    "stats": [
+      {
+        "label": "+0",
+        "stats": [
+          {
+            "name": "物・魔",
+            "value": "3500"
+          },
+          {
+            "name": "FD",
+            "value": "300"
+          },
+          {
+            "name": "体力",
+            "value": "200"
+          },
+          {
+            "name": "物・魔",
+            "value": "4.50%"
+          },
+          {
+            "name": "全属性",
+            "value": "10.00%"
+          }
+        ]
+      },
+      {
+        "label": "+5",
+        "stats": [
+          {
+            "name": "物・魔",
+            "value": "8000"
+          },
+          {
+            "name": "体力",
+            "value": "300"
+          },
+          {
+            "name": "FD",
+            "value": "500"
+          },
+          {
+            "name": "物・魔",
+            "value": "9.50%"
+          },
+          {
+            "name": "全属性",
+            "value": "17.00%"
+          }
+        ]
+      },
+      {
+        "label": "(L)",
+        "stats": [
+          {
+            "name": "物魔攻",
+            "value": "128,000"
+          },
+          {
+            "name": "物魔攻%",
+            "value": "12.00%"
+          },
+          {
+            "name": "属性%",
+            "value": "20.00%"
+          },
+          {
+            "name": "CTD",
+            "value": "50000"
+          },
+          {
+            "name": "FD",
+            "value": "500"
+          }
+        ]
+      }
+    ],
+    "description": "クローニングアバター(サブウェポン)。ファンWiki情報: 初心者ガイド[クローニング]で未強化ユニーク入手(要入門者皆伝)、デイリークエストのクローニングの破片で強化(必要破片3500個)、+5まで強化後アストラルパウダー/アストラルストーンでL等級に進化。2026年7月現在、全部位レジェンド等級+6まで強化可能。+0/+5の能力値はファンWiki情報。(L)はお知らせ1162の公式表(2024年9月上方修正後、列名は公式表記)。Wikiの(L)値と一致を確認。",
+    "refs": [
+      {
+        "source": "jp-vipwiki-status",
+        "note": "ファンWiki情報"
+      },
+      {
+        "source": "jp-notice-1162",
+        "note": "レジェンドクローニングアバター能力値(公式)"
+      }
+    ]
+  },
+  {
+    "id": "クローニングの破片(3500個)選択袋",
+    "name": "クローニングの破片(3500個)選択袋",
+    "kind": "box",
+    "refs": [
+      {
+        "source": "jp-notice-1217"
+      },
+      {
+        "source": "jp-notice-1276"
+      }
+    ]
+  },
+  {
+    "id": "クローニングの破片(500個)選択袋",
+    "name": "クローニングの破片(500個)選択袋",
+    "kind": "box",
+    "refs": [
+      {
+        "source": "jp-notice-1231"
+      }
+    ]
+  },
+  {
+    "id": "クローニングメインウェポン",
+    "name": "クローニングメインウェポン",
+    "kind": "other",
+    "slot": "メインウェポン",
+    "series": "クローニングアバター",
+    "grade": "ユニーク→レジェンド",
+    "stats": [
+      {
+        "label": "+0",
+        "stats": [
+          {
+            "name": "物・魔",
+            "value": "5000"
+          },
+          {
+            "name": "力/敏捷/知力",
+            "value": "200"
+          },
+          {
+            "name": "CT",
+            "value": "6000"
+          },
+          {
+            "name": "FD",
+            "value": "450"
+          },
+          {
+            "name": "CTD",
+            "value": "8000"
+          },
+          {
+            "name": "物・魔",
+            "value": "6.00%"
+          }
+        ]
+      },
+      {
+        "label": "+5",
+        "stats": [
+          {
+            "name": "物・魔",
+            "value": "12000"
+          },
+          {
+            "name": "力/敏捷/知力",
+            "value": "300"
+          },
+          {
+            "name": "CT",
+            "value": "50000"
+          },
+          {
+            "name": "FD",
+            "value": "500"
+          },
+          {
+            "name": "CTD",
+            "value": "50000"
+          },
+          {
+            "name": "物・魔",
+            "value": "12.00%"
+          }
+        ]
+      },
+      {
+        "label": "(L)",
+        "stats": [
+          {
+            "name": "物魔攻",
+            "value": "162,000"
+          },
+          {
+            "name": "物魔攻%",
+            "value": "12.00%"
+          },
+          {
+            "name": "属性%",
+            "value": "12.00%"
+          },
+          {
+            "name": "CT",
+            "value": "50000"
+          },
+          {
+            "name": "CT%",
+            "value": "5.50%"
+          },
+          {
+            "name": "CTD",
+            "value": "50000"
+          },
+          {
+            "name": "FD",
+            "value": "500"
+          }
+        ]
+      }
+    ],
+    "description": "クローニングアバター(メインウェポン)。ファンWiki情報: 初心者ガイド[クローニング]で未強化ユニーク入手(要入門者皆伝)、デイリークエストのクローニングの破片で強化(必要破片3500個)、+5まで強化後アストラルパウダー/アストラルストーンでL等級に進化。2026年7月現在、全部位レジェンド等級+6まで強化可能。+0/+5の能力値はファンWiki情報。(L)はお知らせ1162の公式表(2024年9月上方修正後、列名は公式表記)。Wikiの(L)値と一致を確認。",
+    "refs": [
+      {
+        "source": "jp-vipwiki-status",
+        "note": "ファンWiki情報"
+      },
+      {
+        "source": "jp-notice-1162",
+        "note": "レジェンドクローニングアバター能力値(公式)"
+      }
+    ]
+  },
+  {
+    "id": "クローニング箱",
+    "name": "クローニング箱",
+    "kind": "box",
+    "refs": [
+      {
+        "source": "jp-notice-1398"
+      }
+    ]
+  },
+  {
+    "id": "ゴールデンゴブリンコイン",
+    "name": "ゴールデンゴブリンコイン",
+    "kind": "currency",
+    "refs": [
+      {
+        "source": "jp-notice-1311"
+      },
+      {
+        "source": "jp-notice-1300"
+      },
+      {
+        "source": "jp-notice-1287"
+      },
+      {
+        "source": "jp-notice-1231"
+      },
+      {
+        "source": "jp-notice-1347"
+      },
+      {
+        "source": "jp-notice-1440"
+      }
+    ]
+  },
+  {
+    "id": "ゴールド",
+    "name": "ゴールド",
+    "kind": "currency",
+    "refs": [
+      {
+        "source": "jp-notice-1440"
+      }
+    ]
+  },
+  {
+    "id": "ゴールドワイバーン交換券",
+    "name": "ゴールドワイバーン交換券",
+    "kind": "other",
+    "description": "ゴールドドラゴンの乗り物([仲良し]ゴールドワイバーン)と交換できるアイテム",
+    "refs": [
+      {
+        "source": "jp-notice-1347"
+      }
+    ]
+  },
+  {
+    "id": "ゴールド袋(100,000)",
+    "name": "ゴールド袋(100,000)",
+    "kind": "box",
+    "refs": [
+      {
+        "source": "jp-notice-1217"
+      }
+    ]
+  },
+  {
+    "id": "さっぱりミラクルゼリー",
+    "name": "さっぱりミラクルゼリー",
+    "kind": "consumable",
+    "refs": [
+      {
+        "source": "jp-notice-1311"
+      },
+      {
+        "source": "jp-notice-1440"
+      }
+    ]
+  },
+  {
+    "id": "シールドのかけら",
+    "name": "シールドのかけら",
+    "kind": "material",
+    "refs": [
+      {
+        "source": "jp-notice-1426"
+      }
+    ]
+  },
+  {
+    "id": "ジェレイントの犠牲袋",
+    "name": "ジェレイントの犠牲袋",
+    "kind": "box",
+    "tradable": "取引可",
+    "description": "ジェレイントの犠牲を獲得できる袋と推定 (中身は記載なし)",
+    "refs": [
+      {
+        "source": "jp-notice-1387"
+      },
+      {
+        "source": "jp-notice-1398"
+      }
+    ]
+  },
+  {
+    "id": "ジェレイントの成長挑戦箱",
+    "name": "ジェレイントの成長挑戦箱",
+    "kind": "box",
+    "obtain": [
+      "幽冥商店 アーティファクトタブ (ラビリンスポイント)",
+      "アイテムモール (11個 3,000 EYE CASH 等)"
+    ],
+    "description": "ジェレイントの成長、調律コイン、ラビリンスポイント(10000)交換券などを獲得 (中身の確率は記載なし)",
+    "refs": [
+      {
+        "source": "jp-notice-1387"
+      }
+    ]
+  },
+  {
+    "id": "シャリカの鎖",
+    "name": "シャリカの鎖",
+    "kind": "material",
+    "description": "パラドックスタリスマンの祝福進化材料。",
+    "refs": [
+      {
+        "source": "jp-notice-1455"
+      }
+    ]
+  },
+  {
+    "id": "セイヴィア進化ハンマー選択袋",
+    "name": "セイヴィア進化ハンマー選択袋",
+    "kind": "box",
+    "refs": [
+      {
+        "source": "jp-notice-1231"
+      }
+    ]
+  },
+  {
+    "id": "セイヴィア紋章進化ハンマー",
+    "name": "セイヴィア紋章進化ハンマー",
+    "kind": "consumable",
+    "description": "カーライエン/カシウス/ダグラス/テラマイの各紋章に合った4種がある(個別名は原文記載なし)。セイヴィア商店で救援者の象徴により購入可",
+    "refs": [
+      {
+        "source": "jp-notice-1231"
+      }
+    ]
+  },
+  {
+    "id": "ゼリー",
+    "name": "ゼリー",
+    "kind": "currency",
+    "description": "ベルスカードの信頼 強化段階表の列見出し「必要ゼリー」より。正式なアイテム/財貨名は原文に記載なし。",
+    "refs": [
+      {
+        "source": "jp-notice-1440"
+      }
+    ]
+  },
+  {
+    "id": "ダグラスのセイヴィア紋章(上級)",
+    "name": "ダグラスのセイヴィア紋章(上級)",
+    "kind": "material",
+    "refs": [
+      {
+        "source": "jp-notice-1231"
+      }
+    ]
+  },
+  {
+    "id": "ティタニオンの破壊されたエネルギー",
+    "name": "ティタニオンの破壊されたエネルギー",
+    "kind": "material",
+    "refs": [
+      {
+        "source": "jp-notice-1217"
+      },
+      {
+        "source": "jp-notice-1265"
+      },
+      {
+        "source": "jp-notice-1276"
+      }
+    ]
+  },
+  {
+    "id": "デザートグラス",
+    "name": "デザートグラス",
+    "kind": "material",
+    "refs": [
+      {
+        "source": "jp-notice-1311"
+      }
+    ]
+  },
+  {
+    "id": "テラマイのセイヴィア紋章(上級)",
+    "name": "テラマイのセイヴィア紋章(上級)",
+    "kind": "material",
+    "refs": [
+      {
+        "source": "jp-notice-1231"
+      }
+    ]
+  },
+  {
+    "id": "ﾄﾞﾗｺﾞﾝ ﾍﾞｲｸﾄﾞｹｰｷ",
+    "name": "ﾄﾞﾗｺﾞﾝ ﾍﾞｲｸﾄﾞｹｰｷ",
+    "kind": "consumable",
+    "refs": [
+      {
+        "source": "jp-notice-1466"
+      }
+    ]
+  },
+  {
+    "id": "ドラゴンベイクドケーキ",
+    "name": "ドラゴンベイクドケーキ",
+    "kind": "consumable",
+    "refs": [
+      {
+        "source": "jp-notice-1265"
+      },
+      {
+        "source": "jp-notice-1311"
+      },
+      {
+        "source": "jp-notice-1362"
+      },
+      {
+        "source": "jp-notice-1411"
+      }
+    ]
+  },
+  {
+    "id": "ドンブルのミステリーポイント",
+    "name": "ドンブルのミステリーポイント",
+    "kind": "currency",
+    "refs": [
+      {
+        "source": "jp-notice-1276"
+      }
+    ],
+    "description": "ドンブルのミステリーポイント商店の通貨。ワールドミッション/ファンブルパス(ドンブルライン)等で獲得。月間女神様パッケージの旧「ハレルヤ女神様！ポイント」から変更"
+  },
+  {
+    "id": "ナイトメアジェレイントプレート",
+    "name": "ナイトメアジェレイントプレート",
+    "kind": "material",
+    "description": "別表記: ナイトメア ジェレイントプレート",
+    "refs": [
+      {
+        "source": "jp-notice-1362"
+      },
+      {
+        "source": "jp-notice-1440"
+      }
+    ]
+  },
+  {
+    "id": "ナイトメアバルナックプレート",
+    "name": "ナイトメアバルナックプレート",
+    "kind": "material",
+    "refs": [
+      {
+        "source": "jp-notice-1311"
+      },
+      {
+        "source": "jp-notice-1440"
+      }
+    ],
+    "description": "別表記: ナイトメア バルナックプレート"
+  },
+  {
+    "id": "ヌルヌル水草",
+    "name": "ヌルヌル水草",
+    "kind": "material",
+    "refs": [
+      {
+        "source": "jp-notice-1440"
+      }
+    ]
+  },
+  {
+    "id": "ねじれた根",
+    "name": "ねじれた根",
+    "kind": "material",
+    "tradable": "取引不可(アカウント倉庫可)",
+    "description": "[深紅に染まる邪根の洞窟]/[腐敗した邪根の洞窟](AS-05～)で獲得。強化・変換キューブ材料",
+    "refs": [
+      {
+        "source": "jp-notice-1311"
+      },
+      {
+        "source": "jp-notice-1398"
+      },
+      {
+        "source": "jp-notice-1411"
+      },
+      {
+        "source": "jp-notice-1440"
+      },
+      {
+        "source": "jp-notice-1466"
+      }
+    ]
+  },
+  {
+    "id": "ネストパーティ入場券選択袋",
+    "name": "ネストパーティ入場券選択袋",
+    "kind": "box",
+    "refs": [
+      {
+        "source": "jp-notice-1347"
+      }
+    ]
+  },
+  {
+    "id": "ネスト入場券",
+    "name": "ネスト入場券",
+    "kind": "consumable",
+    "refs": [
+      {
+        "source": "jp-notice-1362"
+      },
+      {
+        "source": "jp-notice-1440"
+      }
+    ]
+  },
+  {
+    "id": "ネスト冒険の箱",
+    "name": "ネスト冒険の箱",
+    "kind": "box",
+    "refs": [
+      {
+        "source": "jp-notice-1231"
+      }
+    ]
+  },
+  {
+    "id": "ネルウィンの異界波紋石袋",
+    "name": "ネルウィンの異界波紋石袋",
+    "kind": "box",
+    "refs": [
+      {
+        "source": "jp-notice-1287"
+      }
+    ]
+  },
+  {
+    "id": "ネルウィンの解放のかけら",
+    "name": "ネルウィンの解放のかけら",
+    "kind": "material",
+    "refs": [
+      {
+        "source": "jp-notice-1287"
+      }
+    ]
+  },
+  {
+    "id": "ネルウィンの解放のかけら袋",
+    "name": "ネルウィンの解放のかけら袋",
+    "kind": "box",
+    "refs": [
+      {
+        "source": "jp-notice-1287"
+      }
+    ]
+  },
+  {
+    "id": "ネルウィン異界波紋石",
+    "name": "ネルウィン異界波紋石",
+    "kind": "material",
+    "refs": [
+      {
+        "source": "jp-notice-1287"
+      },
+      {
+        "source": "jp-notice-1466"
+      }
+    ]
+  },
+  {
+    "id": "パキハの機械部品",
+    "name": "パキハの機械部品",
+    "kind": "material",
+    "description": "箱舟の力(オプション再付与)で使用。別表記: バキハの機械部品(お知らせ1151)。",
+    "refs": [
+      {
+        "source": "jp-notice-1193",
+        "note": "1151では「バキハの機械部品」表記(キャッシュショップ販売: 1個200 EYE CASH)"
+      },
+      {
+        "source": "jp-notice-1151",
+        "note": "「バキハの機械部品」表記。1個200 EYE CASH / 10個1,800 EYE CASH"
+      },
+      {
+        "source": "jp-notice-1311"
+      },
+      {
+        "source": "jp-notice-1287"
+      },
+      {
+        "source": "jp-notice-1362"
+      }
+    ]
+  },
+  {
+    "id": "パキハの機械部品(取引不可)",
+    "name": "パキハの機械部品(取引不可)",
+    "kind": "material",
+    "refs": [
+      {
+        "source": "jp-notice-1455"
+      }
+    ]
+  },
+  {
+    "id": "パラドックスエリクシル",
+    "name": "パラドックスエリクシル",
+    "kind": "consumable",
+    "refs": [
+      {
+        "source": "jp-notice-1455"
+      }
+    ]
+  },
+  {
+    "id": "パラドックスの境界箱",
+    "name": "パラドックスの境界箱",
+    "kind": "box",
+    "description": "キャッシュショップ販売(1個 1,000 EYE CASH)。",
+    "refs": [
+      {
+        "source": "jp-notice-1455"
+      }
+    ]
+  },
+  {
+    "id": "バルクの角",
+    "name": "バルクの角",
+    "kind": "material",
+    "refs": [
+      {
+        "source": "jp-notice-1217"
+      }
+    ]
+  },
+  {
+    "id": "バルクの心臓のかけら",
+    "name": "バルクの心臓のかけら",
+    "kind": "material",
+    "refs": [
+      {
+        "source": "jp-notice-1217"
+      }
+    ]
+  },
+  {
+    "id": "ハレルヤ女神様！ポイント",
+    "name": "ハレルヤ女神様！ポイント",
+    "kind": "currency",
+    "refs": [
+      {
+        "source": "jp-notice-1217"
+      }
+    ]
+  },
+  {
+    "id": "ファンブルのハニードロップポイント",
+    "name": "ファンブルのハニードロップポイント",
+    "kind": "currency",
+    "refs": [
+      {
+        "source": "jp-notice-1276"
+      },
+      {
+        "source": "jp-notice-1398"
+      }
+    ],
+    "description": "ファンブルのハニードロップポイント商店の通貨。月間女神様パッケージの旧「オーマイ女神さま！ポイント」から変更"
+  },
+  {
+    "id": "ブリュンヒルドの仮面",
+    "name": "ブリュンヒルドの仮面",
+    "kind": "material",
+    "refs": [
+      {
+        "source": "jp-notice-1217"
+      }
+    ]
+  },
+  {
+    "id": "ブリュンヒルドの氷のかけら",
+    "name": "ブリュンヒルドの氷のかけら",
+    "kind": "material",
+    "refs": [
+      {
+        "source": "jp-notice-1217"
+      }
+    ]
+  },
+  {
+    "id": "ブローチの残骸",
+    "name": "ブローチの残骸",
+    "kind": "material",
+    "refs": [
+      {
+        "source": "jp-notice-1287"
+      },
+      {
+        "source": "jp-notice-1398"
+      }
+    ]
+  },
+  {
+    "id": "ブローチリング",
+    "name": "ブローチリング",
+    "kind": "material",
+    "refs": [
+      {
+        "source": "jp-notice-1376"
+      },
+      {
+        "source": "jp-notice-1426"
+      },
+      {
+        "source": "jp-notice-1466"
+      }
+    ]
+  },
+  {
+    "id": "ブローチ装飾(ノーマル)10個選択箱",
+    "name": "ブローチ装飾(ノーマル)10個選択箱",
+    "kind": "box",
+    "refs": [
+      {
+        "source": "jp-notice-1217"
+      }
+    ]
+  },
+  {
+    "id": "ブローチ装飾(マジック)10個選択箱",
+    "name": "ブローチ装飾(マジック)10個選択箱",
+    "kind": "box",
+    "refs": [
+      {
+        "source": "jp-notice-1217"
+      }
+    ]
+  },
+  {
+    "id": "ヘイズガストドラゴンの逆鱗",
+    "name": "ヘイズガストドラゴンの逆鱗",
+    "kind": "material",
+    "refs": [
+      {
+        "source": "jp-notice-1300",
+        "note": "2025年8月アップデートで収集品化"
+      }
+    ]
+  },
+  {
+    "id": "ヘイズフロストドラゴンの壊れた宝珠のかけら",
+    "name": "ヘイズフロストドラゴンの壊れた宝珠のかけら",
+    "kind": "material",
+    "refs": [
+      {
+        "source": "jp-notice-1162"
+      },
+      {
+        "source": "jp-notice-1217"
+      },
+      {
+        "source": "jp-notice-1265"
+      }
+    ]
+  },
+  {
+    "id": "ヘイズフロストドラゴンの完全な宝珠",
+    "name": "ヘイズフロストドラゴンの完全な宝珠",
+    "kind": "material",
+    "refs": [
+      {
+        "source": "jp-notice-1217"
+      }
+    ]
+  },
+  {
+    "id": "ヘイズフロストドラゴンの完全な宝珠(取引不可)",
+    "name": "ヘイズフロストドラゴンの完全な宝珠(取引不可)",
+    "kind": "material",
+    "refs": [
+      {
+        "source": "jp-notice-1265"
+      }
+    ],
+    "description": "g6ドラフトの「ヘイズフロストドラゴンの完全な宝珠」の取引不可版と思われる(原文は2箇所とも(取引不可)付き)"
+  },
+  {
+    "id": "ヘイズフロストドラゴンの痕跡",
+    "name": "ヘイズフロストドラゴンの痕跡",
+    "kind": "material",
+    "refs": [
+      {
+        "source": "jp-notice-1217"
+      }
+    ]
+  },
+  {
+    "id": "ヘイズフロストドラゴンの息吹",
+    "name": "ヘイズフロストドラゴンの息吹",
+    "kind": "material",
+    "refs": [
+      {
+        "source": "jp-notice-1217"
+      }
+    ]
+  },
+  {
+    "id": "ヘイズフロストドラゴンの鱗",
+    "name": "ヘイズフロストドラゴンの鱗",
+    "kind": "material",
+    "description": "パラドックスタリスマンの祝福進化材料。",
+    "refs": [
+      {
+        "source": "jp-notice-1455"
+      }
+    ]
+  },
+  {
+    "id": "ベルスカードの解放のかけら",
+    "name": "ベルスカードの解放のかけら",
+    "kind": "material",
+    "refs": [
+      {
+        "source": "jp-notice-1246"
+      },
+      {
+        "source": "jp-notice-1276"
+      }
+    ]
+  },
+  {
+    "id": "ベルスカードの解放のかけら10個袋",
+    "name": "ベルスカードの解放のかけら10個袋",
+    "kind": "box",
+    "refs": [
+      {
+        "source": "jp-notice-1246"
+      }
+    ]
+  },
+  {
+    "id": "ベルスカードの次元幸運石",
+    "name": "ベルスカードの次元幸運石",
+    "kind": "material",
+    "refs": [
+      {
+        "source": "jp-notice-1246"
+      },
+      {
+        "source": "jp-notice-1276"
+      },
+      {
+        "source": "jp-notice-1466"
+      }
+    ]
+  },
+  {
+    "id": "ベルスカードの次元幸運石100個袋",
+    "name": "ベルスカードの次元幸運石100個袋",
+    "kind": "box",
+    "refs": [
+      {
+        "source": "jp-notice-1246"
+      }
+    ]
+  },
+  {
+    "id": "ベルスカードの責任挑戦箱",
+    "name": "ベルスカードの責任挑戦箱",
+    "kind": "box",
+    "description": "アイテムモール<メイン-アーティファクト/週間限定/月間限定>で販売。",
+    "refs": [
+      {
+        "source": "jp-notice-1440"
+      }
+    ]
+  },
+  {
+    "id": "ホワイトコア",
+    "name": "ホワイトコア",
+    "kind": "material",
+    "description": "アイオナアクセサリーの購入・強化材料。ホワイトコアボール(キャッシュショップ)から入手。",
+    "refs": [
+      {
+        "source": "jp-notice-1139"
+      },
+      {
+        "source": "kr-patchnote-20251014-c7"
+      },
+      {
+        "source": "kr-patchnote-20260416-c9"
+      }
+    ],
+    "name_ko": "화이트 코어"
+  },
+  {
+    "id": "ホワイトコアボール",
+    "name": "ホワイトコアボール",
+    "kind": "material",
+    "description": "ホワイトコアがランダムで出現(キャッシュショップ 1個2,000 EYE CASH)。",
+    "refs": [
+      {
+        "source": "jp-notice-1139"
+      },
+      {
+        "source": "jp-notice-1173",
+        "note": "2024年10月再販"
+      },
+      {
+        "source": "jp-notice-1398"
+      },
+      {
+        "source": "jp-notice-1387"
+      }
+    ],
+    "obtain": [
+      "アイテムモール (ホワイトコアボール(取引不可) 100個 180,000 EYE CASH, 月5個まで: jp-notice-1387)"
+    ]
+  },
+  {
+    "id": "ホワイトコアボール(取引不可)(14日)",
+    "name": "ホワイトコアボール(取引不可)(14日)",
+    "kind": "box",
+    "refs": [
+      {
+        "source": "jp-notice-1376"
+      },
+      {
+        "source": "jp-notice-1426"
+      },
+      {
+        "source": "jp-notice-1466"
+      }
+    ]
+  },
+  {
+    "id": "まばゆい火種",
+    "name": "まばゆい火種",
+    "kind": "material",
+    "description": "2026年9月育成イベントのアイテム。桃郷苑ステージ、ワールドデイリー/ウィークリーミッションで獲得。",
+    "refs": [
+      {
+        "source": "jp-notice-1466"
+      }
+    ]
+  },
+  {
+    "id": "ムエルトスの珠のかけら",
+    "name": "ムエルトスの珠のかけら",
+    "kind": "material",
+    "refs": [
+      {
+        "source": "jp-notice-1217"
+      }
+    ]
+  },
+  {
+    "id": "ムエルトスの魔力",
+    "name": "ムエルトスの魔力",
+    "kind": "material",
+    "refs": [
+      {
+        "source": "jp-notice-1217"
+      }
+    ]
+  },
+  {
+    "id": "メルカの破壊されたソウルエナジー",
+    "name": "メルカの破壊されたソウルエナジー",
+    "kind": "material",
+    "refs": [
+      {
+        "source": "jp-notice-1217"
+      },
+      {
+        "source": "jp-notice-1265"
+      },
+      {
+        "source": "jp-notice-1276"
+      }
+    ]
+  },
+  {
+    "id": "ユニーク等級月食の竜珠選択袋",
+    "name": "ユニーク等級月食の竜珠選択袋",
+    "kind": "box",
+    "refs": [
+      {
+        "source": "jp-notice-1162"
+      }
+    ]
+  },
+  {
+    "id": "ライト パラドックスヘイズフロストドラゴンタリスマン選択袋",
+    "name": "ライト パラドックスヘイズフロストドラゴンタリスマン選択袋",
+    "kind": "box",
+    "refs": [
+      {
+        "source": "jp-notice-1455"
+      }
+    ]
+  },
+  {
+    "id": "ラズライト",
+    "name": "ラズライト",
+    "kind": "material",
+    "refs": [
+      {
+        "source": "jp-notice-1151"
+      },
+      {
+        "source": "jp-notice-1246"
+      },
+      {
+        "source": "jp-notice-1231"
+      }
+    ]
+  },
+  {
+    "id": "ラビリンスポイント",
+    "name": "ラビリンスポイント",
+    "kind": "currency",
+    "description": "2026年3月アップデートで最大所持数 1,000,000 → 9,999,999",
+    "refs": [
+      {
+        "source": "jp-notice-1387"
+      },
+      {
+        "source": "jp-notice-1440"
+      }
+    ]
+  },
+  {
+    "id": "ランカーコイン",
+    "name": "ランカーコイン",
+    "kind": "currency",
+    "refs": [
+      {
+        "source": "jp-notice-1311"
+      },
+      {
+        "source": "jp-notice-1440"
+      }
+    ]
+  },
+  {
+    "id": "ランカーのたからもの",
+    "name": "ランカーのたからもの",
+    "kind": "box",
+    "refs": [
+      {
+        "source": "jp-notice-1311"
+      },
+      {
+        "source": "jp-notice-1362"
+      },
+      {
+        "source": "jp-notice-1440"
+      }
+    ]
+  },
+  {
+    "id": "ランダムネスト入場券",
+    "name": "ランダムネスト入場券",
+    "kind": "consumable",
+    "refs": [
+      {
+        "source": "jp-notice-1347"
+      }
+    ]
+  },
+  {
+    "id": "ルーンのかけら",
+    "name": "ルーンのかけら",
+    "kind": "material",
+    "refs": [
+      {
+        "source": "jp-notice-1311"
+      },
+      {
+        "source": "jp-notice-1362"
+      },
+      {
+        "source": "jp-notice-1411"
+      },
+      {
+        "source": "jp-notice-1466"
+      }
+    ]
+  },
+  {
+    "id": "ルーンの結晶",
+    "name": "ルーンの結晶",
+    "kind": "material",
+    "refs": [
+      {
+        "source": "jp-notice-1311"
+      },
+      {
+        "source": "jp-notice-1362"
+      },
+      {
+        "source": "jp-notice-1411"
+      },
+      {
+        "source": "jp-notice-1466"
+      }
+    ]
+  },
+  {
+    "id": "ルーンの清水",
+    "name": "ルーンの清水",
+    "kind": "material",
+    "refs": [
+      {
+        "source": "jp-notice-1276"
+      }
+    ]
+  },
+  {
+    "id": "レジェンドペット選択箱",
+    "name": "レジェンドペット選択箱",
+    "kind": "box",
+    "refs": [
+      {
+        "source": "jp-notice-1376"
+      },
+      {
+        "source": "jp-notice-1426"
+      }
+    ]
+  },
+  {
+    "id": "レジェンド等級月食の竜珠選択袋",
+    "name": "レジェンド等級月食の竜珠選択袋",
+    "kind": "box",
+    "refs": [
+      {
+        "source": "jp-notice-1162"
+      }
+    ]
+  },
+  {
+    "id": "悪魔の骨の鈴",
+    "name": "悪魔の骨の鈴",
+    "kind": "material",
+    "obtain": [
+      "桃郷苑ステージ"
+    ],
+    "description": "別表記: 悪魔の骨鈴 (強化段階表・説明文)。",
+    "refs": [
+      {
+        "source": "jp-notice-1440"
+      }
+    ]
+  },
+  {
+    "id": "闇夜の星影の鍵",
+    "name": "闇夜の星影の鍵",
+    "kind": "material",
+    "refs": [
+      {
+        "source": "jp-notice-1362"
+      },
+      {
+        "source": "jp-notice-1411"
+      },
+      {
+        "source": "jp-notice-1466"
+      }
+    ]
+  },
+  {
+    "id": "依頼解決証明書",
+    "name": "依頼解決証明書",
+    "kind": "currency",
+    "refs": [
+      {
+        "source": "jp-notice-1287"
+      },
+      {
+        "source": "jp-notice-1455"
+      }
+    ]
+  },
+  {
+    "id": "異界に封印されたネルウィンブローチ箱",
+    "name": "異界に封印されたネルウィンブローチ箱",
+    "kind": "box",
+    "refs": [
+      {
+        "source": "jp-notice-1287"
+      }
+    ]
+  },
+  {
+    "id": "異界のダイス",
+    "name": "異界のダイス",
+    "kind": "material",
+    "refs": [
+      {
+        "source": "jp-notice-1287"
+      }
+    ]
+  },
+  {
+    "id": "異界の核",
+    "name": "異界の核",
+    "kind": "material",
+    "grade": "レジェンド",
+    "tradable": "取引可",
+    "description": "獲得: 異界の竜珠分解 / 用途: 異界の竜珠強化 / アカウント倉庫○",
+    "refs": [
+      {
+        "source": "jp-notice-1287"
+      }
+    ]
+  },
+  {
+    "id": "異界の竜珠+10選択袋",
+    "name": "異界の竜珠+10選択袋",
+    "kind": "box",
+    "refs": [
+      {
+        "source": "jp-notice-1376"
+      },
+      {
+        "source": "jp-notice-1426"
+      },
+      {
+        "source": "jp-notice-1466"
+      }
+    ],
+    "description": "別表記: 異界の竜珠 +10選択袋"
+  },
+  {
+    "id": "異次元跳躍体",
+    "name": "異次元跳躍体",
+    "kind": "material",
+    "refs": [
+      {
+        "source": "jp-notice-1231"
+      }
+    ]
+  },
+  {
+    "id": "異世界の古代武器の破片",
+    "name": "異世界の古代武器の破片",
+    "kind": "material",
+    "refs": [
+      {
+        "source": "jp-notice-1231"
+      },
+      {
+        "source": "jp-notice-1217"
+      },
+      {
+        "source": "jp-notice-1276"
+      }
+    ]
+  },
+  {
+    "id": "遺跡の破片",
+    "name": "遺跡の破片",
+    "kind": "material",
+    "description": "王城の紋章袋を購入するための材料。破片凝縮器のゲージ+1",
+    "refs": [
+      {
+        "source": "jp-notice-1387"
+      },
+      {
+        "source": "jp-notice-1398"
+      }
+    ]
+  },
+  {
+    "id": "遺跡の破片凝縮器",
+    "name": "遺跡の破片凝縮器",
+    "kind": "other",
+    "obtain": [
+      "王城の廃墟商店で購入 (価格は記載なし)"
+    ],
+    "refs": [
+      {
+        "source": "jp-notice-1387"
+      }
+    ]
+  },
+  {
+    "id": "運命の金色のプレート箱",
+    "name": "運命の金色のプレート箱",
+    "kind": "box",
+    "description": "キャッシュショップ販売(1個 500 EYE CASH / 11個 5,000 / 115個 50,000)。2026年1月14日～。",
+    "refs": [
+      {
+        "source": "jp-notice-1362"
+      },
+      {
+        "source": "jp-notice-1455"
+      }
+    ]
+  },
+  {
+    "id": "永遠のタリスマン(2段階)選択袋",
+    "name": "永遠のタリスマン(2段階)選択袋",
+    "kind": "box",
+    "refs": [
+      {
+        "source": "jp-notice-1265"
+      },
+      {
+        "source": "jp-notice-1276"
+      },
+      {
+        "source": "jp-notice-1311"
+      },
+      {
+        "source": "jp-notice-1217"
+      }
+    ]
+  },
+  {
+    "id": "永遠のタリスマン(3段階)(イベント)ランダム袋",
+    "name": "永遠のタリスマン(3段階)(イベント)ランダム袋",
+    "kind": "box",
+    "refs": [
+      {
+        "source": "jp-notice-1265",
+        "note": "2025年5月アップデートで箱舟[現在]商店の「永遠のタリスマン(3段階)ランダム袋」から置換。この袋から得た永遠のタリスマン(4段階)(イベント)/(3段階)(イベント)は取引不可・アカウント倉庫移動可・分解可"
+      },
+      {
+        "source": "jp-notice-1376"
+      },
+      {
+        "source": "jp-notice-1426"
+      },
+      {
+        "source": "jp-notice-1466"
+      }
+    ]
+  },
+  {
+    "id": "永遠のタリスマン(3段階)(イベント)選択袋",
+    "name": "永遠のタリスマン(3段階)(イベント)選択袋",
+    "kind": "box",
+    "refs": [
+      {
+        "source": "jp-notice-1265",
+        "note": "2025年5月アップデートで箱舟[現在]商店の「永遠のタリスマン(3段階)選択袋」から置換。この袋から得た永遠のタリスマン(4段階)(イベント)/(3段階)(イベント)は取引不可・アカウント倉庫移動可・分解可"
+      },
+      {
+        "source": "jp-notice-1311"
+      },
+      {
+        "source": "jp-notice-1362"
+      },
+      {
+        "source": "jp-notice-1376"
+      },
+      {
+        "source": "jp-notice-1411"
+      },
+      {
+        "source": "jp-notice-1426"
+      },
+      {
+        "source": "jp-notice-1466"
+      }
+    ]
+  },
+  {
+    "id": "永遠のタリスマン(3段階)プリズム選択袋",
+    "name": "永遠のタリスマン(3段階)プリズム選択袋",
+    "kind": "box",
+    "refs": [
+      {
+        "source": "jp-notice-1466"
+      }
+    ]
+  },
+  {
+    "id": "永遠のタリスマン(3段階)ランダム袋",
+    "name": "永遠のタリスマン(3段階)ランダム袋",
+    "kind": "box",
+    "refs": [
+      {
+        "source": "jp-notice-1265",
+        "note": "2025年5月アップデートで箱舟[現在]商店の販売品が「永遠のタリスマン(3段階)(イベント)ランダム袋」に変更"
+      },
+      {
+        "source": "jp-notice-1311"
+      }
+    ]
+  },
+  {
+    "id": "永遠のタリスマン(3段階)選択袋",
+    "name": "永遠のタリスマン(3段階)選択袋",
+    "kind": "box",
+    "refs": [
+      {
+        "source": "jp-notice-1265",
+        "note": "2025年5月アップデートで箱舟[現在]商店の販売品が「永遠のタリスマン(3段階)(イベント)選択袋」に変更"
+      },
+      {
+        "source": "jp-notice-1311"
+      }
+    ]
+  },
+  {
+    "id": "永遠のタリスマン(4段階)(イベント)ランダム袋",
+    "name": "永遠のタリスマン(4段階)(イベント)ランダム袋",
+    "kind": "box",
+    "refs": [
+      {
+        "source": "jp-notice-1265",
+        "note": "2025年5月アップデートで箱舟[現在]商店の「永遠のタリスマン(4段階)ランダム袋」から置換。この袋から得た永遠のタリスマン(4段階)(イベント)/(3段階)(イベント)は取引不可・アカウント倉庫移動可・分解可"
+      },
+      {
+        "source": "jp-notice-1311"
+      },
+      {
+        "source": "jp-notice-1362"
+      },
+      {
+        "source": "jp-notice-1411"
+      },
+      {
+        "source": "jp-notice-1440"
+      },
+      {
+        "source": "jp-notice-1466"
+      }
+    ]
+  },
+  {
+    "id": "永遠のタリスマン(4段階)(イベント)選択袋",
+    "name": "永遠のタリスマン(4段階)(イベント)選択袋",
+    "kind": "box",
+    "refs": [
+      {
+        "source": "jp-notice-1311"
+      },
+      {
+        "source": "jp-notice-1362"
+      },
+      {
+        "source": "jp-notice-1411"
+      },
+      {
+        "source": "jp-notice-1440"
+      },
+      {
+        "source": "jp-notice-1466"
+      }
+    ]
+  },
+  {
+    "id": "永遠のタリスマン(4段階)プリズム選択袋",
+    "name": "永遠のタリスマン(4段階)プリズム選択袋",
+    "kind": "box",
+    "refs": [
+      {
+        "source": "jp-notice-1466"
+      }
+    ]
+  },
+  {
+    "id": "永遠のタリスマン(4段階)ランダム袋",
+    "name": "永遠のタリスマン(4段階)ランダム袋",
+    "kind": "box",
+    "refs": [
+      {
+        "source": "jp-notice-1265",
+        "note": "2025年5月アップデートで箱舟[現在]商店の販売品が「永遠のタリスマン(4段階)(イベント)ランダム袋」に変更"
+      }
+    ]
+  },
+  {
+    "id": "永遠のタリスマンの核",
+    "name": "永遠のタリスマンの核",
+    "kind": "material",
+    "description": "永遠のタリスマン(1～4段階)を分解すると段階に応じた核を獲得(永遠の苦痛の目/永遠の世界のタリスマン/永遠の混沌のタリスマンは分解不可)。[闇の女神官]-[ステージ商店]で永遠のタリスマンの交換材料、または永遠のプリズムの材料。段階別の名称例: 永遠のタリスマンの核(1段階)",
+    "refs": [
+      {
+        "source": "jp-notice-1217"
+      }
+    ]
+  },
+  {
+    "id": "永遠のタリスマンの核(1段階)",
+    "name": "永遠のタリスマンの核(1段階)",
+    "kind": "material",
+    "refs": [
+      {
+        "source": "jp-notice-1217"
+      },
+      {
+        "source": "jp-notice-1347"
+      },
+      {
+        "source": "jp-notice-1466"
+      }
+    ]
+  },
+  {
+    "id": "永遠のタリスマンの核(2段階)",
+    "name": "永遠のタリスマンの核(2段階)",
+    "kind": "material",
+    "refs": [
+      {
+        "source": "jp-notice-1265"
+      },
+      {
+        "source": "jp-notice-1347"
+      },
+      {
+        "source": "jp-notice-1466"
+      }
+    ]
+  },
+  {
+    "id": "永遠のタリスマンの核(3段階)",
+    "name": "永遠のタリスマンの核(3段階)",
+    "kind": "material",
+    "refs": [
+      {
+        "source": "jp-notice-1265"
+      },
+      {
+        "source": "jp-notice-1411"
+      },
+      {
+        "source": "jp-notice-1466"
+      }
+    ]
+  },
+  {
+    "id": "永遠のタリスマンの核(4段階)",
+    "name": "永遠のタリスマンの核(4段階)",
+    "kind": "material",
+    "refs": [
+      {
+        "source": "jp-notice-1362"
+      },
+      {
+        "source": "jp-notice-1411"
+      },
+      {
+        "source": "jp-notice-1466"
+      }
+    ]
+  },
+  {
+    "id": "永遠のタリスマンの粉塵",
+    "name": "永遠のタリスマンの粉塵",
+    "kind": "material",
+    "description": "別表記: 永遠のタリスマンの粉(お知らせ1193)。",
+    "refs": [
+      {
+        "source": "jp-notice-1162"
+      },
+      {
+        "source": "jp-notice-1265"
+      },
+      {
+        "source": "jp-notice-1466"
+      }
+    ]
+  },
+  {
+    "id": "永遠の渇望のかけら",
+    "name": "永遠の渇望のかけら",
+    "kind": "material",
+    "refs": [
+      {
+        "source": "jp-notice-1276"
+      },
+      {
+        "source": "jp-notice-1376"
+      },
+      {
+        "source": "jp-notice-1426"
+      },
+      {
+        "source": "jp-notice-1466"
+      }
+    ]
+  },
+  {
+    "id": "永遠の苦痛の渦",
+    "name": "永遠の苦痛の渦",
+    "kind": "material",
+    "description": "永遠の苦痛の目の生産材料。取引可能。",
+    "refs": [
+      {
+        "source": "jp-notice-1162"
+      },
+      {
+        "source": "jp-notice-1265"
+      }
+    ]
+  },
+  {
+    "id": "永遠の次元の幻影",
+    "name": "永遠の次元の幻影",
+    "kind": "material",
+    "description": "永遠の世界のタリスマン・永遠の苦痛の目の生産材料。次元の狭間で確定ドロップ。取引可能。",
+    "refs": [
+      {
+        "source": "jp-notice-1162"
+      },
+      {
+        "source": "jp-notice-1265"
+      }
+    ]
+  },
+  {
+    "id": "永遠の次元の証票",
+    "name": "永遠の次元の証票",
+    "kind": "material",
+    "description": "リスキーポータルの箱の開封に10個必要。",
+    "refs": [
+      {
+        "source": "jp-notice-1162"
+      },
+      {
+        "source": "jp-notice-1217"
+      },
+      {
+        "source": "jp-notice-1265"
+      },
+      {
+        "source": "jp-notice-1276"
+      }
+    ]
+  },
+  {
+    "id": "永遠の能力強化紋章(エピック)ランダム袋",
+    "name": "永遠の能力強化紋章(エピック)ランダム袋",
+    "kind": "box",
+    "refs": [
+      {
+        "source": "jp-notice-1217"
+      },
+      {
+        "source": "jp-notice-1276"
+      }
+    ]
+  },
+  {
+    "id": "永遠の能力強化紋章(ユニーク)選択袋",
+    "name": "永遠の能力強化紋章(ユニーク)選択袋",
+    "kind": "box",
+    "description": "別表記: 永遠の能力強化紋章 (ユニーク)選択袋",
+    "refs": [
+      {
+        "source": "jp-notice-1411"
+      },
+      {
+        "source": "jp-notice-1466"
+      }
+    ]
+  },
+  {
+    "id": "永遠の能力強化紋章箱",
+    "name": "永遠の能力強化紋章箱",
+    "kind": "box",
+    "refs": [
+      {
+        "source": "jp-notice-1231"
+      }
+    ]
+  },
+  {
+    "id": "永遠の変異型竜珠進化石",
+    "name": "永遠の変異型竜珠進化石",
+    "kind": "material",
+    "refs": [
+      {
+        "source": "jp-notice-1231"
+      }
+    ]
+  },
+  {
+    "id": "永遠の変異型竜珠選択箱",
+    "name": "永遠の変異型竜珠選択箱",
+    "kind": "box",
+    "refs": [
+      {
+        "source": "jp-notice-1276"
+      }
+    ]
+  },
+  {
+    "id": "永劫の渇望のかけら",
+    "name": "永劫の渇望のかけら",
+    "kind": "material",
+    "description": "永劫の異界の変異型竜珠の強化素材。",
+    "refs": [
+      {
+        "source": "jp-notice-1440"
+      },
+      {
+        "source": "jp-notice-1455"
+      }
+    ]
+  },
+  {
+    "id": "永劫の変異型竜珠改良槌",
+    "name": "永劫の変異型竜珠改良槌",
+    "kind": "material",
+    "obtain": [
+      "ゴールドドラゴンネスト(ハード)"
+    ],
+    "refs": [
+      {
+        "source": "jp-notice-1440"
+      }
+    ]
+  },
+  {
+    "id": "英雄の月食の竜珠 +1強化ハンマー(+0～+14)(取引不可)",
+    "name": "英雄の月食の竜珠 +1強化ハンマー(+0～+14)(取引不可)",
+    "kind": "consumable",
+    "refs": [
+      {
+        "source": "jp-notice-1411"
+      },
+      {
+        "source": "jp-notice-1466"
+      },
+      {
+        "source": "jp-notice-1455"
+      }
+    ]
+  },
+  {
+    "id": "英雄の月食の竜珠 +1強化ハンマー(+0～+9)(取引不可)",
+    "name": "英雄の月食の竜珠 +1強化ハンマー(+0～+9)(取引不可)",
+    "kind": "consumable",
+    "refs": [
+      {
+        "source": "jp-notice-1411"
+      }
+    ]
+  },
+  {
+    "id": "英雄の月食の竜珠 +5強化ハンマー(+0～+14)(取引不可)",
+    "name": "英雄の月食の竜珠 +5強化ハンマー(+0～+14)(取引不可)",
+    "kind": "consumable",
+    "refs": [
+      {
+        "source": "jp-notice-1411"
+      },
+      {
+        "source": "jp-notice-1455"
+      }
+    ]
+  },
+  {
+    "id": "英雄の月食の竜珠 +5強化ハンマー(+0～+9)(取引不可)",
+    "name": "英雄の月食の竜珠 +5強化ハンマー(+0～+9)(取引不可)",
+    "kind": "consumable",
+    "refs": [
+      {
+        "source": "jp-notice-1411"
+      }
+    ]
+  },
+  {
+    "id": "英雄の月食の竜珠+1強化ハンマー(+0～+14)(取引可)",
+    "name": "英雄の月食の竜珠+1強化ハンマー(+0～+14)(取引可)",
+    "kind": "consumable",
+    "refs": [
+      {
+        "source": "jp-notice-1398"
+      }
+    ]
+  },
+  {
+    "id": "英雄の月食の竜珠+1強化ハンマー(+0～+9)(取引可)",
+    "name": "英雄の月食の竜珠+1強化ハンマー(+0～+9)(取引可)",
+    "kind": "consumable",
+    "refs": [
+      {
+        "source": "jp-notice-1398"
+      }
+    ]
+  },
+  {
+    "id": "英雄ブローチコイン",
+    "name": "英雄ブローチコイン",
+    "kind": "currency",
+    "refs": [
+      {
+        "source": "jp-notice-1287"
+      },
+      {
+        "source": "jp-notice-1246"
+      }
+    ]
+  },
+  {
+    "id": "英雄称号：ゴッドランカー",
+    "name": "英雄称号：ゴッドランカー",
+    "kind": "material",
+    "refs": [
+      {
+        "source": "jp-notice-1311"
+      },
+      {
+        "source": "jp-notice-1440"
+      }
+    ]
+  },
+  {
+    "id": "英雄称号：大ランカー",
+    "name": "英雄称号：大ランカー",
+    "kind": "material",
+    "refs": [
+      {
+        "source": "jp-notice-1311"
+      },
+      {
+        "source": "jp-notice-1440"
+      }
+    ]
+  },
+  {
+    "id": "英雄称号：超ランカー",
+    "name": "英雄称号：超ランカー",
+    "kind": "material",
+    "refs": [
+      {
+        "source": "jp-notice-1311"
+      },
+      {
+        "source": "jp-notice-1440"
+      }
+    ]
+  },
+  {
+    "id": "汚染されし意志",
+    "name": "汚染されし意志",
+    "kind": "material",
+    "tradable": "取引不可(アカウント倉庫可)",
+    "description": "進化/変換キューブ。新規アイテム表では「汚染された意志」表記もあり",
+    "refs": [
+      {
+        "source": "jp-notice-1311"
+      }
+    ]
+  },
+  {
+    "id": "王城の紋章袋",
+    "name": "王城の紋章袋",
+    "kind": "box",
+    "refs": [
+      {
+        "source": "jp-notice-1387"
+      }
+    ]
+  },
+  {
+    "id": "黄金の羽根",
+    "name": "黄金の羽根",
+    "kind": "consumable",
+    "description": "ヘイズゴールドドラゴンネスト入場券。使用可能期間: 購入後1日。",
+    "refs": [
+      {
+        "source": "jp-notice-1347"
+      }
+    ]
+  },
+  {
+    "id": "黄金色のカタマリ",
+    "name": "黄金色のカタマリ",
+    "kind": "material",
+    "refs": [
+      {
+        "source": "jp-notice-1440"
+      }
+    ]
+  },
+  {
+    "id": "黄昏の夕焼けの輝きの宝石",
+    "name": "黄昏の夕焼けの輝きの宝石",
+    "kind": "material",
+    "refs": [
+      {
+        "source": "jp-notice-1287"
+      },
+      {
+        "source": "jp-notice-1387"
+      }
+    ]
+  },
+  {
+    "id": "夏の宝石",
+    "name": "夏の宝石",
+    "kind": "material",
+    "refs": [
+      {
+        "source": "jp-notice-1151"
+      },
+      {
+        "source": "jp-notice-1265"
+      },
+      {
+        "source": "jp-notice-1300"
+      },
+      {
+        "source": "jp-notice-1246"
+      },
+      {
+        "source": "jp-notice-1231"
+      },
+      {
+        "source": "jp-notice-1217"
+      }
+    ]
+  },
+  {
+    "id": "過去の化石(10段階)",
+    "name": "過去の化石(10段階)",
+    "kind": "other",
+    "series": "過去の化石",
+    "description": "超越の箱舟[過去]内部でのみHP・攻撃力が上昇する強化効果。シーズン4[過去]終了時に削除。",
+    "stats": [
+      {
+        "label": "効果",
+        "stats": [
+          {
+            "name": "HP強化",
+            "value": "315%"
+          },
+          {
+            "name": "攻撃力強化",
+            "value": "215%"
+          }
+        ]
+      },
+      {
+        "label": "10段階",
+        "stats": [
+          {
+            "name": "HP強化",
+            "value": "315%"
+          },
+          {
+            "name": "攻撃力強化",
+            "value": "215%"
+          }
+        ]
+      }
+    ],
+    "refs": [
+      {
+        "source": "jp-notice-1311"
+      },
+      {
+        "source": "jp-notice-1466"
+      }
+    ]
+  },
+  {
+    "id": "過去の化石(11段階)",
+    "name": "過去の化石(11段階)",
+    "kind": "other",
+    "series": "過去の化石",
+    "description": "超越の箱舟[過去]内部でのみHP・攻撃力が上昇する強化効果。シーズン4[過去]終了時に削除。",
+    "stats": [
+      {
+        "label": "効果",
+        "stats": [
+          {
+            "name": "HP強化",
+            "value": "350%"
+          },
+          {
+            "name": "攻撃力強化",
+            "value": "240%"
+          }
+        ]
+      },
+      {
+        "label": "11段階",
+        "stats": [
+          {
+            "name": "HP強化",
+            "value": "350%"
+          },
+          {
+            "name": "攻撃力強化",
+            "value": "240%"
+          }
+        ]
+      }
+    ],
+    "refs": [
+      {
+        "source": "jp-notice-1311"
+      },
+      {
+        "source": "jp-notice-1466"
+      }
+    ]
+  },
+  {
+    "id": "過去の化石(12段階)",
+    "name": "過去の化石(12段階)",
+    "kind": "other",
+    "series": "過去の化石",
+    "description": "超越の箱舟[過去]内部でのみHP・攻撃力が上昇する強化効果。シーズン4[過去]終了時に削除。",
+    "stats": [
+      {
+        "label": "効果",
+        "stats": [
+          {
+            "name": "HP強化",
+            "value": "385%"
+          },
+          {
+            "name": "攻撃力強化",
+            "value": "265%"
+          }
+        ]
+      },
+      {
+        "label": "12段階",
+        "stats": [
+          {
+            "name": "HP強化",
+            "value": "385%"
+          },
+          {
+            "name": "攻撃力強化",
+            "value": "265%"
+          }
+        ]
+      }
+    ],
+    "refs": [
+      {
+        "source": "jp-notice-1311"
+      },
+      {
+        "source": "jp-notice-1466"
+      }
+    ]
+  },
+  {
+    "id": "過去の化石(13段階)",
+    "name": "過去の化石(13段階)",
+    "kind": "other",
+    "series": "過去の化石",
+    "description": "超越の箱舟[過去]内部でのみHP・攻撃力が上昇する強化効果。シーズン4[過去]終了時に削除。",
+    "stats": [
+      {
+        "label": "効果",
+        "stats": [
+          {
+            "name": "HP強化",
+            "value": "420%"
+          },
+          {
+            "name": "攻撃力強化",
+            "value": "290%"
+          }
+        ]
+      },
+      {
+        "label": "13段階",
+        "stats": [
+          {
+            "name": "HP強化",
+            "value": "420%"
+          },
+          {
+            "name": "攻撃力強化",
+            "value": "290%"
+          }
+        ]
+      }
+    ],
+    "refs": [
+      {
+        "source": "jp-notice-1311"
+      },
+      {
+        "source": "jp-notice-1466"
+      }
+    ]
+  },
+  {
+    "id": "過去の化石(14段階)",
+    "name": "過去の化石(14段階)",
+    "kind": "other",
+    "series": "過去の化石",
+    "description": "超越の箱舟[過去]内部でのみHP・攻撃力が上昇する強化効果。シーズン4[過去]終了時に削除。",
+    "stats": [
+      {
+        "label": "効果",
+        "stats": [
+          {
+            "name": "HP強化",
+            "value": "460%"
+          },
+          {
+            "name": "攻撃力強化",
+            "value": "320%"
+          }
+        ]
+      },
+      {
+        "label": "14段階",
+        "stats": [
+          {
+            "name": "HP強化",
+            "value": "460%"
+          },
+          {
+            "name": "攻撃力強化",
+            "value": "320%"
+          }
+        ]
+      }
+    ],
+    "refs": [
+      {
+        "source": "jp-notice-1311"
+      },
+      {
+        "source": "jp-notice-1466"
+      }
+    ]
+  },
+  {
+    "id": "過去の化石(15段階)",
+    "name": "過去の化石(15段階)",
+    "kind": "other",
+    "series": "過去の化石",
+    "description": "超越の箱舟[過去]内部でのみHP・攻撃力が上昇する強化効果。シーズン4[過去]終了時に削除。",
+    "stats": [
+      {
+        "label": "効果",
+        "stats": [
+          {
+            "name": "HP強化",
+            "value": "500%"
+          },
+          {
+            "name": "攻撃力強化",
+            "value": "350%"
+          }
+        ]
+      },
+      {
+        "label": "15段階",
+        "stats": [
+          {
+            "name": "HP強化",
+            "value": "500%"
+          },
+          {
+            "name": "攻撃力強化",
+            "value": "350%"
+          }
+        ]
+      }
+    ],
+    "refs": [
+      {
+        "source": "jp-notice-1311"
+      },
+      {
+        "source": "jp-notice-1466"
+      }
+    ]
+  },
+  {
+    "id": "過去の化石(1段階)",
+    "name": "過去の化石(1段階)",
+    "kind": "other",
+    "series": "過去の化石",
+    "description": "超越の箱舟[過去]内部でのみHP・攻撃力が上昇する強化効果。シーズン4[過去]終了時に削除。材料に分解可能。",
+    "stats": [
+      {
+        "label": "効果",
+        "stats": [
+          {
+            "name": "HP強化",
+            "value": "30%"
+          },
+          {
+            "name": "攻撃力強化",
+            "value": "20%"
+          }
+        ]
+      },
+      {
+        "label": "1段階",
+        "stats": [
+          {
+            "name": "HP強化",
+            "value": "30%"
+          },
+          {
+            "name": "攻撃力強化",
+            "value": "20%"
+          }
+        ]
+      }
+    ],
+    "refs": [
+      {
+        "source": "jp-notice-1311"
+      },
+      {
+        "source": "jp-notice-1466"
+      }
+    ]
+  },
+  {
+    "id": "過去の化石(2段階)",
+    "name": "過去の化石(2段階)",
+    "kind": "other",
+    "series": "過去の化石",
+    "description": "超越の箱舟[過去]内部でのみHP・攻撃力が上昇する強化効果。シーズン4[過去]終了時に削除。",
+    "stats": [
+      {
+        "label": "効果",
+        "stats": [
+          {
+            "name": "HP強化",
+            "value": "60%"
+          },
+          {
+            "name": "攻撃力強化",
+            "value": "40%"
+          }
+        ]
+      },
+      {
+        "label": "2段階",
+        "stats": [
+          {
+            "name": "HP強化",
+            "value": "60%"
+          },
+          {
+            "name": "攻撃力強化",
+            "value": "40%"
+          }
+        ]
+      }
+    ],
+    "refs": [
+      {
+        "source": "jp-notice-1311"
+      },
+      {
+        "source": "jp-notice-1466"
+      }
+    ]
+  },
+  {
+    "id": "過去の化石(3段階)",
+    "name": "過去の化石(3段階)",
+    "kind": "other",
+    "series": "過去の化石",
+    "description": "超越の箱舟[過去]内部でのみHP・攻撃力が上昇する強化効果。シーズン4[過去]終了時に削除。",
+    "stats": [
+      {
+        "label": "効果",
+        "stats": [
+          {
+            "name": "HP強化",
+            "value": "90%"
+          },
+          {
+            "name": "攻撃力強化",
+            "value": "60%"
+          }
+        ]
+      },
+      {
+        "label": "3段階",
+        "stats": [
+          {
+            "name": "HP強化",
+            "value": "90%"
+          },
+          {
+            "name": "攻撃力強化",
+            "value": "60%"
+          }
+        ]
+      }
+    ],
+    "refs": [
+      {
+        "source": "jp-notice-1311"
+      },
+      {
+        "source": "jp-notice-1466"
+      }
+    ]
+  },
+  {
+    "id": "過去の化石(4段階)",
+    "name": "過去の化石(4段階)",
+    "kind": "other",
+    "series": "過去の化石",
+    "description": "超越の箱舟[過去]内部でのみHP・攻撃力が上昇する強化効果。シーズン4[過去]終了時に削除。",
+    "stats": [
+      {
+        "label": "効果",
+        "stats": [
+          {
+            "name": "HP強化",
+            "value": "120%"
+          },
+          {
+            "name": "攻撃力強化",
+            "value": "80%"
+          }
+        ]
+      },
+      {
+        "label": "4段階",
+        "stats": [
+          {
+            "name": "HP強化",
+            "value": "120%"
+          },
+          {
+            "name": "攻撃力強化",
+            "value": "80%"
+          }
+        ]
+      }
+    ],
+    "refs": [
+      {
+        "source": "jp-notice-1311"
+      },
+      {
+        "source": "jp-notice-1466"
+      }
+    ]
+  },
+  {
+    "id": "過去の化石(5段階)",
+    "name": "過去の化石(5段階)",
+    "kind": "other",
+    "series": "過去の化石",
+    "description": "超越の箱舟[過去]内部でのみHP・攻撃力が上昇する強化効果。シーズン4[過去]終了時に削除。",
+    "stats": [
+      {
+        "label": "効果",
+        "stats": [
+          {
+            "name": "HP強化",
+            "value": "150%"
+          },
+          {
+            "name": "攻撃力強化",
+            "value": "100%"
+          }
+        ]
+      },
+      {
+        "label": "5段階",
+        "stats": [
+          {
+            "name": "HP強化",
+            "value": "150%"
+          },
+          {
+            "name": "攻撃力強化",
+            "value": "100%"
+          }
+        ]
+      }
+    ],
+    "refs": [
+      {
+        "source": "jp-notice-1311"
+      },
+      {
+        "source": "jp-notice-1466"
+      }
+    ]
+  },
+  {
+    "id": "過去の化石(6段階)",
+    "name": "過去の化石(6段階)",
+    "kind": "other",
+    "series": "過去の化石",
+    "description": "超越の箱舟[過去]内部でのみHP・攻撃力が上昇する強化効果。シーズン4[過去]終了時に削除。",
+    "stats": [
+      {
+        "label": "効果",
+        "stats": [
+          {
+            "name": "HP強化",
+            "value": "180%"
+          },
+          {
+            "name": "攻撃力強化",
+            "value": "120%"
+          }
+        ]
+      },
+      {
+        "label": "6段階",
+        "stats": [
+          {
+            "name": "HP強化",
+            "value": "180%"
+          },
+          {
+            "name": "攻撃力強化",
+            "value": "120%"
+          }
+        ]
+      }
+    ],
+    "refs": [
+      {
+        "source": "jp-notice-1311"
+      },
+      {
+        "source": "jp-notice-1466"
+      }
+    ]
+  },
+  {
+    "id": "過去の化石(7段階)",
+    "name": "過去の化石(7段階)",
+    "kind": "other",
+    "series": "過去の化石",
+    "description": "超越の箱舟[過去]内部でのみHP・攻撃力が上昇する強化効果。シーズン4[過去]終了時に削除。",
+    "stats": [
+      {
+        "label": "効果",
+        "stats": [
+          {
+            "name": "HP強化",
+            "value": "210%"
+          },
+          {
+            "name": "攻撃力強化",
+            "value": "140%"
+          }
+        ]
+      },
+      {
+        "label": "7段階",
+        "stats": [
+          {
+            "name": "HP強化",
+            "value": "210%"
+          },
+          {
+            "name": "攻撃力強化",
+            "value": "140%"
+          }
+        ]
+      }
+    ],
+    "refs": [
+      {
+        "source": "jp-notice-1311"
+      },
+      {
+        "source": "jp-notice-1466"
+      }
+    ]
+  },
+  {
+    "id": "過去の化石(8段階)",
+    "name": "過去の化石(8段階)",
+    "kind": "other",
+    "series": "過去の化石",
+    "description": "超越の箱舟[過去]内部でのみHP・攻撃力が上昇する強化効果。シーズン4[過去]終了時に削除。",
+    "stats": [
+      {
+        "label": "効果",
+        "stats": [
+          {
+            "name": "HP強化",
+            "value": "245%"
+          },
+          {
+            "name": "攻撃力強化",
+            "value": "165%"
+          }
+        ]
+      },
+      {
+        "label": "8段階",
+        "stats": [
+          {
+            "name": "HP強化",
+            "value": "245%"
+          },
+          {
+            "name": "攻撃力強化",
+            "value": "165%"
+          }
+        ]
+      }
+    ],
+    "refs": [
+      {
+        "source": "jp-notice-1311"
+      },
+      {
+        "source": "jp-notice-1466"
+      }
+    ]
+  },
+  {
+    "id": "過去の化石(9段階)",
+    "name": "過去の化石(9段階)",
+    "kind": "other",
+    "series": "過去の化石",
+    "description": "超越の箱舟[過去]内部でのみHP・攻撃力が上昇する強化効果。シーズン4[過去]終了時に削除。",
+    "stats": [
+      {
+        "label": "効果",
+        "stats": [
+          {
+            "name": "HP強化",
+            "value": "280%"
+          },
+          {
+            "name": "攻撃力強化",
+            "value": "190%"
+          }
+        ]
+      },
+      {
+        "label": "9段階",
+        "stats": [
+          {
+            "name": "HP強化",
+            "value": "280%"
+          },
+          {
+            "name": "攻撃力強化",
+            "value": "190%"
+          }
+        ]
+      }
+    ],
+    "refs": [
+      {
+        "source": "jp-notice-1311"
+      },
+      {
+        "source": "jp-notice-1466"
+      }
+    ]
+  },
+  {
+    "id": "壊れた金糸武器の結晶",
+    "name": "壊れた金糸武器の結晶",
+    "kind": "material",
+    "grade": "エピック",
+    "tradable": "取引不可",
+    "description": "獲得: 週間依頼 / 用途: 金糸武器生産及び強化 / アカウント倉庫×",
+    "refs": [
+      {
+        "source": "jp-notice-1287"
+      },
+      {
+        "source": "jp-notice-1362"
+      },
+      {
+        "source": "jp-notice-1376"
+      },
+      {
+        "source": "jp-notice-1387"
+      },
+      {
+        "source": "jp-notice-1426"
+      },
+      {
+        "source": "jp-notice-1466"
+      },
+      {
+        "source": "jp-notice-1455"
+      }
+    ]
+  },
+  {
+    "id": "壊れた金糸防具の結晶",
+    "name": "壊れた金糸防具の結晶",
+    "kind": "material",
+    "grade": "エピック",
+    "tradable": "取引不可",
+    "description": "別表記: 壊れた金糸の防具の結晶",
+    "refs": [
+      {
+        "source": "jp-notice-1287"
+      },
+      {
+        "source": "jp-notice-1311"
+      },
+      {
+        "source": "jp-notice-1362"
+      },
+      {
+        "source": "jp-notice-1376"
+      },
+      {
+        "source": "jp-notice-1387"
+      },
+      {
+        "source": "jp-notice-1426"
+      },
+      {
+        "source": "jp-notice-1466"
+      }
+    ]
+  },
+  {
+    "id": "覚醒：秩序のトークン",
+    "name": "覚醒：秩序のトークン",
+    "kind": "material",
+    "refs": [
+      {
+        "source": "jp-notice-1398"
+      }
+    ]
+  },
+  {
+    "id": "完全なナクシルの卵",
+    "name": "完全なナクシルの卵",
+    "kind": "other",
+    "description": "所持した状態で王城廃墟EXネストをクリアすると追加報酬のチャンス (PT内所持人数で確率変化)",
+    "obtain": [
+      "偉業: 王城廃墟EXネスト10回クリア"
+    ],
+    "refs": [
+      {
+        "source": "jp-notice-1387"
+      },
+      {
+        "source": "jp-notice-1398"
+      }
+    ]
+  },
+  {
+    "id": "願いの花",
+    "name": "願いの花",
+    "kind": "material",
+    "refs": [
+      {
+        "source": "jp-notice-1347"
+      },
+      {
+        "source": "jp-notice-1440"
+      }
+    ]
+  },
+  {
+    "id": "季節の宝石選択袋",
+    "name": "季節の宝石選択袋",
+    "kind": "box",
+    "refs": [
+      {
+        "source": "jp-notice-1276"
+      },
+      {
+        "source": "jp-notice-1311"
+      },
+      {
+        "source": "jp-notice-1217"
+      },
+      {
+        "source": "jp-notice-1440"
+      }
+    ]
+  },
+  {
+    "id": "輝く混沌のキューブ",
+    "name": "輝く混沌のキューブ",
+    "kind": "material",
+    "refs": [
+      {
+        "source": "jp-notice-1265",
+        "note": "ナイトメアデュアルネスト入場券。ステージクリアまたはイベントで獲得"
+      },
+      {
+        "source": "jp-notice-1276"
+      },
+      {
+        "source": "jp-notice-1311"
+      },
+      {
+        "source": "jp-notice-1287"
+      },
+      {
+        "source": "jp-notice-1347"
+      },
+      {
+        "source": "jp-notice-1440"
+      }
+    ]
+  },
+  {
+    "id": "輝く冒険者の金貨",
+    "name": "輝く冒険者の金貨",
+    "kind": "currency",
+    "refs": [
+      {
+        "source": "jp-notice-1151"
+      },
+      {
+        "source": "jp-notice-1265"
+      },
+      {
+        "source": "jp-notice-1311"
+      },
+      {
+        "source": "jp-notice-1246"
+      },
+      {
+        "source": "jp-notice-1231"
+      },
+      {
+        "source": "jp-notice-1362"
+      },
+      {
+        "source": "jp-notice-1411"
+      },
+      {
+        "source": "jp-notice-1466"
+      },
+      {
+        "source": "jp-notice-1455"
+      }
+    ],
+    "description": "10,000ゴールド"
+  },
+  {
+    "id": "輝晶のアストラルパウダーボール",
+    "name": "輝晶のアストラルパウダーボール",
+    "kind": "box",
+    "description": "キャッシュショップ販売(1個 1,200 EYE CASH)。",
+    "refs": [
+      {
+        "source": "jp-notice-1455"
+      }
+    ]
+  },
+  {
+    "id": "救いの証",
+    "name": "救いの証",
+    "kind": "material",
+    "description": "[謎]セイヴィア紋章を購入する材料。別表記: 救援の証(報酬表)。",
+    "refs": [
+      {
+        "source": "jp-notice-1193"
+      }
+    ]
+  },
+  {
+    "id": "救援者の象徴",
+    "name": "救援者の象徴",
+    "kind": "material",
+    "refs": [
+      {
+        "source": "jp-notice-1231"
+      }
+    ]
+  },
+  {
+    "id": "共鳴の石",
+    "name": "共鳴の石",
+    "kind": "other",
+    "description": "パラドックスヘイズフロストドラゴンネスト内で「共鳴の力」を得られるアイテム。6段階ずつ5つの等級。下位段階の共鳴の石と共鳴のかけらを使用して鍛冶屋で生産(必要数は原文に記載なし)。",
+    "refs": [
+      {
+        "source": "jp-notice-1455"
+      }
+    ]
+  },
+  {
+    "id": "境界の清水",
+    "name": "境界の清水",
+    "kind": "material",
+    "description": "アセンション5階層以上の崩壊した次元の狭間のボスから低確率で獲得",
+    "refs": [
+      {
+        "source": "jp-notice-1311"
+      }
+    ]
+  },
+  {
+    "id": "境界の清水(取引不可)",
+    "name": "境界の清水(取引不可)",
+    "kind": "material",
+    "refs": [
+      {
+        "source": "jp-notice-1455"
+      }
+    ]
+  },
+  {
+    "id": "強烈な黄金の羽根",
+    "name": "強烈な黄金の羽根",
+    "kind": "consumable",
+    "description": "ゴールドドラゴンネスト(ハードコア)入場券。[ジェレイントの部屋]の執事B[金竜商店]で購入。",
+    "refs": [
+      {
+        "source": "jp-notice-1411"
+      }
+    ]
+  },
+  {
+    "id": "狭間のかけら",
+    "name": "狭間のかけら",
+    "kind": "material",
+    "grade": "エピック",
+    "tradable": "取引不可",
+    "description": "獲得: サンドヒル防波堤 リバーワート船着場侵略者 / 用途: [封]異界の竜珠生産 / アカウント倉庫○",
+    "refs": [
+      {
+        "source": "jp-notice-1287"
+      },
+      {
+        "source": "jp-notice-1362"
+      },
+      {
+        "source": "jp-notice-1440"
+      },
+      {
+        "source": "jp-notice-1455"
+      }
+    ]
+  },
+  {
+    "id": "脅威の変異型竜珠変換キューブ",
+    "name": "脅威の変異型竜珠変換キューブ",
+    "kind": "consumable",
+    "refs": [
+      {
+        "source": "jp-notice-1311"
+      },
+      {
+        "source": "jp-notice-1440"
+      }
+    ]
+  },
+  {
+    "id": "脅威の変異型竜珠変換キューブ(取引不可)",
+    "name": "脅威の変異型竜珠変換キューブ(取引不可)",
+    "kind": "consumable",
+    "refs": [
+      {
+        "source": "jp-notice-1276"
+      }
+    ],
+    "description": "既存ドラフト(g6)の「脅威の変異型竜珠変換キューブ」の取引不可版と思われる"
+  },
+  {
+    "id": "凝縮された次元の気",
+    "name": "凝縮された次元の気",
+    "kind": "material",
+    "refs": [
+      {
+        "source": "jp-notice-1217"
+      },
+      {
+        "source": "jp-notice-1276"
+      }
+    ]
+  },
+  {
+    "id": "均衡のトークン",
+    "name": "均衡のトークン",
+    "kind": "material",
+    "obtain": [
+      "キャッシュショップで(1個)袋/(10個)袋/(100個)袋を販売(2026年1月14日～)"
+    ],
+    "refs": [
+      {
+        "source": "jp-notice-1362"
+      },
+      {
+        "source": "jp-notice-1455"
+      }
+    ]
+  },
+  {
+    "id": "金糸装備[Ⅰ]",
+    "name": "金糸装備[Ⅰ]",
+    "kind": "other",
+    "description": "系統名としての記載のみ (個別アイテム名は原文になし)。+10で金糸装備[Ⅱ]へ進化可能",
+    "refs": [
+      {
+        "source": "jp-notice-1387"
+      }
+    ]
+  },
+  {
+    "id": "金糸装備[Ⅱ]",
+    "name": "金糸装備[Ⅱ]",
+    "kind": "other",
+    "description": "金糸装備[Ⅱ](防具、武器)の系統名。個別: 金糸ヘルム[Ⅱ]/金糸アーマー[Ⅱ]/金糸ボトム[Ⅱ]/金糸グローブ[Ⅱ]/金糸メインウェポン[Ⅱ]/金糸サブウェポン[Ⅱ]",
+    "refs": [
+      {
+        "source": "jp-notice-1387"
+      }
+    ]
+  },
+  {
+    "id": "金色のプレート(20%)",
+    "name": "金色のプレート(20%)",
+    "kind": "material",
+    "description": "原文の総称表記(気迫/疾風/知恵/体力のいずれかと思われる)。",
+    "refs": [
+      {
+        "source": "jp-notice-1362"
+      },
+      {
+        "source": "jp-notice-1440"
+      }
+    ]
+  },
+  {
+    "id": "金色のプレート(70%)",
+    "name": "金色のプレート(70%)",
+    "kind": "material",
+    "description": "原文の総称表記(気迫/疾風/知恵/体力のいずれかと思われる)。",
+    "refs": [
+      {
+        "source": "jp-notice-1362"
+      },
+      {
+        "source": "jp-notice-1440"
+      }
+    ]
+  },
+  {
+    "id": "金色の気迫のプレート(20%)",
+    "name": "金色の気迫のプレート(20%)",
+    "kind": "material",
+    "grade": "エピック",
+    "series": "金色のプレート",
+    "description": "金色の気迫の能力強化紋章(1～4段階)の生産に使うプレート。生産成功確率20%。取引可。",
+    "refs": [
+      {
+        "source": "jp-notice-1347"
+      },
+      {
+        "source": "jp-notice-1362"
+      }
+    ]
+  },
+  {
+    "id": "金色の気迫のプレート(70%)",
+    "name": "金色の気迫のプレート(70%)",
+    "kind": "material",
+    "grade": "ユニーク",
+    "series": "金色のプレート",
+    "description": "金色の気迫の能力強化紋章(1～4段階)の生産に使うプレート。生産成功確率70%。取引可。",
+    "refs": [
+      {
+        "source": "jp-notice-1347"
+      },
+      {
+        "source": "jp-notice-1362"
+      }
+    ]
+  },
+  {
+    "id": "金色の記憶",
+    "name": "金色の記憶",
+    "kind": "material",
+    "description": "金竜の竜珠生産及び強化素材。ゴールドドラゴンネストで獲得。",
+    "refs": [
+      {
+        "source": "jp-notice-1347"
+      }
+    ]
+  },
+  {
+    "id": "金色の記憶のかけら",
+    "name": "金色の記憶のかけら",
+    "kind": "material",
+    "description": "金色の記憶交換材料",
+    "refs": [
+      {
+        "source": "jp-notice-1347"
+      }
+    ]
+  },
+  {
+    "id": "金色の疾風のプレート(20%)",
+    "name": "金色の疾風のプレート(20%)",
+    "kind": "material",
+    "grade": "エピック",
+    "series": "金色のプレート",
+    "description": "金色の疾風の能力強化紋章(1～4段階)の生産に使うプレート。生産成功確率20%。取引可。",
+    "refs": [
+      {
+        "source": "jp-notice-1347"
+      },
+      {
+        "source": "jp-notice-1362"
+      }
+    ]
+  },
+  {
+    "id": "金色の疾風のプレート(70%)",
+    "name": "金色の疾風のプレート(70%)",
+    "kind": "material",
+    "grade": "ユニーク",
+    "series": "金色のプレート",
+    "description": "金色の疾風の能力強化紋章(1～4段階)の生産に使うプレート。生産成功確率70%。取引可。",
+    "refs": [
+      {
+        "source": "jp-notice-1347"
+      },
+      {
+        "source": "jp-notice-1362"
+      }
+    ]
+  },
+  {
+    "id": "金色の誓い",
+    "name": "金色の誓い",
+    "kind": "currency",
+    "description": "ステージ商店で金色のプレートと交換。運命の金色のプレート箱から確率で獲得。",
+    "refs": [
+      {
+        "source": "jp-notice-1362"
+      }
+    ]
+  },
+  {
+    "id": "金色の体力のプレート(20%)",
+    "name": "金色の体力のプレート(20%)",
+    "kind": "material",
+    "grade": "エピック",
+    "series": "金色のプレート",
+    "description": "金色の体力の能力強化紋章(1～4段階)の生産に使うプレート。生産成功確率20%。取引可。",
+    "refs": [
+      {
+        "source": "jp-notice-1347"
+      },
+      {
+        "source": "jp-notice-1362"
+      }
+    ]
+  },
+  {
+    "id": "金色の体力のプレート(70%)",
+    "name": "金色の体力のプレート(70%)",
+    "kind": "material",
+    "grade": "ユニーク",
+    "series": "金色のプレート",
+    "description": "金色の体力の能力強化紋章(1～4段階)の生産に使うプレート。生産成功確率70%。取引可。",
+    "refs": [
+      {
+        "source": "jp-notice-1347"
+      },
+      {
+        "source": "jp-notice-1362"
+      }
+    ]
+  },
+  {
+    "id": "金色の知恵のプレート(20%)",
+    "name": "金色の知恵のプレート(20%)",
+    "kind": "material",
+    "grade": "エピック",
+    "series": "金色のプレート",
+    "description": "金色の知恵の能力強化紋章(1～4段階)の生産に使うプレート。生産成功確率20%。取引可。",
+    "refs": [
+      {
+        "source": "jp-notice-1347"
+      },
+      {
+        "source": "jp-notice-1362"
+      }
+    ]
+  },
+  {
+    "id": "金色の知恵のプレート(70%)",
+    "name": "金色の知恵のプレート(70%)",
+    "kind": "material",
+    "grade": "ユニーク",
+    "series": "金色のプレート",
+    "description": "金色の知恵の能力強化紋章(1～4段階)の生産に使うプレート。生産成功確率70%。取引可。",
+    "refs": [
+      {
+        "source": "jp-notice-1347"
+      },
+      {
+        "source": "jp-notice-1362"
+      }
+    ]
+  },
+  {
+    "id": "金色の追憶",
+    "name": "金色の追憶",
+    "kind": "material",
+    "description": "金竜の竜珠の生産及び強化素材。",
+    "refs": [
+      {
+        "source": "jp-notice-1347"
+      },
+      {
+        "source": "jp-notice-1411"
+      }
+    ]
+  },
+  {
+    "id": "金色の能力強化紋章プレート",
+    "name": "金色の能力強化紋章プレート",
+    "kind": "material",
+    "description": "パープルタイプ次元球体ドロップ表での総称表記。",
+    "refs": [
+      {
+        "source": "jp-notice-1347"
+      }
+    ]
+  },
+  {
+    "id": "金竜の鋭利宝石",
+    "name": "金竜の鋭利宝石",
+    "kind": "material",
+    "description": "+15以上の祝福された[増幅]古竜のメインウェポン/サブウェポンを金竜の武器に進化させる材料。鍛冶屋で生産。原文の生産表では「金竜の鋭利な宝石」と表記(本文・見出しでは「金竜の鋭利宝石」が3回)。",
+    "obtain": [
+      "鍛冶屋で生産"
+    ],
+    "refs": [
+      {
+        "source": "jp-notice-1411"
+      }
+    ]
+  },
+  {
+    "id": "金竜の逆鱗の粉塵",
+    "name": "金竜の逆鱗の粉塵",
+    "kind": "material",
+    "name_ko": "금룡의 역린 가루",
+    "refs": [
+      {
+        "source": "kr-patchnote-20260416-c2"
+      },
+      {
+        "source": "jp-notice-1411"
+      }
+    ],
+    "description": "金竜装備の強化、金竜の守護玉/鋭利宝石の生産に使用。",
+    "obtain": [
+      "ゴールドドラゴンネスト"
+    ]
+  },
+  {
+    "id": "金竜の守護玉",
+    "name": "金竜の守護玉",
+    "kind": "material",
+    "description": "+15以上で金竜の竜珠スロットが拡張された[増幅]古竜の防具を金竜の防具に進化させる材料。鍛冶屋で生産。",
+    "obtain": [
+      "鍛冶屋で生産"
+    ],
+    "refs": [
+      {
+        "source": "jp-notice-1411"
+      }
+    ]
+  },
+  {
+    "id": "金竜の宝玉のかけら",
+    "name": "金竜の宝玉のかけら",
+    "kind": "material",
+    "name_ko": "금룡의 보옥 파편",
+    "refs": [
+      {
+        "source": "kr-patchnote-20260416-c2"
+      },
+      {
+        "source": "jp-notice-1411"
+      }
+    ],
+    "description": "古竜装備の進化(金竜の守護玉/鋭利宝石の生産)、金竜装備の強化、及び箱舟の力の再設定に使用。",
+    "obtain": [
+      "ゴールドドラゴンネスト(ハードコア)の各エリア",
+      "金竜装備の分解(5個)"
+    ]
+  },
+  {
+    "id": "金竜の竜珠安定器",
+    "name": "金竜の竜珠安定器",
+    "kind": "material",
+    "name_ko": "금룡의 용옥 안정기",
+    "description": "金竜の竜珠の+5以降の強化失敗時に破壊確率を減少させる。",
+    "refs": [
+      {
+        "source": "kr-patchnote-20260416-c0"
+      },
+      {
+        "source": "jp-notice-1411"
+      }
+    ]
+  },
+  {
+    "id": "金竜の鱗粉",
+    "name": "金竜の鱗粉",
+    "kind": "material",
+    "name_ko": "금룡의 비늘 가루",
+    "refs": [
+      {
+        "source": "kr-patchnote-20260416-c2"
+      },
+      {
+        "source": "jp-notice-1411"
+      }
+    ],
+    "description": "金竜装備の強化、古竜装備の進化(金竜の守護玉/鋭利宝石の生産)に使用。",
+    "obtain": [
+      "ゴールドドラゴンネスト(Zero)の各エリア"
+    ]
+  },
+  {
+    "id": "金蓮宝",
+    "name": "金蓮宝",
+    "kind": "material",
+    "refs": [
+      {
+        "source": "jp-notice-1265"
+      },
+      {
+        "source": "jp-notice-1276"
+      },
+      {
+        "source": "jp-notice-1300"
+      },
+      {
+        "source": "jp-notice-1217"
+      }
+    ]
+  },
+  {
+    "id": "掲示板ポイント",
+    "name": "掲示板ポイント",
+    "kind": "currency",
+    "refs": [
+      {
+        "source": "jp-notice-1311"
+      },
+      {
+        "source": "jp-notice-1287"
+      },
+      {
+        "source": "jp-notice-1362"
+      },
+      {
+        "source": "jp-notice-1440"
+      }
+    ]
+  },
+  {
+    "id": "掲示板ポイント(25000)",
+    "name": "掲示板ポイント(25000)",
+    "kind": "currency",
+    "refs": [
+      {
+        "source": "jp-notice-1231"
+      }
+    ]
+  },
+  {
+    "id": "掲示板ポイント(5000)",
+    "name": "掲示板ポイント(5000)",
+    "kind": "currency",
+    "refs": [
+      {
+        "source": "jp-notice-1387"
+      },
+      {
+        "source": "jp-notice-1398"
+      }
+    ]
+  },
+  {
+    "id": "掲示板ポイント(50000)",
+    "name": "掲示板ポイント(50000)",
+    "kind": "currency",
+    "refs": [
+      {
+        "source": "jp-notice-1231"
+      }
+    ]
+  },
+  {
+    "id": "決意の破片",
+    "name": "決意の破片",
+    "kind": "material",
+    "refs": [
+      {
+        "source": "jp-notice-1276"
+      }
+    ]
+  },
+  {
+    "id": "月光の月食の竜珠袋(15階層)",
+    "name": "月光の月食の竜珠袋(15階層)",
+    "kind": "box",
+    "refs": [
+      {
+        "source": "jp-notice-1246"
+      }
+    ]
+  },
+  {
+    "id": "月光の月食の竜珠袋(最上層)",
+    "name": "月光の月食の竜珠袋(最上層)",
+    "kind": "box",
+    "refs": [
+      {
+        "source": "jp-notice-1246"
+      }
+    ]
+  },
+  {
+    "id": "月食のかけら",
+    "name": "月食のかけら",
+    "kind": "material",
+    "refs": [
+      {
+        "source": "jp-notice-1362"
+      },
+      {
+        "source": "jp-notice-1411"
+      }
+    ],
+    "description": "原文では「月食のかけら6種」「上級月食のかけら6種」とまとめて表記(6種の総称スタブ)。"
+  },
+  {
+    "id": "月食のかけら6種",
+    "name": "月食のかけら6種",
+    "kind": "material",
+    "refs": [
+      {
+        "source": "jp-notice-1265"
+      },
+      {
+        "source": "jp-notice-1311"
+      },
+      {
+        "source": "jp-notice-1466"
+      }
+    ],
+    "description": "別表記: 月食の かけら6種"
+  },
+  {
+    "id": "月食の遺物",
+    "name": "月食の遺物",
+    "kind": "material",
+    "description": "月食の竜珠のオプション再付与材料(取引可/取引不可版あり)。",
+    "refs": [
+      {
+        "source": "jp-notice-1193"
+      }
+    ]
+  },
+  {
+    "id": "月食の遺物(イベント)",
+    "name": "月食の遺物(イベント)",
+    "kind": "material",
+    "refs": [
+      {
+        "source": "jp-notice-1217"
+      },
+      {
+        "source": "jp-notice-1276"
+      }
+    ]
+  },
+  {
+    "id": "月食の結晶",
+    "name": "月食の結晶",
+    "kind": "material",
+    "refs": [
+      {
+        "source": "jp-notice-1193"
+      },
+      {
+        "source": "jp-notice-1265"
+      },
+      {
+        "source": "jp-notice-1311"
+      },
+      {
+        "source": "jp-notice-1287"
+      },
+      {
+        "source": "jp-notice-1246"
+      },
+      {
+        "source": "jp-notice-1231"
+      },
+      {
+        "source": "jp-notice-1332"
+      },
+      {
+        "source": "jp-notice-1440"
+      }
+    ]
+  },
+  {
+    "id": "月食の残骸",
+    "name": "月食の残骸",
+    "kind": "material",
+    "refs": [
+      {
+        "source": "jp-notice-1193"
+      },
+      {
+        "source": "jp-notice-1265"
+      },
+      {
+        "source": "jp-notice-1311"
+      },
+      {
+        "source": "jp-notice-1287"
+      },
+      {
+        "source": "jp-notice-1246"
+      },
+      {
+        "source": "jp-notice-1231"
+      },
+      {
+        "source": "jp-notice-1332"
+      },
+      {
+        "source": "jp-notice-1440"
+      }
+    ]
+  },
+  {
+    "id": "月食の聖痕",
+    "name": "月食の聖痕",
+    "kind": "material",
+    "refs": [
+      {
+        "source": "jp-notice-1162"
+      },
+      {
+        "source": "jp-notice-1265"
+      },
+      {
+        "source": "jp-notice-1276"
+      },
+      {
+        "source": "jp-notice-1311"
+      },
+      {
+        "source": "jp-notice-1287"
+      },
+      {
+        "source": "jp-notice-1231"
+      },
+      {
+        "source": "jp-notice-1217"
+      },
+      {
+        "source": "jp-notice-1332"
+      }
+    ]
+  },
+  {
+    "id": "月食の防御宝玉(サブウェポン)",
+    "name": "月食の防御宝玉(サブウェポン)",
+    "kind": "material",
+    "description": "月食のサブウェポン防御竜珠を次の段階に進化させるアイテム。",
+    "refs": [
+      {
+        "source": "jp-notice-1151"
+      }
+    ]
+  },
+  {
+    "id": "月食の防御宝玉(メインウェポン)",
+    "name": "月食の防御宝玉(メインウェポン)",
+    "kind": "material",
+    "description": "月食のメインウェポン防御竜珠を次の段階に進化させるアイテム。",
+    "refs": [
+      {
+        "source": "jp-notice-1151"
+      }
+    ]
+  },
+  {
+    "id": "月食の竜珠(エンシェント)+5強化ハンマー",
+    "name": "月食の竜珠(エンシェント)+5強化ハンマー",
+    "kind": "consumable",
+    "refs": [
+      {
+        "source": "jp-notice-1376"
+      },
+      {
+        "source": "jp-notice-1426"
+      },
+      {
+        "source": "jp-notice-1466"
+      }
+    ]
+  },
+  {
+    "id": "月食の竜珠レジェンド選択袋",
+    "name": "月食の竜珠レジェンド選択袋",
+    "kind": "box",
+    "refs": [
+      {
+        "source": "jp-notice-1217"
+      },
+      {
+        "source": "jp-notice-1276"
+      }
+    ]
+  },
+  {
+    "id": "月食の竜珠レジェンド選択袋(イベント)",
+    "name": "月食の竜珠レジェンド選択袋(イベント)",
+    "kind": "box",
+    "refs": [
+      {
+        "source": "jp-notice-1231"
+      },
+      {
+        "source": "jp-notice-1276"
+      }
+    ]
+  },
+  {
+    "id": "月食の竜珠強化袋",
+    "name": "月食の竜珠強化袋",
+    "kind": "box",
+    "refs": [
+      {
+        "source": "jp-notice-1276"
+      }
+    ]
+  },
+  {
+    "id": "月食の竜珠袋(DM2階層)",
+    "name": "月食の竜珠袋(DM2階層)",
+    "kind": "box",
+    "refs": [
+      {
+        "source": "jp-notice-1246"
+      }
+    ]
+  },
+  {
+    "id": "月食の竜珠袋(DM3階層)",
+    "name": "月食の竜珠袋(DM3階層)",
+    "kind": "box",
+    "refs": [
+      {
+        "source": "jp-notice-1246"
+      }
+    ]
+  },
+  {
+    "id": "月食の竜珠袋(DM4階層)",
+    "name": "月食の竜珠袋(DM4階層)",
+    "kind": "box",
+    "refs": [
+      {
+        "source": "jp-notice-1246"
+      }
+    ]
+  },
+  {
+    "id": "月食宝玉エンシェント選択袋",
+    "name": "月食宝玉エンシェント選択袋",
+    "kind": "box",
+    "refs": [
+      {
+        "source": "jp-notice-1217"
+      },
+      {
+        "source": "jp-notice-1276"
+      }
+    ]
+  },
+  {
+    "id": "堅固な信念のテラマイブローチ袋",
+    "name": "堅固な信念のテラマイブローチ袋",
+    "kind": "box",
+    "refs": [
+      {
+        "source": "jp-notice-1426"
+      },
+      {
+        "source": "jp-notice-1455"
+      }
+    ]
+  },
+  {
+    "id": "現在のペンダント(10段階)",
+    "name": "現在のペンダント(10段階)",
+    "kind": "other",
+    "series": "現在のペンダント",
+    "description": "所持していると超越の箱舟[現在]内部でのみHPと攻撃力の強化効果。シーズン3[現在]終了時に削除。鍛冶屋→アイテム生産→雑貨→貴重品→超越の箱舟[現在]で生産。(1段階)は素材に分解可能。",
+    "stats": [
+      {
+        "label": "10段階",
+        "stats": [
+          {
+            "name": "HP強化",
+            "value": "315%"
+          },
+          {
+            "name": "攻撃力強化",
+            "value": "215%"
+          }
+        ]
+      }
+    ],
+    "refs": [
+      {
+        "source": "jp-notice-1362"
+      }
+    ]
+  },
+  {
+    "id": "現在のペンダント(11段階)",
+    "name": "現在のペンダント(11段階)",
+    "kind": "other",
+    "series": "現在のペンダント",
+    "description": "所持していると超越の箱舟[現在]内部でのみHPと攻撃力の強化効果。シーズン3[現在]終了時に削除。鍛冶屋→アイテム生産→雑貨→貴重品→超越の箱舟[現在]で生産。(1段階)は素材に分解可能。",
+    "stats": [
+      {
+        "label": "11段階",
+        "stats": [
+          {
+            "name": "HP強化",
+            "value": "350%"
+          },
+          {
+            "name": "攻撃力強化",
+            "value": "240%"
+          }
+        ]
+      }
+    ],
+    "refs": [
+      {
+        "source": "jp-notice-1362"
+      }
+    ]
+  },
+  {
+    "id": "現在のペンダント(12段階)",
+    "name": "現在のペンダント(12段階)",
+    "kind": "other",
+    "series": "現在のペンダント",
+    "description": "所持していると超越の箱舟[現在]内部でのみHPと攻撃力の強化効果。シーズン3[現在]終了時に削除。鍛冶屋→アイテム生産→雑貨→貴重品→超越の箱舟[現在]で生産。(1段階)は素材に分解可能。",
+    "stats": [
+      {
+        "label": "12段階",
+        "stats": [
+          {
+            "name": "HP強化",
+            "value": "385%"
+          },
+          {
+            "name": "攻撃力強化",
+            "value": "265%"
+          }
+        ]
+      }
+    ],
+    "refs": [
+      {
+        "source": "jp-notice-1362"
+      }
+    ]
+  },
+  {
+    "id": "現在のペンダント(13段階)",
+    "name": "現在のペンダント(13段階)",
+    "kind": "other",
+    "series": "現在のペンダント",
+    "description": "所持していると超越の箱舟[現在]内部でのみHPと攻撃力の強化効果。シーズン3[現在]終了時に削除。鍛冶屋→アイテム生産→雑貨→貴重品→超越の箱舟[現在]で生産。(1段階)は素材に分解可能。",
+    "stats": [
+      {
+        "label": "13段階",
+        "stats": [
+          {
+            "name": "HP強化",
+            "value": "420%"
+          },
+          {
+            "name": "攻撃力強化",
+            "value": "290%"
+          }
+        ]
+      }
+    ],
+    "refs": [
+      {
+        "source": "jp-notice-1362"
+      }
+    ]
+  },
+  {
+    "id": "現在のペンダント(14段階)",
+    "name": "現在のペンダント(14段階)",
+    "kind": "other",
+    "series": "現在のペンダント",
+    "description": "所持していると超越の箱舟[現在]内部でのみHPと攻撃力の強化効果。シーズン3[現在]終了時に削除。鍛冶屋→アイテム生産→雑貨→貴重品→超越の箱舟[現在]で生産。(1段階)は素材に分解可能。",
+    "stats": [
+      {
+        "label": "14段階",
+        "stats": [
+          {
+            "name": "HP強化",
+            "value": "460%"
+          },
+          {
+            "name": "攻撃力強化",
+            "value": "320%"
+          }
+        ]
+      }
+    ],
+    "refs": [
+      {
+        "source": "jp-notice-1362"
+      }
+    ]
+  },
+  {
+    "id": "現在のペンダント(15段階)",
+    "name": "現在のペンダント(15段階)",
+    "kind": "other",
+    "series": "現在のペンダント",
+    "description": "所持していると超越の箱舟[現在]内部でのみHPと攻撃力の強化効果。シーズン3[現在]終了時に削除。鍛冶屋→アイテム生産→雑貨→貴重品→超越の箱舟[現在]で生産。(1段階)は素材に分解可能。",
+    "stats": [
+      {
+        "label": "15段階",
+        "stats": [
+          {
+            "name": "HP強化",
+            "value": "500%"
+          },
+          {
+            "name": "攻撃力強化",
+            "value": "350%"
+          }
+        ]
+      }
+    ],
+    "refs": [
+      {
+        "source": "jp-notice-1362"
+      }
+    ]
+  },
+  {
+    "id": "現在のペンダント(1段階)",
+    "name": "現在のペンダント(1段階)",
+    "kind": "other",
+    "series": "現在のペンダント",
+    "description": "所持していると超越の箱舟[現在]内部でのみHPと攻撃力の強化効果。シーズン3[現在]終了時に削除。鍛冶屋→アイテム生産→雑貨→貴重品→超越の箱舟[現在]で生産。(1段階)は素材に分解可能。",
+    "stats": [
+      {
+        "label": "1段階",
+        "stats": [
+          {
+            "name": "HP強化",
+            "value": "30%"
+          },
+          {
+            "name": "攻撃力強化",
+            "value": "20%"
+          }
+        ]
+      }
+    ],
+    "refs": [
+      {
+        "source": "jp-notice-1362"
+      }
+    ]
+  },
+  {
+    "id": "現在のペンダント(2段階)",
+    "name": "現在のペンダント(2段階)",
+    "kind": "other",
+    "series": "現在のペンダント",
+    "description": "所持していると超越の箱舟[現在]内部でのみHPと攻撃力の強化効果。シーズン3[現在]終了時に削除。鍛冶屋→アイテム生産→雑貨→貴重品→超越の箱舟[現在]で生産。(1段階)は素材に分解可能。",
+    "stats": [
+      {
+        "label": "2段階",
+        "stats": [
+          {
+            "name": "HP強化",
+            "value": "60%"
+          },
+          {
+            "name": "攻撃力強化",
+            "value": "40%"
+          }
+        ]
+      }
+    ],
+    "refs": [
+      {
+        "source": "jp-notice-1362"
+      }
+    ]
+  },
+  {
+    "id": "現在のペンダント(3段階)",
+    "name": "現在のペンダント(3段階)",
+    "kind": "other",
+    "series": "現在のペンダント",
+    "description": "所持していると超越の箱舟[現在]内部でのみHPと攻撃力の強化効果。シーズン3[現在]終了時に削除。鍛冶屋→アイテム生産→雑貨→貴重品→超越の箱舟[現在]で生産。(1段階)は素材に分解可能。",
+    "stats": [
+      {
+        "label": "3段階",
+        "stats": [
+          {
+            "name": "HP強化",
+            "value": "90%"
+          },
+          {
+            "name": "攻撃力強化",
+            "value": "60%"
+          }
+        ]
+      }
+    ],
+    "refs": [
+      {
+        "source": "jp-notice-1362"
+      }
+    ]
+  },
+  {
+    "id": "現在のペンダント(4段階)",
+    "name": "現在のペンダント(4段階)",
+    "kind": "other",
+    "series": "現在のペンダント",
+    "description": "所持していると超越の箱舟[現在]内部でのみHPと攻撃力の強化効果。シーズン3[現在]終了時に削除。鍛冶屋→アイテム生産→雑貨→貴重品→超越の箱舟[現在]で生産。(1段階)は素材に分解可能。",
+    "stats": [
+      {
+        "label": "4段階",
+        "stats": [
+          {
+            "name": "HP強化",
+            "value": "120%"
+          },
+          {
+            "name": "攻撃力強化",
+            "value": "80%"
+          }
+        ]
+      }
+    ],
+    "refs": [
+      {
+        "source": "jp-notice-1362"
+      }
+    ]
+  },
+  {
+    "id": "現在のペンダント(5段階)",
+    "name": "現在のペンダント(5段階)",
+    "kind": "other",
+    "series": "現在のペンダント",
+    "description": "所持していると超越の箱舟[現在]内部でのみHPと攻撃力の強化効果。シーズン3[現在]終了時に削除。鍛冶屋→アイテム生産→雑貨→貴重品→超越の箱舟[現在]で生産。(1段階)は素材に分解可能。",
+    "stats": [
+      {
+        "label": "5段階",
+        "stats": [
+          {
+            "name": "HP強化",
+            "value": "150%"
+          },
+          {
+            "name": "攻撃力強化",
+            "value": "100%"
+          }
+        ]
+      }
+    ],
+    "refs": [
+      {
+        "source": "jp-notice-1362"
+      }
+    ]
+  },
+  {
+    "id": "現在のペンダント(6段階)",
+    "name": "現在のペンダント(6段階)",
+    "kind": "other",
+    "series": "現在のペンダント",
+    "description": "所持していると超越の箱舟[現在]内部でのみHPと攻撃力の強化効果。シーズン3[現在]終了時に削除。鍛冶屋→アイテム生産→雑貨→貴重品→超越の箱舟[現在]で生産。(1段階)は素材に分解可能。",
+    "stats": [
+      {
+        "label": "6段階",
+        "stats": [
+          {
+            "name": "HP強化",
+            "value": "180%"
+          },
+          {
+            "name": "攻撃力強化",
+            "value": "120%"
+          }
+        ]
+      }
+    ],
+    "refs": [
+      {
+        "source": "jp-notice-1362"
+      }
+    ]
+  },
+  {
+    "id": "現在のペンダント(7段階)",
+    "name": "現在のペンダント(7段階)",
+    "kind": "other",
+    "series": "現在のペンダント",
+    "description": "所持していると超越の箱舟[現在]内部でのみHPと攻撃力の強化効果。シーズン3[現在]終了時に削除。鍛冶屋→アイテム生産→雑貨→貴重品→超越の箱舟[現在]で生産。(1段階)は素材に分解可能。",
+    "stats": [
+      {
+        "label": "7段階",
+        "stats": [
+          {
+            "name": "HP強化",
+            "value": "210%"
+          },
+          {
+            "name": "攻撃力強化",
+            "value": "140%"
+          }
+        ]
+      }
+    ],
+    "refs": [
+      {
+        "source": "jp-notice-1362"
+      }
+    ]
+  },
+  {
+    "id": "現在のペンダント(8段階)",
+    "name": "現在のペンダント(8段階)",
+    "kind": "other",
+    "series": "現在のペンダント",
+    "description": "所持していると超越の箱舟[現在]内部でのみHPと攻撃力の強化効果。シーズン3[現在]終了時に削除。鍛冶屋→アイテム生産→雑貨→貴重品→超越の箱舟[現在]で生産。(1段階)は素材に分解可能。",
+    "stats": [
+      {
+        "label": "8段階",
+        "stats": [
+          {
+            "name": "HP強化",
+            "value": "245%"
+          },
+          {
+            "name": "攻撃力強化",
+            "value": "165%"
+          }
+        ]
+      }
+    ],
+    "refs": [
+      {
+        "source": "jp-notice-1362"
+      }
+    ]
+  },
+  {
+    "id": "現在のペンダント(9段階)",
+    "name": "現在のペンダント(9段階)",
+    "kind": "other",
+    "series": "現在のペンダント",
+    "description": "所持していると超越の箱舟[現在]内部でのみHPと攻撃力の強化効果。シーズン3[現在]終了時に削除。鍛冶屋→アイテム生産→雑貨→貴重品→超越の箱舟[現在]で生産。(1段階)は素材に分解可能。",
+    "stats": [
+      {
+        "label": "9段階",
+        "stats": [
+          {
+            "name": "HP強化",
+            "value": "280%"
+          },
+          {
+            "name": "攻撃力強化",
+            "value": "190%"
+          }
+        ]
+      }
+    ],
+    "refs": [
+      {
+        "source": "jp-notice-1362"
+      }
+    ]
+  },
+  {
+    "id": "古い遺跡の案内文",
+    "name": "古い遺跡の案内文",
+    "kind": "material",
+    "description": "王城廃墟EXネスト入場券。jp-notice-1398 では「古の遺跡の案内文」表記。2026年4月アップデートで有効期間1日→7日",
+    "obtain": [
+      "ジェレイントの部屋のNPCから購入"
+    ],
+    "refs": [
+      {
+        "source": "jp-notice-1387"
+      },
+      {
+        "source": "jp-notice-1398"
+      }
+    ]
+  },
+  {
+    "id": "古代の遺跡の破片凝縮器",
+    "name": "古代の遺跡の破片凝縮器",
+    "kind": "other",
+    "tradable": "取引可",
+    "obtain": [
+      "古代の遺跡の破片凝縮器袋を開封"
+    ],
+    "refs": [
+      {
+        "source": "jp-notice-1387"
+      }
+    ]
+  },
+  {
+    "id": "古代の遺跡の破片凝縮器袋",
+    "name": "古代の遺跡の破片凝縮器袋",
+    "kind": "box",
+    "description": "開封時に古代の遺跡の破片凝縮器を獲得。報酬表では「古代遺跡の破片凝縮器袋」表記",
+    "refs": [
+      {
+        "source": "jp-notice-1387"
+      }
+    ]
+  },
+  {
+    "id": "古代の叡智",
+    "name": "古代の叡智",
+    "kind": "material",
+    "refs": [
+      {
+        "source": "jp-notice-1276"
+      },
+      {
+        "source": "jp-notice-1311"
+      },
+      {
+        "source": "jp-notice-1217"
+      },
+      {
+        "source": "jp-notice-1332"
+      },
+      {
+        "source": "jp-notice-1411"
+      },
+      {
+        "source": "jp-notice-1440"
+      },
+      {
+        "source": "jp-notice-1455"
+      }
+    ]
+  },
+  {
+    "id": "古代の壊れた竜珠の破片",
+    "name": "古代の壊れた竜珠の破片",
+    "kind": "material",
+    "refs": [
+      {
+        "source": "jp-notice-1162"
+      },
+      {
+        "source": "jp-notice-1265"
+      },
+      {
+        "source": "jp-notice-1311"
+      },
+      {
+        "source": "jp-notice-1231"
+      },
+      {
+        "source": "jp-notice-1362"
+      },
+      {
+        "source": "jp-notice-1411"
+      },
+      {
+        "source": "jp-notice-1466"
+      }
+    ]
+  },
+  {
+    "id": "古代の形状(防具)",
+    "name": "古代の形状(防具)",
+    "kind": "material",
+    "description": "[Ⅰ]+20古代防具進化石",
+    "refs": [
+      {
+        "source": "jp-notice-1287"
+      }
+    ]
+  },
+  {
+    "id": "古代の竜珠の破片",
+    "name": "古代の竜珠の破片",
+    "kind": "material",
+    "refs": [
+      {
+        "source": "jp-notice-1162"
+      },
+      {
+        "source": "jp-notice-1265"
+      },
+      {
+        "source": "jp-notice-1276"
+      },
+      {
+        "source": "jp-notice-1311"
+      },
+      {
+        "source": "jp-notice-1362"
+      },
+      {
+        "source": "jp-notice-1411"
+      },
+      {
+        "source": "jp-notice-1466"
+      }
+    ]
+  },
+  {
+    "id": "古代遺跡のプレート",
+    "name": "古代遺跡のプレート",
+    "kind": "material",
+    "tradable": "クリア報酬は帰属 / 古代遺跡のプレート袋から獲得したものは取引可",
+    "description": "王城の紋章を確率で同じ部位の煌めく王城の紋章へ進化させるプレート",
+    "refs": [
+      {
+        "source": "jp-notice-1387"
+      }
+    ]
+  },
+  {
+    "id": "古代遺跡のプレート袋",
+    "name": "古代遺跡のプレート袋",
+    "kind": "box",
+    "description": "開封時に古代遺跡のプレート(取引可)を獲得",
+    "refs": [
+      {
+        "source": "jp-notice-1387"
+      }
+    ]
+  },
+  {
+    "id": "古代人の記憶",
+    "name": "古代人の記憶",
+    "kind": "material",
+    "refs": [
+      {
+        "source": "jp-notice-1151"
+      },
+      {
+        "source": "jp-notice-1246"
+      }
+    ]
+  },
+  {
+    "id": "古代人の呪術の花びら",
+    "name": "古代人の呪術の花びら",
+    "kind": "other",
+    "refs": [
+      {
+        "source": "jp-notice-1265"
+      },
+      {
+        "source": "jp-notice-1311"
+      },
+      {
+        "source": "jp-notice-1362"
+      },
+      {
+        "source": "jp-notice-1411"
+      }
+    ],
+    "description": "インベントリに保有していると、パーティメンバーに「攻撃力5%、属性攻撃力5%」強化を付与(ステージ、4人ネスト、8人ネストで適用)。期間限定：120日。"
+  },
+  {
+    "id": "古代人の図面",
+    "name": "古代人の図面",
+    "kind": "material",
+    "tradable": "取引可",
+    "description": "古代人の図面の断片10個と500ゴールドで購入。",
+    "refs": [
+      {
+        "source": "jp-notice-1139"
+      },
+      {
+        "source": "jp-notice-1265"
+      },
+      {
+        "source": "jp-notice-1311"
+      },
+      {
+        "source": "jp-notice-1376"
+      },
+      {
+        "source": "jp-notice-1440"
+      },
+      {
+        "source": "jp-notice-1426"
+      },
+      {
+        "source": "jp-notice-1466"
+      }
+    ]
+  },
+  {
+    "id": "古代人の図面の断片",
+    "name": "古代人の図面の断片",
+    "kind": "material",
+    "tradable": "取引可",
+    "description": "古代人の女神紋章・古代人の図面の購入材料。別表記: 古代人の図面の欠片(お知らせ1193)。",
+    "refs": [
+      {
+        "source": "jp-notice-1139"
+      },
+      {
+        "source": "jp-notice-1265"
+      },
+      {
+        "source": "jp-notice-1276"
+      },
+      {
+        "source": "jp-notice-1311"
+      },
+      {
+        "source": "jp-notice-1287"
+      },
+      {
+        "source": "jp-notice-1231"
+      },
+      {
+        "source": "jp-notice-1217"
+      },
+      {
+        "source": "jp-notice-1362"
+      },
+      {
+        "source": "jp-notice-1411"
+      },
+      {
+        "source": "jp-notice-1466"
+      },
+      {
+        "source": "jp-notice-1455"
+      }
+    ]
+  },
+  {
+    "id": "古代人の礎",
+    "name": "古代人の礎",
+    "kind": "material",
+    "grade": "エピック",
+    "tradable": "取引不可",
+    "description": "獲得: サンドヒル防波堤 リバーワート船着場 ネスト 週間依頼 ワールドデイリーミッション / 用途: 金糸装備生産及び強化 / アカウント倉庫×",
+    "refs": [
+      {
+        "source": "jp-notice-1287"
+      },
+      {
+        "source": "jp-notice-1311"
+      },
+      {
+        "source": "jp-notice-1362"
+      },
+      {
+        "source": "jp-notice-1376"
+      },
+      {
+        "source": "jp-notice-1387"
+      },
+      {
+        "source": "jp-notice-1440"
+      },
+      {
+        "source": "jp-notice-1426"
+      },
+      {
+        "source": "jp-notice-1466"
+      },
+      {
+        "source": "jp-notice-1455"
+      }
+    ]
+  },
+  {
+    "id": "古代人の断片選択袋",
+    "name": "古代人の断片選択袋",
+    "kind": "box",
+    "refs": [
+      {
+        "source": "jp-notice-1217"
+      },
+      {
+        "source": "jp-notice-1276"
+      }
+    ]
+  },
+  {
+    "id": "古代人の知識",
+    "name": "古代人の知識",
+    "kind": "material",
+    "refs": [
+      {
+        "source": "jp-notice-1265"
+      },
+      {
+        "source": "jp-notice-1276"
+      },
+      {
+        "source": "jp-notice-1311"
+      },
+      {
+        "source": "jp-notice-1231"
+      },
+      {
+        "source": "jp-notice-1217"
+      },
+      {
+        "source": "jp-notice-1362"
+      },
+      {
+        "source": "jp-notice-1411"
+      },
+      {
+        "source": "jp-notice-1466"
+      }
+    ]
+  },
+  {
+    "id": "古代人の宝物材料袋",
+    "name": "古代人の宝物材料袋",
+    "kind": "box",
+    "refs": [
+      {
+        "source": "jp-notice-1276"
+      }
+    ],
+    "description": "古代人装備関連の材料袋。中身は原文になし"
+  },
+  {
+    "id": "古代人の防具[Ⅰ]強化ハンマー(+0～+5)",
+    "name": "古代人の防具[Ⅰ]強化ハンマー(+0～+5)",
+    "kind": "consumable",
+    "refs": [
+      {
+        "source": "jp-notice-1231"
+      }
+    ]
+  },
+  {
+    "id": "古代人の防具[Ⅰ]強化ハンマー(+11～+15)",
+    "name": "古代人の防具[Ⅰ]強化ハンマー(+11～+15)",
+    "kind": "consumable",
+    "refs": [
+      {
+        "source": "jp-notice-1231"
+      }
+    ]
+  },
+  {
+    "id": "古代人の防具[Ⅰ]強化ハンマー(+16～+20)",
+    "name": "古代人の防具[Ⅰ]強化ハンマー(+16～+20)",
+    "kind": "consumable",
+    "refs": [
+      {
+        "source": "jp-notice-1231"
+      }
+    ]
+  },
+  {
+    "id": "古代人の防具[Ⅰ]強化ハンマー(+6～+10)",
+    "name": "古代人の防具[Ⅰ]強化ハンマー(+6～+10)",
+    "kind": "consumable",
+    "refs": [
+      {
+        "source": "jp-notice-1231"
+      }
+    ]
+  },
+  {
+    "id": "古代人の紋様",
+    "name": "古代人の紋様",
+    "kind": "material",
+    "refs": [
+      {
+        "source": "jp-notice-1265"
+      },
+      {
+        "source": "jp-notice-1276"
+      },
+      {
+        "source": "jp-notice-1311"
+      },
+      {
+        "source": "jp-notice-1231"
+      },
+      {
+        "source": "jp-notice-1217"
+      },
+      {
+        "source": "jp-notice-1362"
+      },
+      {
+        "source": "jp-notice-1411"
+      },
+      {
+        "source": "jp-notice-1466"
+      }
+    ]
+  },
+  {
+    "id": "古代人の力",
+    "name": "古代人の力",
+    "kind": "material",
+    "refs": [
+      {
+        "source": "jp-notice-1193"
+      },
+      {
+        "source": "jp-notice-1217"
+      },
+      {
+        "source": "jp-notice-1265"
+      }
+    ],
+    "description": "古代人の力の結晶を材料に生産([鍛冶屋]→[鍛冶屋取引]→[アイテム生産]→[古代人の防具])。月間女神様購読券保有で箱舟墜落地点LB20以上のステージ2種クリア時に低確率"
+  },
+  {
+    "id": "古代人の力の結晶",
+    "name": "古代人の力の結晶",
+    "kind": "material",
+    "refs": [
+      {
+        "source": "jp-notice-1287"
+      },
+      {
+        "source": "jp-notice-1217"
+      },
+      {
+        "source": "jp-notice-1455"
+      }
+    ]
+  },
+  {
+    "id": "古代人の力の結晶箱",
+    "name": "古代人の力の結晶箱",
+    "kind": "box",
+    "refs": [
+      {
+        "source": "jp-notice-1398"
+      }
+    ]
+  },
+  {
+    "id": "古代人防具[Ⅰ]セット",
+    "name": "古代人防具[Ⅰ]セット",
+    "kind": "box",
+    "refs": [
+      {
+        "source": "jp-notice-1276"
+      }
+    ],
+    "description": "中身は原文になし(古代人防具[Ⅰ]一式と推定)"
+  },
+  {
+    "id": "古竜の気が宿ったランプ",
+    "name": "古竜の気が宿ったランプ",
+    "kind": "material",
+    "refs": [
+      {
+        "source": "jp-notice-1311",
+        "note": "2025年9月アップデートで商店売却価格を15,000ゴールドに変更"
+      },
+      {
+        "source": "jp-notice-1287"
+      }
+    ],
+    "description": "箱舟の力で古竜防具/増幅された古竜の防具のロックオプション再付与材料"
+  },
+  {
+    "id": "古竜の気が宿ったランプ(取引不可)",
+    "name": "古竜の気が宿ったランプ(取引不可)",
+    "kind": "material",
+    "refs": [
+      {
+        "source": "jp-notice-1311"
+      }
+    ]
+  },
+  {
+    "id": "古竜の骨片",
+    "name": "古竜の骨片",
+    "kind": "material",
+    "description": "古代人[Ⅱ]および古竜装備の強化材料",
+    "refs": [
+      {
+        "source": "jp-notice-1151"
+      },
+      {
+        "source": "jp-notice-1246"
+      },
+      {
+        "source": "jp-notice-1231"
+      }
+    ]
+  },
+  {
+    "id": "古竜の骨片袋",
+    "name": "古竜の骨片袋",
+    "kind": "box",
+    "refs": [
+      {
+        "source": "jp-notice-1151"
+      },
+      {
+        "source": "jp-notice-1246"
+      }
+    ],
+    "description": "古竜の骨片18個(ライト)/24個(ノーマル)入り"
+  },
+  {
+    "id": "古竜の燃える心臓",
+    "name": "古竜の燃える心臓",
+    "kind": "material",
+    "tradable": "ドロップ品は取引可、鍛冶屋生産品は取引不可",
+    "description": "古竜装備を[増幅]古竜装備に進化(既存オプション維持+追加オプション付与、強化段階・ランダムオプション維持)",
+    "stats": [
+      {
+        "label": "追加オプション(防具)",
+        "stats": [
+          {
+            "name": "攻撃力%",
+            "value": "10%"
+          },
+          {
+            "name": "属性攻撃%",
+            "value": "3.00%"
+          },
+          {
+            "name": "物理防御",
+            "value": "30,000"
+          },
+          {
+            "name": "魔法防御",
+            "value": "30,000"
+          },
+          {
+            "name": "最大HP",
+            "value": "500,000"
+          }
+        ]
+      },
+      {
+        "label": "追加オプション(武器)",
+        "stats": [
+          {
+            "name": "攻撃力%",
+            "value": "0%"
+          },
+          {
+            "name": "属性攻撃%",
+            "value": "10%"
+          },
+          {
+            "name": "CT",
+            "value": "200,000"
+          },
+          {
+            "name": "CTD",
+            "value": "900,000"
+          }
+        ]
+      }
+    ],
+    "refs": [
+      {
+        "source": "jp-notice-1231"
+      }
+    ]
+  },
+  {
+    "id": "古竜の力が宿った武器強化ハンマー (+5～+11)(20%)",
+    "name": "古竜の力が宿った武器強化ハンマー (+5～+11)(20%)",
+    "kind": "consumable",
+    "refs": [
+      {
+        "source": "jp-notice-1426"
+      }
+    ]
+  },
+  {
+    "id": "古竜の力が宿った武器強化ハンマー(+11)",
+    "name": "古竜の力が宿った武器強化ハンマー(+11)",
+    "kind": "consumable",
+    "refs": [
+      {
+        "source": "jp-notice-1426"
+      },
+      {
+        "source": "jp-notice-1466"
+      }
+    ]
+  },
+  {
+    "id": "古竜の力が宿った武器強化ハンマー(+12)",
+    "name": "古竜の力が宿った武器強化ハンマー(+12)",
+    "kind": "consumable",
+    "description": "+11の装備にのみ使用可。100%の確率で強化段階上昇。朱印の封蝋5000個で封印後取引可",
+    "refs": [
+      {
+        "source": "jp-notice-1311"
+      }
+    ]
+  },
+  {
+    "id": "古竜の力が宿った武器強化ハンマー(+13)",
+    "name": "古竜の力が宿った武器強化ハンマー(+13)",
+    "kind": "consumable",
+    "refs": [
+      {
+        "source": "jp-notice-1426"
+      },
+      {
+        "source": "jp-notice-1466"
+      }
+    ]
+  },
+  {
+    "id": "古竜の力が宿った武器強化ハンマー(+14)",
+    "name": "古竜の力が宿った武器強化ハンマー(+14)",
+    "kind": "consumable",
+    "description": "+13の装備にのみ使用可。100%の確率で強化段階上昇。朱印の封蝋5000個で封印後取引可",
+    "refs": [
+      {
+        "source": "jp-notice-1311"
+      }
+    ]
+  },
+  {
+    "id": "古竜の力が宿った防具強化ハンマー (+5～+11)(20%)",
+    "name": "古竜の力が宿った防具強化ハンマー (+5～+11)(20%)",
+    "kind": "consumable",
+    "refs": [
+      {
+        "source": "jp-notice-1426"
+      }
+    ]
+  },
+  {
+    "id": "古竜の力が宿った防具強化ハンマー (+5～+13)(20%)",
+    "name": "古竜の力が宿った防具強化ハンマー (+5～+13)(20%)",
+    "kind": "consumable",
+    "refs": [
+      {
+        "source": "jp-notice-1426"
+      }
+    ]
+  },
+  {
+    "id": "古竜の力が宿った防具強化ハンマー(+11)",
+    "name": "古竜の力が宿った防具強化ハンマー(+11)",
+    "kind": "consumable",
+    "refs": [
+      {
+        "source": "jp-notice-1426"
+      },
+      {
+        "source": "jp-notice-1466"
+      }
+    ]
+  },
+  {
+    "id": "古竜の力が宿った防具強化ハンマー(+12)",
+    "name": "古竜の力が宿った防具強化ハンマー(+12)",
+    "kind": "consumable",
+    "description": "+11の装備にのみ使用可。100%の確率で強化段階上昇。朱印の封蝋5000個で封印後取引可",
+    "refs": [
+      {
+        "source": "jp-notice-1311"
+      }
+    ]
+  },
+  {
+    "id": "古竜の力が宿った防具強化ハンマー(+13)",
+    "name": "古竜の力が宿った防具強化ハンマー(+13)",
+    "kind": "consumable",
+    "refs": [
+      {
+        "source": "jp-notice-1426"
+      },
+      {
+        "source": "jp-notice-1466"
+      }
+    ]
+  },
+  {
+    "id": "古竜の力が宿った防具強化ハンマー(+14)",
+    "name": "古竜の力が宿った防具強化ハンマー(+14)",
+    "kind": "consumable",
+    "description": "+13の装備にのみ使用可。100%の確率で強化段階上昇。朱印の封蝋5000個で封印後取引可",
+    "refs": [
+      {
+        "source": "jp-notice-1311"
+      }
+    ]
+  },
+  {
+    "id": "古竜の力が宿りし武器強化ハンマー(+12)",
+    "name": "古竜の力が宿りし武器強化ハンマー(+12)",
+    "kind": "consumable",
+    "refs": [
+      {
+        "source": "jp-notice-1440"
+      }
+    ]
+  },
+  {
+    "id": "古竜の力が宿りし武器強化ハンマー(+14)",
+    "name": "古竜の力が宿りし武器強化ハンマー(+14)",
+    "kind": "consumable",
+    "refs": [
+      {
+        "source": "jp-notice-1440"
+      }
+    ]
+  },
+  {
+    "id": "古竜の力が宿りし防具強化ハンマー(+12)",
+    "name": "古竜の力が宿りし防具強化ハンマー(+12)",
+    "kind": "consumable",
+    "refs": [
+      {
+        "source": "jp-notice-1440"
+      }
+    ]
+  },
+  {
+    "id": "古竜の力が宿りし防具強化ハンマー(+14)",
+    "name": "古竜の力が宿りし防具強化ハンマー(+14)",
+    "kind": "consumable",
+    "refs": [
+      {
+        "source": "jp-notice-1440"
+      }
+    ]
+  },
+  {
+    "id": "紅月の核(ランダム)",
+    "name": "紅月の核(ランダム)",
+    "kind": "material",
+    "refs": [
+      {
+        "source": "jp-notice-1300"
+      }
+    ]
+  },
+  {
+    "id": "紅蓮の竜脳香",
+    "name": "紅蓮の竜脳香",
+    "kind": "material",
+    "refs": [
+      {
+        "source": "jp-notice-1440"
+      }
+    ]
+  },
+  {
+    "id": "高純度の異界の核",
+    "name": "高純度の異界の核",
+    "kind": "material",
+    "grade": "エンシェント",
+    "tradable": "取引可",
+    "description": "獲得: 鍛冶屋 / 用途: 異界の竜珠強化 / アカウント倉庫○",
+    "refs": [
+      {
+        "source": "jp-notice-1287"
+      },
+      {
+        "source": "jp-notice-1376"
+      },
+      {
+        "source": "jp-notice-1426"
+      },
+      {
+        "source": "jp-notice-1466"
+      }
+    ]
+  },
+  {
+    "id": "高純度の核選択袋",
+    "name": "高純度の核選択袋",
+    "kind": "box",
+    "description": "別表記: 高純度の核 選択袋",
+    "refs": [
+      {
+        "source": "jp-notice-1411"
+      },
+      {
+        "source": "jp-notice-1466"
+      }
+    ]
+  },
+  {
+    "id": "高純度の紅月の核",
+    "name": "高純度の紅月の核",
+    "kind": "material",
+    "refs": [
+      {
+        "source": "jp-notice-1376"
+      }
+    ]
+  },
+  {
+    "id": "高純度の次元の核",
+    "name": "高純度の次元の核",
+    "kind": "material",
+    "tradable": "取引可",
+    "description": "次元の竜珠を+11～+15まで強化する材料。鍛冶屋生産または次元の竜珠分解時に低確率。",
+    "refs": [
+      {
+        "source": "jp-notice-1193"
+      },
+      {
+        "source": "jp-notice-1265"
+      },
+      {
+        "source": "jp-notice-1376"
+      },
+      {
+        "source": "jp-notice-1426"
+      },
+      {
+        "source": "jp-notice-1466"
+      }
+    ]
+  },
+  {
+    "id": "高純度の新緑の核",
+    "name": "高純度の新緑の核",
+    "kind": "material",
+    "refs": [
+      {
+        "source": "jp-notice-1376"
+      }
+    ]
+  },
+  {
+    "id": "高純度の幽幻/紅月/新緑の核選択袋",
+    "name": "高純度の幽幻/紅月/新緑の核選択袋",
+    "kind": "box",
+    "refs": [
+      {
+        "source": "jp-notice-1276"
+      },
+      {
+        "source": "jp-notice-1300"
+      }
+    ]
+  },
+  {
+    "id": "高純度の幽幻の核",
+    "name": "高純度の幽幻の核",
+    "kind": "material",
+    "refs": [
+      {
+        "source": "jp-notice-1376"
+      }
+    ]
+  },
+  {
+    "id": "黒々茸",
+    "name": "黒々茸",
+    "kind": "material",
+    "refs": [
+      {
+        "source": "jp-notice-1440"
+      }
+    ]
+  },
+  {
+    "id": "黒き軍団の封印された呪文書",
+    "name": "黒き軍団の封印された呪文書",
+    "kind": "other",
+    "refs": [
+      {
+        "source": "jp-notice-1265"
+      }
+    ]
+  },
+  {
+    "id": "獄蓮の通門牌",
+    "name": "獄蓮の通門牌",
+    "kind": "consumable",
+    "description": "ヘイズガストドラゴンネスト(ハード)入場券",
+    "refs": [
+      {
+        "source": "jp-notice-1300"
+      }
+    ]
+  },
+  {
+    "id": "混沌の中の秩序の鍵",
+    "name": "混沌の中の秩序の鍵",
+    "kind": "consumable",
+    "description": "ナイトメアデュアルネスト：覚醒の追加報酬箱を開封。次元商店表では「混沌の中の理の鍵」表記",
+    "refs": [
+      {
+        "source": "jp-notice-1311"
+      }
+    ]
+  },
+  {
+    "id": "混沌の理の鍵",
+    "name": "混沌の理の鍵",
+    "kind": "consumable",
+    "refs": [
+      {
+        "source": "jp-notice-1347"
+      },
+      {
+        "source": "jp-notice-1440"
+      }
+    ]
+  },
+  {
+    "id": "魂が宿った宝石",
+    "name": "魂が宿った宝石",
+    "kind": "box",
+    "tradable": "取引・サーバー倉庫移動不可",
+    "description": "アイオナの道で変換して得る宝石。アイオナアクセサリーが入った箱、称号、冷気が宿ったハンマー等を含み、構成は元アクセサリーのタイプ・強化値・段階で変化。",
+    "refs": [
+      {
+        "source": "jp-notice-1139"
+      }
+    ]
+  },
+  {
+    "id": "魂のかけら",
+    "name": "魂のかけら",
+    "kind": "material",
+    "tradable": "取引不可",
+    "description": "[封]次元の竜珠の生産材料。リピウスのLUCKY ZONE(ラビリンス20階層以上)クリアで確定、次元管理者SC-12討伐で一定確率。",
+    "refs": [
+      {
+        "source": "jp-notice-1193"
+      },
+      {
+        "source": "jp-notice-1311"
+      },
+      {
+        "source": "jp-notice-1300"
+      },
+      {
+        "source": "jp-notice-1287"
+      },
+      {
+        "source": "jp-notice-1217"
+      },
+      {
+        "source": "jp-notice-1362"
+      },
+      {
+        "source": "jp-notice-1440"
+      },
+      {
+        "source": "jp-notice-1455"
+      }
+    ]
+  },
+  {
+    "id": "砂の息吹のつぼみ",
+    "name": "砂の息吹のつぼみ",
+    "kind": "material",
+    "refs": [
+      {
+        "source": "jp-notice-1362"
+      },
+      {
+        "source": "jp-notice-1440"
+      }
+    ]
+  },
+  {
+    "id": "砂の息吹の種",
+    "name": "砂の息吹の種",
+    "kind": "material",
+    "grade": "レア",
+    "tradable": "取引不可",
+    "description": "獲得: サンドヒル防波堤 リバーワート船着場 / 用途: 次元商店 / アカウント倉庫×",
+    "refs": [
+      {
+        "source": "jp-notice-1287"
+      },
+      {
+        "source": "jp-notice-1311"
+      },
+      {
+        "source": "jp-notice-1362"
+      },
+      {
+        "source": "jp-notice-1440"
+      }
+    ]
+  },
+  {
+    "id": "最上級冒険の箱(アイテム保護魔法ゼリー)",
+    "name": "最上級冒険の箱(アイテム保護魔法ゼリー)",
+    "kind": "box",
+    "refs": [
+      {
+        "source": "jp-notice-1311"
+      }
+    ]
+  },
+  {
+    "id": "最上級冒険の箱(アレンデル-1)",
+    "name": "最上級冒険の箱(アレンデル-1)",
+    "kind": "box",
+    "description": "構成は最上級冒険の箱(箱舟墜落地点)と同じ",
+    "refs": [
+      {
+        "source": "jp-notice-1311"
+      }
+    ]
+  },
+  {
+    "id": "最上級冒険の箱(アレンデル-2)",
+    "name": "最上級冒険の箱(アレンデル-2)",
+    "kind": "box",
+    "description": "構成は最上級冒険の箱(箱舟墜落地点)と同じ",
+    "refs": [
+      {
+        "source": "jp-notice-1311"
+      }
+    ]
+  },
+  {
+    "id": "最上級冒険の箱(カルシラ)",
+    "name": "最上級冒険の箱(カルシラ)",
+    "kind": "box",
+    "description": "構成は最上級冒険の箱(箱舟墜落地点)と同じ",
+    "refs": [
+      {
+        "source": "jp-notice-1311"
+      }
+    ]
+  },
+  {
+    "id": "最上級冒険の箱(箱舟の力)",
+    "name": "最上級冒険の箱(箱舟の力)",
+    "kind": "box",
+    "refs": [
+      {
+        "source": "jp-notice-1311"
+      }
+    ]
+  },
+  {
+    "id": "最上級冒険の箱(箱舟墜落地点)",
+    "name": "最上級冒険の箱(箱舟墜落地点)",
+    "kind": "box",
+    "refs": [
+      {
+        "source": "jp-notice-1311"
+      }
+    ]
+  },
+  {
+    "id": "最上級冒険の箱(冥闇の星片)",
+    "name": "最上級冒険の箱(冥闇の星片)",
+    "kind": "box",
+    "description": "構成品は原文に記載なし",
+    "refs": [
+      {
+        "source": "jp-notice-1311"
+      },
+      {
+        "source": "jp-notice-1231"
+      }
+    ]
+  },
+  {
+    "id": "最上級冒険の箱(竜珠、能力強化紋章)",
+    "name": "最上級冒険の箱(竜珠、能力強化紋章)",
+    "kind": "box",
+    "refs": [
+      {
+        "source": "jp-notice-1231"
+      }
+    ]
+  },
+  {
+    "id": "咲き誇る竜鱗",
+    "name": "咲き誇る竜鱗",
+    "kind": "material",
+    "refs": [
+      {
+        "source": "jp-notice-1231"
+      },
+      {
+        "source": "jp-notice-1287"
+      }
+    ]
+  },
+  {
+    "id": "残影の記録",
+    "name": "残影の記録",
+    "kind": "material",
+    "refs": [
+      {
+        "source": "jp-notice-1455"
+      }
+    ]
+  },
+  {
+    "id": "使い捨て転送機",
+    "name": "使い捨て転送機",
+    "kind": "consumable",
+    "description": "ヘイズボーンドラゴンネスト入場券。購入後1日の使用期限。",
+    "refs": [
+      {
+        "source": "jp-notice-1151"
+      }
+    ]
+  },
+  {
+    "id": "屍苔",
+    "name": "屍苔",
+    "kind": "material",
+    "refs": [
+      {
+        "source": "jp-notice-1440"
+      }
+    ]
+  },
+  {
+    "id": "思い出の時間が留まる箱",
+    "name": "思い出の時間が留まる箱",
+    "kind": "box",
+    "refs": [
+      {
+        "source": "jp-notice-1426"
+      }
+    ]
+  },
+  {
+    "id": "死血花の心臓",
+    "name": "死血花の心臓",
+    "kind": "material",
+    "obtain": [
+      "桃郷苑ステージ"
+    ],
+    "refs": [
+      {
+        "source": "jp-notice-1440"
+      }
+    ]
+  },
+  {
+    "id": "時の砂",
+    "name": "時の砂",
+    "kind": "material",
+    "description": "古竜装備オプション再設定材料。古竜装備→[増幅]古竜装備 増幅器生産の核心アイテム",
+    "refs": [
+      {
+        "source": "jp-notice-1246"
+      },
+      {
+        "source": "jp-notice-1287"
+      },
+      {
+        "source": "jp-notice-1231"
+      }
+    ]
+  },
+  {
+    "id": "時間の砂",
+    "name": "時間の砂",
+    "kind": "material",
+    "description": "古竜装備のランダムオプション再付与に使用。ヘイズボーンドラゴンネストで獲得。",
+    "refs": [
+      {
+        "source": "jp-notice-1151"
+      }
+    ]
+  },
+  {
+    "id": "時間旅行時計",
+    "name": "時間旅行時計",
+    "kind": "consumable",
+    "refs": [
+      {
+        "source": "jp-notice-1332"
+      }
+    ]
+  },
+  {
+    "id": "次元スムージー",
+    "name": "次元スムージー",
+    "kind": "consumable",
+    "refs": [
+      {
+        "source": "jp-notice-1287"
+      },
+      {
+        "source": "jp-notice-1347"
+      }
+    ]
+  },
+  {
+    "id": "次元のダイス",
+    "name": "次元のダイス",
+    "kind": "material",
+    "grade": "ユニーク",
+    "tradable": "取引不可",
+    "description": "獲得: 次元商店 週間依頼 / 用途: 崩壊した次元の狭間入場券 / アカウント倉庫×",
+    "refs": [
+      {
+        "source": "jp-notice-1287"
+      },
+      {
+        "source": "jp-notice-1311"
+      },
+      {
+        "source": "jp-notice-1347"
+      },
+      {
+        "source": "jp-notice-1440"
+      }
+    ]
+  },
+  {
+    "id": "次元の核",
+    "name": "次元の核",
+    "kind": "material",
+    "tradable": "取引可",
+    "description": "次元の竜珠を+1～+10まで強化する材料。次元の竜珠の分解で獲得。",
+    "refs": [
+      {
+        "source": "jp-notice-1193"
+      }
+    ]
+  },
+  {
+    "id": "次元の核クラス選択袋",
+    "name": "次元の核クラス選択袋",
+    "kind": "box",
+    "refs": [
+      {
+        "source": "jp-notice-1300"
+      }
+    ]
+  },
+  {
+    "id": "次元の気",
+    "name": "次元の気",
+    "kind": "material",
+    "refs": [
+      {
+        "source": "jp-notice-1387"
+      }
+    ]
+  },
+  {
+    "id": "次元の砂",
+    "name": "次元の砂",
+    "kind": "material",
+    "grade": "エンシェント",
+    "tradable": "取引可",
+    "description": "金糸装備のランダムオプションを再付与するアイテム",
+    "refs": [
+      {
+        "source": "jp-notice-1287"
+      },
+      {
+        "source": "jp-notice-1387"
+      }
+    ],
+    "obtain": [
+      "鍛冶屋生産"
+    ]
+  },
+  {
+    "id": "次元の砂(取引不可)",
+    "name": "次元の砂(取引不可)",
+    "kind": "material",
+    "refs": [
+      {
+        "source": "jp-notice-1311"
+      },
+      {
+        "source": "jp-notice-1287"
+      },
+      {
+        "source": "jp-notice-1347"
+      },
+      {
+        "source": "jp-notice-1376"
+      },
+      {
+        "source": "jp-notice-1426"
+      },
+      {
+        "source": "jp-notice-1466"
+      }
+    ]
+  },
+  {
+    "id": "次元の残痕",
+    "name": "次元の残痕",
+    "kind": "material",
+    "grade": "エピック",
+    "tradable": "取引可",
+    "description": "獲得: サンドヒル防波堤 リバーワート船着場 ネスト 週間依頼 次元商店 ワールドデイリーミッション / 用途: 金糸装備生産及び強化 / アカウント倉庫○",
+    "refs": [
+      {
+        "source": "jp-notice-1287"
+      },
+      {
+        "source": "jp-notice-1311"
+      },
+      {
+        "source": "jp-notice-1347"
+      },
+      {
+        "source": "jp-notice-1387"
+      },
+      {
+        "source": "jp-notice-1440"
+      },
+      {
+        "source": "jp-notice-1455"
+      }
+    ]
+  },
+  {
+    "id": "次元の地図の欠片",
+    "name": "次元の地図の欠片",
+    "kind": "material",
+    "refs": [
+      {
+        "source": "jp-notice-1265"
+      },
+      {
+        "source": "jp-notice-1276"
+      },
+      {
+        "source": "jp-notice-1311"
+      },
+      {
+        "source": "jp-notice-1217"
+      },
+      {
+        "source": "jp-notice-1440"
+      }
+    ]
+  },
+  {
+    "id": "次元の崩壊称号",
+    "name": "次元の崩壊称号",
+    "kind": "material",
+    "refs": [
+      {
+        "source": "jp-notice-1311"
+      }
+    ]
+  },
+  {
+    "id": "次元の竜珠(完成品)",
+    "name": "次元の竜珠(完成品)",
+    "kind": "material",
+    "refs": [
+      {
+        "source": "jp-notice-1217"
+      }
+    ]
+  },
+  {
+    "id": "次元の竜珠+10選択袋",
+    "name": "次元の竜珠+10選択袋",
+    "kind": "box",
+    "refs": [
+      {
+        "source": "jp-notice-1376"
+      },
+      {
+        "source": "jp-notice-1426"
+      },
+      {
+        "source": "jp-notice-1466"
+      }
+    ],
+    "description": "別表記: 次元の竜珠 +10選択袋"
+  },
+  {
+    "id": "次元の竜珠袋",
+    "name": "次元の竜珠袋",
+    "kind": "box",
+    "refs": [
+      {
+        "source": "jp-notice-1300"
+      }
+    ]
+  },
+  {
+    "id": "次元パフェ",
+    "name": "次元パフェ",
+    "kind": "consumable",
+    "refs": [
+      {
+        "source": "jp-notice-1347"
+      },
+      {
+        "source": "jp-notice-1440"
+      }
+    ]
+  },
+  {
+    "id": "次元を宿したランプ",
+    "name": "次元を宿したランプ",
+    "kind": "material",
+    "description": "箱舟の力で金糸防具のロックオプション再付与材料",
+    "refs": [
+      {
+        "source": "jp-notice-1287"
+      }
+    ]
+  },
+  {
+    "id": "次元を秘めたベルスカードブローチ箱",
+    "name": "次元を秘めたベルスカードブローチ箱",
+    "kind": "box",
+    "refs": [
+      {
+        "source": "jp-notice-1246"
+      }
+    ]
+  },
+  {
+    "id": "次元転移ポーション",
+    "name": "次元転移ポーション",
+    "kind": "consumable",
+    "refs": [
+      {
+        "source": "jp-notice-1347"
+      },
+      {
+        "source": "jp-notice-1440"
+      }
+    ]
+  },
+  {
+    "id": "自然進化加速器",
+    "name": "自然進化加速器",
+    "kind": "material",
+    "tradable": "取引・アカウント倉庫不可",
+    "description": "+20異世界の古代武器を古竜武器に進化させる",
+    "refs": [
+      {
+        "source": "jp-notice-1246"
+      },
+      {
+        "source": "jp-notice-1347"
+      }
+    ]
+  },
+  {
+    "id": "邪根の渇望のかけら",
+    "name": "邪根の渇望のかけら",
+    "kind": "material",
+    "tradable": "取引不可",
+    "description": "[深紅に染まる邪根の洞窟]/[腐敗した邪根の洞窟]で獲得。生産・強化材料",
+    "refs": [
+      {
+        "source": "jp-notice-1311"
+      }
+    ]
+  },
+  {
+    "id": "邪根の変異型竜珠変換キューブ",
+    "name": "邪根の変異型竜珠変換キューブ",
+    "kind": "consumable",
+    "tradable": "取引不可",
+    "description": "ねじれた根20個を使用すると確率で汚染されし意志と抽出されし根菌を獲得",
+    "refs": [
+      {
+        "source": "jp-notice-1311"
+      }
+    ]
+  },
+  {
+    "id": "灼熱石",
+    "name": "灼熱石",
+    "kind": "material",
+    "refs": [
+      {
+        "source": "jp-notice-1440"
+      }
+    ]
+  },
+  {
+    "id": "守護者の加護",
+    "name": "守護者の加護",
+    "kind": "material",
+    "description": "古竜装備のスロット拡張用アイテム。鍛冶屋生産で獲得(レシピ詳細記載なし)。",
+    "refs": [
+      {
+        "source": "jp-notice-1347"
+      }
+    ]
+  },
+  {
+    "id": "守護者の気",
+    "name": "守護者の気",
+    "kind": "material",
+    "description": "古竜防具スロット拡張のためのキーアイテム",
+    "refs": [
+      {
+        "source": "jp-notice-1347"
+      },
+      {
+        "source": "jp-notice-1411"
+      }
+    ]
+  },
+  {
+    "id": "守護者の気の結晶",
+    "name": "守護者の気の結晶",
+    "kind": "material",
+    "description": "守護者の気生産用素材アイテム",
+    "refs": [
+      {
+        "source": "jp-notice-1347"
+      },
+      {
+        "source": "jp-notice-1411"
+      }
+    ]
+  },
+  {
+    "id": "手笠キノコ",
+    "name": "手笠キノコ",
+    "kind": "material",
+    "obtain": [
+      "桃郷苑ステージ"
+    ],
+    "refs": [
+      {
+        "source": "jp-notice-1440"
+      },
+      {
+        "source": "jp-notice-1466"
+      }
+    ]
+  },
+  {
+    "id": "手作りアイテム保護魔法ゼリー",
+    "name": "手作りアイテム保護魔法ゼリー",
+    "kind": "consumable",
+    "refs": [
+      {
+        "source": "jp-notice-1311"
+      }
+    ]
+  },
+  {
+    "id": "朱印の封蝋",
+    "name": "朱印の封蝋",
+    "kind": "material",
+    "description": "タリスマン封印に使用。",
+    "refs": [
+      {
+        "source": "jp-notice-1455"
+      }
+    ]
+  },
+  {
+    "id": "秋の宝石",
+    "name": "秋の宝石",
+    "kind": "material",
+    "refs": [
+      {
+        "source": "jp-notice-1193"
+      },
+      {
+        "source": "jp-notice-1265"
+      },
+      {
+        "source": "jp-notice-1287"
+      },
+      {
+        "source": "jp-notice-1455"
+      }
+    ]
+  },
+  {
+    "id": "集結報酬箱",
+    "name": "集結報酬箱",
+    "kind": "box",
+    "description": "パーティメンバーの誰かが「集結依頼」を所持した状態で集結依頼をクリアすると出現。",
+    "refs": [
+      {
+        "source": "jp-notice-1455"
+      }
+    ]
+  },
+  {
+    "id": "祝福された金色のプレート",
+    "name": "祝福された金色のプレート",
+    "kind": "material",
+    "grade": "レジェンド",
+    "series": "金色のプレート",
+    "description": "[共通]気迫/疾風/知恵/体力。100%生産成功で「祝福された金色の能力強化紋章」を生産。取引可。隠された次元の宝物庫クリア時の金箱から確率で獲得。",
+    "refs": [
+      {
+        "source": "jp-notice-1347"
+      },
+      {
+        "source": "jp-notice-1362"
+      }
+    ]
+  },
+  {
+    "id": "祝福の石",
+    "name": "祝福の石",
+    "kind": "material",
+    "refs": [
+      {
+        "source": "jp-notice-1311"
+      },
+      {
+        "source": "jp-notice-1287"
+      },
+      {
+        "source": "jp-notice-1347"
+      }
+    ]
+  },
+  {
+    "id": "春の宝石",
+    "name": "春の宝石",
+    "kind": "material",
+    "refs": [
+      {
+        "source": "jp-notice-1193"
+      }
+    ]
+  },
+  {
+    "id": "小型進化加速器",
+    "name": "小型進化加速器",
+    "kind": "material",
+    "tradable": "取引可",
+    "description": "古代人[Ⅱ]ヘルム・グローブ・ブーツを古竜防具に進化させるアイテム。鍛冶屋生産。",
+    "refs": [
+      {
+        "source": "jp-notice-1151"
+      },
+      {
+        "source": "jp-notice-1231"
+      },
+      {
+        "source": "jp-notice-1347"
+      }
+    ]
+  },
+  {
+    "id": "称号：軍団の略奪者",
+    "name": "称号：軍団の略奪者",
+    "kind": "other",
+    "description": "取引可能な称号アイテム(物理/魔法攻撃力 + 30,000)。",
+    "refs": [
+      {
+        "source": "jp-notice-1440"
+      }
+    ]
+  },
+  {
+    "id": "称号：紅岩の生存者",
+    "name": "称号：紅岩の生存者",
+    "kind": "other",
+    "description": "取引可能な称号アイテム(物理/魔法攻撃力 + 30,000)。",
+    "refs": [
+      {
+        "source": "jp-notice-1440"
+      }
+    ]
+  },
+  {
+    "id": "称号：次元の旅人袋",
+    "name": "称号：次元の旅人袋",
+    "kind": "box",
+    "refs": [
+      {
+        "source": "jp-notice-1347"
+      }
+    ]
+  },
+  {
+    "id": "称号：独武に耐えし",
+    "name": "称号：独武に耐えし",
+    "kind": "other",
+    "refs": [
+      {
+        "source": "jp-notice-1426"
+      }
+    ]
+  },
+  {
+    "id": "称号：独武を越えし者",
+    "name": "称号：独武を越えし者",
+    "kind": "other",
+    "refs": [
+      {
+        "source": "jp-notice-1426"
+      }
+    ]
+  },
+  {
+    "id": "称号：独武を打ち破りし者",
+    "name": "称号：独武を打ち破りし者",
+    "kind": "other",
+    "refs": [
+      {
+        "source": "jp-notice-1426"
+      }
+    ]
+  },
+  {
+    "id": "称号：独武を突破せし",
+    "name": "称号：独武を突破せし",
+    "kind": "other",
+    "refs": [
+      {
+        "source": "jp-notice-1426"
+      }
+    ]
+  },
+  {
+    "id": "称号：独武を凌ぎし",
+    "name": "称号：独武を凌ぎし",
+    "kind": "other",
+    "refs": [
+      {
+        "source": "jp-notice-1426"
+      }
+    ]
+  },
+  {
+    "id": "称号：氷雪の放浪者",
+    "name": "称号：氷雪の放浪者",
+    "kind": "other",
+    "description": "取引可能な称号アイテム(物理/魔法攻撃力 + 30,000)。",
+    "refs": [
+      {
+        "source": "jp-notice-1440"
+      }
+    ]
+  },
+  {
+    "id": "上級ガーネット",
+    "name": "上級ガーネット",
+    "kind": "material",
+    "refs": [
+      {
+        "source": "jp-notice-1151"
+      }
+    ]
+  },
+  {
+    "id": "上級渇望のかけら",
+    "name": "上級渇望のかけら",
+    "kind": "material",
+    "refs": [
+      {
+        "source": "jp-notice-1311"
+      },
+      {
+        "source": "jp-notice-1440"
+      }
+    ]
+  },
+  {
+    "id": "上級月食のかけら",
+    "name": "上級月食のかけら",
+    "kind": "material",
+    "refs": [
+      {
+        "source": "jp-notice-1311"
+      },
+      {
+        "source": "jp-notice-1287"
+      },
+      {
+        "source": "jp-notice-1231"
+      },
+      {
+        "source": "jp-notice-1362"
+      },
+      {
+        "source": "jp-notice-1411"
+      }
+    ],
+    "description": "原文では「月食のかけら6種」「上級月食のかけら6種」とまとめて表記(6種の総称スタブ)。"
+  },
+  {
+    "id": "上級月食のかけら(100個)袋",
+    "name": "上級月食のかけら(100個)袋",
+    "kind": "box",
+    "refs": [
+      {
+        "source": "jp-notice-1276"
+      }
+    ]
+  },
+  {
+    "id": "上級月食のかけら6種",
+    "name": "上級月食のかけら6種",
+    "kind": "material",
+    "refs": [
+      {
+        "source": "jp-notice-1265"
+      },
+      {
+        "source": "jp-notice-1311"
+      },
+      {
+        "source": "jp-notice-1466"
+      }
+    ],
+    "description": "別表記: 上級月食の かけら6種"
+  },
+  {
+    "id": "上級月食の竜珠の破片袋(DM1階層)",
+    "name": "上級月食の竜珠の破片袋(DM1階層)",
+    "kind": "box",
+    "refs": [
+      {
+        "source": "jp-notice-1246"
+      }
+    ]
+  },
+  {
+    "id": "上級堅固な月食のかけら",
+    "name": "上級堅固な月食のかけら",
+    "kind": "material",
+    "refs": [
+      {
+        "source": "jp-notice-1311"
+      },
+      {
+        "source": "jp-notice-1332"
+      },
+      {
+        "source": "jp-notice-1440"
+      }
+    ]
+  },
+  {
+    "id": "上級漆黒の月食のかけら",
+    "name": "上級漆黒の月食のかけら",
+    "kind": "material",
+    "refs": [
+      {
+        "source": "jp-notice-1311"
+      },
+      {
+        "source": "jp-notice-1332"
+      },
+      {
+        "source": "jp-notice-1440"
+      }
+    ]
+  },
+  {
+    "id": "上級純風の月食のかけら",
+    "name": "上級純風の月食のかけら",
+    "kind": "material",
+    "refs": [
+      {
+        "source": "jp-notice-1311"
+      },
+      {
+        "source": "jp-notice-1332"
+      },
+      {
+        "source": "jp-notice-1440"
+      }
+    ]
+  },
+  {
+    "id": "上級神聖な月食のかけら",
+    "name": "上級神聖な月食のかけら",
+    "kind": "material",
+    "refs": [
+      {
+        "source": "jp-notice-1311"
+      },
+      {
+        "source": "jp-notice-1332"
+      },
+      {
+        "source": "jp-notice-1440"
+      }
+    ]
+  },
+  {
+    "id": "上級清い月食のかけら",
+    "name": "上級清い月食のかけら",
+    "kind": "material",
+    "refs": [
+      {
+        "source": "jp-notice-1311"
+      },
+      {
+        "source": "jp-notice-1332"
+      },
+      {
+        "source": "jp-notice-1440"
+      }
+    ]
+  },
+  {
+    "id": "上級生命の清水",
+    "name": "上級生命の清水",
+    "kind": "material",
+    "refs": [
+      {
+        "source": "jp-notice-1151"
+      },
+      {
+        "source": "jp-notice-1311"
+      },
+      {
+        "source": "jp-notice-1231"
+      }
+    ]
+  },
+  {
+    "id": "上級燃える月食のかけら",
+    "name": "上級燃える月食のかけら",
+    "kind": "material",
+    "refs": [
+      {
+        "source": "jp-notice-1311"
+      },
+      {
+        "source": "jp-notice-1332"
+      },
+      {
+        "source": "jp-notice-1440"
+      }
+    ]
+  },
+  {
+    "id": "上級蓬莱石",
+    "name": "上級蓬莱石",
+    "kind": "material",
+    "refs": [
+      {
+        "source": "jp-notice-1300",
+        "note": "2025年8月アップデートで収集品化"
+      }
+    ]
+  },
+  {
+    "id": "色褪せたペンダント",
+    "name": "色褪せたペンダント",
+    "kind": "other",
+    "description": "ゴールドジェイドの静炎 遠隔クエスト開始アイテム(ゴールドドラゴンバフ)",
+    "refs": [
+      {
+        "source": "jp-notice-1347"
+      },
+      {
+        "source": "jp-notice-1411"
+      }
+    ]
+  },
+  {
+    "id": "色褪せた記憶",
+    "name": "色褪せた記憶",
+    "kind": "material",
+    "description": "金竜の竜珠強化素材",
+    "refs": [
+      {
+        "source": "jp-notice-1347"
+      }
+    ]
+  },
+  {
+    "id": "色褪せた追憶",
+    "name": "色褪せた追憶",
+    "kind": "material",
+    "description": "金竜の竜珠の生産及び強化素材。",
+    "refs": [
+      {
+        "source": "jp-notice-1347"
+      },
+      {
+        "source": "jp-notice-1411"
+      }
+    ]
+  },
+  {
+    "id": "信念のテラマイブローチ箱",
+    "name": "信念のテラマイブローチ箱",
+    "kind": "box",
+    "description": "アイテムモール<メイン-オススメ>/<パッケージ-ブローチ商品>で販売。ポテンゲージなし。",
+    "refs": [
+      {
+        "source": "jp-notice-1426"
+      }
+    ]
+  },
+  {
+    "id": "審判のワンド",
+    "name": "審判のワンド",
+    "kind": "material",
+    "refs": [
+      {
+        "source": "jp-notice-1426"
+      }
+    ]
+  },
+  {
+    "id": "新緑の核(ランダム)",
+    "name": "新緑の核(ランダム)",
+    "kind": "material",
+    "refs": [
+      {
+        "source": "jp-notice-1300"
+      }
+    ]
+  },
+  {
+    "id": "深淵の古代ブーツの破片",
+    "name": "深淵の古代ブーツの破片",
+    "kind": "material",
+    "refs": [
+      {
+        "source": "jp-notice-1217"
+      },
+      {
+        "source": "jp-notice-1276"
+      }
+    ]
+  },
+  {
+    "id": "真昼の太陽の輝きの宝石",
+    "name": "真昼の太陽の輝きの宝石",
+    "kind": "material",
+    "refs": [
+      {
+        "source": "jp-notice-1311"
+      },
+      {
+        "source": "jp-notice-1287"
+      },
+      {
+        "source": "jp-notice-1347"
+      },
+      {
+        "source": "jp-notice-1387"
+      }
+    ]
+  },
+  {
+    "id": "真夜中の流星の輝きの宝石",
+    "name": "真夜中の流星の輝きの宝石",
+    "kind": "material",
+    "refs": [
+      {
+        "source": "jp-notice-1287"
+      },
+      {
+        "source": "jp-notice-1387"
+      }
+    ]
+  },
+  {
+    "id": "進化する古代の形状(武器)",
+    "name": "進化する古代の形状(武器)",
+    "kind": "material",
+    "grade": "レジェンド",
+    "tradable": "取引不可",
+    "description": "+20異世界の古代武器進化石 / 獲得: 鍛冶屋 / 用途: +20異世界の古代武器進化石 / アカウント倉庫×",
+    "refs": [
+      {
+        "source": "jp-notice-1287"
+      }
+    ]
+  },
+  {
+    "id": "進化する古代の形状(防具)",
+    "name": "進化する古代の形状(防具)",
+    "kind": "material",
+    "grade": "レジェンド",
+    "tradable": "取引不可",
+    "description": "[Ⅱ]+0古代防具進化石。エネルギー抽出変換器の購入材料 / 獲得: 鍛冶屋 / 用途: 古代防具進化石 / アカウント倉庫×",
+    "refs": [
+      {
+        "source": "jp-notice-1287"
+      }
+    ]
+  },
+  {
+    "id": "進化の歯車",
+    "name": "進化の歯車",
+    "kind": "material",
+    "description": "古代人[Ⅱ]→古竜アーマー/ボトム 進化石生産の核心アイテム",
+    "refs": [
+      {
+        "source": "jp-notice-1151"
+      },
+      {
+        "source": "jp-notice-1246"
+      },
+      {
+        "source": "jp-notice-1231"
+      }
+    ]
+  },
+  {
+    "id": "進化の時計針",
+    "name": "進化の時計針",
+    "kind": "material",
+    "description": "古代人[Ⅱ]→古竜ヘルム/グローブ/ブーツ 進化石生産の核心アイテム",
+    "refs": [
+      {
+        "source": "jp-notice-1151"
+      },
+      {
+        "source": "jp-notice-1246"
+      },
+      {
+        "source": "jp-notice-1231"
+      }
+    ]
+  },
+  {
+    "id": "星雲の生成痕跡帯",
+    "name": "星雲の生成痕跡帯",
+    "kind": "material",
+    "refs": [
+      {
+        "source": "jp-notice-1387"
+      },
+      {
+        "source": "jp-notice-1398"
+      },
+      {
+        "source": "jp-notice-1440"
+      },
+      {
+        "source": "jp-notice-1455"
+      }
+    ],
+    "tradable": "取引、アカウント倉庫不可",
+    "obtain": [
+      "幽冥の異境(悪夢)"
+    ]
+  },
+  {
+    "id": "星屑の石(宝物)",
+    "name": "星屑の石(宝物)",
+    "kind": "material",
+    "refs": [
+      {
+        "source": "jp-notice-1440"
+      }
+    ]
+  },
+  {
+    "id": "正体不明のカシウスのセイヴィアの紋章",
+    "name": "正体不明のカシウスのセイヴィアの紋章",
+    "kind": "box",
+    "description": "鑑定前のセイヴィア紋章と思われる(原文の[謎]セイヴィア紋章)。",
+    "refs": [
+      {
+        "source": "jp-notice-1193"
+      }
+    ]
+  },
+  {
+    "id": "正体不明のカラエンのセイヴィア紋章",
+    "name": "正体不明のカラエンのセイヴィア紋章",
+    "kind": "box",
+    "description": "鑑定前のセイヴィア紋章と思われる(原文の[謎]セイヴィア紋章)。",
+    "refs": [
+      {
+        "source": "jp-notice-1193"
+      }
+    ]
+  },
+  {
+    "id": "生命の古代ヘルムの破片",
+    "name": "生命の古代ヘルムの破片",
+    "kind": "material",
+    "refs": [
+      {
+        "source": "jp-notice-1217"
+      },
+      {
+        "source": "jp-notice-1276"
+      }
+    ]
+  },
+  {
+    "id": "精製された遺跡の破片",
+    "name": "精製された遺跡の破片",
+    "kind": "material",
+    "description": "煌めく王城の紋章袋の購入材料、及び古代遺跡のプレートで王城の紋章を進化させる材料",
+    "obtain": [
+      "古代の遺跡の破片凝縮器(20個) / 遺跡の破片凝縮器(10個)"
+    ],
+    "refs": [
+      {
+        "source": "jp-notice-1387"
+      },
+      {
+        "source": "jp-notice-1398"
+      }
+    ]
+  },
+  {
+    "id": "精製の万年筆",
+    "name": "精製の万年筆",
+    "kind": "material",
+    "tradable": "取引不可 (王城廃墟EXネスト報酬)",
+    "description": "強化・細工が最高段階のアーティファクトに使用して精製を行う。",
+    "obtain": [
+      "王城廃墟EXネスト(祝福の箱)",
+      "アイテムモール (13,900 EYE CASH)",
+      "王城廃墟EXネスト",
+      "アイテムモール"
+    ],
+    "refs": [
+      {
+        "source": "jp-notice-1387"
+      },
+      {
+        "source": "jp-notice-1398"
+      },
+      {
+        "source": "jp-notice-1440"
+      }
+    ]
+  },
+  {
+    "id": "青い霜の枝",
+    "name": "青い霜の枝",
+    "kind": "material",
+    "description": "パラドックスタリスマンの祝福進化材料。",
+    "refs": [
+      {
+        "source": "jp-notice-1455"
+      }
+    ]
+  },
+  {
+    "id": "栴檀の実",
+    "name": "栴檀の実",
+    "kind": "material",
+    "refs": [
+      {
+        "source": "jp-notice-1440"
+      }
+    ]
+  },
+  {
+    "id": "多尾のブレスレット",
+    "name": "多尾のブレスレット",
+    "kind": "material",
+    "obtain": [
+      "桃郷苑ステージ"
+    ],
+    "description": "別表記: 多尾の腕輪 (ベルスカードの信頼 強化段階表)。",
+    "refs": [
+      {
+        "source": "jp-notice-1440"
+      }
+    ]
+  },
+  {
+    "id": "堕落したブラックドラゴンの記憶",
+    "name": "堕落したブラックドラゴンの記憶",
+    "kind": "material",
+    "refs": [
+      {
+        "source": "jp-notice-1217"
+      },
+      {
+        "source": "jp-notice-1265"
+      },
+      {
+        "source": "jp-notice-1276"
+      }
+    ]
+  },
+  {
+    "id": "堕落した世界の片鱗",
+    "name": "堕落した世界の片鱗",
+    "kind": "material",
+    "description": "セイヴィア商店のアイテム購入材料。",
+    "refs": [
+      {
+        "source": "jp-notice-1193"
+      }
+    ]
+  },
+  {
+    "id": "濁った希望",
+    "name": "濁った希望",
+    "kind": "material",
+    "obtain": [
+      "アイテムモール (濁った希望袋)"
+    ],
+    "refs": [
+      {
+        "source": "jp-notice-1387"
+      },
+      {
+        "source": "jp-notice-1466"
+      }
+    ]
+  },
+  {
+    "id": "奪われた力のかけら",
+    "name": "奪われた力のかけら",
+    "kind": "material",
+    "description": "ボーンドラゴン撃破で獲得する遠隔クエストアイテム(ドラゴンバフ関連)。",
+    "refs": [
+      {
+        "source": "jp-notice-1151"
+      },
+      {
+        "source": "jp-notice-1246"
+      },
+      {
+        "source": "jp-notice-1231"
+      }
+    ]
+  },
+  {
+    "id": "断片化したブローチの残骸",
+    "name": "断片化したブローチの残骸",
+    "kind": "material",
+    "refs": [
+      {
+        "source": "jp-notice-1287"
+      },
+      {
+        "source": "jp-notice-1246",
+        "note": "2025年4月: 安息所・SC-12討伐時のドロップ数10→30、女神様購読券保有で+20"
+      },
+      {
+        "source": "jp-notice-1440"
+      },
+      {
+        "source": "jp-notice-1426"
+      },
+      {
+        "source": "jp-notice-1466"
+      }
+    ]
+  },
+  {
+    "id": "秩序のトークン",
+    "name": "秩序のトークン",
+    "kind": "currency",
+    "refs": [
+      {
+        "source": "jp-notice-1311"
+      },
+      {
+        "source": "jp-notice-1440"
+      }
+    ]
+  },
+  {
+    "id": "中型進化加速器",
+    "name": "中型進化加速器",
+    "kind": "material",
+    "tradable": "取引可",
+    "description": "古代人[Ⅱ]アーマー・ボトムを古竜防具に進化させるアイテム。鍛冶屋生産。",
+    "refs": [
+      {
+        "source": "jp-notice-1151"
+      },
+      {
+        "source": "jp-notice-1231"
+      },
+      {
+        "source": "jp-notice-1347"
+      }
+    ]
+  },
+  {
+    "id": "抽出されし根菌",
+    "name": "抽出されし根菌",
+    "kind": "material",
+    "tradable": "取引不可",
+    "description": "新規アイテム表では「抽出された根菌」表記",
+    "refs": [
+      {
+        "source": "jp-notice-1311"
+      }
+    ]
+  },
+  {
+    "id": "蝶珊瑚",
+    "name": "蝶珊瑚",
+    "kind": "material",
+    "refs": [
+      {
+        "source": "jp-notice-1231"
+      },
+      {
+        "source": "jp-notice-1265"
+      }
+    ]
+  },
+  {
+    "id": "調律コイン",
+    "name": "調律コイン",
+    "kind": "currency",
+    "obtain": [
+      "ジェレイントの成長挑戦箱"
+    ],
+    "refs": [
+      {
+        "source": "jp-notice-1387"
+      }
+    ]
+  },
+  {
+    "id": "超越の箱舟[過去]のコイン",
+    "name": "超越の箱舟[過去]のコイン",
+    "kind": "currency",
+    "description": "箱舟[過去]商店で使用する通貨。報酬によって使用期限30日(期間限定)。",
+    "refs": [
+      {
+        "source": "jp-notice-1162"
+      },
+      {
+        "source": "jp-notice-1311"
+      },
+      {
+        "source": "jp-notice-1466"
+      }
+    ]
+  },
+  {
+    "id": "超越の箱舟[現在]のコイン",
+    "name": "超越の箱舟[現在]のコイン",
+    "kind": "currency",
+    "description": "箱舟[現在]商店で使用。期間限定: 30日。",
+    "refs": [
+      {
+        "source": "jp-notice-1362"
+      }
+    ]
+  },
+  {
+    "id": "超越の箱舟[未来]のコイン",
+    "name": "超越の箱舟[未来]のコイン",
+    "kind": "currency",
+    "refs": [
+      {
+        "source": "jp-notice-1265"
+      },
+      {
+        "source": "jp-notice-1411"
+      }
+    ],
+    "description": "箱舟[未来]商店で使用。シーズン報酬で支給(期間限定：30日)。",
+    "obtain": [
+      "超越の箱舟[未来]シーズン報酬"
+    ]
+  },
+  {
+    "id": "超越の箱舟カードキー",
+    "name": "超越の箱舟カードキー",
+    "kind": "material",
+    "refs": [
+      {
+        "source": "jp-notice-1265",
+        "note": "超越の箱舟クリア箱の開封に使用。箱舟商店の既存商品としてキャラクター当たり週1回購入可(購入後7日間、購入通貨は原文に記載なし)。これとは別に箱舟[未来]商店タブで超越の箱舟[未来]のコイン5枚→2個(キャラクター当り90日)"
+      },
+      {
+        "source": "jp-notice-1311"
+      },
+      {
+        "source": "jp-notice-1362"
+      },
+      {
+        "source": "jp-notice-1411"
+      },
+      {
+        "source": "jp-notice-1466"
+      }
+    ],
+    "description": "超越の箱舟のクリア箱を開けるカードキー。箱舟商店でキャラクターごとに週1回購入可能(購入後7日間)。原文では[超越の箱舟箱カードキー]表記もあり。"
+  },
+  {
+    "id": "超越転送機",
+    "name": "超越転送機",
+    "kind": "consumable",
+    "description": "ボーンドラゴンネスト(ハード)入場券。購入後24h",
+    "refs": [
+      {
+        "source": "jp-notice-1231"
+      }
+    ]
+  },
+  {
+    "id": "追憶の時間が宿る箱",
+    "name": "追憶の時間が宿る箱",
+    "kind": "box",
+    "refs": [
+      {
+        "source": "jp-notice-1466"
+      }
+    ]
+  },
+  {
+    "id": "天狼のたてがみ",
+    "name": "天狼のたてがみ",
+    "kind": "material",
+    "refs": [
+      {
+        "source": "jp-notice-1300",
+        "note": "2025年8月アップデートで収集品化"
+      }
+    ]
+  },
+  {
+    "id": "冬の宝石",
+    "name": "冬の宝石",
+    "kind": "material",
+    "refs": [
+      {
+        "source": "jp-notice-1193"
+      }
+    ]
+  },
+  {
+    "id": "東方の古代アーマーの破片",
+    "name": "東方の古代アーマーの破片",
+    "kind": "material",
+    "refs": [
+      {
+        "source": "jp-notice-1217"
+      },
+      {
+        "source": "jp-notice-1276"
+      }
+    ]
+  },
+  {
+    "id": "道しるべの星",
+    "name": "道しるべの星",
+    "kind": "material",
+    "refs": [
+      {
+        "source": "jp-notice-1193"
+      }
+    ]
+  },
+  {
+    "id": "独武の記録箱",
+    "name": "独武の記録箱",
+    "kind": "box",
+    "refs": [
+      {
+        "source": "jp-notice-1376"
+      }
+    ]
+  },
+  {
+    "id": "独武討伐戦コイン",
+    "name": "独武討伐戦コイン",
+    "kind": "currency",
+    "description": "独武討伐戦商店で使用。2026年4月アップデートで「今後のシーズンでは使用できません」と告知",
+    "refs": [
+      {
+        "source": "jp-notice-1376"
+      },
+      {
+        "source": "jp-notice-1398"
+      },
+      {
+        "source": "jp-notice-1426"
+      }
+    ]
+  },
+  {
+    "id": "独武討伐戦コイン(シーズン3)",
+    "name": "独武討伐戦コイン(シーズン3)",
+    "kind": "currency",
+    "description": "独武討伐戦：決戦で獲得し討伐戦商店で使用。原文別表記: 「独武討伐戦コイン」(ミッション表)、「討伐戦コイン(シーズン3)」(週間報酬表)。",
+    "refs": [
+      {
+        "source": "jp-notice-1466"
+      }
+    ]
+  },
+  {
+    "id": "独武討伐戦挑戦状",
+    "name": "独武討伐戦挑戦状",
+    "kind": "material",
+    "description": "独武討伐戦：決戦の入場券",
+    "obtain": [
+      "ワールドデイリーミッション「ワールドデイリーミッションを7個以上クリアする」達成報酬 (2026年4月アップデートで報酬から削除)"
+    ],
+    "refs": [
+      {
+        "source": "jp-notice-1376"
+      },
+      {
+        "source": "jp-notice-1398"
+      }
+    ]
+  },
+  {
+    "id": "独武討伐戦挑戦状(シーズン2)",
+    "name": "独武討伐戦挑戦状(シーズン2)",
+    "kind": "consumable",
+    "refs": [
+      {
+        "source": "jp-notice-1426"
+      }
+    ]
+  },
+  {
+    "id": "独武討伐戦挑戦状(シーズン3)",
+    "name": "独武討伐戦挑戦状(シーズン3)",
+    "kind": "material",
+    "description": "独武討伐戦：決戦の入場券。ワールドデイリーミッション – [イベント]デイリーミッションで獲得。",
+    "refs": [
+      {
+        "source": "jp-notice-1466"
+      },
+      {
+        "source": "jp-notice-1467"
+      }
+    ]
+  },
+  {
+    "id": "独武討伐戦報酬袋",
+    "name": "独武討伐戦報酬袋",
+    "kind": "box",
+    "refs": [
+      {
+        "source": "jp-notice-1376"
+      },
+      {
+        "source": "jp-notice-1426"
+      },
+      {
+        "source": "jp-notice-1466"
+      }
+    ]
+  },
+  {
+    "id": "破壊された遺跡の破片",
+    "name": "破壊された遺跡の破片",
+    "kind": "material",
+    "description": "[未完]王城の紋章袋を購入するための材料",
+    "refs": [
+      {
+        "source": "jp-notice-1387"
+      },
+      {
+        "source": "jp-notice-1398"
+      }
+    ]
+  },
+  {
+    "id": "白竜の氷片",
+    "name": "白竜の氷片",
+    "kind": "material",
+    "description": "アイオナアクセサリー(+15)を白竜アクセサリーへ進化させる素材",
+    "obtain": [
+      "NPC「【商人】パニア」 ＞ [英雄の商店] ＞ [ホワイトコア商店]タブ (価格は記載なし)"
+    ],
+    "refs": [
+      {
+        "source": "jp-notice-1387"
+      }
+    ]
+  },
+  {
+    "id": "箱舟の時の砂",
+    "name": "箱舟の時の砂",
+    "kind": "material",
+    "refs": [
+      {
+        "source": "jp-notice-1455"
+      }
+    ]
+  },
+  {
+    "id": "箱舟の石のかけら",
+    "name": "箱舟の石のかけら",
+    "kind": "material",
+    "description": "超越の箱舟[過去]の各階層クリア報酬箱から獲得。過去の化石の生産材料。シーズン4[過去]終了時に削除。",
+    "refs": [
+      {
+        "source": "jp-notice-1311"
+      },
+      {
+        "source": "jp-notice-1466"
+      }
+    ],
+    "obtain": [
+      "超越の箱舟[過去] クリア報酬箱",
+      "[異次元の遂行者オーク]撃破時に追加獲得"
+    ]
+  },
+  {
+    "id": "微かなな黄金の羽根",
+    "name": "微かなな黄金の羽根",
+    "kind": "consumable",
+    "description": "ゴールドドラゴンネスト(Zero)入場券。執事Bより購入。名称は原文どおり(「微かなな」は2回とも同表記。誤記の可能性)。",
+    "refs": [
+      {
+        "source": "jp-notice-1411"
+      }
+    ]
+  },
+  {
+    "id": "標章刻印装置",
+    "name": "標章刻印装置",
+    "kind": "material",
+    "refs": [
+      {
+        "source": "jp-notice-1387"
+      },
+      {
+        "source": "jp-notice-1398"
+      },
+      {
+        "source": "jp-notice-1455"
+      }
+    ],
+    "tradable": "取引、アカウント倉庫不可",
+    "obtain": [
+      "幽冥の異境(悪夢)"
+    ]
+  },
+  {
+    "id": "瓶詰めの石化像",
+    "name": "瓶詰めの石化像",
+    "kind": "material",
+    "obtain": [
+      "桃郷苑ステージ"
+    ],
+    "description": "別表記: 瓶詰めの石化薬 (ベルスカードの責任挑戦箱 構成内容)。",
+    "refs": [
+      {
+        "source": "jp-notice-1440"
+      },
+      {
+        "source": "jp-notice-1455"
+      }
+    ]
+  },
+  {
+    "id": "腐敗の根源",
+    "name": "腐敗の根源",
+    "kind": "material",
+    "tradable": "取引可(アカウント倉庫可)",
+    "description": "進化石。腐敗した邪根の洞窟 AS-05～ボス討伐で獲得",
+    "refs": [
+      {
+        "source": "jp-notice-1311"
+      }
+    ]
+  },
+  {
+    "id": "腐敗の幕",
+    "name": "腐敗の幕",
+    "kind": "material",
+    "description": "[腐敗した邪根の洞窟]入場券。取引不可、アカウント倉庫可",
+    "refs": [
+      {
+        "source": "jp-notice-1311"
+      },
+      {
+        "source": "jp-notice-1347"
+      },
+      {
+        "source": "jp-notice-1440"
+      }
+    ]
+  },
+  {
+    "id": "沸き立つ生命",
+    "name": "沸き立つ生命",
+    "kind": "material",
+    "tradable": "取引・アカウント倉庫不可",
+    "description": "+20異世界古代武器→古竜武器進化石(自然進化加速器)生産の核心アイテム",
+    "refs": [
+      {
+        "source": "jp-notice-1246"
+      }
+    ]
+  },
+  {
+    "id": "変異型竜珠改良槌Ver.3",
+    "name": "変異型竜珠改良槌Ver.3",
+    "kind": "material",
+    "refs": [
+      {
+        "source": "jp-notice-1276"
+      }
+    ]
+  },
+  {
+    "id": "変異型竜珠改良槌Ver.3(取引不可)",
+    "name": "変異型竜珠改良槌Ver.3(取引不可)",
+    "kind": "material",
+    "refs": [
+      {
+        "source": "jp-notice-1276"
+      }
+    ]
+  },
+  {
+    "id": "変異型竜珠進化石ver.3",
+    "name": "変異型竜珠進化石ver.3",
+    "kind": "material",
+    "description": "古代の脅威/保護の変異型防御竜珠(エンシェント)のオプション再付与材料(取引可/取引不可版あり)。",
+    "refs": [
+      {
+        "source": "jp-notice-1193"
+      }
+    ]
+  },
+  {
+    "id": "変形進化加速器",
+    "name": "変形進化加速器",
+    "kind": "material",
+    "description": "古竜武器→[真]古竜武器進化石",
+    "refs": [
+      {
+        "source": "jp-notice-1151"
+      },
+      {
+        "source": "jp-notice-1246"
+      },
+      {
+        "source": "jp-notice-1231"
+      }
+    ]
+  },
+  {
+    "id": "保護の変異型竜珠変換キューブ",
+    "name": "保護の変異型竜珠変換キューブ",
+    "kind": "consumable",
+    "refs": [
+      {
+        "source": "jp-notice-1311"
+      },
+      {
+        "source": "jp-notice-1440"
+      }
+    ]
+  },
+  {
+    "id": "保護の変異型竜珠変換キューブ(取引不可)",
+    "name": "保護の変異型竜珠変換キューブ(取引不可)",
+    "kind": "consumable",
+    "refs": [
+      {
+        "source": "jp-notice-1276"
+      }
+    ],
+    "description": "既存ドラフト(g6)の「保護の変異型竜珠変換キューブ」の取引不可版と思われる"
+  },
+  {
+    "id": "崩れた境界の羅針盤",
+    "name": "崩れた境界の羅針盤",
+    "kind": "material",
+    "grade": "エピック",
+    "tradable": "取引不可",
+    "description": "獲得: サンドヒル防波堤 リバーワート船着場 週間依頼 次元商店 / 用途: 12ネストパーティ入場券 / アカウント倉庫× / 12ネストパーティ入場券(リーダーのみ消費)",
+    "refs": [
+      {
+        "source": "jp-notice-1287"
+      },
+      {
+        "source": "jp-notice-1311"
+      }
+    ]
+  },
+  {
+    "id": "崩れた境界の羅針盤ランダム袋",
+    "name": "崩れた境界の羅針盤ランダム袋",
+    "kind": "box",
+    "refs": [
+      {
+        "source": "jp-notice-1287"
+      },
+      {
+        "source": "jp-notice-1440"
+      }
+    ]
+  },
+  {
+    "id": "崩れた境界の羅針盤選択袋",
+    "name": "崩れた境界の羅針盤選択袋",
+    "kind": "box",
+    "refs": [
+      {
+        "source": "jp-notice-1300",
+        "note": "2025年8月アップデートで期間限定(7日)追加(選択/ランダム袋)"
+      },
+      {
+        "source": "jp-notice-1311"
+      },
+      {
+        "source": "jp-notice-1287"
+      },
+      {
+        "source": "jp-notice-1440"
+      }
+    ]
+  },
+  {
+    "id": "崩壊した次元の気",
+    "name": "崩壊した次元の気",
+    "kind": "material",
+    "refs": [
+      {
+        "source": "jp-notice-1311"
+      },
+      {
+        "source": "jp-notice-1287"
+      },
+      {
+        "source": "jp-notice-1387"
+      },
+      {
+        "source": "jp-notice-1440"
+      }
+    ],
+    "grade": "レジェンド",
+    "tradable": "取引可",
+    "description": "獲得: サンドヒル防波堤 / 用途: 崩壊した次元の記憶生産 / アカウント倉庫○"
+  },
+  {
+    "id": "崩壊した次元の気の結晶箱",
+    "name": "崩壊した次元の気の結晶箱",
+    "kind": "box",
+    "refs": [
+      {
+        "source": "jp-notice-1398"
+      }
+    ]
+  },
+  {
+    "id": "崩壊した次元の記憶",
+    "name": "崩壊した次元の記憶",
+    "kind": "material",
+    "tradable": "取引可",
+    "description": "[+10 [Ⅰ] 金糸装備]にのみ使用可能",
+    "obtain": [
+      "鍛冶屋で生産"
+    ],
+    "refs": [
+      {
+        "source": "jp-notice-1387"
+      }
+    ]
+  },
+  {
+    "id": "崩壊した次元の力のかけら",
+    "name": "崩壊した次元の力のかけら",
+    "kind": "material",
+    "grade": "ユニーク",
+    "tradable": "取引不可",
+    "description": "獲得: サンドヒル防波堤 / 用途: 崩壊した次元の気生産 / アカウント倉庫○",
+    "refs": [
+      {
+        "source": "jp-notice-1287"
+      },
+      {
+        "source": "jp-notice-1311"
+      },
+      {
+        "source": "jp-notice-1440"
+      },
+      {
+        "source": "jp-notice-1455"
+      }
+    ]
+  },
+  {
+    "id": "崩壊した武器刻印袋(14日)",
+    "name": "崩壊した武器刻印袋(14日)",
+    "kind": "box",
+    "refs": [
+      {
+        "source": "jp-notice-1376"
+      },
+      {
+        "source": "jp-notice-1426"
+      },
+      {
+        "source": "jp-notice-1466"
+      }
+    ]
+  },
+  {
+    "id": "崩壊の清水",
+    "name": "崩壊の清水",
+    "kind": "material",
+    "grade": "レジェンド",
+    "tradable": "取引可",
+    "description": "獲得: 崩壊した次元の狭間 次元商店 / 用途: 崩壊の竜珠ランダムオプション変更 / アカウント倉庫○",
+    "refs": [
+      {
+        "source": "jp-notice-1287"
+      }
+    ]
+  },
+  {
+    "id": "崩壊の清水(取引不可)",
+    "name": "崩壊の清水(取引不可)",
+    "kind": "material",
+    "refs": [
+      {
+        "source": "jp-notice-1311"
+      },
+      {
+        "source": "jp-notice-1287"
+      },
+      {
+        "source": "jp-notice-1347"
+      },
+      {
+        "source": "jp-notice-1440"
+      }
+    ]
+  },
+  {
+    "id": "崩壊の宝玉(ユニーク)",
+    "name": "崩壊の宝玉(ユニーク)",
+    "kind": "material",
+    "description": "ヘイズフロストドラゴンの月食の竜珠(エンシェント)+20を崩壊の竜珠(ユニーク)に進化させる。生産表では「崩壊の宝玉」表記",
+    "refs": [
+      {
+        "source": "jp-notice-1311"
+      }
+    ]
+  },
+  {
+    "id": "崩壊の竜珠の破片",
+    "name": "崩壊の竜珠の破片",
+    "kind": "material",
+    "grade": "レア",
+    "tradable": "取引不可",
+    "description": "獲得: 崩壊した次元の狭間 / 用途: 崩壊の竜珠生産及び強化 / アカウント倉庫×",
+    "refs": [
+      {
+        "source": "jp-notice-1287"
+      },
+      {
+        "source": "jp-notice-1311"
+      },
+      {
+        "source": "jp-notice-1387"
+      }
+    ]
+  },
+  {
+    "id": "崩壊の竜珠合成器",
+    "name": "崩壊の竜珠合成器",
+    "kind": "material",
+    "description": "ユニーク等級の崩壊の竜珠を分解した際に獲得。崩壊の竜珠(ユニーク)に追加ステータスを付与する。",
+    "refs": [
+      {
+        "source": "jp-notice-1411"
+      }
+    ]
+  },
+  {
+    "id": "放電された転送機",
+    "name": "放電された転送機",
+    "kind": "consumable",
+    "description": "ボーンドラゴンネスト入場券。購入後24h使用可",
+    "refs": [
+      {
+        "source": "jp-notice-1246"
+      }
+    ]
+  },
+  {
+    "id": "蓬莱石",
+    "name": "蓬莱石",
+    "kind": "material",
+    "refs": [
+      {
+        "source": "jp-notice-1300",
+        "note": "2025年8月アップデートで収集品化"
+      }
+    ]
+  },
+  {
+    "id": "亡者の時間の涙",
+    "name": "亡者の時間の涙",
+    "kind": "material",
+    "obtain": [
+      "桃郷苑ステージ"
+    ],
+    "refs": [
+      {
+        "source": "jp-notice-1440"
+      }
+    ]
+  },
+  {
+    "id": "暴風の時空石",
+    "name": "暴風の時空石",
+    "kind": "material",
+    "refs": [
+      {
+        "source": "jp-notice-1217"
+      },
+      {
+        "source": "jp-notice-1276"
+      }
+    ]
+  },
+  {
+    "id": "冒険の鍵",
+    "name": "冒険の鍵",
+    "kind": "consumable",
+    "refs": [
+      {
+        "source": "jp-notice-1311"
+      },
+      {
+        "source": "jp-notice-1287"
+      },
+      {
+        "source": "jp-notice-1347"
+      },
+      {
+        "source": "jp-notice-1440"
+      }
+    ]
+  },
+  {
+    "id": "冒険者のアイテム保護魔法ゼリー",
+    "name": "冒険者のアイテム保護魔法ゼリー",
+    "kind": "consumable",
+    "description": "強化失敗時のペナルティを防ぐ。",
+    "refs": [
+      {
+        "source": "jp-notice-1151"
+      },
+      {
+        "source": "jp-notice-1231"
+      },
+      {
+        "source": "jp-notice-1265"
+      }
+    ]
+  },
+  {
+    "id": "冒険者の金貨",
+    "name": "冒険者の金貨",
+    "kind": "currency",
+    "refs": [
+      {
+        "source": "jp-notice-1265"
+      },
+      {
+        "source": "jp-notice-1311"
+      },
+      {
+        "source": "jp-notice-1246"
+      },
+      {
+        "source": "jp-notice-1362"
+      },
+      {
+        "source": "jp-notice-1411"
+      },
+      {
+        "source": "jp-notice-1466"
+      }
+    ]
+  },
+  {
+    "id": "冒険者の装備保護魔法ゼリー",
+    "name": "冒険者の装備保護魔法ゼリー",
+    "kind": "material",
+    "refs": [
+      {
+        "source": "jp-notice-1362"
+      },
+      {
+        "source": "jp-notice-1411"
+      },
+      {
+        "source": "jp-notice-1466"
+      }
+    ],
+    "description": "別表記: 冒険者の装備 保護魔法ゼリー"
+  },
+  {
+    "id": "魔力のクローニングアクセサリーの破片",
+    "name": "魔力のクローニングアクセサリーの破片",
+    "kind": "material",
+    "description": "2026年4月アップデートでアカウント倉庫使用可能に変更",
+    "refs": [
+      {
+        "source": "jp-notice-1398"
+      }
+    ]
+  },
+  {
+    "id": "魔力のクローニングの破片",
+    "name": "魔力のクローニングの破片",
+    "kind": "material",
+    "description": "2026年4月アップデート以降、ユニーククローニング装備の強化はこれでのみ可能",
+    "refs": [
+      {
+        "source": "jp-notice-1398"
+      }
+    ]
+  },
+  {
+    "id": "魔力のクローニングの破片(100個)袋",
+    "name": "魔力のクローニングの破片(100個)袋",
+    "kind": "box",
+    "tradable": "取引可",
+    "refs": [
+      {
+        "source": "jp-notice-1398"
+      }
+    ]
+  },
+  {
+    "id": "魔力のクローニング特殊防具の破片",
+    "name": "魔力のクローニング特殊防具の破片",
+    "kind": "material",
+    "description": "2026年4月アップデートでアカウント倉庫使用可能に変更",
+    "refs": [
+      {
+        "source": "jp-notice-1398"
+      }
+    ]
+  },
+  {
+    "id": "魔力のクローニング武器の破片(1000個)袋",
+    "name": "魔力のクローニング武器の破片(1000個)袋",
+    "kind": "box",
+    "refs": [
+      {
+        "source": "jp-notice-1217"
+      },
+      {
+        "source": "jp-notice-1276",
+        "note": "原文表記「魔力のクローニング武器の破片（1000個）袋」"
+      }
+    ]
+  },
+  {
+    "id": "魔力のクローニング防具の破片",
+    "name": "魔力のクローニング防具の破片",
+    "kind": "material",
+    "description": "2026年4月アップデートでアカウント倉庫使用可能に変更",
+    "refs": [
+      {
+        "source": "jp-notice-1398"
+      }
+    ]
+  },
+  {
+    "id": "万年繭",
+    "name": "万年繭",
+    "kind": "material",
+    "refs": [
+      {
+        "source": "jp-notice-1440"
+      }
+    ]
+  },
+  {
+    "id": "未確認ダグラスのセイヴィアの紋章",
+    "name": "未確認ダグラスのセイヴィアの紋章",
+    "kind": "box",
+    "description": "鑑定前のセイヴィア紋章と思われる(原文の[謎]セイヴィア紋章)。",
+    "refs": [
+      {
+        "source": "jp-notice-1193"
+      }
+    ]
+  },
+  {
+    "id": "未確認テラマイのセイヴィアの紋章",
+    "name": "未確認テラマイのセイヴィアの紋章",
+    "kind": "box",
+    "description": "鑑定前のセイヴィア紋章と思われる(原文の[謎]セイヴィア紋章)。",
+    "refs": [
+      {
+        "source": "jp-notice-1193"
+      }
+    ]
+  },
+  {
+    "id": "未知のオーラ",
+    "name": "未知のオーラ",
+    "kind": "material",
+    "refs": [
+      {
+        "source": "jp-notice-1265"
+      },
+      {
+        "source": "jp-notice-1276"
+      },
+      {
+        "source": "jp-notice-1311"
+      },
+      {
+        "source": "jp-notice-1217"
+      }
+    ]
+  },
+  {
+    "id": "未知のオーラが入った瓶",
+    "name": "未知のオーラが入った瓶",
+    "kind": "material",
+    "tradable": "取引可",
+    "description": "未知の珠の新規生産材料。ラビリンス18階層以上のネストLUCKYZONE報酬箱から確率で入手。お知らせ1193のセイヴィアショップでは「未知の気の入った瓶」表記(同一アイテムの可能性)。",
+    "refs": [
+      {
+        "source": "jp-notice-1139"
+      }
+    ]
+  },
+  {
+    "id": "未知の気の入った瓶",
+    "name": "未知の気の入った瓶",
+    "kind": "material",
+    "refs": [
+      {
+        "source": "jp-notice-1193"
+      }
+    ],
+    "description": "お知らせ1139の「未知のオーラが入った瓶」と同一アイテムの可能性(原文表記のまま別idで記載)。"
+  },
+  {
+    "id": "未知の古代ｱｸｾｻﾘｰの 破片",
+    "name": "未知の古代ｱｸｾｻﾘｰの 破片",
+    "kind": "material",
+    "refs": [
+      {
+        "source": "jp-notice-1466"
+      }
+    ]
+  },
+  {
+    "id": "未知の古代アクセサリーの破片",
+    "name": "未知の古代アクセサリーの破片",
+    "kind": "material",
+    "refs": [
+      {
+        "source": "jp-notice-1265"
+      },
+      {
+        "source": "jp-notice-1276"
+      },
+      {
+        "source": "jp-notice-1311"
+      },
+      {
+        "source": "jp-notice-1231"
+      },
+      {
+        "source": "jp-notice-1217"
+      },
+      {
+        "source": "jp-notice-1362"
+      },
+      {
+        "source": "jp-notice-1411"
+      }
+    ]
+  },
+  {
+    "id": "未知の古代イヤリング袋(+12)",
+    "name": "未知の古代イヤリング袋(+12)",
+    "kind": "box",
+    "refs": [
+      {
+        "source": "jp-notice-1265"
+      }
+    ],
+    "description": "開封で未知の古代イヤリング(+12)を獲得すると推定される袋 (中身の詳細は原文になし)"
+  },
+  {
+    "id": "未知の古代ネックレス袋(+12)",
+    "name": "未知の古代ネックレス袋(+12)",
+    "kind": "box",
+    "refs": [
+      {
+        "source": "jp-notice-1265"
+      }
+    ],
+    "description": "開封で未知の古代ネックレス(+12)を獲得すると推定される袋 (中身の詳細は原文になし)"
+  },
+  {
+    "id": "未知の古代リング袋(+12)",
+    "name": "未知の古代リング袋(+12)",
+    "kind": "box",
+    "refs": [
+      {
+        "source": "jp-notice-1265"
+      }
+    ],
+    "description": "開封で未知の古代リング(+12)を獲得すると推定される袋 (中身の詳細は原文になし)"
+  },
+  {
+    "id": "未知の珠",
+    "name": "未知の珠",
+    "kind": "material",
+    "tradable": "取引可",
+    "description": "未知の古代アクセサリーを[増幅]未知の古代アクセサリーに増幅させるアイテム。鍛冶屋生産(生産材料はステージ/ネストで入手、詳細は画像のため未取得)。右クリックで強化ウィンドウ。",
+    "refs": [
+      {
+        "source": "jp-notice-1139"
+      },
+      {
+        "source": "jp-notice-1265"
+      }
+    ]
+  },
+  {
+    "id": "未知の石のかけら",
+    "name": "未知の石のかけら",
+    "kind": "material",
+    "description": "現在のペンダントの生産・強化素材。超越の箱舟[現在]の各階層クリア報酬箱、異次元の破壊者オーク討伐で獲得。シーズン3[現在]終了時に削除。",
+    "refs": [
+      {
+        "source": "jp-notice-1362"
+      }
+    ]
+  },
+  {
+    "id": "未来時空集約体",
+    "name": "未来時空集約体",
+    "kind": "material",
+    "refs": [
+      {
+        "source": "jp-notice-1265"
+      },
+      {
+        "source": "jp-notice-1411"
+      }
+    ],
+    "description": "超越の箱舟[未来]1～50階層の報酬箱から獲得。未来時空測定器の生産・強化材料。シーズン終了時に削除。",
+    "obtain": [
+      "超越の箱舟[未来] 各階層クリア報酬箱",
+      "異次元の征服者オーク撃破時の追加報酬"
+    ]
+  },
+  {
+    "id": "未来時空測定器(10段階)",
+    "name": "未来時空測定器(10段階)",
+    "kind": "other",
+    "refs": [
+      {
+        "source": "jp-notice-1265"
+      },
+      {
+        "source": "jp-notice-1411"
+      }
+    ],
+    "series": "未来時空測定器",
+    "description": "所持していると超越の箱舟[未来]内部でHP・攻撃力強化を受ける(超越の箱舟[未来]でのみ効果発動)。鍛冶屋→アイテム生産→雑貨→貴重品→超越の箱舟[未来]で生産。シーズン終了時に削除。",
+    "stats": [
+      {
+        "label": "10段階",
+        "stats": [
+          {
+            "name": "HP強化",
+            "value": "315%"
+          },
+          {
+            "name": "攻撃力強化",
+            "value": "215%"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "未来時空測定器(11段階)",
+    "name": "未来時空測定器(11段階)",
+    "kind": "other",
+    "refs": [
+      {
+        "source": "jp-notice-1265"
+      },
+      {
+        "source": "jp-notice-1411"
+      }
+    ],
+    "series": "未来時空測定器",
+    "description": "所持していると超越の箱舟[未来]内部でHP・攻撃力強化を受ける(超越の箱舟[未来]でのみ効果発動)。鍛冶屋→アイテム生産→雑貨→貴重品→超越の箱舟[未来]で生産。シーズン終了時に削除。",
+    "stats": [
+      {
+        "label": "11段階",
+        "stats": [
+          {
+            "name": "HP強化",
+            "value": "350%"
+          },
+          {
+            "name": "攻撃力強化",
+            "value": "240%"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "未来時空測定器(12段階)",
+    "name": "未来時空測定器(12段階)",
+    "kind": "other",
+    "refs": [
+      {
+        "source": "jp-notice-1265"
+      },
+      {
+        "source": "jp-notice-1411"
+      }
+    ],
+    "series": "未来時空測定器",
+    "description": "所持していると超越の箱舟[未来]内部でHP・攻撃力強化を受ける(超越の箱舟[未来]でのみ効果発動)。鍛冶屋→アイテム生産→雑貨→貴重品→超越の箱舟[未来]で生産。シーズン終了時に削除。",
+    "stats": [
+      {
+        "label": "12段階",
+        "stats": [
+          {
+            "name": "HP強化",
+            "value": "385%"
+          },
+          {
+            "name": "攻撃力強化",
+            "value": "265%"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "未来時空測定器(13段階)",
+    "name": "未来時空測定器(13段階)",
+    "kind": "other",
+    "refs": [
+      {
+        "source": "jp-notice-1265"
+      },
+      {
+        "source": "jp-notice-1411"
+      }
+    ],
+    "series": "未来時空測定器",
+    "description": "所持していると超越の箱舟[未来]内部でHP・攻撃力強化を受ける(超越の箱舟[未来]でのみ効果発動)。鍛冶屋→アイテム生産→雑貨→貴重品→超越の箱舟[未来]で生産。シーズン終了時に削除。",
+    "stats": [
+      {
+        "label": "13段階",
+        "stats": [
+          {
+            "name": "HP強化",
+            "value": "420%"
+          },
+          {
+            "name": "攻撃力強化",
+            "value": "290%"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "未来時空測定器(14段階)",
+    "name": "未来時空測定器(14段階)",
+    "kind": "other",
+    "refs": [
+      {
+        "source": "jp-notice-1265"
+      },
+      {
+        "source": "jp-notice-1411"
+      }
+    ],
+    "series": "未来時空測定器",
+    "description": "所持していると超越の箱舟[未来]内部でHP・攻撃力強化を受ける(超越の箱舟[未来]でのみ効果発動)。鍛冶屋→アイテム生産→雑貨→貴重品→超越の箱舟[未来]で生産。シーズン終了時に削除。",
+    "stats": [
+      {
+        "label": "14段階",
+        "stats": [
+          {
+            "name": "HP強化",
+            "value": "460%"
+          },
+          {
+            "name": "攻撃力強化",
+            "value": "320%"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "未来時空測定器(15段階)",
+    "name": "未来時空測定器(15段階)",
+    "kind": "other",
+    "refs": [
+      {
+        "source": "jp-notice-1265"
+      },
+      {
+        "source": "jp-notice-1411"
+      }
+    ],
+    "series": "未来時空測定器",
+    "description": "所持していると超越の箱舟[未来]内部でHP・攻撃力強化を受ける(超越の箱舟[未来]でのみ効果発動)。鍛冶屋→アイテム生産→雑貨→貴重品→超越の箱舟[未来]で生産。シーズン終了時に削除。",
+    "stats": [
+      {
+        "label": "15段階",
+        "stats": [
+          {
+            "name": "HP強化",
+            "value": "500%"
+          },
+          {
+            "name": "攻撃力強化",
+            "value": "350%"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "未来時空測定器(1段階)",
+    "name": "未来時空測定器(1段階)",
+    "kind": "other",
+    "refs": [
+      {
+        "source": "jp-notice-1265"
+      },
+      {
+        "source": "jp-notice-1411"
+      }
+    ],
+    "series": "未来時空測定器",
+    "description": "所持していると超越の箱舟[未来]内部でHP・攻撃力強化を受ける(超越の箱舟[未来]でのみ効果発動)。鍛冶屋→アイテム生産→雑貨→貴重品→超越の箱舟[未来]で生産。シーズン終了時に削除。1段階は材料として分解可能。",
+    "stats": [
+      {
+        "label": "1段階",
+        "stats": [
+          {
+            "name": "HP強化",
+            "value": "30%"
+          },
+          {
+            "name": "攻撃力強化",
+            "value": "20%"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "未来時空測定器(2段階)",
+    "name": "未来時空測定器(2段階)",
+    "kind": "other",
+    "refs": [
+      {
+        "source": "jp-notice-1265"
+      },
+      {
+        "source": "jp-notice-1411"
+      }
+    ],
+    "series": "未来時空測定器",
+    "description": "所持していると超越の箱舟[未来]内部でHP・攻撃力強化を受ける(超越の箱舟[未来]でのみ効果発動)。鍛冶屋→アイテム生産→雑貨→貴重品→超越の箱舟[未来]で生産。シーズン終了時に削除。",
+    "stats": [
+      {
+        "label": "2段階",
+        "stats": [
+          {
+            "name": "HP強化",
+            "value": "60%"
+          },
+          {
+            "name": "攻撃力強化",
+            "value": "40%"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "未来時空測定器(3段階)",
+    "name": "未来時空測定器(3段階)",
+    "kind": "other",
+    "refs": [
+      {
+        "source": "jp-notice-1265"
+      },
+      {
+        "source": "jp-notice-1411"
+      }
+    ],
+    "series": "未来時空測定器",
+    "description": "所持していると超越の箱舟[未来]内部でHP・攻撃力強化を受ける(超越の箱舟[未来]でのみ効果発動)。鍛冶屋→アイテム生産→雑貨→貴重品→超越の箱舟[未来]で生産。シーズン終了時に削除。",
+    "stats": [
+      {
+        "label": "3段階",
+        "stats": [
+          {
+            "name": "HP強化",
+            "value": "90%"
+          },
+          {
+            "name": "攻撃力強化",
+            "value": "60%"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "未来時空測定器(4段階)",
+    "name": "未来時空測定器(4段階)",
+    "kind": "other",
+    "refs": [
+      {
+        "source": "jp-notice-1265"
+      },
+      {
+        "source": "jp-notice-1411"
+      }
+    ],
+    "series": "未来時空測定器",
+    "description": "所持していると超越の箱舟[未来]内部でHP・攻撃力強化を受ける(超越の箱舟[未来]でのみ効果発動)。鍛冶屋→アイテム生産→雑貨→貴重品→超越の箱舟[未来]で生産。シーズン終了時に削除。",
+    "stats": [
+      {
+        "label": "4段階",
+        "stats": [
+          {
+            "name": "HP強化",
+            "value": "120%"
+          },
+          {
+            "name": "攻撃力強化",
+            "value": "80%"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "未来時空測定器(5段階)",
+    "name": "未来時空測定器(5段階)",
+    "kind": "other",
+    "refs": [
+      {
+        "source": "jp-notice-1265"
+      },
+      {
+        "source": "jp-notice-1411"
+      }
+    ],
+    "series": "未来時空測定器",
+    "description": "所持していると超越の箱舟[未来]内部でHP・攻撃力強化を受ける(超越の箱舟[未来]でのみ効果発動)。鍛冶屋→アイテム生産→雑貨→貴重品→超越の箱舟[未来]で生産。シーズン終了時に削除。",
+    "stats": [
+      {
+        "label": "5段階",
+        "stats": [
+          {
+            "name": "HP強化",
+            "value": "150%"
+          },
+          {
+            "name": "攻撃力強化",
+            "value": "100%"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "未来時空測定器(6段階)",
+    "name": "未来時空測定器(6段階)",
+    "kind": "other",
+    "refs": [
+      {
+        "source": "jp-notice-1265"
+      },
+      {
+        "source": "jp-notice-1411"
+      }
+    ],
+    "series": "未来時空測定器",
+    "description": "所持していると超越の箱舟[未来]内部でHP・攻撃力強化を受ける(超越の箱舟[未来]でのみ効果発動)。鍛冶屋→アイテム生産→雑貨→貴重品→超越の箱舟[未来]で生産。シーズン終了時に削除。",
+    "stats": [
+      {
+        "label": "6段階",
+        "stats": [
+          {
+            "name": "HP強化",
+            "value": "180%"
+          },
+          {
+            "name": "攻撃力強化",
+            "value": "120%"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "未来時空測定器(7段階)",
+    "name": "未来時空測定器(7段階)",
+    "kind": "other",
+    "refs": [
+      {
+        "source": "jp-notice-1265"
+      },
+      {
+        "source": "jp-notice-1411"
+      }
+    ],
+    "series": "未来時空測定器",
+    "description": "所持していると超越の箱舟[未来]内部でHP・攻撃力強化を受ける(超越の箱舟[未来]でのみ効果発動)。鍛冶屋→アイテム生産→雑貨→貴重品→超越の箱舟[未来]で生産。シーズン終了時に削除。",
+    "stats": [
+      {
+        "label": "7段階",
+        "stats": [
+          {
+            "name": "HP強化",
+            "value": "210%"
+          },
+          {
+            "name": "攻撃力強化",
+            "value": "140%"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "未来時空測定器(8段階)",
+    "name": "未来時空測定器(8段階)",
+    "kind": "other",
+    "refs": [
+      {
+        "source": "jp-notice-1265"
+      },
+      {
+        "source": "jp-notice-1411"
+      }
+    ],
+    "series": "未来時空測定器",
+    "description": "所持していると超越の箱舟[未来]内部でHP・攻撃力強化を受ける(超越の箱舟[未来]でのみ効果発動)。鍛冶屋→アイテム生産→雑貨→貴重品→超越の箱舟[未来]で生産。シーズン終了時に削除。",
+    "stats": [
+      {
+        "label": "8段階",
+        "stats": [
+          {
+            "name": "HP強化",
+            "value": "245%"
+          },
+          {
+            "name": "攻撃力強化",
+            "value": "165%"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "未来時空測定器(9段階)",
+    "name": "未来時空測定器(9段階)",
+    "kind": "other",
+    "refs": [
+      {
+        "source": "jp-notice-1265"
+      },
+      {
+        "source": "jp-notice-1411"
+      }
+    ],
+    "series": "未来時空測定器",
+    "description": "所持していると超越の箱舟[未来]内部でHP・攻撃力強化を受ける(超越の箱舟[未来]でのみ効果発動)。鍛冶屋→アイテム生産→雑貨→貴重品→超越の箱舟[未来]で生産。シーズン終了時に削除。",
+    "stats": [
+      {
+        "label": "9段階",
+        "stats": [
+          {
+            "name": "HP強化",
+            "value": "280%"
+          },
+          {
+            "name": "攻撃力強化",
+            "value": "190%"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "密林の古代グローブの破片",
+    "name": "密林の古代グローブの破片",
+    "kind": "material",
+    "refs": [
+      {
+        "source": "jp-notice-1217"
+      },
+      {
+        "source": "jp-notice-1276"
+      }
+    ]
+  },
+  {
+    "id": "夢の触媒",
+    "name": "夢の触媒",
+    "kind": "material",
+    "refs": [
+      {
+        "source": "jp-notice-1193"
+      }
+    ]
+  },
+  {
+    "id": "無欠のハンマー",
+    "name": "無欠のハンマー",
+    "kind": "consumable",
+    "tradable": "取引NG / 一般倉庫OK / アカウント倉庫NG",
+    "description": "+15～+19のスキル竜珠に使用すると強化値+1",
+    "refs": [
+      {
+        "source": "jp-notice-1376"
+      }
+    ]
+  },
+  {
+    "id": "無欠の核",
+    "name": "無欠の核",
+    "kind": "material",
+    "refs": [
+      {
+        "source": "jp-notice-1376"
+      },
+      {
+        "source": "jp-notice-1426"
+      },
+      {
+        "source": "jp-notice-1466"
+      }
+    ],
+    "tradable": "取引OK / 一般倉庫OK / アカウント倉庫OK",
+    "obtain": [
+      "アイテムモール(無欠の核袋 14,900 EYE CASH 等)",
+      "+15スキル竜珠(古代を除く)の分解"
+    ]
+  },
+  {
+    "id": "無欠の結晶",
+    "name": "無欠の結晶",
+    "kind": "material",
+    "tradable": "取引NG / 一般倉庫OK / アカウント倉庫NG",
+    "obtain": [
+      "アイテムモール"
+    ],
+    "refs": [
+      {
+        "source": "jp-notice-1376"
+      }
+    ]
+  },
+  {
+    "id": "矛盾の宝石抽出液",
+    "name": "矛盾の宝石抽出液",
+    "kind": "material",
+    "refs": [
+      {
+        "source": "jp-notice-1455"
+      }
+    ]
+  },
+  {
+    "id": "矛盾を抱いた心臓",
+    "name": "矛盾を抱いた心臓",
+    "kind": "material",
+    "description": "パラドックスタリスマンの祝福進化材料。",
+    "refs": [
+      {
+        "source": "jp-notice-1455"
+      }
+    ]
+  },
+  {
+    "id": "冥闇の塊",
+    "name": "冥闇の塊",
+    "kind": "material",
+    "refs": [
+      {
+        "source": "jp-notice-1231"
+      }
+    ]
+  },
+  {
+    "id": "冥闇の星片",
+    "name": "冥闇の星片",
+    "kind": "material",
+    "refs": [
+      {
+        "source": "jp-notice-1231"
+      },
+      {
+        "source": "jp-notice-1217"
+      },
+      {
+        "source": "jp-notice-1276"
+      }
+    ]
+  },
+  {
+    "id": "目覚めた魔力卵",
+    "name": "目覚めた魔力卵",
+    "kind": "material",
+    "refs": [
+      {
+        "source": "jp-notice-1455"
+      }
+    ]
+  },
+  {
+    "id": "夜明けの露の輝きの宝石",
+    "name": "夜明けの露の輝きの宝石",
+    "kind": "material",
+    "refs": [
+      {
+        "source": "jp-notice-1311"
+      },
+      {
+        "source": "jp-notice-1287"
+      },
+      {
+        "source": "jp-notice-1347"
+      },
+      {
+        "source": "jp-notice-1387"
+      }
+    ]
+  },
+  {
+    "id": "勇者の装備保護魔法ゼリー",
+    "name": "勇者の装備保護魔法ゼリー",
+    "kind": "consumable",
+    "refs": [
+      {
+        "source": "jp-notice-1265"
+      },
+      {
+        "source": "jp-notice-1311"
+      }
+    ]
+  },
+  {
+    "id": "幽幻/紅月/新緑の竜珠選択袋(+15)",
+    "name": "幽幻/紅月/新緑の竜珠選択袋(+15)",
+    "kind": "box",
+    "refs": [
+      {
+        "source": "jp-notice-1300"
+      },
+      {
+        "source": "jp-notice-1376"
+      },
+      {
+        "source": "jp-notice-1426"
+      },
+      {
+        "source": "jp-notice-1466"
+      }
+    ]
+  },
+  {
+    "id": "幽幻の核(ランダム)",
+    "name": "幽幻の核(ランダム)",
+    "kind": "material",
+    "refs": [
+      {
+        "source": "jp-notice-1300"
+      }
+    ]
+  },
+  {
+    "id": "幽冥の招待状",
+    "name": "幽冥の招待状",
+    "kind": "material",
+    "description": "7日間の使用期限。パーティ全員が所持していれば幽冥の異境へ追加入場可能",
+    "refs": [
+      {
+        "source": "jp-notice-1398"
+      },
+      {
+        "source": "jp-notice-1440"
+      }
+    ]
+  },
+  {
+    "id": "幽冥の門の鍵",
+    "name": "幽冥の門の鍵",
+    "kind": "material",
+    "description": "7日間の使用期限。パーティ全員が所持していれば幽冥の異境に入場可能",
+    "refs": [
+      {
+        "source": "jp-notice-1398"
+      }
+    ]
+  },
+  {
+    "id": "傭兵のたいまつ箱",
+    "name": "傭兵のたいまつ箱",
+    "kind": "box",
+    "refs": [
+      {
+        "source": "jp-notice-1311"
+      }
+    ]
+  },
+  {
+    "id": "傭兵の密輸品箱",
+    "name": "傭兵の密輸品箱",
+    "kind": "box",
+    "description": "サーヴァント冒険中級任務報酬。開封時冒険の鍵300個消費で採集・ギルド材料等(オークの毒針20個～星屑の石10個など30種)から1種を確率で獲得",
+    "refs": [
+      {
+        "source": "jp-notice-1311"
+      }
+    ]
+  },
+  {
+    "id": "揺るがぬ信念のキューブ",
+    "name": "揺るがぬ信念のキューブ",
+    "kind": "material",
+    "description": "ナイトメアデュアルネスト：覚醒 入場券",
+    "refs": [
+      {
+        "source": "jp-notice-1311"
+      },
+      {
+        "source": "jp-notice-1347"
+      },
+      {
+        "source": "jp-notice-1440"
+      }
+    ]
+  },
+  {
+    "id": "洛陽のルーン強化ハンマー(+0～+6)",
+    "name": "洛陽のルーン強化ハンマー(+0～+6)",
+    "kind": "consumable",
+    "refs": [
+      {
+        "source": "jp-notice-1376"
+      }
+    ]
+  },
+  {
+    "id": "洛陽のルーン強化ハンマー(+0～+9)",
+    "name": "洛陽のルーン強化ハンマー(+0～+9)",
+    "kind": "consumable",
+    "refs": [
+      {
+        "source": "jp-notice-1376"
+      }
+    ]
+  },
+  {
+    "id": "洛陽のルーン強化ハンマー(+6～+14)",
+    "name": "洛陽のルーン強化ハンマー(+6～+14)",
+    "kind": "consumable",
+    "refs": [
+      {
+        "source": "jp-notice-1376"
+      },
+      {
+        "source": "jp-notice-1426"
+      },
+      {
+        "source": "jp-notice-1466"
+      }
+    ]
+  },
+  {
+    "id": "洛陽のルーン強化ハンマー(+6～+14)袋",
+    "name": "洛陽のルーン強化ハンマー(+6～+14)袋",
+    "kind": "box",
+    "refs": [
+      {
+        "source": "jp-notice-1311"
+      },
+      {
+        "source": "jp-notice-1287"
+      },
+      {
+        "source": "jp-notice-1347"
+      }
+    ]
+  },
+  {
+    "id": "洛陽の鍵",
+    "name": "洛陽の鍵",
+    "kind": "consumable",
+    "refs": [
+      {
+        "source": "jp-notice-1265"
+      },
+      {
+        "source": "jp-notice-1311"
+      }
+    ]
+  },
+  {
+    "id": "竜の瞳",
+    "name": "竜の瞳",
+    "kind": "material",
+    "refs": [
+      {
+        "source": "jp-notice-1300",
+        "note": "2025年8月アップデートで収集品化"
+      }
+    ]
+  },
+  {
+    "id": "竜珠安定器のかけら",
+    "name": "竜珠安定器のかけら",
+    "kind": "material",
+    "description": "金竜の竜珠安定器のかけら。本文では「金竜の竜珠安定器のかけら」とも表記(ドロップ表では「竜珠安定器のかけら」)。",
+    "refs": [
+      {
+        "source": "jp-notice-1411"
+      }
+    ]
+  },
+  {
+    "id": "竜鱗の細工板",
+    "name": "竜鱗の細工板",
+    "kind": "material",
+    "obtain": [
+      "アイテムモール (竜鱗の細工板袋)"
+    ],
+    "refs": [
+      {
+        "source": "jp-notice-1387"
+      },
+      {
+        "source": "jp-notice-1466"
+      }
+    ]
+  },
+  {
+    "id": "冷たい共鳴の石(1段階)",
+    "name": "冷たい共鳴の石(1段階)",
+    "kind": "other",
+    "description": "共鳴の石の最下位段階と思われる。分解機で分解すると歪んだ共鳴のかけらを獲得。",
+    "refs": [
+      {
+        "source": "jp-notice-1455"
+      }
+    ]
+  },
+  {
+    "id": "六角ボルト",
+    "name": "六角ボルト",
+    "kind": "material",
+    "refs": [
+      {
+        "source": "jp-notice-1440"
+      }
+    ]
+  },
+  {
+    "id": "歪んだ共鳴のかけら",
+    "name": "歪んだ共鳴のかけら",
+    "kind": "material",
+    "description": "共鳴の石の生産材料。共鳴ミッション、アセンション4階層以上の桃郷苑ステージ(一定確率)、冷たい共鳴の石(1段階)の分解で獲得。原文では「共鳴のかけら」表記もあり(同一物と解釈)。",
+    "refs": [
+      {
+        "source": "jp-notice-1455"
+      }
+    ]
+  },
+  {
+    "id": "咆哮する金竜のデカール袋",
+    "name": "咆哮する金竜のデカール袋",
+    "kind": "box",
+    "series": "咆哮する金竜特殊防具",
+    "description": "咆哮する金竜の特殊防具の袋。特殊防具の能力値は画像のため未取得。",
+    "refs": [
+      {
+        "source": "jp-notice-1347"
+      }
+    ]
+  },
+  {
+    "id": "咆哮する金竜の尻尾袋",
+    "name": "咆哮する金竜の尻尾袋",
+    "kind": "box",
+    "series": "咆哮する金竜特殊防具",
+    "description": "咆哮する金竜の特殊防具の袋。特殊防具の能力値は画像のため未取得。",
+    "refs": [
+      {
+        "source": "jp-notice-1347"
+      }
+    ]
+  },
+  {
+    "id": "咆哮する金竜の翼袋",
+    "name": "咆哮する金竜の翼袋",
+    "kind": "box",
+    "series": "咆哮する金竜特殊防具",
+    "description": "咆哮する金竜の特殊防具の袋。特殊防具の能力値は画像のため未取得。",
+    "refs": [
+      {
+        "source": "jp-notice-1347"
+      }
+    ]
+  },
+  {
+    "id": "棘付きの仮面",
+    "name": "棘付きの仮面",
+    "kind": "material",
+    "obtain": [
+      "桃郷苑ステージ"
+    ],
+    "description": "別表記: 棘のついた仮面 (ベルスカードの責任 細工段階表・説明文)。",
+    "refs": [
+      {
+        "source": "jp-notice-1440"
+      },
+      {
+        "source": "jp-notice-1455"
+      }
+    ]
+  },
+  {
+    "id": "黎明の古代ボトムの破片",
+    "name": "黎明の古代ボトムの破片",
+    "kind": "material",
+    "refs": [
+      {
+        "source": "jp-notice-1217"
+      },
+      {
+        "source": "jp-notice-1276"
+      }
+    ]
+  }
+]

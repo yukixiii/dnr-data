@@ -1,0 +1,306 @@
+[
+  {
+    "id": "jp-vipwiki-status",
+    "url": "https://wikiwiki.jp/vipdranes/ステータス・装備",
+    "region": "JP",
+    "kind": "wiki",
+    "title": "ステータス・装備 - VIPでドラゴンネスト Wiki*",
+    "published_at": "2026-09-21",
+    "fetched_at": "2026-10-04"
+  },
+  {
+    "id": "jp-notice-1466",
+    "url": "https://dnr-hangame.brabragames.jp/news/notice.html?mode=read&no=1466",
+    "region": "JP",
+    "kind": "official",
+    "title": "(更新)2026年9月16日アップデート＆イベント情報",
+    "published_at": "2026-09-16",
+    "fetched_at": "2026-10-04"
+  },
+  {
+    "id": "jp-notice-1467",
+    "url": "https://dnr-hangame.brabragames.jp/news/notice.html?mode=read&no=1467",
+    "region": "JP",
+    "kind": "official",
+    "title": "(更新)【事前告知】次回アップデートについて",
+    "published_at": "2026-09-15",
+    "fetched_at": "2026-10-04"
+  },
+  {
+    "id": "jp-notice-1455",
+    "url": "https://dnr-hangame.brabragames.jp/news/notice.html?mode=read&no=1455",
+    "region": "JP",
+    "kind": "official",
+    "title": "(更新2)2026年8月19日アップデートのお知らせ",
+    "published_at": "2026-08-19",
+    "fetched_at": "2026-10-04"
+  },
+  {
+    "id": "jp-notice-1440",
+    "url": "https://dnr-hangame.brabragames.jp/news/notice.html?mode=read&no=1440",
+    "region": "JP",
+    "kind": "official",
+    "title": "(更新3)2026年7月15日アップデートのお知らせ",
+    "published_at": "2026-07-15",
+    "fetched_at": "2026-10-04"
+  },
+  {
+    "id": "jp-notice-1426",
+    "url": "https://dnr-hangame.brabragames.jp/news/notice.html?mode=read&no=1426",
+    "region": "JP",
+    "kind": "official",
+    "title": "(更新3)2026年6月17日アップデートのお知らせ",
+    "published_at": "2026-06-17",
+    "fetched_at": "2026-10-04"
+  },
+  {
+    "id": "kr-patchnote-20260604-c7",
+    "url": "https://patchnote.dragonnest.com/kr/186/c/7",
+    "region": "KR",
+    "kind": "official",
+    "title": "[2026년] 6차 패치노트 - 변경/추가 (금룡 장비 강화 조정)",
+    "published_at": "2026-06-04",
+    "fetched_at": "2026-10-04"
+  },
+  {
+    "id": "jp-notice-1411",
+    "url": "https://dnr-hangame.brabragames.jp/news/notice.html?mode=read&no=1411",
+    "region": "JP",
+    "kind": "official",
+    "title": "(更新2)2026年5月20日アップデートのお知らせ",
+    "published_at": "2026-05-20",
+    "fetched_at": "2026-10-04"
+  },
+  {
+    "id": "jp-notice-1398",
+    "url": "https://dnr-hangame.brabragames.jp/news/notice.html?mode=read&no=1398",
+    "region": "JP",
+    "kind": "official",
+    "title": "(更新2)2026年4月22日アップデート＆イベント情報",
+    "published_at": "2026-04-22",
+    "fetched_at": "2026-10-04"
+  },
+  {
+    "id": "kr-patchnote-20260416-c2",
+    "url": "https://patchnote.dragonnest.com/kr/182/c/2",
+    "region": "KR",
+    "kind": "official",
+    "title": "[2026년] 4차 패치노트 - 금룡 장비",
+    "published_at": "2026-04-16",
+    "fetched_at": "2026-10-04"
+  },
+  {
+    "id": "kr-patchnote-20260416-c0",
+    "url": "https://patchnote.dragonnest.com/kr/182/c/0",
+    "region": "KR",
+    "kind": "official",
+    "title": "[2026년] 4차 패치노트 - 골드드래곤 네스트 Hardcore/Zero",
+    "published_at": "2026-04-16",
+    "fetched_at": "2026-10-04"
+  },
+  {
+    "id": "kr-patchnote-20260416-c9",
+    "url": "https://patchnote.dragonnest.com/kr/182/c/9",
+    "region": "KR",
+    "kind": "official",
+    "title": "[2026년] 4차 패치노트 - 백룡 악세서리 성장",
+    "published_at": "2026-04-16",
+    "fetched_at": "2026-10-04"
+  },
+  {
+    "id": "jp-notice-1387",
+    "url": "https://dnr-hangame.brabragames.jp/news/notice.html?mode=read&no=1387",
+    "region": "JP",
+    "kind": "official",
+    "title": "(更新3)2026年3月18日アップデートのお知らせ",
+    "published_at": "2026-03-18",
+    "fetched_at": "2026-10-04"
+  },
+  {
+    "id": "jp-notice-1376",
+    "url": "https://dnr-hangame.brabragames.jp/news/notice.html?mode=read&no=1376",
+    "region": "JP",
+    "kind": "official",
+    "title": "(更新)2026年2月10日アップデートのお知らせ",
+    "published_at": "2026-02-10",
+    "fetched_at": "2026-10-04"
+  },
+  {
+    "id": "jp-notice-1362",
+    "url": "https://dnr-hangame.brabragames.jp/news/notice.html?mode=read&no=1362",
+    "region": "JP",
+    "kind": "official",
+    "title": "(更新)2026年1月14日アップデートのお知らせ",
+    "published_at": "2026-01-14",
+    "fetched_at": "2026-10-04"
+  },
+  {
+    "id": "jp-notice-1347",
+    "url": "https://dnr-hangame.brabragames.jp/news/notice.html?mode=read&no=1347",
+    "region": "JP",
+    "kind": "official",
+    "title": "2025年12月17日アップデートのお知らせ",
+    "published_at": "2025-12-17",
+    "fetched_at": "2026-10-04"
+  },
+  {
+    "id": "jp-notice-1332",
+    "url": "https://dnr-hangame.brabragames.jp/news/notice.html?mode=read&no=1332",
+    "region": "JP",
+    "kind": "official",
+    "title": "(更新2)2025年11月19日アップデート＆イベント情報",
+    "published_at": "2025-11-19",
+    "fetched_at": "2026-10-04"
+  },
+  {
+    "id": "kr-patchnote-20251014-c7",
+    "url": "https://patchnote.dragonnest.com/kr/164/c/7",
+    "region": "KR",
+    "kind": "official",
+    "title": "[2025년] 10차 패치노트 - 캐시아이템 (아이오나 강화 단계 확장)",
+    "published_at": "2025-10-14",
+    "fetched_at": "2026-10-04"
+  },
+  {
+    "id": "jp-notice-1311",
+    "url": "https://dnr-hangame.brabragames.jp/news/notice.html?mode=read&no=1311",
+    "region": "JP",
+    "kind": "official",
+    "title": "(更新2)2025年9月24日アップデートのお知らせ",
+    "published_at": "2025-09-24",
+    "fetched_at": "2026-10-04"
+  },
+  {
+    "id": "jp-notice-1300",
+    "url": "https://dnr-hangame.brabragames.jp/news/notice.html?mode=read&no=1300",
+    "region": "JP",
+    "kind": "official",
+    "title": "（更新3）2025年8月20日アップデートのお知らせ",
+    "published_at": "2025-08-20",
+    "fetched_at": "2026-10-04"
+  },
+  {
+    "id": "jp-notice-1287",
+    "url": "https://dnr-hangame.brabragames.jp/news/notice.html?mode=read&no=1287",
+    "region": "JP",
+    "kind": "official",
+    "title": "(更新7)2025年7月16日アップデートのお知らせ",
+    "published_at": "2025-07-16",
+    "fetched_at": "2026-10-04"
+  },
+  {
+    "id": "jp-notice-1276",
+    "url": "https://dnr-hangame.brabragames.jp/news/notice.html?mode=read&no=1276",
+    "region": "JP",
+    "kind": "official",
+    "title": "（更新）2025年6月18日アップデートのお知らせ",
+    "published_at": "2025-06-18",
+    "fetched_at": "2026-10-04"
+  },
+  {
+    "id": "jp-notice-1265",
+    "url": "https://dnr-hangame.brabragames.jp/news/notice.html?mode=read&no=1265",
+    "region": "JP",
+    "kind": "official",
+    "title": "2025年5月21日アップデートのお知らせ",
+    "published_at": "2025-05-21",
+    "fetched_at": "2026-10-04"
+  },
+  {
+    "id": "jp-notice-1246",
+    "url": "https://dnr-hangame.brabragames.jp/news/notice.html?mode=read&no=1246",
+    "region": "JP",
+    "kind": "official",
+    "title": "(更新4)2025年4月23日アップデートのお知らせ",
+    "published_at": "2025-04-23",
+    "fetched_at": "2026-10-04"
+  },
+  {
+    "id": "jp-notice-1231",
+    "url": "https://dnr-hangame.brabragames.jp/news/notice.html?mode=read&no=1231",
+    "region": "JP",
+    "kind": "official",
+    "title": "(更新4)2025年3月26日アップデートのお知らせ",
+    "published_at": "2025-03-26",
+    "fetched_at": "2026-10-04"
+  },
+  {
+    "id": "jp-notice-1217",
+    "url": "https://dnr-hangame.brabragames.jp/news/notice.html?mode=read&no=1217",
+    "region": "JP",
+    "kind": "official",
+    "title": "(更新3)2025年2月19日アップデートのお知らせ",
+    "published_at": "2025-02-19",
+    "fetched_at": "2026-10-04"
+  },
+  {
+    "id": "jp-notice-1193",
+    "url": "https://dnr-hangame.brabragames.jp/news/notice.html?mode=read&no=1193",
+    "region": "JP",
+    "kind": "official",
+    "title": "(更新)12月18日アップデートのお知らせ",
+    "published_at": "2024-12-18",
+    "fetched_at": "2026-10-04"
+  },
+  {
+    "id": "jp-notice-1173",
+    "url": "https://dnr-hangame.brabragames.jp/news/notice.html?mode=read&no=1173",
+    "region": "JP",
+    "kind": "official",
+    "title": "(更新)10月23日アップデートのお知らせ",
+    "published_at": "2024-10-23",
+    "fetched_at": "2026-10-04"
+  },
+  {
+    "id": "jp-notice-1162",
+    "url": "https://dnr-hangame.brabragames.jp/news/notice.html?mode=read&no=1162",
+    "region": "JP",
+    "kind": "official",
+    "title": "(更新2)9月25日アップデートのお知らせ",
+    "published_at": "2024-09-25",
+    "fetched_at": "2026-10-04"
+  },
+  {
+    "id": "jp-notice-1151",
+    "url": "https://dnr-hangame.brabragames.jp/news/notice.html?mode=read&no=1151",
+    "region": "JP",
+    "kind": "official",
+    "title": "(更新2)8月21日アップデートのお知らせ",
+    "published_at": "2024-08-21",
+    "fetched_at": "2026-10-04"
+  },
+  {
+    "id": "jp-notice-1139",
+    "url": "https://dnr-hangame.brabragames.jp/news/notice.html?mode=read&no=1139",
+    "region": "JP",
+    "kind": "official",
+    "title": "(更新)7月17日アップデートのお知らせ",
+    "published_at": "2024-07-17",
+    "fetched_at": "2026-10-04"
+  },
+  {
+    "id": "jp-notice-1127",
+    "url": "https://dnr-hangame.brabragames.jp/news/notice.html?mode=read&no=1127",
+    "region": "JP",
+    "kind": "official",
+    "title": "(更新2)6月19日アップデートのお知らせ",
+    "published_at": "2024-06-19",
+    "fetched_at": "2026-10-04"
+  },
+  {
+    "id": "kr-pupugame-prob-86",
+    "url": "https://dn.pupugame.com/introduce/probability.html?no=49&pno=51&sno=86",
+    "region": "KR",
+    "kind": "official",
+    "title": "확률형 아이템 정보 - NPC 강화 - 방어구&무기",
+    "fetched_at": "2026-10-04"
+  },
+  {
+    "id": "kr-pupugame-prob-99",
+    "url": "https://dn.pupugame.com/introduce/probability.html?no=12&pno=19&sno=99",
+    "region": "KR",
+    "kind": "official",
+    "title": "확률형 아이템 정보 - 용옥 - 금룡의 용옥",
+    "fetched_at": "2026-10-04"
+  }
+]
