@@ -1,0 +1,584 @@
+{
+ "0": {
+  "label": "力",
+  "ratio": false,
+  "fields": [
+   "力"
+  ],
+  "name": "力"
+ },
+ "1": {
+  "label": "敏捷",
+  "ratio": false,
+  "fields": [
+   "敏捷"
+  ],
+  "name": "敏捷"
+ },
+ "2": {
+  "label": "知力",
+  "ratio": false,
+  "fields": [
+   "知力"
+  ],
+  "name": "知力"
+ },
+ "3": {
+  "label": "体力",
+  "ratio": false,
+  "fields": [
+   "体力"
+  ],
+  "name": "体力"
+ },
+ "4": {
+  "label": "最小物理攻撃力",
+  "ratio": false,
+  "fields": [
+   "最小物理攻撃力"
+  ]
+ },
+ "5": {
+  "label": "最大物理攻撃力",
+  "ratio": false,
+  "fields": [
+   "最大物理攻撃力"
+  ]
+ },
+ "6": {
+  "label": "最小魔法攻撃力",
+  "ratio": false,
+  "fields": [
+   "最小魔法攻撃力"
+  ]
+ },
+ "7": {
+  "label": "最大魔法攻撃力",
+  "ratio": false,
+  "fields": [
+   "最大魔法攻撃力"
+  ]
+ },
+ "8": {
+  "label": "物理防御力",
+  "ratio": false,
+  "fields": [
+   "物理防御力"
+  ],
+  "name": "物理防御"
+ },
+ "9": {
+  "label": "魔法防御力",
+  "ratio": false,
+  "fields": [
+   "魔法防御力"
+  ],
+  "name": "魔法防御"
+ },
+ "10": {
+  "label": "ディレイ",
+  "ratio": false,
+  "fields": [
+   "ディレイ"
+  ],
+  "name": "ディレイ"
+ },
+ "11": {
+  "label": "ディレイ抵抗",
+  "ratio": false,
+  "fields": [
+   "ディレイ抵抗"
+  ],
+  "name": "ディレイ抵抗"
+ },
+ "12": {
+  "label": "CT",
+  "ratio": false,
+  "fields": [
+   "CT"
+  ],
+  "name": "CT"
+ },
+ "13": {
+  "label": "CT抵抗",
+  "ratio": false,
+  "fields": [
+   "CT抵抗"
+  ],
+  "name": "CT抵抗"
+ },
+ "14": {
+  "label": "スタン",
+  "ratio": false,
+  "fields": [
+   "スタン"
+  ],
+  "name": "スタン"
+ },
+ "15": {
+  "label": "スタン抵抗",
+  "ratio": false,
+  "fields": [
+   "スタン抵抗"
+  ],
+  "name": "スタン抵抗"
+ },
+ "16": {
+  "label": "火攻撃",
+  "ratio": true,
+  "fields": [
+   "火攻撃%"
+  ]
+ },
+ "17": {
+  "label": "氷攻撃",
+  "ratio": true,
+  "fields": [
+   "氷攻撃%"
+  ]
+ },
+ "18": {
+  "label": "雷攻撃",
+  "ratio": true,
+  "fields": [
+   "雷攻撃%"
+  ]
+ },
+ "19": {
+  "label": "闇攻撃",
+  "ratio": true,
+  "fields": [
+   "闇攻撃%"
+  ]
+ },
+ "20": {
+  "label": "火耐性",
+  "ratio": true,
+  "fields": [
+   "火耐性%"
+  ]
+ },
+ "21": {
+  "label": "氷耐性",
+  "ratio": true,
+  "fields": [
+   "氷耐性%"
+  ]
+ },
+ "22": {
+  "label": "雷耐性",
+  "ratio": true,
+  "fields": [
+   "雷耐性%"
+  ]
+ },
+ "23": {
+  "label": "闇耐性",
+  "ratio": true,
+  "fields": [
+   "闇耐性%"
+  ]
+ },
+ "24": {
+  "label": "移動速度",
+  "ratio": false,
+  "fields": [
+   "移動速度"
+  ],
+  "name": "移動速度"
+ },
+ "25": {
+  "label": "最大HP",
+  "ratio": false,
+  "fields": [
+   "最大HP"
+  ],
+  "name": "最大HP"
+ },
+ "26": {
+  "label": "最大MP",
+  "ratio": false,
+  "fields": [
+   "最大MP"
+  ],
+  "name": "最大MP"
+ },
+ "27": {
+  "label": "MP回復",
+  "ratio": false,
+  "fields": [
+   "MP回復"
+  ]
+ },
+ "28": {
+  "label": "スーパーアーマー",
+  "ratio": false,
+  "fields": [
+   "スーパーアーマー"
+  ]
+ },
+ "29": {
+  "label": "FD",
+  "ratio": false,
+  "fields": [
+   "FD"
+  ],
+  "name": "FD"
+ },
+ "30": {
+  "label": "安全地域の追加移動速度",
+  "ratio": false,
+  "fields": [
+   "安全地域の追加移動速度"
+  ]
+ },
+ "31": {
+  "label": "追加経験値",
+  "ratio": true,
+  "fields": [
+   "追加経験値%"
+  ]
+ },
+ "32": {
+  "label": "物理攻撃力",
+  "ratio": false,
+  "fields": [
+   "最小物理攻撃力",
+   "最大物理攻撃力"
+  ]
+ },
+ "33": {
+  "label": "魔法攻撃力",
+  "ratio": false,
+  "fields": [
+   "最小魔法攻撃力",
+   "最大魔法攻撃力"
+  ]
+ },
+ "37": {
+  "label": "力/敏捷/知力/体力",
+  "ratio": false,
+  "fields": [
+   "力",
+   "敏捷",
+   "知力",
+   "体力"
+  ]
+ },
+ "50": {
+  "label": "力",
+  "ratio": true,
+  "fields": [
+   "力%"
+  ],
+  "name": "力%"
+ },
+ "51": {
+  "label": "敏捷",
+  "ratio": true,
+  "fields": [
+   "敏捷%"
+  ],
+  "name": "敏捷%"
+ },
+ "52": {
+  "label": "知力",
+  "ratio": true,
+  "fields": [
+   "知力%"
+  ],
+  "name": "知力%"
+ },
+ "53": {
+  "label": "体力",
+  "ratio": true,
+  "fields": [
+   "体力%"
+  ],
+  "name": "体力%"
+ },
+ "54": {
+  "label": "最小物理攻撃力",
+  "ratio": true,
+  "fields": [
+   "最小物理攻撃力%"
+  ]
+ },
+ "55": {
+  "label": "最大物理攻撃力",
+  "ratio": true,
+  "fields": [
+   "最大物理攻撃力%"
+  ]
+ },
+ "56": {
+  "label": "最小魔法攻撃力",
+  "ratio": true,
+  "fields": [
+   "最小魔法攻撃力%"
+  ]
+ },
+ "57": {
+  "label": "最大魔法攻撃力",
+  "ratio": true,
+  "fields": [
+   "最大魔法攻撃力%"
+  ]
+ },
+ "58": {
+  "label": "物理防御力",
+  "ratio": true,
+  "fields": [
+   "物理防御力%"
+  ],
+  "name": "物理防御%"
+ },
+ "59": {
+  "label": "魔法防御力",
+  "ratio": true,
+  "fields": [
+   "魔法防御力%"
+  ],
+  "name": "魔法防御%"
+ },
+ "60": {
+  "label": "ディレイ",
+  "ratio": true,
+  "fields": [
+   "ディレイ%"
+  ]
+ },
+ "61": {
+  "label": "ディレイ抵抗",
+  "ratio": true,
+  "fields": [
+   "ディレイ抵抗%"
+  ]
+ },
+ "62": {
+  "label": "CT",
+  "ratio": true,
+  "fields": [
+   "CT%"
+  ],
+  "name": "CT%"
+ },
+ "63": {
+  "label": "CT抵抗",
+  "ratio": true,
+  "fields": [
+   "CT抵抗%"
+  ]
+ },
+ "64": {
+  "label": "スタン",
+  "ratio": true,
+  "fields": [
+   "スタン%"
+  ]
+ },
+ "65": {
+  "label": "スタン抵抗",
+  "ratio": true,
+  "fields": [
+   "スタン抵抗%"
+  ]
+ },
+ "74": {
+  "label": "移動速度",
+  "ratio": true,
+  "fields": [
+   "移動速度%"
+  ],
+  "name": "移動速度%"
+ },
+ "75": {
+  "label": "最大HP",
+  "ratio": true,
+  "fields": [
+   "最大HP%"
+  ],
+  "name": "最大HP%"
+ },
+ "76": {
+  "label": "最大MP",
+  "ratio": true,
+  "fields": [
+   "最大MP%"
+  ],
+  "name": "最大MP%"
+ },
+ "77": {
+  "label": "MP回復",
+  "ratio": true,
+  "fields": [
+   "MP回復%"
+  ]
+ },
+ "78": {
+  "label": "スーパーアーマー",
+  "ratio": true,
+  "fields": [
+   "スーパーアーマー%"
+  ]
+ },
+ "79": {
+  "label": "FD",
+  "ratio": true,
+  "fields": [
+   "FD%"
+  ],
+  "name": "FD%"
+ },
+ "81": {
+  "label": "安全地域の追加移動速度",
+  "ratio": true,
+  "fields": [
+   "安全地域の追加移動速度%"
+  ]
+ },
+ "87": {
+  "label": "力/敏捷/知力/体力",
+  "ratio": true,
+  "fields": [
+   "力%",
+   "敏捷%",
+   "知力%",
+   "体力%"
+  ]
+ },
+ "88": {
+  "label": "全ての属性攻撃力",
+  "ratio": true,
+  "fields": [
+   "火攻撃%",
+   "氷攻撃%",
+   "雷攻撃%",
+   "闇攻撃%"
+  ]
+ },
+ "89": {
+  "label": "全ての属性耐性",
+  "ratio": true,
+  "fields": [
+   "火耐性%",
+   "氷耐性%",
+   "雷耐性%",
+   "闇耐性%"
+  ]
+ },
+ "100": {
+  "label": "ガッツ",
+  "ratio": false,
+  "fields": [
+   "ガッツ"
+  ],
+  "name": "ガッツ"
+ },
+ "101": {
+  "label": "物理攻撃力",
+  "ratio": true,
+  "fields": [
+   "最小物理攻撃力%",
+   "最大物理攻撃力%"
+  ]
+ },
+ "102": {
+  "label": "魔法攻撃力",
+  "ratio": true,
+  "fields": [
+   "最小魔法攻撃力%",
+   "最大魔法攻撃力%"
+  ]
+ },
+ "103": {
+  "label": "CTダメージ",
+  "ratio": false,
+  "fields": [
+   "CTダメージ"
+  ],
+  "name": "CTD"
+ },
+ "104": {
+  "label": "CTダメージ",
+  "ratio": true,
+  "fields": [
+   "CTダメージ%"
+  ],
+  "name": "CTD%"
+ },
+ "105": {
+  "label": "PvP攻撃力",
+  "ratio": false,
+  "fields": [
+   "PvP攻撃力"
+  ]
+ },
+ "106": {
+  "label": "PvP防御力",
+  "ratio": false,
+  "fields": [
+   "PvP防御力"
+  ]
+ },
+ "109": {
+  "label": "適応力",
+  "ratio": false,
+  "fields": [
+   "適応力"
+  ],
+  "name": "適応力"
+ },
+ "110": {
+  "label": "物理/魔法攻撃力",
+  "ratio": false,
+  "fields": [
+   "最小物理攻撃力",
+   "最大物理攻撃力",
+   "最小魔法攻撃力",
+   "最大魔法攻撃力"
+  ]
+ },
+ "111": {
+  "label": "最小物理/魔法攻撃力",
+  "ratio": false,
+  "fields": [
+   "最小物理攻撃力",
+   "最小魔法攻撃力"
+  ]
+ },
+ "112": {
+  "label": "最大物理/魔法攻撃力",
+  "ratio": false,
+  "fields": [
+   "最大物理攻撃力",
+   "最大魔法攻撃力"
+  ]
+ },
+ "113": {
+  "label": "物理/魔法攻撃力",
+  "ratio": true,
+  "fields": [
+   "最小物理攻撃力%",
+   "最大物理攻撃力%",
+   "最小魔法攻撃力%",
+   "最大魔法攻撃力%"
+  ]
+ },
+ "114": {
+  "label": "最小物理/魔法攻撃力",
+  "ratio": true,
+  "fields": [
+   "最小物理攻撃力%",
+   "最小魔法攻撃力%"
+  ]
+ },
+ "115": {
+  "label": "最大物理/魔法攻撃力",
+  "ratio": true,
+  "fields": [
+   "最大物理攻撃力%",
+   "最大魔法攻撃力%"
+  ]
+ }
+}

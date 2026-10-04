@@ -1,0 +1,10737 @@
+{
+ "source": "jp-client-20261001",
+ "pak_date": "2026-10-01",
+ "items": {
+  "[10段階]異界のネルウィンブローチ": {
+   "client_id": 1073951369,
+   "table": "itemtable_cashbrooch",
+   "grade": "ユニーク",
+   "stats": [
+    {
+     "name": "物魔攻撃%",
+     "value": "11.50%"
+    },
+    {
+     "name": "FD",
+     "value": "200"
+    },
+    {
+     "name": "最大HP%",
+     "value": "5.00%"
+    }
+   ],
+   "skill_id": 78692
+  },
+  "[10段階]次元のベルスカードブローチ": {
+   "client_id": 1073950357,
+   "table": "itemtable_cashbrooch",
+   "grade": "ユニーク",
+   "stats": [
+    {
+     "name": "属性%",
+     "value": "10.00%"
+    },
+    {
+     "name": "FD",
+     "value": "200"
+    },
+    {
+     "name": "最大HP%",
+     "value": "5.00%"
+    }
+   ],
+   "skill_id": 81804
+  },
+  "[11段階]異界のネルウィンブローチ": {
+   "client_id": 1073951370,
+   "table": "itemtable_cashbrooch",
+   "grade": "ユニーク",
+   "stats": [
+    {
+     "name": "物魔攻撃%",
+     "value": "11.50%"
+    },
+    {
+     "name": "FD",
+     "value": "200"
+    },
+    {
+     "name": "最大HP%",
+     "value": "5.00%"
+    }
+   ],
+   "skill_id": 78693
+  },
+  "[11段階]次元のベルスカードブローチ": {
+   "client_id": 1073950358,
+   "table": "itemtable_cashbrooch",
+   "grade": "ユニーク",
+   "stats": [
+    {
+     "name": "属性%",
+     "value": "10.00%"
+    },
+    {
+     "name": "FD",
+     "value": "200"
+    },
+    {
+     "name": "最大HP%",
+     "value": "5.00%"
+    }
+   ],
+   "skill_id": 81805
+  },
+  "[12段階]異界のネルウィンブローチ": {
+   "client_id": 1073951371,
+   "table": "itemtable_cashbrooch",
+   "grade": "ユニーク",
+   "stats": [
+    {
+     "name": "物魔攻撃%",
+     "value": "11.50%"
+    },
+    {
+     "name": "FD",
+     "value": "200"
+    },
+    {
+     "name": "最大HP%",
+     "value": "5.00%"
+    }
+   ],
+   "skill_id": 78694
+  },
+  "[12段階]次元のベルスカードブローチ": {
+   "client_id": 1073950359,
+   "table": "itemtable_cashbrooch",
+   "grade": "ユニーク",
+   "stats": [
+    {
+     "name": "属性%",
+     "value": "10.00%"
+    },
+    {
+     "name": "FD",
+     "value": "200"
+    },
+    {
+     "name": "最大HP%",
+     "value": "5.00%"
+    }
+   ],
+   "skill_id": 81806
+  },
+  "[13段階]異界のネルウィンブローチ": {
+   "client_id": 1073951372,
+   "table": "itemtable_cashbrooch",
+   "grade": "ユニーク",
+   "stats": [
+    {
+     "name": "物魔攻撃%",
+     "value": "11.50%"
+    },
+    {
+     "name": "FD",
+     "value": "200"
+    },
+    {
+     "name": "最大HP%",
+     "value": "5.00%"
+    }
+   ],
+   "skill_id": 78695
+  },
+  "[13段階]次元のベルスカードブローチ": {
+   "client_id": 1073950360,
+   "table": "itemtable_cashbrooch",
+   "grade": "ユニーク",
+   "stats": [
+    {
+     "name": "属性%",
+     "value": "10.00%"
+    },
+    {
+     "name": "FD",
+     "value": "200"
+    },
+    {
+     "name": "最大HP%",
+     "value": "5.00%"
+    }
+   ],
+   "skill_id": 81807
+  },
+  "[14段階]異界のネルウィンブローチ": {
+   "client_id": 1073951373,
+   "table": "itemtable_cashbrooch",
+   "grade": "ユニーク",
+   "stats": [
+    {
+     "name": "物魔攻撃%",
+     "value": "11.50%"
+    },
+    {
+     "name": "FD",
+     "value": "200"
+    },
+    {
+     "name": "最大HP%",
+     "value": "5.00%"
+    }
+   ],
+   "skill_id": 78696
+  },
+  "[14段階]次元のベルスカードブローチ": {
+   "client_id": 1073950361,
+   "table": "itemtable_cashbrooch",
+   "grade": "ユニーク",
+   "stats": [
+    {
+     "name": "属性%",
+     "value": "10.00%"
+    },
+    {
+     "name": "FD",
+     "value": "200"
+    },
+    {
+     "name": "最大HP%",
+     "value": "5.00%"
+    }
+   ],
+   "skill_id": 81808
+  },
+  "[15段階]異界のネルウィンブローチ": {
+   "client_id": 1073951374,
+   "table": "itemtable_cashbrooch",
+   "grade": "ユニーク",
+   "stats": [
+    {
+     "name": "物魔攻撃%",
+     "value": "11.50%"
+    },
+    {
+     "name": "FD",
+     "value": "200"
+    },
+    {
+     "name": "最大HP%",
+     "value": "5.00%"
+    }
+   ],
+   "skill_id": 78697
+  },
+  "[15段階]次元のベルスカードブローチ": {
+   "client_id": 1073950362,
+   "table": "itemtable_cashbrooch",
+   "grade": "ユニーク",
+   "stats": [
+    {
+     "name": "属性%",
+     "value": "10.00%"
+    },
+    {
+     "name": "FD",
+     "value": "200"
+    },
+    {
+     "name": "最大HP%",
+     "value": "5.00%"
+    }
+   ],
+   "skill_id": 81809
+  },
+  "[1段階：異界]信念のテラマイブローチ": {
+   "client_id": 1073955738,
+   "table": "itemtable_cashbrooch",
+   "grade": "ユニーク",
+   "stats": [
+    {
+     "name": "属性%",
+     "value": "1.00%"
+    },
+    {
+     "name": "FD",
+     "value": "200"
+    },
+    {
+     "name": "最大HP%",
+     "value": "10.00%"
+    },
+    {
+     "name": "物理防御",
+     "value": "45,000"
+    },
+    {
+     "name": "最大HP",
+     "value": "1,000,000"
+    }
+   ],
+   "skill_id": 78740
+  },
+  "[1段階]異界のネルウィンブローチ": {
+   "client_id": 1073951360,
+   "table": "itemtable_cashbrooch",
+   "grade": "ユニーク",
+   "stats": [
+    {
+     "name": "物魔攻撃%",
+     "value": "11.50%"
+    },
+    {
+     "name": "FD",
+     "value": "200"
+    },
+    {
+     "name": "最大HP%",
+     "value": "5.00%"
+    }
+   ],
+   "skill_id": 78683
+  },
+  "[1段階]次元のベルスカードブローチ": {
+   "client_id": 1073950348,
+   "table": "itemtable_cashbrooch",
+   "grade": "ユニーク",
+   "stats": [
+    {
+     "name": "属性%",
+     "value": "10.00%"
+    },
+    {
+     "name": "FD",
+     "value": "200"
+    },
+    {
+     "name": "最大HP%",
+     "value": "5.00%"
+    }
+   ],
+   "skill_id": 81795
+  },
+  "[1段階]封印された力のネルウィンブローチ(エピック)": {
+   "client_id": 1073950374,
+   "table": "itemtable_cashbrooch",
+   "grade": "エピック",
+   "stats": [
+    {
+     "name": "物魔攻撃%",
+     "value": "9.00%"
+    },
+    {
+     "name": "FD",
+     "value": "100"
+    },
+    {
+     "name": "最大HP%",
+     "value": "2.00%"
+    }
+   ]
+  },
+  "[1段階]封印された力のネルウィンブローチ(マジック)": {
+   "client_id": 1073950364,
+   "table": "itemtable_cashbrooch",
+   "grade": "マジック",
+   "stats": [
+    {
+     "name": "物魔攻撃%",
+     "value": "0.10%"
+    }
+   ]
+  },
+  "[1段階]封印された力のネルウィンブローチ(レア)": {
+   "client_id": 1073950369,
+   "table": "itemtable_cashbrooch",
+   "grade": "レア",
+   "stats": [
+    {
+     "name": "物魔攻撃%",
+     "value": "6.00%"
+    },
+    {
+     "name": "FD",
+     "value": "50"
+    },
+    {
+     "name": "最大HP%",
+     "value": "1.00%"
+    }
+   ]
+  },
+  "[1段階]封印された力のベルスカードブローチ(エピック)": {
+   "client_id": 1073950343,
+   "table": "itemtable_cashbrooch",
+   "grade": "エピック",
+   "stats": [
+    {
+     "name": "属性%",
+     "value": "7.60%"
+    },
+    {
+     "name": "FD",
+     "value": "100"
+    },
+    {
+     "name": "最大HP%",
+     "value": "2.00%"
+    }
+   ]
+  },
+  "[1段階]封印された力のベルスカードブローチ(マジック)": {
+   "client_id": 1073950333,
+   "table": "itemtable_cashbrooch",
+   "grade": "マジック",
+   "stats": [
+    {
+     "name": "属性%",
+     "value": "0.10%"
+    }
+   ]
+  },
+  "[1段階]封印された力のベルスカードブローチ(レア)": {
+   "client_id": 1073950338,
+   "table": "itemtable_cashbrooch",
+   "grade": "レア",
+   "stats": [
+    {
+     "name": "属性%",
+     "value": "4.60%"
+    },
+    {
+     "name": "FD",
+     "value": "50"
+    },
+    {
+     "name": "最大HP%",
+     "value": "1.00%"
+    }
+   ]
+  },
+  "[2段階：異界]信念のテラマイブローチ": {
+   "client_id": 1073955739,
+   "table": "itemtable_cashbrooch",
+   "grade": "ユニーク",
+   "stats": [
+    {
+     "name": "属性%",
+     "value": "3.00%"
+    },
+    {
+     "name": "FD",
+     "value": "200"
+    },
+    {
+     "name": "最大HP%",
+     "value": "10.00%"
+    },
+    {
+     "name": "物理防御",
+     "value": "45,000"
+    },
+    {
+     "name": "最大HP",
+     "value": "1,000,000"
+    }
+   ],
+   "skill_id": 78741
+  },
+  "[2段階]異界のネルウィンブローチ": {
+   "client_id": 1073951361,
+   "table": "itemtable_cashbrooch",
+   "grade": "ユニーク",
+   "stats": [
+    {
+     "name": "物魔攻撃%",
+     "value": "11.50%"
+    },
+    {
+     "name": "FD",
+     "value": "200"
+    },
+    {
+     "name": "最大HP%",
+     "value": "5.00%"
+    }
+   ],
+   "skill_id": 78684
+  },
+  "[2段階]次元のベルスカードブローチ": {
+   "client_id": 1073950349,
+   "table": "itemtable_cashbrooch",
+   "grade": "ユニーク",
+   "stats": [
+    {
+     "name": "属性%",
+     "value": "10.00%"
+    },
+    {
+     "name": "FD",
+     "value": "200"
+    },
+    {
+     "name": "最大HP%",
+     "value": "5.00%"
+    }
+   ],
+   "skill_id": 81796
+  },
+  "[2段階]封印された力のネルウィンブローチ(エピック)": {
+   "client_id": 1073950375,
+   "table": "itemtable_cashbrooch",
+   "grade": "エピック",
+   "stats": [
+    {
+     "name": "物魔攻撃%",
+     "value": "9.50%"
+    },
+    {
+     "name": "FD",
+     "value": "125"
+    },
+    {
+     "name": "最大HP%",
+     "value": "2.00%"
+    }
+   ]
+  },
+  "[2段階]封印された力のネルウィンブローチ(マジック)": {
+   "client_id": 1073950365,
+   "table": "itemtable_cashbrooch",
+   "grade": "マジック",
+   "stats": [
+    {
+     "name": "物魔攻撃%",
+     "value": "0.60%"
+    }
+   ]
+  },
+  "[2段階]封印された力のネルウィンブローチ(レア)": {
+   "client_id": 1073950370,
+   "table": "itemtable_cashbrooch",
+   "grade": "レア",
+   "stats": [
+    {
+     "name": "物魔攻撃%",
+     "value": "6.60%"
+    },
+    {
+     "name": "FD",
+     "value": "50"
+    },
+    {
+     "name": "最大HP%",
+     "value": "1.00%"
+    }
+   ]
+  },
+  "[2段階]封印された力のベルスカードブローチ(エピック)": {
+   "client_id": 1073950344,
+   "table": "itemtable_cashbrooch",
+   "grade": "エピック",
+   "stats": [
+    {
+     "name": "属性%",
+     "value": "8.20%"
+    },
+    {
+     "name": "FD",
+     "value": "125"
+    },
+    {
+     "name": "最大HP%",
+     "value": "2.00%"
+    }
+   ]
+  },
+  "[2段階]封印された力のベルスカードブローチ(マジック)": {
+   "client_id": 1073950334,
+   "table": "itemtable_cashbrooch",
+   "grade": "マジック",
+   "stats": [
+    {
+     "name": "属性%",
+     "value": "0.50%"
+    }
+   ]
+  },
+  "[2段階]封印された力のベルスカードブローチ(レア)": {
+   "client_id": 1073950339,
+   "table": "itemtable_cashbrooch",
+   "grade": "レア",
+   "stats": [
+    {
+     "name": "属性%",
+     "value": "5.10%"
+    },
+    {
+     "name": "FD",
+     "value": "50"
+    },
+    {
+     "name": "最大HP%",
+     "value": "1.00%"
+    }
+   ]
+  },
+  "[3段階：異界]信念のテラマイブローチ": {
+   "client_id": 1073955740,
+   "table": "itemtable_cashbrooch",
+   "grade": "ユニーク",
+   "stats": [
+    {
+     "name": "属性%",
+     "value": "6.00%"
+    },
+    {
+     "name": "FD",
+     "value": "200"
+    },
+    {
+     "name": "最大HP%",
+     "value": "10.00%"
+    },
+    {
+     "name": "物理防御",
+     "value": "45,000"
+    },
+    {
+     "name": "最大HP",
+     "value": "1,000,000"
+    }
+   ],
+   "skill_id": 78742
+  },
+  "[3段階]異界のネルウィンブローチ": {
+   "client_id": 1073951362,
+   "table": "itemtable_cashbrooch",
+   "grade": "ユニーク",
+   "stats": [
+    {
+     "name": "物魔攻撃%",
+     "value": "11.50%"
+    },
+    {
+     "name": "FD",
+     "value": "200"
+    },
+    {
+     "name": "最大HP%",
+     "value": "5.00%"
+    }
+   ],
+   "skill_id": 78685
+  },
+  "[3段階]次元のベルスカードブローチ": {
+   "client_id": 1073950350,
+   "table": "itemtable_cashbrooch",
+   "grade": "ユニーク",
+   "stats": [
+    {
+     "name": "属性%",
+     "value": "10.00%"
+    },
+    {
+     "name": "FD",
+     "value": "200"
+    },
+    {
+     "name": "最大HP%",
+     "value": "5.00%"
+    }
+   ],
+   "skill_id": 81797
+  },
+  "[3段階]封印された力のネルウィンブローチ(エピック)": {
+   "client_id": 1073950376,
+   "table": "itemtable_cashbrooch",
+   "grade": "エピック",
+   "stats": [
+    {
+     "name": "物魔攻撃%",
+     "value": "10.00%"
+    },
+    {
+     "name": "FD",
+     "value": "150"
+    },
+    {
+     "name": "最大HP%",
+     "value": "4.00%"
+    }
+   ]
+  },
+  "[3段階]封印された力のネルウィンブローチ(マジック)": {
+   "client_id": 1073950366,
+   "table": "itemtable_cashbrooch",
+   "grade": "マジック",
+   "stats": [
+    {
+     "name": "物魔攻撃%",
+     "value": "1.20%"
+    }
+   ]
+  },
+  "[3段階]封印された力のネルウィンブローチ(レア)": {
+   "client_id": 1073950371,
+   "table": "itemtable_cashbrooch",
+   "grade": "レア",
+   "stats": [
+    {
+     "name": "物魔攻撃%",
+     "value": "7.20%"
+    },
+    {
+     "name": "FD",
+     "value": "50"
+    },
+    {
+     "name": "最大HP%",
+     "value": "1.00%"
+    }
+   ]
+  },
+  "[3段階]封印された力のベルスカードブローチ(エピック)": {
+   "client_id": 1073950345,
+   "table": "itemtable_cashbrooch",
+   "grade": "エピック",
+   "stats": [
+    {
+     "name": "属性%",
+     "value": "8.80%"
+    },
+    {
+     "name": "FD",
+     "value": "150"
+    },
+    {
+     "name": "最大HP%",
+     "value": "4.00%"
+    }
+   ]
+  },
+  "[3段階]封印された力のベルスカードブローチ(マジック)": {
+   "client_id": 1073950335,
+   "table": "itemtable_cashbrooch",
+   "grade": "マジック",
+   "stats": [
+    {
+     "name": "属性%",
+     "value": "1.00%"
+    }
+   ]
+  },
+  "[3段階]封印された力のベルスカードブローチ(レア)": {
+   "client_id": 1073950340,
+   "table": "itemtable_cashbrooch",
+   "grade": "レア",
+   "stats": [
+    {
+     "name": "属性%",
+     "value": "5.60%"
+    },
+    {
+     "name": "FD",
+     "value": "50"
+    },
+    {
+     "name": "最大HP%",
+     "value": "1.00%"
+    }
+   ]
+  },
+  "[4段階：異界]信念のテラマイブローチ": {
+   "client_id": 1073955741,
+   "table": "itemtable_cashbrooch",
+   "grade": "ユニーク",
+   "stats": [
+    {
+     "name": "属性%",
+     "value": "10.00%"
+    },
+    {
+     "name": "FD",
+     "value": "200"
+    },
+    {
+     "name": "最大HP%",
+     "value": "10.00%"
+    },
+    {
+     "name": "物理防御",
+     "value": "45,000"
+    },
+    {
+     "name": "最大HP",
+     "value": "1,000,000"
+    }
+   ],
+   "skill_id": 78743
+  },
+  "[4段階]異界のネルウィンブローチ": {
+   "client_id": 1073951363,
+   "table": "itemtable_cashbrooch",
+   "grade": "ユニーク",
+   "stats": [
+    {
+     "name": "物魔攻撃%",
+     "value": "11.50%"
+    },
+    {
+     "name": "FD",
+     "value": "200"
+    },
+    {
+     "name": "最大HP%",
+     "value": "5.00%"
+    }
+   ],
+   "skill_id": 78686
+  },
+  "[4段階]次元のベルスカードブローチ": {
+   "client_id": 1073950351,
+   "table": "itemtable_cashbrooch",
+   "grade": "ユニーク",
+   "stats": [
+    {
+     "name": "属性%",
+     "value": "10.00%"
+    },
+    {
+     "name": "FD",
+     "value": "200"
+    },
+    {
+     "name": "最大HP%",
+     "value": "5.00%"
+    }
+   ],
+   "skill_id": 81798
+  },
+  "[4段階]封印された力のネルウィンブローチ(エピック)": {
+   "client_id": 1073950377,
+   "table": "itemtable_cashbrooch",
+   "grade": "エピック",
+   "stats": [
+    {
+     "name": "物魔攻撃%",
+     "value": "10.50%"
+    },
+    {
+     "name": "FD",
+     "value": "175"
+    },
+    {
+     "name": "最大HP%",
+     "value": "4.00%"
+    }
+   ]
+  },
+  "[4段階]封印された力のネルウィンブローチ(マジック)": {
+   "client_id": 1073950367,
+   "table": "itemtable_cashbrooch",
+   "grade": "マジック",
+   "stats": [
+    {
+     "name": "物魔攻撃%",
+     "value": "2.40%"
+    }
+   ]
+  },
+  "[4段階]封印された力のネルウィンブローチ(レア)": {
+   "client_id": 1073950372,
+   "table": "itemtable_cashbrooch",
+   "grade": "レア",
+   "stats": [
+    {
+     "name": "物魔攻撃%",
+     "value": "7.80%"
+    },
+    {
+     "name": "FD",
+     "value": "50"
+    },
+    {
+     "name": "最大HP%",
+     "value": "1.00%"
+    }
+   ]
+  },
+  "[4段階]封印された力のベルスカードブローチ(エピック)": {
+   "client_id": 1073950346,
+   "table": "itemtable_cashbrooch",
+   "grade": "エピック",
+   "stats": [
+    {
+     "name": "属性%",
+     "value": "9.40%"
+    },
+    {
+     "name": "FD",
+     "value": "175"
+    },
+    {
+     "name": "最大HP%",
+     "value": "4.00%"
+    }
+   ]
+  },
+  "[4段階]封印された力のベルスカードブローチ(マジック)": {
+   "client_id": 1073950336,
+   "table": "itemtable_cashbrooch",
+   "grade": "マジック",
+   "stats": [
+    {
+     "name": "属性%",
+     "value": "2.00%"
+    }
+   ]
+  },
+  "[4段階]封印された力のベルスカードブローチ(レア)": {
+   "client_id": 1073950341,
+   "table": "itemtable_cashbrooch",
+   "grade": "レア",
+   "stats": [
+    {
+     "name": "属性%",
+     "value": "6.20%"
+    },
+    {
+     "name": "FD",
+     "value": "50"
+    },
+    {
+     "name": "最大HP%",
+     "value": "1.00%"
+    }
+   ]
+  },
+  "[5段階：異界]信念のテラマイブローチ": {
+   "client_id": 1073955742,
+   "table": "itemtable_cashbrooch",
+   "grade": "ユニーク",
+   "stats": [
+    {
+     "name": "属性%",
+     "value": "15.00%"
+    },
+    {
+     "name": "FD",
+     "value": "200"
+    },
+    {
+     "name": "最大HP%",
+     "value": "10.00%"
+    },
+    {
+     "name": "物理防御",
+     "value": "45,000"
+    },
+    {
+     "name": "最大HP",
+     "value": "1,000,000"
+    }
+   ],
+   "skill_id": 78744
+  },
+  "[5段階]異界のネルウィンブローチ": {
+   "client_id": 1073951364,
+   "table": "itemtable_cashbrooch",
+   "grade": "ユニーク",
+   "stats": [
+    {
+     "name": "物魔攻撃%",
+     "value": "11.50%"
+    },
+    {
+     "name": "FD",
+     "value": "200"
+    },
+    {
+     "name": "最大HP%",
+     "value": "5.00%"
+    }
+   ],
+   "skill_id": 78687
+  },
+  "[5段階]次元のベルスカードブローチ": {
+   "client_id": 1073950352,
+   "table": "itemtable_cashbrooch",
+   "grade": "ユニーク",
+   "stats": [
+    {
+     "name": "属性%",
+     "value": "10.00%"
+    },
+    {
+     "name": "FD",
+     "value": "200"
+    },
+    {
+     "name": "最大HP%",
+     "value": "5.00%"
+    }
+   ],
+   "skill_id": 81799
+  },
+  "[5段階]封印された力のネルウィンブローチ(エピック)": {
+   "client_id": 1073950378,
+   "table": "itemtable_cashbrooch",
+   "grade": "エピック",
+   "stats": [
+    {
+     "name": "物魔攻撃%",
+     "value": "11.50%"
+    },
+    {
+     "name": "FD",
+     "value": "200"
+    },
+    {
+     "name": "最大HP%",
+     "value": "5.00%"
+    }
+   ]
+  },
+  "[5段階]封印された力のネルウィンブローチ(マジック)": {
+   "client_id": 1073950368,
+   "table": "itemtable_cashbrooch",
+   "grade": "マジック",
+   "stats": [
+    {
+     "name": "物魔攻撃%",
+     "value": "3.20%"
+    }
+   ]
+  },
+  "[5段階]封印された力のネルウィンブローチ(レア)": {
+   "client_id": 1073950373,
+   "table": "itemtable_cashbrooch",
+   "grade": "レア",
+   "stats": [
+    {
+     "name": "物魔攻撃%",
+     "value": "8.40%"
+    },
+    {
+     "name": "FD",
+     "value": "50"
+    },
+    {
+     "name": "最大HP%",
+     "value": "1.00%"
+    }
+   ]
+  },
+  "[5段階]封印された力のベルスカードブローチ(エピック)": {
+   "client_id": 1073950347,
+   "table": "itemtable_cashbrooch",
+   "grade": "エピック",
+   "stats": [
+    {
+     "name": "属性%",
+     "value": "10.00%"
+    },
+    {
+     "name": "FD",
+     "value": "200"
+    },
+    {
+     "name": "最大HP%",
+     "value": "5.00%"
+    }
+   ]
+  },
+  "[5段階]封印された力のベルスカードブローチ(マジック)": {
+   "client_id": 1073950337,
+   "table": "itemtable_cashbrooch",
+   "grade": "マジック",
+   "stats": [
+    {
+     "name": "属性%",
+     "value": "3.10%"
+    }
+   ]
+  },
+  "[5段階]封印された力のベルスカードブローチ(レア)": {
+   "client_id": 1073950342,
+   "table": "itemtable_cashbrooch",
+   "grade": "レア",
+   "stats": [
+    {
+     "name": "属性%",
+     "value": "6.90%"
+    },
+    {
+     "name": "FD",
+     "value": "50"
+    },
+    {
+     "name": "最大HP%",
+     "value": "1.00%"
+    }
+   ]
+  },
+  "[6段階]異界のネルウィンブローチ": {
+   "client_id": 1073951365,
+   "table": "itemtable_cashbrooch",
+   "grade": "ユニーク",
+   "stats": [
+    {
+     "name": "物魔攻撃%",
+     "value": "11.50%"
+    },
+    {
+     "name": "FD",
+     "value": "200"
+    },
+    {
+     "name": "最大HP%",
+     "value": "5.00%"
+    }
+   ],
+   "skill_id": 78688
+  },
+  "[6段階]次元のベルスカードブローチ": {
+   "client_id": 1073950353,
+   "table": "itemtable_cashbrooch",
+   "grade": "ユニーク",
+   "stats": [
+    {
+     "name": "属性%",
+     "value": "10.00%"
+    },
+    {
+     "name": "FD",
+     "value": "200"
+    },
+    {
+     "name": "最大HP%",
+     "value": "5.00%"
+    }
+   ],
+   "skill_id": 81800
+  },
+  "[7段階]異界のネルウィンブローチ": {
+   "client_id": 1073951366,
+   "table": "itemtable_cashbrooch",
+   "grade": "ユニーク",
+   "stats": [
+    {
+     "name": "物魔攻撃%",
+     "value": "11.50%"
+    },
+    {
+     "name": "FD",
+     "value": "200"
+    },
+    {
+     "name": "最大HP%",
+     "value": "5.00%"
+    }
+   ],
+   "skill_id": 78689
+  },
+  "[7段階]次元のベルスカードブローチ": {
+   "client_id": 1073950354,
+   "table": "itemtable_cashbrooch",
+   "grade": "ユニーク",
+   "stats": [
+    {
+     "name": "属性%",
+     "value": "10.00%"
+    },
+    {
+     "name": "FD",
+     "value": "200"
+    },
+    {
+     "name": "最大HP%",
+     "value": "5.00%"
+    }
+   ],
+   "skill_id": 81801
+  },
+  "[8段階]異界のネルウィンブローチ": {
+   "client_id": 1073951367,
+   "table": "itemtable_cashbrooch",
+   "grade": "ユニーク",
+   "stats": [
+    {
+     "name": "物魔攻撃%",
+     "value": "11.50%"
+    },
+    {
+     "name": "FD",
+     "value": "200"
+    },
+    {
+     "name": "最大HP%",
+     "value": "5.00%"
+    }
+   ],
+   "skill_id": 78690
+  },
+  "[8段階]次元のベルスカードブローチ": {
+   "client_id": 1073950355,
+   "table": "itemtable_cashbrooch",
+   "grade": "ユニーク",
+   "stats": [
+    {
+     "name": "属性%",
+     "value": "10.00%"
+    },
+    {
+     "name": "FD",
+     "value": "200"
+    },
+    {
+     "name": "最大HP%",
+     "value": "5.00%"
+    }
+   ],
+   "skill_id": 81802
+  },
+  "[9段階]異界のネルウィンブローチ": {
+   "client_id": 1073951368,
+   "table": "itemtable_cashbrooch",
+   "grade": "ユニーク",
+   "stats": [
+    {
+     "name": "物魔攻撃%",
+     "value": "11.50%"
+    },
+    {
+     "name": "FD",
+     "value": "200"
+    },
+    {
+     "name": "最大HP%",
+     "value": "5.00%"
+    }
+   ],
+   "skill_id": 78691
+  },
+  "[9段階]次元のベルスカードブローチ": {
+   "client_id": 1073950356,
+   "table": "itemtable_cashbrooch",
+   "grade": "ユニーク",
+   "stats": [
+    {
+     "name": "属性%",
+     "value": "10.00%"
+    },
+    {
+     "name": "FD",
+     "value": "200"
+    },
+    {
+     "name": "最大HP%",
+     "value": "5.00%"
+    }
+   ],
+   "skill_id": 81803
+  },
+  "[イヤリング]アイオナの聲": {
+   "client_id": 268506923,
+   "table": "itemtable_cashvip",
+   "grade": "レジェンド",
+   "level": 95,
+   "stats": [
+    {
+     "name": "攻撃力",
+     "value": "450,000"
+    },
+    {
+     "name": "物魔攻撃%",
+     "value": "46.00%"
+    },
+    {
+     "name": "力",
+     "value": "10,000"
+    },
+    {
+     "name": "敏捷",
+     "value": "10,000"
+    },
+    {
+     "name": "知力",
+     "value": "10,000"
+    },
+    {
+     "name": "CT",
+     "value": "10,000"
+    },
+    {
+     "name": "CTD",
+     "value": "150,000"
+    },
+    {
+     "name": "FD",
+     "value": "1,000"
+    }
+   ]
+  },
+  "[ネックレス]アイオナの覚悟": {
+   "client_id": 268506922,
+   "table": "itemtable_cashvip",
+   "grade": "レジェンド",
+   "level": 95,
+   "stats": [
+    {
+     "name": "攻撃力",
+     "value": "500,000"
+    },
+    {
+     "name": "物魔攻撃%",
+     "value": "25.00%"
+    },
+    {
+     "name": "属性%",
+     "value": "25.00%"
+    },
+    {
+     "name": "力",
+     "value": "10,000"
+    },
+    {
+     "name": "敏捷",
+     "value": "10,000"
+    },
+    {
+     "name": "知力",
+     "value": "10,000"
+    },
+    {
+     "name": "FD",
+     "value": "1,000"
+    }
+   ]
+  },
+  "[増幅]古竜の古代アーマー": {
+   "client_id": 268508968,
+   "table": "itemtable_reboot",
+   "grade": "エンシェント",
+   "level": 99,
+   "stats": [
+    {
+     "name": "攻撃力",
+     "value": "2,982,525~4,260,752"
+    },
+    {
+     "name": "物魔攻撃%",
+     "value": "15.00%"
+    },
+    {
+     "name": "属性%",
+     "value": "11.00%"
+    },
+    {
+     "name": "CT",
+     "value": "-50,000"
+    },
+    {
+     "name": "最大HP",
+     "value": "14,666,041"
+    },
+    {
+     "name": "最大HP%",
+     "value": "17.00%"
+    },
+    {
+     "name": "FD",
+     "value": "3,654"
+    },
+    {
+     "name": "物理防御",
+     "value": "49,500"
+    },
+    {
+     "name": "魔法防御",
+     "value": "49,500"
+    }
+   ]
+  },
+  "[増幅]古竜の古代グローブ": {
+   "client_id": 268508970,
+   "table": "itemtable_reboot",
+   "grade": "エンシェント",
+   "level": 99,
+   "stats": [
+    {
+     "name": "攻撃力",
+     "value": "2,567,420~3,667,750"
+    },
+    {
+     "name": "物魔攻撃%",
+     "value": "15.00%"
+    },
+    {
+     "name": "属性%",
+     "value": "11.00%"
+    },
+    {
+     "name": "CT",
+     "value": "-50,000"
+    },
+    {
+     "name": "最大HP",
+     "value": "10,723,861"
+    },
+    {
+     "name": "最大HP%",
+     "value": "12.00%"
+    },
+    {
+     "name": "物理防御",
+     "value": "150,584"
+    },
+    {
+     "name": "魔法防御",
+     "value": "43,811"
+    }
+   ]
+  },
+  "[増幅]古竜の古代ブーツ": {
+   "client_id": 268508971,
+   "table": "itemtable_reboot",
+   "grade": "エンシェント",
+   "level": 99,
+   "stats": [
+    {
+     "name": "攻撃力",
+     "value": "2,567,420~3,667,750"
+    },
+    {
+     "name": "物魔攻撃%",
+     "value": "15.00%"
+    },
+    {
+     "name": "属性%",
+     "value": "11.00%"
+    },
+    {
+     "name": "CT",
+     "value": "-50,000"
+    },
+    {
+     "name": "最大HP",
+     "value": "10,723,861"
+    },
+    {
+     "name": "最大HP%",
+     "value": "12.00%"
+    },
+    {
+     "name": "魔法防御",
+     "value": "150,584"
+    },
+    {
+     "name": "物理防御",
+     "value": "43,811"
+    },
+    {
+     "name": "移動速度%",
+     "value": "3.50%"
+    }
+   ]
+  },
+  "[増幅]古竜の古代ヘルム": {
+   "client_id": 268508967,
+   "table": "itemtable_reboot",
+   "grade": "エンシェント",
+   "level": 99,
+   "stats": [
+    {
+     "name": "攻撃力",
+     "value": "2,642,136~3,774,482"
+    },
+    {
+     "name": "物魔攻撃%",
+     "value": "15.00%"
+    },
+    {
+     "name": "属性%",
+     "value": "52.20%"
+    },
+    {
+     "name": "CT",
+     "value": "-50,000"
+    },
+    {
+     "name": "最大HP",
+     "value": "11,850,199"
+    },
+    {
+     "name": "最大HP%",
+     "value": "13.50%"
+    },
+    {
+     "name": "物理防御",
+     "value": "45,450"
+    },
+    {
+     "name": "魔法防御",
+     "value": "45,450"
+    }
+   ]
+  },
+  "[増幅]古竜の古代ボトム": {
+   "client_id": 268508969,
+   "table": "itemtable_reboot",
+   "grade": "エンシェント",
+   "level": 99,
+   "stats": [
+    {
+     "name": "攻撃力",
+     "value": "2,882,920~4,118,450"
+    },
+    {
+     "name": "物魔攻撃%",
+     "value": "15.00%"
+    },
+    {
+     "name": "属性%",
+     "value": "11.00%"
+    },
+    {
+     "name": "CT",
+     "value": "-50,000"
+    },
+    {
+     "name": "最大HP",
+     "value": "14,102,872"
+    },
+    {
+     "name": "最大HP%",
+     "value": "16.20%"
+    },
+    {
+     "name": "CTD",
+     "value": "1,810,540"
+    },
+    {
+     "name": "物理防御",
+     "value": "48,700"
+    },
+    {
+     "name": "魔法防御",
+     "value": "48,700"
+    }
+   ]
+  },
+  "[増幅]未知の古代イヤリング": {
+   "client_id": 268507080,
+   "table": "itemtable_reboot",
+   "grade": "レジェンド",
+   "level": 99,
+   "stats": [
+    {
+     "name": "攻撃力",
+     "value": "400,000"
+    },
+    {
+     "name": "物魔攻撃%",
+     "value": "13.00%"
+    },
+    {
+     "name": "属性%",
+     "value": "8.00%"
+    },
+    {
+     "name": "CT",
+     "value": "-50,000"
+    }
+   ]
+  },
+  "[増幅]未知の古代ネックレス": {
+   "client_id": 268507079,
+   "table": "itemtable_reboot",
+   "grade": "レジェンド",
+   "level": 99,
+   "stats": [
+    {
+     "name": "攻撃力",
+     "value": "450,000"
+    },
+    {
+     "name": "物魔攻撃%",
+     "value": "5.00%"
+    },
+    {
+     "name": "属性%",
+     "value": "17.00%"
+    },
+    {
+     "name": "FD",
+     "value": "1,300"
+    }
+   ]
+  },
+  "[増幅]未知の古代リング": {
+   "client_id": 268507081,
+   "table": "itemtable_reboot",
+   "grade": "レジェンド",
+   "level": 99,
+   "stats": [
+    {
+     "name": "攻撃力",
+     "value": "350,000"
+    },
+    {
+     "name": "物魔攻撃%",
+     "value": "10.00%"
+    },
+    {
+     "name": "物理防御",
+     "value": "30,000"
+    },
+    {
+     "name": "魔法防御",
+     "value": "30,000"
+    },
+    {
+     "name": "FD",
+     "value": "1,000"
+    }
+   ]
+  },
+  "[未完]次元の変異型竜珠": {
+   "client_id": 268511655,
+   "table": "itemtable_dragonjewel",
+   "grade": "エピック",
+   "level": 95,
+   "stats": [
+    {
+     "name": "攻撃力",
+     "value": "20,000"
+    },
+    {
+     "name": "FD",
+     "value": "60"
+    },
+    {
+     "name": "物理防御",
+     "value": "1,200"
+    },
+    {
+     "name": "魔法防御",
+     "value": "1,200"
+    }
+   ]
+  },
+  "イベールのタリスマン": {
+   "client_id": 268514179,
+   "table": "itemtable_talisman",
+   "grade": "ユニーク",
+   "level": 100,
+   "stats": [
+    {
+     "name": "属性%",
+     "value": "5.00%"
+    }
+   ]
+  },
+  "ウンブラのタリスマン(レア)": {
+   "client_id": 268506589,
+   "table": "itemtable_talisman",
+   "grade": "レア",
+   "level": 99,
+   "stats": [
+    {
+     "name": "物魔攻撃%",
+     "value": "1.00%"
+    },
+    {
+     "name": "物理防御",
+     "value": "22,500"
+    },
+    {
+     "name": "最大HP%",
+     "value": "4.00%"
+    }
+   ]
+  },
+  "クアノスのタリスマン": {
+   "client_id": 268514171,
+   "table": "itemtable_talisman",
+   "grade": "ユニーク",
+   "level": 100,
+   "stats": [
+    {
+     "name": "CT",
+     "value": "82,000"
+    },
+    {
+     "name": "CTD",
+     "value": "740,000"
+    },
+    {
+     "name": "FD",
+     "value": "990"
+    }
+   ]
+  },
+  "シャリカのタリスマン": {
+   "client_id": 268514173,
+   "table": "itemtable_talisman",
+   "grade": "ユニーク",
+   "level": 100,
+   "stats": [
+    {
+     "name": "攻撃力",
+     "value": "395,000"
+    }
+   ]
+  },
+  "ティタニオンのタリスマン(レア)": {
+   "client_id": 268506601,
+   "table": "itemtable_talisman",
+   "grade": "レア",
+   "level": 99,
+   "stats": [
+    {
+     "name": "攻撃力",
+     "value": "780,000"
+    },
+    {
+     "name": "物魔攻撃%",
+     "value": "2.00%"
+    },
+    {
+     "name": "最大HP%",
+     "value": "4.00%"
+    }
+   ]
+  },
+  "ナイトメアジェレイントの紋章(ヒーリングエリア)": {
+   "client_id": 268511354,
+   "table": "itemtable_glyph95",
+   "grade": "レジェンド",
+   "stats": [
+    {
+     "name": "攻撃力",
+     "value": "1,000,000"
+    }
+   ],
+   "skill_id": 80061
+  },
+  "ブラックドラゴンの元素の特殊タリスマン": {
+   "client_id": 268506607,
+   "table": "itemtable_talisman",
+   "grade": "レジェンド",
+   "level": 99,
+   "stats": [
+    {
+     "name": "攻撃力",
+     "value": "1,658,000"
+    },
+    {
+     "name": "属性%",
+     "value": "15.00%"
+    }
+   ]
+  },
+  "ヘイズフロストドラゴンの完全なタリスマン": {
+   "client_id": 268514175,
+   "table": "itemtable_talisman",
+   "grade": "ユニーク",
+   "level": 100,
+   "stats": [
+    {
+     "name": "物魔攻撃%",
+     "value": "5.00%"
+    }
+   ]
+  },
+  "ヘイズフロストドラゴンの冷気が宿るタリスマン(1段階)": {
+   "client_id": 268508755,
+   "table": "itemtable_talisman",
+   "grade": "ノーマル",
+   "level": 99,
+   "stats": [
+    {
+     "name": "最大HP",
+     "value": "1,700,000"
+    },
+    {
+     "name": "適応力",
+     "value": "15"
+    }
+   ]
+  },
+  "ヘイズフロストドラゴンの冷気が宿るタリスマン(2段階)": {
+   "client_id": 268508756,
+   "table": "itemtable_talisman",
+   "grade": "マジック",
+   "level": 99,
+   "stats": [
+    {
+     "name": "最大HP",
+     "value": "2,100,000"
+    },
+    {
+     "name": "適応力",
+     "value": "20"
+    }
+   ]
+  },
+  "ヘイズフロストドラゴンの冷気が宿るタリスマン(3段階)": {
+   "client_id": 268508757,
+   "table": "itemtable_talisman",
+   "grade": "レア",
+   "level": 99,
+   "stats": [
+    {
+     "name": "最大HP",
+     "value": "2,500,000"
+    },
+    {
+     "name": "適応力",
+     "value": "25"
+    }
+   ]
+  },
+  "ヘイズフロストドラゴンの冷気が宿るタリスマン(4段階)": {
+   "client_id": 268508758,
+   "table": "itemtable_talisman",
+   "grade": "レア",
+   "level": 99,
+   "stats": [
+    {
+     "name": "最大HP",
+     "value": "3,000,000"
+    },
+    {
+     "name": "適応力",
+     "value": "30"
+    }
+   ]
+  },
+  "ヘイズフロストドラゴンの冷気が宿るタリスマン(5段階)": {
+   "client_id": 268508759,
+   "table": "itemtable_talisman",
+   "grade": "エピック",
+   "level": 99,
+   "stats": [
+    {
+     "name": "最大HP",
+     "value": "3,900,000"
+    },
+    {
+     "name": "最大HP%",
+     "value": "3.00%"
+    },
+    {
+     "name": "適応力",
+     "value": "35"
+    }
+   ]
+  },
+  "ヘイズフロストドラゴンの冷気が宿るタリスマン(6段階)": {
+   "client_id": 268508760,
+   "table": "itemtable_talisman",
+   "grade": "エピック",
+   "level": 99,
+   "stats": [
+    {
+     "name": "最大HP",
+     "value": "5,500,000"
+    },
+    {
+     "name": "最大HP%",
+     "value": "5.00%"
+    },
+    {
+     "name": "適応力",
+     "value": "40"
+    }
+   ]
+  },
+  "ヘイズフロストドラゴンの冷気が宿るタリスマン(7段階)": {
+   "client_id": 268508761,
+   "table": "itemtable_talisman",
+   "grade": "ユニーク",
+   "level": 99,
+   "stats": [
+    {
+     "name": "最大HP",
+     "value": "7,700,000"
+    },
+    {
+     "name": "最大HP%",
+     "value": "10.00%"
+    },
+    {
+     "name": "適応力",
+     "value": "50"
+    }
+   ]
+  },
+  "メルカのタリスマン(レア)": {
+   "client_id": 268506595,
+   "table": "itemtable_talisman",
+   "grade": "レア",
+   "level": 99,
+   "stats": [
+    {
+     "name": "物魔攻撃%",
+     "value": "1.00%"
+    },
+    {
+     "name": "魔法防御",
+     "value": "22,500"
+    },
+    {
+     "name": "最大HP%",
+     "value": "4.00%"
+    }
+   ]
+  },
+  "ロッソエンパイアウィング": {
+   "client_id": 1073956116,
+   "table": "itemtable_cashaccessory",
+   "grade": "ノーマル"
+  },
+  "ロッソエンパイアテール": {
+   "client_id": 1073956117,
+   "table": "itemtable_cashaccessory",
+   "grade": "ノーマル"
+  },
+  "ロッソエンパイアデカール": {
+   "client_id": 1073956118,
+   "table": "itemtable_cashaccessory",
+   "grade": "ノーマル"
+  },
+  "永遠の苦痛の目(1段階)": {
+   "client_id": 268508021,
+   "table": "itemtable_talisman",
+   "grade": "エピック",
+   "level": 99,
+   "stats": [
+    {
+     "name": "攻撃力",
+     "value": "500,000"
+    },
+    {
+     "name": "FD",
+     "value": "600"
+    },
+    {
+     "name": "最大HP",
+     "value": "5,000,000"
+    }
+   ]
+  },
+  "永遠の苦痛の目(2段階)": {
+   "client_id": 268508022,
+   "table": "itemtable_talisman",
+   "grade": "エピック",
+   "level": 99,
+   "stats": [
+    {
+     "name": "攻撃力",
+     "value": "800,000"
+    },
+    {
+     "name": "FD",
+     "value": "700"
+    },
+    {
+     "name": "最大HP",
+     "value": "6,000,000"
+    }
+   ]
+  },
+  "永遠の苦痛の目(3段階)": {
+   "client_id": 268508023,
+   "table": "itemtable_talisman",
+   "grade": "ユニーク",
+   "level": 99,
+   "stats": [
+    {
+     "name": "攻撃力",
+     "value": "1,100,000"
+    },
+    {
+     "name": "FD",
+     "value": "800"
+    },
+    {
+     "name": "最大HP",
+     "value": "7,000,000"
+    }
+   ]
+  },
+  "永遠の苦痛の目(4段階)": {
+   "client_id": 268508024,
+   "table": "itemtable_talisman",
+   "grade": "ユニーク",
+   "level": 99,
+   "stats": [
+    {
+     "name": "攻撃力",
+     "value": "1,400,000"
+    },
+    {
+     "name": "FD",
+     "value": "900"
+    },
+    {
+     "name": "最大HP",
+     "value": "8,000,000"
+    }
+   ]
+  },
+  "永遠の苦痛の目(5段階)": {
+   "client_id": 268508025,
+   "table": "itemtable_talisman",
+   "grade": "レジェンド",
+   "level": 99,
+   "stats": [
+    {
+     "name": "攻撃力",
+     "value": "1,700,000"
+    },
+    {
+     "name": "FD",
+     "value": "1,000"
+    },
+    {
+     "name": "最大HP",
+     "value": "9,000,000"
+    }
+   ]
+  },
+  "永遠の次元の変異型竜珠(ユニーク)": {
+   "client_id": 268508875,
+   "table": "itemtable_dragonjewel",
+   "grade": "ユニーク",
+   "level": 95,
+   "stats": [
+    {
+     "name": "攻撃力",
+     "value": "40,000"
+    },
+    {
+     "name": "FD",
+     "value": "120"
+    },
+    {
+     "name": "物理防御",
+     "value": "2,400"
+    },
+    {
+     "name": "魔法防御",
+     "value": "2,400"
+    }
+   ]
+  },
+  "永遠の次元の変異型竜珠(レジェンド)": {
+   "client_id": 268508876,
+   "table": "itemtable_dragonjewel",
+   "grade": "レジェンド",
+   "level": 95,
+   "stats": [
+    {
+     "name": "攻撃力",
+     "value": "800,000"
+    },
+    {
+     "name": "属性%",
+     "value": "8.00%"
+    },
+    {
+     "name": "FD",
+     "value": "1,920"
+    },
+    {
+     "name": "物理防御",
+     "value": "24,000"
+    },
+    {
+     "name": "魔法防御",
+     "value": "24,000"
+    }
+   ]
+  },
+  "永遠の世界のタリスマン(10段階)": {
+   "client_id": 268508020,
+   "table": "itemtable_talisman",
+   "grade": "ユニーク",
+   "level": 99,
+   "stats": [
+    {
+     "name": "攻撃力",
+     "value": "800,000"
+    },
+    {
+     "name": "属性%",
+     "value": "2.40%"
+    },
+    {
+     "name": "最大HP",
+     "value": "6,500,000"
+    }
+   ]
+  },
+  "永遠の世界のタリスマン(1段階)": {
+   "client_id": 268508011,
+   "table": "itemtable_talisman",
+   "grade": "レア",
+   "level": 99,
+   "stats": [
+    {
+     "name": "攻撃力",
+     "value": "80,000"
+    },
+    {
+     "name": "属性%",
+     "value": "1.50%"
+    },
+    {
+     "name": "最大HP",
+     "value": "2,000,000"
+    }
+   ]
+  },
+  "永遠の世界のタリスマン(2段階)": {
+   "client_id": 268508012,
+   "table": "itemtable_talisman",
+   "grade": "レア",
+   "level": 99,
+   "stats": [
+    {
+     "name": "攻撃力",
+     "value": "160,000"
+    },
+    {
+     "name": "属性%",
+     "value": "1.60%"
+    },
+    {
+     "name": "最大HP",
+     "value": "2,500,000"
+    }
+   ]
+  },
+  "永遠の世界のタリスマン(3段階)": {
+   "client_id": 268508013,
+   "table": "itemtable_talisman",
+   "grade": "レア",
+   "level": 99,
+   "stats": [
+    {
+     "name": "攻撃力",
+     "value": "240,000"
+    },
+    {
+     "name": "属性%",
+     "value": "1.70%"
+    },
+    {
+     "name": "最大HP",
+     "value": "3,000,000"
+    }
+   ]
+  },
+  "永遠の世界のタリスマン(4段階)": {
+   "client_id": 268508014,
+   "table": "itemtable_talisman",
+   "grade": "エピック",
+   "level": 99,
+   "stats": [
+    {
+     "name": "攻撃力",
+     "value": "320,000"
+    },
+    {
+     "name": "属性%",
+     "value": "1.80%"
+    },
+    {
+     "name": "最大HP",
+     "value": "3,500,000"
+    }
+   ]
+  },
+  "永遠の世界のタリスマン(5段階)": {
+   "client_id": 268508015,
+   "table": "itemtable_talisman",
+   "grade": "エピック",
+   "level": 99,
+   "stats": [
+    {
+     "name": "攻撃力",
+     "value": "400,000"
+    },
+    {
+     "name": "属性%",
+     "value": "1.90%"
+    },
+    {
+     "name": "最大HP",
+     "value": "4,000,000"
+    }
+   ]
+  },
+  "永遠の世界のタリスマン(6段階)": {
+   "client_id": 268508016,
+   "table": "itemtable_talisman",
+   "grade": "エピック",
+   "level": 99,
+   "stats": [
+    {
+     "name": "攻撃力",
+     "value": "480,000"
+    },
+    {
+     "name": "属性%",
+     "value": "2.00%"
+    },
+    {
+     "name": "最大HP",
+     "value": "4,500,000"
+    }
+   ]
+  },
+  "永遠の世界のタリスマン(7段階)": {
+   "client_id": 268508017,
+   "table": "itemtable_talisman",
+   "grade": "エピック",
+   "level": 99,
+   "stats": [
+    {
+     "name": "攻撃力",
+     "value": "560,000"
+    },
+    {
+     "name": "属性%",
+     "value": "2.10%"
+    },
+    {
+     "name": "最大HP",
+     "value": "5,000,000"
+    }
+   ]
+  },
+  "永遠の世界のタリスマン(8段階)": {
+   "client_id": 268508018,
+   "table": "itemtable_talisman",
+   "grade": "ユニーク",
+   "level": 99,
+   "stats": [
+    {
+     "name": "攻撃力",
+     "value": "640,000"
+    },
+    {
+     "name": "属性%",
+     "value": "2.20%"
+    },
+    {
+     "name": "最大HP",
+     "value": "5,500,000"
+    }
+   ]
+  },
+  "永遠の世界のタリスマン(9段階)": {
+   "client_id": 268508019,
+   "table": "itemtable_talisman",
+   "grade": "ユニーク",
+   "level": 99,
+   "stats": [
+    {
+     "name": "攻撃力",
+     "value": "720,000"
+    },
+    {
+     "name": "属性%",
+     "value": "2.30%"
+    },
+    {
+     "name": "最大HP",
+     "value": "6,000,000"
+    }
+   ]
+  },
+  "永劫の異界の変異型竜珠(ユニーク)": {
+   "client_id": 268513842,
+   "table": "itemtable_dragonjewel",
+   "grade": "ユニーク",
+   "level": 95,
+   "stats": [
+    {
+     "name": "攻撃力",
+     "value": "40,000"
+    },
+    {
+     "name": "FD",
+     "value": "120"
+    },
+    {
+     "name": "物理防御",
+     "value": "2,400"
+    },
+    {
+     "name": "魔法防御",
+     "value": "2,400"
+    }
+   ]
+  },
+  "下級ジェレイントの成長": {
+   "client_id": 268511875,
+   "table": "itemtable_artifact",
+   "grade": "エピック",
+   "level": 100,
+   "stats": [
+    {
+     "name": "攻撃力",
+     "value": "2,000,000"
+    },
+    {
+     "name": "属性%",
+     "value": "5.00%"
+    }
+   ]
+  },
+  "金竜のアーマー竜珠": {
+   "client_id": 268511300,
+   "table": "itemtable_dragonjewel",
+   "grade": "ユニーク",
+   "level": 99,
+   "stats": [
+    {
+     "name": "攻撃力",
+     "value": "1,000,000"
+    },
+    {
+     "name": "最大HP",
+     "value": "2,000,000"
+    },
+    {
+     "name": "FD",
+     "value": "600"
+    }
+   ]
+  },
+  "金竜のグローブ竜珠": {
+   "client_id": 268511302,
+   "table": "itemtable_dragonjewel",
+   "grade": "ユニーク",
+   "level": 99,
+   "stats": [
+    {
+     "name": "攻撃力",
+     "value": "1,000,000"
+    },
+    {
+     "name": "最大HP",
+     "value": "2,000,000"
+    },
+    {
+     "name": "物理防御",
+     "value": "30,000"
+    }
+   ]
+  },
+  "金竜のブーツ竜珠": {
+   "client_id": 268511303,
+   "table": "itemtable_dragonjewel",
+   "grade": "ユニーク",
+   "level": 99,
+   "stats": [
+    {
+     "name": "攻撃力",
+     "value": "1,000,000"
+    },
+    {
+     "name": "最大HP",
+     "value": "2,000,000"
+    },
+    {
+     "name": "魔法防御",
+     "value": "30,000"
+    }
+   ]
+  },
+  "金竜のヘルム竜珠": {
+   "client_id": 268511299,
+   "table": "itemtable_dragonjewel",
+   "grade": "ユニーク",
+   "level": 99,
+   "stats": [
+    {
+     "name": "攻撃力",
+     "value": "1,000,000"
+    },
+    {
+     "name": "最大HP",
+     "value": "2,000,000"
+    },
+    {
+     "name": "CT",
+     "value": "50,000"
+    }
+   ]
+  },
+  "金竜のボトム竜珠": {
+   "client_id": 268511301,
+   "table": "itemtable_dragonjewel",
+   "grade": "ユニーク",
+   "level": 99,
+   "stats": [
+    {
+     "name": "攻撃力",
+     "value": "1,000,000"
+    },
+    {
+     "name": "最大HP",
+     "value": "2,000,000"
+    },
+    {
+     "name": "CTD",
+     "value": "225,000"
+    }
+   ]
+  },
+  "激情を隠した冷徹なレッドイヤリング": {
+   "client_id": 268502939,
+   "table": "itemtable_reboot",
+   "grade": "レジェンド",
+   "level": 95,
+   "stats": [
+    {
+     "name": "攻撃力",
+     "value": "400,000"
+    },
+    {
+     "name": "属性%",
+     "value": "8.01%"
+    },
+    {
+     "name": "FD",
+     "value": "1,000"
+    },
+    {
+     "name": "CT%",
+     "value": "10.01%"
+    },
+    {
+     "name": "CTD%",
+     "value": "10.01%"
+    }
+   ]
+  },
+  "激情を隠した冷徹なレッドネックレス": {
+   "client_id": 268502938,
+   "table": "itemtable_reboot",
+   "grade": "レジェンド",
+   "level": 95,
+   "stats": [
+    {
+     "name": "攻撃力",
+     "value": "350,000"
+    },
+    {
+     "name": "属性%",
+     "value": "18.01%"
+    },
+    {
+     "name": "FD",
+     "value": "1,000"
+    }
+   ]
+  },
+  "激情を隠した冷徹なレッドリング": {
+   "client_id": 268502937,
+   "table": "itemtable_reboot",
+   "grade": "レジェンド",
+   "level": 95,
+   "stats": [
+    {
+     "name": "攻撃力",
+     "value": "300,000"
+    },
+    {
+     "name": "物魔攻撃%",
+     "value": "5.00%"
+    },
+    {
+     "name": "属性%",
+     "value": "18.01%"
+    }
+   ]
+  },
+  "古代の脅威の変異型防御竜珠(エンシェント)": {
+   "client_id": 268505494,
+   "table": "itemtable_dragonjewel",
+   "grade": "エンシェント",
+   "level": 95,
+   "stats": [
+    {
+     "name": "攻撃力",
+     "value": "250,000"
+    },
+    {
+     "name": "属性%",
+     "value": "5.00%"
+    },
+    {
+     "name": "CT",
+     "value": "30,000"
+    },
+    {
+     "name": "CTD",
+     "value": "120,000"
+    },
+    {
+     "name": "最大HP",
+     "value": "400,000"
+    },
+    {
+     "name": "FD",
+     "value": "600"
+    },
+    {
+     "name": "最大HP%",
+     "value": "25.00%"
+    }
+   ]
+  },
+  "古代の保護の変異型防御竜珠(エンシェント)": {
+   "client_id": 268505637,
+   "table": "itemtable_dragonjewel",
+   "grade": "エンシェント",
+   "level": 95,
+   "stats": [
+    {
+     "name": "攻撃力",
+     "value": "230,000"
+    },
+    {
+     "name": "属性%",
+     "value": "5.00%"
+    },
+    {
+     "name": "物理防御",
+     "value": "10,000"
+    },
+    {
+     "name": "魔法防御",
+     "value": "10,000"
+    },
+    {
+     "name": "最大HP",
+     "value": "400,000"
+    },
+    {
+     "name": "FD",
+     "value": "600"
+    },
+    {
+     "name": "最大HP%",
+     "value": "25.00%"
+    }
+   ]
+  },
+  "古代人の女神紋章(10段階)": {
+   "client_id": 268507050,
+   "table": "itemtable_glyph95",
+   "grade": "エンシェント",
+   "level": 99
+  },
+  "古代人の女神紋章(1段階)": {
+   "client_id": 268507041,
+   "table": "itemtable_glyph95",
+   "grade": "エンシェント",
+   "level": 99
+  },
+  "古代人の女神紋章(2段階)": {
+   "client_id": 268507042,
+   "table": "itemtable_glyph95",
+   "grade": "エンシェント",
+   "level": 99
+  },
+  "古代人の女神紋章(3段階)": {
+   "client_id": 268507043,
+   "table": "itemtable_glyph95",
+   "grade": "エンシェント",
+   "level": 99
+  },
+  "古代人の女神紋章(4段階)": {
+   "client_id": 268507044,
+   "table": "itemtable_glyph95",
+   "grade": "エンシェント",
+   "level": 99
+  },
+  "古代人の女神紋章(5段階)": {
+   "client_id": 268507045,
+   "table": "itemtable_glyph95",
+   "grade": "エンシェント",
+   "level": 99
+  },
+  "古代人の女神紋章(6段階)": {
+   "client_id": 268507046,
+   "table": "itemtable_glyph95",
+   "grade": "エンシェント",
+   "level": 99
+  },
+  "古代人の女神紋章(7段階)": {
+   "client_id": 268507047,
+   "table": "itemtable_glyph95",
+   "grade": "エンシェント",
+   "level": 99
+  },
+  "古代人の女神紋章(8段階)": {
+   "client_id": 268507048,
+   "table": "itemtable_glyph95",
+   "grade": "エンシェント",
+   "level": 99
+  },
+  "古代人の女神紋章(9段階)": {
+   "client_id": 268507049,
+   "table": "itemtable_glyph95",
+   "grade": "エンシェント",
+   "level": 99
+  },
+  "古竜の古代アーマー": {
+   "client_id": 268507700,
+   "table": "itemtable_reboot",
+   "grade": "エンシェント",
+   "level": 99,
+   "stats": [
+    {
+     "name": "攻撃力",
+     "value": "2,982,525~4,260,752"
+    },
+    {
+     "name": "物魔攻撃%",
+     "value": "5.00%"
+    },
+    {
+     "name": "属性%",
+     "value": "8.00%"
+    },
+    {
+     "name": "CT",
+     "value": "-50,000"
+    },
+    {
+     "name": "最大HP",
+     "value": "14,166,041"
+    },
+    {
+     "name": "最大HP%",
+     "value": "17.00%"
+    },
+    {
+     "name": "FD",
+     "value": "3,654"
+    },
+    {
+     "name": "物理防御",
+     "value": "19,500"
+    },
+    {
+     "name": "魔法防御",
+     "value": "19,500"
+    }
+   ]
+  },
+  "古竜の古代グローブ": {
+   "client_id": 268507702,
+   "table": "itemtable_reboot",
+   "grade": "エンシェント",
+   "level": 99,
+   "stats": [
+    {
+     "name": "攻撃力",
+     "value": "2,567,420~3,667,750"
+    },
+    {
+     "name": "物魔攻撃%",
+     "value": "5.00%"
+    },
+    {
+     "name": "属性%",
+     "value": "8.00%"
+    },
+    {
+     "name": "CT",
+     "value": "-50,000"
+    },
+    {
+     "name": "最大HP",
+     "value": "10,223,861"
+    },
+    {
+     "name": "最大HP%",
+     "value": "12.00%"
+    },
+    {
+     "name": "物理防御",
+     "value": "120,584"
+    },
+    {
+     "name": "魔法防御",
+     "value": "13,811"
+    }
+   ]
+  },
+  "古竜の古代ブーツ": {
+   "client_id": 268507703,
+   "table": "itemtable_reboot",
+   "grade": "エンシェント",
+   "level": 99,
+   "stats": [
+    {
+     "name": "攻撃力",
+     "value": "2,567,420~3,667,750"
+    },
+    {
+     "name": "物魔攻撃%",
+     "value": "5.00%"
+    },
+    {
+     "name": "属性%",
+     "value": "8.00%"
+    },
+    {
+     "name": "CT",
+     "value": "-50,000"
+    },
+    {
+     "name": "最大HP",
+     "value": "10,223,861"
+    },
+    {
+     "name": "最大HP%",
+     "value": "12.00%"
+    },
+    {
+     "name": "魔法防御",
+     "value": "120,584"
+    },
+    {
+     "name": "物理防御",
+     "value": "13,811"
+    },
+    {
+     "name": "移動速度%",
+     "value": "3.50%"
+    }
+   ]
+  },
+  "古竜の古代ヘルム": {
+   "client_id": 268507699,
+   "table": "itemtable_reboot",
+   "grade": "エンシェント",
+   "level": 99,
+   "stats": [
+    {
+     "name": "攻撃力",
+     "value": "2,642,136~3,774,482"
+    },
+    {
+     "name": "物魔攻撃%",
+     "value": "5.00%"
+    },
+    {
+     "name": "属性%",
+     "value": "49.20%"
+    },
+    {
+     "name": "CT",
+     "value": "-50,000"
+    },
+    {
+     "name": "最大HP",
+     "value": "11,350,199"
+    },
+    {
+     "name": "最大HP%",
+     "value": "13.50%"
+    },
+    {
+     "name": "物理防御",
+     "value": "15,450"
+    },
+    {
+     "name": "魔法防御",
+     "value": "15,450"
+    }
+   ]
+  },
+  "古竜の古代ボトム": {
+   "client_id": 268507701,
+   "table": "itemtable_reboot",
+   "grade": "エンシェント",
+   "level": 99,
+   "stats": [
+    {
+     "name": "攻撃力",
+     "value": "2,882,920~4,118,450"
+    },
+    {
+     "name": "物魔攻撃%",
+     "value": "5.00%"
+    },
+    {
+     "name": "属性%",
+     "value": "8.00%"
+    },
+    {
+     "name": "CT",
+     "value": "-50,000"
+    },
+    {
+     "name": "最大HP",
+     "value": "13,602,872"
+    },
+    {
+     "name": "最大HP%",
+     "value": "16.20%"
+    },
+    {
+     "name": "CTD",
+     "value": "1,810,540"
+    },
+    {
+     "name": "物理防御",
+     "value": "18,700"
+    },
+    {
+     "name": "魔法防御",
+     "value": "18,700"
+    }
+   ]
+  },
+  "最上級スキル強化紋章(ラピッドブラスト)": {
+   "client_id": 268482546,
+   "table": "itemtable_glyph",
+   "grade": "エピック"
+  },
+  "最上級プレート(ラピッドブラスト)": {
+   "client_id": 268483426,
+   "table": "itemtable_glyph",
+   "grade": "エピック"
+  },
+  "邪根の変異型竜珠(エンシェント)": {
+   "client_id": 268509953,
+   "table": "itemtable_dragonjewel",
+   "grade": "エンシェント",
+   "level": 95,
+   "stats": [
+    {
+     "name": "攻撃力",
+     "value": "2,437,000"
+    },
+    {
+     "name": "属性%",
+     "value": "5.00%"
+    },
+    {
+     "name": "FD",
+     "value": "1,300"
+    },
+    {
+     "name": "CTD",
+     "value": "167,200"
+    },
+    {
+     "name": "最大HP",
+     "value": "950,000"
+    }
+   ]
+  },
+  "邪根の変異型竜珠(ユニーク)": {
+   "client_id": 268509951,
+   "table": "itemtable_dragonjewel",
+   "grade": "ユニーク",
+   "level": 95,
+   "stats": [
+    {
+     "name": "攻撃力",
+     "value": "1,125,000"
+    },
+    {
+     "name": "FD",
+     "value": "300"
+    },
+    {
+     "name": "CTD",
+     "value": "93,000"
+    },
+    {
+     "name": "最大HP",
+     "value": "750,000"
+    }
+   ]
+  },
+  "邪根の変異型竜珠(レジェンド)": {
+   "client_id": 268509952,
+   "table": "itemtable_dragonjewel",
+   "grade": "レジェンド",
+   "level": 95,
+   "stats": [
+    {
+     "name": "攻撃力",
+     "value": "2,437,000"
+    },
+    {
+     "name": "属性%",
+     "value": "5.00%"
+    },
+    {
+     "name": "FD",
+     "value": "1,300"
+    },
+    {
+     "name": "CTD",
+     "value": "167,200"
+    },
+    {
+     "name": "最大HP",
+     "value": "950,000"
+    }
+   ]
+  },
+  "守護のギルドのタリスマン": {
+   "client_id": 268509789,
+   "table": "itemtable_talisman",
+   "grade": "エピック",
+   "level": 100,
+   "stats": [
+    {
+     "name": "最大HP",
+     "value": "500,000"
+    }
+   ]
+  },
+  "祝福されたイベールのタリスマン": {
+   "client_id": 268514180,
+   "table": "itemtable_talisman",
+   "grade": "レジェンド",
+   "level": 100,
+   "stats": [
+    {
+     "name": "属性%",
+     "value": "31.70%"
+    }
+   ]
+  },
+  "祝福されたクアノスのタリスマン": {
+   "client_id": 268514172,
+   "table": "itemtable_talisman",
+   "grade": "レジェンド",
+   "level": 100,
+   "stats": [
+    {
+     "name": "CT",
+     "value": "274,000"
+    },
+    {
+     "name": "CTD",
+     "value": "2,464,000"
+    },
+    {
+     "name": "FD",
+     "value": "3,290"
+    }
+   ]
+  },
+  "祝福されたジェレイントの成長": {
+   "client_id": 268511852,
+   "table": "itemtable_artifact",
+   "grade": "ユニーク",
+   "level": 100,
+   "stats": [
+    {
+     "name": "攻撃力",
+     "value": "13,125,000"
+    },
+    {
+     "name": "属性%",
+     "value": "140.00%"
+    }
+   ]
+  },
+  "祝福されたシャリカのタリスマン": {
+   "client_id": 268514174,
+   "table": "itemtable_talisman",
+   "grade": "レジェンド",
+   "level": 100,
+   "stats": [
+    {
+     "name": "攻撃力",
+     "value": "2,388,000"
+    }
+   ]
+  },
+  "祝福されたヘイズフロストドラゴンの完全なタリスマン": {
+   "client_id": 268514176,
+   "table": "itemtable_talisman",
+   "grade": "レジェンド",
+   "level": 100,
+   "stats": [
+    {
+     "name": "物魔攻撃%",
+     "value": "27.00%"
+    }
+   ]
+  },
+  "祝福された金竜のアーマー竜珠": {
+   "client_id": 268511317,
+   "table": "itemtable_dragonjewel",
+   "grade": "レジェンド",
+   "level": 99,
+   "stats": [
+    {
+     "name": "攻撃力",
+     "value": "5,000,000"
+    },
+    {
+     "name": "最大HP",
+     "value": "15,000,000"
+    },
+    {
+     "name": "FD",
+     "value": "1,500"
+    }
+   ]
+  },
+  "祝福された金竜のグローブ竜珠": {
+   "client_id": 268511319,
+   "table": "itemtable_dragonjewel",
+   "grade": "レジェンド",
+   "level": 99,
+   "stats": [
+    {
+     "name": "攻撃力",
+     "value": "5,000,000"
+    },
+    {
+     "name": "最大HP",
+     "value": "15,000,000"
+    },
+    {
+     "name": "物理防御",
+     "value": "120,000"
+    }
+   ]
+  },
+  "祝福された金竜のブーツ竜珠": {
+   "client_id": 268511320,
+   "table": "itemtable_dragonjewel",
+   "grade": "レジェンド",
+   "level": 99,
+   "stats": [
+    {
+     "name": "攻撃力",
+     "value": "5,000,000"
+    },
+    {
+     "name": "最大HP",
+     "value": "15,000,000"
+    },
+    {
+     "name": "魔法防御",
+     "value": "120,000"
+    }
+   ]
+  },
+  "祝福された金竜のヘルム竜珠": {
+   "client_id": 268511316,
+   "table": "itemtable_dragonjewel",
+   "grade": "レジェンド",
+   "level": 99,
+   "stats": [
+    {
+     "name": "攻撃力",
+     "value": "5,000,000"
+    },
+    {
+     "name": "最大HP",
+     "value": "15,000,000"
+    },
+    {
+     "name": "CT",
+     "value": "100,000"
+    }
+   ]
+  },
+  "祝福された金竜のボトム竜珠": {
+   "client_id": 268511318,
+   "table": "itemtable_dragonjewel",
+   "grade": "レジェンド",
+   "level": 99,
+   "stats": [
+    {
+     "name": "攻撃力",
+     "value": "5,000,000"
+    },
+    {
+     "name": "最大HP",
+     "value": "15,000,000"
+    },
+    {
+     "name": "CTD",
+     "value": "450,000"
+    }
+   ]
+  },
+  "祝福された青い霜のタリスマン": {
+   "client_id": 268514178,
+   "table": "itemtable_talisman",
+   "grade": "レジェンド",
+   "level": 100,
+   "stats": [
+    {
+     "name": "物魔攻撃%",
+     "value": "49.70%"
+    },
+    {
+     "name": "CT",
+     "value": "400,000"
+    },
+    {
+     "name": "CTD",
+     "value": "3,630,000"
+    },
+    {
+     "name": "FD",
+     "value": "4,840"
+    }
+   ]
+  },
+  "祝福された矛盾の世界のタリスマン": {
+   "client_id": 268514182,
+   "table": "itemtable_talisman",
+   "grade": "レジェンド",
+   "level": 100,
+   "stats": [
+    {
+     "name": "属性%",
+     "value": "56.60%"
+    },
+    {
+     "name": "CT",
+     "value": "500,000"
+    },
+    {
+     "name": "CTD",
+     "value": "3,822,000"
+    },
+    {
+     "name": "FD",
+     "value": "6,080"
+    }
+   ]
+  },
+  "上級ジェレイントの成長": {
+   "client_id": 268511873,
+   "table": "itemtable_artifact",
+   "grade": "エピック",
+   "level": 100,
+   "stats": [
+    {
+     "name": "攻撃力",
+     "value": "4,000,000"
+    },
+    {
+     "name": "属性%",
+     "value": "50.00%"
+    }
+   ]
+  },
+  "信頼のギルドのタリスマン": {
+   "client_id": 268509790,
+   "table": "itemtable_talisman",
+   "grade": "エピック",
+   "level": 100,
+   "stats": [
+    {
+     "name": "物理防御",
+     "value": "15,000"
+    }
+   ]
+  },
+  "青い霜のタリスマン": {
+   "client_id": 268514177,
+   "table": "itemtable_talisman",
+   "grade": "ユニーク",
+   "level": 100,
+   "stats": [
+    {
+     "name": "物魔攻撃%",
+     "value": "8.00%"
+    },
+    {
+     "name": "CT",
+     "value": "72,000"
+    },
+    {
+     "name": "CTD",
+     "value": "665,000"
+    },
+    {
+     "name": "FD",
+     "value": "960"
+    }
+   ]
+  },
+  "団結のギルドのタリスマン": {
+   "client_id": 268509791,
+   "table": "itemtable_talisman",
+   "grade": "エピック",
+   "level": 100,
+   "stats": [
+    {
+     "name": "魔法防御",
+     "value": "15,000"
+    }
+   ]
+  },
+  "致命型ギルドのタリスマン": {
+   "client_id": 268509788,
+   "table": "itemtable_talisman",
+   "grade": "エピック",
+   "level": 100,
+   "stats": [
+    {
+     "name": "CT",
+     "value": "50,000"
+    }
+   ]
+  },
+  "中級ジェレイントの成長": {
+   "client_id": 268511874,
+   "table": "itemtable_artifact",
+   "grade": "エピック",
+   "level": 100,
+   "stats": [
+    {
+     "name": "攻撃力",
+     "value": "4,000,000"
+    },
+    {
+     "name": "属性%",
+     "value": "30.00%"
+    }
+   ]
+  },
+  "独武の栄光イヤリング": {
+   "client_id": 1073953467,
+   "table": "itemtable_cashaccessory",
+   "grade": "ユニーク",
+   "stats": [
+    {
+     "name": "攻撃力",
+     "value": "12,000"
+    },
+    {
+     "name": "属性%",
+     "value": "1.50%"
+    },
+    {
+     "name": "CT%",
+     "value": "5.00%"
+    },
+    {
+     "name": "CT",
+     "value": "5,000"
+    },
+    {
+     "name": "最大HP",
+     "value": "4,000"
+    },
+    {
+     "name": "FD",
+     "value": "150"
+    },
+    {
+     "name": "CTD",
+     "value": "12,000"
+    }
+   ]
+  },
+  "独武の栄光ネックレス": {
+   "client_id": 1073953466,
+   "table": "itemtable_cashaccessory",
+   "grade": "ユニーク",
+   "stats": [
+    {
+     "name": "物魔攻撃%",
+     "value": "3.00%"
+    },
+    {
+     "name": "属性%",
+     "value": "2.00%"
+    },
+    {
+     "name": "力",
+     "value": "600"
+    },
+    {
+     "name": "敏捷",
+     "value": "600"
+    },
+    {
+     "name": "知力",
+     "value": "600"
+    },
+    {
+     "name": "体力",
+     "value": "600"
+    },
+    {
+     "name": "最大HP",
+     "value": "6,000"
+    },
+    {
+     "name": "FD",
+     "value": "160"
+    },
+    {
+     "name": "CTD",
+     "value": "5,000"
+    }
+   ]
+  },
+  "独武の栄光リング": {
+   "client_id": 1073953465,
+   "table": "itemtable_cashaccessory",
+   "grade": "ユニーク",
+   "stats": [
+    {
+     "name": "攻撃力",
+     "value": "5,000"
+    },
+    {
+     "name": "物魔攻撃%",
+     "value": "2.00%"
+    },
+    {
+     "name": "属性%",
+     "value": "4.00%"
+    },
+    {
+     "name": "CT",
+     "value": "6,000"
+    },
+    {
+     "name": "CTD",
+     "value": "7,100"
+    }
+   ]
+  },
+  "封印された力のカーラブローチ": {
+   "client_id": 1073950395,
+   "table": "itemtable_cashbrooch",
+   "grade": "ノーマル"
+  },
+  "封印された力のテラマイブローチ": {
+   "client_id": 1073950379,
+   "table": "itemtable_cashbrooch",
+   "grade": "ノーマル"
+  },
+  "封印された力のネルウィンブローチ": {
+   "client_id": 1073950363,
+   "table": "itemtable_cashbrooch",
+   "grade": "ノーマル"
+  },
+  "封印された力のバルナックブローチ": {
+   "client_id": 1073950411,
+   "table": "itemtable_cashbrooch",
+   "grade": "ノーマル"
+  },
+  "封印された力のベルスカードブローチ": {
+   "client_id": 1073950332,
+   "table": "itemtable_cashbrooch",
+   "grade": "ノーマル"
+  },
+  "未知の古代イヤリング": {
+   "client_id": 268504079,
+   "table": "itemtable_reboot",
+   "grade": "レジェンド",
+   "level": 99,
+   "stats": [
+    {
+     "name": "攻撃力",
+     "value": "400,000"
+    },
+    {
+     "name": "物魔攻撃%",
+     "value": "8.00%"
+    },
+    {
+     "name": "属性%",
+     "value": "8.00%"
+    },
+    {
+     "name": "CT",
+     "value": "-50,000"
+    }
+   ]
+  },
+  "未知の古代ネックレス": {
+   "client_id": 268504078,
+   "table": "itemtable_reboot",
+   "grade": "レジェンド",
+   "level": 99,
+   "stats": [
+    {
+     "name": "攻撃力",
+     "value": "450,000"
+    },
+    {
+     "name": "属性%",
+     "value": "17.00%"
+    },
+    {
+     "name": "FD",
+     "value": "1,300"
+    }
+   ]
+  },
+  "未知の古代リング": {
+   "client_id": 268504080,
+   "table": "itemtable_reboot",
+   "grade": "レジェンド",
+   "level": 99,
+   "stats": [
+    {
+     "name": "攻撃力",
+     "value": "350,000"
+    },
+    {
+     "name": "物魔攻撃%",
+     "value": "5.00%"
+    },
+    {
+     "name": "物理防御",
+     "value": "30,000"
+    },
+    {
+     "name": "魔法防御",
+     "value": "30,000"
+    },
+    {
+     "name": "FD",
+     "value": "1,000"
+    }
+   ]
+  },
+  "矛盾の世界のタリスマン": {
+   "client_id": 268514181,
+   "table": "itemtable_talisman",
+   "grade": "ユニーク",
+   "level": 100,
+   "stats": [
+    {
+     "name": "属性%",
+     "value": "10.00%"
+    },
+    {
+     "name": "CT",
+     "value": "92,000"
+    },
+    {
+     "name": "CTD",
+     "value": "830,000"
+    },
+    {
+     "name": "FD",
+     "value": "1,100"
+    }
+   ]
+  },
+  "勇猛なギルドのタリスマン": {
+   "client_id": 268509786,
+   "table": "itemtable_talisman",
+   "grade": "エピック",
+   "level": 100,
+   "stats": [
+    {
+     "name": "FD",
+     "value": "600"
+    }
+   ]
+  },
+  "冷徹なギルドのタリスマン": {
+   "client_id": 268509787,
+   "table": "itemtable_talisman",
+   "grade": "エピック",
+   "level": 100,
+   "stats": [
+    {
+     "name": "CTD",
+     "value": "225,000"
+    }
+   ]
+  }
+ },
+ "enhance": {
+  "cn1090-ancient-guard-stats": {
+   "enchant_id": 847258797,
+   "rows": {
+    "+1": {
+     "rate": 33.0,
+     "gold": 5000.0,
+     "materials": [
+      {
+       "item": "上級渇望のかけら",
+       "qty": 10
+      },
+      {
+       "item": "ラズライト",
+       "qty": 30
+      }
+     ],
+     "protect_qty": 0
+    },
+    "+2": {
+     "rate": 33.0,
+     "gold": 5000.0,
+     "materials": [
+      {
+       "item": "上級渇望のかけら",
+       "qty": 10
+      },
+      {
+       "item": "ラズライト",
+       "qty": 30
+      }
+     ],
+     "protect_qty": 0
+    },
+    "+3": {
+     "rate": 32.0,
+     "gold": 5000.0,
+     "materials": [
+      {
+       "item": "上級渇望のかけら",
+       "qty": 10
+      },
+      {
+       "item": "ラズライト",
+       "qty": 30
+      }
+     ],
+     "protect_qty": 0
+    },
+    "+4": {
+     "rate": 32.0,
+     "gold": 5000.0,
+     "materials": [
+      {
+       "item": "上級渇望のかけら",
+       "qty": 10
+      },
+      {
+       "item": "ラズライト",
+       "qty": 30
+      }
+     ],
+     "protect_qty": 0
+    },
+    "+5": {
+     "rate": 30.0,
+     "gold": 5000.0,
+     "materials": [
+      {
+       "item": "上級渇望のかけら",
+       "qty": 10
+      },
+      {
+       "item": "ラズライト",
+       "qty": 30
+      }
+     ],
+     "protect_qty": 0
+    },
+    "+6": {
+     "rate": 25.0,
+     "gold": 10000.0,
+     "materials": [
+      {
+       "item": "上級渇望のかけら",
+       "qty": 10
+      },
+      {
+       "item": "ラズライト",
+       "qty": 30
+      }
+     ],
+     "protect_qty": 0
+    },
+    "+7": {
+     "rate": 24.0,
+     "gold": 10000.0,
+     "materials": [
+      {
+       "item": "上級渇望のかけら",
+       "qty": 10
+      },
+      {
+       "item": "ラズライト",
+       "qty": 30
+      }
+     ],
+     "protect_qty": 0
+    },
+    "+8": {
+     "rate": 23.0,
+     "gold": 10000.0,
+     "materials": [
+      {
+       "item": "上級渇望のかけら",
+       "qty": 10
+      },
+      {
+       "item": "ラズライト",
+       "qty": 30
+      }
+     ],
+     "protect_qty": 0
+    },
+    "+9": {
+     "rate": 22.0,
+     "gold": 10000.0,
+     "materials": [
+      {
+       "item": "上級渇望のかけら",
+       "qty": 10
+      },
+      {
+       "item": "ラズライト",
+       "qty": 30
+      }
+     ],
+     "protect_qty": 0
+    },
+    "+10": {
+     "rate": 20.0,
+     "gold": 10000.0,
+     "materials": [
+      {
+       "item": "上級渇望のかけら",
+       "qty": 10
+      },
+      {
+       "item": "ラズライト",
+       "qty": 30
+      }
+     ],
+     "protect_qty": 0
+    },
+    "+11": {
+     "rate": 15.0,
+     "gold": 15000.0,
+     "materials": [
+      {
+       "item": "上級渇望のかけら",
+       "qty": 10
+      },
+      {
+       "item": "ラズライト",
+       "qty": 30
+      }
+     ],
+     "protect_qty": 0
+    },
+    "+12": {
+     "rate": 14.0,
+     "gold": 15000.0,
+     "materials": [
+      {
+       "item": "上級渇望のかけら",
+       "qty": 10
+      },
+      {
+       "item": "ラズライト",
+       "qty": 30
+      }
+     ],
+     "protect_qty": 0
+    },
+    "+13": {
+     "rate": 13.0,
+     "gold": 15000.0,
+     "materials": [
+      {
+       "item": "上級渇望のかけら",
+       "qty": 10
+      },
+      {
+       "item": "ラズライト",
+       "qty": 30
+      }
+     ],
+     "protect_qty": 0
+    },
+    "+14": {
+     "rate": 12.0,
+     "gold": 15000.0,
+     "materials": [
+      {
+       "item": "上級渇望のかけら",
+       "qty": 10
+      },
+      {
+       "item": "ラズライト",
+       "qty": 30
+      }
+     ],
+     "protect_qty": 0
+    },
+    "+15": {
+     "rate": 10.0,
+     "gold": 15000.0,
+     "materials": [
+      {
+       "item": "上級渇望のかけら",
+       "qty": 10
+      },
+      {
+       "item": "ラズライト",
+       "qty": 30
+      }
+     ],
+     "protect_qty": 0
+    }
+   }
+  },
+  "cn1090-ancient-threat-stats": {
+   "enchant_id": 847258796,
+   "rows": {
+    "+1": {
+     "rate": 33.0,
+     "gold": 5000.0,
+     "materials": [
+      {
+       "item": "上級渇望のかけら",
+       "qty": 10
+      },
+      {
+       "item": "ラズライト",
+       "qty": 30
+      }
+     ],
+     "protect_qty": 0
+    },
+    "+2": {
+     "rate": 33.0,
+     "gold": 5000.0,
+     "materials": [
+      {
+       "item": "上級渇望のかけら",
+       "qty": 10
+      },
+      {
+       "item": "ラズライト",
+       "qty": 30
+      }
+     ],
+     "protect_qty": 0
+    },
+    "+3": {
+     "rate": 32.0,
+     "gold": 5000.0,
+     "materials": [
+      {
+       "item": "上級渇望のかけら",
+       "qty": 10
+      },
+      {
+       "item": "ラズライト",
+       "qty": 30
+      }
+     ],
+     "protect_qty": 0
+    },
+    "+4": {
+     "rate": 32.0,
+     "gold": 5000.0,
+     "materials": [
+      {
+       "item": "上級渇望のかけら",
+       "qty": 10
+      },
+      {
+       "item": "ラズライト",
+       "qty": 30
+      }
+     ],
+     "protect_qty": 0
+    },
+    "+5": {
+     "rate": 30.0,
+     "gold": 5000.0,
+     "materials": [
+      {
+       "item": "上級渇望のかけら",
+       "qty": 10
+      },
+      {
+       "item": "ラズライト",
+       "qty": 30
+      }
+     ],
+     "protect_qty": 0
+    },
+    "+6": {
+     "rate": 25.0,
+     "gold": 10000.0,
+     "materials": [
+      {
+       "item": "上級渇望のかけら",
+       "qty": 10
+      },
+      {
+       "item": "ラズライト",
+       "qty": 30
+      }
+     ],
+     "protect_qty": 0
+    },
+    "+7": {
+     "rate": 24.0,
+     "gold": 10000.0,
+     "materials": [
+      {
+       "item": "上級渇望のかけら",
+       "qty": 10
+      },
+      {
+       "item": "ラズライト",
+       "qty": 30
+      }
+     ],
+     "protect_qty": 0
+    },
+    "+8": {
+     "rate": 23.0,
+     "gold": 10000.0,
+     "materials": [
+      {
+       "item": "上級渇望のかけら",
+       "qty": 10
+      },
+      {
+       "item": "ラズライト",
+       "qty": 30
+      }
+     ],
+     "protect_qty": 0
+    },
+    "+9": {
+     "rate": 22.0,
+     "gold": 10000.0,
+     "materials": [
+      {
+       "item": "上級渇望のかけら",
+       "qty": 10
+      },
+      {
+       "item": "ラズライト",
+       "qty": 30
+      }
+     ],
+     "protect_qty": 0
+    },
+    "+10": {
+     "rate": 20.0,
+     "gold": 10000.0,
+     "materials": [
+      {
+       "item": "上級渇望のかけら",
+       "qty": 10
+      },
+      {
+       "item": "ラズライト",
+       "qty": 30
+      }
+     ],
+     "protect_qty": 0
+    },
+    "+11": {
+     "rate": 15.0,
+     "gold": 15000.0,
+     "materials": [
+      {
+       "item": "上級渇望のかけら",
+       "qty": 10
+      },
+      {
+       "item": "ラズライト",
+       "qty": 30
+      }
+     ],
+     "protect_qty": 0
+    },
+    "+12": {
+     "rate": 14.0,
+     "gold": 15000.0,
+     "materials": [
+      {
+       "item": "上級渇望のかけら",
+       "qty": 10
+      },
+      {
+       "item": "ラズライト",
+       "qty": 30
+      }
+     ],
+     "protect_qty": 0
+    },
+    "+13": {
+     "rate": 13.0,
+     "gold": 15000.0,
+     "materials": [
+      {
+       "item": "上級渇望のかけら",
+       "qty": 10
+      },
+      {
+       "item": "ラズライト",
+       "qty": 30
+      }
+     ],
+     "protect_qty": 0
+    },
+    "+14": {
+     "rate": 12.0,
+     "gold": 15000.0,
+     "materials": [
+      {
+       "item": "上級渇望のかけら",
+       "qty": 10
+      },
+      {
+       "item": "ラズライト",
+       "qty": 30
+      }
+     ],
+     "protect_qty": 0
+    },
+    "+15": {
+     "rate": 10.0,
+     "gold": 15000.0,
+     "materials": [
+      {
+       "item": "上級渇望のかけら",
+       "qty": 10
+      },
+      {
+       "item": "ラズライト",
+       "qty": 30
+      }
+     ],
+     "protect_qty": 0
+    }
+   }
+  },
+  "cn1090-jakon-le-rate": {
+   "enchant_id": 847258895,
+   "rows": {
+    "+1": {
+     "rate": 100.0,
+     "gold": 50000.0,
+     "materials": [
+      {
+       "item": "邪根の渇望のかけら",
+       "qty": 20
+      },
+      {
+       "item": "ねじれた根",
+       "qty": 4
+      }
+     ],
+     "protect_qty": 0
+    },
+    "+2": {
+     "rate": 100.0,
+     "gold": 50000.0,
+     "materials": [
+      {
+       "item": "邪根の渇望のかけら",
+       "qty": 20
+      },
+      {
+       "item": "ねじれた根",
+       "qty": 4
+      }
+     ],
+     "protect_qty": 0
+    },
+    "+3": {
+     "rate": 100.0,
+     "gold": 50000.0,
+     "materials": [
+      {
+       "item": "邪根の渇望のかけら",
+       "qty": 20
+      },
+      {
+       "item": "ねじれた根",
+       "qty": 4
+      }
+     ],
+     "protect_qty": 0
+    },
+    "+4": {
+     "rate": 100.0,
+     "gold": 50000.0,
+     "materials": [
+      {
+       "item": "邪根の渇望のかけら",
+       "qty": 20
+      },
+      {
+       "item": "ねじれた根",
+       "qty": 4
+      }
+     ],
+     "protect_qty": 0
+    },
+    "+5": {
+     "rate": 100.0,
+     "gold": 50000.0,
+     "materials": [
+      {
+       "item": "邪根の渇望のかけら",
+       "qty": 20
+      },
+      {
+       "item": "ねじれた根",
+       "qty": 4
+      }
+     ],
+     "protect_qty": 0
+    },
+    "+6": {
+     "rate": 100.0,
+     "gold": 50000.0,
+     "materials": [
+      {
+       "item": "邪根の渇望のかけら",
+       "qty": 20
+      },
+      {
+       "item": "ねじれた根",
+       "qty": 4
+      }
+     ],
+     "protect_qty": 0
+    },
+    "+7": {
+     "rate": 100.0,
+     "gold": 50000.0,
+     "materials": [
+      {
+       "item": "邪根の渇望のかけら",
+       "qty": 20
+      },
+      {
+       "item": "ねじれた根",
+       "qty": 4
+      }
+     ],
+     "protect_qty": 0
+    },
+    "+8": {
+     "rate": 100.0,
+     "gold": 50000.0,
+     "materials": [
+      {
+       "item": "邪根の渇望のかけら",
+       "qty": 20
+      },
+      {
+       "item": "ねじれた根",
+       "qty": 4
+      }
+     ],
+     "protect_qty": 0
+    },
+    "+9": {
+     "rate": 100.0,
+     "gold": 50000.0,
+     "materials": [
+      {
+       "item": "邪根の渇望のかけら",
+       "qty": 20
+      },
+      {
+       "item": "ねじれた根",
+       "qty": 4
+      }
+     ],
+     "protect_qty": 0
+    },
+    "+10": {
+     "rate": 15.0,
+     "gold": 50000.0,
+     "materials": [
+      {
+       "item": "邪根の渇望のかけら",
+       "qty": 30
+      },
+      {
+       "item": "ねじれた根",
+       "qty": 5
+      }
+     ],
+     "protect_qty": 0
+    },
+    "+11": {
+     "rate": 100.0,
+     "gold": 70000.0,
+     "materials": [
+      {
+       "item": "邪根の渇望のかけら",
+       "qty": 35
+      },
+      {
+       "item": "ねじれた根",
+       "qty": 5
+      }
+     ],
+     "protect_qty": 0
+    },
+    "+12": {
+     "rate": 100.0,
+     "gold": 70000.0,
+     "materials": [
+      {
+       "item": "邪根の渇望のかけら",
+       "qty": 35
+      },
+      {
+       "item": "ねじれた根",
+       "qty": 5
+      }
+     ],
+     "protect_qty": 0
+    },
+    "+13": {
+     "rate": 100.0,
+     "gold": 70000.0,
+     "materials": [
+      {
+       "item": "邪根の渇望のかけら",
+       "qty": 35
+      },
+      {
+       "item": "ねじれた根",
+       "qty": 5
+      }
+     ],
+     "protect_qty": 0
+    },
+    "+14": {
+     "rate": 100.0,
+     "gold": 70000.0,
+     "materials": [
+      {
+       "item": "邪根の渇望のかけら",
+       "qty": 35
+      },
+      {
+       "item": "ねじれた根",
+       "qty": 5
+      }
+     ],
+     "protect_qty": 0
+    },
+    "+15": {
+     "rate": 100.0,
+     "gold": 70000.0,
+     "materials": [
+      {
+       "item": "邪根の渇望のかけら",
+       "qty": 35
+      },
+      {
+       "item": "ねじれた根",
+       "qty": 5
+      }
+     ],
+     "protect_qty": 0
+    },
+    "+16": {
+     "rate": 100.0,
+     "gold": 70000.0,
+     "materials": [
+      {
+       "item": "邪根の渇望のかけら",
+       "qty": 35
+      },
+      {
+       "item": "ねじれた根",
+       "qty": 5
+      }
+     ],
+     "protect_qty": 0
+    },
+    "+17": {
+     "rate": 100.0,
+     "gold": 70000.0,
+     "materials": [
+      {
+       "item": "邪根の渇望のかけら",
+       "qty": 35
+      },
+      {
+       "item": "ねじれた根",
+       "qty": 5
+      }
+     ],
+     "protect_qty": 0
+    },
+    "+18": {
+     "rate": 100.0,
+     "gold": 70000.0,
+     "materials": [
+      {
+       "item": "邪根の渇望のかけら",
+       "qty": 35
+      },
+      {
+       "item": "ねじれた根",
+       "qty": 5
+      }
+     ],
+     "protect_qty": 0
+    },
+    "+19": {
+     "rate": 100.0,
+     "gold": 70000.0,
+     "materials": [
+      {
+       "item": "邪根の渇望のかけら",
+       "qty": 35
+      },
+      {
+       "item": "ねじれた根",
+       "qty": 5
+      }
+     ],
+     "protect_qty": 0
+    },
+    "+20": {
+     "rate": 10.0,
+     "gold": 70000.0,
+     "materials": [
+      {
+       "item": "邪根の渇望のかけら",
+       "qty": 40
+      },
+      {
+       "item": "ねじれた根",
+       "qty": 6
+      }
+     ],
+     "protect_qty": 0
+    },
+    "+21": {
+     "rate": 100.0,
+     "gold": 100000.0,
+     "materials": [
+      {
+       "item": "邪根の渇望のかけら",
+       "qty": 45
+      },
+      {
+       "item": "ねじれた根",
+       "qty": 6
+      }
+     ],
+     "protect_qty": 0
+    },
+    "+22": {
+     "rate": 100.0,
+     "gold": 100000.0,
+     "materials": [
+      {
+       "item": "邪根の渇望のかけら",
+       "qty": 45
+      },
+      {
+       "item": "ねじれた根",
+       "qty": 6
+      }
+     ],
+     "protect_qty": 0
+    },
+    "+23": {
+     "rate": 100.0,
+     "gold": 100000.0,
+     "materials": [
+      {
+       "item": "邪根の渇望のかけら",
+       "qty": 45
+      },
+      {
+       "item": "ねじれた根",
+       "qty": 6
+      }
+     ],
+     "protect_qty": 0
+    },
+    "+24": {
+     "rate": 100.0,
+     "gold": 100000.0,
+     "materials": [
+      {
+       "item": "邪根の渇望のかけら",
+       "qty": 45
+      },
+      {
+       "item": "ねじれた根",
+       "qty": 6
+      }
+     ],
+     "protect_qty": 0
+    },
+    "+25": {
+     "rate": 100.0,
+     "gold": 100000.0,
+     "materials": [
+      {
+       "item": "邪根の渇望のかけら",
+       "qty": 45
+      },
+      {
+       "item": "ねじれた根",
+       "qty": 6
+      }
+     ],
+     "protect_qty": 0
+    },
+    "+26": {
+     "rate": 100.0,
+     "gold": 100000.0,
+     "materials": [
+      {
+       "item": "邪根の渇望のかけら",
+       "qty": 45
+      },
+      {
+       "item": "ねじれた根",
+       "qty": 6
+      }
+     ],
+     "protect_qty": 0
+    },
+    "+27": {
+     "rate": 100.0,
+     "gold": 100000.0,
+     "materials": [
+      {
+       "item": "邪根の渇望のかけら",
+       "qty": 45
+      },
+      {
+       "item": "ねじれた根",
+       "qty": 6
+      }
+     ],
+     "protect_qty": 0
+    },
+    "+28": {
+     "rate": 100.0,
+     "gold": 100000.0,
+     "materials": [
+      {
+       "item": "邪根の渇望のかけら",
+       "qty": 45
+      },
+      {
+       "item": "ねじれた根",
+       "qty": 6
+      }
+     ],
+     "protect_qty": 0
+    },
+    "+29": {
+     "rate": 100.0,
+     "gold": 100000.0,
+     "materials": [
+      {
+       "item": "邪根の渇望のかけら",
+       "qty": 45
+      },
+      {
+       "item": "ねじれた根",
+       "qty": 6
+      }
+     ],
+     "protect_qty": 0
+    },
+    "+30": {
+     "rate": 7.0,
+     "gold": 100000.0,
+     "materials": [
+      {
+       "item": "邪根の渇望のかけら",
+       "qty": 50
+      },
+      {
+       "item": "ねじれた根",
+       "qty": 7
+      }
+     ],
+     "protect_qty": 0
+    },
+    "+31": {
+     "rate": 100.0,
+     "gold": 150000.0,
+     "materials": [
+      {
+       "item": "邪根の渇望のかけら",
+       "qty": 55
+      },
+      {
+       "item": "ねじれた根",
+       "qty": 7
+      }
+     ],
+     "protect_qty": 0
+    },
+    "+32": {
+     "rate": 100.0,
+     "gold": 150000.0,
+     "materials": [
+      {
+       "item": "邪根の渇望のかけら",
+       "qty": 55
+      },
+      {
+       "item": "ねじれた根",
+       "qty": 7
+      }
+     ],
+     "protect_qty": 0
+    },
+    "+33": {
+     "rate": 100.0,
+     "gold": 150000.0,
+     "materials": [
+      {
+       "item": "邪根の渇望のかけら",
+       "qty": 55
+      },
+      {
+       "item": "ねじれた根",
+       "qty": 7
+      }
+     ],
+     "protect_qty": 0
+    },
+    "+34": {
+     "rate": 100.0,
+     "gold": 150000.0,
+     "materials": [
+      {
+       "item": "邪根の渇望のかけら",
+       "qty": 55
+      },
+      {
+       "item": "ねじれた根",
+       "qty": 7
+      }
+     ],
+     "protect_qty": 0
+    },
+    "+35": {
+     "rate": 100.0,
+     "gold": 150000.0,
+     "materials": [
+      {
+       "item": "邪根の渇望のかけら",
+       "qty": 55
+      },
+      {
+       "item": "ねじれた根",
+       "qty": 7
+      }
+     ],
+     "protect_qty": 0
+    },
+    "+36": {
+     "rate": 100.0,
+     "gold": 150000.0,
+     "materials": [
+      {
+       "item": "邪根の渇望のかけら",
+       "qty": 55
+      },
+      {
+       "item": "ねじれた根",
+       "qty": 7
+      }
+     ],
+     "protect_qty": 0
+    },
+    "+37": {
+     "rate": 100.0,
+     "gold": 150000.0,
+     "materials": [
+      {
+       "item": "邪根の渇望のかけら",
+       "qty": 55
+      },
+      {
+       "item": "ねじれた根",
+       "qty": 7
+      }
+     ],
+     "protect_qty": 0
+    },
+    "+38": {
+     "rate": 100.0,
+     "gold": 150000.0,
+     "materials": [
+      {
+       "item": "邪根の渇望のかけら",
+       "qty": 55
+      },
+      {
+       "item": "ねじれた根",
+       "qty": 7
+      }
+     ],
+     "protect_qty": 0
+    },
+    "+39": {
+     "rate": 100.0,
+     "gold": 150000.0,
+     "materials": [
+      {
+       "item": "邪根の渇望のかけら",
+       "qty": 55
+      },
+      {
+       "item": "ねじれた根",
+       "qty": 7
+      }
+     ],
+     "protect_qty": 0
+    },
+    "+40": {
+     "rate": 5.0,
+     "gold": 150000.0,
+     "materials": [
+      {
+       "item": "邪根の渇望のかけら",
+       "qty": 60
+      },
+      {
+       "item": "ねじれた根",
+       "qty": 8
+      }
+     ],
+     "protect_qty": 0
+    },
+    "+41": {
+     "rate": 100.0,
+     "gold": 200000.0,
+     "materials": [
+      {
+       "item": "邪根の渇望のかけら",
+       "qty": 65
+      },
+      {
+       "item": "ねじれた根",
+       "qty": 8
+      }
+     ],
+     "protect_qty": 0
+    },
+    "+42": {
+     "rate": 100.0,
+     "gold": 200000.0,
+     "materials": [
+      {
+       "item": "邪根の渇望のかけら",
+       "qty": 65
+      },
+      {
+       "item": "ねじれた根",
+       "qty": 8
+      }
+     ],
+     "protect_qty": 0
+    },
+    "+43": {
+     "rate": 100.0,
+     "gold": 200000.0,
+     "materials": [
+      {
+       "item": "邪根の渇望のかけら",
+       "qty": 65
+      },
+      {
+       "item": "ねじれた根",
+       "qty": 8
+      }
+     ],
+     "protect_qty": 0
+    },
+    "+44": {
+     "rate": 100.0,
+     "gold": 200000.0,
+     "materials": [
+      {
+       "item": "邪根の渇望のかけら",
+       "qty": 65
+      },
+      {
+       "item": "ねじれた根",
+       "qty": 8
+      }
+     ],
+     "protect_qty": 0
+    },
+    "+45": {
+     "rate": 100.0,
+     "gold": 200000.0,
+     "materials": [
+      {
+       "item": "邪根の渇望のかけら",
+       "qty": 65
+      },
+      {
+       "item": "ねじれた根",
+       "qty": 8
+      }
+     ],
+     "protect_qty": 0
+    },
+    "+46": {
+     "rate": 100.0,
+     "gold": 200000.0,
+     "materials": [
+      {
+       "item": "邪根の渇望のかけら",
+       "qty": 65
+      },
+      {
+       "item": "ねじれた根",
+       "qty": 8
+      }
+     ],
+     "protect_qty": 0
+    },
+    "+47": {
+     "rate": 100.0,
+     "gold": 200000.0,
+     "materials": [
+      {
+       "item": "邪根の渇望のかけら",
+       "qty": 65
+      },
+      {
+       "item": "ねじれた根",
+       "qty": 8
+      }
+     ],
+     "protect_qty": 0
+    },
+    "+48": {
+     "rate": 100.0,
+     "gold": 200000.0,
+     "materials": [
+      {
+       "item": "邪根の渇望のかけら",
+       "qty": 65
+      },
+      {
+       "item": "ねじれた根",
+       "qty": 8
+      }
+     ],
+     "protect_qty": 0
+    },
+    "+49": {
+     "rate": 100.0,
+     "gold": 200000.0,
+     "materials": [
+      {
+       "item": "邪根の渇望のかけら",
+       "qty": 65
+      },
+      {
+       "item": "ねじれた根",
+       "qty": 8
+      }
+     ],
+     "protect_qty": 0
+    },
+    "+50": {
+     "rate": 3.0,
+     "gold": 200000.0,
+     "materials": [
+      {
+       "item": "邪根の渇望のかけら",
+       "qty": 70
+      },
+      {
+       "item": "ねじれた根",
+       "qty": 10
+      }
+     ],
+     "protect_qty": 0
+    }
+   }
+  },
+  "cn1783-unknown-ancient-acc-enhance": {
+   "enchant_id": 847258789,
+   "rows": {
+    "+1": {
+     "rate": 100.0,
+     "gold": 500.0,
+     "materials": [
+      {
+       "item": "未知の古代アクセサリーの破片",
+       "qty": 10
+      },
+      {
+       "item": "古代人の知識",
+       "qty": 5
+      },
+      {
+       "item": "古代人の紋様",
+       "qty": 100
+      }
+     ],
+     "protect_qty": 0
+    },
+    "+2": {
+     "rate": 100.0,
+     "gold": 500.0,
+     "materials": [
+      {
+       "item": "未知の古代アクセサリーの破片",
+       "qty": 10
+      },
+      {
+       "item": "古代人の知識",
+       "qty": 5
+      },
+      {
+       "item": "古代人の紋様",
+       "qty": 100
+      }
+     ],
+     "protect_qty": 0
+    },
+    "+3": {
+     "rate": 100.0,
+     "gold": 500.0,
+     "materials": [
+      {
+       "item": "未知の古代アクセサリーの破片",
+       "qty": 10
+      },
+      {
+       "item": "古代人の知識",
+       "qty": 5
+      },
+      {
+       "item": "古代人の紋様",
+       "qty": 100
+      }
+     ],
+     "protect_qty": 0
+    },
+    "+4": {
+     "rate": 100.0,
+     "gold": 500.0,
+     "materials": [
+      {
+       "item": "未知の古代アクセサリーの破片",
+       "qty": 10
+      },
+      {
+       "item": "古代人の知識",
+       "qty": 5
+      },
+      {
+       "item": "古代人の紋様",
+       "qty": 100
+      }
+     ],
+     "protect_qty": 0
+    },
+    "+5": {
+     "rate": 100.0,
+     "gold": 500.0,
+     "materials": [
+      {
+       "item": "未知の古代アクセサリーの破片",
+       "qty": 10
+      },
+      {
+       "item": "古代人の知識",
+       "qty": 5
+      },
+      {
+       "item": "古代人の紋様",
+       "qty": 100
+      }
+     ],
+     "protect_qty": 0
+    },
+    "+6": {
+     "rate": 100.0,
+     "gold": 500.0,
+     "materials": [
+      {
+       "item": "未知の古代アクセサリーの破片",
+       "qty": 10
+      },
+      {
+       "item": "古代人の知識",
+       "qty": 5
+      },
+      {
+       "item": "古代人の紋様",
+       "qty": 100
+      }
+     ],
+     "protect_qty": 0
+    },
+    "+7": {
+     "rate": 100.0,
+     "gold": 500.0,
+     "materials": [
+      {
+       "item": "未知の古代アクセサリーの破片",
+       "qty": 10
+      },
+      {
+       "item": "古代人の知識",
+       "qty": 5
+      },
+      {
+       "item": "古代人の紋様",
+       "qty": 100
+      }
+     ],
+     "protect_qty": 0
+    },
+    "+8": {
+     "rate": 100.0,
+     "gold": 500.0,
+     "materials": [
+      {
+       "item": "未知の古代アクセサリーの破片",
+       "qty": 10
+      },
+      {
+       "item": "古代人の知識",
+       "qty": 5
+      },
+      {
+       "item": "古代人の紋様",
+       "qty": 100
+      }
+     ],
+     "protect_qty": 0
+    },
+    "+9": {
+     "rate": 100.0,
+     "gold": 500.0,
+     "materials": [
+      {
+       "item": "未知の古代アクセサリーの破片",
+       "qty": 10
+      },
+      {
+       "item": "古代人の知識",
+       "qty": 5
+      },
+      {
+       "item": "古代人の紋様",
+       "qty": 100
+      }
+     ],
+     "protect_qty": 0
+    },
+    "+10": {
+     "rate": 100.0,
+     "gold": 500.0,
+     "materials": [
+      {
+       "item": "未知の古代アクセサリーの破片",
+       "qty": 10
+      },
+      {
+       "item": "古代人の知識",
+       "qty": 5
+      },
+      {
+       "item": "古代人の紋様",
+       "qty": 100
+      }
+     ],
+     "protect_qty": 0
+    },
+    "+11": {
+     "rate": 33.0,
+     "gold": 1000.0,
+     "materials": [
+      {
+       "item": "未知の古代アクセサリーの破片",
+       "qty": 10
+      },
+      {
+       "item": "古代人の知識",
+       "qty": 5
+      },
+      {
+       "item": "古代人の紋様",
+       "qty": 100
+      }
+     ],
+     "protect_qty": 0
+    },
+    "+12": {
+     "rate": 31.0,
+     "gold": 1000.0,
+     "materials": [
+      {
+       "item": "未知の古代アクセサリーの破片",
+       "qty": 10
+      },
+      {
+       "item": "古代人の知識",
+       "qty": 5
+      },
+      {
+       "item": "古代人の紋様",
+       "qty": 100
+      }
+     ],
+     "protect_qty": 0
+    },
+    "+13": {
+     "rate": 29.0,
+     "gold": 1000.0,
+     "materials": [
+      {
+       "item": "未知の古代アクセサリーの破片",
+       "qty": 10
+      },
+      {
+       "item": "古代人の知識",
+       "qty": 5
+      },
+      {
+       "item": "古代人の紋様",
+       "qty": 100
+      }
+     ],
+     "protect_qty": 0
+    },
+    "+14": {
+     "rate": 27.0,
+     "gold": 1000.0,
+     "materials": [
+      {
+       "item": "未知の古代アクセサリーの破片",
+       "qty": 10
+      },
+      {
+       "item": "古代人の知識",
+       "qty": 5
+      },
+      {
+       "item": "古代人の紋様",
+       "qty": 100
+      }
+     ],
+     "protect_qty": 0
+    },
+    "+15": {
+     "rate": 25.0,
+     "gold": 1000.0,
+     "materials": [
+      {
+       "item": "未知の古代アクセサリーの破片",
+       "qty": 10
+      },
+      {
+       "item": "古代人の知識",
+       "qty": 5
+      },
+      {
+       "item": "古代人の紋様",
+       "qty": 100
+      }
+     ],
+     "protect_qty": 0
+    },
+    "+16": {
+     "rate": 22.0,
+     "gold": 1000.0,
+     "materials": [
+      {
+       "item": "未知の古代アクセサリーの破片",
+       "qty": 10
+      },
+      {
+       "item": "古代人の知識",
+       "qty": 5
+      },
+      {
+       "item": "古代人の紋様",
+       "qty": 100
+      }
+     ],
+     "protect_qty": 0
+    },
+    "+17": {
+     "rate": 20.0,
+     "gold": 1000.0,
+     "materials": [
+      {
+       "item": "未知の古代アクセサリーの破片",
+       "qty": 10
+      },
+      {
+       "item": "古代人の知識",
+       "qty": 5
+      },
+      {
+       "item": "古代人の紋様",
+       "qty": 100
+      }
+     ],
+     "protect_qty": 0
+    },
+    "+18": {
+     "rate": 18.0,
+     "gold": 1000.0,
+     "materials": [
+      {
+       "item": "未知の古代アクセサリーの破片",
+       "qty": 10
+      },
+      {
+       "item": "古代人の知識",
+       "qty": 5
+      },
+      {
+       "item": "古代人の紋様",
+       "qty": 100
+      }
+     ],
+     "protect_qty": 0
+    },
+    "+19": {
+     "rate": 15.0,
+     "gold": 1000.0,
+     "materials": [
+      {
+       "item": "未知の古代アクセサリーの破片",
+       "qty": 10
+      },
+      {
+       "item": "古代人の知識",
+       "qty": 5
+      },
+      {
+       "item": "古代人の紋様",
+       "qty": 100
+      }
+     ],
+     "protect_qty": 0
+    },
+    "+20": {
+     "rate": 12.0,
+     "gold": 1000.0,
+     "materials": [
+      {
+       "item": "未知の古代アクセサリーの破片",
+       "qty": 10
+      },
+      {
+       "item": "古代人の知識",
+       "qty": 5
+      },
+      {
+       "item": "古代人の紋様",
+       "qty": 100
+      }
+     ],
+     "protect_qty": 0
+    }
+   }
+  },
+  "n1151-ancient-dragon-armor-enhance": {
+   "enchant_id": 847258856,
+   "rows": {
+    "+1": {
+     "rate": 100.0,
+     "gold": 600.0,
+     "materials": [
+      {
+       "item": "古竜の骨片",
+       "qty": 5
+      },
+      {
+       "item": "上級ガーネット",
+       "qty": 10
+      },
+      {
+       "item": "上級生命の清水",
+       "qty": 10
+      }
+     ],
+     "protect_qty": 0
+    },
+    "+2": {
+     "rate": 100.0,
+     "gold": 2400.0,
+     "materials": [
+      {
+       "item": "古竜の骨片",
+       "qty": 5
+      },
+      {
+       "item": "上級ガーネット",
+       "qty": 30
+      },
+      {
+       "item": "上級生命の清水",
+       "qty": 30
+      }
+     ],
+     "protect_qty": 0
+    },
+    "+3": {
+     "rate": 100.0,
+     "gold": 5400.0,
+     "materials": [
+      {
+       "item": "古竜の骨片",
+       "qty": 5
+      },
+      {
+       "item": "上級ガーネット",
+       "qty": 70
+      },
+      {
+       "item": "上級生命の清水",
+       "qty": 70
+      }
+     ],
+     "protect_qty": 0
+    },
+    "+4": {
+     "rate": 82.0,
+     "gold": 9600.0,
+     "materials": [
+      {
+       "item": "古竜の骨片",
+       "qty": 5
+      },
+      {
+       "item": "上級ガーネット",
+       "qty": 120
+      },
+      {
+       "item": "上級生命の清水",
+       "qty": 130
+      }
+     ],
+     "protect_qty": 0
+    },
+    "+5": {
+     "rate": 69.0,
+     "gold": 15100.0,
+     "materials": [
+      {
+       "item": "古竜の骨片",
+       "qty": 5
+      },
+      {
+       "item": "上級ガーネット",
+       "qty": 190
+      },
+      {
+       "item": "上級生命の清水",
+       "qty": 210
+      }
+     ],
+     "protect_qty": 0
+    },
+    "+6": {
+     "rate": 56.0,
+     "gold": 21700.0,
+     "materials": [
+      {
+       "item": "古竜の骨片",
+       "qty": 5
+      },
+      {
+       "item": "上級ガーネット",
+       "qty": 270
+      },
+      {
+       "item": "上級生命の清水",
+       "qty": 300
+      }
+     ],
+     "protect_qty": 2400
+    },
+    "+7": {
+     "rate": 44.0,
+     "gold": 29500.0,
+     "materials": [
+      {
+       "item": "古竜の骨片",
+       "qty": 5
+      },
+      {
+       "item": "上級ガーネット",
+       "qty": 370
+      },
+      {
+       "item": "上級生命の清水",
+       "qty": 400
+      }
+     ],
+     "protect_qty": 3300
+    },
+    "+8": {
+     "rate": 32.0,
+     "gold": 38600.0,
+     "materials": [
+      {
+       "item": "古竜の骨片",
+       "qty": 5
+      },
+      {
+       "item": "上級ガーネット",
+       "qty": 480
+      },
+      {
+       "item": "上級生命の清水",
+       "qty": 530
+      }
+     ],
+     "protect_qty": 4300
+    },
+    "+9": {
+     "rate": 20.0,
+     "gold": 48800.0,
+     "materials": [
+      {
+       "item": "古竜の骨片",
+       "qty": 5
+      },
+      {
+       "item": "上級ガーネット",
+       "qty": 610
+      },
+      {
+       "item": "上級生命の清水",
+       "qty": 670
+      }
+     ],
+     "protect_qty": 5400
+    },
+    "+10": {
+     "rate": 8.0,
+     "gold": 60300.0,
+     "materials": [
+      {
+       "item": "古竜の骨片",
+       "qty": 10
+      },
+      {
+       "item": "上級ガーネット",
+       "qty": 750
+      },
+      {
+       "item": "上級生命の清水",
+       "qty": 830
+      }
+     ],
+     "protect_qty": 6700
+    },
+    "+11": {
+     "rate": 7.0,
+     "gold": 73000.0,
+     "materials": [
+      {
+       "item": "古竜の骨片",
+       "qty": 10
+      },
+      {
+       "item": "上級ガーネット",
+       "qty": 910
+      },
+      {
+       "item": "上級生命の清水",
+       "qty": 1000
+      }
+     ],
+     "protect_qty": 8100
+    },
+    "+12": {
+     "rate": 6.0,
+     "gold": 86800.0,
+     "materials": [
+      {
+       "item": "古竜の骨片",
+       "qty": 10
+      },
+      {
+       "item": "上級ガーネット",
+       "qty": 1080
+      },
+      {
+       "item": "上級生命の清水",
+       "qty": 1190
+      }
+     ],
+     "protect_qty": 9700
+    },
+    "+13": {
+     "rate": 5.0,
+     "gold": 101900.0,
+     "materials": [
+      {
+       "item": "古竜の骨片",
+       "qty": 10
+      },
+      {
+       "item": "上級ガーネット",
+       "qty": 1270
+      },
+      {
+       "item": "上級生命の清水",
+       "qty": 1390
+      }
+     ],
+     "protect_qty": 11300
+    },
+    "+14": {
+     "rate": 5.0,
+     "gold": 118200.0,
+     "materials": [
+      {
+       "item": "古竜の骨片",
+       "qty": 10
+      },
+      {
+       "item": "上級ガーネット",
+       "qty": 1470
+      },
+      {
+       "item": "上級生命の清水",
+       "qty": 1620
+      }
+     ],
+     "protect_qty": 13100
+    },
+    "+15": {
+     "rate": 5.0,
+     "gold": 135700.0,
+     "materials": [
+      {
+       "item": "古竜の骨片",
+       "qty": 10
+      },
+      {
+       "item": "上級ガーネット",
+       "qty": 1690
+      },
+      {
+       "item": "上級生命の清水",
+       "qty": 1860
+      }
+     ],
+     "protect_qty": 15100
+    },
+    "+16": {
+     "rate": 5.0,
+     "gold": 154400.0,
+     "materials": [
+      {
+       "item": "古竜の骨片",
+       "qty": 10
+      },
+      {
+       "item": "上級ガーネット",
+       "qty": 1920
+      },
+      {
+       "item": "上級生命の清水",
+       "qty": 2110
+      }
+     ],
+     "protect_qty": 17200
+    },
+    "+17": {
+     "rate": 5.0,
+     "gold": 174300.0,
+     "materials": [
+      {
+       "item": "古竜の骨片",
+       "qty": 10
+      },
+      {
+       "item": "上級ガーネット",
+       "qty": 2170
+      },
+      {
+       "item": "上級生命の清水",
+       "qty": 2380
+      }
+     ],
+     "protect_qty": 19400
+    },
+    "+18": {
+     "rate": 5.0,
+     "gold": 195400.0,
+     "materials": [
+      {
+       "item": "古竜の骨片",
+       "qty": 10
+      },
+      {
+       "item": "上級ガーネット",
+       "qty": 2430
+      },
+      {
+       "item": "上級生命の清水",
+       "qty": 2670
+      }
+     ],
+     "protect_qty": 21700
+    },
+    "+19": {
+     "rate": 5.0,
+     "gold": 200000.0,
+     "materials": [
+      {
+       "item": "古竜の骨片",
+       "qty": 10
+      },
+      {
+       "item": "上級ガーネット",
+       "qty": 2710
+      },
+      {
+       "item": "上級生命の清水",
+       "qty": 2980
+      }
+     ],
+     "protect_qty": 24200
+    },
+    "+20": {
+     "rate": 5.0,
+     "gold": 200000.0,
+     "materials": [
+      {
+       "item": "古竜の骨片",
+       "qty": 10
+      },
+      {
+       "item": "上級ガーネット",
+       "qty": 3000
+      },
+      {
+       "item": "上級生命の清水",
+       "qty": 3300
+      }
+     ],
+     "protect_qty": 26800
+    }
+   }
+  },
+  "n1151-ancient-dragon-boots-enhance": {
+   "enchant_id": 847258859,
+   "rows": {
+    "+1": {
+     "rate": 100.0,
+     "gold": 600.0,
+     "materials": [
+      {
+       "item": "古竜の骨片",
+       "qty": 5
+      },
+      {
+       "item": "上級ガーネット",
+       "qty": 10
+      },
+      {
+       "item": "上級生命の清水",
+       "qty": 10
+      }
+     ],
+     "protect_qty": 0
+    },
+    "+2": {
+     "rate": 100.0,
+     "gold": 2400.0,
+     "materials": [
+      {
+       "item": "古竜の骨片",
+       "qty": 5
+      },
+      {
+       "item": "上級ガーネット",
+       "qty": 30
+      },
+      {
+       "item": "上級生命の清水",
+       "qty": 30
+      }
+     ],
+     "protect_qty": 0
+    },
+    "+3": {
+     "rate": 100.0,
+     "gold": 5400.0,
+     "materials": [
+      {
+       "item": "古竜の骨片",
+       "qty": 5
+      },
+      {
+       "item": "上級ガーネット",
+       "qty": 70
+      },
+      {
+       "item": "上級生命の清水",
+       "qty": 70
+      }
+     ],
+     "protect_qty": 0
+    },
+    "+4": {
+     "rate": 82.0,
+     "gold": 9600.0,
+     "materials": [
+      {
+       "item": "古竜の骨片",
+       "qty": 5
+      },
+      {
+       "item": "上級ガーネット",
+       "qty": 120
+      },
+      {
+       "item": "上級生命の清水",
+       "qty": 130
+      }
+     ],
+     "protect_qty": 0
+    },
+    "+5": {
+     "rate": 69.0,
+     "gold": 15100.0,
+     "materials": [
+      {
+       "item": "古竜の骨片",
+       "qty": 5
+      },
+      {
+       "item": "上級ガーネット",
+       "qty": 190
+      },
+      {
+       "item": "上級生命の清水",
+       "qty": 210
+      }
+     ],
+     "protect_qty": 0
+    },
+    "+6": {
+     "rate": 56.0,
+     "gold": 21700.0,
+     "materials": [
+      {
+       "item": "古竜の骨片",
+       "qty": 5
+      },
+      {
+       "item": "上級ガーネット",
+       "qty": 270
+      },
+      {
+       "item": "上級生命の清水",
+       "qty": 300
+      }
+     ],
+     "protect_qty": 2400
+    },
+    "+7": {
+     "rate": 44.0,
+     "gold": 29500.0,
+     "materials": [
+      {
+       "item": "古竜の骨片",
+       "qty": 5
+      },
+      {
+       "item": "上級ガーネット",
+       "qty": 370
+      },
+      {
+       "item": "上級生命の清水",
+       "qty": 400
+      }
+     ],
+     "protect_qty": 3300
+    },
+    "+8": {
+     "rate": 32.0,
+     "gold": 38600.0,
+     "materials": [
+      {
+       "item": "古竜の骨片",
+       "qty": 5
+      },
+      {
+       "item": "上級ガーネット",
+       "qty": 480
+      },
+      {
+       "item": "上級生命の清水",
+       "qty": 530
+      }
+     ],
+     "protect_qty": 4300
+    },
+    "+9": {
+     "rate": 20.0,
+     "gold": 48800.0,
+     "materials": [
+      {
+       "item": "古竜の骨片",
+       "qty": 5
+      },
+      {
+       "item": "上級ガーネット",
+       "qty": 610
+      },
+      {
+       "item": "上級生命の清水",
+       "qty": 670
+      }
+     ],
+     "protect_qty": 5400
+    },
+    "+10": {
+     "rate": 8.0,
+     "gold": 60300.0,
+     "materials": [
+      {
+       "item": "古竜の骨片",
+       "qty": 10
+      },
+      {
+       "item": "上級ガーネット",
+       "qty": 750
+      },
+      {
+       "item": "上級生命の清水",
+       "qty": 830
+      }
+     ],
+     "protect_qty": 6700
+    },
+    "+11": {
+     "rate": 7.0,
+     "gold": 73000.0,
+     "materials": [
+      {
+       "item": "古竜の骨片",
+       "qty": 10
+      },
+      {
+       "item": "上級ガーネット",
+       "qty": 910
+      },
+      {
+       "item": "上級生命の清水",
+       "qty": 1000
+      }
+     ],
+     "protect_qty": 8100
+    },
+    "+12": {
+     "rate": 6.0,
+     "gold": 86800.0,
+     "materials": [
+      {
+       "item": "古竜の骨片",
+       "qty": 10
+      },
+      {
+       "item": "上級ガーネット",
+       "qty": 1080
+      },
+      {
+       "item": "上級生命の清水",
+       "qty": 1190
+      }
+     ],
+     "protect_qty": 9700
+    },
+    "+13": {
+     "rate": 5.0,
+     "gold": 101900.0,
+     "materials": [
+      {
+       "item": "古竜の骨片",
+       "qty": 10
+      },
+      {
+       "item": "上級ガーネット",
+       "qty": 1270
+      },
+      {
+       "item": "上級生命の清水",
+       "qty": 1390
+      }
+     ],
+     "protect_qty": 11300
+    },
+    "+14": {
+     "rate": 5.0,
+     "gold": 118200.0,
+     "materials": [
+      {
+       "item": "古竜の骨片",
+       "qty": 10
+      },
+      {
+       "item": "上級ガーネット",
+       "qty": 1470
+      },
+      {
+       "item": "上級生命の清水",
+       "qty": 1620
+      }
+     ],
+     "protect_qty": 13100
+    },
+    "+15": {
+     "rate": 5.0,
+     "gold": 135700.0,
+     "materials": [
+      {
+       "item": "古竜の骨片",
+       "qty": 10
+      },
+      {
+       "item": "上級ガーネット",
+       "qty": 1690
+      },
+      {
+       "item": "上級生命の清水",
+       "qty": 1860
+      }
+     ],
+     "protect_qty": 15100
+    },
+    "+16": {
+     "rate": 5.0,
+     "gold": 154400.0,
+     "materials": [
+      {
+       "item": "古竜の骨片",
+       "qty": 10
+      },
+      {
+       "item": "上級ガーネット",
+       "qty": 1920
+      },
+      {
+       "item": "上級生命の清水",
+       "qty": 2110
+      }
+     ],
+     "protect_qty": 17200
+    },
+    "+17": {
+     "rate": 5.0,
+     "gold": 174300.0,
+     "materials": [
+      {
+       "item": "古竜の骨片",
+       "qty": 10
+      },
+      {
+       "item": "上級ガーネット",
+       "qty": 2170
+      },
+      {
+       "item": "上級生命の清水",
+       "qty": 2380
+      }
+     ],
+     "protect_qty": 19400
+    },
+    "+18": {
+     "rate": 5.0,
+     "gold": 195400.0,
+     "materials": [
+      {
+       "item": "古竜の骨片",
+       "qty": 10
+      },
+      {
+       "item": "上級ガーネット",
+       "qty": 2430
+      },
+      {
+       "item": "上級生命の清水",
+       "qty": 2670
+      }
+     ],
+     "protect_qty": 21700
+    },
+    "+19": {
+     "rate": 5.0,
+     "gold": 200000.0,
+     "materials": [
+      {
+       "item": "古竜の骨片",
+       "qty": 10
+      },
+      {
+       "item": "上級ガーネット",
+       "qty": 2710
+      },
+      {
+       "item": "上級生命の清水",
+       "qty": 2980
+      }
+     ],
+     "protect_qty": 24200
+    },
+    "+20": {
+     "rate": 5.0,
+     "gold": 200000.0,
+     "materials": [
+      {
+       "item": "古竜の骨片",
+       "qty": 10
+      },
+      {
+       "item": "上級ガーネット",
+       "qty": 3000
+      },
+      {
+       "item": "上級生命の清水",
+       "qty": 3300
+      }
+     ],
+     "protect_qty": 26800
+    }
+   }
+  },
+  "n1151-ancient-dragon-bottom-enhance": {
+   "enchant_id": 847258857,
+   "rows": {
+    "+1": {
+     "rate": 100.0,
+     "gold": 600.0,
+     "materials": [
+      {
+       "item": "古竜の骨片",
+       "qty": 5
+      },
+      {
+       "item": "上級ガーネット",
+       "qty": 10
+      },
+      {
+       "item": "上級生命の清水",
+       "qty": 10
+      }
+     ],
+     "protect_qty": 0
+    },
+    "+2": {
+     "rate": 100.0,
+     "gold": 2400.0,
+     "materials": [
+      {
+       "item": "古竜の骨片",
+       "qty": 5
+      },
+      {
+       "item": "上級ガーネット",
+       "qty": 30
+      },
+      {
+       "item": "上級生命の清水",
+       "qty": 30
+      }
+     ],
+     "protect_qty": 0
+    },
+    "+3": {
+     "rate": 100.0,
+     "gold": 5400.0,
+     "materials": [
+      {
+       "item": "古竜の骨片",
+       "qty": 5
+      },
+      {
+       "item": "上級ガーネット",
+       "qty": 70
+      },
+      {
+       "item": "上級生命の清水",
+       "qty": 70
+      }
+     ],
+     "protect_qty": 0
+    },
+    "+4": {
+     "rate": 82.0,
+     "gold": 9600.0,
+     "materials": [
+      {
+       "item": "古竜の骨片",
+       "qty": 5
+      },
+      {
+       "item": "上級ガーネット",
+       "qty": 120
+      },
+      {
+       "item": "上級生命の清水",
+       "qty": 130
+      }
+     ],
+     "protect_qty": 0
+    },
+    "+5": {
+     "rate": 69.0,
+     "gold": 15100.0,
+     "materials": [
+      {
+       "item": "古竜の骨片",
+       "qty": 5
+      },
+      {
+       "item": "上級ガーネット",
+       "qty": 190
+      },
+      {
+       "item": "上級生命の清水",
+       "qty": 210
+      }
+     ],
+     "protect_qty": 0
+    },
+    "+6": {
+     "rate": 56.0,
+     "gold": 21700.0,
+     "materials": [
+      {
+       "item": "古竜の骨片",
+       "qty": 5
+      },
+      {
+       "item": "上級ガーネット",
+       "qty": 270
+      },
+      {
+       "item": "上級生命の清水",
+       "qty": 300
+      }
+     ],
+     "protect_qty": 2400
+    },
+    "+7": {
+     "rate": 44.0,
+     "gold": 29500.0,
+     "materials": [
+      {
+       "item": "古竜の骨片",
+       "qty": 5
+      },
+      {
+       "item": "上級ガーネット",
+       "qty": 370
+      },
+      {
+       "item": "上級生命の清水",
+       "qty": 400
+      }
+     ],
+     "protect_qty": 3300
+    },
+    "+8": {
+     "rate": 32.0,
+     "gold": 38600.0,
+     "materials": [
+      {
+       "item": "古竜の骨片",
+       "qty": 5
+      },
+      {
+       "item": "上級ガーネット",
+       "qty": 480
+      },
+      {
+       "item": "上級生命の清水",
+       "qty": 530
+      }
+     ],
+     "protect_qty": 4300
+    },
+    "+9": {
+     "rate": 20.0,
+     "gold": 48800.0,
+     "materials": [
+      {
+       "item": "古竜の骨片",
+       "qty": 5
+      },
+      {
+       "item": "上級ガーネット",
+       "qty": 610
+      },
+      {
+       "item": "上級生命の清水",
+       "qty": 670
+      }
+     ],
+     "protect_qty": 5400
+    },
+    "+10": {
+     "rate": 8.0,
+     "gold": 60300.0,
+     "materials": [
+      {
+       "item": "古竜の骨片",
+       "qty": 10
+      },
+      {
+       "item": "上級ガーネット",
+       "qty": 750
+      },
+      {
+       "item": "上級生命の清水",
+       "qty": 830
+      }
+     ],
+     "protect_qty": 6700
+    },
+    "+11": {
+     "rate": 7.0,
+     "gold": 73000.0,
+     "materials": [
+      {
+       "item": "古竜の骨片",
+       "qty": 10
+      },
+      {
+       "item": "上級ガーネット",
+       "qty": 910
+      },
+      {
+       "item": "上級生命の清水",
+       "qty": 1000
+      }
+     ],
+     "protect_qty": 8100
+    },
+    "+12": {
+     "rate": 6.0,
+     "gold": 86800.0,
+     "materials": [
+      {
+       "item": "古竜の骨片",
+       "qty": 10
+      },
+      {
+       "item": "上級ガーネット",
+       "qty": 1080
+      },
+      {
+       "item": "上級生命の清水",
+       "qty": 1190
+      }
+     ],
+     "protect_qty": 9700
+    },
+    "+13": {
+     "rate": 5.0,
+     "gold": 101900.0,
+     "materials": [
+      {
+       "item": "古竜の骨片",
+       "qty": 10
+      },
+      {
+       "item": "上級ガーネット",
+       "qty": 1270
+      },
+      {
+       "item": "上級生命の清水",
+       "qty": 1390
+      }
+     ],
+     "protect_qty": 11300
+    },
+    "+14": {
+     "rate": 5.0,
+     "gold": 118200.0,
+     "materials": [
+      {
+       "item": "古竜の骨片",
+       "qty": 10
+      },
+      {
+       "item": "上級ガーネット",
+       "qty": 1470
+      },
+      {
+       "item": "上級生命の清水",
+       "qty": 1620
+      }
+     ],
+     "protect_qty": 13100
+    },
+    "+15": {
+     "rate": 5.0,
+     "gold": 135700.0,
+     "materials": [
+      {
+       "item": "古竜の骨片",
+       "qty": 10
+      },
+      {
+       "item": "上級ガーネット",
+       "qty": 1690
+      },
+      {
+       "item": "上級生命の清水",
+       "qty": 1860
+      }
+     ],
+     "protect_qty": 15100
+    },
+    "+16": {
+     "rate": 5.0,
+     "gold": 154400.0,
+     "materials": [
+      {
+       "item": "古竜の骨片",
+       "qty": 10
+      },
+      {
+       "item": "上級ガーネット",
+       "qty": 1920
+      },
+      {
+       "item": "上級生命の清水",
+       "qty": 2110
+      }
+     ],
+     "protect_qty": 17200
+    },
+    "+17": {
+     "rate": 5.0,
+     "gold": 174300.0,
+     "materials": [
+      {
+       "item": "古竜の骨片",
+       "qty": 10
+      },
+      {
+       "item": "上級ガーネット",
+       "qty": 2170
+      },
+      {
+       "item": "上級生命の清水",
+       "qty": 2380
+      }
+     ],
+     "protect_qty": 19400
+    },
+    "+18": {
+     "rate": 5.0,
+     "gold": 195400.0,
+     "materials": [
+      {
+       "item": "古竜の骨片",
+       "qty": 10
+      },
+      {
+       "item": "上級ガーネット",
+       "qty": 2430
+      },
+      {
+       "item": "上級生命の清水",
+       "qty": 2670
+      }
+     ],
+     "protect_qty": 21700
+    },
+    "+19": {
+     "rate": 5.0,
+     "gold": 200000.0,
+     "materials": [
+      {
+       "item": "古竜の骨片",
+       "qty": 10
+      },
+      {
+       "item": "上級ガーネット",
+       "qty": 2710
+      },
+      {
+       "item": "上級生命の清水",
+       "qty": 2980
+      }
+     ],
+     "protect_qty": 24200
+    },
+    "+20": {
+     "rate": 5.0,
+     "gold": 200000.0,
+     "materials": [
+      {
+       "item": "古竜の骨片",
+       "qty": 10
+      },
+      {
+       "item": "上級ガーネット",
+       "qty": 3000
+      },
+      {
+       "item": "上級生命の清水",
+       "qty": 3300
+      }
+     ],
+     "protect_qty": 26800
+    }
+   }
+  },
+  "n1151-ancient-dragon-glove-enhance": {
+   "enchant_id": 847258858,
+   "rows": {
+    "+1": {
+     "rate": 100.0,
+     "gold": 600.0,
+     "materials": [
+      {
+       "item": "古竜の骨片",
+       "qty": 5
+      },
+      {
+       "item": "上級ガーネット",
+       "qty": 10
+      },
+      {
+       "item": "上級生命の清水",
+       "qty": 10
+      }
+     ],
+     "protect_qty": 0
+    },
+    "+2": {
+     "rate": 100.0,
+     "gold": 2400.0,
+     "materials": [
+      {
+       "item": "古竜の骨片",
+       "qty": 5
+      },
+      {
+       "item": "上級ガーネット",
+       "qty": 30
+      },
+      {
+       "item": "上級生命の清水",
+       "qty": 30
+      }
+     ],
+     "protect_qty": 0
+    },
+    "+3": {
+     "rate": 100.0,
+     "gold": 5400.0,
+     "materials": [
+      {
+       "item": "古竜の骨片",
+       "qty": 5
+      },
+      {
+       "item": "上級ガーネット",
+       "qty": 70
+      },
+      {
+       "item": "上級生命の清水",
+       "qty": 70
+      }
+     ],
+     "protect_qty": 0
+    },
+    "+4": {
+     "rate": 82.0,
+     "gold": 9600.0,
+     "materials": [
+      {
+       "item": "古竜の骨片",
+       "qty": 5
+      },
+      {
+       "item": "上級ガーネット",
+       "qty": 120
+      },
+      {
+       "item": "上級生命の清水",
+       "qty": 130
+      }
+     ],
+     "protect_qty": 0
+    },
+    "+5": {
+     "rate": 69.0,
+     "gold": 15100.0,
+     "materials": [
+      {
+       "item": "古竜の骨片",
+       "qty": 5
+      },
+      {
+       "item": "上級ガーネット",
+       "qty": 190
+      },
+      {
+       "item": "上級生命の清水",
+       "qty": 210
+      }
+     ],
+     "protect_qty": 0
+    },
+    "+6": {
+     "rate": 56.0,
+     "gold": 21700.0,
+     "materials": [
+      {
+       "item": "古竜の骨片",
+       "qty": 5
+      },
+      {
+       "item": "上級ガーネット",
+       "qty": 270
+      },
+      {
+       "item": "上級生命の清水",
+       "qty": 300
+      }
+     ],
+     "protect_qty": 2400
+    },
+    "+7": {
+     "rate": 44.0,
+     "gold": 29500.0,
+     "materials": [
+      {
+       "item": "古竜の骨片",
+       "qty": 5
+      },
+      {
+       "item": "上級ガーネット",
+       "qty": 370
+      },
+      {
+       "item": "上級生命の清水",
+       "qty": 400
+      }
+     ],
+     "protect_qty": 3300
+    },
+    "+8": {
+     "rate": 32.0,
+     "gold": 38600.0,
+     "materials": [
+      {
+       "item": "古竜の骨片",
+       "qty": 5
+      },
+      {
+       "item": "上級ガーネット",
+       "qty": 480
+      },
+      {
+       "item": "上級生命の清水",
+       "qty": 530
+      }
+     ],
+     "protect_qty": 4300
+    },
+    "+9": {
+     "rate": 20.0,
+     "gold": 48800.0,
+     "materials": [
+      {
+       "item": "古竜の骨片",
+       "qty": 5
+      },
+      {
+       "item": "上級ガーネット",
+       "qty": 610
+      },
+      {
+       "item": "上級生命の清水",
+       "qty": 670
+      }
+     ],
+     "protect_qty": 5400
+    },
+    "+10": {
+     "rate": 8.0,
+     "gold": 60300.0,
+     "materials": [
+      {
+       "item": "古竜の骨片",
+       "qty": 10
+      },
+      {
+       "item": "上級ガーネット",
+       "qty": 750
+      },
+      {
+       "item": "上級生命の清水",
+       "qty": 830
+      }
+     ],
+     "protect_qty": 6700
+    },
+    "+11": {
+     "rate": 7.0,
+     "gold": 73000.0,
+     "materials": [
+      {
+       "item": "古竜の骨片",
+       "qty": 10
+      },
+      {
+       "item": "上級ガーネット",
+       "qty": 910
+      },
+      {
+       "item": "上級生命の清水",
+       "qty": 1000
+      }
+     ],
+     "protect_qty": 8100
+    },
+    "+12": {
+     "rate": 6.0,
+     "gold": 86800.0,
+     "materials": [
+      {
+       "item": "古竜の骨片",
+       "qty": 10
+      },
+      {
+       "item": "上級ガーネット",
+       "qty": 1080
+      },
+      {
+       "item": "上級生命の清水",
+       "qty": 1190
+      }
+     ],
+     "protect_qty": 9700
+    },
+    "+13": {
+     "rate": 5.0,
+     "gold": 101900.0,
+     "materials": [
+      {
+       "item": "古竜の骨片",
+       "qty": 10
+      },
+      {
+       "item": "上級ガーネット",
+       "qty": 1270
+      },
+      {
+       "item": "上級生命の清水",
+       "qty": 1390
+      }
+     ],
+     "protect_qty": 11300
+    },
+    "+14": {
+     "rate": 5.0,
+     "gold": 118200.0,
+     "materials": [
+      {
+       "item": "古竜の骨片",
+       "qty": 10
+      },
+      {
+       "item": "上級ガーネット",
+       "qty": 1470
+      },
+      {
+       "item": "上級生命の清水",
+       "qty": 1620
+      }
+     ],
+     "protect_qty": 13100
+    },
+    "+15": {
+     "rate": 5.0,
+     "gold": 135700.0,
+     "materials": [
+      {
+       "item": "古竜の骨片",
+       "qty": 10
+      },
+      {
+       "item": "上級ガーネット",
+       "qty": 1690
+      },
+      {
+       "item": "上級生命の清水",
+       "qty": 1860
+      }
+     ],
+     "protect_qty": 15100
+    },
+    "+16": {
+     "rate": 5.0,
+     "gold": 154400.0,
+     "materials": [
+      {
+       "item": "古竜の骨片",
+       "qty": 10
+      },
+      {
+       "item": "上級ガーネット",
+       "qty": 1920
+      },
+      {
+       "item": "上級生命の清水",
+       "qty": 2110
+      }
+     ],
+     "protect_qty": 17200
+    },
+    "+17": {
+     "rate": 5.0,
+     "gold": 174300.0,
+     "materials": [
+      {
+       "item": "古竜の骨片",
+       "qty": 10
+      },
+      {
+       "item": "上級ガーネット",
+       "qty": 2170
+      },
+      {
+       "item": "上級生命の清水",
+       "qty": 2380
+      }
+     ],
+     "protect_qty": 19400
+    },
+    "+18": {
+     "rate": 5.0,
+     "gold": 195400.0,
+     "materials": [
+      {
+       "item": "古竜の骨片",
+       "qty": 10
+      },
+      {
+       "item": "上級ガーネット",
+       "qty": 2430
+      },
+      {
+       "item": "上級生命の清水",
+       "qty": 2670
+      }
+     ],
+     "protect_qty": 21700
+    },
+    "+19": {
+     "rate": 5.0,
+     "gold": 200000.0,
+     "materials": [
+      {
+       "item": "古竜の骨片",
+       "qty": 10
+      },
+      {
+       "item": "上級ガーネット",
+       "qty": 2710
+      },
+      {
+       "item": "上級生命の清水",
+       "qty": 2980
+      }
+     ],
+     "protect_qty": 24200
+    },
+    "+20": {
+     "rate": 5.0,
+     "gold": 200000.0,
+     "materials": [
+      {
+       "item": "古竜の骨片",
+       "qty": 10
+      },
+      {
+       "item": "上級ガーネット",
+       "qty": 3000
+      },
+      {
+       "item": "上級生命の清水",
+       "qty": 3300
+      }
+     ],
+     "protect_qty": 26800
+    }
+   }
+  },
+  "n1151-ancient-dragon-helm-enhance": {
+   "enchant_id": 847258855,
+   "rows": {
+    "+1": {
+     "rate": 100.0,
+     "gold": 600.0,
+     "materials": [
+      {
+       "item": "古竜の骨片",
+       "qty": 5
+      },
+      {
+       "item": "上級ガーネット",
+       "qty": 10
+      },
+      {
+       "item": "上級生命の清水",
+       "qty": 10
+      }
+     ],
+     "protect_qty": 0
+    },
+    "+2": {
+     "rate": 100.0,
+     "gold": 2400.0,
+     "materials": [
+      {
+       "item": "古竜の骨片",
+       "qty": 5
+      },
+      {
+       "item": "上級ガーネット",
+       "qty": 30
+      },
+      {
+       "item": "上級生命の清水",
+       "qty": 30
+      }
+     ],
+     "protect_qty": 0
+    },
+    "+3": {
+     "rate": 100.0,
+     "gold": 5400.0,
+     "materials": [
+      {
+       "item": "古竜の骨片",
+       "qty": 5
+      },
+      {
+       "item": "上級ガーネット",
+       "qty": 70
+      },
+      {
+       "item": "上級生命の清水",
+       "qty": 70
+      }
+     ],
+     "protect_qty": 0
+    },
+    "+4": {
+     "rate": 82.0,
+     "gold": 9600.0,
+     "materials": [
+      {
+       "item": "古竜の骨片",
+       "qty": 5
+      },
+      {
+       "item": "上級ガーネット",
+       "qty": 120
+      },
+      {
+       "item": "上級生命の清水",
+       "qty": 130
+      }
+     ],
+     "protect_qty": 0
+    },
+    "+5": {
+     "rate": 69.0,
+     "gold": 15100.0,
+     "materials": [
+      {
+       "item": "古竜の骨片",
+       "qty": 5
+      },
+      {
+       "item": "上級ガーネット",
+       "qty": 190
+      },
+      {
+       "item": "上級生命の清水",
+       "qty": 210
+      }
+     ],
+     "protect_qty": 0
+    },
+    "+6": {
+     "rate": 56.0,
+     "gold": 21700.0,
+     "materials": [
+      {
+       "item": "古竜の骨片",
+       "qty": 5
+      },
+      {
+       "item": "上級ガーネット",
+       "qty": 270
+      },
+      {
+       "item": "上級生命の清水",
+       "qty": 300
+      }
+     ],
+     "protect_qty": 2400
+    },
+    "+7": {
+     "rate": 44.0,
+     "gold": 29500.0,
+     "materials": [
+      {
+       "item": "古竜の骨片",
+       "qty": 5
+      },
+      {
+       "item": "上級ガーネット",
+       "qty": 370
+      },
+      {
+       "item": "上級生命の清水",
+       "qty": 400
+      }
+     ],
+     "protect_qty": 3300
+    },
+    "+8": {
+     "rate": 32.0,
+     "gold": 38600.0,
+     "materials": [
+      {
+       "item": "古竜の骨片",
+       "qty": 5
+      },
+      {
+       "item": "上級ガーネット",
+       "qty": 480
+      },
+      {
+       "item": "上級生命の清水",
+       "qty": 530
+      }
+     ],
+     "protect_qty": 4300
+    },
+    "+9": {
+     "rate": 20.0,
+     "gold": 48800.0,
+     "materials": [
+      {
+       "item": "古竜の骨片",
+       "qty": 5
+      },
+      {
+       "item": "上級ガーネット",
+       "qty": 610
+      },
+      {
+       "item": "上級生命の清水",
+       "qty": 670
+      }
+     ],
+     "protect_qty": 5400
+    },
+    "+10": {
+     "rate": 8.0,
+     "gold": 60300.0,
+     "materials": [
+      {
+       "item": "古竜の骨片",
+       "qty": 10
+      },
+      {
+       "item": "上級ガーネット",
+       "qty": 750
+      },
+      {
+       "item": "上級生命の清水",
+       "qty": 830
+      }
+     ],
+     "protect_qty": 6700
+    },
+    "+11": {
+     "rate": 7.0,
+     "gold": 73000.0,
+     "materials": [
+      {
+       "item": "古竜の骨片",
+       "qty": 10
+      },
+      {
+       "item": "上級ガーネット",
+       "qty": 910
+      },
+      {
+       "item": "上級生命の清水",
+       "qty": 1000
+      }
+     ],
+     "protect_qty": 8100
+    },
+    "+12": {
+     "rate": 6.0,
+     "gold": 86800.0,
+     "materials": [
+      {
+       "item": "古竜の骨片",
+       "qty": 10
+      },
+      {
+       "item": "上級ガーネット",
+       "qty": 1080
+      },
+      {
+       "item": "上級生命の清水",
+       "qty": 1190
+      }
+     ],
+     "protect_qty": 9700
+    },
+    "+13": {
+     "rate": 5.0,
+     "gold": 101900.0,
+     "materials": [
+      {
+       "item": "古竜の骨片",
+       "qty": 10
+      },
+      {
+       "item": "上級ガーネット",
+       "qty": 1270
+      },
+      {
+       "item": "上級生命の清水",
+       "qty": 1390
+      }
+     ],
+     "protect_qty": 11300
+    },
+    "+14": {
+     "rate": 5.0,
+     "gold": 118200.0,
+     "materials": [
+      {
+       "item": "古竜の骨片",
+       "qty": 10
+      },
+      {
+       "item": "上級ガーネット",
+       "qty": 1470
+      },
+      {
+       "item": "上級生命の清水",
+       "qty": 1620
+      }
+     ],
+     "protect_qty": 13100
+    },
+    "+15": {
+     "rate": 5.0,
+     "gold": 135700.0,
+     "materials": [
+      {
+       "item": "古竜の骨片",
+       "qty": 10
+      },
+      {
+       "item": "上級ガーネット",
+       "qty": 1690
+      },
+      {
+       "item": "上級生命の清水",
+       "qty": 1860
+      }
+     ],
+     "protect_qty": 15100
+    },
+    "+16": {
+     "rate": 5.0,
+     "gold": 154400.0,
+     "materials": [
+      {
+       "item": "古竜の骨片",
+       "qty": 10
+      },
+      {
+       "item": "上級ガーネット",
+       "qty": 1920
+      },
+      {
+       "item": "上級生命の清水",
+       "qty": 2110
+      }
+     ],
+     "protect_qty": 17200
+    },
+    "+17": {
+     "rate": 5.0,
+     "gold": 174300.0,
+     "materials": [
+      {
+       "item": "古竜の骨片",
+       "qty": 10
+      },
+      {
+       "item": "上級ガーネット",
+       "qty": 2170
+      },
+      {
+       "item": "上級生命の清水",
+       "qty": 2380
+      }
+     ],
+     "protect_qty": 19400
+    },
+    "+18": {
+     "rate": 5.0,
+     "gold": 195400.0,
+     "materials": [
+      {
+       "item": "古竜の骨片",
+       "qty": 10
+      },
+      {
+       "item": "上級ガーネット",
+       "qty": 2430
+      },
+      {
+       "item": "上級生命の清水",
+       "qty": 2670
+      }
+     ],
+     "protect_qty": 21700
+    },
+    "+19": {
+     "rate": 5.0,
+     "gold": 200000.0,
+     "materials": [
+      {
+       "item": "古竜の骨片",
+       "qty": 10
+      },
+      {
+       "item": "上級ガーネット",
+       "qty": 2710
+      },
+      {
+       "item": "上級生命の清水",
+       "qty": 2980
+      }
+     ],
+     "protect_qty": 24200
+    },
+    "+20": {
+     "rate": 5.0,
+     "gold": 200000.0,
+     "materials": [
+      {
+       "item": "古竜の骨片",
+       "qty": 10
+      },
+      {
+       "item": "上級ガーネット",
+       "qty": 3000
+      },
+      {
+       "item": "上級生命の清水",
+       "qty": 3300
+      }
+     ],
+     "protect_qty": 26800
+    }
+   }
+  },
+  "n1231-eternal-jade-enhance": {
+   "enchant_id": 847258873,
+   "rows": {
+    "+1": {
+     "rate": 30.0,
+     "gold": 1000.0,
+     "materials": [
+      {
+       "item": "永遠の渇望のかけら",
+       "qty": 10
+      }
+     ],
+     "protect_qty": 0
+    },
+    "+2": {
+     "rate": 30.0,
+     "gold": 2000.0,
+     "materials": [
+      {
+       "item": "永遠の渇望のかけら",
+       "qty": 12
+      }
+     ],
+     "protect_qty": 0
+    },
+    "+3": {
+     "rate": 28.0,
+     "gold": 3000.0,
+     "materials": [
+      {
+       "item": "永遠の渇望のかけら",
+       "qty": 13
+      }
+     ],
+     "protect_qty": 0
+    },
+    "+4": {
+     "rate": 28.0,
+     "gold": 4000.0,
+     "materials": [
+      {
+       "item": "永遠の渇望のかけら",
+       "qty": 15
+      }
+     ],
+     "protect_qty": 0
+    },
+    "+5": {
+     "rate": 26.0,
+     "gold": 5000.0,
+     "materials": [
+      {
+       "item": "永遠の渇望のかけら",
+       "qty": 16
+      }
+     ],
+     "protect_qty": 0
+    },
+    "+6": {
+     "rate": 26.0,
+     "gold": 6000.0,
+     "materials": [
+      {
+       "item": "永遠の渇望のかけら",
+       "qty": 16
+      }
+     ],
+     "protect_qty": 0
+    },
+    "+7": {
+     "rate": 24.0,
+     "gold": 7000.0,
+     "materials": [
+      {
+       "item": "永遠の渇望のかけら",
+       "qty": 18
+      }
+     ],
+     "protect_qty": 0
+    },
+    "+8": {
+     "rate": 24.0,
+     "gold": 8000.0,
+     "materials": [
+      {
+       "item": "永遠の渇望のかけら",
+       "qty": 18
+      }
+     ],
+     "protect_qty": 0
+    },
+    "+9": {
+     "rate": 22.0,
+     "gold": 9000.0,
+     "materials": [
+      {
+       "item": "永遠の渇望のかけら",
+       "qty": 20
+      }
+     ],
+     "protect_qty": 0
+    },
+    "+10": {
+     "rate": 20.0,
+     "gold": 10000.0,
+     "materials": [
+      {
+       "item": "永遠の渇望のかけら",
+       "qty": 20
+      }
+     ],
+     "protect_qty": 0
+    }
+   }
+  },
+  "n1246-iona-ear-enhance": {
+   "enchant_id": 847258849,
+   "rows": {
+    "[+1]": {
+     "rate": 30.0,
+     "gold": 0.0,
+     "materials": [
+      {
+       "item": "ホワイトコア",
+       "qty": 190
+      }
+     ],
+     "protect_qty": 0
+    },
+    "[+2]": {
+     "rate": 30.0,
+     "gold": 0.0,
+     "materials": [
+      {
+       "item": "ホワイトコア",
+       "qty": 210
+      }
+     ],
+     "protect_qty": 0
+    },
+    "[+3]": {
+     "rate": 30.0,
+     "gold": 0.0,
+     "materials": [
+      {
+       "item": "ホワイトコア",
+       "qty": 250
+      }
+     ],
+     "protect_qty": 0
+    },
+    "[+4]": {
+     "rate": 30.0,
+     "gold": 0.0,
+     "materials": [
+      {
+       "item": "ホワイトコア",
+       "qty": 230
+      }
+     ],
+     "protect_qty": 0
+    },
+    "[+5]": {
+     "rate": 30.0,
+     "gold": 0.0,
+     "materials": [
+      {
+       "item": "ホワイトコア",
+       "qty": 250
+      }
+     ],
+     "protect_qty": 0
+    },
+    "[+6]": {
+     "rate": 30.0,
+     "gold": 0.0,
+     "materials": [
+      {
+       "item": "ホワイトコア",
+       "qty": 330
+      }
+     ],
+     "protect_qty": 0
+    },
+    "[+7]": {
+     "rate": 30.0,
+     "gold": 0.0,
+     "materials": [
+      {
+       "item": "ホワイトコア",
+       "qty": 310
+      }
+     ],
+     "protect_qty": 0
+    },
+    "[+8]": {
+     "rate": 30.0,
+     "gold": 0.0,
+     "materials": [
+      {
+       "item": "ホワイトコア",
+       "qty": 330
+      }
+     ],
+     "protect_qty": 0
+    },
+    "[+9]": {
+     "rate": 30.0,
+     "gold": 0.0,
+     "materials": [
+      {
+       "item": "ホワイトコア",
+       "qty": 430
+      }
+     ],
+     "protect_qty": 0
+    },
+    "[+10]": {
+     "rate": 30.0,
+     "gold": 0.0,
+     "materials": [
+      {
+       "item": "ホワイトコア",
+       "qty": 400
+      }
+     ],
+     "protect_qty": 0
+    },
+    "[+11]": {
+     "rate": 30.0,
+     "gold": 0.0,
+     "materials": [
+      {
+       "item": "ホワイトコア",
+       "qty": 430
+      }
+     ],
+     "protect_qty": 0
+    },
+    "[+12]": {
+     "rate": 30.0,
+     "gold": 0.0,
+     "materials": [
+      {
+       "item": "ホワイトコア",
+       "qty": 530
+      }
+     ],
+     "protect_qty": 0
+    }
+   }
+  },
+  "n1246-iona-neck-enhance": {
+   "enchant_id": 847258848,
+   "rows": {
+    "[+1]": {
+     "rate": 30.0,
+     "gold": 0.0,
+     "materials": [
+      {
+       "item": "ホワイトコア",
+       "qty": 190
+      }
+     ],
+     "protect_qty": 0
+    },
+    "[+2]": {
+     "rate": 30.0,
+     "gold": 0.0,
+     "materials": [
+      {
+       "item": "ホワイトコア",
+       "qty": 210
+      }
+     ],
+     "protect_qty": 0
+    },
+    "[+3]": {
+     "rate": 30.0,
+     "gold": 0.0,
+     "materials": [
+      {
+       "item": "ホワイトコア",
+       "qty": 250
+      }
+     ],
+     "protect_qty": 0
+    },
+    "[+4]": {
+     "rate": 30.0,
+     "gold": 0.0,
+     "materials": [
+      {
+       "item": "ホワイトコア",
+       "qty": 230
+      }
+     ],
+     "protect_qty": 0
+    },
+    "[+5]": {
+     "rate": 30.0,
+     "gold": 0.0,
+     "materials": [
+      {
+       "item": "ホワイトコア",
+       "qty": 250
+      }
+     ],
+     "protect_qty": 0
+    },
+    "[+6]": {
+     "rate": 30.0,
+     "gold": 0.0,
+     "materials": [
+      {
+       "item": "ホワイトコア",
+       "qty": 330
+      }
+     ],
+     "protect_qty": 0
+    },
+    "[+7]": {
+     "rate": 30.0,
+     "gold": 0.0,
+     "materials": [
+      {
+       "item": "ホワイトコア",
+       "qty": 310
+      }
+     ],
+     "protect_qty": 0
+    },
+    "[+8]": {
+     "rate": 30.0,
+     "gold": 0.0,
+     "materials": [
+      {
+       "item": "ホワイトコア",
+       "qty": 330
+      }
+     ],
+     "protect_qty": 0
+    },
+    "[+9]": {
+     "rate": 30.0,
+     "gold": 0.0,
+     "materials": [
+      {
+       "item": "ホワイトコア",
+       "qty": 430
+      }
+     ],
+     "protect_qty": 0
+    },
+    "[+10]": {
+     "rate": 30.0,
+     "gold": 0.0,
+     "materials": [
+      {
+       "item": "ホワイトコア",
+       "qty": 400
+      }
+     ],
+     "protect_qty": 0
+    },
+    "[+11]": {
+     "rate": 30.0,
+     "gold": 0.0,
+     "materials": [
+      {
+       "item": "ホワイトコア",
+       "qty": 430
+      }
+     ],
+     "protect_qty": 0
+    },
+    "[+12]": {
+     "rate": 30.0,
+     "gold": 0.0,
+     "materials": [
+      {
+       "item": "ホワイトコア",
+       "qty": 530
+      }
+     ],
+     "protect_qty": 0
+    }
+   }
+  },
+  "n1276-unknown-ancient-acc-enhance-cost": {
+   "enchant_id": 847258789,
+   "rows": {
+    "～+10": {
+     "rate": 100.0,
+     "gold": 500.0,
+     "materials": [
+      {
+       "item": "未知の古代アクセサリーの破片",
+       "qty": 10
+      },
+      {
+       "item": "古代人の知識",
+       "qty": 5
+      },
+      {
+       "item": "古代人の紋様",
+       "qty": 100
+      }
+     ],
+     "protect_qty": 0
+    }
+   }
+  },
+  "n1311-jakon-le-enhance": {
+   "enchant_id": 847258895,
+   "rows": {
+    "+1": {
+     "rate": 100.0,
+     "gold": 50000.0,
+     "materials": [
+      {
+       "item": "邪根の渇望のかけら",
+       "qty": 20
+      },
+      {
+       "item": "ねじれた根",
+       "qty": 4
+      }
+     ],
+     "protect_qty": 0
+    },
+    "+2": {
+     "rate": 100.0,
+     "gold": 50000.0,
+     "materials": [
+      {
+       "item": "邪根の渇望のかけら",
+       "qty": 20
+      },
+      {
+       "item": "ねじれた根",
+       "qty": 4
+      }
+     ],
+     "protect_qty": 0
+    },
+    "+3": {
+     "rate": 100.0,
+     "gold": 50000.0,
+     "materials": [
+      {
+       "item": "邪根の渇望のかけら",
+       "qty": 20
+      },
+      {
+       "item": "ねじれた根",
+       "qty": 4
+      }
+     ],
+     "protect_qty": 0
+    },
+    "+4": {
+     "rate": 100.0,
+     "gold": 50000.0,
+     "materials": [
+      {
+       "item": "邪根の渇望のかけら",
+       "qty": 20
+      },
+      {
+       "item": "ねじれた根",
+       "qty": 4
+      }
+     ],
+     "protect_qty": 0
+    },
+    "+5": {
+     "rate": 100.0,
+     "gold": 50000.0,
+     "materials": [
+      {
+       "item": "邪根の渇望のかけら",
+       "qty": 20
+      },
+      {
+       "item": "ねじれた根",
+       "qty": 4
+      }
+     ],
+     "protect_qty": 0
+    },
+    "+6": {
+     "rate": 100.0,
+     "gold": 50000.0,
+     "materials": [
+      {
+       "item": "邪根の渇望のかけら",
+       "qty": 20
+      },
+      {
+       "item": "ねじれた根",
+       "qty": 4
+      }
+     ],
+     "protect_qty": 0
+    },
+    "+7": {
+     "rate": 100.0,
+     "gold": 50000.0,
+     "materials": [
+      {
+       "item": "邪根の渇望のかけら",
+       "qty": 20
+      },
+      {
+       "item": "ねじれた根",
+       "qty": 4
+      }
+     ],
+     "protect_qty": 0
+    },
+    "+8": {
+     "rate": 100.0,
+     "gold": 50000.0,
+     "materials": [
+      {
+       "item": "邪根の渇望のかけら",
+       "qty": 20
+      },
+      {
+       "item": "ねじれた根",
+       "qty": 4
+      }
+     ],
+     "protect_qty": 0
+    },
+    "+9": {
+     "rate": 100.0,
+     "gold": 50000.0,
+     "materials": [
+      {
+       "item": "邪根の渇望のかけら",
+       "qty": 20
+      },
+      {
+       "item": "ねじれた根",
+       "qty": 4
+      }
+     ],
+     "protect_qty": 0
+    },
+    "+10": {
+     "rate": 15.0,
+     "gold": 50000.0,
+     "materials": [
+      {
+       "item": "邪根の渇望のかけら",
+       "qty": 30
+      },
+      {
+       "item": "ねじれた根",
+       "qty": 5
+      }
+     ],
+     "protect_qty": 0
+    },
+    "+11": {
+     "rate": 100.0,
+     "gold": 70000.0,
+     "materials": [
+      {
+       "item": "邪根の渇望のかけら",
+       "qty": 35
+      },
+      {
+       "item": "ねじれた根",
+       "qty": 5
+      }
+     ],
+     "protect_qty": 0
+    },
+    "+12": {
+     "rate": 100.0,
+     "gold": 70000.0,
+     "materials": [
+      {
+       "item": "邪根の渇望のかけら",
+       "qty": 35
+      },
+      {
+       "item": "ねじれた根",
+       "qty": 5
+      }
+     ],
+     "protect_qty": 0
+    },
+    "+13": {
+     "rate": 100.0,
+     "gold": 70000.0,
+     "materials": [
+      {
+       "item": "邪根の渇望のかけら",
+       "qty": 35
+      },
+      {
+       "item": "ねじれた根",
+       "qty": 5
+      }
+     ],
+     "protect_qty": 0
+    },
+    "+14": {
+     "rate": 100.0,
+     "gold": 70000.0,
+     "materials": [
+      {
+       "item": "邪根の渇望のかけら",
+       "qty": 35
+      },
+      {
+       "item": "ねじれた根",
+       "qty": 5
+      }
+     ],
+     "protect_qty": 0
+    },
+    "+15": {
+     "rate": 100.0,
+     "gold": 70000.0,
+     "materials": [
+      {
+       "item": "邪根の渇望のかけら",
+       "qty": 35
+      },
+      {
+       "item": "ねじれた根",
+       "qty": 5
+      }
+     ],
+     "protect_qty": 0
+    },
+    "+16": {
+     "rate": 100.0,
+     "gold": 70000.0,
+     "materials": [
+      {
+       "item": "邪根の渇望のかけら",
+       "qty": 35
+      },
+      {
+       "item": "ねじれた根",
+       "qty": 5
+      }
+     ],
+     "protect_qty": 0
+    },
+    "+17": {
+     "rate": 100.0,
+     "gold": 70000.0,
+     "materials": [
+      {
+       "item": "邪根の渇望のかけら",
+       "qty": 35
+      },
+      {
+       "item": "ねじれた根",
+       "qty": 5
+      }
+     ],
+     "protect_qty": 0
+    },
+    "+18": {
+     "rate": 100.0,
+     "gold": 70000.0,
+     "materials": [
+      {
+       "item": "邪根の渇望のかけら",
+       "qty": 35
+      },
+      {
+       "item": "ねじれた根",
+       "qty": 5
+      }
+     ],
+     "protect_qty": 0
+    },
+    "+19": {
+     "rate": 100.0,
+     "gold": 70000.0,
+     "materials": [
+      {
+       "item": "邪根の渇望のかけら",
+       "qty": 35
+      },
+      {
+       "item": "ねじれた根",
+       "qty": 5
+      }
+     ],
+     "protect_qty": 0
+    },
+    "+20": {
+     "rate": 10.0,
+     "gold": 70000.0,
+     "materials": [
+      {
+       "item": "邪根の渇望のかけら",
+       "qty": 40
+      },
+      {
+       "item": "ねじれた根",
+       "qty": 6
+      }
+     ],
+     "protect_qty": 0
+    },
+    "+21": {
+     "rate": 100.0,
+     "gold": 100000.0,
+     "materials": [
+      {
+       "item": "邪根の渇望のかけら",
+       "qty": 45
+      },
+      {
+       "item": "ねじれた根",
+       "qty": 6
+      }
+     ],
+     "protect_qty": 0
+    },
+    "+22": {
+     "rate": 100.0,
+     "gold": 100000.0,
+     "materials": [
+      {
+       "item": "邪根の渇望のかけら",
+       "qty": 45
+      },
+      {
+       "item": "ねじれた根",
+       "qty": 6
+      }
+     ],
+     "protect_qty": 0
+    },
+    "+23": {
+     "rate": 100.0,
+     "gold": 100000.0,
+     "materials": [
+      {
+       "item": "邪根の渇望のかけら",
+       "qty": 45
+      },
+      {
+       "item": "ねじれた根",
+       "qty": 6
+      }
+     ],
+     "protect_qty": 0
+    },
+    "+24": {
+     "rate": 100.0,
+     "gold": 100000.0,
+     "materials": [
+      {
+       "item": "邪根の渇望のかけら",
+       "qty": 45
+      },
+      {
+       "item": "ねじれた根",
+       "qty": 6
+      }
+     ],
+     "protect_qty": 0
+    },
+    "+25": {
+     "rate": 100.0,
+     "gold": 100000.0,
+     "materials": [
+      {
+       "item": "邪根の渇望のかけら",
+       "qty": 45
+      },
+      {
+       "item": "ねじれた根",
+       "qty": 6
+      }
+     ],
+     "protect_qty": 0
+    },
+    "+26": {
+     "rate": 100.0,
+     "gold": 100000.0,
+     "materials": [
+      {
+       "item": "邪根の渇望のかけら",
+       "qty": 45
+      },
+      {
+       "item": "ねじれた根",
+       "qty": 6
+      }
+     ],
+     "protect_qty": 0
+    },
+    "+27": {
+     "rate": 100.0,
+     "gold": 100000.0,
+     "materials": [
+      {
+       "item": "邪根の渇望のかけら",
+       "qty": 45
+      },
+      {
+       "item": "ねじれた根",
+       "qty": 6
+      }
+     ],
+     "protect_qty": 0
+    },
+    "+28": {
+     "rate": 100.0,
+     "gold": 100000.0,
+     "materials": [
+      {
+       "item": "邪根の渇望のかけら",
+       "qty": 45
+      },
+      {
+       "item": "ねじれた根",
+       "qty": 6
+      }
+     ],
+     "protect_qty": 0
+    },
+    "+29": {
+     "rate": 100.0,
+     "gold": 100000.0,
+     "materials": [
+      {
+       "item": "邪根の渇望のかけら",
+       "qty": 45
+      },
+      {
+       "item": "ねじれた根",
+       "qty": 6
+      }
+     ],
+     "protect_qty": 0
+    },
+    "+30": {
+     "rate": 7.0,
+     "gold": 100000.0,
+     "materials": [
+      {
+       "item": "邪根の渇望のかけら",
+       "qty": 50
+      },
+      {
+       "item": "ねじれた根",
+       "qty": 7
+      }
+     ],
+     "protect_qty": 0
+    },
+    "+31": {
+     "rate": 100.0,
+     "gold": 150000.0,
+     "materials": [
+      {
+       "item": "邪根の渇望のかけら",
+       "qty": 55
+      },
+      {
+       "item": "ねじれた根",
+       "qty": 7
+      }
+     ],
+     "protect_qty": 0
+    },
+    "+32": {
+     "rate": 100.0,
+     "gold": 150000.0,
+     "materials": [
+      {
+       "item": "邪根の渇望のかけら",
+       "qty": 55
+      },
+      {
+       "item": "ねじれた根",
+       "qty": 7
+      }
+     ],
+     "protect_qty": 0
+    },
+    "+33": {
+     "rate": 100.0,
+     "gold": 150000.0,
+     "materials": [
+      {
+       "item": "邪根の渇望のかけら",
+       "qty": 55
+      },
+      {
+       "item": "ねじれた根",
+       "qty": 7
+      }
+     ],
+     "protect_qty": 0
+    },
+    "+34": {
+     "rate": 100.0,
+     "gold": 150000.0,
+     "materials": [
+      {
+       "item": "邪根の渇望のかけら",
+       "qty": 55
+      },
+      {
+       "item": "ねじれた根",
+       "qty": 7
+      }
+     ],
+     "protect_qty": 0
+    },
+    "+35": {
+     "rate": 100.0,
+     "gold": 150000.0,
+     "materials": [
+      {
+       "item": "邪根の渇望のかけら",
+       "qty": 55
+      },
+      {
+       "item": "ねじれた根",
+       "qty": 7
+      }
+     ],
+     "protect_qty": 0
+    },
+    "+36": {
+     "rate": 100.0,
+     "gold": 150000.0,
+     "materials": [
+      {
+       "item": "邪根の渇望のかけら",
+       "qty": 55
+      },
+      {
+       "item": "ねじれた根",
+       "qty": 7
+      }
+     ],
+     "protect_qty": 0
+    },
+    "+37": {
+     "rate": 100.0,
+     "gold": 150000.0,
+     "materials": [
+      {
+       "item": "邪根の渇望のかけら",
+       "qty": 55
+      },
+      {
+       "item": "ねじれた根",
+       "qty": 7
+      }
+     ],
+     "protect_qty": 0
+    },
+    "+38": {
+     "rate": 100.0,
+     "gold": 150000.0,
+     "materials": [
+      {
+       "item": "邪根の渇望のかけら",
+       "qty": 55
+      },
+      {
+       "item": "ねじれた根",
+       "qty": 7
+      }
+     ],
+     "protect_qty": 0
+    },
+    "+39": {
+     "rate": 100.0,
+     "gold": 150000.0,
+     "materials": [
+      {
+       "item": "邪根の渇望のかけら",
+       "qty": 55
+      },
+      {
+       "item": "ねじれた根",
+       "qty": 7
+      }
+     ],
+     "protect_qty": 0
+    },
+    "+40": {
+     "rate": 5.0,
+     "gold": 150000.0,
+     "materials": [
+      {
+       "item": "邪根の渇望のかけら",
+       "qty": 60
+      },
+      {
+       "item": "ねじれた根",
+       "qty": 8
+      }
+     ],
+     "protect_qty": 0
+    },
+    "+41": {
+     "rate": 100.0,
+     "gold": 200000.0,
+     "materials": [
+      {
+       "item": "邪根の渇望のかけら",
+       "qty": 65
+      },
+      {
+       "item": "ねじれた根",
+       "qty": 8
+      }
+     ],
+     "protect_qty": 0
+    },
+    "+42": {
+     "rate": 100.0,
+     "gold": 200000.0,
+     "materials": [
+      {
+       "item": "邪根の渇望のかけら",
+       "qty": 65
+      },
+      {
+       "item": "ねじれた根",
+       "qty": 8
+      }
+     ],
+     "protect_qty": 0
+    },
+    "+43": {
+     "rate": 100.0,
+     "gold": 200000.0,
+     "materials": [
+      {
+       "item": "邪根の渇望のかけら",
+       "qty": 65
+      },
+      {
+       "item": "ねじれた根",
+       "qty": 8
+      }
+     ],
+     "protect_qty": 0
+    },
+    "+44": {
+     "rate": 100.0,
+     "gold": 200000.0,
+     "materials": [
+      {
+       "item": "邪根の渇望のかけら",
+       "qty": 65
+      },
+      {
+       "item": "ねじれた根",
+       "qty": 8
+      }
+     ],
+     "protect_qty": 0
+    },
+    "+45": {
+     "rate": 100.0,
+     "gold": 200000.0,
+     "materials": [
+      {
+       "item": "邪根の渇望のかけら",
+       "qty": 65
+      },
+      {
+       "item": "ねじれた根",
+       "qty": 8
+      }
+     ],
+     "protect_qty": 0
+    },
+    "+46": {
+     "rate": 100.0,
+     "gold": 200000.0,
+     "materials": [
+      {
+       "item": "邪根の渇望のかけら",
+       "qty": 65
+      },
+      {
+       "item": "ねじれた根",
+       "qty": 8
+      }
+     ],
+     "protect_qty": 0
+    },
+    "+47": {
+     "rate": 100.0,
+     "gold": 200000.0,
+     "materials": [
+      {
+       "item": "邪根の渇望のかけら",
+       "qty": 65
+      },
+      {
+       "item": "ねじれた根",
+       "qty": 8
+      }
+     ],
+     "protect_qty": 0
+    },
+    "+48": {
+     "rate": 100.0,
+     "gold": 200000.0,
+     "materials": [
+      {
+       "item": "邪根の渇望のかけら",
+       "qty": 65
+      },
+      {
+       "item": "ねじれた根",
+       "qty": 8
+      }
+     ],
+     "protect_qty": 0
+    },
+    "+49": {
+     "rate": 100.0,
+     "gold": 200000.0,
+     "materials": [
+      {
+       "item": "邪根の渇望のかけら",
+       "qty": 65
+      },
+      {
+       "item": "ねじれた根",
+       "qty": 8
+      }
+     ],
+     "protect_qty": 0
+    },
+    "+50": {
+     "rate": 3.0,
+     "gold": 200000.0,
+     "materials": [
+      {
+       "item": "邪根の渇望のかけら",
+       "qty": 70
+      },
+      {
+       "item": "ねじれた根",
+       "qty": 10
+      }
+     ],
+     "protect_qty": 0
+    }
+   }
+  },
+  "n1311-jakon-u-enhance": {
+   "enchant_id": 847258894,
+   "rows": {
+    "+1": {
+     "rate": 100.0,
+     "gold": 10000.0,
+     "materials": [
+      {
+       "item": "邪根の渇望のかけら",
+       "qty": 20
+      }
+     ],
+     "protect_qty": 0
+    },
+    "+2": {
+     "rate": 100.0,
+     "gold": 15000.0,
+     "materials": [
+      {
+       "item": "邪根の渇望のかけら",
+       "qty": 20
+      }
+     ],
+     "protect_qty": 0
+    },
+    "+3": {
+     "rate": 100.0,
+     "gold": 20000.0,
+     "materials": [
+      {
+       "item": "邪根の渇望のかけら",
+       "qty": 30
+      }
+     ],
+     "protect_qty": 0
+    },
+    "+4": {
+     "rate": 100.0,
+     "gold": 30000.0,
+     "materials": [
+      {
+       "item": "邪根の渇望のかけら",
+       "qty": 40
+      }
+     ],
+     "protect_qty": 0
+    },
+    "+5": {
+     "rate": 100.0,
+     "gold": 50000.0,
+     "materials": [
+      {
+       "item": "邪根の渇望のかけら",
+       "qty": 60
+      }
+     ],
+     "protect_qty": 0
+    },
+    "+6": {
+     "rate": 100.0,
+     "gold": 55000.0,
+     "materials": [
+      {
+       "item": "邪根の渇望のかけら",
+       "qty": 60
+      }
+     ],
+     "protect_qty": 0
+    },
+    "+7": {
+     "rate": 100.0,
+     "gold": 60000.0,
+     "materials": [
+      {
+       "item": "邪根の渇望のかけら",
+       "qty": 60
+      }
+     ],
+     "protect_qty": 0
+    },
+    "+8": {
+     "rate": 100.0,
+     "gold": 70000.0,
+     "materials": [
+      {
+       "item": "邪根の渇望のかけら",
+       "qty": 70
+      }
+     ],
+     "protect_qty": 0
+    },
+    "+9": {
+     "rate": 100.0,
+     "gold": 80000.0,
+     "materials": [
+      {
+       "item": "邪根の渇望のかけら",
+       "qty": 80
+      }
+     ],
+     "protect_qty": 0
+    },
+    "+10": {
+     "rate": 100.0,
+     "gold": 100000.0,
+     "materials": [
+      {
+       "item": "邪根の渇望のかけら",
+       "qty": 100
+      }
+     ],
+     "protect_qty": 0
+    }
+   }
+  }
+ },
+ "recipes": {
+  "n1162-eternal-pain-1": {
+   "compound_id": 77963,
+   "rate": 100.0,
+   "gold": 50000.0,
+   "materials": [
+    {
+     "item": "永遠の次元の幻影",
+     "qty": 100
+    },
+    {
+     "item": "永遠の苦痛の渦",
+     "qty": 1
+    }
+   ]
+  },
+  "n1162-eternal-pain-2": {
+   "compound_id": 77964,
+   "rate": 100.0,
+   "gold": 50000.0,
+   "materials": [
+    {
+     "item": "永遠の次元の幻影",
+     "qty": 200
+    },
+    {
+     "item": "永遠の苦痛の渦",
+     "qty": 10
+    },
+    {
+     "item": "永遠の苦痛の目(1段階)",
+     "qty": 1
+    }
+   ]
+  },
+  "n1162-eternal-pain-3": {
+   "compound_id": 77965,
+   "rate": 100.0,
+   "gold": 50000.0,
+   "materials": [
+    {
+     "item": "永遠の次元の幻影",
+     "qty": 300
+    },
+    {
+     "item": "永遠の苦痛の渦",
+     "qty": 30
+    },
+    {
+     "item": "永遠の苦痛の目(2段階)",
+     "qty": 1
+    }
+   ]
+  },
+  "n1162-eternal-pain-4": {
+   "compound_id": 77966,
+   "rate": 100.0,
+   "gold": 50000.0,
+   "materials": [
+    {
+     "item": "永遠の次元の幻影",
+     "qty": 400
+    },
+    {
+     "item": "永遠の苦痛の渦",
+     "qty": 50
+    },
+    {
+     "item": "永遠の苦痛の目(3段階)",
+     "qty": 1
+    }
+   ]
+  },
+  "n1162-eternal-pain-5": {
+   "compound_id": 77967,
+   "rate": 100.0,
+   "gold": 50000.0,
+   "materials": [
+    {
+     "item": "永遠の次元の幻影",
+     "qty": 500
+    },
+    {
+     "item": "永遠の苦痛の渦",
+     "qty": 100
+    },
+    {
+     "item": "永遠の苦痛の目(4段階)",
+     "qty": 1
+    }
+   ]
+  },
+  "n1162-eternal-world-1": {
+   "compound_id": 77953,
+   "rate": 100.0,
+   "gold": 1000.0,
+   "materials": [
+    {
+     "item": "永遠の次元の幻影",
+     "qty": 30
+    }
+   ]
+  },
+  "n1162-eternal-world-10": {
+   "compound_id": 77962,
+   "rate": 100.0,
+   "gold": 200000.0,
+   "materials": [
+    {
+     "item": "永遠の世界のタリスマン(9段階)",
+     "qty": 1
+    },
+    {
+     "item": "永遠の次元の幻影",
+     "qty": 6500
+    }
+   ]
+  },
+  "n1162-eternal-world-2": {
+   "compound_id": 77954,
+   "rate": 100.0,
+   "gold": 5000.0,
+   "materials": [
+    {
+     "item": "永遠の世界のタリスマン(1段階)",
+     "qty": 1
+    },
+    {
+     "item": "永遠の次元の幻影",
+     "qty": 60
+    }
+   ]
+  },
+  "n1162-eternal-world-3": {
+   "compound_id": 77955,
+   "rate": 100.0,
+   "gold": 10000.0,
+   "materials": [
+    {
+     "item": "永遠の世界のタリスマン(2段階)",
+     "qty": 1
+    },
+    {
+     "item": "永遠の次元の幻影",
+     "qty": 100
+    }
+   ]
+  },
+  "n1162-eternal-world-4": {
+   "compound_id": 77956,
+   "rate": 100.0,
+   "gold": 30000.0,
+   "materials": [
+    {
+     "item": "永遠の世界のタリスマン(3段階)",
+     "qty": 1
+    },
+    {
+     "item": "永遠の次元の幻影",
+     "qty": 180
+    }
+   ]
+  },
+  "n1162-eternal-world-5": {
+   "compound_id": 77957,
+   "rate": 100.0,
+   "gold": 50000.0,
+   "materials": [
+    {
+     "item": "永遠の世界のタリスマン(4段階)",
+     "qty": 1
+    },
+    {
+     "item": "永遠の次元の幻影",
+     "qty": 330
+    }
+   ]
+  },
+  "n1162-eternal-world-6": {
+   "compound_id": 77958,
+   "rate": 100.0,
+   "gold": 70000.0,
+   "materials": [
+    {
+     "item": "永遠の世界のタリスマン(5段階)",
+     "qty": 1
+    },
+    {
+     "item": "永遠の次元の幻影",
+     "qty": 600
+    }
+   ]
+  },
+  "n1162-eternal-world-7": {
+   "compound_id": 77959,
+   "rate": 100.0,
+   "gold": 100000.0,
+   "materials": [
+    {
+     "item": "永遠の世界のタリスマン(6段階)",
+     "qty": 1
+    },
+    {
+     "item": "永遠の次元の幻影",
+     "qty": 1100
+    }
+   ]
+  },
+  "n1162-eternal-world-8": {
+   "compound_id": 77960,
+   "rate": 100.0,
+   "gold": 120000.0,
+   "materials": [
+    {
+     "item": "永遠の世界のタリスマン(7段階)",
+     "qty": 1
+    },
+    {
+     "item": "永遠の次元の幻影",
+     "qty": 2000
+    }
+   ]
+  },
+  "n1162-eternal-world-9": {
+   "compound_id": 77961,
+   "rate": 100.0,
+   "gold": 150000.0,
+   "materials": [
+    {
+     "item": "永遠の世界のタリスマン(8段階)",
+     "qty": 1
+    },
+    {
+     "item": "永遠の次元の幻影",
+     "qty": 3600
+    }
+   ]
+  },
+  "n1193-sealed-dimension-jade": {
+   "compound_id": 77985,
+   "rate": 100.0,
+   "gold": 1000.0,
+   "materials": [
+    {
+     "item": "夢の触媒",
+     "qty": 8
+    },
+    {
+     "item": "魂のかけら",
+     "qty": 89
+    }
+   ]
+  },
+  "n1217-ancient-power": {
+   "compound_id": 536885592,
+   "rate": 100.0,
+   "gold": 100.0,
+   "materials": [
+    {
+     "item": "古代人の力の結晶",
+     "qty": 100
+    }
+   ]
+  },
+  "n1217-hfd-talisman-1": {
+   "compound_id": 78014,
+   "rate": 100.0,
+   "gold": 10000.0,
+   "materials": [
+    {
+     "item": "バルクの心臓のかけら",
+     "qty": 1000
+    },
+    {
+     "item": "ブリュンヒルドの氷のかけら",
+     "qty": 1000
+    },
+    {
+     "item": "ムエルトスの珠のかけら",
+     "qty": 1000
+    }
+   ]
+  },
+  "n1246-belscard-brooch-1": {
+   "compound_id": 78082,
+   "rate": 100.0,
+   "gold": 1000.0,
+   "materials": [
+    {
+     "item": "封印された力のベルスカードブローチ",
+     "qty": 1
+    },
+    {
+     "item": "断片化したブローチの残骸",
+     "qty": 150
+    }
+   ]
+  },
+  "n1246-belscard-brooch-10": {
+   "compound_id": 78091,
+   "rate": 100.0,
+   "gold": 3000.0,
+   "materials": [
+    {
+     "item": "[4段階]封印された力のベルスカードブローチ",
+     "qty": 1
+    },
+    {
+     "item": "ベルスカードの解放のかけら",
+     "qty": 30
+    },
+    {
+     "item": "断片化したブローチの残骸",
+     "qty": 300
+    }
+   ]
+  },
+  "n1246-belscard-brooch-11": {
+   "compound_id": 78092,
+   "rate": 100.0,
+   "gold": 5000.0,
+   "materials": [
+    {
+     "item": "[5段階]封印された力のベルスカードブローチ",
+     "qty": 1
+    },
+    {
+     "item": "ベルスカードの解放のかけら",
+     "qty": 40
+    },
+    {
+     "item": "断片化したブローチの残骸",
+     "qty": 500
+    }
+   ]
+  },
+  "n1246-belscard-brooch-12": {
+   "compound_id": 78093,
+   "rate": 100.0,
+   "gold": 5000.0,
+   "materials": [
+    {
+     "item": "[1段階]封印された力のベルスカードブローチ",
+     "qty": 1
+    },
+    {
+     "item": "ベルスカードの解放のかけら",
+     "qty": 60
+    },
+    {
+     "item": "断片化したブローチの残骸",
+     "qty": 500
+    }
+   ]
+  },
+  "n1246-belscard-brooch-13": {
+   "compound_id": 78094,
+   "rate": 100.0,
+   "gold": 5000.0,
+   "materials": [
+    {
+     "item": "[2段階]封印された力のベルスカードブローチ",
+     "qty": 1
+    },
+    {
+     "item": "ベルスカードの解放のかけら",
+     "qty": 80
+    },
+    {
+     "item": "断片化したブローチの残骸",
+     "qty": 500
+    }
+   ]
+  },
+  "n1246-belscard-brooch-14": {
+   "compound_id": 78095,
+   "rate": 100.0,
+   "gold": 5000.0,
+   "materials": [
+    {
+     "item": "[3段階]封印された力のベルスカードブローチ",
+     "qty": 1
+    },
+    {
+     "item": "ベルスカードの解放のかけら",
+     "qty": 100
+    },
+    {
+     "item": "断片化したブローチの残骸",
+     "qty": 500
+    }
+   ]
+  },
+  "n1246-belscard-brooch-15": {
+   "compound_id": 78096,
+   "rate": 100.0,
+   "gold": 5000.0,
+   "materials": [
+    {
+     "item": "[4段階]封印された力のベルスカードブローチ",
+     "qty": 1
+    },
+    {
+     "item": "ベルスカードの解放のかけら",
+     "qty": 150
+    },
+    {
+     "item": "断片化したブローチの残骸",
+     "qty": 500
+    }
+   ]
+  },
+  "n1246-belscard-brooch-16": {
+   "compound_id": 78097,
+   "rate": 100.0,
+   "gold": 10000.0,
+   "materials": [
+    {
+     "item": "[5段階]封印された力のベルスカードブローチ",
+     "qty": 1
+    },
+    {
+     "item": "ベルスカードの次元幸運石",
+     "qty": 1000
+    },
+    {
+     "item": "ベルスカードの解放のかけら",
+     "qty": 100
+    }
+   ]
+  },
+  "n1246-belscard-brooch-17": {
+   "compound_id": 78098,
+   "rate": 100.0,
+   "gold": 10000.0,
+   "materials": [
+    {
+     "item": "[1段階]次元のベルスカードブローチ",
+     "qty": 1
+    },
+    {
+     "item": "ベルスカードの次元幸運石",
+     "qty": 1500
+    },
+    {
+     "item": "ベルスカードの解放のかけら",
+     "qty": 150
+    }
+   ]
+  },
+  "n1246-belscard-brooch-18": {
+   "compound_id": 78099,
+   "rate": 100.0,
+   "gold": 10000.0,
+   "materials": [
+    {
+     "item": "[2段階]次元のベルスカードブローチ",
+     "qty": 1
+    },
+    {
+     "item": "ベルスカードの次元幸運石",
+     "qty": 2000
+    },
+    {
+     "item": "ベルスカードの解放のかけら",
+     "qty": 200
+    }
+   ]
+  },
+  "n1246-belscard-brooch-19": {
+   "compound_id": 78100,
+   "rate": 100.0,
+   "gold": 10000.0,
+   "materials": [
+    {
+     "item": "[3段階]次元のベルスカードブローチ",
+     "qty": 1
+    },
+    {
+     "item": "ベルスカードの次元幸運石",
+     "qty": 2000
+    },
+    {
+     "item": "ベルスカードの解放のかけら",
+     "qty": 200
+    }
+   ]
+  },
+  "n1246-belscard-brooch-2": {
+   "compound_id": 78083,
+   "rate": 100.0,
+   "gold": 1000.0,
+   "materials": [
+    {
+     "item": "[1段階]封印された力のベルスカードブローチ",
+     "qty": 1
+    },
+    {
+     "item": "ベルスカードの解放のかけら",
+     "qty": 5
+    },
+    {
+     "item": "断片化したブローチの残骸",
+     "qty": 150
+    }
+   ]
+  },
+  "n1246-belscard-brooch-20": {
+   "compound_id": 78101,
+   "rate": 100.0,
+   "gold": 10000.0,
+   "materials": [
+    {
+     "item": "[4段階]次元のベルスカードブローチ",
+     "qty": 1
+    },
+    {
+     "item": "ベルスカードの次元幸運石",
+     "qty": 2000
+    },
+    {
+     "item": "ベルスカードの解放のかけら",
+     "qty": 200
+    }
+   ]
+  },
+  "n1246-belscard-brooch-21": {
+   "compound_id": 78102,
+   "rate": 100.0,
+   "gold": 10000.0,
+   "materials": [
+    {
+     "item": "[5段階]次元のベルスカードブローチ",
+     "qty": 1
+    },
+    {
+     "item": "ベルスカードの次元幸運石",
+     "qty": 2000
+    },
+    {
+     "item": "ベルスカードの解放のかけら",
+     "qty": 200
+    }
+   ]
+  },
+  "n1246-belscard-brooch-22": {
+   "compound_id": 78233,
+   "rate": 100.0,
+   "gold": 10000.0,
+   "materials": [
+    {
+     "item": "[6段階]次元のベルスカードブローチ",
+     "qty": 1
+    },
+    {
+     "item": "ベルスカードの次元幸運石",
+     "qty": 3000
+    },
+    {
+     "item": "ベルスカードの解放のかけら",
+     "qty": 300
+    }
+   ]
+  },
+  "n1246-belscard-brooch-23": {
+   "compound_id": 78234,
+   "rate": 100.0,
+   "gold": 10000.0,
+   "materials": [
+    {
+     "item": "[7段階]次元のベルスカードブローチ",
+     "qty": 1
+    },
+    {
+     "item": "ベルスカードの次元幸運石",
+     "qty": 3000
+    },
+    {
+     "item": "ベルスカードの解放のかけら",
+     "qty": 300
+    }
+   ]
+  },
+  "n1246-belscard-brooch-24": {
+   "compound_id": 78235,
+   "rate": 100.0,
+   "gold": 10000.0,
+   "materials": [
+    {
+     "item": "[8段階]次元のベルスカードブローチ",
+     "qty": 1
+    },
+    {
+     "item": "ベルスカードの次元幸運石",
+     "qty": 3000
+    },
+    {
+     "item": "ベルスカードの解放のかけら",
+     "qty": 300
+    }
+   ]
+  },
+  "n1246-belscard-brooch-25": {
+   "compound_id": 78236,
+   "rate": 100.0,
+   "gold": 10000.0,
+   "materials": [
+    {
+     "item": "[9段階]次元のベルスカードブローチ",
+     "qty": 1
+    },
+    {
+     "item": "ベルスカードの次元幸運石",
+     "qty": 3000
+    },
+    {
+     "item": "ベルスカードの解放のかけら",
+     "qty": 300
+    }
+   ]
+  },
+  "n1246-belscard-brooch-26": {
+   "compound_id": 78237,
+   "rate": 100.0,
+   "gold": 10000.0,
+   "materials": [
+    {
+     "item": "[10段階]次元のベルスカードブローチ",
+     "qty": 1
+    },
+    {
+     "item": "ベルスカードの次元幸運石",
+     "qty": 4000
+    },
+    {
+     "item": "ベルスカードの解放のかけら",
+     "qty": 400
+    }
+   ]
+  },
+  "n1246-belscard-brooch-27": {
+   "compound_id": 78238,
+   "rate": 100.0,
+   "gold": 10000.0,
+   "materials": [
+    {
+     "item": "[11段階]次元のベルスカードブローチ",
+     "qty": 1
+    },
+    {
+     "item": "ベルスカードの次元幸運石",
+     "qty": 4000
+    },
+    {
+     "item": "ベルスカードの解放のかけら",
+     "qty": 400
+    }
+   ]
+  },
+  "n1246-belscard-brooch-28": {
+   "compound_id": 78239,
+   "rate": 100.0,
+   "gold": 10000.0,
+   "materials": [
+    {
+     "item": "[12段階]次元のベルスカードブローチ",
+     "qty": 1
+    },
+    {
+     "item": "ベルスカードの次元幸運石",
+     "qty": 4000
+    },
+    {
+     "item": "ベルスカードの解放のかけら",
+     "qty": 400
+    }
+   ]
+  },
+  "n1246-belscard-brooch-29": {
+   "compound_id": 78240,
+   "rate": 100.0,
+   "gold": 10000.0,
+   "materials": [
+    {
+     "item": "[13段階]次元のベルスカードブローチ",
+     "qty": 1
+    },
+    {
+     "item": "ベルスカードの次元幸運石",
+     "qty": 4000
+    },
+    {
+     "item": "ベルスカードの解放のかけら",
+     "qty": 400
+    }
+   ]
+  },
+  "n1246-belscard-brooch-3": {
+   "compound_id": 78084,
+   "rate": 100.0,
+   "gold": 1000.0,
+   "materials": [
+    {
+     "item": "[2段階]封印された力のベルスカードブローチ",
+     "qty": 1
+    },
+    {
+     "item": "ベルスカードの解放のかけら",
+     "qty": 5
+    },
+    {
+     "item": "断片化したブローチの残骸",
+     "qty": 150
+    }
+   ]
+  },
+  "n1246-belscard-brooch-30": {
+   "compound_id": 78241,
+   "rate": 100.0,
+   "gold": 10000.0,
+   "materials": [
+    {
+     "item": "[14段階]次元のベルスカードブローチ",
+     "qty": 1
+    },
+    {
+     "item": "ベルスカードの次元幸運石",
+     "qty": 8000
+    },
+    {
+     "item": "ベルスカードの解放のかけら",
+     "qty": 800
+    }
+   ]
+  },
+  "n1246-belscard-brooch-4": {
+   "compound_id": 78085,
+   "rate": 100.0,
+   "gold": 1000.0,
+   "materials": [
+    {
+     "item": "[3段階]封印された力のベルスカードブローチ",
+     "qty": 1
+    },
+    {
+     "item": "ベルスカードの解放のかけら",
+     "qty": 10
+    },
+    {
+     "item": "断片化したブローチの残骸",
+     "qty": 150
+    }
+   ]
+  },
+  "n1246-belscard-brooch-5": {
+   "compound_id": 78086,
+   "rate": 100.0,
+   "gold": 1000.0,
+   "materials": [
+    {
+     "item": "[4段階]封印された力のベルスカードブローチ",
+     "qty": 1
+    },
+    {
+     "item": "ベルスカードの解放のかけら",
+     "qty": 10
+    },
+    {
+     "item": "断片化したブローチの残骸",
+     "qty": 150
+    }
+   ]
+  },
+  "n1246-belscard-brooch-6": {
+   "compound_id": 78087,
+   "rate": 100.0,
+   "gold": 3000.0,
+   "materials": [
+    {
+     "item": "[5段階]封印された力のベルスカードブローチ",
+     "qty": 1
+    },
+    {
+     "item": "ベルスカードの解放のかけら",
+     "qty": 20
+    },
+    {
+     "item": "断片化したブローチの残骸",
+     "qty": 300
+    }
+   ]
+  },
+  "n1246-belscard-brooch-7": {
+   "compound_id": 78088,
+   "rate": 100.0,
+   "gold": 3000.0,
+   "materials": [
+    {
+     "item": "[1段階]封印された力のベルスカードブローチ",
+     "qty": 1
+    },
+    {
+     "item": "ベルスカードの解放のかけら",
+     "qty": 20
+    },
+    {
+     "item": "断片化したブローチの残骸",
+     "qty": 300
+    }
+   ]
+  },
+  "n1246-belscard-brooch-8": {
+   "compound_id": 78089,
+   "rate": 100.0,
+   "gold": 3000.0,
+   "materials": [
+    {
+     "item": "[2段階]封印された力のベルスカードブローチ",
+     "qty": 1
+    },
+    {
+     "item": "ベルスカードの解放のかけら",
+     "qty": 25
+    },
+    {
+     "item": "断片化したブローチの残骸",
+     "qty": 300
+    }
+   ]
+  },
+  "n1246-belscard-brooch-9": {
+   "compound_id": 78090,
+   "rate": 100.0,
+   "gold": 3000.0,
+   "materials": [
+    {
+     "item": "[3段階]封印された力のベルスカードブローチ",
+     "qty": 1
+    },
+    {
+     "item": "ベルスカードの解放のかけら",
+     "qty": 30
+    },
+    {
+     "item": "断片化したブローチの残骸",
+     "qty": 300
+    }
+   ]
+  },
+  "n1265-ark-meter-1": {
+   "compound_id": 78052,
+   "rate": 100.0,
+   "gold": 1.0,
+   "materials": [
+    {
+     "item": "未来時空集約体",
+     "qty": 2
+    }
+   ]
+  },
+  "n1265-ark-meter-10": {
+   "compound_id": 78061,
+   "rate": 100.0,
+   "gold": 1.0,
+   "materials": [
+    {
+     "item": "未来時空測定器(9段階)",
+     "qty": 1
+    },
+    {
+     "item": "未来時空集約体",
+     "qty": 2
+    }
+   ]
+  },
+  "n1265-ark-meter-11": {
+   "compound_id": 78062,
+   "rate": 100.0,
+   "gold": 1.0,
+   "materials": [
+    {
+     "item": "未来時空測定器(10段階)",
+     "qty": 1
+    },
+    {
+     "item": "未来時空集約体",
+     "qty": 2
+    }
+   ]
+  },
+  "n1265-ark-meter-12": {
+   "compound_id": 78063,
+   "rate": 100.0,
+   "gold": 1.0,
+   "materials": [
+    {
+     "item": "未来時空測定器(11段階)",
+     "qty": 1
+    },
+    {
+     "item": "未来時空集約体",
+     "qty": 2
+    }
+   ]
+  },
+  "n1265-ark-meter-13": {
+   "compound_id": 78064,
+   "rate": 100.0,
+   "gold": 1.0,
+   "materials": [
+    {
+     "item": "未来時空測定器(12段階)",
+     "qty": 1
+    },
+    {
+     "item": "未来時空集約体",
+     "qty": 2
+    }
+   ]
+  },
+  "n1265-ark-meter-14": {
+   "compound_id": 78065,
+   "rate": 100.0,
+   "gold": 1.0,
+   "materials": [
+    {
+     "item": "未来時空測定器(13段階)",
+     "qty": 1
+    },
+    {
+     "item": "未来時空集約体",
+     "qty": 2
+    }
+   ]
+  },
+  "n1265-ark-meter-15": {
+   "compound_id": 78066,
+   "rate": 100.0,
+   "gold": 1.0,
+   "materials": [
+    {
+     "item": "未来時空測定器(14段階)",
+     "qty": 1
+    },
+    {
+     "item": "未来時空集約体",
+     "qty": 2
+    }
+   ]
+  },
+  "n1265-ark-meter-2": {
+   "compound_id": 78053,
+   "rate": 100.0,
+   "gold": 1.0,
+   "materials": [
+    {
+     "item": "未来時空測定器(1段階)",
+     "qty": 1
+    },
+    {
+     "item": "未来時空集約体",
+     "qty": 2
+    }
+   ]
+  },
+  "n1265-ark-meter-3": {
+   "compound_id": 78054,
+   "rate": 100.0,
+   "gold": 1.0,
+   "materials": [
+    {
+     "item": "未来時空測定器(2段階)",
+     "qty": 1
+    },
+    {
+     "item": "未来時空集約体",
+     "qty": 2
+    }
+   ]
+  },
+  "n1265-ark-meter-4": {
+   "compound_id": 78055,
+   "rate": 100.0,
+   "gold": 1.0,
+   "materials": [
+    {
+     "item": "未来時空測定器(3段階)",
+     "qty": 1
+    },
+    {
+     "item": "未来時空集約体",
+     "qty": 2
+    }
+   ]
+  },
+  "n1265-ark-meter-5": {
+   "compound_id": 78056,
+   "rate": 100.0,
+   "gold": 1.0,
+   "materials": [
+    {
+     "item": "未来時空測定器(4段階)",
+     "qty": 1
+    },
+    {
+     "item": "未来時空集約体",
+     "qty": 2
+    }
+   ]
+  },
+  "n1265-ark-meter-6": {
+   "compound_id": 78057,
+   "rate": 100.0,
+   "gold": 1.0,
+   "materials": [
+    {
+     "item": "未来時空測定器(5段階)",
+     "qty": 1
+    },
+    {
+     "item": "未来時空集約体",
+     "qty": 2
+    }
+   ]
+  },
+  "n1265-ark-meter-7": {
+   "compound_id": 78058,
+   "rate": 100.0,
+   "gold": 1.0,
+   "materials": [
+    {
+     "item": "未来時空測定器(6段階)",
+     "qty": 1
+    },
+    {
+     "item": "未来時空集約体",
+     "qty": 2
+    }
+   ]
+  },
+  "n1265-ark-meter-8": {
+   "compound_id": 78059,
+   "rate": 100.0,
+   "gold": 1.0,
+   "materials": [
+    {
+     "item": "未来時空測定器(7段階)",
+     "qty": 1
+    },
+    {
+     "item": "未来時空集約体",
+     "qty": 2
+    }
+   ]
+  },
+  "n1265-ark-meter-9": {
+   "compound_id": 78060,
+   "rate": 100.0,
+   "gold": 1.0,
+   "materials": [
+    {
+     "item": "未来時空測定器(8段階)",
+     "qty": 1
+    },
+    {
+     "item": "未来時空集約体",
+     "qty": 2
+    }
+   ]
+  },
+  "n1287-craft-armor-stone": {
+   "compound_id": 78268,
+   "rate": 100.0,
+   "gold": 2500.0,
+   "materials": [
+    {
+     "item": "古代人の礎",
+     "qty": 250
+    },
+    {
+     "item": "壊れた金糸防具の結晶",
+     "qty": 1000
+    },
+    {
+     "item": "次元の残痕",
+     "qty": 1000
+    }
+   ]
+  },
+  "n1287-craft-dim-sand": {
+   "compound_id": 78269,
+   "rate": 100.0,
+   "gold": 50000.0,
+   "materials": [
+    {
+     "item": "古代人の礎",
+     "qty": 300
+    },
+    {
+     "item": "壊れた金糸武器の結晶",
+     "qty": 1000
+    },
+    {
+     "item": "壊れた金糸防具の結晶",
+     "qty": 1000
+    },
+    {
+     "item": "次元の残痕",
+     "qty": 2000
+    }
+   ]
+  },
+  "n1287-craft-evo-armor-stone": {
+   "compound_id": 78267,
+   "rate": 100.0,
+   "gold": 2500.0,
+   "materials": [
+    {
+     "item": "古代人の礎",
+     "qty": 25
+    },
+    {
+     "item": "壊れた金糸防具の結晶",
+     "qty": 100
+    },
+    {
+     "item": "次元の残痕",
+     "qty": 100
+    }
+   ]
+  },
+  "n1287-craft-evo-weapon-stone": {
+   "compound_id": 78272,
+   "rate": 100.0,
+   "gold": 10000.0,
+   "materials": [
+    {
+     "item": "古代人の礎",
+     "qty": 100
+    },
+    {
+     "item": "壊れた金糸武器の結晶",
+     "qty": 500
+    },
+    {
+     "item": "次元の残痕",
+     "qty": 1000
+    }
+   ]
+  },
+  "n1287-lamp-dim": {
+   "compound_id": 78370,
+   "rate": 100.0,
+   "gold": 50000.0,
+   "materials": [
+    {
+     "item": "夜明けの露の輝きの宝石",
+     "qty": 12
+    },
+    {
+     "item": "崩壊した次元の気",
+     "qty": 1
+    },
+    {
+     "item": "真夜中の流星の輝きの宝石",
+     "qty": 1440
+    },
+    {
+     "item": "真昼の太陽の輝きの宝石",
+     "qty": 24
+    },
+    {
+     "item": "黄昏の夕焼けの輝きの宝石",
+     "qty": 60
+    }
+   ]
+  },
+  "n1287-lamp-elder": {
+   "compound_id": 78371,
+   "rate": 100.0,
+   "gold": 50000.0,
+   "materials": [
+    {
+     "item": "咲き誇る竜鱗",
+     "qty": 20
+    },
+    {
+     "item": "崩壊した次元の気",
+     "qty": 1
+    }
+   ]
+  },
+  "n1287-nelwin-1": {
+   "compound_id": 78336,
+   "rate": 100.0,
+   "gold": 1000.0,
+   "materials": [
+    {
+     "item": "封印された力のネルウィンブローチ",
+     "qty": 1
+    },
+    {
+     "item": "断片化したブローチの残骸",
+     "qty": 150
+    }
+   ]
+  },
+  "n1287-nelwin-10": {
+   "compound_id": 78345,
+   "rate": 100.0,
+   "gold": 3000.0,
+   "materials": [
+    {
+     "item": "[4段階]封印された力のネルウィンブローチ",
+     "qty": 1
+    },
+    {
+     "item": "ネルウィンの解放のかけら",
+     "qty": 30
+    },
+    {
+     "item": "断片化したブローチの残骸",
+     "qty": 300
+    }
+   ]
+  },
+  "n1287-nelwin-11": {
+   "compound_id": 78346,
+   "rate": 100.0,
+   "gold": 5000.0,
+   "materials": [
+    {
+     "item": "[5段階]封印された力のネルウィンブローチ",
+     "qty": 1
+    },
+    {
+     "item": "ネルウィンの解放のかけら",
+     "qty": 40
+    },
+    {
+     "item": "断片化したブローチの残骸",
+     "qty": 500
+    }
+   ]
+  },
+  "n1287-nelwin-12": {
+   "compound_id": 78347,
+   "rate": 100.0,
+   "gold": 5000.0,
+   "materials": [
+    {
+     "item": "[1段階]封印された力のネルウィンブローチ",
+     "qty": 1
+    },
+    {
+     "item": "ネルウィンの解放のかけら",
+     "qty": 60
+    },
+    {
+     "item": "断片化したブローチの残骸",
+     "qty": 500
+    }
+   ]
+  },
+  "n1287-nelwin-13": {
+   "compound_id": 78348,
+   "rate": 100.0,
+   "gold": 5000.0,
+   "materials": [
+    {
+     "item": "[2段階]封印された力のネルウィンブローチ",
+     "qty": 1
+    },
+    {
+     "item": "ネルウィンの解放のかけら",
+     "qty": 80
+    },
+    {
+     "item": "断片化したブローチの残骸",
+     "qty": 500
+    }
+   ]
+  },
+  "n1287-nelwin-14": {
+   "compound_id": 78349,
+   "rate": 100.0,
+   "gold": 5000.0,
+   "materials": [
+    {
+     "item": "[3段階]封印された力のネルウィンブローチ",
+     "qty": 1
+    },
+    {
+     "item": "ネルウィンの解放のかけら",
+     "qty": 100
+    },
+    {
+     "item": "断片化したブローチの残骸",
+     "qty": 500
+    }
+   ]
+  },
+  "n1287-nelwin-15": {
+   "compound_id": 78350,
+   "rate": 100.0,
+   "gold": 5000.0,
+   "materials": [
+    {
+     "item": "[4段階]封印された力のネルウィンブローチ",
+     "qty": 1
+    },
+    {
+     "item": "ネルウィンの解放のかけら",
+     "qty": 150
+    },
+    {
+     "item": "断片化したブローチの残骸",
+     "qty": 500
+    }
+   ]
+  },
+  "n1287-nelwin-16": {
+   "compound_id": 78351,
+   "rate": 100.0,
+   "gold": 10000.0,
+   "materials": [
+    {
+     "item": "[5段階]封印された力のネルウィンブローチ",
+     "qty": 1
+    },
+    {
+     "item": "ネルウィンの解放のかけら",
+     "qty": 100
+    },
+    {
+     "item": "ネルウィン異界波紋石",
+     "qty": 1000
+    }
+   ]
+  },
+  "n1287-nelwin-17": {
+   "compound_id": 78352,
+   "rate": 100.0,
+   "gold": 10000.0,
+   "materials": [
+    {
+     "item": "[1段階]異界のネルウィンブローチ",
+     "qty": 1
+    },
+    {
+     "item": "ネルウィンの解放のかけら",
+     "qty": 150
+    },
+    {
+     "item": "ネルウィン異界波紋石",
+     "qty": 1500
+    }
+   ]
+  },
+  "n1287-nelwin-18": {
+   "compound_id": 78353,
+   "rate": 100.0,
+   "gold": 10000.0,
+   "materials": [
+    {
+     "item": "[2段階]異界のネルウィンブローチ",
+     "qty": 1
+    },
+    {
+     "item": "ネルウィンの解放のかけら",
+     "qty": 200
+    },
+    {
+     "item": "ネルウィン異界波紋石",
+     "qty": 2000
+    }
+   ]
+  },
+  "n1287-nelwin-19": {
+   "compound_id": 78354,
+   "rate": 100.0,
+   "gold": 10000.0,
+   "materials": [
+    {
+     "item": "[3段階]異界のネルウィンブローチ",
+     "qty": 1
+    },
+    {
+     "item": "ネルウィンの解放のかけら",
+     "qty": 200
+    },
+    {
+     "item": "ネルウィン異界波紋石",
+     "qty": 2000
+    }
+   ]
+  },
+  "n1287-nelwin-2": {
+   "compound_id": 78337,
+   "rate": 100.0,
+   "gold": 1000.0,
+   "materials": [
+    {
+     "item": "[1段階]封印された力のネルウィンブローチ",
+     "qty": 1
+    },
+    {
+     "item": "ネルウィンの解放のかけら",
+     "qty": 5
+    },
+    {
+     "item": "断片化したブローチの残骸",
+     "qty": 150
+    }
+   ]
+  },
+  "n1287-nelwin-20": {
+   "compound_id": 78355,
+   "rate": 100.0,
+   "gold": 10000.0,
+   "materials": [
+    {
+     "item": "[4段階]異界のネルウィンブローチ",
+     "qty": 1
+    },
+    {
+     "item": "ネルウィンの解放のかけら",
+     "qty": 200
+    },
+    {
+     "item": "ネルウィン異界波紋石",
+     "qty": 2000
+    }
+   ]
+  },
+  "n1287-nelwin-21": {
+   "compound_id": 78356,
+   "rate": 100.0,
+   "gold": 10000.0,
+   "materials": [
+    {
+     "item": "[5段階]異界のネルウィンブローチ",
+     "qty": 1
+    },
+    {
+     "item": "ネルウィンの解放のかけら",
+     "qty": 200
+    },
+    {
+     "item": "ネルウィン異界波紋石",
+     "qty": 2000
+    }
+   ]
+  },
+  "n1287-nelwin-22": {
+   "compound_id": 78357,
+   "rate": 100.0,
+   "gold": 10000.0,
+   "materials": [
+    {
+     "item": "[6段階]異界のネルウィンブローチ",
+     "qty": 1
+    },
+    {
+     "item": "ネルウィンの解放のかけら",
+     "qty": 300
+    },
+    {
+     "item": "ネルウィン異界波紋石",
+     "qty": 3000
+    }
+   ]
+  },
+  "n1287-nelwin-23": {
+   "compound_id": 78358,
+   "rate": 100.0,
+   "gold": 10000.0,
+   "materials": [
+    {
+     "item": "[7段階]異界のネルウィンブローチ",
+     "qty": 1
+    },
+    {
+     "item": "ネルウィンの解放のかけら",
+     "qty": 300
+    },
+    {
+     "item": "ネルウィン異界波紋石",
+     "qty": 3000
+    }
+   ]
+  },
+  "n1287-nelwin-24": {
+   "compound_id": 78359,
+   "rate": 100.0,
+   "gold": 10000.0,
+   "materials": [
+    {
+     "item": "[8段階]異界のネルウィンブローチ",
+     "qty": 1
+    },
+    {
+     "item": "ネルウィンの解放のかけら",
+     "qty": 300
+    },
+    {
+     "item": "ネルウィン異界波紋石",
+     "qty": 3000
+    }
+   ]
+  },
+  "n1287-nelwin-25": {
+   "compound_id": 78360,
+   "rate": 100.0,
+   "gold": 10000.0,
+   "materials": [
+    {
+     "item": "[9段階]異界のネルウィンブローチ",
+     "qty": 1
+    },
+    {
+     "item": "ネルウィンの解放のかけら",
+     "qty": 300
+    },
+    {
+     "item": "ネルウィン異界波紋石",
+     "qty": 3000
+    }
+   ]
+  },
+  "n1287-nelwin-26": {
+   "compound_id": 78361,
+   "rate": 100.0,
+   "gold": 10000.0,
+   "materials": [
+    {
+     "item": "[10段階]異界のネルウィンブローチ",
+     "qty": 1
+    },
+    {
+     "item": "ネルウィンの解放のかけら",
+     "qty": 400
+    },
+    {
+     "item": "ネルウィン異界波紋石",
+     "qty": 4000
+    }
+   ]
+  },
+  "n1287-nelwin-27": {
+   "compound_id": 78362,
+   "rate": 100.0,
+   "gold": 10000.0,
+   "materials": [
+    {
+     "item": "[11段階]異界のネルウィンブローチ",
+     "qty": 1
+    },
+    {
+     "item": "ネルウィンの解放のかけら",
+     "qty": 400
+    },
+    {
+     "item": "ネルウィン異界波紋石",
+     "qty": 4000
+    }
+   ]
+  },
+  "n1287-nelwin-28": {
+   "compound_id": 78363,
+   "rate": 100.0,
+   "gold": 10000.0,
+   "materials": [
+    {
+     "item": "[12段階]異界のネルウィンブローチ",
+     "qty": 1
+    },
+    {
+     "item": "ネルウィンの解放のかけら",
+     "qty": 400
+    },
+    {
+     "item": "ネルウィン異界波紋石",
+     "qty": 4000
+    }
+   ]
+  },
+  "n1287-nelwin-29": {
+   "compound_id": 78364,
+   "rate": 100.0,
+   "gold": 10000.0,
+   "materials": [
+    {
+     "item": "[13段階]異界のネルウィンブローチ",
+     "qty": 1
+    },
+    {
+     "item": "ネルウィンの解放のかけら",
+     "qty": 400
+    },
+    {
+     "item": "ネルウィン異界波紋石",
+     "qty": 4000
+    }
+   ]
+  },
+  "n1287-nelwin-3": {
+   "compound_id": 78338,
+   "rate": 100.0,
+   "gold": 1000.0,
+   "materials": [
+    {
+     "item": "[2段階]封印された力のネルウィンブローチ",
+     "qty": 1
+    },
+    {
+     "item": "ネルウィンの解放のかけら",
+     "qty": 5
+    },
+    {
+     "item": "断片化したブローチの残骸",
+     "qty": 150
+    }
+   ]
+  },
+  "n1287-nelwin-30": {
+   "compound_id": 78365,
+   "rate": 100.0,
+   "gold": 10000.0,
+   "materials": [
+    {
+     "item": "[14段階]異界のネルウィンブローチ",
+     "qty": 1
+    },
+    {
+     "item": "ネルウィンの解放のかけら",
+     "qty": 800
+    },
+    {
+     "item": "ネルウィン異界波紋石",
+     "qty": 8000
+    }
+   ]
+  },
+  "n1287-nelwin-4": {
+   "compound_id": 78339,
+   "rate": 100.0,
+   "gold": 1000.0,
+   "materials": [
+    {
+     "item": "[3段階]封印された力のネルウィンブローチ",
+     "qty": 1
+    },
+    {
+     "item": "ネルウィンの解放のかけら",
+     "qty": 10
+    },
+    {
+     "item": "断片化したブローチの残骸",
+     "qty": 150
+    }
+   ]
+  },
+  "n1287-nelwin-5": {
+   "compound_id": 78340,
+   "rate": 100.0,
+   "gold": 1000.0,
+   "materials": [
+    {
+     "item": "[4段階]封印された力のネルウィンブローチ",
+     "qty": 1
+    },
+    {
+     "item": "ネルウィンの解放のかけら",
+     "qty": 10
+    },
+    {
+     "item": "断片化したブローチの残骸",
+     "qty": 150
+    }
+   ]
+  },
+  "n1287-nelwin-6": {
+   "compound_id": 78341,
+   "rate": 100.0,
+   "gold": 3000.0,
+   "materials": [
+    {
+     "item": "[5段階]封印された力のネルウィンブローチ",
+     "qty": 1
+    },
+    {
+     "item": "ネルウィンの解放のかけら",
+     "qty": 20
+    },
+    {
+     "item": "断片化したブローチの残骸",
+     "qty": 300
+    }
+   ]
+  },
+  "n1287-nelwin-7": {
+   "compound_id": 78342,
+   "rate": 100.0,
+   "gold": 3000.0,
+   "materials": [
+    {
+     "item": "[1段階]封印された力のネルウィンブローチ",
+     "qty": 1
+    },
+    {
+     "item": "ネルウィンの解放のかけら",
+     "qty": 20
+    },
+    {
+     "item": "断片化したブローチの残骸",
+     "qty": 300
+    }
+   ]
+  },
+  "n1287-nelwin-8": {
+   "compound_id": 78343,
+   "rate": 100.0,
+   "gold": 3000.0,
+   "materials": [
+    {
+     "item": "[2段階]封印された力のネルウィンブローチ",
+     "qty": 1
+    },
+    {
+     "item": "ネルウィンの解放のかけら",
+     "qty": 25
+    },
+    {
+     "item": "断片化したブローチの残骸",
+     "qty": 300
+    }
+   ]
+  },
+  "n1287-nelwin-9": {
+   "compound_id": 78344,
+   "rate": 100.0,
+   "gold": 3000.0,
+   "materials": [
+    {
+     "item": "[3段階]封印された力のネルウィンブローチ",
+     "qty": 1
+    },
+    {
+     "item": "ネルウィンの解放のかけら",
+     "qty": 30
+    },
+    {
+     "item": "断片化したブローチの残骸",
+     "qty": 300
+    }
+   ]
+  },
+  "n1287-otherworld-seal": {
+   "compound_id": 78266,
+   "rate": 100.0,
+   "gold": 1000.0,
+   "materials": [
+    {
+     "item": "次元の残痕",
+     "qty": 150
+    },
+    {
+     "item": "狭間のかけら",
+     "qty": 89
+    }
+   ]
+  },
+  "n1311-collapse-orb": {
+   "compound_id": 78382,
+   "rate": 100.0,
+   "gold": 10000.0,
+   "materials": [
+    {
+     "item": "古代人の礎",
+     "qty": 200
+    },
+    {
+     "item": "崩壊の竜珠の破片",
+     "qty": 1500
+    },
+    {
+     "item": "次元の残痕",
+     "qty": 1500
+    }
+   ]
+  },
+  "n1311-fossil-1": {
+   "compound_id": 77970,
+   "rate": 100.0,
+   "gold": 1.0,
+   "materials": [
+    {
+     "item": "箱舟の石のかけら",
+     "qty": 2
+    }
+   ]
+  },
+  "n1311-fossil-10": {
+   "compound_id": 77979,
+   "rate": 100.0,
+   "gold": 1.0,
+   "materials": [
+    {
+     "item": "箱舟の石のかけら",
+     "qty": 2
+    },
+    {
+     "item": "過去の化石(9段階)",
+     "qty": 1
+    }
+   ]
+  },
+  "n1311-fossil-11": {
+   "compound_id": 77980,
+   "rate": 100.0,
+   "gold": 1.0,
+   "materials": [
+    {
+     "item": "箱舟の石のかけら",
+     "qty": 2
+    },
+    {
+     "item": "過去の化石(10段階)",
+     "qty": 1
+    }
+   ]
+  },
+  "n1311-fossil-12": {
+   "compound_id": 78373,
+   "rate": 100.0,
+   "gold": 1.0,
+   "materials": [
+    {
+     "item": "箱舟の石のかけら",
+     "qty": 2
+    },
+    {
+     "item": "過去の化石(11段階)",
+     "qty": 1
+    }
+   ]
+  },
+  "n1311-fossil-13": {
+   "compound_id": 78374,
+   "rate": 100.0,
+   "gold": 1.0,
+   "materials": [
+    {
+     "item": "箱舟の石のかけら",
+     "qty": 2
+    },
+    {
+     "item": "過去の化石(12段階)",
+     "qty": 1
+    }
+   ]
+  },
+  "n1311-fossil-14": {
+   "compound_id": 78375,
+   "rate": 100.0,
+   "gold": 1.0,
+   "materials": [
+    {
+     "item": "箱舟の石のかけら",
+     "qty": 2
+    },
+    {
+     "item": "過去の化石(13段階)",
+     "qty": 1
+    }
+   ]
+  },
+  "n1311-fossil-15": {
+   "compound_id": 78376,
+   "rate": 100.0,
+   "gold": 1.0,
+   "materials": [
+    {
+     "item": "箱舟の石のかけら",
+     "qty": 2
+    },
+    {
+     "item": "過去の化石(14段階)",
+     "qty": 1
+    }
+   ]
+  },
+  "n1311-fossil-2": {
+   "compound_id": 77971,
+   "rate": 100.0,
+   "gold": 1.0,
+   "materials": [
+    {
+     "item": "箱舟の石のかけら",
+     "qty": 2
+    },
+    {
+     "item": "過去の化石(1段階)",
+     "qty": 1
+    }
+   ]
+  },
+  "n1311-fossil-3": {
+   "compound_id": 77972,
+   "rate": 100.0,
+   "gold": 1.0,
+   "materials": [
+    {
+     "item": "箱舟の石のかけら",
+     "qty": 2
+    },
+    {
+     "item": "過去の化石(2段階)",
+     "qty": 1
+    }
+   ]
+  },
+  "n1311-fossil-4": {
+   "compound_id": 77973,
+   "rate": 100.0,
+   "gold": 1.0,
+   "materials": [
+    {
+     "item": "箱舟の石のかけら",
+     "qty": 2
+    },
+    {
+     "item": "過去の化石(3段階)",
+     "qty": 1
+    }
+   ]
+  },
+  "n1311-fossil-5": {
+   "compound_id": 77974,
+   "rate": 100.0,
+   "gold": 1.0,
+   "materials": [
+    {
+     "item": "箱舟の石のかけら",
+     "qty": 2
+    },
+    {
+     "item": "過去の化石(4段階)",
+     "qty": 1
+    }
+   ]
+  },
+  "n1311-fossil-6": {
+   "compound_id": 77975,
+   "rate": 100.0,
+   "gold": 1.0,
+   "materials": [
+    {
+     "item": "箱舟の石のかけら",
+     "qty": 2
+    },
+    {
+     "item": "過去の化石(5段階)",
+     "qty": 1
+    }
+   ]
+  },
+  "n1311-fossil-7": {
+   "compound_id": 77976,
+   "rate": 100.0,
+   "gold": 1.0,
+   "materials": [
+    {
+     "item": "箱舟の石のかけら",
+     "qty": 2
+    },
+    {
+     "item": "過去の化石(6段階)",
+     "qty": 1
+    }
+   ]
+  },
+  "n1311-fossil-8": {
+   "compound_id": 77977,
+   "rate": 100.0,
+   "gold": 1.0,
+   "materials": [
+    {
+     "item": "箱舟の石のかけら",
+     "qty": 2
+    },
+    {
+     "item": "過去の化石(7段階)",
+     "qty": 1
+    }
+   ]
+  },
+  "n1311-fossil-9": {
+   "compound_id": 77978,
+   "rate": 100.0,
+   "gold": 1.0,
+   "materials": [
+    {
+     "item": "箱舟の石のかけら",
+     "qty": 2
+    },
+    {
+     "item": "過去の化石(8段階)",
+     "qty": 1
+    }
+   ]
+  },
+  "n1311-jakon-craft": {
+   "compound_id": 78378,
+   "rate": 100.0,
+   "gold": 200000.0,
+   "materials": [
+    {
+     "item": "崩壊した次元の気",
+     "qty": 2
+    },
+    {
+     "item": "邪根の渇望のかけら",
+     "qty": 200
+    }
+   ]
+  },
+  "n1311-jakon-cube": {
+   "compound_id": 78379,
+   "rate": 100.0,
+   "gold": 50000.0,
+   "materials": [
+    {
+     "item": "邪根の渇望のかけら",
+     "qty": 200
+    }
+   ]
+  },
+  "n1311-jakon-will": {
+   "compound_id": 78380,
+   "rate": 100.0,
+   "gold": 50000.0,
+   "materials": [
+    {
+     "item": "抽出されし根菌",
+     "qty": 7
+    }
+   ]
+  },
+  "n1362-pendant-1": {
+   "compound_id": 77997,
+   "rate": 100.0,
+   "gold": 1.0,
+   "materials": [
+    {
+     "item": "未知の石のかけら",
+     "qty": 2
+    }
+   ]
+  },
+  "n1362-pendant-10": {
+   "compound_id": 78006,
+   "rate": 100.0,
+   "gold": 1.0,
+   "materials": [
+    {
+     "item": "未知の石のかけら",
+     "qty": 2
+    },
+    {
+     "item": "現在のペンダント(9段階)",
+     "qty": 1
+    }
+   ]
+  },
+  "n1362-pendant-11": {
+   "compound_id": 78007,
+   "rate": 100.0,
+   "gold": 1.0,
+   "materials": [
+    {
+     "item": "未知の石のかけら",
+     "qty": 2
+    },
+    {
+     "item": "現在のペンダント(10段階)",
+     "qty": 1
+    }
+   ]
+  },
+  "n1362-pendant-12": {
+   "compound_id": 78008,
+   "rate": 100.0,
+   "gold": 1.0,
+   "materials": [
+    {
+     "item": "未知の石のかけら",
+     "qty": 2
+    },
+    {
+     "item": "現在のペンダント(11段階)",
+     "qty": 1
+    }
+   ]
+  },
+  "n1362-pendant-13": {
+   "compound_id": 78009,
+   "rate": 100.0,
+   "gold": 1.0,
+   "materials": [
+    {
+     "item": "未知の石のかけら",
+     "qty": 2
+    },
+    {
+     "item": "現在のペンダント(12段階)",
+     "qty": 1
+    }
+   ]
+  },
+  "n1362-pendant-14": {
+   "compound_id": 78010,
+   "rate": 100.0,
+   "gold": 1.0,
+   "materials": [
+    {
+     "item": "未知の石のかけら",
+     "qty": 2
+    },
+    {
+     "item": "現在のペンダント(13段階)",
+     "qty": 1
+    }
+   ]
+  },
+  "n1362-pendant-15": {
+   "compound_id": 78011,
+   "rate": 100.0,
+   "gold": 1.0,
+   "materials": [
+    {
+     "item": "未知の石のかけら",
+     "qty": 2
+    },
+    {
+     "item": "現在のペンダント(14段階)",
+     "qty": 1
+    }
+   ]
+  },
+  "n1362-pendant-2": {
+   "compound_id": 77998,
+   "rate": 100.0,
+   "gold": 1.0,
+   "materials": [
+    {
+     "item": "未知の石のかけら",
+     "qty": 2
+    },
+    {
+     "item": "現在のペンダント(1段階)",
+     "qty": 1
+    }
+   ]
+  },
+  "n1362-pendant-3": {
+   "compound_id": 77999,
+   "rate": 100.0,
+   "gold": 1.0,
+   "materials": [
+    {
+     "item": "未知の石のかけら",
+     "qty": 2
+    },
+    {
+     "item": "現在のペンダント(2段階)",
+     "qty": 1
+    }
+   ]
+  },
+  "n1362-pendant-4": {
+   "compound_id": 78000,
+   "rate": 100.0,
+   "gold": 1.0,
+   "materials": [
+    {
+     "item": "未知の石のかけら",
+     "qty": 2
+    },
+    {
+     "item": "現在のペンダント(3段階)",
+     "qty": 1
+    }
+   ]
+  },
+  "n1362-pendant-5": {
+   "compound_id": 78001,
+   "rate": 100.0,
+   "gold": 1.0,
+   "materials": [
+    {
+     "item": "未知の石のかけら",
+     "qty": 2
+    },
+    {
+     "item": "現在のペンダント(4段階)",
+     "qty": 1
+    }
+   ]
+  },
+  "n1362-pendant-6": {
+   "compound_id": 78002,
+   "rate": 100.0,
+   "gold": 1.0,
+   "materials": [
+    {
+     "item": "未知の石のかけら",
+     "qty": 2
+    },
+    {
+     "item": "現在のペンダント(5段階)",
+     "qty": 1
+    }
+   ]
+  },
+  "n1362-pendant-7": {
+   "compound_id": 78003,
+   "rate": 100.0,
+   "gold": 1.0,
+   "materials": [
+    {
+     "item": "未知の石のかけら",
+     "qty": 2
+    },
+    {
+     "item": "現在のペンダント(6段階)",
+     "qty": 1
+    }
+   ]
+  },
+  "n1362-pendant-8": {
+   "compound_id": 78004,
+   "rate": 100.0,
+   "gold": 1.0,
+   "materials": [
+    {
+     "item": "未知の石のかけら",
+     "qty": 2
+    },
+    {
+     "item": "現在のペンダント(7段階)",
+     "qty": 1
+    }
+   ]
+  },
+  "n1362-pendant-9": {
+   "compound_id": 78005,
+   "rate": 100.0,
+   "gold": 1.0,
+   "materials": [
+    {
+     "item": "未知の石のかけら",
+     "qty": 2
+    },
+    {
+     "item": "現在のペンダント(8段階)",
+     "qty": 1
+    }
+   ]
+  },
+  "n1387-collapsed-dim-memory": {
+   "compound_id": 78404,
+   "rate": 100.0,
+   "gold": 200000.0,
+   "materials": [
+    {
+     "item": "夜明けの露の輝きの宝石",
+     "qty": 160
+    },
+    {
+     "item": "崩壊した次元の気",
+     "qty": 2
+    },
+    {
+     "item": "真夜中の流星の輝きの宝石",
+     "qty": 1860
+    },
+    {
+     "item": "真昼の太陽の輝きの宝石",
+     "qty": 52
+    },
+    {
+     "item": "黄昏の夕焼けの輝きの宝石",
+     "qty": 365
+    }
+   ]
+  }
+ },
+ "unresolved": {
+  "[1段階]封印された力のテラマイブローチ": "ambiguous: 同名 3 行",
+  "[2段階]封印された力のテラマイブローチ": "ambiguous: 同名 3 行",
+  "[3段階]封印された力のテラマイブローチ": "ambiguous: 同名 3 行",
+  "[4段階]封印された力のテラマイブローチ": "ambiguous: 同名 3 行",
+  "[5段階]封印された力のテラマイブローチ": "ambiguous: 同名 3 行",
+  "[Ⅰ]古代防具": "not-found",
+  "[Ⅱ]古代防具": "not-found",
+  "[祝福：異界]信念のテラマイブローチ": "not-found",
+  "[真]ジェレイントの成長": "not-found",
+  "[真]ヘイズフロストドラゴンアーマー": "ambiguous: 同名 8 行",
+  "[真]ヘイズフロストドラゴンイヤリング【極寒】": "ambiguous: 同名 4 行",
+  "[真]ヘイズフロストドラゴングローブ": "ambiguous: 同名 8 行",
+  "[真]ヘイズフロストドラゴンサブウェポン": "not-found",
+  "[真]ヘイズフロストドラゴンネックレス【寒氷】": "ambiguous: 同名 4 行",
+  "[真]ヘイズフロストドラゴンブーツ": "ambiguous: 同名 12 行",
+  "[真]ヘイズフロストドラゴンヘルム": "ambiguous: 同名 8 行",
+  "[真]ヘイズフロストドラゴンボトム": "ambiguous: 同名 8 行",
+  "[真]ヘイズフロストドラゴンメインウェポン": "not-found",
+  "[真]ヘイズフロストドラゴンリング【雪華】": "ambiguous: 同名 4 行",
+  "[真]古竜サブウェポン": "not-found",
+  "[真]古竜メインウェポン": "not-found",
+  "[増幅]古竜サブウェポン": "not-found",
+  "[増幅]古竜メインウェポン": "not-found",
+  "[未完]王城の紋章": "not-found",
+  "+20 3細工ベルスカードの責任": "not-found",
+  "アイオナアクセサリー(リング)": "not-found",
+  "アイオナの覚悟": "not-found",
+  "アイオナの誓い": "not-found",
+  "アイオナの聲": "not-found",
+  "アルゼンタの冷徹イヤリング": "ambiguous: 同名 4 行",
+  "アルゼンタの冷徹ネックレス": "ambiguous: 同名 4 行",
+  "アルゼンタの冷徹リング": "ambiguous: 同名 4 行",
+  "オーガタパのタリスマン(レア)": "not-found",
+  "カーライエンのセイヴィア紋章": "not-found",
+  "カーライエンのセイヴィア紋章(ヒロイック)": "ambiguous: 同名 2 行",
+  "カシウスのセイヴィア紋章": "not-found",
+  "カシウスのセイヴィア紋章(ヒロイック)": "ambiguous: 同名 2 行",
+  "クローニングアーマー": "ambiguous: 同名 2 行",
+  "クローニングイヤリング": "ambiguous: 同名 2 行",
+  "クローニングウィング": "ambiguous: 同名 2 行",
+  "クローニンググローブ": "ambiguous: 同名 2 行",
+  "クローニングテール": "ambiguous: 同名 2 行",
+  "クローニングデカール": "ambiguous: 同名 2 行",
+  "クローニングネックレス": "ambiguous: 同名 2 行",
+  "クローニングブーツ": "ambiguous: 同名 2 行",
+  "クローニングヘルム": "ambiguous: 同名 2 行",
+  "クローニングボトム": "ambiguous: 同名 2 行",
+  "クローニングリング": "ambiguous: 同名 2 行",
+  "ゴールドドラゴンイヤリング": "not-found",
+  "ゴールドドラゴンネックレス": "not-found",
+  "ゴールドドラゴンリング": "not-found",
+  "ジェレイントのスタート": "ambiguous: 同名 56 行",
+  "ジェレイントの犠牲": "ambiguous: 同名 51 行",
+  "ジェレイントの守護イヤリング": "not-found",
+  "ジェレイントの守護ネックレス": "not-found",
+  "ジェレイントの守護リング": "not-found",
+  "シルバードラゴンイヤリング": "ambiguous: 同名 4 行",
+  "シルバードラゴンネックレス": "ambiguous: 同名 4 行",
+  "シルバードラゴンリング": "ambiguous: 同名 4 行",
+  "セイヴィア紋章": "not-found",
+  "ダグラスのセイヴィア紋章": "not-found",
+  "ダグラスのセイヴィア紋章(ヒロイック)": "ambiguous: 同名 2 行",
+  "テラマイのセイヴィア紋章": "not-found",
+  "テラマイのセイヴィア紋章(ヒロイック)": "not-found",
+  "ナイトメアバルナック紋章(ブレイクポイント)": "ambiguous: 同名 2 行",
+  "ヘイズガストドラゴンサブウェポン": "not-found",
+  "ヘイズガストドラゴンヘルム": "not-found",
+  "ヘイズフロストドラゴンアーマー": "ambiguous: 同名 8 行",
+  "ヘイズフロストドラゴンイヤリング【極寒】": "ambiguous: 同名 4 行",
+  "ヘイズフロストドラゴングローブ": "ambiguous: 同名 8 行",
+  "ヘイズフロストドラゴンサブウェポン": "not-found",
+  "ヘイズフロストドラゴンネックレス【寒氷】": "ambiguous: 同名 4 行",
+  "ヘイズフロストドラゴンの月食の竜珠(エンシェント)": "not-found",
+  "ヘイズフロストドラゴンブーツ": "ambiguous: 同名 12 行",
+  "ヘイズフロストドラゴンヘルム": "ambiguous: 同名 8 行",
+  "ヘイズフロストドラゴンボトム": "ambiguous: 同名 8 行",
+  "ヘイズフロストドラゴンメインウェポン": "not-found",
+  "ヘイズフロストドラゴンリング【雪華】": "ambiguous: 同名 4 行",
+  "ベルスカードの信頼": "ambiguous: 同名 51 行",
+  "ベルスカードの責任": "ambiguous: 同名 11 行",
+  "ベルスカードの忠義": "ambiguous: 同名 56 行",
+  "異界の竜珠": "not-found",
+  "異世界の古代武器": "not-found",
+  "永遠のタリスマン": "not-found",
+  "永遠のタリスマン1段階": "not-found",
+  "永遠の混沌のタリスマン": "ambiguous: 同名 8 行",
+  "永遠の次元の変異型竜珠": "ambiguous: 同名 3 行",
+  "永遠の能力強化紋章": "not-found",
+  "永劫の異界の変異型竜珠": "ambiguous: 同名 2 行",
+  "王城の紋章": "not-found",
+  "金糸アーマー": "ambiguous: 同名 2 行",
+  "金糸アーマー[Ⅱ]": "not-found",
+  "金糸グローブ": "ambiguous: 同名 2 行",
+  "金糸グローブ[Ⅱ]": "not-found",
+  "金糸サブウェポン": "not-found",
+  "金糸サブウェポン[Ⅱ]": "not-found",
+  "金糸ブーツ": "ambiguous: 同名 2 行",
+  "金糸ヘルム": "ambiguous: 同名 2 行",
+  "金糸ヘルム[Ⅱ]": "not-found",
+  "金糸ボトム": "ambiguous: 同名 2 行",
+  "金糸ボトム[Ⅱ]": "not-found",
+  "金糸メインウェポン": "not-found",
+  "金糸メインウェポン[Ⅱ]": "not-found",
+  "金色の気迫の能力強化紋章": "not-found",
+  "金色の疾風の能力強化紋章": "not-found",
+  "金色の体力の能力強化紋章": "not-found",
+  "金色の知恵の能力強化紋章": "not-found",
+  "金竜武器 - サブウェポン": "not-found",
+  "金竜武器 - メインウェポン": "not-found",
+  "金竜防具 - アーマー": "not-found",
+  "金竜防具 - グローブ": "not-found",
+  "金竜防具 - ブーツ": "not-found",
+  "金竜防具 - ヘルム": "not-found",
+  "金竜防具 - ボトム": "not-found",
+  "月食のサブウェポン防御竜珠": "ambiguous: 同名 2 行",
+  "月食のメインウェポン防御竜珠": "ambiguous: 同名 2 行",
+  "月食の竜珠": "not-found",
+  "古代の竜珠": "not-found",
+  "古代人[Ⅱ]アーマー": "not-found",
+  "古代人[Ⅱ]グローブ": "not-found",
+  "古代人[Ⅱ]ブーツ": "not-found",
+  "古代人[Ⅱ]ヘルム": "not-found",
+  "古代人[Ⅱ]ボトム": "not-found",
+  "古竜サブウェポン": "not-found",
+  "古竜の防具": "not-found",
+  "古竜メインウェポン": "not-found",
+  "攻撃エンシェント竜珠": "not-found",
+  "紅月の竜珠": "not-found",
+  "次元の竜珠": "not-found",
+  "祝福された[増幅]古竜のサブウェポン": "not-found",
+  "祝福された[増幅]古竜のメインウェポン": "not-found",
+  "祝福された金色の能力強化紋章": "not-found",
+  "祝福された金竜の竜珠": "not-found",
+  "祝福を受けた勇猛なゴールデンイヤリング": "not-found",
+  "祝福を受けた勇猛なゴールデンネックレス": "not-found",
+  "祝福を受けた勇猛なゴールデンリング": "not-found",
+  "上級ヘイズガストドラゴンサブウェポン": "not-found",
+  "新緑の竜珠": "not-found",
+  "増幅された古竜の防具": "not-found",
+  "凍てつく白竜の残響": "not-found",
+  "独武討伐のタリスマン": "ambiguous: 同名 156 行",
+  "崩壊の攻撃竜珠": "not-found",
+  "崩壊の攻撃竜珠(エピック)": "not-found",
+  "崩壊の防御竜珠": "not-found",
+  "崩壊の防御竜珠(エピック)": "not-found",
+  "崩壊の竜珠(ユニーク)": "not-found",
+  "防御エンシェント竜珠": "not-found",
+  "眠れる白竜の雫": "not-found",
+  "幽幻の竜珠": "not-found",
+  "悠久なる白竜の盟約": "not-found",
+  "煌めく王城の紋章": "not-found"
+ }
+}

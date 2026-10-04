@@ -12,7 +12,8 @@
     "fetch:page": "tsx ingest/fetch-page.ts",
     "import:dngamer": "tsx ingest/import-dngamer.ts",
     "merge": "tsx ingest/merge-drafts.ts",
-    "gen:groups": "tsx ingest/gen-groups.ts"
+    "gen:groups": "tsx ingest/gen-groups.ts",
+    "apply:client": "tsx ingest/apply-client.ts"
   },
   "devDependencies": {
     "@types/node": "^26.6.4",

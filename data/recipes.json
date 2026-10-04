@@ -1325,8 +1325,13 @@
     "refs": [
       {
         "source": "jp-notice-1162"
+      },
+      {
+        "source": "jp-client-20261001",
+        "note": "空欄をクライアントデータで補完"
       }
-    ]
+    ],
+    "rate": 100
   },
   {
     "id": "n1162-eternal-pain-2",
@@ -1347,9 +1352,14 @@
     "refs": [
       {
         "source": "jp-notice-1162"
+      },
+      {
+        "source": "jp-client-20261001",
+        "note": "空欄をクライアントデータで補完"
       }
     ],
-    "base": "永遠の苦痛の目(1段階)"
+    "base": "永遠の苦痛の目(1段階)",
+    "rate": 100
   },
   {
     "id": "n1162-eternal-pain-3",
@@ -1370,9 +1380,14 @@
     "refs": [
       {
         "source": "jp-notice-1162"
+      },
+      {
+        "source": "jp-client-20261001",
+        "note": "空欄をクライアントデータで補完"
       }
     ],
-    "base": "永遠の苦痛の目(2段階)"
+    "base": "永遠の苦痛の目(2段階)",
+    "rate": 100
   },
   {
     "id": "n1162-eternal-pain-4",
@@ -1393,9 +1408,14 @@
     "refs": [
       {
         "source": "jp-notice-1162"
+      },
+      {
+        "source": "jp-client-20261001",
+        "note": "空欄をクライアントデータで補完"
       }
     ],
-    "base": "永遠の苦痛の目(3段階)"
+    "base": "永遠の苦痛の目(3段階)",
+    "rate": 100
   },
   {
     "id": "n1162-eternal-pain-5",
@@ -1416,9 +1436,14 @@
     "refs": [
       {
         "source": "jp-notice-1162"
+      },
+      {
+        "source": "jp-client-20261001",
+        "note": "空欄をクライアントデータで補完"
       }
     ],
-    "base": "永遠の苦痛の目(4段階)"
+    "base": "永遠の苦痛の目(4段階)",
+    "rate": 100
   },
   {
     "id": "n1162-eternal-world-1",
@@ -1435,8 +1460,13 @@
     "refs": [
       {
         "source": "jp-notice-1162"
+      },
+      {
+        "source": "jp-client-20261001",
+        "note": "空欄をクライアントデータで補完"
       }
-    ]
+    ],
+    "rate": 100
   },
   {
     "id": "n1162-eternal-world-10",
@@ -1453,9 +1483,14 @@
     "refs": [
       {
         "source": "jp-notice-1162"
+      },
+      {
+        "source": "jp-client-20261001",
+        "note": "空欄をクライアントデータで補完"
       }
     ],
-    "base": "永遠の世界のタリスマン(9段階)"
+    "base": "永遠の世界のタリスマン(9段階)",
+    "rate": 100
   },
   {
     "id": "n1162-eternal-world-2",
@@ -1472,9 +1507,14 @@
     "refs": [
       {
         "source": "jp-notice-1162"
+      },
+      {
+        "source": "jp-client-20261001",
+        "note": "空欄をクライアントデータで補完"
       }
     ],
-    "base": "永遠の世界のタリスマン(1段階)"
+    "base": "永遠の世界のタリスマン(1段階)",
+    "rate": 100
   },
   {
     "id": "n1162-eternal-world-3",
@@ -1491,9 +1531,14 @@
     "refs": [
       {
         "source": "jp-notice-1162"
+      },
+      {
+        "source": "jp-client-20261001",
+        "note": "空欄をクライアントデータで補完"
       }
     ],
-    "base": "永遠の世界のタリスマン(2段階)"
+    "base": "永遠の世界のタリスマン(2段階)",
+    "rate": 100
   },
   {
     "id": "n1162-eternal-world-4",
@@ -1510,9 +1555,14 @@
     "refs": [
       {
         "source": "jp-notice-1162"
+      },
+      {
+        "source": "jp-client-20261001",
+        "note": "空欄をクライアントデータで補完"
       }
     ],
-    "base": "永遠の世界のタリスマン(3段階)"
+    "base": "永遠の世界のタリスマン(3段階)",
+    "rate": 100
   },
   {
     "id": "n1162-eternal-world-5",
@@ -1529,9 +1579,14 @@
     "refs": [
       {
         "source": "jp-notice-1162"
+      },
+      {
+        "source": "jp-client-20261001",
+        "note": "空欄をクライアントデータで補完"
       }
     ],
-    "base": "永遠の世界のタリスマン(4段階)"
+    "base": "永遠の世界のタリスマン(4段階)",
+    "rate": 100
   },
   {
     "id": "n1162-eternal-world-6",
@@ -1548,9 +1603,14 @@
     "refs": [
       {
         "source": "jp-notice-1162"
+      },
+      {
+        "source": "jp-client-20261001",
+        "note": "空欄をクライアントデータで補完"
       }
     ],
-    "base": "永遠の世界のタリスマン(5段階)"
+    "base": "永遠の世界のタリスマン(5段階)",
+    "rate": 100
   },
   {
     "id": "n1162-eternal-world-7",
@@ -1567,9 +1627,14 @@
     "refs": [
       {
         "source": "jp-notice-1162"
+      },
+      {
+        "source": "jp-client-20261001",
+        "note": "空欄をクライアントデータで補完"
       }
     ],
-    "base": "永遠の世界のタリスマン(6段階)"
+    "base": "永遠の世界のタリスマン(6段階)",
+    "rate": 100
   },
   {
     "id": "n1162-eternal-world-8",
@@ -1586,9 +1651,14 @@
     "refs": [
       {
         "source": "jp-notice-1162"
+      },
+      {
+        "source": "jp-client-20261001",
+        "note": "空欄をクライアントデータで補完"
       }
     ],
-    "base": "永遠の世界のタリスマン(7段階)"
+    "base": "永遠の世界のタリスマン(7段階)",
+    "rate": 100
   },
   {
     "id": "n1162-eternal-world-9",
@@ -1605,9 +1675,14 @@
     "refs": [
       {
         "source": "jp-notice-1162"
+      },
+      {
+        "source": "jp-client-20261001",
+        "note": "空欄をクライアントデータで補完"
       }
     ],
-    "base": "永遠の世界のタリスマン(8段階)"
+    "base": "永遠の世界のタリスマン(8段階)",
+    "rate": 100
   },
   {
     "id": "n1193-dimension-jade-dismantle",
@@ -2010,8 +2085,13 @@
     "refs": [
       {
         "source": "jp-notice-1193"
+      },
+      {
+        "source": "jp-client-20261001",
+        "note": "空欄をクライアントデータで補完"
       }
-    ]
+    ],
+    "rate": 100
   },
   {
     "id": "n1217-ancient-power",
@@ -2022,14 +2102,20 @@
     "materials": [
       {
         "item": "古代人の力の結晶",
-        "qty": "不明"
+        "qty": 100
       }
     ],
     "refs": [
       {
         "source": "jp-notice-1217"
+      },
+      {
+        "source": "jp-client-20261001",
+        "note": "空欄をクライアントデータで補完"
       }
-    ]
+    ],
+    "gold": 100,
+    "rate": 100
   },
   {
     "id": "n1217-eternal-core-dismantle",
@@ -2789,8 +2875,14 @@
     "refs": [
       {
         "source": "jp-notice-1217"
+      },
+      {
+        "source": "jp-client-20261001",
+        "note": "空欄をクライアントデータで補完"
       }
-    ]
+    ],
+    "gold": 10000,
+    "rate": 100
   },
   {
     "id": "n1217-hfd-talisman-2",
@@ -3440,8 +3532,14 @@
     "refs": [
       {
         "source": "jp-notice-1246"
+      },
+      {
+        "source": "jp-client-20261001",
+        "note": "空欄をクライアントデータで補完"
       }
-    ]
+    ],
+    "gold": 1000,
+    "rate": 100
   },
   {
     "id": "n1246-belscard-brooch-10",
@@ -3462,8 +3560,14 @@
     "refs": [
       {
         "source": "jp-notice-1246"
+      },
+      {
+        "source": "jp-client-20261001",
+        "note": "空欄をクライアントデータで補完"
       }
-    ]
+    ],
+    "gold": 3000,
+    "rate": 100
   },
   {
     "id": "n1246-belscard-brooch-11",
@@ -3484,8 +3588,14 @@
     "refs": [
       {
         "source": "jp-notice-1246"
+      },
+      {
+        "source": "jp-client-20261001",
+        "note": "空欄をクライアントデータで補完"
       }
-    ]
+    ],
+    "gold": 5000,
+    "rate": 100
   },
   {
     "id": "n1246-belscard-brooch-12",
@@ -3506,8 +3616,14 @@
     "refs": [
       {
         "source": "jp-notice-1246"
+      },
+      {
+        "source": "jp-client-20261001",
+        "note": "空欄をクライアントデータで補完"
       }
-    ]
+    ],
+    "gold": 5000,
+    "rate": 100
   },
   {
     "id": "n1246-belscard-brooch-13",
@@ -3528,8 +3644,14 @@
     "refs": [
       {
         "source": "jp-notice-1246"
+      },
+      {
+        "source": "jp-client-20261001",
+        "note": "空欄をクライアントデータで補完"
       }
-    ]
+    ],
+    "gold": 5000,
+    "rate": 100
   },
   {
     "id": "n1246-belscard-brooch-14",
@@ -3550,8 +3672,14 @@
     "refs": [
       {
         "source": "jp-notice-1246"
+      },
+      {
+        "source": "jp-client-20261001",
+        "note": "空欄をクライアントデータで補完"
       }
-    ]
+    ],
+    "gold": 5000,
+    "rate": 100
   },
   {
     "id": "n1246-belscard-brooch-15",
@@ -3572,8 +3700,14 @@
     "refs": [
       {
         "source": "jp-notice-1246"
+      },
+      {
+        "source": "jp-client-20261001",
+        "note": "空欄をクライアントデータで補完"
       }
-    ]
+    ],
+    "gold": 5000,
+    "rate": 100
   },
   {
     "id": "n1246-belscard-brooch-16",
@@ -3594,8 +3728,14 @@
     "refs": [
       {
         "source": "jp-notice-1246"
+      },
+      {
+        "source": "jp-client-20261001",
+        "note": "空欄をクライアントデータで補完"
       }
-    ]
+    ],
+    "gold": 10000,
+    "rate": 100
   },
   {
     "id": "n1246-belscard-brooch-17",
@@ -3617,8 +3757,14 @@
     "refs": [
       {
         "source": "jp-notice-1246"
+      },
+      {
+        "source": "jp-client-20261001",
+        "note": "空欄をクライアントデータで補完"
       }
-    ]
+    ],
+    "gold": 10000,
+    "rate": 100
   },
   {
     "id": "n1246-belscard-brooch-18",
@@ -3640,8 +3786,14 @@
     "refs": [
       {
         "source": "jp-notice-1246"
+      },
+      {
+        "source": "jp-client-20261001",
+        "note": "空欄をクライアントデータで補完"
       }
-    ]
+    ],
+    "gold": 10000,
+    "rate": 100
   },
   {
     "id": "n1246-belscard-brooch-19",
@@ -3663,8 +3815,14 @@
     "refs": [
       {
         "source": "jp-notice-1246"
+      },
+      {
+        "source": "jp-client-20261001",
+        "note": "空欄をクライアントデータで補完"
       }
-    ]
+    ],
+    "gold": 10000,
+    "rate": 100
   },
   {
     "id": "n1246-belscard-brooch-2",
@@ -3685,8 +3843,14 @@
     "refs": [
       {
         "source": "jp-notice-1246"
+      },
+      {
+        "source": "jp-client-20261001",
+        "note": "空欄をクライアントデータで補完"
       }
-    ]
+    ],
+    "gold": 1000,
+    "rate": 100
   },
   {
     "id": "n1246-belscard-brooch-20",
@@ -3708,8 +3872,14 @@
     "refs": [
       {
         "source": "jp-notice-1246"
+      },
+      {
+        "source": "jp-client-20261001",
+        "note": "空欄をクライアントデータで補完"
       }
-    ]
+    ],
+    "gold": 10000,
+    "rate": 100
   },
   {
     "id": "n1246-belscard-brooch-21",
@@ -3731,8 +3901,14 @@
     "refs": [
       {
         "source": "jp-notice-1246"
+      },
+      {
+        "source": "jp-client-20261001",
+        "note": "空欄をクライアントデータで補完"
       }
-    ]
+    ],
+    "gold": 10000,
+    "rate": 100
   },
   {
     "id": "n1246-belscard-brooch-22",
@@ -3754,8 +3930,14 @@
     "refs": [
       {
         "source": "jp-notice-1246"
+      },
+      {
+        "source": "jp-client-20261001",
+        "note": "空欄をクライアントデータで補完"
       }
-    ]
+    ],
+    "gold": 10000,
+    "rate": 100
   },
   {
     "id": "n1246-belscard-brooch-23",
@@ -3777,8 +3959,14 @@
     "refs": [
       {
         "source": "jp-notice-1246"
+      },
+      {
+        "source": "jp-client-20261001",
+        "note": "空欄をクライアントデータで補完"
       }
-    ]
+    ],
+    "gold": 10000,
+    "rate": 100
   },
   {
     "id": "n1246-belscard-brooch-24",
@@ -3800,8 +3988,14 @@
     "refs": [
       {
         "source": "jp-notice-1246"
+      },
+      {
+        "source": "jp-client-20261001",
+        "note": "空欄をクライアントデータで補完"
       }
-    ]
+    ],
+    "gold": 10000,
+    "rate": 100
   },
   {
     "id": "n1246-belscard-brooch-25",
@@ -3823,8 +4017,14 @@
     "refs": [
       {
         "source": "jp-notice-1246"
+      },
+      {
+        "source": "jp-client-20261001",
+        "note": "空欄をクライアントデータで補完"
       }
-    ]
+    ],
+    "gold": 10000,
+    "rate": 100
   },
   {
     "id": "n1246-belscard-brooch-26",
@@ -3846,8 +4046,14 @@
     "refs": [
       {
         "source": "jp-notice-1246"
+      },
+      {
+        "source": "jp-client-20261001",
+        "note": "空欄をクライアントデータで補完"
       }
-    ]
+    ],
+    "gold": 10000,
+    "rate": 100
   },
   {
     "id": "n1246-belscard-brooch-27",
@@ -3869,8 +4075,14 @@
     "refs": [
       {
         "source": "jp-notice-1246"
+      },
+      {
+        "source": "jp-client-20261001",
+        "note": "空欄をクライアントデータで補完"
       }
-    ]
+    ],
+    "gold": 10000,
+    "rate": 100
   },
   {
     "id": "n1246-belscard-brooch-28",
@@ -3892,8 +4104,14 @@
     "refs": [
       {
         "source": "jp-notice-1246"
+      },
+      {
+        "source": "jp-client-20261001",
+        "note": "空欄をクライアントデータで補完"
       }
-    ]
+    ],
+    "gold": 10000,
+    "rate": 100
   },
   {
     "id": "n1246-belscard-brooch-29",
@@ -3915,8 +4133,14 @@
     "refs": [
       {
         "source": "jp-notice-1246"
+      },
+      {
+        "source": "jp-client-20261001",
+        "note": "空欄をクライアントデータで補完"
       }
-    ]
+    ],
+    "gold": 10000,
+    "rate": 100
   },
   {
     "id": "n1246-belscard-brooch-3",
@@ -3937,8 +4161,14 @@
     "refs": [
       {
         "source": "jp-notice-1246"
+      },
+      {
+        "source": "jp-client-20261001",
+        "note": "空欄をクライアントデータで補完"
       }
-    ]
+    ],
+    "gold": 1000,
+    "rate": 100
   },
   {
     "id": "n1246-belscard-brooch-30",
@@ -3960,8 +4190,14 @@
     "refs": [
       {
         "source": "jp-notice-1246"
+      },
+      {
+        "source": "jp-client-20261001",
+        "note": "空欄をクライアントデータで補完"
       }
-    ]
+    ],
+    "gold": 10000,
+    "rate": 100
   },
   {
     "id": "n1246-belscard-brooch-4",
@@ -3982,8 +4218,14 @@
     "refs": [
       {
         "source": "jp-notice-1246"
+      },
+      {
+        "source": "jp-client-20261001",
+        "note": "空欄をクライアントデータで補完"
       }
-    ]
+    ],
+    "gold": 1000,
+    "rate": 100
   },
   {
     "id": "n1246-belscard-brooch-5",
@@ -4004,8 +4246,14 @@
     "refs": [
       {
         "source": "jp-notice-1246"
+      },
+      {
+        "source": "jp-client-20261001",
+        "note": "空欄をクライアントデータで補完"
       }
-    ]
+    ],
+    "gold": 1000,
+    "rate": 100
   },
   {
     "id": "n1246-belscard-brooch-6",
@@ -4026,8 +4274,14 @@
     "refs": [
       {
         "source": "jp-notice-1246"
+      },
+      {
+        "source": "jp-client-20261001",
+        "note": "空欄をクライアントデータで補完"
       }
-    ]
+    ],
+    "gold": 3000,
+    "rate": 100
   },
   {
     "id": "n1246-belscard-brooch-7",
@@ -4048,8 +4302,14 @@
     "refs": [
       {
         "source": "jp-notice-1246"
+      },
+      {
+        "source": "jp-client-20261001",
+        "note": "空欄をクライアントデータで補完"
       }
-    ]
+    ],
+    "gold": 3000,
+    "rate": 100
   },
   {
     "id": "n1246-belscard-brooch-8",
@@ -4070,8 +4330,14 @@
     "refs": [
       {
         "source": "jp-notice-1246"
+      },
+      {
+        "source": "jp-client-20261001",
+        "note": "空欄をクライアントデータで補完"
       }
-    ]
+    ],
+    "gold": 3000,
+    "rate": 100
   },
   {
     "id": "n1246-belscard-brooch-9",
@@ -4092,8 +4358,14 @@
     "refs": [
       {
         "source": "jp-notice-1246"
+      },
+      {
+        "source": "jp-client-20261001",
+        "note": "空欄をクライアントデータで補完"
       }
-    ]
+    ],
+    "gold": 3000,
+    "rate": 100
   },
   {
     "id": "n1246-bone-ticket",
@@ -4484,8 +4756,13 @@
       },
       {
         "source": "jp-notice-1411"
+      },
+      {
+        "source": "jp-client-20261001",
+        "note": "空欄をクライアントデータで補完"
       }
-    ]
+    ],
+    "rate": 100
   },
   {
     "id": "n1265-ark-meter-1-dismantle",
@@ -4519,10 +4796,15 @@
       },
       {
         "source": "jp-notice-1411"
+      },
+      {
+        "source": "jp-client-20261001",
+        "note": "空欄をクライアントデータで補完"
       }
     ],
     "base": "未来時空測定器(9段階)",
-    "notes": "原文の生産表では材料2として 未来時空測定器(9段階) 1個。"
+    "notes": "原文の生産表では材料2として 未来時空測定器(9段階) 1個。",
+    "rate": 100
   },
   {
     "id": "n1265-ark-meter-11",
@@ -4542,10 +4824,15 @@
       },
       {
         "source": "jp-notice-1411"
+      },
+      {
+        "source": "jp-client-20261001",
+        "note": "空欄をクライアントデータで補完"
       }
     ],
     "base": "未来時空測定器(10段階)",
-    "notes": "原文の生産表では材料2として 未来時空測定器(10段階) 1個。"
+    "notes": "原文の生産表では材料2として 未来時空測定器(10段階) 1個。",
+    "rate": 100
   },
   {
     "id": "n1265-ark-meter-12",
@@ -4565,10 +4852,15 @@
       },
       {
         "source": "jp-notice-1411"
+      },
+      {
+        "source": "jp-client-20261001",
+        "note": "空欄をクライアントデータで補完"
       }
     ],
     "base": "未来時空測定器(11段階)",
-    "notes": "原文の生産表では材料2として 未来時空測定器(11段階) 1個。"
+    "notes": "原文の生産表では材料2として 未来時空測定器(11段階) 1個。",
+    "rate": 100
   },
   {
     "id": "n1265-ark-meter-13",
@@ -4588,10 +4880,15 @@
       },
       {
         "source": "jp-notice-1411"
+      },
+      {
+        "source": "jp-client-20261001",
+        "note": "空欄をクライアントデータで補完"
       }
     ],
     "base": "未来時空測定器(12段階)",
-    "notes": "原文の生産表では材料2として 未来時空測定器(12段階) 1個。"
+    "notes": "原文の生産表では材料2として 未来時空測定器(12段階) 1個。",
+    "rate": 100
   },
   {
     "id": "n1265-ark-meter-14",
@@ -4611,10 +4908,15 @@
       },
       {
         "source": "jp-notice-1411"
+      },
+      {
+        "source": "jp-client-20261001",
+        "note": "空欄をクライアントデータで補完"
       }
     ],
     "base": "未来時空測定器(13段階)",
-    "notes": "原文の生産表では材料2として 未来時空測定器(13段階) 1個。"
+    "notes": "原文の生産表では材料2として 未来時空測定器(13段階) 1個。",
+    "rate": 100
   },
   {
     "id": "n1265-ark-meter-15",
@@ -4634,10 +4936,15 @@
       },
       {
         "source": "jp-notice-1411"
+      },
+      {
+        "source": "jp-client-20261001",
+        "note": "空欄をクライアントデータで補完"
       }
     ],
     "base": "未来時空測定器(14段階)",
-    "notes": "原文の生産表では材料2として 未来時空測定器(14段階) 1個。"
+    "notes": "原文の生産表では材料2として 未来時空測定器(14段階) 1個。",
+    "rate": 100
   },
   {
     "id": "n1265-ark-meter-2",
@@ -4657,10 +4964,15 @@
       },
       {
         "source": "jp-notice-1411"
+      },
+      {
+        "source": "jp-client-20261001",
+        "note": "空欄をクライアントデータで補完"
       }
     ],
     "base": "未来時空測定器(1段階)",
-    "notes": "原文の生産表では材料2として 未来時空測定器(1段階) 1個。"
+    "notes": "原文の生産表では材料2として 未来時空測定器(1段階) 1個。",
+    "rate": 100
   },
   {
     "id": "n1265-ark-meter-3",
@@ -4680,10 +4992,15 @@
       },
       {
         "source": "jp-notice-1411"
+      },
+      {
+        "source": "jp-client-20261001",
+        "note": "空欄をクライアントデータで補完"
       }
     ],
     "base": "未来時空測定器(2段階)",
-    "notes": "原文の生産表では材料2として 未来時空測定器(2段階) 1個。"
+    "notes": "原文の生産表では材料2として 未来時空測定器(2段階) 1個。",
+    "rate": 100
   },
   {
     "id": "n1265-ark-meter-4",
@@ -4703,10 +5020,15 @@
       },
       {
         "source": "jp-notice-1411"
+      },
+      {
+        "source": "jp-client-20261001",
+        "note": "空欄をクライアントデータで補完"
       }
     ],
     "base": "未来時空測定器(3段階)",
-    "notes": "原文の生産表では材料2として 未来時空測定器(3段階) 1個。"
+    "notes": "原文の生産表では材料2として 未来時空測定器(3段階) 1個。",
+    "rate": 100
   },
   {
     "id": "n1265-ark-meter-5",
@@ -4726,10 +5048,15 @@
       },
       {
         "source": "jp-notice-1411"
+      },
+      {
+        "source": "jp-client-20261001",
+        "note": "空欄をクライアントデータで補完"
       }
     ],
     "base": "未来時空測定器(4段階)",
-    "notes": "原文の生産表では材料2として 未来時空測定器(4段階) 1個。"
+    "notes": "原文の生産表では材料2として 未来時空測定器(4段階) 1個。",
+    "rate": 100
   },
   {
     "id": "n1265-ark-meter-6",
@@ -4749,10 +5076,15 @@
       },
       {
         "source": "jp-notice-1411"
+      },
+      {
+        "source": "jp-client-20261001",
+        "note": "空欄をクライアントデータで補完"
       }
     ],
     "base": "未来時空測定器(5段階)",
-    "notes": "原文の生産表では材料2として 未来時空測定器(5段階) 1個。"
+    "notes": "原文の生産表では材料2として 未来時空測定器(5段階) 1個。",
+    "rate": 100
   },
   {
     "id": "n1265-ark-meter-7",
@@ -4772,10 +5104,15 @@
       },
       {
         "source": "jp-notice-1411"
+      },
+      {
+        "source": "jp-client-20261001",
+        "note": "空欄をクライアントデータで補完"
       }
     ],
     "base": "未来時空測定器(6段階)",
-    "notes": "原文の生産表では材料2として 未来時空測定器(6段階) 1個。"
+    "notes": "原文の生産表では材料2として 未来時空測定器(6段階) 1個。",
+    "rate": 100
   },
   {
     "id": "n1265-ark-meter-8",
@@ -4795,10 +5132,15 @@
       },
       {
         "source": "jp-notice-1411"
+      },
+      {
+        "source": "jp-client-20261001",
+        "note": "空欄をクライアントデータで補完"
       }
     ],
     "base": "未来時空測定器(7段階)",
-    "notes": "原文の生産表では材料2として 未来時空測定器(7段階) 1個。"
+    "notes": "原文の生産表では材料2として 未来時空測定器(7段階) 1個。",
+    "rate": 100
   },
   {
     "id": "n1265-ark-meter-9",
@@ -4818,10 +5160,15 @@
       },
       {
         "source": "jp-notice-1411"
+      },
+      {
+        "source": "jp-client-20261001",
+        "note": "空欄をクライアントデータで補完"
       }
     ],
     "base": "未来時空測定器(8段階)",
-    "notes": "原文の生産表では材料2として 未来時空測定器(8段階) 1個。"
+    "notes": "原文の生産表では材料2として 未来時空測定器(8段階) 1個。",
+    "rate": 100
   },
   {
     "id": "n1276-point-shop-1",
@@ -5774,8 +6121,14 @@
     "refs": [
       {
         "source": "jp-notice-1287"
+      },
+      {
+        "source": "jp-client-20261001",
+        "note": "空欄をクライアントデータで補完"
       }
-    ]
+    ],
+    "gold": 2500,
+    "rate": 100
   },
   {
     "id": "n1287-craft-dim-sand",
@@ -5804,8 +6157,14 @@
     "refs": [
       {
         "source": "jp-notice-1287"
+      },
+      {
+        "source": "jp-client-20261001",
+        "note": "空欄をクライアントデータで補完"
       }
-    ]
+    ],
+    "gold": 50000,
+    "rate": 100
   },
   {
     "id": "n1287-craft-evo-armor-stone",
@@ -5830,8 +6189,14 @@
     "refs": [
       {
         "source": "jp-notice-1287"
+      },
+      {
+        "source": "jp-client-20261001",
+        "note": "空欄をクライアントデータで補完"
       }
-    ]
+    ],
+    "gold": 2500,
+    "rate": 100
   },
   {
     "id": "n1287-craft-evo-weapon-stone",
@@ -5856,8 +6221,14 @@
     "refs": [
       {
         "source": "jp-notice-1287"
+      },
+      {
+        "source": "jp-client-20261001",
+        "note": "空欄をクライアントデータで補完"
       }
-    ]
+    ],
+    "gold": 10000,
+    "rate": 100
   },
   {
     "id": "n1287-dim-dice",
@@ -6178,8 +6549,13 @@
     "refs": [
       {
         "source": "jp-notice-1287"
+      },
+      {
+        "source": "jp-client-20261001",
+        "note": "空欄をクライアントデータで補完"
       }
-    ]
+    ],
+    "rate": 100
   },
   {
     "id": "n1287-lamp-elder",
@@ -6200,8 +6576,13 @@
     "refs": [
       {
         "source": "jp-notice-1287"
+      },
+      {
+        "source": "jp-client-20261001",
+        "note": "空欄をクライアントデータで補完"
       }
-    ]
+    ],
+    "rate": 100
   },
   {
     "id": "n1287-nelwin-1",
@@ -6218,8 +6599,14 @@
     "refs": [
       {
         "source": "jp-notice-1287"
+      },
+      {
+        "source": "jp-client-20261001",
+        "note": "空欄をクライアントデータで補完"
       }
-    ]
+    ],
+    "gold": 1000,
+    "rate": 100
   },
   {
     "id": "n1287-nelwin-10",
@@ -6240,8 +6627,14 @@
     "refs": [
       {
         "source": "jp-notice-1287"
+      },
+      {
+        "source": "jp-client-20261001",
+        "note": "空欄をクライアントデータで補完"
       }
-    ]
+    ],
+    "gold": 3000,
+    "rate": 100
   },
   {
     "id": "n1287-nelwin-11",
@@ -6262,8 +6655,14 @@
     "refs": [
       {
         "source": "jp-notice-1287"
+      },
+      {
+        "source": "jp-client-20261001",
+        "note": "空欄をクライアントデータで補完"
       }
-    ]
+    ],
+    "gold": 5000,
+    "rate": 100
   },
   {
     "id": "n1287-nelwin-12",
@@ -6284,8 +6683,14 @@
     "refs": [
       {
         "source": "jp-notice-1287"
+      },
+      {
+        "source": "jp-client-20261001",
+        "note": "空欄をクライアントデータで補完"
       }
-    ]
+    ],
+    "gold": 5000,
+    "rate": 100
   },
   {
     "id": "n1287-nelwin-13",
@@ -6306,8 +6711,14 @@
     "refs": [
       {
         "source": "jp-notice-1287"
+      },
+      {
+        "source": "jp-client-20261001",
+        "note": "空欄をクライアントデータで補完"
       }
-    ]
+    ],
+    "gold": 5000,
+    "rate": 100
   },
   {
     "id": "n1287-nelwin-14",
@@ -6328,8 +6739,14 @@
     "refs": [
       {
         "source": "jp-notice-1287"
+      },
+      {
+        "source": "jp-client-20261001",
+        "note": "空欄をクライアントデータで補完"
       }
-    ]
+    ],
+    "gold": 5000,
+    "rate": 100
   },
   {
     "id": "n1287-nelwin-15",
@@ -6350,8 +6767,14 @@
     "refs": [
       {
         "source": "jp-notice-1287"
+      },
+      {
+        "source": "jp-client-20261001",
+        "note": "空欄をクライアントデータで補完"
       }
-    ]
+    ],
+    "gold": 5000,
+    "rate": 100
   },
   {
     "id": "n1287-nelwin-16",
@@ -6372,8 +6795,14 @@
     "refs": [
       {
         "source": "jp-notice-1287"
+      },
+      {
+        "source": "jp-client-20261001",
+        "note": "空欄をクライアントデータで補完"
       }
-    ]
+    ],
+    "gold": 10000,
+    "rate": 100
   },
   {
     "id": "n1287-nelwin-17",
@@ -6394,8 +6823,14 @@
     "refs": [
       {
         "source": "jp-notice-1287"
+      },
+      {
+        "source": "jp-client-20261001",
+        "note": "空欄をクライアントデータで補完"
       }
-    ]
+    ],
+    "gold": 10000,
+    "rate": 100
   },
   {
     "id": "n1287-nelwin-18",
@@ -6416,8 +6851,14 @@
     "refs": [
       {
         "source": "jp-notice-1287"
+      },
+      {
+        "source": "jp-client-20261001",
+        "note": "空欄をクライアントデータで補完"
       }
-    ]
+    ],
+    "gold": 10000,
+    "rate": 100
   },
   {
     "id": "n1287-nelwin-19",
@@ -6438,8 +6879,14 @@
     "refs": [
       {
         "source": "jp-notice-1287"
+      },
+      {
+        "source": "jp-client-20261001",
+        "note": "空欄をクライアントデータで補完"
       }
-    ]
+    ],
+    "gold": 10000,
+    "rate": 100
   },
   {
     "id": "n1287-nelwin-2",
@@ -6460,8 +6907,14 @@
     "refs": [
       {
         "source": "jp-notice-1287"
+      },
+      {
+        "source": "jp-client-20261001",
+        "note": "空欄をクライアントデータで補完"
       }
-    ]
+    ],
+    "gold": 1000,
+    "rate": 100
   },
   {
     "id": "n1287-nelwin-20",
@@ -6482,8 +6935,14 @@
     "refs": [
       {
         "source": "jp-notice-1287"
+      },
+      {
+        "source": "jp-client-20261001",
+        "note": "空欄をクライアントデータで補完"
       }
-    ]
+    ],
+    "gold": 10000,
+    "rate": 100
   },
   {
     "id": "n1287-nelwin-21",
@@ -6504,8 +6963,14 @@
     "refs": [
       {
         "source": "jp-notice-1287"
+      },
+      {
+        "source": "jp-client-20261001",
+        "note": "空欄をクライアントデータで補完"
       }
-    ]
+    ],
+    "gold": 10000,
+    "rate": 100
   },
   {
     "id": "n1287-nelwin-22",
@@ -6526,8 +6991,14 @@
     "refs": [
       {
         "source": "jp-notice-1287"
+      },
+      {
+        "source": "jp-client-20261001",
+        "note": "空欄をクライアントデータで補完"
       }
-    ]
+    ],
+    "gold": 10000,
+    "rate": 100
   },
   {
     "id": "n1287-nelwin-23",
@@ -6548,8 +7019,14 @@
     "refs": [
       {
         "source": "jp-notice-1287"
+      },
+      {
+        "source": "jp-client-20261001",
+        "note": "空欄をクライアントデータで補完"
       }
-    ]
+    ],
+    "gold": 10000,
+    "rate": 100
   },
   {
     "id": "n1287-nelwin-24",
@@ -6570,8 +7047,14 @@
     "refs": [
       {
         "source": "jp-notice-1287"
+      },
+      {
+        "source": "jp-client-20261001",
+        "note": "空欄をクライアントデータで補完"
       }
-    ]
+    ],
+    "gold": 10000,
+    "rate": 100
   },
   {
     "id": "n1287-nelwin-25",
@@ -6592,8 +7075,14 @@
     "refs": [
       {
         "source": "jp-notice-1287"
+      },
+      {
+        "source": "jp-client-20261001",
+        "note": "空欄をクライアントデータで補完"
       }
-    ]
+    ],
+    "gold": 10000,
+    "rate": 100
   },
   {
     "id": "n1287-nelwin-26",
@@ -6614,8 +7103,14 @@
     "refs": [
       {
         "source": "jp-notice-1287"
+      },
+      {
+        "source": "jp-client-20261001",
+        "note": "空欄をクライアントデータで補完"
       }
-    ]
+    ],
+    "gold": 10000,
+    "rate": 100
   },
   {
     "id": "n1287-nelwin-27",
@@ -6636,8 +7131,14 @@
     "refs": [
       {
         "source": "jp-notice-1287"
+      },
+      {
+        "source": "jp-client-20261001",
+        "note": "空欄をクライアントデータで補完"
       }
-    ]
+    ],
+    "gold": 10000,
+    "rate": 100
   },
   {
     "id": "n1287-nelwin-28",
@@ -6658,8 +7159,14 @@
     "refs": [
       {
         "source": "jp-notice-1287"
+      },
+      {
+        "source": "jp-client-20261001",
+        "note": "空欄をクライアントデータで補完"
       }
-    ]
+    ],
+    "gold": 10000,
+    "rate": 100
   },
   {
     "id": "n1287-nelwin-29",
@@ -6680,8 +7187,14 @@
     "refs": [
       {
         "source": "jp-notice-1287"
+      },
+      {
+        "source": "jp-client-20261001",
+        "note": "空欄をクライアントデータで補完"
       }
-    ]
+    ],
+    "gold": 10000,
+    "rate": 100
   },
   {
     "id": "n1287-nelwin-3",
@@ -6702,8 +7215,14 @@
     "refs": [
       {
         "source": "jp-notice-1287"
+      },
+      {
+        "source": "jp-client-20261001",
+        "note": "空欄をクライアントデータで補完"
       }
-    ]
+    ],
+    "gold": 1000,
+    "rate": 100
   },
   {
     "id": "n1287-nelwin-30",
@@ -6724,8 +7243,14 @@
     "refs": [
       {
         "source": "jp-notice-1287"
+      },
+      {
+        "source": "jp-client-20261001",
+        "note": "空欄をクライアントデータで補完"
       }
-    ]
+    ],
+    "gold": 10000,
+    "rate": 100
   },
   {
     "id": "n1287-nelwin-4",
@@ -6746,8 +7271,14 @@
     "refs": [
       {
         "source": "jp-notice-1287"
+      },
+      {
+        "source": "jp-client-20261001",
+        "note": "空欄をクライアントデータで補完"
       }
-    ]
+    ],
+    "gold": 1000,
+    "rate": 100
   },
   {
     "id": "n1287-nelwin-5",
@@ -6768,8 +7299,14 @@
     "refs": [
       {
         "source": "jp-notice-1287"
+      },
+      {
+        "source": "jp-client-20261001",
+        "note": "空欄をクライアントデータで補完"
       }
-    ]
+    ],
+    "gold": 1000,
+    "rate": 100
   },
   {
     "id": "n1287-nelwin-6",
@@ -6790,8 +7327,14 @@
     "refs": [
       {
         "source": "jp-notice-1287"
+      },
+      {
+        "source": "jp-client-20261001",
+        "note": "空欄をクライアントデータで補完"
       }
-    ]
+    ],
+    "gold": 3000,
+    "rate": 100
   },
   {
     "id": "n1287-nelwin-7",
@@ -6812,8 +7355,14 @@
     "refs": [
       {
         "source": "jp-notice-1287"
+      },
+      {
+        "source": "jp-client-20261001",
+        "note": "空欄をクライアントデータで補完"
       }
-    ]
+    ],
+    "gold": 3000,
+    "rate": 100
   },
   {
     "id": "n1287-nelwin-8",
@@ -6834,8 +7383,14 @@
     "refs": [
       {
         "source": "jp-notice-1287"
+      },
+      {
+        "source": "jp-client-20261001",
+        "note": "空欄をクライアントデータで補完"
       }
-    ]
+    ],
+    "gold": 3000,
+    "rate": 100
   },
   {
     "id": "n1287-nelwin-9",
@@ -6856,8 +7411,14 @@
     "refs": [
       {
         "source": "jp-notice-1287"
+      },
+      {
+        "source": "jp-client-20261001",
+        "note": "空欄をクライアントデータで補完"
       }
-    ]
+    ],
+    "gold": 3000,
+    "rate": 100
   },
   {
     "id": "n1287-nelwin-shop-box",
@@ -6949,8 +7510,13 @@
     "refs": [
       {
         "source": "jp-notice-1287"
+      },
+      {
+        "source": "jp-client-20261001",
+        "note": "空欄をクライアントデータで補完"
       }
-    ]
+    ],
+    "rate": 100
   },
   {
     "id": "n1300-hgd-ticket",
@@ -7158,8 +7724,13 @@
     "refs": [
       {
         "source": "jp-notice-1311"
+      },
+      {
+        "source": "jp-client-20261001",
+        "note": "空欄をクライアントデータで補完"
       }
-    ]
+    ],
+    "rate": 100
   },
   {
     "id": "n1311-dim-shop-compass",
@@ -7233,8 +7804,13 @@
       },
       {
         "source": "jp-notice-1466"
+      },
+      {
+        "source": "jp-client-20261001",
+        "note": "空欄をクライアントデータで補完"
       }
-    ]
+    ],
+    "rate": 100
   },
   {
     "id": "n1311-fossil-10",
@@ -7255,9 +7831,14 @@
       },
       {
         "source": "jp-notice-1466"
+      },
+      {
+        "source": "jp-client-20261001",
+        "note": "空欄をクライアントデータで補完"
       }
     ],
-    "notes": "材料②として過去の化石(9段階) 1個を消費。"
+    "notes": "材料②として過去の化石(9段階) 1個を消費。",
+    "rate": 100
   },
   {
     "id": "n1311-fossil-11",
@@ -7278,9 +7859,14 @@
       },
       {
         "source": "jp-notice-1466"
+      },
+      {
+        "source": "jp-client-20261001",
+        "note": "空欄をクライアントデータで補完"
       }
     ],
-    "notes": "材料②として過去の化石(10段階) 1個を消費。"
+    "notes": "材料②として過去の化石(10段階) 1個を消費。",
+    "rate": 100
   },
   {
     "id": "n1311-fossil-12",
@@ -7301,9 +7887,14 @@
       },
       {
         "source": "jp-notice-1466"
+      },
+      {
+        "source": "jp-client-20261001",
+        "note": "空欄をクライアントデータで補完"
       }
     ],
-    "notes": "材料②として過去の化石(11段階) 1個を消費。"
+    "notes": "材料②として過去の化石(11段階) 1個を消費。",
+    "rate": 100
   },
   {
     "id": "n1311-fossil-13",
@@ -7324,9 +7915,14 @@
       },
       {
         "source": "jp-notice-1466"
+      },
+      {
+        "source": "jp-client-20261001",
+        "note": "空欄をクライアントデータで補完"
       }
     ],
-    "notes": "材料②として過去の化石(12段階) 1個を消費。"
+    "notes": "材料②として過去の化石(12段階) 1個を消費。",
+    "rate": 100
   },
   {
     "id": "n1311-fossil-14",
@@ -7347,9 +7943,14 @@
       },
       {
         "source": "jp-notice-1466"
+      },
+      {
+        "source": "jp-client-20261001",
+        "note": "空欄をクライアントデータで補完"
       }
     ],
-    "notes": "材料②として過去の化石(13段階) 1個を消費。"
+    "notes": "材料②として過去の化石(13段階) 1個を消費。",
+    "rate": 100
   },
   {
     "id": "n1311-fossil-15",
@@ -7370,9 +7971,14 @@
       },
       {
         "source": "jp-notice-1466"
+      },
+      {
+        "source": "jp-client-20261001",
+        "note": "空欄をクライアントデータで補完"
       }
     ],
-    "notes": "材料②として過去の化石(14段階) 1個を消費。"
+    "notes": "材料②として過去の化石(14段階) 1個を消費。",
+    "rate": 100
   },
   {
     "id": "n1311-fossil-2",
@@ -7393,9 +7999,14 @@
       },
       {
         "source": "jp-notice-1466"
+      },
+      {
+        "source": "jp-client-20261001",
+        "note": "空欄をクライアントデータで補完"
       }
     ],
-    "notes": "材料②として過去の化石(1段階) 1個を消費。"
+    "notes": "材料②として過去の化石(1段階) 1個を消費。",
+    "rate": 100
   },
   {
     "id": "n1311-fossil-3",
@@ -7416,9 +8027,14 @@
       },
       {
         "source": "jp-notice-1466"
+      },
+      {
+        "source": "jp-client-20261001",
+        "note": "空欄をクライアントデータで補完"
       }
     ],
-    "notes": "材料②として過去の化石(2段階) 1個を消費。"
+    "notes": "材料②として過去の化石(2段階) 1個を消費。",
+    "rate": 100
   },
   {
     "id": "n1311-fossil-4",
@@ -7439,9 +8055,14 @@
       },
       {
         "source": "jp-notice-1466"
+      },
+      {
+        "source": "jp-client-20261001",
+        "note": "空欄をクライアントデータで補完"
       }
     ],
-    "notes": "材料②として過去の化石(3段階) 1個を消費。"
+    "notes": "材料②として過去の化石(3段階) 1個を消費。",
+    "rate": 100
   },
   {
     "id": "n1311-fossil-5",
@@ -7462,9 +8083,14 @@
       },
       {
         "source": "jp-notice-1466"
+      },
+      {
+        "source": "jp-client-20261001",
+        "note": "空欄をクライアントデータで補完"
       }
     ],
-    "notes": "材料②として過去の化石(4段階) 1個を消費。"
+    "notes": "材料②として過去の化石(4段階) 1個を消費。",
+    "rate": 100
   },
   {
     "id": "n1311-fossil-6",
@@ -7485,9 +8111,14 @@
       },
       {
         "source": "jp-notice-1466"
+      },
+      {
+        "source": "jp-client-20261001",
+        "note": "空欄をクライアントデータで補完"
       }
     ],
-    "notes": "材料②として過去の化石(5段階) 1個を消費。"
+    "notes": "材料②として過去の化石(5段階) 1個を消費。",
+    "rate": 100
   },
   {
     "id": "n1311-fossil-7",
@@ -7508,9 +8139,14 @@
       },
       {
         "source": "jp-notice-1466"
+      },
+      {
+        "source": "jp-client-20261001",
+        "note": "空欄をクライアントデータで補完"
       }
     ],
-    "notes": "材料②として過去の化石(6段階) 1個を消費。"
+    "notes": "材料②として過去の化石(6段階) 1個を消費。",
+    "rate": 100
   },
   {
     "id": "n1311-fossil-8",
@@ -7531,9 +8167,14 @@
       },
       {
         "source": "jp-notice-1466"
+      },
+      {
+        "source": "jp-client-20261001",
+        "note": "空欄をクライアントデータで補完"
       }
     ],
-    "notes": "材料②として過去の化石(7段階) 1個を消費。"
+    "notes": "材料②として過去の化石(7段階) 1個を消費。",
+    "rate": 100
   },
   {
     "id": "n1311-fossil-9",
@@ -7554,9 +8195,14 @@
       },
       {
         "source": "jp-notice-1466"
+      },
+      {
+        "source": "jp-client-20261001",
+        "note": "空欄をクライアントデータで補完"
       }
     ],
-    "notes": "材料②として過去の化石(8段階) 1個を消費。"
+    "notes": "材料②として過去の化石(8段階) 1個を消費。",
+    "rate": 100
   },
   {
     "id": "n1311-jakon-ark-1000",
@@ -7645,8 +8291,13 @@
     "refs": [
       {
         "source": "jp-notice-1311"
+      },
+      {
+        "source": "jp-client-20261001",
+        "note": "空欄をクライアントデータで補完"
       }
-    ]
+    ],
+    "rate": 100
   },
   {
     "id": "n1311-jakon-cube",
@@ -7663,8 +8314,13 @@
     "refs": [
       {
         "source": "jp-notice-1311"
+      },
+      {
+        "source": "jp-client-20261001",
+        "note": "空欄をクライアントデータで補完"
       }
-    ]
+    ],
+    "rate": 100
   },
   {
     "id": "n1311-jakon-cube-use",
@@ -7754,8 +8410,13 @@
     "refs": [
       {
         "source": "jp-notice-1311"
+      },
+      {
+        "source": "jp-client-20261001",
+        "note": "空欄をクライアントデータで補完"
       }
-    ]
+    ],
+    "rate": 100
   },
   {
     "id": "n1311-nm-crest",
@@ -8554,8 +9215,13 @@
     "refs": [
       {
         "source": "jp-notice-1362"
+      },
+      {
+        "source": "jp-client-20261001",
+        "note": "空欄をクライアントデータで補完"
       }
-    ]
+    ],
+    "rate": 100
   },
   {
     "id": "n1362-pendant-10",
@@ -8573,8 +9239,13 @@
     "refs": [
       {
         "source": "jp-notice-1362"
+      },
+      {
+        "source": "jp-client-20261001",
+        "note": "空欄をクライアントデータで補完"
       }
-    ]
+    ],
+    "rate": 100
   },
   {
     "id": "n1362-pendant-11",
@@ -8592,8 +9263,13 @@
     "refs": [
       {
         "source": "jp-notice-1362"
+      },
+      {
+        "source": "jp-client-20261001",
+        "note": "空欄をクライアントデータで補完"
       }
-    ]
+    ],
+    "rate": 100
   },
   {
     "id": "n1362-pendant-12",
@@ -8611,8 +9287,13 @@
     "refs": [
       {
         "source": "jp-notice-1362"
+      },
+      {
+        "source": "jp-client-20261001",
+        "note": "空欄をクライアントデータで補完"
       }
-    ]
+    ],
+    "rate": 100
   },
   {
     "id": "n1362-pendant-13",
@@ -8630,8 +9311,13 @@
     "refs": [
       {
         "source": "jp-notice-1362"
+      },
+      {
+        "source": "jp-client-20261001",
+        "note": "空欄をクライアントデータで補完"
       }
-    ]
+    ],
+    "rate": 100
   },
   {
     "id": "n1362-pendant-14",
@@ -8649,8 +9335,13 @@
     "refs": [
       {
         "source": "jp-notice-1362"
+      },
+      {
+        "source": "jp-client-20261001",
+        "note": "空欄をクライアントデータで補完"
       }
-    ]
+    ],
+    "rate": 100
   },
   {
     "id": "n1362-pendant-15",
@@ -8668,8 +9359,13 @@
     "refs": [
       {
         "source": "jp-notice-1362"
+      },
+      {
+        "source": "jp-client-20261001",
+        "note": "空欄をクライアントデータで補完"
       }
-    ]
+    ],
+    "rate": 100
   },
   {
     "id": "n1362-pendant-2",
@@ -8687,8 +9383,13 @@
     "refs": [
       {
         "source": "jp-notice-1362"
+      },
+      {
+        "source": "jp-client-20261001",
+        "note": "空欄をクライアントデータで補完"
       }
-    ]
+    ],
+    "rate": 100
   },
   {
     "id": "n1362-pendant-3",
@@ -8706,8 +9407,13 @@
     "refs": [
       {
         "source": "jp-notice-1362"
+      },
+      {
+        "source": "jp-client-20261001",
+        "note": "空欄をクライアントデータで補完"
       }
-    ]
+    ],
+    "rate": 100
   },
   {
     "id": "n1362-pendant-4",
@@ -8725,8 +9431,13 @@
     "refs": [
       {
         "source": "jp-notice-1362"
+      },
+      {
+        "source": "jp-client-20261001",
+        "note": "空欄をクライアントデータで補完"
       }
-    ]
+    ],
+    "rate": 100
   },
   {
     "id": "n1362-pendant-5",
@@ -8744,8 +9455,13 @@
     "refs": [
       {
         "source": "jp-notice-1362"
+      },
+      {
+        "source": "jp-client-20261001",
+        "note": "空欄をクライアントデータで補完"
       }
-    ]
+    ],
+    "rate": 100
   },
   {
     "id": "n1362-pendant-6",
@@ -8763,8 +9479,13 @@
     "refs": [
       {
         "source": "jp-notice-1362"
+      },
+      {
+        "source": "jp-client-20261001",
+        "note": "空欄をクライアントデータで補完"
       }
-    ]
+    ],
+    "rate": 100
   },
   {
     "id": "n1362-pendant-7",
@@ -8782,8 +9503,13 @@
     "refs": [
       {
         "source": "jp-notice-1362"
+      },
+      {
+        "source": "jp-client-20261001",
+        "note": "空欄をクライアントデータで補完"
       }
-    ]
+    ],
+    "rate": 100
   },
   {
     "id": "n1362-pendant-8",
@@ -8801,8 +9527,13 @@
     "refs": [
       {
         "source": "jp-notice-1362"
+      },
+      {
+        "source": "jp-client-20261001",
+        "note": "空欄をクライアントデータで補完"
       }
-    ]
+    ],
+    "rate": 100
   },
   {
     "id": "n1362-pendant-9",
@@ -8820,8 +9551,13 @@
     "refs": [
       {
         "source": "jp-notice-1362"
+      },
+      {
+        "source": "jp-client-20261001",
+        "note": "空欄をクライアントデータで補完"
       }
-    ]
+    ],
+    "rate": 100
   },
   {
     "id": "n1362-stageshop-blessed",
@@ -9592,8 +10328,14 @@
     "refs": [
       {
         "source": "jp-notice-1387"
+      },
+      {
+        "source": "jp-client-20261001",
+        "note": "空欄をクライアントデータで補完"
       }
-    ]
+    ],
+    "gold": 200000,
+    "rate": 100
   },
   {
     "id": "n1387-condenser",

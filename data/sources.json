@@ -491,5 +491,13 @@
     "kind": "official",
     "title": "확률형 아이템 정보 - 용옥 - 금룡의 용옥",
     "fetched_at": "2026-10-04"
+  },
+  {
+    "id": "jp-client-20261001",
+    "url": "https://dnr-hangame.brabragames.jp/",
+    "region": "JP",
+    "kind": "official",
+    "title": "ドラゴンネストR ゲームクライアントのデータ (2026-10-01 更新時点)",
+    "fetched_at": "2026-10-04"
   }
 ]
