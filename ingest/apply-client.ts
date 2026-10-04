@@ -56,6 +56,17 @@ const addRef = (refs: Ref[], note: string) => {
 };
 
 const NOTE = "空欄をクライアントデータで補完";
+// 埋めた記録の notes に、どの空欄をクライアントデータで埋めたかを書き足す (再実行時は置き換える)
+const FILL_NOTE_RE = /空欄だった[^。]*はクライアントデータ\([^)]*\)の値。/;
+function noteFilled(rec: { notes?: string }, kinds: Set<string>) {
+  if (!kinds.size) return;
+  const order = ["成功率", "ゴールド", "素材", "個数"];
+  const prev = rec.notes?.match(FILL_NOTE_RE)?.[0].match(/空欄だった(.*)はクライアントデータ/)?.[1].split("・") ?? [];
+  const all = order.filter((k) => kinds.has(k) || prev.includes(k));
+  const sentence = `空欄だった${all.join("・")}はクライアントデータ(${ex.pak_date}時点)の値。`;
+  const base = (rec.notes ?? "").replace(FILL_NOTE_RE, "").trim();
+  rec.notes = [base, sentence].filter(Boolean).join(" ");
+}
 const log: string[] = [];
 const conflicts: string[] = [];
 const count: Record<string, number> = {};
@@ -140,30 +151,33 @@ for (const t of tables) {
     log.push(`海外版の表 ${t.id}: クライアントの日本版の値あり (強化ID ${c.enchant_id})。書き換えはしない`);
     continue;
   }
-  let touched = false;
+  const kinds = new Set<string>();
   for (const row of t.rows) {
     const cr = c.rows[row.level];
     if (!cr) continue;
     if (row.rate === undefined) {
       row.rate = cr.rate;
-      touched = true;
+      kinds.add("成功率");
       inc("enhance.rate");
     } else if (Math.abs(row.rate - cr.rate) > 1e-6) conflicts.push(`${t.id} ${row.level}: 確率 ${row.rate} / クライアント ${cr.rate}`);
     if (row.gold === undefined && cr.gold) {
       row.gold = cr.gold;
-      touched = true;
+      kinds.add("ゴールド");
       inc("enhance.gold");
     } else if (num(row.gold) !== undefined && num(row.gold) !== cr.gold) conflicts.push(`${t.id} ${row.level}: ゴールド ${row.gold} / クライアント ${cr.gold}`);
     if (!row.materials && cr.materials.length) {
       row.materials = cr.materials.map((m) => ({ ...m }));
-      touched = true;
+      kinds.add("素材");
       inc("enhance.materials");
     }
     const jelly = row.materials?.find((m) => m.item === "冒険者のアイテム保護魔法ゼリー");
     if (jelly && cr.protect_qty && parseInt(String(jelly.qty), 10) !== cr.protect_qty)
       conflicts.push(`${t.id} ${row.level}: 保護ゼリー ${jelly.qty} / クライアント ${cr.protect_qty}`);
   }
-  if (touched) addRef(t.refs, NOTE);
+  if (kinds.size) {
+    addRef(t.refs, NOTE);
+    noteFilled(t, kinds);
+  }
 }
 
 // ---- レシピ ----
@@ -171,15 +185,15 @@ const RATE_TYPES = new Set<Recipe["type"]>(["craft", "evolve", "upgrade", "refin
 for (const r of recipes) {
   const c = ex.recipes[r.id];
   if (!c || !isJp(r.refs)) continue;
-  let touched = false;
+  const kinds = new Set<string>();
   if (r.gold === undefined && c.gold) {
     r.gold = c.gold;
-    touched = true;
+    kinds.add("ゴールド");
     inc("recipe.gold");
   } else if (r.gold !== undefined && r.gold !== c.gold) conflicts.push(`${r.id}: ゴールド ${r.gold} / クライアント ${c.gold}`);
   if (r.rate === undefined && RATE_TYPES.has(r.type)) {
     r.rate = c.rate;
-    touched = true;
+    kinds.add("成功率");
     inc("recipe.rate");
   }
   const strip = (s: string) => s.replace(/\((マジック|レア|エピック|ユニーク|レジェンド)\)$/, "").normalize("NFKC").replace(/[\s　]+/g, "");
@@ -189,11 +203,14 @@ for (const r of recipes) {
     if (cm && !/\d/.test(String(m.qty))) {
       log.push(`個数補完 ${r.id}: ${m.item} ${m.qty} → ${cm.qty}`);
       m.qty = cm.qty;
-      touched = true;
+      kinds.add("個数");
       inc("recipe.qty");
     }
   }
-  if (touched) addRef(r.refs, NOTE);
+  if (kinds.size) {
+    addRef(r.refs, NOTE);
+    noteFilled(r, kinds);
+  }
 }
 
 console.log(Object.entries(count).map(([k, v]) => `${k}=${v}`).join(" ") || "変更なし");

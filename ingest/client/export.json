@@ -3473,468 +3473,9 @@
   }
  },
  "enhance": {
-  "cn1090-ancient-guard-stats": {
-   "enchant_id": 847258797,
-   "rows": {
-    "+1": {
-     "rate": 33.0,
-     "gold": 5000.0,
-     "materials": [
-      {
-       "item": "上級渇望のかけら",
-       "qty": 10
-      },
-      {
-       "item": "ラズライト",
-       "qty": 30
-      }
-     ],
-     "protect_qty": 0
-    },
-    "+2": {
-     "rate": 33.0,
-     "gold": 5000.0,
-     "materials": [
-      {
-       "item": "上級渇望のかけら",
-       "qty": 10
-      },
-      {
-       "item": "ラズライト",
-       "qty": 30
-      }
-     ],
-     "protect_qty": 0
-    },
-    "+3": {
-     "rate": 32.0,
-     "gold": 5000.0,
-     "materials": [
-      {
-       "item": "上級渇望のかけら",
-       "qty": 10
-      },
-      {
-       "item": "ラズライト",
-       "qty": 30
-      }
-     ],
-     "protect_qty": 0
-    },
-    "+4": {
-     "rate": 32.0,
-     "gold": 5000.0,
-     "materials": [
-      {
-       "item": "上級渇望のかけら",
-       "qty": 10
-      },
-      {
-       "item": "ラズライト",
-       "qty": 30
-      }
-     ],
-     "protect_qty": 0
-    },
-    "+5": {
-     "rate": 30.0,
-     "gold": 5000.0,
-     "materials": [
-      {
-       "item": "上級渇望のかけら",
-       "qty": 10
-      },
-      {
-       "item": "ラズライト",
-       "qty": 30
-      }
-     ],
-     "protect_qty": 0
-    },
-    "+6": {
-     "rate": 25.0,
-     "gold": 10000.0,
-     "materials": [
-      {
-       "item": "上級渇望のかけら",
-       "qty": 10
-      },
-      {
-       "item": "ラズライト",
-       "qty": 30
-      }
-     ],
-     "protect_qty": 0
-    },
-    "+7": {
-     "rate": 24.0,
-     "gold": 10000.0,
-     "materials": [
-      {
-       "item": "上級渇望のかけら",
-       "qty": 10
-      },
-      {
-       "item": "ラズライト",
-       "qty": 30
-      }
-     ],
-     "protect_qty": 0
-    },
-    "+8": {
-     "rate": 23.0,
-     "gold": 10000.0,
-     "materials": [
-      {
-       "item": "上級渇望のかけら",
-       "qty": 10
-      },
-      {
-       "item": "ラズライト",
-       "qty": 30
-      }
-     ],
-     "protect_qty": 0
-    },
-    "+9": {
-     "rate": 22.0,
-     "gold": 10000.0,
-     "materials": [
-      {
-       "item": "上級渇望のかけら",
-       "qty": 10
-      },
-      {
-       "item": "ラズライト",
-       "qty": 30
-      }
-     ],
-     "protect_qty": 0
-    },
-    "+10": {
-     "rate": 20.0,
-     "gold": 10000.0,
-     "materials": [
-      {
-       "item": "上級渇望のかけら",
-       "qty": 10
-      },
-      {
-       "item": "ラズライト",
-       "qty": 30
-      }
-     ],
-     "protect_qty": 0
-    },
-    "+11": {
-     "rate": 15.0,
-     "gold": 15000.0,
-     "materials": [
-      {
-       "item": "上級渇望のかけら",
-       "qty": 10
-      },
-      {
-       "item": "ラズライト",
-       "qty": 30
-      }
-     ],
-     "protect_qty": 0
-    },
-    "+12": {
-     "rate": 14.0,
-     "gold": 15000.0,
-     "materials": [
-      {
-       "item": "上級渇望のかけら",
-       "qty": 10
-      },
-      {
-       "item": "ラズライト",
-       "qty": 30
-      }
-     ],
-     "protect_qty": 0
-    },
-    "+13": {
-     "rate": 13.0,
-     "gold": 15000.0,
-     "materials": [
-      {
-       "item": "上級渇望のかけら",
-       "qty": 10
-      },
-      {
-       "item": "ラズライト",
-       "qty": 30
-      }
-     ],
-     "protect_qty": 0
-    },
-    "+14": {
-     "rate": 12.0,
-     "gold": 15000.0,
-     "materials": [
-      {
-       "item": "上級渇望のかけら",
-       "qty": 10
-      },
-      {
-       "item": "ラズライト",
-       "qty": 30
-      }
-     ],
-     "protect_qty": 0
-    },
-    "+15": {
-     "rate": 10.0,
-     "gold": 15000.0,
-     "materials": [
-      {
-       "item": "上級渇望のかけら",
-       "qty": 10
-      },
-      {
-       "item": "ラズライト",
-       "qty": 30
-      }
-     ],
-     "protect_qty": 0
-    }
-   }
-  },
-  "cn1090-ancient-threat-stats": {
-   "enchant_id": 847258796,
-   "rows": {
-    "+1": {
-     "rate": 33.0,
-     "gold": 5000.0,
-     "materials": [
-      {
-       "item": "上級渇望のかけら",
-       "qty": 10
-      },
-      {
-       "item": "ラズライト",
-       "qty": 30
-      }
-     ],
-     "protect_qty": 0
-    },
-    "+2": {
-     "rate": 33.0,
-     "gold": 5000.0,
-     "materials": [
-      {
-       "item": "上級渇望のかけら",
-       "qty": 10
-      },
-      {
-       "item": "ラズライト",
-       "qty": 30
-      }
-     ],
-     "protect_qty": 0
-    },
-    "+3": {
-     "rate": 32.0,
-     "gold": 5000.0,
-     "materials": [
-      {
-       "item": "上級渇望のかけら",
-       "qty": 10
-      },
-      {
-       "item": "ラズライト",
-       "qty": 30
-      }
-     ],
-     "protect_qty": 0
-    },
-    "+4": {
-     "rate": 32.0,
-     "gold": 5000.0,
-     "materials": [
-      {
-       "item": "上級渇望のかけら",
-       "qty": 10
-      },
-      {
-       "item": "ラズライト",
-       "qty": 30
-      }
-     ],
-     "protect_qty": 0
-    },
-    "+5": {
-     "rate": 30.0,
-     "gold": 5000.0,
-     "materials": [
-      {
-       "item": "上級渇望のかけら",
-       "qty": 10
-      },
-      {
-       "item": "ラズライト",
-       "qty": 30
-      }
-     ],
-     "protect_qty": 0
-    },
-    "+6": {
-     "rate": 25.0,
-     "gold": 10000.0,
-     "materials": [
-      {
-       "item": "上級渇望のかけら",
-       "qty": 10
-      },
-      {
-       "item": "ラズライト",
-       "qty": 30
-      }
-     ],
-     "protect_qty": 0
-    },
-    "+7": {
-     "rate": 24.0,
-     "gold": 10000.0,
-     "materials": [
-      {
-       "item": "上級渇望のかけら",
-       "qty": 10
-      },
-      {
-       "item": "ラズライト",
-       "qty": 30
-      }
-     ],
-     "protect_qty": 0
-    },
-    "+8": {
-     "rate": 23.0,
-     "gold": 10000.0,
-     "materials": [
-      {
-       "item": "上級渇望のかけら",
-       "qty": 10
-      },
-      {
-       "item": "ラズライト",
-       "qty": 30
-      }
-     ],
-     "protect_qty": 0
-    },
-    "+9": {
-     "rate": 22.0,
-     "gold": 10000.0,
-     "materials": [
-      {
-       "item": "上級渇望のかけら",
-       "qty": 10
-      },
-      {
-       "item": "ラズライト",
-       "qty": 30
-      }
-     ],
-     "protect_qty": 0
-    },
-    "+10": {
-     "rate": 20.0,
-     "gold": 10000.0,
-     "materials": [
-      {
-       "item": "上級渇望のかけら",
-       "qty": 10
-      },
-      {
-       "item": "ラズライト",
-       "qty": 30
-      }
-     ],
-     "protect_qty": 0
-    },
-    "+11": {
-     "rate": 15.0,
-     "gold": 15000.0,
-     "materials": [
-      {
-       "item": "上級渇望のかけら",
-       "qty": 10
-      },
-      {
-       "item": "ラズライト",
-       "qty": 30
-      }
-     ],
-     "protect_qty": 0
-    },
-    "+12": {
-     "rate": 14.0,
-     "gold": 15000.0,
-     "materials": [
-      {
-       "item": "上級渇望のかけら",
-       "qty": 10
-      },
-      {
-       "item": "ラズライト",
-       "qty": 30
-      }
-     ],
-     "protect_qty": 0
-    },
-    "+13": {
-     "rate": 13.0,
-     "gold": 15000.0,
-     "materials": [
-      {
-       "item": "上級渇望のかけら",
-       "qty": 10
-      },
-      {
-       "item": "ラズライト",
-       "qty": 30
-      }
-     ],
-     "protect_qty": 0
-    },
-    "+14": {
-     "rate": 12.0,
-     "gold": 15000.0,
-     "materials": [
-      {
-       "item": "上級渇望のかけら",
-       "qty": 10
-      },
-      {
-       "item": "ラズライト",
-       "qty": 30
-      }
-     ],
-     "protect_qty": 0
-    },
-    "+15": {
-     "rate": 10.0,
-     "gold": 15000.0,
-     "materials": [
-      {
-       "item": "上級渇望のかけら",
-       "qty": 10
-      },
-      {
-       "item": "ラズライト",
-       "qty": 30
-      }
-     ],
-     "protect_qty": 0
-    }
-   }
-  },
   "cn1090-jakon-le-rate": {
    "enchant_id": 847258895,
+   "level_offset": 0,
    "rows": {
     "+1": {
      "rate": 100.0,
@@ -4690,6 +4231,7 @@
   },
   "cn1783-unknown-ancient-acc-enhance": {
    "enchant_id": 847258789,
+   "level_offset": 0,
    "rows": {
     "+1": {
      "rate": 100.0,
@@ -5075,6 +4617,7 @@
   },
   "n1151-ancient-dragon-armor-enhance": {
    "enchant_id": 847258856,
+   "level_offset": 0,
    "rows": {
     "+1": {
      "rate": 100.0,
@@ -5460,6 +5003,7 @@
   },
   "n1151-ancient-dragon-boots-enhance": {
    "enchant_id": 847258859,
+   "level_offset": 0,
    "rows": {
     "+1": {
      "rate": 100.0,
@@ -5845,6 +5389,7 @@
   },
   "n1151-ancient-dragon-bottom-enhance": {
    "enchant_id": 847258857,
+   "level_offset": 0,
    "rows": {
     "+1": {
      "rate": 100.0,
@@ -6230,6 +5775,7 @@
   },
   "n1151-ancient-dragon-glove-enhance": {
    "enchant_id": 847258858,
+   "level_offset": 0,
    "rows": {
     "+1": {
      "rate": 100.0,
@@ -6615,6 +6161,7 @@
   },
   "n1151-ancient-dragon-helm-enhance": {
    "enchant_id": 847258855,
+   "level_offset": 0,
    "rows": {
     "+1": {
      "rate": 100.0,
@@ -7000,6 +6547,7 @@
   },
   "n1231-eternal-jade-enhance": {
    "enchant_id": 847258873,
+   "level_offset": 0,
    "rows": {
     "+1": {
      "rate": 30.0,
@@ -7115,8 +6663,9 @@
   },
   "n1246-iona-ear-enhance": {
    "enchant_id": 847258849,
+   "level_offset": 1,
    "rows": {
-    "[+1]": {
+    "[+0]": {
      "rate": 30.0,
      "gold": 0.0,
      "materials": [
@@ -7127,7 +6676,7 @@
      ],
      "protect_qty": 0
     },
-    "[+2]": {
+    "[+1]": {
      "rate": 30.0,
      "gold": 0.0,
      "materials": [
@@ -7138,7 +6687,7 @@
      ],
      "protect_qty": 0
     },
-    "[+3]": {
+    "[+2]": {
      "rate": 30.0,
      "gold": 0.0,
      "materials": [
@@ -7149,7 +6698,7 @@
      ],
      "protect_qty": 0
     },
-    "[+4]": {
+    "[+3]": {
      "rate": 30.0,
      "gold": 0.0,
      "materials": [
@@ -7160,7 +6709,7 @@
      ],
      "protect_qty": 0
     },
-    "[+5]": {
+    "[+4]": {
      "rate": 30.0,
      "gold": 0.0,
      "materials": [
@@ -7171,7 +6720,7 @@
      ],
      "protect_qty": 0
     },
-    "[+6]": {
+    "[+5]": {
      "rate": 30.0,
      "gold": 0.0,
      "materials": [
@@ -7182,7 +6731,7 @@
      ],
      "protect_qty": 0
     },
-    "[+7]": {
+    "[+6]": {
      "rate": 30.0,
      "gold": 0.0,
      "materials": [
@@ -7193,7 +6742,7 @@
      ],
      "protect_qty": 0
     },
-    "[+8]": {
+    "[+7]": {
      "rate": 30.0,
      "gold": 0.0,
      "materials": [
@@ -7204,7 +6753,7 @@
      ],
      "protect_qty": 0
     },
-    "[+9]": {
+    "[+8]": {
      "rate": 30.0,
      "gold": 0.0,
      "materials": [
@@ -7215,7 +6764,7 @@
      ],
      "protect_qty": 0
     },
-    "[+10]": {
+    "[+9]": {
      "rate": 30.0,
      "gold": 0.0,
      "materials": [
@@ -7226,7 +6775,7 @@
      ],
      "protect_qty": 0
     },
-    "[+11]": {
+    "[+10]": {
      "rate": 30.0,
      "gold": 0.0,
      "materials": [
@@ -7237,13 +6786,24 @@
      ],
      "protect_qty": 0
     },
-    "[+12]": {
+    "[+11]": {
      "rate": 30.0,
      "gold": 0.0,
      "materials": [
       {
        "item": "ホワイトコア",
        "qty": 530
+      }
+     ],
+     "protect_qty": 0
+    },
+    "[+12]": {
+     "rate": 30.0,
+     "gold": 0.0,
+     "materials": [
+      {
+       "item": "ホワイトコア",
+       "qty": 500
       }
      ],
      "protect_qty": 0
@@ -7252,8 +6812,9 @@
   },
   "n1246-iona-neck-enhance": {
    "enchant_id": 847258848,
+   "level_offset": 1,
    "rows": {
-    "[+1]": {
+    "[+0]": {
      "rate": 30.0,
      "gold": 0.0,
      "materials": [
@@ -7264,7 +6825,7 @@
      ],
      "protect_qty": 0
     },
-    "[+2]": {
+    "[+1]": {
      "rate": 30.0,
      "gold": 0.0,
      "materials": [
@@ -7275,7 +6836,7 @@
      ],
      "protect_qty": 0
     },
-    "[+3]": {
+    "[+2]": {
      "rate": 30.0,
      "gold": 0.0,
      "materials": [
@@ -7286,7 +6847,7 @@
      ],
      "protect_qty": 0
     },
-    "[+4]": {
+    "[+3]": {
      "rate": 30.0,
      "gold": 0.0,
      "materials": [
@@ -7297,7 +6858,7 @@
      ],
      "protect_qty": 0
     },
-    "[+5]": {
+    "[+4]": {
      "rate": 30.0,
      "gold": 0.0,
      "materials": [
@@ -7308,7 +6869,7 @@
      ],
      "protect_qty": 0
     },
-    "[+6]": {
+    "[+5]": {
      "rate": 30.0,
      "gold": 0.0,
      "materials": [
@@ -7319,7 +6880,7 @@
      ],
      "protect_qty": 0
     },
-    "[+7]": {
+    "[+6]": {
      "rate": 30.0,
      "gold": 0.0,
      "materials": [
@@ -7330,7 +6891,7 @@
      ],
      "protect_qty": 0
     },
-    "[+8]": {
+    "[+7]": {
      "rate": 30.0,
      "gold": 0.0,
      "materials": [
@@ -7341,7 +6902,7 @@
      ],
      "protect_qty": 0
     },
-    "[+9]": {
+    "[+8]": {
      "rate": 30.0,
      "gold": 0.0,
      "materials": [
@@ -7352,7 +6913,7 @@
      ],
      "protect_qty": 0
     },
-    "[+10]": {
+    "[+9]": {
      "rate": 30.0,
      "gold": 0.0,
      "materials": [
@@ -7363,7 +6924,7 @@
      ],
      "protect_qty": 0
     },
-    "[+11]": {
+    "[+10]": {
      "rate": 30.0,
      "gold": 0.0,
      "materials": [
@@ -7374,7 +6935,7 @@
      ],
      "protect_qty": 0
     },
-    "[+12]": {
+    "[+11]": {
      "rate": 30.0,
      "gold": 0.0,
      "materials": [
@@ -7384,27 +6945,14 @@
       }
      ],
      "protect_qty": 0
-    }
-   }
-  },
-  "n1276-unknown-ancient-acc-enhance-cost": {
-   "enchant_id": 847258789,
-   "rows": {
-    "～+10": {
-     "rate": 100.0,
-     "gold": 500.0,
+    },
+    "[+12]": {
+     "rate": 30.0,
+     "gold": 0.0,
      "materials": [
       {
-       "item": "未知の古代アクセサリーの破片",
-       "qty": 10
-      },
-      {
-       "item": "古代人の知識",
-       "qty": 5
-      },
-      {
-       "item": "古代人の紋様",
-       "qty": 100
+       "item": "ホワイトコア",
+       "qty": 500
       }
      ],
      "protect_qty": 0
@@ -7413,6 +6961,7 @@
   },
   "n1311-jakon-le-enhance": {
    "enchant_id": 847258895,
+   "level_offset": 0,
    "rows": {
     "+1": {
      "rate": 100.0,
@@ -8168,6 +7717,7 @@
   },
   "n1311-jakon-u-enhance": {
    "enchant_id": 847258894,
+   "level_offset": 0,
    "rows": {
     "+1": {
      "rate": 100.0,
@@ -10733,5 +10283,10 @@
   "幽幻の竜珠": "not-found",
   "悠久なる白竜の盟約": "not-found",
   "煌めく王城の紋章": "not-found"
+ },
+ "skipped": {
+  "cn1090-ancient-guard-stats": "行の段階とクライアントの段階の対応が決められない",
+  "cn1090-ancient-threat-stats": "行の段階とクライアントの段階の対応が決められない",
+  "n1276-unknown-ancient-acc-enhance-cost": "行の段階とクライアントの段階の対応が決められない"
  }
 }
