@@ -1,6 +1,6 @@
 // data/*.json を読み込み、画面から引きやすい索引を作る。
 // JSON は別チャンクとして並行に読み込む (本体の JS を小さくし、データだけ後から取得する)
-const [sources, items, materials, recipes, enhanceTables, drops, dungeons, itemGroups, sets, aliases] = await Promise.all([
+const [sources, items, materials, recipes, enhanceTables, drops, dungeons, itemGroups, sets, aliases, tableAliases] = await Promise.all([
   import("../data/sources.json"),
   import("../data/items.json"),
   import("../data/materials.json"),
@@ -11,6 +11,7 @@ const [sources, items, materials, recipes, enhanceTables, drops, dungeons, itemG
   import("../data/item_groups.json"),
   import("../data/sets.json"),
   import("../ingest/aliases.json"),
+  import("../ingest/table_aliases.json"),
 ]).then((ms) => ms.map((m) => m.default as unknown));
 import type { Dataset, DropEntry, DropTable, Dungeon, EnhanceTable, GroupMember, Item, ItemGroup, ItemSet, Recipe, Ref, Region, Source } from "./types.ts";
 
@@ -47,6 +48,9 @@ export const setMembers = group(allItems.filter((i) => i.set).map((i) => [i.set!
 const aliasOf = aliases as Record<string, string>;
 /** 旧 id を今の id に (改名・統合されていなければそのまま) */
 export const currentId = (id: string) => aliasOf[id] ?? id;
+/** 統合された強化表の旧 id → 統合先の id (ingest/table_aliases.json) */
+const tableAliasOf = tableAliases as Record<string, string>;
+export const currentTableId = (id: string) => tableAliasOf[id] ?? id;
 
 // base と result が同じレシピ (ロック付与・同一装備の等級進化など) は作成ルートではなく「加工」として別扱い
 const isSelf = (r: Recipe) => r.base === r.result;

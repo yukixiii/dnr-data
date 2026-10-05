@@ -133,7 +133,9 @@ export function statRowCells(l: StatLayout, stats: Stat[]) {
 export const noteCaption = (l: StatLayout) => ("note" in l && l.note ? `値は「${esc(l.note)}」` : "");
 
 export function statGrid(rows: GridRow[], headLabels: string[], opts: { caption?: string } = {}): string {
-  const l = statLayout(rows.map((r) => r.stats));
+  let l = statLayout(rows.map((r) => r.stats));
+  // note で分けても同じ名前の能力が重なる (データの誤記) ときは分けずに並べる (分け続けて止まらなくなるので)
+  if (l.kind === "bynote" && l.notes.length <= 1) l = { kind: "wide", cols: statColumns(rows.map((r) => r.stats)), note: undefined };
   if (l.kind === "bynote") {
     return l.notes
       .map((n) =>

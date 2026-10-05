@@ -31,6 +31,7 @@ import { cmpKey, compareFloors, parseFloors } from "../floors.ts";
 import type { Item, ItemGroup, ItemSet, Ref, Stat, StatSet } from "../types.ts";
 import { empty, esc, href, itemLink, itemMeta, locationLink, rateCell, refInline, refList, regionBadges, statCell, statGrid, statSets } from "../components/ui.ts";
 import { dropTableHtml } from "./drops.ts";
+import { stepRows } from "./enhance.ts";
 
 // 説明文に推定・仮名称である旨が書かれているアイテム
 const PROVISIONAL = /名称[^。]*(推定|類推)|便宜上|仮の名称/;
@@ -358,7 +359,7 @@ export function renderItemDetail(id: string) {
     sections.push(`<section><h2>強化・段階確率</h2>${tables
       .map((t) => {
         const target = group ? t.applies_to.filter((x) => ids.includes(x)).map(tag).join("") : "";
-        return `<p>${target}<a href="${href("enhance", t.id)}">${esc(t.name)}</a> ${refInline(t.refs)} <span class="muted">${refDate(t.refs) ? `${esc(refDate(t.refs))} 告知 / ` : ""}${t.rows.length}段階${
+        return `<p>${target}<a href="${href("enhance", t.id)}">${esc(t.name)}</a> ${refInline(t.refs)} <span class="muted">${refDate(t.refs) ? `${esc(refDate(t.refs))} 告知 / ` : ""}${stepRows(t).length}段階${t.rows.some((r) => r.evolve) ? " (途中で進化)" : ""}${
           t.rows.at(-1)?.rate !== undefined ? ` / 最終段階 ${t.rows.at(-1)!.rate}%` : ""
         }</span></p>`;
       })

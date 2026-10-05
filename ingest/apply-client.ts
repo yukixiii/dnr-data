@@ -8,8 +8,9 @@
 //  - アイテム: 等級・Lv・部位・種類・最大強化・セット・能力値 (基本 + 強化段階 +1～+N + 細工段階) をクライアント値で作り直す。
 //    取引・説明は既存の文の方が詳しいので、空の時だけクライアント値を入れる。
 //  - 強化表: クライアントの強化 ID と対応が取れた表は確率・ゴールド・素材をクライアント値にし、能力値はアイテム側に移す。
-//    海外版 (KR/CN) だけの表は日本版クライアントの表に置き換える。対応の取れない表はそのまま残す。
-//    強化表の無いアイテムには、強化 ID ごとの表 (client-enh-<強化ID>) を作る。
+//    その後、中身が同じ強化 ID ごとに表を 1 つ (client-enh-<最小の強化ID>) にまとめる。告知の版違い・部位違い・海外版・
+//    費用変更のお知らせは吸収し、日本版の出典は refs、各表の注記は notes に残す (旧 id は ingest/table_aliases.json で転送)。
+//    クライアントの強化 ID と結び付かない表はそのまま残す。
 //  - レシピ: 照合できたもの (itemcompoundtable) はゴールド・成功率・素材の個数をクライアント値にする。
 //  - セット効果: data/sets.json をクライアント値で作る。
 //  - 分解: 告知の分解レシピが無い装備に、クライアントの分解表からレシピ (client-dis-*) を作る。
@@ -41,6 +42,8 @@ interface Export {
   pak_date: string;
   items: Record<string, CItem>;
   keep: Record<string, string>;
+  // keep のうち中身の強化 ID が 1 つに決まるもの (総称 → 強化 ID)
+  keep_enchant?: Record<string, number>;
   enhance: Record<string, { enchant_id: number; level_offset: number; rows: Record<string, CRow>; max_level: number }>;
   enchants: Record<string, Record<string, CRow>>;
   // 製作: compound_id / 交換: shop_row (+where, result_qty) / 進化: change_row (+accelerators)
@@ -137,7 +140,19 @@ const STAT_NAMES: Record<string, string[]> = {
   FD: ["词条最终伤害"],
 };
 const statName = new Map(Object.entries(STAT_NAMES).flatMap(([k, vs]) => vs.map((v) => [v, k] as [string, string])));
-const normStats = (ss: Stat[] = []) => ss.map((s) => (statName.has(s.name) ? { ...s, name: statName.get(s.name)! } : s));
+// 同じ段階に同じ名前の能力が 2 つあり片方が割合の値なら、割合の方は「…%」の能力 (ファンWiki の「攻撃力 38.00％」= 物魔攻撃% など)
+const PCT_NAME: Record<string, string> = { 攻撃力: "物魔攻撃%", 物魔防御: "物魔防御%" };
+const normStats = (ss: Stat[] = []) => {
+  const out = ss.map((s) => {
+    const v = typeof s.value === "string" ? s.value.replace(/％/g, "%") : s.value;
+    return { ...s, value: v, name: statName.get(s.name) ?? s.name };
+  });
+  return out.map((s) => {
+    if (typeof s.value !== "string" || !/%$/.test(s.value) || s.name.endsWith("%")) return s;
+    if (out.filter((x) => x.name === s.name && (x.note ?? "") === (s.note ?? "")).length < 2) return s;
+    return { ...s, name: PCT_NAME[s.name] ?? `${s.name}%` };
+  });
+};
 const normLabel = (l: string) => l.replace(/^\[\+(\d+)\]$/, "+$1").replace(/^\(\+(\d+)\)$/, "+$1");
 
 // 値の比較 (名前の表記は無視して数値の組で比べる。"17%" と "17.00%" は同じ)
@@ -321,6 +336,12 @@ for (const it of [...items, ...materials]) {
     const diffs: string[] = [];
     const noEnhance: string[] = [];
     for (const o of old) {
+      // ユニーク等級の項目にあったレジェンド (L) の能力値: レジェンドの項目にクライアントの値があれば外す
+      const legend = it.id.replace(/\(ユニーク\)$/, "(レジェンド)");
+      if (o.label === "(L)" && legend !== it.id && ex.items[legend]?.stats?.length) {
+        keepOld(it, "description", `(L) の能力値は「${legend}」にクライアントの値で掲載。`);
+        continue;
+      }
       const lbl = ["基本", "+0", "通常"].includes(o.label) ? "基本" : o.label;
       const f = freshBy.get(lbl);
       if (f) {
@@ -400,8 +421,23 @@ const missingMats = new Map<string, CMat>();
 const replacedOverseas = new Set<string>();
 const appliesClient = (t: EnhanceTable) => t.applies_to.some((a) => ex.items[a]);
 const outTables: EnhanceTable[] = [];
-const coveredEnchants = new Set<string>();
 for (const r of [...tables, ...recipes]) dropLegacy(r);
+// 告知の表で対象が書かれていない・総称のままのもの → 対象のアイテム (ドラフトは告知の記載どおりに残し、ここで補う)。
+// data/ に反映済みなら export.py が段階の対応を取れる (npm run merge の直後の 1 回目は注記・出典だけ統合先に載る)
+const ANCIENT_ARMOR = ["生命の古代ヘルム", "東方の古代アーマー", "黎明の古代ボトム", "密林の古代グローブ", "深淵の古代ブーツ"];
+const APPLIES_FILL: Record<string, string[]> = {
+  "n1332-iona-ring-enhance": ["[リング]アイオナの誓い"],
+  "n1332-iona-necklace-enhance": ["[ネックレス]アイオナの覚悟"],
+  "n1332-iona-earring-enhance": ["[イヤリング]アイオナの聲"],
+  "n1376-legend-cloning-armor": ["ヘルム", "アーマー", "ボトム", "グローブ", "ブーツ"].map((s) => `クローニング${s}(レジェンド)`),
+  "n1376-legend-cloning-weapon": ["メインウェポン", "サブウェポン"].map((s) => `クローニング${s}(レジェンド)`),
+  // 原文は「古代人防具」で [Ⅰ]/[Ⅱ] の区別なし
+  "n1276-ancient-armor-enhance-cost": [...ANCIENT_ARMOR, ...ANCIENT_ARMOR.map((a) => `${a}[Ⅱ]`)],
+};
+for (const t of tables) {
+  const fill = APPLIES_FILL[t.id];
+  if (fill && fill.some((a) => !t.applies_to.includes(a))) t.applies_to = [...new Set([...t.applies_to.filter((a) => !/^\[[ⅠⅡ]\]古代防具$/.test(a)), ...fill])];
+}
 // 以前の空欄補完の出典注記を外す (クライアント値を使っていないレコードは出典ごと外す)
 for (const rec of [...tables, ...recipes] as { refs: Ref[] }[]) {
   const i = rec.refs.findIndex((r) => r.source === SRC && r.note === LEGACY_NOTE);
@@ -413,7 +449,6 @@ for (const t of tables) {
     outTables.push(t);
     continue;
   }
-  coveredEnchants.add(String(c.enchant_id));
   const overseas = isOverseas(t.refs);
   if (overseas) replacedOverseas.add(t.id);
   const from = srcLabel(t.refs);
@@ -466,63 +501,317 @@ for (const t of tables) {
   outTables.push(t);
 }
 
-// クライアントと対応の取れる強化表の無いアイテムに、強化 ID ごとの表を作る (告知の表が範囲だけ等で対応できない場合も)
-const tableItems = new Set(outTables.filter((t) => ex.enhance[t.id]).flatMap((t) => t.applies_to));
-const byEnchant = new Map<string, string[]>();
-for (const [id, c] of Object.entries(ex.items)) {
-  if (!c.enchant_id || !allIds.has(id) || tableItems.has(id) || coveredEnchants.has(String(c.enchant_id))) continue;
-  byEnchant.set(String(c.enchant_id), [...(byEnchant.get(String(c.enchant_id)) ?? []), id]);
+// ---- 強化表の統合 ----
+// クライアントの強化 ID の中身 (全段階の確率・ゴールド・素材・保護・破壊・下降) が同じものを 1 グループにし、
+// グループごとに表を 1 つにする (部位違い・告知の版違い・海外版・費用変更のお知らせなどをまとめる)。
+//  - id は client-enh-<グループの最小の強化 ID>。吸収した表の id は ingest/table_aliases.json で転送する。
+//  - 行はクライアントの全段階 (+n = 強化後の段階)。失敗時・確率の補足・能力値は、段階の対応が取れた表から新しい日本版の告知を優先して引き継ぐ。
+//  - 日本版の出典は refs に残し、各表の注記は notes に 1 行ずつ残す。海外版は「以前は海外版の表を掲載していた」とだけ残す。
+//  - 複数のグループにまたがる表 (全スキル竜珠の +16～+20 など) は、各グループの出典と注記に載せる。
+//  - 総称のまま残すアイテム (ex.keep) も、中身の強化 ID が決まるもの (ex.keep_enchant) は同じように扱う。
+const CLIENT_NOTE = /^日本版クライアントの値 \([^)]*時点\)。(行の段階は強化後の段階。)?/;
+const HEADER = `日本版クライアントの値 (${ex.pak_date}時点)。行の段階は強化後の段階。`;
+const OVERSEAS_NOTE = /以前は海外版の表 \(([^)]*)\) を掲載していた。/;
+// 名前を導出すると不自然になるグループ (id → 名前)
+const NAME_OVERRIDE: Record<string, string> = {
+  "client-enh-847258479": "アクセサリー共通 (アルゼンタの冷徹・ジェレイントの守護・ゴールド/シルバードラゴンほか) 強化",
+  "client-enh-847258592": "クローニング武器(ユニーク) 強化",
+  "client-enh-847258616": "クローニング装備(ユニーク) 強化",
+  "client-enh-847258658": "クローニング防具(レジェンド) 強化",
+  "client-enh-847258770": "ヘイズフロストドラゴン武器(レジェンド) 強化",
+  "client-enh-847258771": "ヘイズフロストドラゴン防具(レジェンド) 強化",
+  "client-enh-847258776": "ヘイズフロストドラゴンアクセサリー(レジェンド) 強化",
+  "client-enh-847258796": "古代の変異型防御竜珠(エンシェント) 強化",
+  "client-enh-847258837": "クローニング ウィング・テール・デカール(レジェンド) 強化",
+  "client-enh-847258840": "クローニングアクセサリー(レジェンド) 強化",
+  "client-enh-847258843": "クローニング武器(レジェンド) 強化",
+  "client-enh-847258847": "アイオナ・白竜アクセサリー 強化",
+  "client-enh-847258853": "古竜武器 強化",
+  "client-enh-847258855": "古竜防具・古代人防具[Ⅱ] 強化",
+  "client-enh-847258874": "金糸防具 強化",
+  "client-enh-847258879": "金糸武器 強化",
+  "client-enh-847258881": "金糸アクセサリー 強化",
+  "client-enh-847258892": "崩壊の竜珠 強化",
+  "client-enh-847258912": "金糸防具[Ⅱ] 強化",
+  "client-enh-847258917": "金糸武器[Ⅱ] 強化",
+};
+// 対象アイテム名に共通部分が無くても統合してよいグループ (別系統が同じ強化 ID を共有しているもの)
+const MERGE_ALLOW = new Set<string>([
+  "client-enh-847258855", // 古竜の古代防具と古代人防具[Ⅱ] (同じ強化 ID)
+]);
+// 進化で強化値を引き継ぐ装備: 進化前の強化 ID の at 段階までの後に「進化」の行を挟み、進化後の強化 ID の at+1 段階以降を続けて 1 つの表にする
+const CHAINS: { before: string; after: string; at: number; text: string }[] = [
+  {
+    before: "847258847", // アイオナアクセサリー
+    after: "847258925", // 白竜アクセサリー
+    at: 15,
+    text: "+15 のアイオナアクセサリーは、そのままでは +16 に強化できない。白竜の氷片で白竜アクセサリーに進化させる (強化値は +15 のまま引き継ぐ) と、+16 以降に強化できる。",
+  },
+];
+
+const eidOf = (a: string) => {
+  const e = ex.items[a]?.enchant_id ?? ex.keep_enchant?.[a];
+  return e && Object.keys(ex.enchants[String(e)] ?? {}).length ? String(e) : undefined;
+};
+const contentKey = (rows: Record<string, CRow>) =>
+  JSON.stringify(
+    Object.entries(rows)
+      .sort(([a], [b]) => Number(a) - Number(b))
+      .map(([lv, r]) => [lv, r.rate, r.gold, r.materials.map((m) => `${m.item}×${m.qty}`).sort(), r.protect_qty, r.break_rate ?? 0, r.down ?? [0, 0]]),
+  );
+const keyOfEid = new Map(Object.entries(ex.enchants).map(([eid, rows]) => [eid, contentKey(rows)]));
+const eidsOfKey = new Map<string, string[]>();
+for (const [eid, k] of keyOfEid) eidsOfKey.set(k, [...(eidsOfKey.get(k) ?? []), eid].sort((a, b) => Number(a) - Number(b)));
+const itemsOfKey = new Map<string, string[]>();
+for (const a of [...Object.keys(ex.items), ...Object.keys(ex.keep_enchant ?? {})]) {
+  const e = eidOf(a);
+  if (!e || !allIds.has(a)) continue;
+  const k = keyOfEid.get(e)!;
+  if (!itemsOfKey.get(k)?.includes(a)) itemsOfKey.set(k, [...(itemsOfKey.get(k) ?? []), a]);
 }
-// 既に表がある強化 ID なら、その表の対象に足す
-for (const t of outTables) {
-  const eid = Object.entries(ex.enhance).find(([tid]) => tid === t.id)?.[1].enchant_id;
-  if (eid === undefined) continue;
-  const extra = byEnchant.get(String(eid));
-  if (extra) {
-    t.applies_to = [...new Set([...t.applies_to, ...extra])];
-    byEnchant.delete(String(eid));
+const chainOfKey = new Map(CHAINS.map((c) => [keyOfEid.get(c.before)!, c]));
+const chainedKey = new Map(CHAINS.map((c) => [keyOfEid.get(c.after)!, keyOfEid.get(c.before)!]));
+const groupKey = (k: string) => chainedKey.get(k) ?? k;
+for (const [after, before] of chainedKey) {
+  itemsOfKey.set(before, [...(itemsOfKey.get(before) ?? []), ...(itemsOfKey.get(after) ?? [])]);
+  itemsOfKey.delete(after);
+}
+const keysOfTable = (t: EnhanceTable) => {
+  const ks = new Set<string>();
+  for (const a of t.applies_to) {
+    const e = eidOf(a);
+    if (e) ks.add(groupKey(keyOfEid.get(e)!));
   }
-}
-for (const [eid, ids] of byEnchant) {
-  const all = ex.enchants[eid];
-  if (!all || !Object.keys(all).length) continue;
-  const name = ids.length === 1 ? ids[0] : `${ids[0]} ほか${ids.length - 1}件`;
-  const prev = outTables.findIndex((t) => t.id === `client-enh-${eid}`);
-  if (prev >= 0) outTables.splice(prev, 1); // 再実行時は作り直す
-  else inc("enhance.new");
-  outTables.push({
-    id: `client-enh-${eid}`,
-    name: `${name} 強化`,
-    kind: "enhance",
-    applies_to: ids,
-    rows: Object.entries(all).map(([lv, cr]) => clientRow(`+${lv}`, cr)),
-    notes: `日本版クライアントの値 (${ex.pak_date}時点)。行の段階は強化後の段階。`,
-    refs: [{ source: SRC }],
-  });
-}
-// 海外版の表の整理: 対象のアイテムがすべて日本版の表 (告知 + クライアント、またはクライアントの新しい表) で
-// 覆われていれば削除する (海外版から置き換えた表も、日本版の告知の表があれば重複になるので削除)
-{
-  const jpItems = new Set(outTables.filter((t) => t.kind === "enhance" && ex.enhance[t.id] && !replacedOverseas.has(t.id)).flatMap((t) => t.applies_to));
-  const clientItems = new Set(outTables.filter((t) => t.id.startsWith("client-enh-")).flatMap((t) => t.applies_to));
-  const replacedItems = new Set(outTables.filter((t) => replacedOverseas.has(t.id)).flatMap((t) => t.applies_to));
-  for (let i = outTables.length - 1; i >= 0; i--) {
-    const t = outTables[i];
-    if (t.kind !== "enhance" || !t.applies_to.length) continue;
-    if (replacedOverseas.has(t.id)) {
-      if (t.applies_to.every((a) => jpItems.has(a))) {
-        log.push(`海外版から置き換えた表を削除 (日本版の告知の表あり) ${t.id}`);
-        outTables.splice(i, 1);
-        inc("enhance.overseas_removed");
+  const m = /^client-enh-(\d+)$/.exec(t.id);
+  if (m && keyOfEid.has(m[1])) ks.add(groupKey(keyOfEid.get(m[1])!));
+  return [...ks];
+};
+// 行の段階 → クライアントの段階 (対応の取れない表は undefined)
+const levelOf = (s: string) => {
+  if (/[～~〜]/.test(s)) return undefined;
+  const m = /→\s*\+?\s*(\d+)/.exec(s) ?? /\+\s*(\d+)/.exec(s) ?? /^\[?\+?(\d+)\]?(?:段階)?$/.exec(s.trim());
+  return m ? Number(m[1]) : undefined;
+};
+const levelMap = (t: EnhanceTable): Map<number, EnhanceRow> | undefined => {
+  const off = t.id.startsWith("client-enh-") ? 0 : ex.enhance[t.id]?.level_offset;
+  if (off === undefined) return undefined;
+  const m = new Map<number, EnhanceRow>();
+  for (const r of t.rows) {
+    const lv = r.evolve ? undefined : levelOf(r.level);
+    if (lv !== undefined) m.set(lv + off, r);
+  }
+  return m;
+};
+const isJpOfficial = (t: EnhanceTable) => t.refs.some((r) => sourceById.get(r.source)?.region === "JP" && sourceById.get(r.source)?.kind === "official" && r.source !== SRC);
+const tableDate = (t: EnhanceTable) =>
+  t.refs.map((r) => (r.source === SRC ? "" : (sourceById.get(r.source)?.published_at ?? ""))).sort().at(-1) ?? "";
+// 海外版の表 (前回までに日本版クライアントの値へ置き換えた表は注記で分かる)
+const wasOverseas = (t: EnhanceTable) => replacedOverseas.has(t.id) || isOverseas(t.refs) || OVERSEAS_NOTE.test(t.notes ?? "");
+// 引き継ぐ順: 日本版の告知 (新しい順) → 日本版のその他 → 統合済みの表 → 海外版
+const priority = (t: EnhanceTable) => [t.id.startsWith("client-enh-") ? 1 : wasOverseas(t) ? 0 : isJpOfficial(t) ? 3 : 2, tableDate(t)] as const;
+const byPriority = (a: EnhanceTable, b: EnhanceTable) => {
+  const [pa, da] = priority(a);
+  const [pb, db] = priority(b);
+  return pb - pa || db.localeCompare(da) || a.id.localeCompare(b.id);
+};
+const tidyName = (n: string) => {
+  let s = n.trim();
+  for (let i = 0; i < 3; i++)
+    s = s
+      .replace(/\s*\((CN|KR|海外)版\)$/, "")
+      .replace(/\s*\(\d+年\d+月\)$/, "")
+      .replace(/\s*\(?\+\d+[～~]\+\d+\)?$/, "")
+      .replace(/\s*(強化費用変更|強化確率|強化段階別情報|段階別強化材料|強化詳細.*|成長|強化)$/, "")
+      .replace(/の$/, "")
+      .trim();
+  return `${s} 強化`;
+};
+const commonName = (ids: string[]) => {
+  if (ids.length === 1) return ids[0];
+  let best = "";
+  const [a, ...rest] = ids;
+  for (let i = 0; i < a.length; i++)
+    for (let j = a.length; j > i + best.length; j--) {
+      const sub = a.slice(i, j);
+      if (rest.every((x) => x.includes(sub))) {
+        best = sub;
+        break;
       }
+    }
+  return best.replace(/^[\s\]\)】・の]+|[\s\[\(【・の]+$/g, "");
+};
+
+const tableAliases = await readJson<Record<string, string>>("ingest/table_aliases.json").catch(() => ({}) as Record<string, string>);
+{
+  // 表 → 属するグループ。1 グループなら吸収、複数なら出典・注記だけ各グループへ
+  const full = new Map<string, EnhanceTable[]>();
+  const partial = new Map<string, EnhanceTable[]>();
+  for (const t of outTables) {
+    if (t.kind !== "enhance") continue;
+    const ks = keysOfTable(t);
+    for (const k of ks) (ks.length === 1 ? full : partial).set(k, [...((ks.length === 1 ? full : partial).get(k) ?? []), t]);
+  }
+  const removed = new Map<string, string>(); // 表 id → 統合先の id
+  const created = new Map<string, EnhanceTable>(); // 統合先の id → 表 (最初の吸収元の位置に置く)
+  for (const [k, eids] of eidsOfKey) {
+    if (chainedKey.has(k)) continue; // 進化後の強化 ID は進化前のグループで扱う
+    const chain = chainOfKey.get(k);
+    const members = (full.get(k) ?? []).slice().sort(byPriority);
+    const extras = (partial.get(k) ?? []).slice().sort(byPriority);
+    const ownItems = itemsOfKey.get(k) ?? [];
+    if (!members.length && !ownItems.length) continue;
+    const id = `client-enh-${eids[0]}`;
+    const applies = [...new Set([...members.flatMap((t) => t.applies_to), ...ownItems])];
+    if (commonName(applies).length < 2 && !MERGE_ALLOW.has(id) && !chain && members.length > 1) {
+      log.push(`要確認: 対象アイテム名に共通部分が無いので統合しない ${members.map((t) => t.id).join(", ")}`);
       continue;
     }
-    if (ex.enhance[t.id] || !isOverseas(t.refs)) continue;
-    if (t.applies_to.every((a) => jpItems.has(a) || clientItems.has(a) || replacedItems.has(a))) {
-      log.push(`海外版の表を削除 (日本版の表あり) ${t.id}`);
-      outTables.splice(i, 1);
-      inc("enhance.overseas_removed");
+    // 行: クライアントの全段階
+    const all: Record<string, CRow> = chain
+      ? Object.fromEntries([
+          ...Object.entries(ex.enchants[chain.before]).filter(([lv]) => Number(lv) <= chain.at),
+          ...Object.entries(ex.enchants[chain.after]).filter(([lv]) => Number(lv) > chain.at),
+        ])
+      : ex.enchants[eids[0]];
+    const maps = members.map((t) => [t, levelMap(t)] as const);
+    // 能力値は、対象のアイテムに強化段階ごとの能力値 (クライアント、または告知の +n 表) があればアイテム側だけに載せる
+    const itemOf = (a: string) => items.find((i) => i.id === a) ?? materials.find((i) => i.id === a);
+    const hasLevelStats = (a: string) => (itemOf(a)?.stats ?? []).filter((x) => /^\[?\+\d+\]?$/.test(x.label)).length >= 2;
+    const statsMoved = applies.some((a) => ex.items[a]?.levels) || applies.every(hasLevelStats);
+    // 能力値: 段階の対応が取れた表から。対象の一部だけの表 (攻撃竜珠だけ等) は、能力値の note に対象を書いて並べる
+    const statsFrom: { map: Map<number, EnhanceRow>; note?: string }[] = [];
+    if (!statsMoved) {
+      const covered = new Set<string>();
+      for (const [t, m] of maps) {
+        if (!m || ![...m.values()].some((r) => r.stats?.length) || t.applies_to.every((a) => covered.has(a))) continue;
+        const whole = applies.every((a) => t.applies_to.includes(a));
+        statsFrom.push({ map: m, note: whole && !covered.size ? undefined : t.applies_to.join("・") });
+        t.applies_to.forEach((a) => covered.add(a));
+        if (whole) break;
+      }
     }
+    const rows = Object.entries(all)
+      .sort(([a], [b]) => Number(a) - Number(b))
+      .map(([lv, cr]) => {
+        const prevs = maps.map(([, m]) => m?.get(Number(lv))).filter((r): r is EnhanceRow => !!r);
+        const prev: EnhanceRow = { level: `+${lv}` };
+        const onFail = prevs.find((r) => r.on_fail)?.on_fail;
+        if (onFail) prev.on_fail = onFail;
+        const rateText = prevs.find((r) => r.rate_text && !/[\d.]+%|記載なし|不明/.test(r.rate_text))?.rate_text;
+        if (rateText) prev.rate_text = rateText;
+        const row = clientRow(`+${lv}`, cr, prev);
+        const st = statsFrom.flatMap(({ map, note }) =>
+          (map.get(Number(lv))?.stats ?? []).map((x) => (note && !x.note ? { ...x, note } : note ? { ...x, note: `${note} ${x.note}` } : x)),
+        );
+        if (st.length) row.stats = st;
+        return row;
+      });
+    if (chain) {
+      // 進化の行: 素材は data の進化レシピ (進化前 → 進化後) から
+      const before = new Set(applies.filter((a) => eidOf(a) && keyOfEid.get(eidOf(a)!) === k));
+      const evolves = recipes.filter((r) => r.type === "evolve" && r.base && before.has(r.base) && applies.includes(r.result) && !before.has(r.result));
+      const mats = new Map<string, Qty>();
+      for (const r of evolves) for (const m of r.materials) if (!mats.has(m.item)) mats.set(m.item, { ...m });
+      const row: EnhanceRow = { level: `+${chain.at} で進化`, evolve: chain.text };
+      if (mats.size) row.materials = [...mats.values()];
+      const at = rows.findIndex((r) => (levelOf(r.level) ?? 0) > chain.at);
+      rows.splice(at < 0 ? rows.length : at, 0, row);
+    }
+    // 出典: 日本版の出典 (古い順) + クライアント
+    const refs: Ref[] = [];
+    for (const t of [...members, ...extras])
+      for (const r of t.refs)
+        if (r.source !== SRC && sourceById.get(r.source)?.region === "JP" && !refs.some((x) => x.source === r.source)) refs.push({ ...r });
+    refs.sort((a, b) => (sourceById.get(a.source)?.published_at ?? "").localeCompare(sourceById.get(b.source)?.published_at ?? ""));
+    refs.push(refs.length ? { source: SRC, note: "確率・費用・素材" } : { source: SRC });
+    // 注記: 統合済みの表の行はそのまま、吸収した表は「出典「表名」: 注記」(同じ出典・同じ注記はまとめる)
+    const lines: string[] = [];
+    const overseas = new Set<string>();
+    const byNote = new Map<string, { label: string; names: string[]; note: string }>();
+    for (const t of [...members, ...extras].sort((a, b) => tableDate(a).localeCompare(tableDate(b)) || a.id.localeCompare(b.id))) {
+      const note = (t.notes ?? "").replace(CLIENT_NOTE, "").trim();
+      if (t.id.startsWith("client-enh-")) {
+        for (const l of note.split("\n").map((x) => x.trim()).filter(Boolean)) {
+          const m = OVERSEAS_NOTE.exec(l);
+          if (m) m[1].split(", ").forEach((s) => overseas.add(s));
+          else if (!lines.includes(l)) lines.push(l);
+        }
+        continue;
+      }
+      if (wasOverseas(t)) {
+        const m = OVERSEAS_NOTE.exec(note);
+        (m ? m[1].split(", ") : t.refs.map((r) => r.source).filter((s) => s !== SRC)).forEach((s) => overseas.add(s));
+        continue;
+      }
+      // クライアントに無い段階の行
+      const lm = levelMap(t);
+      const outside = lm ? [...lm].filter(([lv]) => lv > 0 && !all[String(lv)]).map(([, r]) => r.level) : []; // +0 は未強化の段階
+      // 段階の対応が取れない行 (+1～+5 のような区間) の能力値は注記に残す
+      const statText = t.rows
+        .filter((r) => !statsMoved && r.stats?.length && (!lm || levelOf(r.level) === undefined))
+        .map((r) => `${r.level}: ${r.stats!.map((x) => `${x.name} ${x.value}${x.note ? ` (${x.note})` : ""}`).join(", ")}`);
+      const body = [
+        note,
+        outside.length ? `${outside.join("・")} の行はクライアントに無い。` : "",
+        statText.length ? `能力値 ${statText.join(" / ")}。` : "",
+      ]
+        .filter(Boolean)
+        .join(" ");
+      const label = srcLabel(t.refs);
+      const key = `${label}\t${body}`;
+      const cur = byNote.get(key);
+      if (cur) cur.names.push(t.name);
+      else {
+        byNote.set(key, { label, names: [t.name], note: body });
+        lines.push(key);
+      }
+    }
+    const noteLines = lines.map((l) => {
+      const b = byNote.get(l);
+      return b ? `${b.label}${b.names.map((n) => `「${n}」`).join("")}${b.note ? `: ${b.note}` : ""}` : l;
+    });
+    if (overseas.size) noteLines.push(`以前は海外版の表 (${[...overseas].sort().join(", ")}) を掲載していた。`);
+    // 名前: 上書き → 新しい日本版の告知の表 → 前回統合した表 (対象が同じとき。再実行で名前が変わらないように) → 対象アイテム名の共通部分
+    const prevTable = members.find((t) => t.id === id);
+    const samePrev = prevTable && prevTable.applies_to.length === applies.length && applies.every((a) => prevTable.applies_to.includes(a));
+    const notice = members.find((t) => !t.id.startsWith("client-enh-") && !wasOverseas(t) && isJpOfficial(t));
+    const common = commonName(applies);
+    const name =
+      NAME_OVERRIDE[id] ??
+      (notice ? tidyName(notice.name) : undefined) ??
+      (samePrev && !/ほか\d+件 強化$/.test(prevTable.name) ? prevTable.name : undefined) ??
+      (common.length >= 2 ? `${common} 強化` : `${applies[0]} ほか${applies.length - 1}件 強化`);
+    const t: EnhanceTable = { id, name, kind: "enhance", applies_to: applies, rows, notes: [HEADER, ...noteLines].join("\n"), refs };
+    if (!prevTable) inc("enhance.new");
+    for (const m of [...members, ...extras]) if (m.id !== id && !removed.has(m.id)) removed.set(m.id, id);
+    if (members.length > 1 || (members[0] && members[0].id !== id)) log.push(`強化表を統合 ${id} ← ${members.map((m) => m.id).join(", ")}`);
+    created.set(id, t);
+  }
+  // 置き換え: 統合先は吸収元のうち最初の位置に置く
+  const next: EnhanceTable[] = [];
+  const placed = new Set<string>();
+  for (const t of outTables) {
+    const to = created.has(t.id) ? t.id : removed.get(t.id);
+    if (!to) {
+      next.push(t);
+      continue;
+    }
+    if (to !== t.id) inc("enhance.absorbed");
+    if (created.has(to) && !placed.has(to)) {
+      next.push(created.get(to)!);
+      placed.add(to);
+    }
+  }
+  for (const [id, t] of created) if (!placed.has(id)) next.push(t);
+  outTables.splice(0, outTables.length, ...next);
+  // 転送: 吸収した表の旧 id → 統合先 (連鎖は最終の id に、今ある表の id は転送しない)
+  for (const [from, to] of removed) tableAliases[from] = to;
+  const live = new Set(outTables.map((t) => t.id));
+  for (const k of Object.keys(tableAliases)) {
+    let to = tableAliases[k];
+    for (let i = 0; i < 10 && tableAliases[to]; i++) to = tableAliases[to];
+    if (live.has(k) || !live.has(to)) delete tableAliases[k];
+    else tableAliases[k] = to;
   }
 }
 // 新しい表の素材で data に無いものはスタブを作る
@@ -803,6 +1092,7 @@ if (!dry) {
   await writeJson("data/items.json", items);
   await writeJson("data/materials.json", materials);
   await writeJson("data/enhance_tables.json", outTables);
+  await writeJson("ingest/table_aliases.json", Object.fromEntries(Object.entries(tableAliases).sort(([a], [b]) => a.localeCompare(b))));
   await writeJson("data/recipes.json", recipes);
   await writeJson("data/drops.json", drops);
   await writeJson("data/sets.json", sets);

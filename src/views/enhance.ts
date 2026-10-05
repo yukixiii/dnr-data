@@ -1,5 +1,5 @@
 // 強化・段階確率表と期待試行回数の計算
-import { ds, newestFirst, refDate, tableById } from "../data.ts";
+import { currentTableId, ds, newestFirst, refDate, tableById } from "../data.ts";
 import type { EnhanceTable } from "../types.ts";
 import {
   SPLIT_MAX_COLS,
@@ -35,6 +35,9 @@ const num = (v: number | string | undefined) => {
   return undefined;
 };
 
+/** 強化の段階の行 (進化の行を除く) */
+export const stepRows = (t: EnhanceTable) => t.rows.filter((r) => !r.evolve);
+
 const fmt = (n: number, digits = 2) => n.toLocaleString("ja-JP", { maximumFractionDigits: digits });
 
 export function renderEnhanceList(query: URLSearchParams) {
@@ -47,7 +50,7 @@ export function renderEnhanceList(query: URLSearchParams) {
       ? `<ul class="cards">${list
           .map(
             (t) => `<li class="card"><div class="card-title"><a href="${href("enhance", t.id)}">${esc(t.name)}</a></div>
-        <div class="card-meta"><span class="chip">${KIND_LABEL[t.kind]}</span><span class="chip">${t.rows.length}段階</span>${refDate(t.refs) ? `<span class="chip">${esc(refDate(t.refs))}</span>` : ""}</div>
+        <div class="card-meta"><span class="chip">${KIND_LABEL[t.kind]}</span><span class="chip">${stepRows(t).length}段階</span>${refDate(t.refs) ? `<span class="chip">${esc(refDate(t.refs))}</span>` : ""}</div>
         <div class="card-foot">${regionBadges(t.refs)}</div></li>`,
           )
           .join("")}</ul>`
@@ -56,7 +59,7 @@ export function renderEnhanceList(query: URLSearchParams) {
 }
 
 export function renderEnhanceTable(id: string) {
-  const t = tableById.get(id);
+  const t = tableById.get(id) ?? tableById.get(currentTableId(id)); // 統合された旧 id のリンク
   if (!t) return `<h1>${esc(id)}</h1>${empty("確率表が見つかりません")}`;
 
   // 「その他」(ランダムオプション獲得率など) の rate は成功率ではないので期待回数は出さない
@@ -69,9 +72,9 @@ export function renderEnhanceTable(id: string) {
   const uniformText =
     t.rows.every((r) => r.rate === undefined) && new Set(t.rows.map((r) => r.rate_text ?? "")).size === 1 ? t.rows[0]?.rate_text : undefined;
   const hasRate = !uniformText && t.rows.some((r) => r.rate !== undefined || r.rate_text);
-  const canCalc = isSuccessRate && t.rows.every((r) => r.rate !== undefined && r.rate > 0);
+  const canCalc = isSuccessRate && stepRows(t).every((r) => r.rate !== undefined && r.rate > 0);
 
-  const layout = hasStats ? statLayout(t.rows.map((r) => r.stats ?? [])) : undefined;
+  const layout = hasStats ? statLayout(stepRows(t).map((r) => r.stats ?? [])) : undefined;
   const baseCols = 1 + [hasRate, hasGold, hasMat, hasFail].filter(Boolean).length + (canCalc ? 2 + (hasGold ? 1 : 0) : 0);
   // 能力値の列を足しても見やすい幅なら1つの表、多すぎるなら確率表とステータス表に分ける
   const combined = !!layout && baseCols + statColCount(layout) <= SPLIT_MAX_COLS;
@@ -81,7 +84,13 @@ export function renderEnhanceTable(id: string) {
   let cumTries = 0;
   let cumGold = 0;
   let goldKnown = true;
+  const colCount = baseCols + (combined ? statColCount(layout!) : 0);
   const rows = t.rows.map((r) => {
+    // 進化の行: 表を区切って説明と素材を出す (期待回数の計算には入れない)
+    if (r.evolve)
+      return `<tr class="evolve-row"><th>${esc(r.level)}</th><td colspan="${colCount - 1}"><strong>進化</strong> ${esc(r.evolve)}${
+        r.materials?.length ? `<br>素材: ${r.materials.map((m) => itemLink(m.item, m.qty)).join("、")}` : ""
+      }</td></tr>`;
     let calc = "";
     if (canCalc) {
       const tries = 100 / r.rate!;
@@ -116,7 +125,7 @@ export function renderEnhanceTable(id: string) {
   const statTable =
     layout && !combined
       ? statGrid(
-          t.rows.map((r) => ({ head: [r.level], stats: r.stats ?? [] })),
+          stepRows(t).map((r) => ({ head: [r.level], stats: r.stats ?? [] })),
           ["段階"],
           { caption: !showProb ? uniformText : undefined },
         )

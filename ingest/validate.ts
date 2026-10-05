@@ -81,6 +81,15 @@ async function main() {
     t.applies_to.forEach((id) => needItem(`enhance ${t.id} applies_to`, id));
     t.rows.forEach((row) => row.materials?.forEach((m) => needItem(`enhance ${t.id} ${row.level}`, m.item)));
   }
+  // 統合された強化表の旧 id の転送先
+  if (!draft) {
+    const tableIds = new Set(ds.enhance_tables.map((t) => t.id));
+    const tableAliases: Record<string, string> = await readJson("ingest/table_aliases.json");
+    for (const [from, to] of Object.entries(tableAliases)) {
+      if (!tableIds.has(to)) errors.push(`table_aliases ${from}: 転送先の表 "${to}" が無い`);
+      if (tableIds.has(from)) errors.push(`table_aliases ${from}: 転送元の id が表として残っている`);
+    }
+  }
   const setIds = new Set(ds.sets.map((x) => x.id));
   for (const it of [...ds.items, ...ds.materials]) if (it.set && !setIds.has(it.set)) errors.push(`item ${it.id}: 未定義のセット "${it.set}"`);
   for (const it of [...ds.items, ...ds.materials]) it.members?.forEach((m) => needItem(`item ${it.id} members`, m));

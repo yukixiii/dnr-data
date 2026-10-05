@@ -111,6 +111,7 @@ export interface EnhanceRow {
   materials?: Qty[];
   on_fail?: string; // "維持" "-1" "破壊" 等
   stats?: Stat[]; // その段階で上がる能力値があれば
+  evolve?: string; // 強化ではなく進化の行 (+15 で進化してから続きを強化する装備など)。説明文
 }
 
 export interface EnhanceTable {

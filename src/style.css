@@ -653,6 +653,11 @@ details.stage-detail {
 details.stage-detail > summary {
   color: var(--link);
 }
+table.data tr.evolve-row > * {
+  background: var(--surface-2);
+  border-top: 2px solid var(--link);
+  border-bottom: 2px solid var(--link);
+}
 table.data tr.gap > * {
   border-bottom-style: dashed;
 }

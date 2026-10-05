@@ -147,7 +147,8 @@
               "gold": { "type": ["number", "string"] },
               "materials": { "type": "array", "items": { "$ref": "#/definitions/qty" } },
               "on_fail": { "type": "string" },
-              "stats": { "type": "array", "items": { "$ref": "#/definitions/stat" } }
+              "stats": { "type": "array", "items": { "$ref": "#/definitions/stat" } },
+              "evolve": { "type": "string" }
             }
           }
         },
