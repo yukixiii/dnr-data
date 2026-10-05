@@ -16,6 +16,7 @@
 //  - 分解: 告知の分解レシピが無い装備に、クライアントの分解表からレシピ (client-dis-*) を作る。
 //  - クリア報酬: ダンジョンのクリア報酬の箱 (金箱・銀箱) の表 (client-clear-*) を作る。
 //  - エリア報酬: ネストの中間 (エリア) 報酬の表 (client-area-*)、マップのトリガーの報酬の表 (client-trig-*) を作る。
+//  - ネストの最終報酬: ボスマップのトリガーの報酬を種類ごとに (client-final-<クリアID>-<種類>)。階層で変わるものは item_columns。
 //    ドロップ表の確率はクライアントで 0 にされているので、分解とクリア報酬は出る候補と個数だけ。
 //  - 能力値の名前は表記ゆれを 1 つに揃える (STAT_NAMES)。
 // export.json は非公開のツール (dnr-client) が書き出す。npm run merge / rename:ids の後は export.py → apply:client を再実行する。
@@ -56,13 +57,27 @@ interface Export {
   dismantles?: Record<string, { client_id: number; gold?: number; plus0_only?: boolean; rows: { levels: [number, number]; entries: { item: string; qty: number }[] }[] }>;
   // ダンジョンのクリア報酬の箱 (確率はクライアントに無い)。counts は箱の種類ごとの個数
   // ネストのエリア (関門) 報酬 (nestareadrop.lua)。times はパーティー員 1 人あたりの回数
-  nest_areas?: Record<string, { map_id: number; area: number; rows: { floors?: string; times?: number; entries: { item: string; qty: number }[] }[] }[]>;
+  nest_areas?: Record<string, { map_id: number; area: number; mode?: string; rows: { floors?: string; times?: number; entries: { item: string; qty: number }[] }[] }[]>;
   // マップのトリガーが落とす報酬 (trigger.ini)。key はマップのファイル名 (表の id に使う)
   map_triggers?: Record<string, { key: string; rows: { trigger: string; floors?: string; entries: { item: string; qty: number }[] }[] }>;
   // 一般ネスト (12 ネスト) のクリア報酬。common = 共通、nests = ネスト固有 (ボスマップのトリガーが共通と同時に落とすグループ)
   general_nests?: { common: NestFloorRow[]; nests: { name: string; map_id: number; group: number; rows: NestFloorRow[] }[] };
   // ラビリンス (メイズモード) の報酬。stage = ステージクリア時のワープ、erosion = 侵蝕モードのクリア。groups は中身の同じドロップグループ
   labyrinth?: Partial<Record<"stage" | "erosion", { groups: number[]; rows: NestFloorRow[] }[]>>;
+  // ネストの最終報酬 (ボスマップのトリガー)。kind = final / bless / double / welcome / key_box / sunset / risky。
+  // party = 人数ごとのトリガーの中身が同じでまとめた、requires / rates = 条件のアイテムと、その人数ごとの確率 (%)
+  nest_finals?: Record<
+    string,
+    {
+      key: number;
+      kind: string;
+      groups: number[];
+      party?: boolean;
+      requires?: { item: string; qty: number[] }[];
+      rates?: [number, number][];
+      rows: { from?: string; floors?: string; entries: { item: string; qty: number | string }[] }[];
+    }[]
+  >;
   clears?: Record<string, { clear_id: number; show: number; select: number; counts: Record<string, number>; boxes: { box: string; floors?: string; entries: { item: string; qty: number }[] }[] }[]>;
   materials: Record<string, { client_id: number; kind: string; grade?: string; description?: string }>;
   sets: Record<string, { name: string | null; text: string | null; bonuses: { count: number; stats?: CStat[]; skill?: string }[]; items: string[] }>;
@@ -1014,16 +1029,23 @@ const drops = await readJson<DropTable[]>("data/drops.json");
   const NO_RATE = "クライアントのデータには確率が無い (0 で配布されている) ため、出る候補と個数だけを載せている。同じアイテムが個数違いで並ぶものは、どの個数が出るかの確率が不明。";
   for (const [dungeon, areas] of Object.entries(ex.nest_areas ?? {})) {
     drops.push({
-      id: `client-area-${areas[0].map_id}`,
+      id: `client-area-${Math.min(...areas.map((a) => a.map_id))}`,
       location: dungeon,
       location_kind: "dungeon",
       label: "エリア報酬 (候補)",
-      entries: areas.flatMap((a) =>
+      entries: [...areas].sort((a, b) => a.map_id - b.map_id).flatMap((a) =>
         a.rows.flatMap((r) =>
-          r.entries.map((e) => ({ item: e.item, from: `第${a.area}エリア${r.times ? ` (${r.times}回)` : ""}`, ...(r.floors ? { floors: r.floors } : {}), qty: e.qty })),
+          r.entries.map((e) => ({
+            item: e.item,
+            from: `${a.mode ? `${a.mode} ` : ""}第${a.area}エリア${r.times ? ` (${r.times}回)` : ""}`,
+            ...(r.floors && r.floors !== a.mode ? { floors: r.floors } : {}),
+            qty: e.qty,
+          })),
         ),
       ),
-      notes: `各エリアのボスを倒したときの中間報酬 (クライアントのネストのエリア報酬スクリプト)。報酬を受け取れるパーティー員 1 人ごとに出る。${NO_RATE}`,
+      notes: `各エリアのボスを倒したときの中間報酬 (クライアントのネストのエリア報酬スクリプト)。報酬を受け取れるパーティー員 1 人ごとに出る。${
+        areas.some((a) => a.mode) ? `クライアントではモード (${[...new Set(areas.map((a) => a.mode).filter(Boolean))].join("・")}) ごとに別のマップで、ボスのエリアの報酬がクリア報酬を兼ねる。` : ""
+      }${NO_RATE}`,
       refs: [{ source: SRC }],
     });
     inc("area");
@@ -1121,25 +1143,27 @@ const drops = await readJson<DropTable[]>("data/drops.json");
   }
 }
 
+// 階層ごとの報酬表 (ラビリンス・ネストの最終報酬) の共通
+const NO_RATE_QTY = "クライアントのデータには確率が無い (0 で配布されている) ため、出る候補と個数だけを載せている。同じアイテムが個数違いで並ぶもの (×N と ×3N など) は、どの個数が出るかの確率が不明。";
+// 総称 (members) の中身がすべて同じ個数で並ぶ階層は、総称 1 つにまとめる (上級月食のかけら 6 種など)
+const generics = [...items, ...materials].filter((i) => i.members?.length);
+const collapseGenerics = <R extends { entries: { item: string; qty: number | string }[] }>(r: R): R => {
+  let es = r.entries;
+  for (const g of generics) {
+    const qs = g.members!.map((m) => JSON.stringify(es.filter((e) => e.item === m).map((e) => e.qty)));
+    if (qs[0] === "[]" || new Set(qs).size !== 1) continue;
+    const at = es.findIndex((e) => g.members!.includes(e.item));
+    const mine = es.filter((e) => e.item === g.members![0]).map((e) => ({ item: g.id, qty: e.qty }));
+    es = es.filter((e) => !g.members!.includes(e.item));
+    es.splice(at, 0, ...mine);
+  }
+  return { ...r, entries: es };
+};
+
 // ---- ラビリンス (メイズモード) の報酬 ----
 {
   for (let i = drops.length - 1; i >= 0; i--) if (drops[i].id.startsWith("client-maze-")) drops.splice(i, 1);
   const MAZE = "ラビリンス(メイズモード)";
-  const NO_RATE = "クライアントのデータには確率が無い (0 で配布されている) ため、出る候補と個数だけを載せている。同じアイテムが個数違いで並ぶもの (×N と ×3N など) は、どの個数が出るかの確率が不明。";
-  // 総称 (members) の中身がすべて同じ個数で並ぶ階層は、総称 1 つにまとめる (上級月食のかけら 6 種など)
-  const generics = [...items, ...materials].filter((i) => i.members?.length);
-  const collapse = (r: NestFloorRow) => {
-    let es = r.entries;
-    for (const g of generics) {
-      const qs = g.members!.map((m) => JSON.stringify(es.filter((e) => e.item === m).map((e) => e.qty)));
-      if (qs[0] === "[]" || new Set(qs).size !== 1) continue;
-      const at = es.findIndex((e) => g.members!.includes(e.item));
-      const mine = es.filter((e) => e.item === g.members![0]).map((e) => ({ item: g.id, qty: e.qty }));
-      es = es.filter((e) => !g.members!.includes(e.item));
-      es.splice(at, 0, ...mine);
-    }
-    return { ...r, entries: es };
-  };
   const KINDS = {
     stage: {
       label: "ステージクリア報酬 (候補)",
@@ -1154,12 +1178,62 @@ const drops = await readJson<DropTable[]>("data/drops.json");
         location: MAZE,
         location_kind: "dungeon",
         label: def.label,
-        entries: t.rows.map(collapse).flatMap((r) => r.entries.map((e) => ({ item: e.item, floors: r.floors, qty: e.qty }))),
+        entries: t.rows.map(collapseGenerics).flatMap((r) => r.entries.map((e) => ({ item: e.item, floors: r.floors, qty: e.qty }))),
         layout: "item_columns",
-        notes: `${def.notes}${NO_RATE}`,
+        notes: `${def.notes}${NO_RATE_QTY}`,
         refs: [{ source: SRC }],
       });
       inc("maze");
+    }
+  }
+}
+
+// ---- ネストの最終報酬 (ボスマップのトリガー) ----
+{
+  for (let i = drops.length - 1; i >= 0; i--) if (drops[i].id.startsWith("client-final-")) drops.splice(i, 1);
+  const KINDS: Record<string, { label: string; notes: string }> = {
+    final: { label: "クリア報酬 (候補)", notes: "ボスを倒したあとの報酬 (クライアントのボスマップのトリガー)。" },
+    bless: { label: "祝福の箱 (候補)", notes: "クリア後に確率で出現する祝福の箱から落ちる (出現する確率はクライアントからは分からない)。" },
+    double: { label: "追加報酬 (候補)", notes: "クリア報酬とは別に、確率で落ちる。" },
+    welcome: { label: "ウェルカム魔物モードの報酬 (候補)", notes: "1 人で入場したとき (ウェルカム魔物モード) に、エリアの報酬とは別に落ちる。" },
+    key_box: { label: "鍵で開ける箱 (候補)", notes: "クリア後に鍵で開ける箱 (トリガーの名前は DimensionBox / BoxKeyCheck。告知 1311 の「混沌の中の秩序の鍵」の報酬と思われる)。" },
+    sunset: { label: "洛陽の報酬箱 (候補)", notes: "トリガーの名前が SunSet_Key (洛陽の鍵) の報酬。告知 1246 の「報酬箱 (洛陽/闇夜)」の洛陽の方と思われる。" },
+    risky: { label: "リスキーポータルの箱 (候補)", notes: "リスキーミッション達成後の箱。" },
+  };
+  const EXTRA: Record<string, string> = {
+    解放のプロフェッサーKネスト:
+      "疲労度ブースト使用時は、一般ネスト(12ネスト) の共通の表とプロフェッサーKネストの固有の表が追加で落ちる (一般ネストの表を参照)。同じマップのファイルにある依頼・ラビリンス用の報酬は除いている。",
+  };
+  for (const [dungeon, ts] of Object.entries(ex.nest_finals ?? {})) {
+    for (const t of ts) {
+      const def = KINDS[t.kind] ?? { label: `${t.kind} (候補)`, notes: "" };
+      const rows = t.rows.map(collapseGenerics);
+      const floors = new Set(rows.map((r) => r.floors).filter(Boolean));
+      const req = t.requires?.[0];
+      const notes = [
+        def.notes,
+        t.party ? "パーティーの人数 (1～8 人) ごとにトリガーが分かれているが、中身は同じ (人数で変わるのは確率と思われる)。" : "",
+        rows.some((r) => r.from?.startsWith("クリア等級")) ? "クリア等級 (R/SR/SSR) ごとに表が分かれる。" : "",
+        req && t.rates
+          ? `パーティーで「${req.item}」を持っている人数に応じた確率で落ちる (${t.rates.map(([n, r]) => `${n}人 ${r}%`).join("・")}。トリガーの条件の値)。`
+          : req
+            ? `開けるのに「${req.item}」×${req.qty.join("/")} が要る (トリガーの条件)。`
+            : "",
+        EXTRA[dungeon] && t.kind === "final" ? EXTRA[dungeon] : "",
+        floors.size >= 2 ? "階層によって中身が変わる。" : "",
+        NO_RATE_QTY,
+      ].join("");
+      drops.push({
+        id: `client-final-${t.key}-${t.kind}`,
+        location: dungeon,
+        location_kind: "dungeon",
+        label: t.kind === "double" && req ? `「${req.item}」の追加報酬 (候補)` : def.label,
+        entries: rows.flatMap((r) => r.entries.map((e) => ({ item: e.item, ...(r.from ? { from: r.from } : {}), ...(r.floors ? { floors: r.floors } : {}), qty: e.qty }))),
+        ...(floors.size >= 2 ? { layout: "item_columns" as const } : {}),
+        notes,
+        refs: [{ source: SRC }],
+      });
+      inc("final");
     }
   }
 }

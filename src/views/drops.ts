@@ -100,12 +100,26 @@ function itemColumnsHtml(entries: ShownEntry[]) {
     if (!qs.includes(q)) qs.push(q);
   }
   const ordered = [...rows.values()].sort((a, b) => compareFloors(a.label, b.label));
+  // どの階層でも同じ個数が並ぶアイテム (紋章 4 種・能力強化紋章の各種など) は 1 列にまとめる
+  const cell = (qty: Map<string, string[]>, c: string) => (qty.get(c) ?? []).join(" / ");
+  const merged = new Map<string, string[]>(); // 列の中身 → アイテム
+  for (const c of cols) {
+    const sig = ordered.map(({ qty }) => cell(qty, c)).join("\t");
+    merged.set(sig, [...(merged.get(sig) ?? []), c]);
+  }
+  const groups = [...merged.values()];
+  const MAX_HEAD = 4;
+  const headOf = (g: string[]) =>
+    g.length <= MAX_HEAD
+      ? g.map((c) => itemLink(c)).join("<br>")
+      : `${g.slice(0, 2).map((c) => itemLink(c)).join("<br>")}<details><summary>ほか ${g.length - 2} 種</summary>${g.slice(2).map((c) => itemLink(c)).join("<br>")}</details>`;
   const body = ordered
-    .map(({ label, qty }) => `<tr><th>${esc(label)}</th>${cols.map((c) => `<td class="num">${esc((qty.get(c) ?? []).join(" / "))}</td>`).join("")}</tr>`)
+    .map(({ label, qty }) => `<tr><th>${esc(label)}</th>${groups.map((g) => `<td class="num">${esc(cell(qty, g[0]))}</td>`).join("")}</tr>`)
     .join("");
   return `${all.length ? `<p><strong>${ALL_FLOORS}:</strong> ${all.map((e) => `${itemLink(e.item, e.qty)}${viaNote(e.via)}`).join("、")}</p>` : ""}
+    ${groups.some((g) => g.length > 1) ? `<p class="muted">どの階層でも同じ個数が並ぶアイテムは 1 列にまとめている (それぞれがその個数)。</p>` : ""}
     <div class="table-wrap"><table class="data item-columns">
-      <thead><tr><th>階層</th>${cols.map((c) => `<th>${itemLink(c)}</th>`).join("")}</tr></thead>
+      <thead><tr><th>階層</th>${groups.map((g) => `<th>${headOf(g)}</th>`).join("")}</tr></thead>
       <tbody>${body}</tbody>
     </table></div>`;
 }
