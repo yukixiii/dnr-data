@@ -9,6 +9,7 @@
    "kind": "accessory",
    "slot": "ブローチ",
    "grade": "ユニーク",
+   "icon": 1999950,
    "stats": [
     {
      "name": "物魔攻撃%",
@@ -33,6 +34,7 @@
    "kind": "accessory",
    "slot": "ブローチ",
    "grade": "ユニーク",
+   "icon": 1999935,
    "stats": [
     {
      "name": "属性%",
@@ -57,6 +59,7 @@
    "kind": "accessory",
    "slot": "ブローチ",
    "grade": "ユニーク",
+   "icon": 1999950,
    "stats": [
     {
      "name": "物魔攻撃%",
@@ -81,6 +84,7 @@
    "kind": "accessory",
    "slot": "ブローチ",
    "grade": "ユニーク",
+   "icon": 1999935,
    "stats": [
     {
      "name": "属性%",
@@ -105,6 +109,7 @@
    "kind": "accessory",
    "slot": "ブローチ",
    "grade": "ユニーク",
+   "icon": 1999950,
    "stats": [
     {
      "name": "物魔攻撃%",
@@ -129,6 +134,7 @@
    "kind": "accessory",
    "slot": "ブローチ",
    "grade": "ユニーク",
+   "icon": 1999935,
    "stats": [
     {
      "name": "属性%",
@@ -153,6 +159,7 @@
    "kind": "accessory",
    "slot": "ブローチ",
    "grade": "ユニーク",
+   "icon": 1999950,
    "stats": [
     {
      "name": "物魔攻撃%",
@@ -177,6 +184,7 @@
    "kind": "accessory",
    "slot": "ブローチ",
    "grade": "ユニーク",
+   "icon": 1999935,
    "stats": [
     {
      "name": "属性%",
@@ -201,6 +209,7 @@
    "kind": "accessory",
    "slot": "ブローチ",
    "grade": "ユニーク",
+   "icon": 1999950,
    "stats": [
     {
      "name": "物魔攻撃%",
@@ -225,6 +234,7 @@
    "kind": "accessory",
    "slot": "ブローチ",
    "grade": "ユニーク",
+   "icon": 1999935,
    "stats": [
     {
      "name": "属性%",
@@ -249,6 +259,7 @@
    "kind": "accessory",
    "slot": "ブローチ",
    "grade": "ユニーク",
+   "icon": 1999950,
    "stats": [
     {
      "name": "物魔攻撃%",
@@ -273,6 +284,7 @@
    "kind": "accessory",
    "slot": "ブローチ",
    "grade": "ユニーク",
+   "icon": 1999935,
    "stats": [
     {
      "name": "属性%",
@@ -297,6 +309,7 @@
    "kind": "accessory",
    "slot": "ブローチ",
    "grade": "ユニーク",
+   "icon": 2000024,
    "stats": [
     {
      "name": "属性%",
@@ -329,6 +342,7 @@
    "kind": "accessory",
    "slot": "ブローチ",
    "grade": "ユニーク",
+   "icon": 1999950,
    "stats": [
     {
      "name": "物魔攻撃%",
@@ -353,6 +367,7 @@
    "kind": "accessory",
    "slot": "ブローチ",
    "grade": "ユニーク",
+   "icon": 1999935,
    "stats": [
     {
      "name": "属性%",
@@ -377,6 +392,7 @@
    "kind": "accessory",
    "slot": "ブローチ",
    "grade": "マジック",
+   "icon": 2000021,
    "stats": [
     {
      "name": "物理防御",
@@ -392,6 +408,7 @@
    "kind": "accessory",
    "slot": "ブローチ",
    "grade": "レア",
+   "icon": 2000022,
    "stats": [
     {
      "name": "物理防御",
@@ -415,6 +432,7 @@
    "kind": "accessory",
    "slot": "ブローチ",
    "grade": "エピック",
+   "icon": 2000023,
    "stats": [
     {
      "name": "物理防御",
@@ -438,6 +456,7 @@
    "kind": "accessory",
    "slot": "ブローチ",
    "grade": "エピック",
+   "icon": 1999949,
    "stats": [
     {
      "name": "物魔攻撃%",
@@ -461,6 +480,7 @@
    "kind": "accessory",
    "slot": "ブローチ",
    "grade": "マジック",
+   "icon": 1999947,
    "stats": [
     {
      "name": "物魔攻撃%",
@@ -476,6 +496,7 @@
    "kind": "accessory",
    "slot": "ブローチ",
    "grade": "レア",
+   "icon": 1999948,
    "stats": [
     {
      "name": "物魔攻撃%",
@@ -499,6 +520,7 @@
    "kind": "accessory",
    "slot": "ブローチ",
    "grade": "エピック",
+   "icon": 1999934,
    "stats": [
     {
      "name": "属性%",
@@ -522,6 +544,7 @@
    "kind": "accessory",
    "slot": "ブローチ",
    "grade": "マジック",
+   "icon": 1999932,
    "stats": [
     {
      "name": "属性%",
@@ -537,6 +560,7 @@
    "kind": "accessory",
    "slot": "ブローチ",
    "grade": "レア",
+   "icon": 1999933,
    "stats": [
     {
      "name": "属性%",
@@ -560,6 +584,7 @@
    "kind": "accessory",
    "slot": "ブローチ",
    "grade": "ユニーク",
+   "icon": 2000024,
    "stats": [
     {
      "name": "属性%",
@@ -592,6 +617,7 @@
    "kind": "accessory",
    "slot": "ブローチ",
    "grade": "ユニーク",
+   "icon": 1999950,
    "stats": [
     {
      "name": "物魔攻撃%",
@@ -616,6 +642,7 @@
    "kind": "accessory",
    "slot": "ブローチ",
    "grade": "ユニーク",
+   "icon": 1999935,
    "stats": [
     {
      "name": "属性%",
@@ -640,6 +667,7 @@
    "kind": "accessory",
    "slot": "ブローチ",
    "grade": "マジック",
+   "icon": 2000021,
    "stats": [
     {
      "name": "物理防御",
@@ -655,6 +683,7 @@
    "kind": "accessory",
    "slot": "ブローチ",
    "grade": "レア",
+   "icon": 2000022,
    "stats": [
     {
      "name": "物理防御",
@@ -678,6 +707,7 @@
    "kind": "accessory",
    "slot": "ブローチ",
    "grade": "エピック",
+   "icon": 2000023,
    "stats": [
     {
      "name": "物理防御",
@@ -701,6 +731,7 @@
    "kind": "accessory",
    "slot": "ブローチ",
    "grade": "エピック",
+   "icon": 1999949,
    "stats": [
     {
      "name": "物魔攻撃%",
@@ -724,6 +755,7 @@
    "kind": "accessory",
    "slot": "ブローチ",
    "grade": "マジック",
+   "icon": 1999947,
    "stats": [
     {
      "name": "物魔攻撃%",
@@ -739,6 +771,7 @@
    "kind": "accessory",
    "slot": "ブローチ",
    "grade": "レア",
+   "icon": 1999948,
    "stats": [
     {
      "name": "物魔攻撃%",
@@ -762,6 +795,7 @@
    "kind": "accessory",
    "slot": "ブローチ",
    "grade": "エピック",
+   "icon": 1999934,
    "stats": [
     {
      "name": "属性%",
@@ -785,6 +819,7 @@
    "kind": "accessory",
    "slot": "ブローチ",
    "grade": "マジック",
+   "icon": 1999932,
    "stats": [
     {
      "name": "属性%",
@@ -800,6 +835,7 @@
    "kind": "accessory",
    "slot": "ブローチ",
    "grade": "レア",
+   "icon": 1999933,
    "stats": [
     {
      "name": "属性%",
@@ -823,6 +859,7 @@
    "kind": "accessory",
    "slot": "ブローチ",
    "grade": "ユニーク",
+   "icon": 2000024,
    "stats": [
     {
      "name": "属性%",
@@ -855,6 +892,7 @@
    "kind": "accessory",
    "slot": "ブローチ",
    "grade": "ユニーク",
+   "icon": 1999950,
    "stats": [
     {
      "name": "物魔攻撃%",
@@ -879,6 +917,7 @@
    "kind": "accessory",
    "slot": "ブローチ",
    "grade": "ユニーク",
+   "icon": 1999935,
    "stats": [
     {
      "name": "属性%",
@@ -903,6 +942,7 @@
    "kind": "accessory",
    "slot": "ブローチ",
    "grade": "マジック",
+   "icon": 2000021,
    "stats": [
     {
      "name": "物理防御",
@@ -918,6 +958,7 @@
    "kind": "accessory",
    "slot": "ブローチ",
    "grade": "レア",
+   "icon": 2000022,
    "stats": [
     {
      "name": "物理防御",
@@ -941,6 +982,7 @@
    "kind": "accessory",
    "slot": "ブローチ",
    "grade": "エピック",
+   "icon": 2000023,
    "stats": [
     {
      "name": "物理防御",
@@ -968,6 +1010,7 @@
    "kind": "accessory",
    "slot": "ブローチ",
    "grade": "エピック",
+   "icon": 1999949,
    "stats": [
     {
      "name": "物魔攻撃%",
@@ -991,6 +1034,7 @@
    "kind": "accessory",
    "slot": "ブローチ",
    "grade": "マジック",
+   "icon": 1999947,
    "stats": [
     {
      "name": "物魔攻撃%",
@@ -1006,6 +1050,7 @@
    "kind": "accessory",
    "slot": "ブローチ",
    "grade": "レア",
+   "icon": 1999948,
    "stats": [
     {
      "name": "物魔攻撃%",
@@ -1029,6 +1074,7 @@
    "kind": "accessory",
    "slot": "ブローチ",
    "grade": "エピック",
+   "icon": 1999934,
    "stats": [
     {
      "name": "属性%",
@@ -1052,6 +1098,7 @@
    "kind": "accessory",
    "slot": "ブローチ",
    "grade": "マジック",
+   "icon": 1999932,
    "stats": [
     {
      "name": "属性%",
@@ -1067,6 +1114,7 @@
    "kind": "accessory",
    "slot": "ブローチ",
    "grade": "レア",
+   "icon": 1999933,
    "stats": [
     {
      "name": "属性%",
@@ -1090,6 +1138,7 @@
    "kind": "accessory",
    "slot": "ブローチ",
    "grade": "ユニーク",
+   "icon": 2000024,
    "stats": [
     {
      "name": "属性%",
@@ -1122,6 +1171,7 @@
    "kind": "accessory",
    "slot": "ブローチ",
    "grade": "ユニーク",
+   "icon": 1999950,
    "stats": [
     {
      "name": "物魔攻撃%",
@@ -1146,6 +1196,7 @@
    "kind": "accessory",
    "slot": "ブローチ",
    "grade": "ユニーク",
+   "icon": 1999935,
    "stats": [
     {
      "name": "属性%",
@@ -1170,6 +1221,7 @@
    "kind": "accessory",
    "slot": "ブローチ",
    "grade": "マジック",
+   "icon": 2000021,
    "stats": [
     {
      "name": "物理防御",
@@ -1185,6 +1237,7 @@
    "kind": "accessory",
    "slot": "ブローチ",
    "grade": "レア",
+   "icon": 2000022,
    "stats": [
     {
      "name": "物理防御",
@@ -1208,6 +1261,7 @@
    "kind": "accessory",
    "slot": "ブローチ",
    "grade": "エピック",
+   "icon": 2000023,
    "stats": [
     {
      "name": "物理防御",
@@ -1235,6 +1289,7 @@
    "kind": "accessory",
    "slot": "ブローチ",
    "grade": "エピック",
+   "icon": 1999949,
    "stats": [
     {
      "name": "物魔攻撃%",
@@ -1258,6 +1313,7 @@
    "kind": "accessory",
    "slot": "ブローチ",
    "grade": "マジック",
+   "icon": 1999947,
    "stats": [
     {
      "name": "物魔攻撃%",
@@ -1273,6 +1329,7 @@
    "kind": "accessory",
    "slot": "ブローチ",
    "grade": "レア",
+   "icon": 1999948,
    "stats": [
     {
      "name": "物魔攻撃%",
@@ -1296,6 +1353,7 @@
    "kind": "accessory",
    "slot": "ブローチ",
    "grade": "エピック",
+   "icon": 1999934,
    "stats": [
     {
      "name": "属性%",
@@ -1319,6 +1377,7 @@
    "kind": "accessory",
    "slot": "ブローチ",
    "grade": "マジック",
+   "icon": 1999932,
    "stats": [
     {
      "name": "属性%",
@@ -1334,6 +1393,7 @@
    "kind": "accessory",
    "slot": "ブローチ",
    "grade": "レア",
+   "icon": 1999933,
    "stats": [
     {
      "name": "属性%",
@@ -1357,6 +1417,7 @@
    "kind": "accessory",
    "slot": "ブローチ",
    "grade": "ユニーク",
+   "icon": 2000024,
    "stats": [
     {
      "name": "属性%",
@@ -1389,6 +1450,7 @@
    "kind": "accessory",
    "slot": "ブローチ",
    "grade": "ユニーク",
+   "icon": 1999950,
    "stats": [
     {
      "name": "物魔攻撃%",
@@ -1413,6 +1475,7 @@
    "kind": "accessory",
    "slot": "ブローチ",
    "grade": "ユニーク",
+   "icon": 1999935,
    "stats": [
     {
      "name": "属性%",
@@ -1437,6 +1500,7 @@
    "kind": "accessory",
    "slot": "ブローチ",
    "grade": "マジック",
+   "icon": 2000021,
    "stats": [
     {
      "name": "物理防御",
@@ -1452,6 +1516,7 @@
    "kind": "accessory",
    "slot": "ブローチ",
    "grade": "レア",
+   "icon": 2000022,
    "stats": [
     {
      "name": "物理防御",
@@ -1475,6 +1540,7 @@
    "kind": "accessory",
    "slot": "ブローチ",
    "grade": "エピック",
+   "icon": 2000023,
    "stats": [
     {
      "name": "物理防御",
@@ -1502,6 +1568,7 @@
    "kind": "accessory",
    "slot": "ブローチ",
    "grade": "エピック",
+   "icon": 1999949,
    "stats": [
     {
      "name": "物魔攻撃%",
@@ -1525,6 +1592,7 @@
    "kind": "accessory",
    "slot": "ブローチ",
    "grade": "マジック",
+   "icon": 1999947,
    "stats": [
     {
      "name": "物魔攻撃%",
@@ -1540,6 +1608,7 @@
    "kind": "accessory",
    "slot": "ブローチ",
    "grade": "レア",
+   "icon": 1999948,
    "stats": [
     {
      "name": "物魔攻撃%",
@@ -1563,6 +1632,7 @@
    "kind": "accessory",
    "slot": "ブローチ",
    "grade": "エピック",
+   "icon": 1999934,
    "stats": [
     {
      "name": "属性%",
@@ -1586,6 +1656,7 @@
    "kind": "accessory",
    "slot": "ブローチ",
    "grade": "マジック",
+   "icon": 1999932,
    "stats": [
     {
      "name": "属性%",
@@ -1601,6 +1672,7 @@
    "kind": "accessory",
    "slot": "ブローチ",
    "grade": "レア",
+   "icon": 1999933,
    "stats": [
     {
      "name": "属性%",
@@ -1624,6 +1696,7 @@
    "kind": "accessory",
    "slot": "ブローチ",
    "grade": "ユニーク",
+   "icon": 1999950,
    "stats": [
     {
      "name": "物魔攻撃%",
@@ -1648,6 +1721,7 @@
    "kind": "accessory",
    "slot": "ブローチ",
    "grade": "ユニーク",
+   "icon": 1999935,
    "stats": [
     {
      "name": "属性%",
@@ -1672,6 +1746,7 @@
    "kind": "accessory",
    "slot": "ブローチ",
    "grade": "ユニーク",
+   "icon": 1999950,
    "stats": [
     {
      "name": "物魔攻撃%",
@@ -1696,6 +1771,7 @@
    "kind": "accessory",
    "slot": "ブローチ",
    "grade": "ユニーク",
+   "icon": 1999935,
    "stats": [
     {
      "name": "属性%",
@@ -1720,6 +1796,7 @@
    "kind": "accessory",
    "slot": "ブローチ",
    "grade": "ユニーク",
+   "icon": 1999950,
    "stats": [
     {
      "name": "物魔攻撃%",
@@ -1744,6 +1821,7 @@
    "kind": "accessory",
    "slot": "ブローチ",
    "grade": "ユニーク",
+   "icon": 1999935,
    "stats": [
     {
      "name": "属性%",
@@ -1768,6 +1846,7 @@
    "kind": "accessory",
    "slot": "ブローチ",
    "grade": "ユニーク",
+   "icon": 1999950,
    "stats": [
     {
      "name": "物魔攻撃%",
@@ -1792,6 +1871,7 @@
    "kind": "accessory",
    "slot": "ブローチ",
    "grade": "ユニーク",
+   "icon": 1999935,
    "stats": [
     {
      "name": "属性%",
@@ -1816,6 +1896,7 @@
    "kind": "armor",
    "slot": "ヘルム",
    "grade": "レジェンド",
+   "icon": 35915,
    "level": 99,
    "tier": "Ⅰ",
    "stats": [
@@ -2546,6 +2627,7 @@
    "kind": "armor",
    "slot": "アーマー",
    "grade": "レジェンド",
+   "icon": 35911,
    "level": 99,
    "tier": "Ⅰ",
    "stats": [
@@ -3360,6 +3442,7 @@
    "kind": "armor",
    "slot": "ボトム",
    "grade": "レジェンド",
+   "icon": 35897,
    "level": 99,
    "tier": "Ⅰ",
    "stats": [
@@ -4174,6 +4257,7 @@
    "kind": "armor",
    "slot": "グローブ",
    "grade": "レジェンド",
+   "icon": 35898,
    "level": 99,
    "tier": "Ⅰ",
    "stats": [
@@ -4904,6 +4988,7 @@
    "kind": "armor",
    "slot": "ブーツ",
    "grade": "レジェンド",
+   "icon": 35914,
    "level": 99,
    "tier": "Ⅰ",
    "stats": [
@@ -5718,6 +5803,7 @@
    "kind": "armor",
    "slot": "ヘルム",
    "grade": "レジェンド",
+   "icon": 35915,
    "level": 99,
    "tier": "Ⅱ",
    "stats": [
@@ -6448,6 +6534,7 @@
    "kind": "armor",
    "slot": "アーマー",
    "grade": "レジェンド",
+   "icon": 35911,
    "level": 99,
    "tier": "Ⅱ",
    "stats": [
@@ -7262,6 +7349,7 @@
    "kind": "armor",
    "slot": "ボトム",
    "grade": "レジェンド",
+   "icon": 35897,
    "level": 99,
    "tier": "Ⅱ",
    "stats": [
@@ -8076,6 +8164,7 @@
    "kind": "armor",
    "slot": "グローブ",
    "grade": "レジェンド",
+   "icon": 35898,
    "level": 99,
    "tier": "Ⅱ",
    "stats": [
@@ -8806,6 +8895,7 @@
    "kind": "armor",
    "slot": "ブーツ",
    "grade": "レジェンド",
+   "icon": 35914,
    "level": 99,
    "tier": "Ⅱ",
    "stats": [
@@ -9620,6 +9710,7 @@
    "kind": "accessory",
    "slot": "イヤリング",
    "grade": "レジェンド",
+   "icon": 18829,
    "level": 95,
    "stats": [
     {
@@ -10178,6 +10269,7 @@
    "kind": "accessory",
    "slot": "ネックレス",
    "grade": "レジェンド",
+   "icon": 18828,
    "level": 95,
    "stats": [
     {
@@ -10672,6 +10764,7 @@
    "kind": "accessory",
    "slot": "ブローチ",
    "grade": "レジェンド",
+   "icon": 2000025,
    "stats": [
     {
      "name": "属性%",
@@ -10704,6 +10797,7 @@
    "kind": "armor",
    "slot": "アーマー",
    "grade": "レア",
+   "icon": 35026,
    "level": 95,
    "stats": [
     {
@@ -10737,6 +10831,7 @@
    "kind": "armor",
    "slot": "アーマー",
    "grade": "エピック",
+   "icon": 35026,
    "level": 95,
    "stats": [
     {
@@ -10769,6 +10864,7 @@
    "kind": "armor",
    "slot": "アーマー",
    "grade": "ユニーク",
+   "icon": 35026,
    "level": 95,
    "stats": [
     {
@@ -10801,6 +10897,7 @@
    "kind": "armor",
    "slot": "アーマー",
    "grade": "レジェンド",
+   "icon": 35026,
    "level": 95,
    "stats": [
     {
@@ -11278,6 +11375,7 @@
    "kind": "accessory",
    "slot": "イヤリング",
    "grade": "レア",
+   "icon": 8396,
    "level": 95,
    "stats": [
     {
@@ -11311,6 +11409,7 @@
    "kind": "accessory",
    "slot": "イヤリング",
    "grade": "エピック",
+   "icon": 8396,
    "level": 95,
    "stats": [
     {
@@ -11344,6 +11443,7 @@
    "kind": "accessory",
    "slot": "イヤリング",
    "grade": "ユニーク",
+   "icon": 8396,
    "level": 95,
    "stats": [
     {
@@ -11377,6 +11477,7 @@
    "kind": "accessory",
    "slot": "イヤリング",
    "grade": "レジェンド",
+   "icon": 8396,
    "level": 95,
    "stats": [
     {
@@ -11854,6 +11955,7 @@
    "kind": "armor",
    "slot": "グローブ",
    "grade": "レア",
+   "icon": 35028,
    "level": 95,
    "stats": [
     {
@@ -11887,6 +11989,7 @@
    "kind": "armor",
    "slot": "グローブ",
    "grade": "エピック",
+   "icon": 35028,
    "level": 95,
    "stats": [
     {
@@ -11919,6 +12022,7 @@
    "kind": "armor",
    "slot": "グローブ",
    "grade": "ユニーク",
+   "icon": 35028,
    "level": 95,
    "stats": [
     {
@@ -11951,6 +12055,7 @@
    "kind": "armor",
    "slot": "グローブ",
    "grade": "レジェンド",
+   "icon": 35028,
    "level": 95,
    "stats": [
     {
@@ -12428,6 +12533,7 @@
    "kind": "weapon",
    "slot": "サブウェポン",
    "grade": "レア",
+   "icon": 41996,
    "level": 95,
    "stats": [
     {
@@ -12453,6 +12559,7 @@
    "kind": "weapon",
    "slot": "サブウェポン",
    "grade": "エピック",
+   "icon": 41996,
    "level": 95,
    "stats": [
     {
@@ -12478,6 +12585,7 @@
    "kind": "weapon",
    "slot": "サブウェポン",
    "grade": "ユニーク",
+   "icon": 41996,
    "level": 95,
    "stats": [
     {
@@ -12503,6 +12611,7 @@
    "kind": "weapon",
    "slot": "サブウェポン",
    "grade": "レジェンド",
+   "icon": 41996,
    "level": 95,
    "stats": [
     {
@@ -12812,6 +12921,7 @@
    "kind": "accessory",
    "slot": "ネックレス",
    "grade": "レア",
+   "icon": 8397,
    "level": 95,
    "stats": [
     {
@@ -12841,6 +12951,7 @@
    "kind": "accessory",
    "slot": "ネックレス",
    "grade": "エピック",
+   "icon": 8397,
    "level": 95,
    "stats": [
     {
@@ -12870,6 +12981,7 @@
    "kind": "accessory",
    "slot": "ネックレス",
    "grade": "ユニーク",
+   "icon": 8397,
    "level": 95,
    "stats": [
     {
@@ -12899,6 +13011,7 @@
    "kind": "accessory",
    "slot": "ネックレス",
    "grade": "レジェンド",
+   "icon": 8397,
    "level": 95,
    "stats": [
     {
@@ -13292,6 +13405,7 @@
    "kind": "armor",
    "slot": "ブーツ",
    "grade": "レア",
+   "icon": 35029,
    "level": 95,
    "stats": [
     {
@@ -13330,6 +13444,7 @@
    "kind": "armor",
    "slot": "ブーツ",
    "grade": "エピック",
+   "icon": 35029,
    "level": 95,
    "stats": [
     {
@@ -13367,6 +13482,7 @@
    "kind": "armor",
    "slot": "ブーツ",
    "grade": "ユニーク",
+   "icon": 35029,
    "level": 95,
    "stats": [
     {
@@ -13404,6 +13520,7 @@
    "kind": "armor",
    "slot": "ブーツ",
    "grade": "レジェンド",
+   "icon": 35029,
    "level": 95,
    "stats": [
     {
@@ -13965,6 +14082,7 @@
    "kind": "armor",
    "slot": "ヘルム",
    "grade": "レア",
+   "icon": 35025,
    "level": 95,
    "stats": [
     {
@@ -13998,6 +14116,7 @@
    "kind": "armor",
    "slot": "ヘルム",
    "grade": "エピック",
+   "icon": 35025,
    "level": 95,
    "stats": [
     {
@@ -14030,6 +14149,7 @@
    "kind": "armor",
    "slot": "ヘルム",
    "grade": "ユニーク",
+   "icon": 35025,
    "level": 95,
    "stats": [
     {
@@ -14062,6 +14182,7 @@
    "kind": "armor",
    "slot": "ヘルム",
    "grade": "レジェンド",
+   "icon": 35025,
    "level": 95,
    "stats": [
     {
@@ -14539,6 +14660,7 @@
    "kind": "armor",
    "slot": "ボトム",
    "grade": "レア",
+   "icon": 35027,
    "level": 95,
    "stats": [
     {
@@ -14572,6 +14694,7 @@
    "kind": "armor",
    "slot": "ボトム",
    "grade": "エピック",
+   "icon": 35027,
    "level": 95,
    "stats": [
     {
@@ -14604,6 +14727,7 @@
    "kind": "armor",
    "slot": "ボトム",
    "grade": "ユニーク",
+   "icon": 35027,
    "level": 95,
    "stats": [
     {
@@ -14636,6 +14760,7 @@
    "kind": "armor",
    "slot": "ボトム",
    "grade": "レジェンド",
+   "icon": 35027,
    "level": 95,
    "stats": [
     {
@@ -15117,6 +15242,7 @@
    "kind": "weapon",
    "slot": "メインウェポン",
    "grade": "レア",
+   "icon": 41990,
    "level": 95,
    "stats": [
     {
@@ -15143,6 +15269,7 @@
    "kind": "weapon",
    "slot": "メインウェポン",
    "grade": "エピック",
+   "icon": 41990,
    "level": 95,
    "stats": [
     {
@@ -15169,6 +15296,7 @@
    "kind": "weapon",
    "slot": "メインウェポン",
    "grade": "ユニーク",
+   "icon": 41990,
    "level": 95,
    "stats": [
     {
@@ -15195,6 +15323,7 @@
    "kind": "weapon",
    "slot": "メインウェポン",
    "grade": "レジェンド",
+   "icon": 41990,
    "level": 95,
    "stats": [
     {
@@ -15505,6 +15634,7 @@
    "kind": "accessory",
    "slot": "リング",
    "grade": "レア",
+   "icon": 8398,
    "level": 95,
    "stats": [
     {
@@ -15530,6 +15660,7 @@
    "kind": "accessory",
    "slot": "リング",
    "grade": "エピック",
+   "icon": 8398,
    "level": 95,
    "stats": [
     {
@@ -15555,6 +15686,7 @@
    "kind": "accessory",
    "slot": "リング",
    "grade": "ユニーク",
+   "icon": 8398,
    "level": 95,
    "stats": [
     {
@@ -15580,6 +15712,7 @@
    "kind": "accessory",
    "slot": "リング",
    "grade": "レジェンド",
+   "icon": 8398,
    "level": 95,
    "stats": [
     {
@@ -15889,6 +16022,7 @@
    "kind": "weapon",
    "slot": "サブウェポン",
    "grade": "エンシェント",
+   "icon": 3899839,
    "level": 99,
    "stats": [
     {
@@ -16365,6 +16499,7 @@
    "kind": "weapon",
    "slot": "メインウェポン",
    "grade": "エンシェント",
+   "icon": 3899835,
    "level": 99,
    "stats": [
     {
@@ -16841,6 +16976,7 @@
    "kind": "weapon",
    "slot": "サブウェポン",
    "grade": "レジェンド",
+   "icon": 3899804,
    "level": 99,
    "stats": [
     {
@@ -17401,6 +17537,7 @@
    "kind": "armor",
    "slot": "アーマー",
    "grade": "エンシェント",
+   "icon": 3799801,
    "level": 99,
    "stats": [
     {
@@ -18214,6 +18351,7 @@
    "kind": "armor",
    "slot": "グローブ",
    "grade": "エンシェント",
+   "icon": 3799803,
    "level": 99,
    "stats": [
     {
@@ -18943,6 +19081,7 @@
    "kind": "armor",
    "slot": "ブーツ",
    "grade": "エンシェント",
+   "icon": 3799804,
    "level": 99,
    "stats": [
     {
@@ -19756,6 +19895,7 @@
    "kind": "armor",
    "slot": "ヘルム",
    "grade": "エンシェント",
+   "icon": 3799800,
    "level": 99,
    "stats": [
     {
@@ -20485,6 +20625,7 @@
    "kind": "armor",
    "slot": "ボトム",
    "grade": "エンシェント",
+   "icon": 3799802,
    "level": 99,
    "stats": [
     {
@@ -21298,6 +21439,7 @@
    "kind": "weapon",
    "slot": "メインウェポン",
    "grade": "レジェンド",
+   "icon": 3899800,
    "level": 99,
    "stats": [
     {
@@ -21858,6 +22000,7 @@
    "kind": "accessory",
    "slot": "イヤリング",
    "grade": "レジェンド",
+   "icon": 18822,
    "level": 99,
    "stats": [
     {
@@ -22251,6 +22394,7 @@
    "kind": "accessory",
    "slot": "ネックレス",
    "grade": "レジェンド",
+   "icon": 18821,
    "level": 99,
    "stats": [
     {
@@ -22644,6 +22788,7 @@
    "kind": "accessory",
    "slot": "リング",
    "grade": "レジェンド",
+   "icon": 18823,
    "level": 99,
    "stats": [
     {
@@ -23120,6 +23265,7 @@
    "name": "[未完]次元の変異型竜珠",
    "kind": "jade",
    "grade": "エピック",
+   "icon": 3399801,
    "level": 95,
    "stats": [
     {
@@ -23147,6 +23293,7 @@
    "name": "ベルスカードの責任",
    "kind": "artifact",
    "grade": "エピック",
+   "icon": 2999927,
    "level": 100,
    "stats": [
     {
@@ -23319,6 +23466,7 @@
    "kind": "accessory",
    "slot": "リング",
    "grade": "レジェンド",
+   "icon": 18827,
    "level": 95,
    "stats": [
     {
@@ -23557,6 +23705,7 @@
    "kind": "accessory",
    "slot": "イヤリング",
    "grade": "レジェンド",
+   "icon": 18804,
    "level": 95,
    "label": "雷",
    "stats": [
@@ -24114,6 +24263,7 @@
    "kind": "accessory",
    "slot": "イヤリング",
    "grade": "レジェンド",
+   "icon": 18804,
    "level": 95,
    "label": "闇",
    "stats": [
@@ -24671,6 +24821,7 @@
    "kind": "accessory",
    "slot": "イヤリング",
    "grade": "レジェンド",
+   "icon": 18804,
    "level": 95,
    "label": "氷",
    "stats": [
@@ -25228,6 +25379,7 @@
    "kind": "accessory",
    "slot": "イヤリング",
    "grade": "レジェンド",
+   "icon": 18804,
    "level": 95,
    "label": "火",
    "stats": [
@@ -25785,6 +25937,7 @@
    "kind": "accessory",
    "slot": "ネックレス",
    "grade": "レジェンド",
+   "icon": 18805,
    "level": 95,
    "label": "雷",
    "stats": [
@@ -26426,6 +26579,7 @@
    "kind": "accessory",
    "slot": "ネックレス",
    "grade": "レジェンド",
+   "icon": 18805,
    "level": 95,
    "label": "闇",
    "stats": [
@@ -27067,6 +27221,7 @@
    "kind": "accessory",
    "slot": "ネックレス",
    "grade": "レジェンド",
+   "icon": 18805,
    "level": 95,
    "label": "氷",
    "stats": [
@@ -27708,6 +27863,7 @@
    "kind": "accessory",
    "slot": "ネックレス",
    "grade": "レジェンド",
+   "icon": 18805,
    "level": 95,
    "label": "火",
    "stats": [
@@ -28349,6 +28505,7 @@
    "kind": "accessory",
    "slot": "リング",
    "grade": "レジェンド",
+   "icon": 18803,
    "level": 95,
    "label": "雷",
    "stats": [
@@ -28910,6 +29067,7 @@
    "kind": "accessory",
    "slot": "リング",
    "grade": "レジェンド",
+   "icon": 18803,
    "level": 95,
    "label": "闇",
    "stats": [
@@ -29471,6 +29629,7 @@
    "kind": "accessory",
    "slot": "リング",
    "grade": "レジェンド",
+   "icon": 18803,
    "level": 95,
    "label": "氷",
    "stats": [
@@ -30032,6 +30191,7 @@
    "kind": "accessory",
    "slot": "リング",
    "grade": "レジェンド",
+   "icon": 18803,
    "level": 95,
    "label": "火",
    "stats": [
@@ -30592,6 +30752,7 @@
    "name": "イベールのタリスマン",
    "kind": "talisman",
    "grade": "ユニーク",
+   "icon": 3599803,
    "level": 100,
    "stats": [
     {
@@ -30702,6 +30863,7 @@
    "name": "ウンブラのタリスマン",
    "kind": "talisman",
    "grade": "レア",
+   "icon": 18392,
    "level": 99,
    "stats": [
     {
@@ -30725,6 +30887,7 @@
    "name": "オーガダパのタリスマン",
    "kind": "talisman",
    "grade": "レア",
+   "icon": 18391,
    "level": 99,
    "stats": [
     {
@@ -30748,6 +30911,7 @@
    "name": "カーライエンのセイヴィア紋章(上級)",
    "kind": "heraldry",
    "grade": "レジェンド",
+   "icon": 3499801,
    "level": 99,
    "stats": [
     {
@@ -30771,6 +30935,7 @@
    "name": "カーライエンのセイヴィア紋章(中級)",
    "kind": "heraldry",
    "grade": "レジェンド",
+   "icon": 3499801,
    "level": 99,
    "stats": [
     {
@@ -30794,6 +30959,7 @@
    "name": "カーライエンのセイヴィア紋章(下級)",
    "kind": "heraldry",
    "grade": "レジェンド",
+   "icon": 3499801,
    "level": 99,
    "stats": [
     {
@@ -30817,6 +30983,7 @@
    "name": "カーライエンのセイヴィア紋章(ヒロイック)",
    "kind": "heraldry",
    "grade": "レジェンド/エンシェント",
+   "icon": 3499801,
    "level": 99,
    "stats": [
     {
@@ -30840,6 +31007,7 @@
    "name": "カシウスのセイヴィア紋章(上級)",
    "kind": "heraldry",
    "grade": "レジェンド",
+   "icon": 3499804,
    "level": 99,
    "stats": [
     {
@@ -30863,6 +31031,7 @@
    "name": "カシウスのセイヴィア紋章(中級)",
    "kind": "heraldry",
    "grade": "レジェンド",
+   "icon": 3499804,
    "level": 99,
    "stats": [
     {
@@ -30886,6 +31055,7 @@
    "name": "カシウスのセイヴィア紋章(下級)",
    "kind": "heraldry",
    "grade": "レジェンド",
+   "icon": 3499804,
    "level": 99,
    "stats": [
     {
@@ -30909,6 +31079,7 @@
    "name": "カシウスのセイヴィア紋章(ヒロイック)",
    "kind": "heraldry",
    "grade": "レジェンド/エンシェント",
+   "icon": 3499804,
    "level": 99,
    "stats": [
     {
@@ -30932,6 +31103,7 @@
    "name": "クアノスのタリスマン",
    "kind": "talisman",
    "grade": "ユニーク",
+   "icon": 3599800,
    "level": 100,
    "stats": [
     {
@@ -31171,6 +31343,7 @@
    "kind": "armor",
    "slot": "アーマー",
    "grade": "ユニーク",
+   "icon": 14657,
    "stats": [
     {
      "name": "力",
@@ -31666,6 +31839,7 @@
    "kind": "armor",
    "slot": "アーマー",
    "grade": "レジェンド",
+   "icon": 1999818,
    "stats": [
     {
      "name": "物魔攻撃%",
@@ -32015,6 +32189,7 @@
    "kind": "accessory",
    "slot": "イヤリング",
    "grade": "ユニーク",
+   "icon": 14664,
    "stats": [
     {
      "name": "攻撃力",
@@ -32306,6 +32481,7 @@
    "kind": "accessory",
    "slot": "イヤリング",
    "grade": "レジェンド",
+   "icon": 1999825,
    "stats": [
     {
      "name": "攻撃力",
@@ -32585,6 +32761,7 @@
    "kind": "special_armor",
    "slot": "ウィング",
    "grade": "ユニーク",
+   "icon": 14668,
    "stats": [
     {
      "name": "物魔攻撃%",
@@ -32968,6 +33145,7 @@
    "kind": "special_armor",
    "slot": "ウィング",
    "grade": "レジェンド",
+   "icon": 1999829,
    "stats": [
     {
      "name": "攻撃力",
@@ -33191,6 +33369,7 @@
    "kind": "armor",
    "slot": "グローブ",
    "grade": "ユニーク",
+   "icon": 14659,
    "stats": [
     {
      "name": "力",
@@ -33590,6 +33769,7 @@
    "kind": "armor",
    "slot": "グローブ",
    "grade": "レジェンド",
+   "icon": 1999820,
    "stats": [
     {
      "name": "物魔攻撃%",
@@ -33939,6 +34119,7 @@
    "kind": "special_armor",
    "slot": "テール",
    "grade": "ユニーク",
+   "icon": 14667,
    "stats": [
     {
      "name": "属性%",
@@ -34362,6 +34543,7 @@
    "kind": "special_armor",
    "slot": "テール",
    "grade": "レジェンド",
+   "icon": 1999828,
    "stats": [
     {
      "name": "攻撃力",
@@ -34557,6 +34739,7 @@
    "kind": "special_armor",
    "slot": "デカール",
    "grade": "ユニーク",
+   "icon": 14666,
    "stats": [
     {
      "name": "攻撃力",
@@ -34812,6 +34995,7 @@
    "kind": "special_armor",
    "slot": "デカール",
    "grade": "レジェンド",
+   "icon": 1999827,
    "stats": [
     {
      "name": "攻撃力",
@@ -35063,6 +35247,7 @@
    "kind": "accessory",
    "slot": "ネックレス",
    "grade": "ユニーク",
+   "icon": 14665,
    "stats": [
     {
      "name": "属性%",
@@ -35306,6 +35491,7 @@
    "kind": "accessory",
    "slot": "ネックレス",
    "grade": "レジェンド",
+   "icon": 1999826,
    "stats": [
     {
      "name": "攻撃力",
@@ -35641,6 +35827,7 @@
    "kind": "armor",
    "slot": "ブーツ",
    "grade": "ユニーク",
+   "icon": 14660,
    "stats": [
     {
      "name": "物魔攻撃%",
@@ -36036,6 +36223,7 @@
    "kind": "armor",
    "slot": "ブーツ",
    "grade": "レジェンド",
+   "icon": 1999821,
    "stats": [
     {
      "name": "物魔攻撃%",
@@ -36385,6 +36573,7 @@
    "kind": "armor",
    "slot": "ヘルム",
    "grade": "ユニーク",
+   "icon": 14656,
    "stats": [
     {
      "name": "物魔攻撃%",
@@ -36720,6 +36909,7 @@
    "kind": "armor",
    "slot": "ヘルム",
    "grade": "レジェンド",
+   "icon": 1999817,
    "stats": [
     {
      "name": "攻撃力",
@@ -37037,6 +37227,7 @@
    "kind": "armor",
    "slot": "ボトム",
    "grade": "ユニーク",
+   "icon": 14658,
    "stats": [
     {
      "name": "属性%",
@@ -37292,6 +37483,7 @@
    "kind": "armor",
    "slot": "ボトム",
    "grade": "レジェンド",
+   "icon": 1999819,
    "stats": [
     {
      "name": "物魔攻撃%",
@@ -37513,6 +37705,7 @@
    "kind": "accessory",
    "slot": "リング",
    "grade": "ユニーク",
+   "icon": 14663,
    "stats": [
     {
      "name": "攻撃力",
@@ -37764,6 +37957,7 @@
    "kind": "accessory",
    "slot": "リング",
    "grade": "レジェンド",
+   "icon": 1999824,
    "stats": [
     {
      "name": "攻撃力",
@@ -37959,6 +38153,7 @@
    "kind": "accessory",
    "slot": "イヤリング",
    "grade": "レジェンド",
+   "icon": 8216,
    "level": 95,
    "stats": [
     {
@@ -38767,6 +38962,7 @@
    "kind": "accessory",
    "slot": "イヤリング",
    "grade": "レジェンド",
+   "icon": 8216,
    "level": 95,
    "stats": [
     {
@@ -39575,6 +39771,7 @@
    "kind": "accessory",
    "slot": "イヤリング",
    "grade": "レジェンド",
+   "icon": 8216,
    "level": 95,
    "stats": [
     {
@@ -40303,6 +40500,7 @@
    "kind": "accessory",
    "slot": "ネックレス",
    "grade": "レジェンド",
+   "icon": 8206,
    "level": 95,
    "stats": [
     {
@@ -40943,6 +41141,7 @@
    "kind": "accessory",
    "slot": "ネックレス",
    "grade": "レジェンド",
+   "icon": 8206,
    "level": 95,
    "stats": [
     {
@@ -41583,6 +41782,7 @@
    "kind": "accessory",
    "slot": "ネックレス",
    "grade": "レジェンド",
+   "icon": 8206,
    "level": 95,
    "stats": [
     {
@@ -42223,6 +42423,7 @@
    "kind": "accessory",
    "slot": "リング",
    "grade": "レジェンド",
+   "icon": 8158,
    "level": 95,
    "stats": [
     {
@@ -43031,6 +43232,7 @@
    "kind": "accessory",
    "slot": "リング",
    "grade": "レジェンド",
+   "icon": 8158,
    "level": 95,
    "stats": [
     {
@@ -43839,6 +44041,7 @@
    "kind": "accessory",
    "slot": "リング",
    "grade": "レジェンド",
+   "icon": 8158,
    "level": 95,
    "stats": [
     {
@@ -44566,6 +44769,7 @@
    "name": "ジェレイントのスタート",
    "kind": "artifact",
    "grade": "エピック",
+   "icon": 2999922,
    "level": 100,
    "stats": [
     {
@@ -44707,6 +44911,7 @@
    "name": "ジェレイントの犠牲",
    "kind": "artifact",
    "grade": "エピック",
+   "icon": 2999923,
    "level": 100,
    "stats": [
     {
@@ -44925,6 +45130,7 @@
    "kind": "accessory",
    "slot": "イヤリング",
    "grade": "レジェンド",
+   "icon": 18801,
    "level": 95,
    "stats": [
     {
@@ -45733,6 +45939,7 @@
    "kind": "accessory",
    "slot": "イヤリング",
    "grade": "レジェンド",
+   "icon": 18801,
    "level": 95,
    "stats": [
     {
@@ -46541,6 +46748,7 @@
    "kind": "accessory",
    "slot": "イヤリング",
    "grade": "レジェンド",
+   "icon": 18801,
    "level": 95,
    "stats": [
     {
@@ -47269,6 +47477,7 @@
    "kind": "accessory",
    "slot": "ネックレス",
    "grade": "レジェンド",
+   "icon": 18802,
    "level": 95,
    "stats": [
     {
@@ -47909,6 +48118,7 @@
    "kind": "accessory",
    "slot": "ネックレス",
    "grade": "レジェンド",
+   "icon": 18802,
    "level": 95,
    "stats": [
     {
@@ -48549,6 +48759,7 @@
    "kind": "accessory",
    "slot": "ネックレス",
    "grade": "レジェンド",
+   "icon": 18802,
    "level": 95,
    "stats": [
     {
@@ -49189,6 +49400,7 @@
    "kind": "accessory",
    "slot": "リング",
    "grade": "レジェンド",
+   "icon": 18800,
    "level": 95,
    "stats": [
     {
@@ -49997,6 +50209,7 @@
    "kind": "accessory",
    "slot": "リング",
    "grade": "レジェンド",
+   "icon": 18800,
    "level": 95,
    "stats": [
     {
@@ -50805,6 +51018,7 @@
    "kind": "accessory",
    "slot": "リング",
    "grade": "レジェンド",
+   "icon": 18800,
    "level": 95,
    "stats": [
     {
@@ -51532,6 +51746,7 @@
    "name": "シャリカのタリスマン",
    "kind": "talisman",
    "grade": "ユニーク",
+   "icon": 3599801,
    "level": 100,
    "stats": [
     {
@@ -51643,6 +51858,7 @@
    "kind": "accessory",
    "slot": "イヤリング",
    "grade": "レジェンド",
+   "icon": 8068,
    "level": 95,
    "label": "雷",
    "stats": [
@@ -52200,6 +52416,7 @@
    "kind": "accessory",
    "slot": "イヤリング",
    "grade": "レジェンド",
+   "icon": 8068,
    "level": 95,
    "label": "闇",
    "stats": [
@@ -52757,6 +52974,7 @@
    "kind": "accessory",
    "slot": "イヤリング",
    "grade": "レジェンド",
+   "icon": 8068,
    "level": 95,
    "label": "氷",
    "stats": [
@@ -53314,6 +53532,7 @@
    "kind": "accessory",
    "slot": "イヤリング",
    "grade": "レジェンド",
+   "icon": 8068,
    "level": 95,
    "label": "火",
    "stats": [
@@ -53871,6 +54090,7 @@
    "kind": "accessory",
    "slot": "ネックレス",
    "grade": "レジェンド",
+   "icon": 8058,
    "level": 95,
    "label": "雷",
    "stats": [
@@ -54512,6 +54732,7 @@
    "kind": "accessory",
    "slot": "ネックレス",
    "grade": "レジェンド",
+   "icon": 8058,
    "level": 95,
    "label": "闇",
    "stats": [
@@ -55153,6 +55374,7 @@
    "kind": "accessory",
    "slot": "ネックレス",
    "grade": "レジェンド",
+   "icon": 8058,
    "level": 95,
    "label": "氷",
    "stats": [
@@ -55794,6 +56016,7 @@
    "kind": "accessory",
    "slot": "ネックレス",
    "grade": "レジェンド",
+   "icon": 8058,
    "level": 95,
    "label": "火",
    "stats": [
@@ -56435,6 +56658,7 @@
    "kind": "accessory",
    "slot": "リング",
    "grade": "レジェンド",
+   "icon": 8048,
    "level": 95,
    "label": "雷",
    "stats": [
@@ -56996,6 +57220,7 @@
    "kind": "accessory",
    "slot": "リング",
    "grade": "レジェンド",
+   "icon": 8048,
    "level": 95,
    "label": "闇",
    "stats": [
@@ -57557,6 +57782,7 @@
    "kind": "accessory",
    "slot": "リング",
    "grade": "レジェンド",
+   "icon": 8048,
    "level": 95,
    "label": "氷",
    "stats": [
@@ -58118,6 +58344,7 @@
    "kind": "accessory",
    "slot": "リング",
    "grade": "レジェンド",
+   "icon": 8048,
    "level": 95,
    "label": "火",
    "stats": [
@@ -58678,6 +58905,7 @@
    "name": "ダグラスのセイヴィア紋章(上級)",
    "kind": "heraldry",
    "grade": "レジェンド",
+   "icon": 3499803,
    "level": 99,
    "stats": [
     {
@@ -58701,6 +58929,7 @@
    "name": "ダグラスのセイヴィア紋章(中級)",
    "kind": "heraldry",
    "grade": "レジェンド",
+   "icon": 3499803,
    "level": 99,
    "stats": [
     {
@@ -58724,6 +58953,7 @@
    "name": "ダグラスのセイヴィア紋章(下級)",
    "kind": "heraldry",
    "grade": "レジェンド",
+   "icon": 3499803,
    "level": 99,
    "stats": [
     {
@@ -58747,6 +58977,7 @@
    "name": "ダグラスのセイヴィア紋章(ヒロイック)",
    "kind": "heraldry",
    "grade": "レジェンド/エンシェント",
+   "icon": 3499803,
    "level": 99,
    "stats": [
     {
@@ -58770,6 +59001,7 @@
    "name": "ティタニオンのタリスマン",
    "kind": "talisman",
    "grade": "レア",
+   "icon": 18393,
    "level": 99,
    "stats": [
     {
@@ -58793,6 +59025,7 @@
    "name": "テラマイのセイヴィア紋章(上級)",
    "kind": "heraldry",
    "grade": "レジェンド",
+   "icon": 3499802,
    "level": 99,
    "stats": [
     {
@@ -58816,6 +59049,7 @@
    "name": "テラマイのセイヴィア紋章(中級)",
    "kind": "heraldry",
    "grade": "レジェンド",
+   "icon": 3499802,
    "level": 99,
    "stats": [
     {
@@ -58839,6 +59073,7 @@
    "name": "テラマイのセイヴィア紋章(下級)",
    "kind": "heraldry",
    "grade": "レジェンド",
+   "icon": 3499802,
    "level": 99,
    "stats": [
     {
@@ -58862,6 +59097,7 @@
    "name": "テラマイセイヴィア紋章(ヒロイック)",
    "kind": "heraldry",
    "grade": "レジェンド/エンシェント",
+   "icon": 3499802,
    "level": 99,
    "stats": [
     {
@@ -58885,6 +59121,7 @@
    "name": "ナイトメアジェレイントの紋章(ヒーリングエリア)",
    "kind": "heraldry",
    "grade": "レジェンド",
+   "icon": 18098,
    "stats": [
     {
      "name": "攻撃力",
@@ -58900,6 +59137,7 @@
    "name": "ナイトメアバルナック紋章(ブレイクポイント)",
    "kind": "heraldry",
    "grade": "レジェンド",
+   "icon": 18097,
    "stats": [
     {
      "name": "攻撃力",
@@ -58915,6 +59153,7 @@
    "name": "ナイトメアバルナック紋章(ブレイクポイント)",
    "kind": "heraldry",
    "grade": "エンシェント",
+   "icon": 18097,
    "stats": [
     {
      "name": "攻撃力",
@@ -58930,6 +59169,7 @@
    "name": "ブラックドラゴンの元素の特殊タリスマン",
    "kind": "talisman",
    "grade": "レジェンド",
+   "icon": 18395,
    "level": 99,
    "stats": [
     {
@@ -58950,6 +59190,7 @@
    "kind": "armor",
    "slot": "アーマー",
    "grade": "レア",
+   "icon": 35021,
    "level": 95,
    "stats": [
     {
@@ -58975,6 +59216,7 @@
    "kind": "armor",
    "slot": "アーマー",
    "grade": "エピック",
+   "icon": 35021,
    "level": 95,
    "stats": [
     {
@@ -59003,6 +59245,7 @@
    "kind": "armor",
    "slot": "アーマー",
    "grade": "ユニーク",
+   "icon": 35021,
    "level": 95,
    "stats": [
     {
@@ -59031,6 +59274,7 @@
    "kind": "armor",
    "slot": "アーマー",
    "grade": "レジェンド",
+   "icon": 35021,
    "level": 95,
    "stats": [
     {
@@ -59424,6 +59668,7 @@
    "kind": "accessory",
    "slot": "イヤリング",
    "grade": "レア",
+   "icon": 8396,
    "level": 95,
    "stats": [
     {
@@ -59453,6 +59698,7 @@
    "kind": "accessory",
    "slot": "イヤリング",
    "grade": "エピック",
+   "icon": 8396,
    "level": 95,
    "stats": [
     {
@@ -59486,6 +59732,7 @@
    "kind": "accessory",
    "slot": "イヤリング",
    "grade": "ユニーク",
+   "icon": 8396,
    "level": 95,
    "stats": [
     {
@@ -59519,6 +59766,7 @@
    "kind": "accessory",
    "slot": "イヤリング",
    "grade": "レジェンド",
+   "icon": 8396,
    "level": 95,
    "stats": [
     {
@@ -59996,6 +60244,7 @@
    "kind": "armor",
    "slot": "グローブ",
    "grade": "レア",
+   "icon": 35023,
    "level": 95,
    "stats": [
     {
@@ -60021,6 +60270,7 @@
    "kind": "armor",
    "slot": "グローブ",
    "grade": "エピック",
+   "icon": 35023,
    "level": 95,
    "stats": [
     {
@@ -60049,6 +60299,7 @@
    "kind": "armor",
    "slot": "グローブ",
    "grade": "ユニーク",
+   "icon": 35023,
    "level": 95,
    "stats": [
     {
@@ -60077,6 +60328,7 @@
    "kind": "armor",
    "slot": "グローブ",
    "grade": "レジェンド",
+   "icon": 35023,
    "level": 95,
    "stats": [
     {
@@ -60470,6 +60722,7 @@
    "kind": "weapon",
    "slot": "サブウェポン",
    "grade": "レア",
+   "icon": 41995,
    "level": 95,
    "stats": [
     {
@@ -60491,6 +60744,7 @@
    "kind": "weapon",
    "slot": "サブウェポン",
    "grade": "エピック",
+   "icon": 41995,
    "level": 95,
    "stats": [
     {
@@ -60516,6 +60770,7 @@
    "kind": "weapon",
    "slot": "サブウェポン",
    "grade": "ユニーク",
+   "icon": 41995,
    "level": 95,
    "stats": [
     {
@@ -60542,6 +60797,7 @@
    "kind": "weapon",
    "slot": "サブウェポン",
    "grade": "レジェンド",
+   "icon": 41995,
    "level": 95,
    "stats": [
     {
@@ -60851,6 +61107,7 @@
    "kind": "accessory",
    "slot": "ネックレス",
    "grade": "レア",
+   "icon": 8397,
    "level": 95,
    "stats": [
     {
@@ -60876,6 +61133,7 @@
    "kind": "accessory",
    "slot": "ネックレス",
    "grade": "エピック",
+   "icon": 8397,
    "level": 95,
    "stats": [
     {
@@ -60905,6 +61163,7 @@
    "kind": "accessory",
    "slot": "ネックレス",
    "grade": "ユニーク",
+   "icon": 8397,
    "level": 95,
    "stats": [
     {
@@ -60934,6 +61193,7 @@
    "kind": "accessory",
    "slot": "ネックレス",
    "grade": "レジェンド",
+   "icon": 8397,
    "level": 95,
    "stats": [
     {
@@ -61326,6 +61586,7 @@
    "name": "ヘイズフロストドラゴンの完全なタリスマン",
    "kind": "talisman",
    "grade": "ユニーク",
+   "icon": 3599802,
    "level": 100,
    "stats": [
     {
@@ -61436,6 +61697,7 @@
    "name": "月食のヘルム攻撃竜珠",
    "kind": "jade",
    "grade": "ノーマル",
+   "icon": 18351,
    "level": 95,
    "stats": [
     {
@@ -61466,6 +61728,7 @@
    "name": "月食のヘルム攻撃竜珠",
    "kind": "jade",
    "grade": "マジック",
+   "icon": 18351,
    "level": 95,
    "stats": [
     {
@@ -61500,6 +61763,7 @@
    "name": "剣戟の月食のヘルム攻撃竜珠",
    "kind": "jade",
    "grade": "レア",
+   "icon": 18351,
    "level": 95,
    "stats": [
     {
@@ -61534,6 +61798,7 @@
    "name": "剣戟の月食のヘルム攻撃竜珠",
    "kind": "jade",
    "grade": "エピック",
+   "icon": 18351,
    "level": 95,
    "stats": [
     {
@@ -61568,6 +61833,7 @@
    "name": "剣戟の月食のヘルム攻撃竜珠",
    "kind": "jade",
    "grade": "ユニーク",
+   "icon": 18351,
    "level": 95,
    "stats": [
     {
@@ -61602,6 +61868,7 @@
    "name": "剣戟のヘイズフロストドラゴンの月食ヘルム攻撃竜珠",
    "kind": "jade",
    "grade": "レジェンド",
+   "icon": 18371,
    "level": 95,
    "stats": [
     {
@@ -61636,6 +61903,7 @@
    "name": "剣戟の月食のヘルム防御竜珠",
    "kind": "jade",
    "grade": "レア",
+   "icon": 18361,
    "level": 95,
    "stats": [
     {
@@ -61674,6 +61942,7 @@
    "name": "剣戟の月食のヘルム防御竜珠",
    "kind": "jade",
    "grade": "エピック",
+   "icon": 18361,
    "level": 95,
    "stats": [
     {
@@ -61712,6 +61981,7 @@
    "name": "剣戟の月食のヘルム防御竜珠",
    "kind": "jade",
    "grade": "ユニーク",
+   "icon": 18361,
    "level": 95,
    "stats": [
     {
@@ -61750,6 +62020,7 @@
    "name": "剣戟のヘイズフロストドラゴンの月食ヘルム防御竜珠",
    "kind": "jade",
    "grade": "レジェンド",
+   "icon": 18381,
    "level": 95,
    "stats": [
     {
@@ -61788,6 +62059,7 @@
    "name": "剣戟のヘイズフロストドラゴンの月食ヘルム攻撃竜珠",
    "kind": "jade",
    "grade": "エンシェント",
+   "icon": 18371,
    "level": 95,
    "stats": [
     {
@@ -62346,6 +62618,7 @@
    "name": "剣戟のヘイズフロストドラゴンの月食ヘルム防御竜珠",
    "kind": "jade",
    "grade": "エンシェント",
+   "icon": 18381,
    "level": 95,
    "stats": [
     {
@@ -62988,6 +63261,7 @@
    "name": "ヘイズフロストドラゴンの冷気が宿るタリスマン(1段階)",
    "kind": "talisman",
    "grade": "ノーマル",
+   "icon": 2999829,
    "level": 99,
    "stats": [
     {
@@ -63007,6 +63281,7 @@
    "name": "ヘイズフロストドラゴンの冷気が宿るタリスマン(2段階)",
    "kind": "talisman",
    "grade": "マジック",
+   "icon": 2999829,
    "level": 99,
    "stats": [
     {
@@ -63026,6 +63301,7 @@
    "name": "ヘイズフロストドラゴンの冷気が宿るタリスマン(3段階)",
    "kind": "talisman",
    "grade": "レア",
+   "icon": 2999829,
    "level": 99,
    "stats": [
     {
@@ -63045,6 +63321,7 @@
    "name": "ヘイズフロストドラゴンの冷気が宿るタリスマン(4段階)",
    "kind": "talisman",
    "grade": "レア",
+   "icon": 2999829,
    "level": 99,
    "stats": [
     {
@@ -63064,6 +63341,7 @@
    "name": "ヘイズフロストドラゴンの冷気が宿るタリスマン(5段階)",
    "kind": "talisman",
    "grade": "エピック",
+   "icon": 2999829,
    "level": 99,
    "stats": [
     {
@@ -63087,6 +63365,7 @@
    "name": "ヘイズフロストドラゴンの冷気が宿るタリスマン(6段階)",
    "kind": "talisman",
    "grade": "エピック",
+   "icon": 2999829,
    "level": 99,
    "stats": [
     {
@@ -63110,6 +63389,7 @@
    "name": "ヘイズフロストドラゴンの冷気が宿るタリスマン(7段階)",
    "kind": "talisman",
    "grade": "ユニーク",
+   "icon": 2999829,
    "level": 99,
    "stats": [
     {
@@ -63134,6 +63414,7 @@
    "kind": "armor",
    "slot": "ブーツ",
    "grade": "レア",
+   "icon": 35024,
    "level": 95,
    "stats": [
     {
@@ -63164,6 +63445,7 @@
    "kind": "armor",
    "slot": "ブーツ",
    "grade": "エピック",
+   "icon": 35024,
    "level": 95,
    "stats": [
     {
@@ -63197,6 +63479,7 @@
    "kind": "armor",
    "slot": "ブーツ",
    "grade": "ユニーク",
+   "icon": 35024,
    "level": 95,
    "stats": [
     {
@@ -63230,6 +63513,7 @@
    "kind": "armor",
    "slot": "ブーツ",
    "grade": "レジェンド",
+   "icon": 35024,
    "level": 95,
    "stats": [
     {
@@ -63707,6 +63991,7 @@
    "kind": "armor",
    "slot": "ヘルム",
    "grade": "レア",
+   "icon": 35020,
    "level": 95,
    "stats": [
     {
@@ -63732,6 +64017,7 @@
    "kind": "armor",
    "slot": "ヘルム",
    "grade": "エピック",
+   "icon": 35020,
    "level": 95,
    "stats": [
     {
@@ -63760,6 +64046,7 @@
    "kind": "armor",
    "slot": "ヘルム",
    "grade": "ユニーク",
+   "icon": 35020,
    "level": 95,
    "stats": [
     {
@@ -63788,6 +64075,7 @@
    "kind": "armor",
    "slot": "ヘルム",
    "grade": "レジェンド",
+   "icon": 35020,
    "level": 95,
    "stats": [
     {
@@ -64181,6 +64469,7 @@
    "kind": "armor",
    "slot": "ボトム",
    "grade": "レア",
+   "icon": 35022,
    "level": 95,
    "stats": [
     {
@@ -64206,6 +64495,7 @@
    "kind": "armor",
    "slot": "ボトム",
    "grade": "エピック",
+   "icon": 35022,
    "level": 95,
    "stats": [
     {
@@ -64234,6 +64524,7 @@
    "kind": "armor",
    "slot": "ボトム",
    "grade": "ユニーク",
+   "icon": 35022,
    "level": 95,
    "stats": [
     {
@@ -64262,6 +64553,7 @@
    "kind": "armor",
    "slot": "ボトム",
    "grade": "レジェンド",
+   "icon": 35022,
    "level": 95,
    "stats": [
     {
@@ -64659,6 +64951,7 @@
    "kind": "weapon",
    "slot": "メインウェポン",
    "grade": "レア",
+   "icon": 41989,
    "level": 95,
    "stats": [
     {
@@ -64681,6 +64974,7 @@
    "kind": "weapon",
    "slot": "メインウェポン",
    "grade": "エピック",
+   "icon": 41989,
    "level": 95,
    "stats": [
     {
@@ -64707,6 +65001,7 @@
    "kind": "weapon",
    "slot": "メインウェポン",
    "grade": "ユニーク",
+   "icon": 41989,
    "level": 95,
    "stats": [
     {
@@ -64733,6 +65028,7 @@
    "kind": "weapon",
    "slot": "メインウェポン",
    "grade": "レジェンド",
+   "icon": 41989,
    "level": 95,
    "stats": [
     {
@@ -65043,6 +65339,7 @@
    "kind": "accessory",
    "slot": "リング",
    "grade": "レア",
+   "icon": 8398,
    "level": 95,
    "stats": [
     {
@@ -65064,6 +65361,7 @@
    "kind": "accessory",
    "slot": "リング",
    "grade": "エピック",
+   "icon": 8398,
    "level": 95,
    "stats": [
     {
@@ -65089,6 +65387,7 @@
    "kind": "accessory",
    "slot": "リング",
    "grade": "ユニーク",
+   "icon": 8398,
    "level": 95,
    "stats": [
     {
@@ -65114,6 +65413,7 @@
    "kind": "accessory",
    "slot": "リング",
    "grade": "レジェンド",
+   "icon": 8398,
    "level": 95,
    "stats": [
     {
@@ -65422,6 +65722,7 @@
    "name": "ベルスカードの信頼",
    "kind": "artifact",
    "grade": "エピック",
+   "icon": 2999926,
    "level": 100,
    "stats": [
     {
@@ -65639,6 +65940,7 @@
    "name": "ベルスカードの忠義",
    "kind": "artifact",
    "grade": "エピック",
+   "icon": 2999925,
    "level": 100,
    "stats": [
     {
@@ -65780,6 +66082,7 @@
    "name": "メルカのタリスマン",
    "kind": "talisman",
    "grade": "レア",
+   "icon": 18394,
    "level": 99,
    "stats": [
     {
@@ -65804,6 +66107,7 @@
    "kind": "special_armor",
    "slot": "ウィング",
    "grade": "ノーマル",
+   "icon": 33860,
    "tradable": "取得時帰属",
    "description": "艶めく風を受けてはためく、高貴な紅色の輝きを帯びた翼。 [特殊機能翼] 「キャラクターウィンドウの翼スロット」上のボタンを押すと、町で翼の大/小を切り替えることができる。"
   },
@@ -65813,6 +66117,7 @@
    "kind": "special_armor",
    "slot": "テール",
    "grade": "ノーマル",
+   "icon": 33862,
    "tradable": "取得時帰属",
    "description": "艶めく風を受けてはためく、高貴な紅色の輝きを帯びた尻尾。"
   },
@@ -65822,6 +66127,7 @@
    "kind": "special_armor",
    "slot": "デカール",
    "grade": "ノーマル",
+   "icon": 33863,
    "tradable": "取得時帰属",
    "description": "艶めく風を受けてはためく、高貴な紅色の輝きを帯びたデカール。"
   },
@@ -65830,6 +66136,7 @@
    "name": "異界の竜珠(グラディエーター)",
    "kind": null,
    "grade": "エンシェント",
+   "icon": 3399802,
    "level": 95,
    "enchant_id": 847258904,
    "max_enhance": 20,
@@ -66090,6 +66397,7 @@
    "kind": "weapon",
    "slot": "メインウェポン",
    "grade": "レジェンド",
+   "icon": 42470,
    "level": 99,
    "tier": "Ⅱ",
    "stats": [
@@ -66567,6 +66875,7 @@
    "kind": "weapon",
    "slot": "サブウェポン",
    "grade": "レジェンド",
+   "icon": 42471,
    "level": 99,
    "tier": "Ⅱ",
    "stats": [
@@ -67043,6 +67352,7 @@
    "name": "永遠の苦痛の目(1段階)",
    "kind": "talisman",
    "grade": "エピック",
+   "icon": 18232,
    "level": 99,
    "stats": [
     {
@@ -67066,6 +67376,7 @@
    "name": "永遠の苦痛の目(2段階)",
    "kind": "talisman",
    "grade": "エピック",
+   "icon": 18232,
    "level": 99,
    "stats": [
     {
@@ -67089,6 +67400,7 @@
    "name": "永遠の苦痛の目(3段階)",
    "kind": "talisman",
    "grade": "ユニーク",
+   "icon": 18232,
    "level": 99,
    "stats": [
     {
@@ -67112,6 +67424,7 @@
    "name": "永遠の苦痛の目(4段階)",
    "kind": "talisman",
    "grade": "ユニーク",
+   "icon": 18232,
    "level": 99,
    "stats": [
     {
@@ -67135,6 +67448,7 @@
    "name": "永遠の苦痛の目(5段階)",
    "kind": "talisman",
    "grade": "レジェンド",
+   "icon": 18232,
    "level": 99,
    "stats": [
     {
@@ -67158,6 +67472,7 @@
    "name": "永遠の混沌のタリスマン",
    "kind": "talisman",
    "grade": "ユニーク",
+   "icon": 18231,
    "level": 99,
    "stats": [
     {
@@ -67178,6 +67493,7 @@
    "name": "永遠の次元の変異型竜珠",
    "kind": "jade",
    "grade": "ユニーク",
+   "icon": 3399801,
    "level": 95,
    "stats": [
     {
@@ -67429,6 +67745,7 @@
    "name": "永遠の次元の変異型竜珠",
    "kind": "jade",
    "grade": "レジェンド",
+   "icon": 3399801,
    "level": 95,
    "stats": [
     {
@@ -67460,6 +67777,7 @@
    "name": "永遠の世界のタリスマン(10段階)",
    "kind": "talisman",
    "grade": "ユニーク",
+   "icon": 18230,
    "level": 99,
    "stats": [
     {
@@ -67483,6 +67801,7 @@
    "name": "永遠の世界のタリスマン(1段階)",
    "kind": "talisman",
    "grade": "レア",
+   "icon": 18230,
    "level": 99,
    "stats": [
     {
@@ -67506,6 +67825,7 @@
    "name": "永遠の世界のタリスマン(2段階)",
    "kind": "talisman",
    "grade": "レア",
+   "icon": 18230,
    "level": 99,
    "stats": [
     {
@@ -67529,6 +67849,7 @@
    "name": "永遠の世界のタリスマン(3段階)",
    "kind": "talisman",
    "grade": "レア",
+   "icon": 18230,
    "level": 99,
    "stats": [
     {
@@ -67552,6 +67873,7 @@
    "name": "永遠の世界のタリスマン(4段階)",
    "kind": "talisman",
    "grade": "エピック",
+   "icon": 18230,
    "level": 99,
    "stats": [
     {
@@ -67575,6 +67897,7 @@
    "name": "永遠の世界のタリスマン(5段階)",
    "kind": "talisman",
    "grade": "エピック",
+   "icon": 18230,
    "level": 99,
    "stats": [
     {
@@ -67598,6 +67921,7 @@
    "name": "永遠の世界のタリスマン(6段階)",
    "kind": "talisman",
    "grade": "エピック",
+   "icon": 18230,
    "level": 99,
    "stats": [
     {
@@ -67621,6 +67945,7 @@
    "name": "永遠の世界のタリスマン(7段階)",
    "kind": "talisman",
    "grade": "エピック",
+   "icon": 18230,
    "level": 99,
    "stats": [
     {
@@ -67644,6 +67969,7 @@
    "name": "永遠の世界のタリスマン(8段階)",
    "kind": "talisman",
    "grade": "ユニーク",
+   "icon": 18230,
    "level": 99,
    "stats": [
     {
@@ -67667,6 +67993,7 @@
    "name": "永遠の世界のタリスマン(9段階)",
    "kind": "talisman",
    "grade": "ユニーク",
+   "icon": 18230,
    "level": 99,
    "stats": [
     {
@@ -67690,6 +68017,7 @@
    "name": "永劫の異界の変異型竜珠",
    "kind": "jade",
    "grade": "ユニーク",
+   "icon": 3399851,
    "level": 95,
    "stats": [
     {
@@ -67941,6 +68269,7 @@
    "name": "永劫の異界の変異型竜珠",
    "kind": "jade",
    "grade": "レジェンド",
+   "icon": 3399851,
    "level": 95,
    "stats": [
     {
@@ -67972,6 +68301,7 @@
    "name": "スタッフの紋章",
    "kind": "heraldry",
    "grade": "ユニーク",
+   "icon": 346,
    "level": 100,
    "stats": [
     {
@@ -67995,6 +68325,7 @@
    "name": "剣の紋章",
    "kind": "heraldry",
    "grade": "ユニーク",
+   "icon": 12,
    "level": 100,
    "stats": [
     {
@@ -68018,6 +68349,7 @@
    "name": "シールドの紋章",
    "kind": "heraldry",
    "grade": "ユニーク",
+   "icon": 597,
    "level": 100,
    "stats": [
     {
@@ -68041,6 +68373,7 @@
    "name": "弓の紋章",
    "kind": "heraldry",
    "grade": "ユニーク",
+   "icon": 200,
    "level": 100,
    "stats": [
     {
@@ -68064,6 +68397,7 @@
    "name": "下級ジェレイントの成長",
    "kind": "artifact",
    "grade": "エピック",
+   "icon": 2999924,
    "level": 100,
    "stats": [
     {
@@ -68084,6 +68418,7 @@
    "kind": "armor",
    "slot": "アーマー",
    "grade": "レジェンド",
+   "icon": 3799905,
    "level": 100,
    "tier": "Ⅰ",
    "stats": [
@@ -68518,6 +68853,7 @@
    "kind": "armor",
    "slot": "アーマー",
    "grade": "レジェンド",
+   "icon": 3799905,
    "level": 100,
    "tier": "Ⅱ",
    "stats": [
@@ -68762,6 +69098,7 @@
    "kind": "armor",
    "slot": "グローブ",
    "grade": "レジェンド",
+   "icon": 3799907,
    "level": 100,
    "tier": "Ⅰ",
    "stats": [
@@ -69152,6 +69489,7 @@
    "kind": "armor",
    "slot": "グローブ",
    "grade": "レジェンド",
+   "icon": 3799907,
    "level": 100,
    "tier": "Ⅱ",
    "stats": [
@@ -69372,6 +69710,7 @@
    "kind": "weapon",
    "slot": "サブウェポン",
    "grade": "レジェンド",
+   "icon": 3899874,
    "level": 100,
    "tier": "Ⅰ",
    "stats": [
@@ -69629,6 +69968,7 @@
    "kind": "weapon",
    "slot": "サブウェポン",
    "grade": "レジェンド",
+   "icon": 3899874,
    "level": 100,
    "tier": "Ⅱ",
    "stats": [
@@ -69776,6 +70116,7 @@
    "kind": "armor",
    "slot": "ブーツ",
    "grade": "レジェンド",
+   "icon": 3799908,
    "level": 100,
    "tier": "Ⅰ",
    "stats": [
@@ -70210,6 +70551,7 @@
    "kind": "armor",
    "slot": "ヘルム",
    "grade": "レジェンド",
+   "icon": 3799904,
    "level": 100,
    "tier": "Ⅰ",
    "stats": [
@@ -70600,6 +70942,7 @@
    "kind": "armor",
    "slot": "ヘルム",
    "grade": "レジェンド",
+   "icon": 3799904,
    "level": 100,
    "tier": "Ⅱ",
    "stats": [
@@ -70820,6 +71163,7 @@
    "kind": "armor",
    "slot": "ボトム",
    "grade": "レジェンド",
+   "icon": 3799906,
    "level": 100,
    "tier": "Ⅰ",
    "stats": [
@@ -71254,6 +71598,7 @@
    "kind": "armor",
    "slot": "ボトム",
    "grade": "レジェンド",
+   "icon": 3799906,
    "level": 100,
    "tier": "Ⅱ",
    "stats": [
@@ -71498,6 +71843,7 @@
    "kind": "weapon",
    "slot": "メインウェポン",
    "grade": "レジェンド",
+   "icon": 3899870,
    "level": 100,
    "tier": "Ⅰ",
    "stats": [
@@ -71755,6 +72101,7 @@
    "kind": "weapon",
    "slot": "メインウェポン",
    "grade": "レジェンド",
+   "icon": 3899870,
    "level": 100,
    "tier": "Ⅱ",
    "stats": [
@@ -71901,6 +72248,7 @@
    "name": "金色の気迫の能力強化紋章(1段階)",
    "kind": "heraldry",
    "grade": "マジック",
+   "icon": 3499811,
    "level": 100,
    "stats": [
     {
@@ -71924,6 +72272,7 @@
    "name": "金色の気迫の能力強化紋章(2段階)",
    "kind": "heraldry",
    "grade": "レア",
+   "icon": 3499811,
    "level": 100,
    "stats": [
     {
@@ -71947,6 +72296,7 @@
    "name": "金色の気迫の能力強化紋章(3段階)",
    "kind": "heraldry",
    "grade": "エピック",
+   "icon": 3499811,
    "level": 100,
    "stats": [
     {
@@ -71970,6 +72320,7 @@
    "name": "金色の気迫の能力強化紋章(4段階)",
    "kind": "heraldry",
    "grade": "ユニーク",
+   "icon": 3499811,
    "level": 100,
    "stats": [
     {
@@ -71993,6 +72344,7 @@
    "name": "金色の疾風の能力強化紋章(1段階)",
    "kind": "heraldry",
    "grade": "マジック",
+   "icon": 3499812,
    "level": 100,
    "stats": [
     {
@@ -72016,6 +72368,7 @@
    "name": "金色の疾風の能力強化紋章(2段階)",
    "kind": "heraldry",
    "grade": "レア",
+   "icon": 3499812,
    "level": 100,
    "stats": [
     {
@@ -72039,6 +72392,7 @@
    "name": "金色の疾風の能力強化紋章(3段階)",
    "kind": "heraldry",
    "grade": "エピック",
+   "icon": 3499812,
    "level": 100,
    "stats": [
     {
@@ -72062,6 +72416,7 @@
    "name": "金色の疾風の能力強化紋章(4段階)",
    "kind": "heraldry",
    "grade": "ユニーク",
+   "icon": 3499812,
    "level": 100,
    "stats": [
     {
@@ -72085,6 +72440,7 @@
    "name": "金色の体力の能力強化紋章(1段階)",
    "kind": "heraldry",
    "grade": "マジック",
+   "icon": 3499814,
    "level": 100,
    "stats": [
     {
@@ -72108,6 +72464,7 @@
    "name": "金色の体力の能力強化紋章(2段階)",
    "kind": "heraldry",
    "grade": "レア",
+   "icon": 3499814,
    "level": 100,
    "stats": [
     {
@@ -72131,6 +72488,7 @@
    "name": "金色の体力の能力強化紋章(3段階)",
    "kind": "heraldry",
    "grade": "エピック",
+   "icon": 3499814,
    "level": 100,
    "stats": [
     {
@@ -72154,6 +72512,7 @@
    "name": "金色の体力の能力強化紋章(4段階)",
    "kind": "heraldry",
    "grade": "ユニーク",
+   "icon": 3499814,
    "level": 100,
    "stats": [
     {
@@ -72177,6 +72536,7 @@
    "name": "金色の知恵の能力強化紋章(1段階)",
    "kind": "heraldry",
    "grade": "マジック",
+   "icon": 3499813,
    "level": 100,
    "stats": [
     {
@@ -72200,6 +72560,7 @@
    "name": "金色の知恵の能力強化紋章(2段階)",
    "kind": "heraldry",
    "grade": "レア",
+   "icon": 3499813,
    "level": 100,
    "stats": [
     {
@@ -72223,6 +72584,7 @@
    "name": "金色の知恵の能力強化紋章(3段階)",
    "kind": "heraldry",
    "grade": "エピック",
+   "icon": 3499813,
    "level": 100,
    "stats": [
     {
@@ -72246,6 +72608,7 @@
    "name": "金色の知恵の能力強化紋章(4段階)",
    "kind": "heraldry",
    "grade": "ユニーク",
+   "icon": 3499813,
    "level": 100,
    "stats": [
     {
@@ -72269,6 +72632,7 @@
    "name": "金竜のアーマー竜珠",
    "kind": "jade",
    "grade": "ユニーク",
+   "icon": 3399845,
    "level": 99,
    "stats": [
     {
@@ -72436,6 +72800,7 @@
    "name": "金竜のグローブ竜珠",
    "kind": "jade",
    "grade": "ユニーク",
+   "icon": 3399847,
    "level": 99,
    "stats": [
     {
@@ -72603,6 +72968,7 @@
    "name": "金竜のブーツ竜珠",
    "kind": "jade",
    "grade": "ユニーク",
+   "icon": 3399848,
    "level": 99,
    "stats": [
     {
@@ -72770,6 +73136,7 @@
    "name": "金竜のヘルム竜珠",
    "kind": "jade",
    "grade": "ユニーク",
+   "icon": 3399844,
    "level": 99,
    "stats": [
     {
@@ -72937,6 +73304,7 @@
    "name": "金竜のボトム竜珠",
    "kind": "jade",
    "grade": "ユニーク",
+   "icon": 3399846,
    "level": 99,
    "stats": [
     {
@@ -73105,6 +73473,7 @@
    "kind": "weapon",
    "slot": "サブウェポン",
    "grade": "レジェンド",
+   "icon": 3899917,
    "level": 100,
    "stats": [
     {
@@ -73665,6 +74034,7 @@
    "kind": "weapon",
    "slot": "メインウェポン",
    "grade": "レジェンド",
+   "icon": 3899913,
    "level": 100,
    "stats": [
     {
@@ -74225,6 +74595,7 @@
    "kind": "armor",
    "slot": "アーマー",
    "grade": "レジェンド",
+   "icon": 3799979,
    "level": 100,
    "stats": [
     {
@@ -75038,6 +75409,7 @@
    "kind": "armor",
    "slot": "グローブ",
    "grade": "レジェンド",
+   "icon": 3799981,
    "level": 100,
    "stats": [
     {
@@ -75767,6 +76139,7 @@
    "kind": "armor",
    "slot": "ブーツ",
    "grade": "レジェンド",
+   "icon": 3799982,
    "level": 100,
    "stats": [
     {
@@ -76580,6 +76953,7 @@
    "kind": "armor",
    "slot": "ヘルム",
    "grade": "レジェンド",
+   "icon": 3799978,
    "level": 100,
    "stats": [
     {
@@ -77309,6 +77683,7 @@
    "kind": "armor",
    "slot": "ボトム",
    "grade": "レジェンド",
+   "icon": 3799980,
    "level": 100,
    "stats": [
     {
@@ -78122,6 +78497,7 @@
    "kind": "accessory",
    "slot": "イヤリング",
    "grade": "レジェンド",
+   "icon": 18804,
    "level": 95,
    "stats": [
     {
@@ -78678,6 +79054,7 @@
    "kind": "accessory",
    "slot": "ネックレス",
    "grade": "レジェンド",
+   "icon": 18805,
    "level": 95,
    "stats": [
     {
@@ -79066,6 +79443,7 @@
    "kind": "accessory",
    "slot": "リング",
    "grade": "レジェンド",
+   "icon": 18803,
    "level": 95,
    "stats": [
     {
@@ -79373,6 +79751,7 @@
    "name": "月食のヘルム防御竜珠",
    "kind": "jade",
    "grade": "ノーマル",
+   "icon": 18361,
    "level": 95,
    "stats": [
     {
@@ -79407,6 +79786,7 @@
    "name": "月食のヘルム防御竜珠",
    "kind": "jade",
    "grade": "マジック",
+   "icon": 18361,
    "level": 95,
    "stats": [
     {
@@ -79445,6 +79825,7 @@
    "name": "古代の脅威の変異型防御竜珠",
    "kind": "jade",
    "grade": "エンシェント",
+   "icon": 18223,
    "level": 95,
    "stats": [
     {
@@ -79938,6 +80319,7 @@
    "name": "古代の保護の変異型防御竜珠",
    "kind": "jade",
    "grade": "エンシェント",
+   "icon": 18326,
    "level": 95,
    "stats": [
     {
@@ -80431,6 +80813,7 @@
    "name": "古代の竜珠(グラディエーター)",
    "kind": null,
    "grade": "エンシェント",
+   "icon": 15859,
    "level": 99,
    "enchant_id": 847258795,
    "max_enhance": 20,
@@ -80590,6 +80973,7 @@
    "name": "古代人の女神紋章(10段階)",
    "kind": "heraldry",
    "grade": "エンシェント",
+   "icon": 3499800,
    "level": 99,
    "tradable": "取得時帰属 (封印 3 回)",
    "description": "[紋章] 古代人の特別な力を感じる紋章。 [古代の力]のダメージを450%増加させる。 PvPでは適用されない。"
@@ -80599,6 +80983,7 @@
    "name": "古代人の女神紋章(1段階)",
    "kind": "heraldry",
    "grade": "エンシェント",
+   "icon": 3499800,
    "level": 99,
    "tradable": "取引可",
    "description": "[紋章] 古代人の特別な力を感じる紋章。 [古代の力]のダメージを68%増加させる。 PvPでは適用されない。"
@@ -80608,6 +80993,7 @@
    "name": "古代人の女神紋章(2段階)",
    "kind": "heraldry",
    "grade": "エンシェント",
+   "icon": 3499800,
    "level": 99,
    "tradable": "取引可",
    "description": "[紋章] 古代人の特別な力を感じる紋章。 [古代の力]のダメージを83%増加させる。 PvPでは適用されない。"
@@ -80617,6 +81003,7 @@
    "name": "古代人の女神紋章(3段階)",
    "kind": "heraldry",
    "grade": "エンシェント",
+   "icon": 3499800,
    "level": 99,
    "tradable": "取引可",
    "description": "[紋章] 古代人の特別な力を感じる紋章。 [古代の力]のダメージを104%増加させる。 PvPでは適用されない。"
@@ -80626,6 +81013,7 @@
    "name": "古代人の女神紋章(4段階)",
    "kind": "heraldry",
    "grade": "エンシェント",
+   "icon": 3499800,
    "level": 99,
    "tradable": "取引可",
    "description": "[紋章] 古代人の特別な力を感じる紋章。 [古代の力]のダメージを128%増加させる。 PvPでは適用されない。"
@@ -80635,6 +81023,7 @@
    "name": "古代人の女神紋章(5段階)",
    "kind": "heraldry",
    "grade": "エンシェント",
+   "icon": 3499800,
    "level": 99,
    "tradable": "取引可",
    "description": "[紋章] 古代人の特別な力を感じる紋章。 [古代の力]のダメージを158%増加させる。 PvPでは適用されない。"
@@ -80644,6 +81033,7 @@
    "name": "古代人の女神紋章(6段階)",
    "kind": "heraldry",
    "grade": "エンシェント",
+   "icon": 3499800,
    "level": 99,
    "tradable": "取引可",
    "description": "[紋章] 古代人の特別な力を感じる紋章。 [古代の力]のダメージを194%増加させる。 PvPでは適用されない。"
@@ -80653,6 +81043,7 @@
    "name": "古代人の女神紋章(7段階)",
    "kind": "heraldry",
    "grade": "エンシェント",
+   "icon": 3499800,
    "level": 99,
    "tradable": "取引可",
    "description": "[紋章] 古代人の特別な力を感じる紋章。 [古代の力]のダメージを241%増加させる。 PvPでは適用されない。"
@@ -80662,6 +81053,7 @@
    "name": "古代人の女神紋章(8段階)",
    "kind": "heraldry",
    "grade": "エンシェント",
+   "icon": 3499800,
    "level": 99,
    "tradable": "取引可",
    "description": "[紋章] 古代人の特別な力を感じる紋章。 [古代の力]のダメージを295%増加させる。 PvPでは適用されない。"
@@ -80671,6 +81063,7 @@
    "name": "古代人の女神紋章(9段階)",
    "kind": "heraldry",
    "grade": "エンシェント",
+   "icon": 3499800,
    "level": 99,
    "tradable": "取引可",
    "description": "[紋章] 古代人の特別な力を感じる紋章。 [古代の力]のダメージを365%増加させる。 PvPでは適用されない。"
@@ -80681,6 +81074,7 @@
    "kind": "weapon",
    "slot": "サブウェポン",
    "grade": "レジェンド",
+   "icon": 3899804,
    "level": 99,
    "stats": [
     {
@@ -81157,6 +81551,7 @@
    "kind": "armor",
    "slot": "アーマー",
    "grade": "エンシェント",
+   "icon": 3799801,
    "level": 99,
    "stats": [
     {
@@ -81970,6 +82365,7 @@
    "kind": "armor",
    "slot": "グローブ",
    "grade": "エンシェント",
+   "icon": 3799803,
    "level": 99,
    "stats": [
     {
@@ -82699,6 +83095,7 @@
    "kind": "armor",
    "slot": "ブーツ",
    "grade": "エンシェント",
+   "icon": 3799804,
    "level": 99,
    "stats": [
     {
@@ -83512,6 +83909,7 @@
    "kind": "armor",
    "slot": "ヘルム",
    "grade": "エンシェント",
+   "icon": 3799800,
    "level": 99,
    "stats": [
     {
@@ -84241,6 +84639,7 @@
    "kind": "armor",
    "slot": "ボトム",
    "grade": "エンシェント",
+   "icon": 3799802,
    "level": 99,
    "stats": [
     {
@@ -85054,6 +85453,7 @@
    "kind": "weapon",
    "slot": "メインウェポン",
    "grade": "レジェンド",
+   "icon": 3899800,
    "level": 99,
    "stats": [
     {
@@ -85529,6 +85929,7 @@
    "name": "紅月の竜珠(グラディエーター)",
    "kind": null,
    "grade": "エンシェント",
+   "icon": 15358,
    "level": 95,
    "enchant_id": 847258901,
    "max_enhance": 20,
@@ -85772,6 +86173,7 @@
    "name": "最上級スキル強化紋章(ラピッドブラスト)",
    "kind": "heraldry",
    "grade": "エピック",
+   "icon": 18026,
    "tradable": "取得時帰属 (封印 1 回)",
    "description": "[紋章] 神秘的な紋章。[スキル強化紋章]のスロットに装備可。 [ラピッドブラスト]のダメージが20.0%増加する。"
   },
@@ -85780,6 +86182,7 @@
    "name": "最上級プレート(ラピッドブラスト)",
    "kind": "heraldry",
    "grade": "エピック",
+   "icon": 18062,
    "tradable": "取得時帰属",
    "description": "[プレート] 神秘的なプレート。 [ダメージ増加]または[再使用時間短縮]能力値を持つ[最上級スキル強化紋章(ラピッドブラスト)]の生産に使用。"
   },
@@ -85788,6 +86191,7 @@
    "name": "次元の竜珠(グラディエーター)",
    "kind": null,
    "grade": "エンシェント",
+   "icon": 3399800,
    "level": 95,
    "enchant_id": 847258903,
    "max_enhance": 20,
@@ -86032,6 +86436,7 @@
    "name": "邪根の変異型竜珠",
    "kind": "jade",
    "grade": "エンシェント",
+   "icon": 3399843,
    "level": 95,
    "stats": [
     {
@@ -87167,6 +87572,7 @@
    "name": "邪根の変異型竜珠",
    "kind": "jade",
    "grade": "ユニーク",
+   "icon": 3399843,
    "level": 95,
    "stats": [
     {
@@ -87378,6 +87784,7 @@
    "name": "邪根の変異型竜珠",
    "kind": "jade",
    "grade": "レジェンド",
+   "icon": 3399843,
    "level": 95,
    "stats": [
     {
@@ -88513,6 +88920,7 @@
    "name": "守護のギルドのタリスマン",
    "kind": "talisman",
    "grade": "エピック",
+   "icon": 18306,
    "level": 100,
    "stats": [
     {
@@ -88529,6 +88937,7 @@
    "kind": "weapon",
    "slot": "サブウェポン",
    "grade": "エンシェント",
+   "icon": 3899839,
    "level": 99,
    "stats": [
     {
@@ -89089,6 +89498,7 @@
    "kind": "weapon",
    "slot": "メインウェポン",
    "grade": "エンシェント",
+   "icon": 3899835,
    "level": 99,
    "stats": [
     {
@@ -89648,6 +90058,7 @@
    "name": "祝福されたイベールのタリスマン",
    "kind": "talisman",
    "grade": "レジェンド",
+   "icon": 3599803,
    "level": 100,
    "stats": [
     {
@@ -89758,6 +90169,7 @@
    "name": "祝福されたクアノスのタリスマン",
    "kind": "talisman",
    "grade": "レジェンド",
+   "icon": 3599800,
    "level": 100,
    "stats": [
     {
@@ -89996,6 +90408,7 @@
    "name": "祝福されたジェレイントの成長",
    "kind": "artifact",
    "grade": "ユニーク",
+   "icon": 2999924,
    "level": 100,
    "stats": [
     {
@@ -90015,6 +90428,7 @@
    "name": "祝福されたシャリカのタリスマン",
    "kind": "talisman",
    "grade": "レジェンド",
+   "icon": 3599801,
    "level": 100,
    "stats": [
     {
@@ -90125,6 +90539,7 @@
    "name": "祝福されたヘイズフロストドラゴンの完全なタリスマン",
    "kind": "talisman",
    "grade": "レジェンド",
+   "icon": 3599802,
    "level": 100,
    "stats": [
     {
@@ -90235,6 +90650,7 @@
    "name": "祝福された金色の気迫の能力強化紋章",
    "kind": "heraldry",
    "grade": "レジェンド",
+   "icon": 3499815,
    "level": 100,
    "stats": [
     {
@@ -90262,6 +90678,7 @@
    "name": "祝福された金色の疾風の能力強化紋章",
    "kind": "heraldry",
    "grade": "レジェンド",
+   "icon": 3499816,
    "level": 100,
    "stats": [
     {
@@ -90289,6 +90706,7 @@
    "name": "祝福された金色の知恵の能力強化紋章",
    "kind": "heraldry",
    "grade": "レジェンド",
+   "icon": 3499817,
    "level": 100,
    "stats": [
     {
@@ -90316,6 +90734,7 @@
    "name": "祝福された金色の体力の能力強化紋章",
    "kind": "heraldry",
    "grade": "レジェンド",
+   "icon": 3499818,
    "level": 100,
    "stats": [
     {
@@ -90343,6 +90762,7 @@
    "name": "祝福された金竜のアーマー竜珠",
    "kind": "jade",
    "grade": "レジェンド",
+   "icon": 3399845,
    "level": 99,
    "stats": [
     {
@@ -90366,6 +90786,7 @@
    "name": "祝福された金竜のグローブ竜珠",
    "kind": "jade",
    "grade": "レジェンド",
+   "icon": 3399847,
    "level": 99,
    "stats": [
     {
@@ -90389,6 +90810,7 @@
    "name": "祝福された金竜のブーツ竜珠",
    "kind": "jade",
    "grade": "レジェンド",
+   "icon": 3399848,
    "level": 99,
    "stats": [
     {
@@ -90412,6 +90834,7 @@
    "name": "祝福された金竜のヘルム竜珠",
    "kind": "jade",
    "grade": "レジェンド",
+   "icon": 3399844,
    "level": 99,
    "stats": [
     {
@@ -90435,6 +90858,7 @@
    "name": "祝福された金竜のボトム竜珠",
    "kind": "jade",
    "grade": "レジェンド",
+   "icon": 3399846,
    "level": 99,
    "stats": [
     {
@@ -90458,6 +90882,7 @@
    "name": "祝福された青い霜のタリスマン",
    "kind": "talisman",
    "grade": "レジェンド",
+   "icon": 3599804,
    "level": 100,
    "stats": [
     {
@@ -90760,6 +91185,7 @@
    "name": "祝福された矛盾の世界のタリスマン",
    "kind": "talisman",
    "grade": "レジェンド",
+   "icon": 3599805,
    "level": 100,
    "stats": [
     {
@@ -91063,6 +91489,7 @@
    "kind": "accessory",
    "slot": "イヤリング",
    "grade": "レジェンド",
+   "icon": 18801,
    "level": 95,
    "stats": [
     {
@@ -91871,6 +92298,7 @@
    "kind": "accessory",
    "slot": "イヤリング",
    "grade": "レジェンド",
+   "icon": 18801,
    "level": 95,
    "stats": [
     {
@@ -92679,6 +93107,7 @@
    "kind": "accessory",
    "slot": "イヤリング",
    "grade": "レジェンド",
+   "icon": 18801,
    "level": 95,
    "stats": [
     {
@@ -93407,6 +93836,7 @@
    "kind": "accessory",
    "slot": "ネックレス",
    "grade": "レジェンド",
+   "icon": 18802,
    "level": 95,
    "stats": [
     {
@@ -94047,6 +94477,7 @@
    "kind": "accessory",
    "slot": "ネックレス",
    "grade": "レジェンド",
+   "icon": 18802,
    "level": 95,
    "stats": [
     {
@@ -94687,6 +95118,7 @@
    "kind": "accessory",
    "slot": "ネックレス",
    "grade": "レジェンド",
+   "icon": 18802,
    "level": 95,
    "stats": [
     {
@@ -95579,6 +96011,7 @@
    "kind": "accessory",
    "slot": "リング",
    "grade": "レジェンド",
+   "icon": 18800,
    "level": 95,
    "stats": [
     {
@@ -96387,6 +96820,7 @@
    "kind": "accessory",
    "slot": "リング",
    "grade": "レジェンド",
+   "icon": 18800,
    "level": 95,
    "stats": [
     {
@@ -97195,6 +97629,7 @@
    "kind": "accessory",
    "slot": "リング",
    "grade": "レジェンド",
+   "icon": 18800,
    "level": 95,
    "stats": [
     {
@@ -97922,6 +98357,7 @@
    "name": "上級ジェレイントの成長",
    "kind": "artifact",
    "grade": "エピック",
+   "icon": 2999924,
    "level": 100,
    "stats": [
     {
@@ -97941,6 +98377,7 @@
    "name": "信頼のギルドのタリスマン",
    "kind": "talisman",
    "grade": "エピック",
+   "icon": 18310,
    "level": 100,
    "stats": [
     {
@@ -97956,6 +98393,7 @@
    "name": "新緑の竜珠(グラディエーター)",
    "kind": null,
    "grade": "エンシェント",
+   "icon": 15433,
    "level": 95,
    "enchant_id": 847258902,
    "max_enhance": 20,
@@ -98199,6 +98637,7 @@
    "name": "青い霜のタリスマン",
    "kind": "talisman",
    "grade": "ユニーク",
+   "icon": 3599804,
    "level": 100,
    "stats": [
     {
@@ -98501,6 +98940,7 @@
    "name": "団結のギルドのタリスマン",
    "kind": "talisman",
    "grade": "エピック",
+   "icon": 18308,
    "level": 100,
    "stats": [
     {
@@ -98516,6 +98956,7 @@
    "name": "致命型ギルドのタリスマン",
    "kind": "talisman",
    "grade": "エピック",
+   "icon": 18314,
    "level": 100,
    "stats": [
     {
@@ -98531,6 +98972,7 @@
    "name": "中級ジェレイントの成長",
    "kind": "artifact",
    "grade": "エピック",
+   "icon": 2999924,
    "level": 100,
    "stats": [
     {
@@ -98551,6 +98993,7 @@
    "kind": "accessory",
    "slot": "イヤリング",
    "grade": "レジェンド",
+   "icon": 18829,
    "level": 95,
    "stats": [
     {
@@ -99303,6 +99746,7 @@
    "kind": "accessory",
    "slot": "イヤリング",
    "grade": "ユニーク",
+   "icon": 18847,
    "stats": [
     {
      "name": "攻撃力",
@@ -99342,6 +99786,7 @@
    "kind": "accessory",
    "slot": "ネックレス",
    "grade": "ユニーク",
+   "icon": 18846,
    "stats": [
     {
      "name": "物魔攻撃%",
@@ -99389,6 +99834,7 @@
    "kind": "accessory",
    "slot": "リング",
    "grade": "ユニーク",
+   "icon": 18845,
    "stats": [
     {
      "name": "攻撃力",
@@ -99419,6 +99865,7 @@
    "name": "独武討伐のタリスマン",
    "kind": "talisman",
    "grade": "ユニーク",
+   "icon": 18277,
    "level": 100,
    "stats": [
     {
@@ -99456,6 +99903,7 @@
    "kind": "accessory",
    "slot": "ブローチ",
    "grade": "ノーマル",
+   "icon": 1999846,
    "tradable": "取得時帰属",
    "description": "ブローチの力が全く感じられない… 鍛冶屋に持って行ってみよう！"
   },
@@ -99465,6 +99913,7 @@
    "kind": "accessory",
    "slot": "ブローチ",
    "grade": "ノーマル",
+   "icon": 2000020,
    "tradable": "取得時帰属",
    "description": "ブローチの力が全く感じられない… 鍛冶屋に持って行ってみよう！"
   },
@@ -99474,6 +99923,7 @@
    "kind": "accessory",
    "slot": "ブローチ",
    "grade": "ノーマル",
+   "icon": 1999946,
    "tradable": "取得時帰属",
    "description": "ブローチの力が全く感じられない… 鍛冶屋に持って行ってみよう！"
   },
@@ -99483,6 +99933,7 @@
    "kind": "accessory",
    "slot": "ブローチ",
    "grade": "ノーマル",
+   "icon": 1999845,
    "tradable": "取得時帰属",
    "description": "ブローチの力が全く感じられない… 鍛冶屋に持って行ってみよう！"
   },
@@ -99492,6 +99943,7 @@
    "kind": "accessory",
    "slot": "ブローチ",
    "grade": "ノーマル",
+   "icon": 1999931,
    "tradable": "取得時帰属",
    "description": "ブローチの力が全く感じられない… 鍛冶屋に持って行ってみよう！"
   },
@@ -99500,6 +99952,7 @@
    "name": "崩壊のヘルム攻撃竜珠",
    "kind": "jade",
    "grade": "エピック",
+   "icon": 3399803,
    "level": 95,
    "stats": [
     {
@@ -99929,6 +100382,7 @@
    "name": "崩壊のヘルム防御竜珠",
    "kind": "jade",
    "grade": "エピック",
+   "icon": 3399823,
    "level": 95,
    "stats": [
     {
@@ -100422,6 +100876,7 @@
    "name": "剣戟の崩壊のヘルム攻撃竜珠",
    "kind": "jade",
    "grade": "ユニーク",
+   "icon": 3399803,
    "level": 95,
    "stats": [
     {
@@ -100484,6 +100939,7 @@
    "name": "剣戟の崩壊のヘルム防御竜珠",
    "kind": "jade",
    "grade": "ユニーク",
+   "icon": 3399823,
    "level": 95,
    "stats": [
     {
@@ -100555,6 +101011,7 @@
    "kind": "accessory",
    "slot": "イヤリング",
    "grade": "レジェンド",
+   "icon": 18822,
    "level": 99,
    "stats": [
     {
@@ -100947,6 +101404,7 @@
    "kind": "accessory",
    "slot": "ネックレス",
    "grade": "レジェンド",
+   "icon": 18821,
    "level": 99,
    "stats": [
     {
@@ -101335,6 +101793,7 @@
    "kind": "accessory",
    "slot": "リング",
    "grade": "レジェンド",
+   "icon": 18823,
    "level": 99,
    "stats": [
     {
@@ -101811,6 +102270,7 @@
    "kind": "accessory",
    "slot": "ネックレス",
    "grade": "レジェンド",
+   "icon": 18828,
    "level": 95,
    "stats": [
     {
@@ -102454,6 +102914,7 @@
    "name": "矛盾の世界のタリスマン",
    "kind": "talisman",
    "grade": "ユニーク",
+   "icon": 3599805,
    "level": 100,
    "stats": [
     {
@@ -102756,6 +103217,7 @@
    "name": "勇猛なギルドのタリスマン",
    "kind": "talisman",
    "grade": "エピック",
+   "icon": 18313,
    "level": 100,
    "stats": [
     {
@@ -102771,6 +103233,7 @@
    "name": "幽幻の竜珠(グラディエーター)",
    "kind": null,
    "grade": "エンシェント",
+   "icon": 15296,
    "level": 95,
    "enchant_id": 847258900,
    "max_enhance": 20,
@@ -103015,6 +103478,7 @@
    "kind": "accessory",
    "slot": "リング",
    "grade": "レジェンド",
+   "icon": 18827,
    "level": 95,
    "stats": [
     {
@@ -103322,6 +103786,7 @@
    "name": "冷徹なギルドのタリスマン",
    "kind": "talisman",
    "grade": "エピック",
+   "icon": 18315,
    "level": 100,
    "stats": [
     {
@@ -103337,6 +103802,7 @@
    "name": "煌めくスタッフの紋章",
    "kind": "heraldry",
    "grade": "レジェンド",
+   "icon": 346,
    "level": 100,
    "stats": [
     {
@@ -103360,6 +103826,7 @@
    "name": "煌めく剣の紋章",
    "kind": "heraldry",
    "grade": "レジェンド",
+   "icon": 12,
    "level": 100,
    "stats": [
     {
@@ -103383,6 +103850,7 @@
    "name": "煌めくシールドの紋章",
    "kind": "heraldry",
    "grade": "レジェンド",
+   "icon": 597,
    "level": 100,
    "stats": [
     {
@@ -103406,6 +103874,7 @@
    "name": "煌めく弓の紋章",
    "kind": "heraldry",
    "grade": "レジェンド",
+   "icon": 200,
    "level": 100,
    "stats": [
     {
@@ -103429,6 +103898,7 @@
    "name": "古代人の混沌のメビウスの紋章",
    "kind": "heraldry",
    "grade": "ユニーク",
+   "icon": 15856,
    "level": 99,
    "variants_note": "古代人の混沌のメビウスの紋章",
    "tradable": "取得時帰属",
@@ -103439,6 +103909,8 @@
    "name": "古代のヴァズモスソード",
    "kind": "weapon",
    "slot": "メインウェポン",
+   "grade": "マスター",
+   "icon": 41124,
    "level": 99,
    "tier": "Ⅰ",
    "stats": [
@@ -103620,6 +104092,7 @@
    "kind": "weapon",
    "slot": "メインウェポン",
    "grade": "エンシェント",
+   "icon": 42306,
    "level": 99,
    "stats": [
     {
@@ -103763,6 +104236,7 @@
    "name": "不敗のメビウスの紋章",
    "kind": "heraldry",
    "grade": "レジェンド",
+   "icon": 18154,
    "level": 99,
    "stats": [
     {
@@ -103778,6 +104252,7 @@
    "name": "永遠の体力の能力強化紋章",
    "kind": "heraldry",
    "grade": "ユニーク",
+   "icon": 18451,
    "level": 99,
    "stats": [
     {
@@ -103805,6 +104280,7 @@
    "name": "永遠の体力の能力強化紋章",
    "kind": "heraldry",
    "grade": "エピック",
+   "icon": 18430,
    "level": 99,
    "stats": [
     {
@@ -103828,6 +104304,7 @@
    "name": "永遠の体力の能力強化紋章",
    "kind": "heraldry",
    "grade": "レア",
+   "icon": 18430,
    "level": 99,
    "stats": [
     {
@@ -103852,6 +104329,7 @@
    "name": "永遠の体力の能力強化紋章",
    "kind": "heraldry",
    "grade": "マジック",
+   "icon": 18430,
    "level": 99,
    "stats": [
     {
@@ -103876,6 +104354,7 @@
    "name": "永遠の魔力の能力強化紋章",
    "kind": "heraldry",
    "grade": "ユニーク",
+   "icon": 18453,
    "level": 99,
    "stats": [
     {
@@ -103899,6 +104378,7 @@
    "name": "永遠の魔力の能力強化紋章",
    "kind": "heraldry",
    "grade": "エピック",
+   "icon": 18432,
    "level": 99,
    "stats": [
     {
@@ -103918,6 +104398,7 @@
    "name": "永遠の魔力の能力強化紋章",
    "kind": "heraldry",
    "grade": "レア",
+   "icon": 18432,
    "level": 99,
    "stats": [
     {
@@ -103938,6 +104419,7 @@
    "name": "永遠の魔力の能力強化紋章",
    "kind": "heraldry",
    "grade": "マジック",
+   "icon": 18432,
    "level": 99,
    "stats": [
     {
@@ -103958,6 +104440,7 @@
    "name": "永遠の加護の能力強化紋章",
    "kind": "heraldry",
    "grade": "ユニーク",
+   "icon": 18449,
    "level": 99,
    "stats": [
     {
@@ -103985,6 +104468,7 @@
    "name": "永遠の加護の能力強化紋章",
    "kind": "heraldry",
    "grade": "エピック",
+   "icon": 18428,
    "level": 99,
    "stats": [
     {
@@ -104008,6 +104492,7 @@
    "name": "永遠の加護の能力強化紋章",
    "kind": "heraldry",
    "grade": "レア",
+   "icon": 18428,
    "level": 99,
    "stats": [
     {
@@ -104032,6 +104517,7 @@
    "name": "永遠の加護の能力強化紋章",
    "kind": "heraldry",
    "grade": "マジック",
+   "icon": 18428,
    "level": 99,
    "stats": [
     {
@@ -104056,6 +104542,7 @@
    "name": "永遠の破壊の能力強化紋章",
    "kind": "heraldry",
    "grade": "ユニーク",
+   "icon": 18452,
    "level": 99,
    "stats": [
     {
@@ -104079,6 +104566,7 @@
    "name": "永遠の破壊の能力強化紋章",
    "kind": "heraldry",
    "grade": "エピック",
+   "icon": 18431,
    "level": 99,
    "stats": [
     {
@@ -104098,6 +104586,7 @@
    "name": "永遠の破壊の能力強化紋章",
    "kind": "heraldry",
    "grade": "レア",
+   "icon": 18431,
    "level": 99,
    "stats": [
     {
@@ -104118,6 +104607,7 @@
    "name": "永遠の破壊の能力強化紋章",
    "kind": "heraldry",
    "grade": "マジック",
+   "icon": 18431,
    "level": 99,
    "stats": [
     {
@@ -104138,6 +104628,7 @@
    "name": "永遠の鉄壁の能力強化紋章",
    "kind": "heraldry",
    "grade": "ユニーク",
+   "icon": 18450,
    "level": 99,
    "stats": [
     {
@@ -104165,6 +104656,7 @@
    "name": "永遠の鉄壁の能力強化紋章",
    "kind": "heraldry",
    "grade": "エピック",
+   "icon": 18429,
    "level": 99,
    "stats": [
     {
@@ -104188,6 +104680,7 @@
    "name": "永遠の鉄壁の能力強化紋章",
    "kind": "heraldry",
    "grade": "レア",
+   "icon": 18429,
    "level": 99,
    "stats": [
     {
@@ -104212,6 +104705,7 @@
    "name": "永遠の鉄壁の能力強化紋章",
    "kind": "heraldry",
    "grade": "マジック",
+   "icon": 18429,
    "level": 99,
    "stats": [
     {
@@ -104236,6 +104730,7 @@
    "name": "永遠の疾風の能力強化紋章",
    "kind": "heraldry",
    "grade": "ユニーク",
+   "icon": 18441,
    "level": 99,
    "stats": [
     {
@@ -104263,6 +104758,7 @@
    "name": "永遠の疾風の能力強化紋章",
    "kind": "heraldry",
    "grade": "エピック",
+   "icon": 18420,
    "level": 99,
    "stats": [
     {
@@ -104286,6 +104782,7 @@
    "name": "永遠の疾風の能力強化紋章",
    "kind": "heraldry",
    "grade": "レア",
+   "icon": 18420,
    "level": 99,
    "stats": [
     {
@@ -104310,6 +104807,7 @@
    "name": "永遠の疾風の能力強化紋章",
    "kind": "heraldry",
    "grade": "マジック",
+   "icon": 18420,
    "level": 99,
    "stats": [
     {
@@ -104334,6 +104832,7 @@
    "name": "永遠の知恵の能力強化紋章",
    "kind": "heraldry",
    "grade": "ユニーク",
+   "icon": 18440,
    "level": 99,
    "stats": [
     {
@@ -104361,6 +104860,7 @@
    "name": "永遠の知恵の能力強化紋章",
    "kind": "heraldry",
    "grade": "エピック",
+   "icon": 18419,
    "level": 99,
    "stats": [
     {
@@ -104384,6 +104884,7 @@
    "name": "永遠の知恵の能力強化紋章",
    "kind": "heraldry",
    "grade": "レア",
+   "icon": 18419,
    "level": 99,
    "stats": [
     {
@@ -104408,6 +104909,7 @@
    "name": "永遠の知恵の能力強化紋章",
    "kind": "heraldry",
    "grade": "マジック",
+   "icon": 18419,
    "level": 99,
    "stats": [
     {
@@ -104432,6 +104934,7 @@
    "name": "永遠の究極の能力強化紋章",
    "kind": "heraldry",
    "grade": "ユニーク",
+   "icon": 18445,
    "level": 99,
    "stats": [
     {
@@ -104451,6 +104954,7 @@
    "name": "永遠の究極の能力強化紋章",
    "kind": "heraldry",
    "grade": "エピック",
+   "icon": 18445,
    "level": 99,
    "stats": [
     {
@@ -104470,6 +104974,7 @@
    "name": "永遠の究極の能力強化紋章",
    "kind": "heraldry",
    "grade": "レア",
+   "icon": 18445,
    "level": 99,
    "stats": [
     {
@@ -104490,6 +104995,7 @@
    "name": "永遠の究極の能力強化紋章",
    "kind": "heraldry",
    "grade": "マジック",
+   "icon": 18445,
    "level": 99,
    "stats": [
     {
@@ -104510,6 +105016,7 @@
    "name": "永遠の致命の能力強化紋章",
    "kind": "heraldry",
    "grade": "ユニーク",
+   "icon": 18448,
    "level": 99,
    "stats": [
     {
@@ -104537,6 +105044,7 @@
    "name": "永遠の致命の能力強化紋章",
    "kind": "heraldry",
    "grade": "エピック",
+   "icon": 18427,
    "level": 99,
    "stats": [
     {
@@ -104560,6 +105068,7 @@
    "name": "永遠の致命の能力強化紋章",
    "kind": "heraldry",
    "grade": "レア",
+   "icon": 18427,
    "level": 99,
    "stats": [
     {
@@ -104584,6 +105093,7 @@
    "name": "永遠の致命の能力強化紋章",
    "kind": "heraldry",
    "grade": "マジック",
+   "icon": 18427,
    "level": 99,
    "stats": [
     {
@@ -104608,6 +105118,7 @@
    "name": "永遠の限界の能力強化紋章",
    "kind": "heraldry",
    "grade": "ユニーク",
+   "icon": 18447,
    "level": 99,
    "stats": [
     {
@@ -104635,6 +105146,7 @@
    "name": "永遠の限界の能力強化紋章",
    "kind": "heraldry",
    "grade": "エピック",
+   "icon": 18426,
    "level": 99,
    "stats": [
     {
@@ -104658,6 +105170,7 @@
    "name": "永遠の限界の能力強化紋章",
    "kind": "heraldry",
    "grade": "レア",
+   "icon": 18426,
    "level": 99,
    "stats": [
     {
@@ -104682,6 +105195,7 @@
    "name": "永遠の限界の能力強化紋章",
    "kind": "heraldry",
    "grade": "マジック",
+   "icon": 18426,
    "level": 99,
    "stats": [
     {
@@ -104706,6 +105220,7 @@
    "name": "永遠の気迫の能力強化紋章",
    "kind": "heraldry",
    "grade": "ユニーク",
+   "icon": 18442,
    "level": 99,
    "stats": [
     {
@@ -104733,6 +105248,7 @@
    "name": "永遠の気迫の能力強化紋章",
    "kind": "heraldry",
    "grade": "エピック",
+   "icon": 18421,
    "level": 99,
    "stats": [
     {
@@ -104756,6 +105272,7 @@
    "name": "永遠の気迫の能力強化紋章",
    "kind": "heraldry",
    "grade": "レア",
+   "icon": 18421,
    "level": 99,
    "stats": [
     {
@@ -104780,6 +105297,7 @@
    "name": "永遠の気迫の能力強化紋章",
    "kind": "heraldry",
    "grade": "マジック",
+   "icon": 18421,
    "level": 99,
    "stats": [
     {
@@ -104804,6 +105322,7 @@
    "name": "永遠の生命の能力強化紋章",
    "kind": "heraldry",
    "grade": "ユニーク",
+   "icon": 18439,
    "level": 99,
    "stats": [
     {
@@ -104831,6 +105350,7 @@
    "name": "永遠の生命の能力強化紋章",
    "kind": "heraldry",
    "grade": "エピック",
+   "icon": 18418,
    "level": 99,
    "stats": [
     {
@@ -104854,6 +105374,7 @@
    "name": "永遠の生命の能力強化紋章",
    "kind": "heraldry",
    "grade": "レア",
+   "icon": 18418,
    "level": 99,
    "stats": [
     {
@@ -104878,6 +105399,7 @@
    "name": "永遠の生命の能力強化紋章",
    "kind": "heraldry",
    "grade": "マジック",
+   "icon": 18418,
    "level": 99,
    "stats": [
     {
@@ -104902,6 +105424,7 @@
    "name": "永遠の攻撃型能力強化紋章",
    "kind": "heraldry",
    "grade": "ユニーク",
+   "icon": 18437,
    "level": 99,
    "stats": [
     {
@@ -104921,6 +105444,7 @@
    "name": "永遠の攻撃型能力強化紋章",
    "kind": "heraldry",
    "grade": "エピック",
+   "icon": 18416,
    "level": 99,
    "stats": [
     {
@@ -104940,6 +105464,7 @@
    "name": "永遠の攻撃型能力強化紋章",
    "kind": "heraldry",
    "grade": "レア",
+   "icon": 18416,
    "level": 99,
    "stats": [
     {
@@ -104960,6 +105485,7 @@
    "name": "永遠の攻撃型能力強化紋章",
    "kind": "heraldry",
    "grade": "マジック",
+   "icon": 18416,
    "level": 99,
    "stats": [
     {
@@ -104980,6 +105506,7 @@
    "name": "永遠の防御型能力強化紋章",
    "kind": "heraldry",
    "grade": "ユニーク",
+   "icon": 18438,
    "level": 99,
    "stats": [
     {
@@ -105011,6 +105538,7 @@
    "name": "永遠の防御型能力強化紋章",
    "kind": "heraldry",
    "grade": "エピック",
+   "icon": 18417,
    "level": 99,
    "stats": [
     {
@@ -105038,6 +105566,7 @@
    "name": "永遠の防御型能力強化紋章",
    "kind": "heraldry",
    "grade": "レア",
+   "icon": 18417,
    "level": 99,
    "stats": [
     {
@@ -105066,6 +105595,7 @@
    "name": "永遠の防御型能力強化紋章",
    "kind": "heraldry",
    "grade": "マジック",
+   "icon": 18417,
    "level": 99,
    "stats": [
     {
@@ -105094,6 +105624,7 @@
    "name": "オーガダパのタリスマン",
    "kind": "talisman",
    "grade": "ノーマル",
+   "icon": 18391,
    "level": 99,
    "stats": [
     {
@@ -105109,6 +105640,7 @@
    "name": "オーガダパのタリスマン",
    "kind": "talisman",
    "grade": "マジック",
+   "icon": 18391,
    "level": 99,
    "stats": [
     {
@@ -105128,6 +105660,7 @@
    "name": "オーガダパのタリスマン",
    "kind": "talisman",
    "grade": "エピック",
+   "icon": 18391,
    "level": 99,
    "stats": [
     {
@@ -105151,6 +105684,7 @@
    "name": "オーガダパのタリスマン",
    "kind": "talisman",
    "grade": "ユニーク",
+   "icon": 18391,
    "level": 99,
    "stats": [
     {
@@ -105174,6 +105708,7 @@
    "name": "祝福されたオーガダパのタリスマン",
    "kind": "talisman",
    "grade": "レジェンド",
+   "icon": 18391,
    "level": 99,
    "stats": [
     {
@@ -105197,6 +105732,7 @@
    "name": "ウンブラのタリスマン",
    "kind": "talisman",
    "grade": "ノーマル",
+   "icon": 18392,
    "level": 99,
    "stats": [
     {
@@ -105212,6 +105748,7 @@
    "name": "ウンブラのタリスマン",
    "kind": "talisman",
    "grade": "マジック",
+   "icon": 18392,
    "level": 99,
    "stats": [
     {
@@ -105231,6 +105768,7 @@
    "name": "ウンブラのタリスマン",
    "kind": "talisman",
    "grade": "エピック",
+   "icon": 18392,
    "level": 99,
    "stats": [
     {
@@ -105254,6 +105792,7 @@
    "name": "ウンブラのタリスマン",
    "kind": "talisman",
    "grade": "ユニーク",
+   "icon": 18392,
    "level": 99,
    "stats": [
     {
@@ -105277,6 +105816,7 @@
    "name": "祝福されたウンブラのタリスマン",
    "kind": "talisman",
    "grade": "レジェンド",
+   "icon": 18392,
    "level": 99,
    "stats": [
     {
@@ -105300,6 +105840,7 @@
    "name": "メルカのタリスマン",
    "kind": "talisman",
    "grade": "ノーマル",
+   "icon": 18394,
    "level": 99,
    "stats": [
     {
@@ -105315,6 +105856,7 @@
    "name": "メルカのタリスマン",
    "kind": "talisman",
    "grade": "マジック",
+   "icon": 18394,
    "level": 99,
    "stats": [
     {
@@ -105334,6 +105876,7 @@
    "name": "メルカのタリスマン",
    "kind": "talisman",
    "grade": "エピック",
+   "icon": 18394,
    "level": 99,
    "stats": [
     {
@@ -105357,6 +105900,7 @@
    "name": "メルカのタリスマン",
    "kind": "talisman",
    "grade": "ユニーク",
+   "icon": 18394,
    "level": 99,
    "stats": [
     {
@@ -105380,6 +105924,7 @@
    "name": "祝福されたメルカのタリスマン",
    "kind": "talisman",
    "grade": "レジェンド",
+   "icon": 18394,
    "level": 99,
    "stats": [
     {
@@ -105403,6 +105948,7 @@
    "name": "ティタニオンのタリスマン",
    "kind": "talisman",
    "grade": "ノーマル",
+   "icon": 18393,
    "level": 99,
    "stats": [
     {
@@ -105418,6 +105964,7 @@
    "name": "ティタニオンのタリスマン",
    "kind": "talisman",
    "grade": "マジック",
+   "icon": 18393,
    "level": 99,
    "stats": [
     {
@@ -105437,6 +105984,7 @@
    "name": "ティタニオンのタリスマン",
    "kind": "talisman",
    "grade": "エピック",
+   "icon": 18393,
    "level": 99,
    "stats": [
     {
@@ -105460,6 +106008,7 @@
    "name": "ティタニオンのタリスマン",
    "kind": "talisman",
    "grade": "ユニーク",
+   "icon": 18393,
    "level": 99,
    "stats": [
     {
@@ -105483,6 +106032,7 @@
    "name": "祝福されたティタニオンのタリスマン",
    "kind": "talisman",
    "grade": "レジェンド",
+   "icon": 18393,
    "level": 99,
    "stats": [
     {
@@ -105506,6 +106056,7 @@
    "name": "ブラックドラゴンの致命型特殊タリスマン",
    "kind": "talisman",
    "grade": "レジェンド",
+   "icon": 18396,
    "level": 99,
    "stats": [
     {
@@ -105533,6 +106084,7 @@
    "name": "祝福されたブラックドラゴンの致命型特殊タリスマン",
    "kind": "talisman",
    "grade": "エンシェント",
+   "icon": 18396,
    "level": 99,
    "stats": [
     {
@@ -105564,6 +106116,7 @@
    "name": "祝福されたブラックドラゴンの元素の特殊タリスマン",
    "kind": "talisman",
    "grade": "エンシェント",
+   "icon": 18395,
    "level": 99,
    "stats": [
     {
@@ -105587,6 +106140,7 @@
    "name": "永遠の魔力のタリスマン(1段階)",
    "kind": "talisman",
    "grade": "マジック",
+   "icon": 18458,
    "level": 99,
    "stats": [
     {
@@ -105606,6 +106160,7 @@
    "name": "永遠の魔力のタリスマン(2段階)",
    "kind": "talisman",
    "grade": "マジック",
+   "icon": 18458,
    "level": 99,
    "stats": [
     {
@@ -105625,6 +106180,7 @@
    "name": "永遠の魔力のタリスマン(3段階)",
    "kind": "talisman",
    "grade": "レア",
+   "icon": 18458,
    "level": 99,
    "stats": [
     {
@@ -105644,6 +106200,7 @@
    "name": "永遠の魔力のタリスマン(4段階)",
    "kind": "talisman",
    "grade": "エピック",
+   "icon": 18458,
    "level": 99,
    "stats": [
     {
@@ -105663,6 +106220,7 @@
    "name": "永遠の魔力のタリスマン(5段階)",
    "kind": "talisman",
    "grade": "ユニーク",
+   "icon": 18458,
    "level": 99,
    "stats": [
     {
@@ -105682,6 +106240,7 @@
    "name": "永遠の加護のタリスマン(1段階)",
    "kind": "talisman",
    "grade": "マジック",
+   "icon": 18459,
    "level": 99,
    "stats": [
     {
@@ -105701,6 +106260,7 @@
    "name": "永遠の加護のタリスマン(2段階)",
    "kind": "talisman",
    "grade": "マジック",
+   "icon": 18459,
    "level": 99,
    "stats": [
     {
@@ -105720,6 +106280,7 @@
    "name": "永遠の加護のタリスマン(3段階)",
    "kind": "talisman",
    "grade": "レア",
+   "icon": 18459,
    "level": 99,
    "stats": [
     {
@@ -105739,6 +106300,7 @@
    "name": "永遠の加護のタリスマン(4段階)",
    "kind": "talisman",
    "grade": "エピック",
+   "icon": 18459,
    "level": 99,
    "stats": [
     {
@@ -105758,6 +106320,7 @@
    "name": "永遠の加護のタリスマン(5段階)",
    "kind": "talisman",
    "grade": "ユニーク",
+   "icon": 18459,
    "level": 99,
    "stats": [
     {
@@ -105777,6 +106340,7 @@
    "name": "永遠の破壊のタリスマン(1段階)",
    "kind": "talisman",
    "grade": "マジック",
+   "icon": 18460,
    "level": 99,
    "stats": [
     {
@@ -105796,6 +106360,7 @@
    "name": "永遠の破壊のタリスマン(2段階)",
    "kind": "talisman",
    "grade": "マジック",
+   "icon": 18460,
    "level": 99,
    "stats": [
     {
@@ -105815,6 +106380,7 @@
    "name": "永遠の破壊のタリスマン(3段階)",
    "kind": "talisman",
    "grade": "レア",
+   "icon": 18460,
    "level": 99,
    "stats": [
     {
@@ -105834,6 +106400,7 @@
    "name": "永遠の破壊のタリスマン(4段階)",
    "kind": "talisman",
    "grade": "エピック",
+   "icon": 18460,
    "level": 99,
    "stats": [
     {
@@ -105853,6 +106420,7 @@
    "name": "永遠の破壊のタリスマン(5段階)",
    "kind": "talisman",
    "grade": "ユニーク",
+   "icon": 18460,
    "level": 99,
    "stats": [
     {
@@ -105872,6 +106440,7 @@
    "name": "永遠の鉄壁のタリスマン(1段階)",
    "kind": "talisman",
    "grade": "マジック",
+   "icon": 18461,
    "level": 99,
    "stats": [
     {
@@ -105891,6 +106460,7 @@
    "name": "永遠の鉄壁のタリスマン(2段階)",
    "kind": "talisman",
    "grade": "マジック",
+   "icon": 18461,
    "level": 99,
    "stats": [
     {
@@ -105910,6 +106480,7 @@
    "name": "永遠の鉄壁のタリスマン(3段階)",
    "kind": "talisman",
    "grade": "レア",
+   "icon": 18461,
    "level": 99,
    "stats": [
     {
@@ -105929,6 +106500,7 @@
    "name": "永遠の鉄壁のタリスマン(4段階)",
    "kind": "talisman",
    "grade": "エピック",
+   "icon": 18461,
    "level": 99,
    "stats": [
     {
@@ -105948,6 +106520,7 @@
    "name": "永遠の鉄壁のタリスマン(5段階)",
    "kind": "talisman",
    "grade": "ユニーク",
+   "icon": 18461,
    "level": 99,
    "stats": [
     {
@@ -105967,6 +106540,7 @@
    "name": "永遠の致命のタリスマン(1段階)",
    "kind": "talisman",
    "grade": "マジック",
+   "icon": 18462,
    "level": 99,
    "stats": [
     {
@@ -105986,6 +106560,7 @@
    "name": "永遠の致命のタリスマン(2段階)",
    "kind": "talisman",
    "grade": "マジック",
+   "icon": 18462,
    "level": 99,
    "stats": [
     {
@@ -106005,6 +106580,7 @@
    "name": "永遠の致命のタリスマン(3段階)",
    "kind": "talisman",
    "grade": "レア",
+   "icon": 18462,
    "level": 99,
    "stats": [
     {
@@ -106024,6 +106600,7 @@
    "name": "永遠の致命のタリスマン(4段階)",
    "kind": "talisman",
    "grade": "エピック",
+   "icon": 18462,
    "level": 99,
    "stats": [
     {
@@ -106043,6 +106620,7 @@
    "name": "永遠の致命のタリスマン(5段階)",
    "kind": "talisman",
    "grade": "ユニーク",
+   "icon": 18462,
    "level": 99,
    "stats": [
     {
@@ -106062,6 +106640,7 @@
    "name": "永遠の限界のタリスマン(1段階)",
    "kind": "talisman",
    "grade": "マジック",
+   "icon": 18463,
    "level": 99,
    "stats": [
     {
@@ -106081,6 +106660,7 @@
    "name": "永遠の限界のタリスマン(2段階)",
    "kind": "talisman",
    "grade": "マジック",
+   "icon": 18463,
    "level": 99,
    "stats": [
     {
@@ -106100,6 +106680,7 @@
    "name": "永遠の限界のタリスマン(3段階)",
    "kind": "talisman",
    "grade": "レア",
+   "icon": 18463,
    "level": 99,
    "stats": [
     {
@@ -106119,6 +106700,7 @@
    "name": "永遠の限界のタリスマン(4段階)",
    "kind": "talisman",
    "grade": "エピック",
+   "icon": 18463,
    "level": 99,
    "stats": [
     {
@@ -106138,6 +106720,7 @@
    "name": "永遠の限界のタリスマン(5段階)",
    "kind": "talisman",
    "grade": "ユニーク",
+   "icon": 18463,
    "level": 99,
    "stats": [
     {
@@ -106157,6 +106740,7 @@
    "name": "永遠の生命のタリスマン(1段階)",
    "kind": "talisman",
    "grade": "マジック",
+   "icon": 18464,
    "level": 99,
    "stats": [
     {
@@ -106176,6 +106760,7 @@
    "name": "永遠の生命のタリスマン(2段階)",
    "kind": "talisman",
    "grade": "マジック",
+   "icon": 18464,
    "level": 99,
    "stats": [
     {
@@ -106195,6 +106780,7 @@
    "name": "永遠の生命のタリスマン(3段階)",
    "kind": "talisman",
    "grade": "レア",
+   "icon": 18464,
    "level": 99,
    "stats": [
     {
@@ -106214,6 +106800,7 @@
    "name": "永遠の生命のタリスマン(4段階)",
    "kind": "talisman",
    "grade": "エピック",
+   "icon": 18464,
    "level": 99,
    "stats": [
     {
@@ -106233,6 +106820,7 @@
    "name": "永遠の生命のタリスマン(5段階)",
    "kind": "talisman",
    "grade": "ユニーク",
+   "icon": 18464,
    "level": 99,
    "stats": [
     {
@@ -106253,6 +106841,7 @@
    "kind": "accessory",
    "slot": "ネックレス",
    "grade": "レジェンド",
+   "icon": 18821,
    "level": 100,
    "stats": [
     {
@@ -106461,6 +107050,7 @@
    "kind": "accessory",
    "slot": "イヤリング",
    "grade": "レジェンド",
+   "icon": 18822,
    "level": 100,
    "stats": [
     {
@@ -106673,6 +107263,7 @@
    "kind": "accessory",
    "slot": "リング",
    "grade": "レジェンド",
+   "icon": 18823,
    "level": 100,
    "stats": [
     {
@@ -106929,6 +107520,7 @@
    "kind": "armor",
    "slot": "ブーツ",
    "grade": "レジェンド",
+   "icon": 3799908,
    "level": 100,
    "tier": "Ⅱ",
    "stats": [
@@ -107173,6 +107765,7 @@
    "kind": "weapon",
    "slot": "メインウェポン",
    "grade": "ユニーク",
+   "icon": 14662,
    "stats": [
     {
      "name": "攻撃力",
@@ -107318,6 +107911,7 @@
    "kind": "weapon",
    "slot": "メインウェポン",
    "grade": "レジェンド",
+   "icon": 1999823,
    "stats": [
     {
      "name": "攻撃力",
@@ -107509,6 +108103,7 @@
    "kind": "weapon",
    "slot": "メインウェポン",
    "grade": "ユニーク",
+   "icon": 14661,
    "stats": [
     {
      "name": "攻撃力",
@@ -107726,6 +108321,7 @@
    "kind": "weapon",
    "slot": "メインウェポン",
    "grade": "レジェンド",
+   "icon": 1999822,
    "stats": [
     {
      "name": "攻撃力",
@@ -179709,6 +180305,7 @@
   "祝福の石(7日)": {
    "client_id": 536871449,
    "kind": "material",
+   "grade": "マスター",
    "description": "大自然の息吹が宿った神秘的な石。 溢れだす後光には、触れた者を幸せにする力がある。 再使用時間：60秒 右クリックで使用可能 使用すると1日間、パーティメンバーに次の効果 満天の祝福 全ての能力値+100 物理/魔法攻撃力3%上昇 HP3%増加 キャラクター死亡時及び町移動時にも消滅しない"
   },
   "幽幻の核(アーチャー)": {
@@ -234690,5 +235287,1549 @@
   "group 21": "data のアイテムに当たらない",
   "group 23": "data のアイテムに当たらない",
   "group 24": "data のアイテムに当たらない"
+ },
+ "icons": {
+  "(20%)古竜の力が宿った武器強化ハンマー(+5~+11)": 14831,
+  "(20%)古竜の力が宿った防具強化ハンマー(+5~+11)": 14831,
+  "(20%)古竜の力が宿った防具強化ハンマー(+5~+13)": 14831,
+  "+10アクセサリー月食の竜珠袋": 12032,
+  "+10防具/サブウェポン月食の竜珠袋": 12032,
+  "15周年記念古代人の記憶": 15852,
+  "4段階達成報酬袋": 12032,
+  "5段階達成報酬袋": 12032,
+  "DNCメダル": 12324,
+  "VIPアクセサリーバウチャー": 12500,
+  "[10%確率]冷気が宿ったハンマー": 13241,
+  "[10段階]次元のベルスカードブローチ": 1999935,
+  "[10段階]異界のネルウィンブローチ": 1999950,
+  "[11段階]次元のベルスカードブローチ": 1999935,
+  "[11段階]異界のネルウィンブローチ": 1999950,
+  "[12段階]次元のベルスカードブローチ": 1999935,
+  "[12段階]異界のネルウィンブローチ": 1999950,
+  "[13段階]次元のベルスカードブローチ": 1999935,
+  "[13段階]異界のネルウィンブローチ": 1999950,
+  "[14段階]次元のベルスカードブローチ": 1999935,
+  "[14段階]異界のネルウィンブローチ": 1999950,
+  "[15段階]次元のベルスカードブローチ": 1999935,
+  "[15段階]異界のネルウィンブローチ": 1999950,
+  "[1段階]封印された力のカーラブローチ": 1999846,
+  "[1段階]封印された力のテラマイブローチ(エピック)": 2000023,
+  "[1段階]封印された力のテラマイブローチ(マジック)": 2000021,
+  "[1段階]封印された力のテラマイブローチ(レア)": 2000022,
+  "[1段階]封印された力のネルウィンブローチ(エピック)": 1999949,
+  "[1段階]封印された力のネルウィンブローチ(マジック)": 1999947,
+  "[1段階]封印された力のネルウィンブローチ(レア)": 1999948,
+  "[1段階]封印された力のバルナックブローチ": 1999845,
+  "[1段階]封印された力のベルスカードブローチ(エピック)": 1999934,
+  "[1段階]封印された力のベルスカードブローチ(マジック)": 1999932,
+  "[1段階]封印された力のベルスカードブローチ(レア)": 1999933,
+  "[1段階]次元のベルスカードブローチ": 1999935,
+  "[1段階]異界のネルウィンブローチ": 1999950,
+  "[1段階：異界]信念のテラマイブローチ": 2000024,
+  "[20%確率]冷気が宿ったハンマー": 13241,
+  "[20%確率]洛陽のルーン強化ハンマー(+6～+14)": 14831,
+  "[2段階]封印された力のテラマイブローチ(エピック)": 2000023,
+  "[2段階]封印された力のテラマイブローチ(マジック)": 2000021,
+  "[2段階]封印された力のテラマイブローチ(レア)": 2000022,
+  "[2段階]封印された力のネルウィンブローチ(エピック)": 1999949,
+  "[2段階]封印された力のネルウィンブローチ(マジック)": 1999947,
+  "[2段階]封印された力のネルウィンブローチ(レア)": 1999948,
+  "[2段階]封印された力のベルスカードブローチ(エピック)": 1999934,
+  "[2段階]封印された力のベルスカードブローチ(マジック)": 1999932,
+  "[2段階]封印された力のベルスカードブローチ(レア)": 1999933,
+  "[2段階]次元のベルスカードブローチ": 1999935,
+  "[2段階]異界のネルウィンブローチ": 1999950,
+  "[2段階：異界]信念のテラマイブローチ": 2000024,
+  "[3段階]封印された力のテラマイブローチ(エピック)": 2000023,
+  "[3段階]封印された力のテラマイブローチ(マジック)": 2000021,
+  "[3段階]封印された力のテラマイブローチ(レア)": 2000022,
+  "[3段階]封印された力のネルウィンブローチ(エピック)": 1999949,
+  "[3段階]封印された力のネルウィンブローチ(マジック)": 1999947,
+  "[3段階]封印された力のネルウィンブローチ(レア)": 1999948,
+  "[3段階]封印された力のベルスカードブローチ(エピック)": 1999934,
+  "[3段階]封印された力のベルスカードブローチ(マジック)": 1999932,
+  "[3段階]封印された力のベルスカードブローチ(レア)": 1999933,
+  "[3段階]次元のベルスカードブローチ": 1999935,
+  "[3段階]異界のネルウィンブローチ": 1999950,
+  "[3段階：異界]信念のテラマイブローチ": 2000024,
+  "[4段階]封印された力のテラマイブローチ(エピック)": 2000023,
+  "[4段階]封印された力のテラマイブローチ(マジック)": 2000021,
+  "[4段階]封印された力のテラマイブローチ(レア)": 2000022,
+  "[4段階]封印された力のネルウィンブローチ(エピック)": 1999949,
+  "[4段階]封印された力のネルウィンブローチ(マジック)": 1999947,
+  "[4段階]封印された力のネルウィンブローチ(レア)": 1999948,
+  "[4段階]封印された力のベルスカードブローチ(エピック)": 1999934,
+  "[4段階]封印された力のベルスカードブローチ(マジック)": 1999932,
+  "[4段階]封印された力のベルスカードブローチ(レア)": 1999933,
+  "[4段階]次元のベルスカードブローチ": 1999935,
+  "[4段階]異界のネルウィンブローチ": 1999950,
+  "[4段階：異界]信念のテラマイブローチ": 2000024,
+  "[5%確率]冷気が宿ったハンマー": 13241,
+  "[5段階]封印された力のテラマイブローチ(エピック)": 2000023,
+  "[5段階]封印された力のテラマイブローチ(マジック)": 2000021,
+  "[5段階]封印された力のテラマイブローチ(レア)": 2000022,
+  "[5段階]封印された力のテラマイブローチ袋": 13196,
+  "[5段階]封印された力のネルウィンブローチ(エピック)": 1999949,
+  "[5段階]封印された力のネルウィンブローチ(マジック)": 1999947,
+  "[5段階]封印された力のネルウィンブローチ(レア)": 1999948,
+  "[5段階]封印された力のネルウィンブローチ袋": 1999953,
+  "[5段階]封印された力のベルスカードブローチ(エピック)": 1999934,
+  "[5段階]封印された力のベルスカードブローチ(マジック)": 1999932,
+  "[5段階]封印された力のベルスカードブローチ(レア)": 1999933,
+  "[5段階]封印された力のベルスカードブローチ袋": 1999938,
+  "[5段階]次元のベルスカードブローチ": 1999935,
+  "[5段階]異界のネルウィンブローチ": 1999950,
+  "[5段階：異界]信念のテラマイブローチ": 2000024,
+  "[6段階]次元のベルスカードブローチ": 1999935,
+  "[6段階]異界のネルウィンブローチ": 1999950,
+  "[7段階]次元のベルスカードブローチ": 1999935,
+  "[7段階]異界のネルウィンブローチ": 1999950,
+  "[8段階]次元のベルスカードブローチ": 1999935,
+  "[8段階]異界のネルウィンブローチ": 1999950,
+  "[9段階]次元のベルスカードブローチ": 1999935,
+  "[9段階]異界のネルウィンブローチ": 1999950,
+  "[Ⅰ]古代防具袋": 12032,
+  "[イベント][古代]スキルレベルアップ紋章袋": 12031,
+  "[イベント]光を失った仲良し星": 1999875,
+  "[イベント]輝く仲良し星": 1999876,
+  "[イヤリング]アイオナの聲": 18829,
+  "[イヤリング]凍てつく白竜の残響": 18829,
+  "[ネックレス]アイオナの覚悟": 18828,
+  "[ネックレス]眠れる白竜の雫": 18828,
+  "[パッシブ]友達の応援(攻撃力)+100万": 13426,
+  "[パッシブ]友達の応援(攻撃力)+10万": 13426,
+  "[パッシブ]友達の応援(攻撃力)+50万": 13426,
+  "[リング]アイオナの誓い": 18827,
+  "[リング]悠久なる白竜の盟約": 18827,
+  "[仲良し][Ⅰ]空中浮遊": 15827,
+  "[仲良し]クロドラム": 2199868,
+  "[仲良し]ゴールドワイバーン袋": 2199857,
+  "[増幅]古竜の古代アーマー": 3799801,
+  "[増幅]古竜の古代グローブ": 3799803,
+  "[増幅]古竜の古代ブーツ": 3799804,
+  "[増幅]古竜の古代ヘルム": 3799800,
+  "[増幅]古竜の古代ボトム": 3799802,
+  "[増幅]古竜サブウェポン": 3899804,
+  "[増幅]古竜メインウェポン": 3899800,
+  "[増幅]未知の古代イヤリング": 18822,
+  "[増幅]未知の古代ネックレス": 18821,
+  "[増幅]未知の古代リング": 18823,
+  "[封]ブローチ(エピック1段階)選択袋": 12032,
+  "[封]次元の竜珠": 3399800,
+  "[封]異界の竜珠": 3399802,
+  "[未完]シールドの紋章(上級)": 597,
+  "[未完]シールドの紋章(下級)": 597,
+  "[未完]シールドの紋章(中級)": 597,
+  "[未完]スタッフの紋章(上級)": 346,
+  "[未完]スタッフの紋章(下級)": 346,
+  "[未完]スタッフの紋章(中級)": 346,
+  "[未完]剣の紋章(上級)": 12,
+  "[未完]剣の紋章(下級)": 12,
+  "[未完]剣の紋章(中級)": 12,
+  "[未完]古代人の記憶": 15852,
+  "[未完]弓の紋章(上級)": 200,
+  "[未完]弓の紋章(下級)": 200,
+  "[未完]弓の紋章(中級)": 200,
+  "[未完]次元の変異型竜珠": 3399801,
+  "[未完]次元の変異型竜珠改良槌": 2999833,
+  "[激]ヘイズガストドラゴンの逆鱗": 15530,
+  "[真]ヘイズフロストドラゴンアーマー(エピック)": 35026,
+  "[真]ヘイズフロストドラゴンアーマー(ユニーク)": 35026,
+  "[真]ヘイズフロストドラゴンアーマー(レア)": 35026,
+  "[真]ヘイズフロストドラゴンアーマー(レジェンド)": 35026,
+  "[真]ヘイズフロストドラゴンイヤリング【極寒】(エピック)": 8396,
+  "[真]ヘイズフロストドラゴンイヤリング【極寒】(ユニーク)": 8396,
+  "[真]ヘイズフロストドラゴンイヤリング【極寒】(レア)": 8396,
+  "[真]ヘイズフロストドラゴンイヤリング【極寒】(レジェンド)": 8396,
+  "[真]ヘイズフロストドラゴングローブ(エピック)": 35028,
+  "[真]ヘイズフロストドラゴングローブ(ユニーク)": 35028,
+  "[真]ヘイズフロストドラゴングローブ(レア)": 35028,
+  "[真]ヘイズフロストドラゴングローブ(レジェンド)": 35028,
+  "[真]ヘイズフロストドラゴンサブウェポン(エピック)": 41996,
+  "[真]ヘイズフロストドラゴンサブウェポン(ユニーク)": 41996,
+  "[真]ヘイズフロストドラゴンサブウェポン(レア)": 41996,
+  "[真]ヘイズフロストドラゴンサブウェポン(レジェンド)": 41996,
+  "[真]ヘイズフロストドラゴンネックレス【寒氷】(エピック)": 8397,
+  "[真]ヘイズフロストドラゴンネックレス【寒氷】(ユニーク)": 8397,
+  "[真]ヘイズフロストドラゴンネックレス【寒氷】(レア)": 8397,
+  "[真]ヘイズフロストドラゴンネックレス【寒氷】(レジェンド)": 8397,
+  "[真]ヘイズフロストドラゴンブーツ(エピック)": 35029,
+  "[真]ヘイズフロストドラゴンブーツ(ユニーク)": 35029,
+  "[真]ヘイズフロストドラゴンブーツ(レア)": 35029,
+  "[真]ヘイズフロストドラゴンブーツ(レジェンド)": 35029,
+  "[真]ヘイズフロストドラゴンヘルム(エピック)": 35025,
+  "[真]ヘイズフロストドラゴンヘルム(ユニーク)": 35025,
+  "[真]ヘイズフロストドラゴンヘルム(レア)": 35025,
+  "[真]ヘイズフロストドラゴンヘルム(レジェンド)": 35025,
+  "[真]ヘイズフロストドラゴンボトム(エピック)": 35027,
+  "[真]ヘイズフロストドラゴンボトム(ユニーク)": 35027,
+  "[真]ヘイズフロストドラゴンボトム(レア)": 35027,
+  "[真]ヘイズフロストドラゴンボトム(レジェンド)": 35027,
+  "[真]ヘイズフロストドラゴンメインウェポン(エピック)": 41990,
+  "[真]ヘイズフロストドラゴンメインウェポン(ユニーク)": 41990,
+  "[真]ヘイズフロストドラゴンメインウェポン(レア)": 41990,
+  "[真]ヘイズフロストドラゴンメインウェポン(レジェンド)": 41990,
+  "[真]ヘイズフロストドラゴンリング【雪華】(エピック)": 8398,
+  "[真]ヘイズフロストドラゴンリング【雪華】(ユニーク)": 8398,
+  "[真]ヘイズフロストドラゴンリング【雪華】(レア)": 8398,
+  "[真]ヘイズフロストドラゴンリング【雪華】(レジェンド)": 8398,
+  "[真]古竜サブウェポン": 3899839,
+  "[真]古竜メインウェポン": 3899835,
+  "[祝福：異界]堅固な信念のテラマイブローチ": 2000025,
+  "[謎]カシウスのセイヴィア紋章": 3499804,
+  "[謎]カーライエンのセイヴィア紋章": 3499801,
+  "[謎]ダグラスのセイヴィア紋章": 3499803,
+  "[謎]テラマイのセイヴィア紋章": 3499802,
+  "[謎]凍った三角ルーン": 18406,
+  "[謎]凍った円形ルーン": 18409,
+  "[謎]凍った台形ルーン": 18415,
+  "[謎]凍った四角ルーン": 18412,
+  "[謎]永遠の混沌のタリスマン": 18231,
+  "[謎]煌めく王城の紋章袋": 12032,
+  "[謎]独武討伐のタリスマン": 18277,
+  "[謎]独武討伐のタリスマン(上級)": 18277,
+  "[謎]独武討伐のタリスマン(下級)": 18277,
+  "[謎]独武討伐のタリスマン(中級)": 18277,
+  "[謎]王城の紋章袋": 12032,
+  "きらめく黄金インク": 2999936,
+  "すごろくコイン(シーズン17)": 12269,
+  "ねじれた根": 2999905,
+  "ぷにぷに称号袋": 12032,
+  "まばゆい火種": 13249,
+  "アイオナの道": 15941,
+  "アイオナアクセサリー選択袋": 15612,
+  "アイテム保護魔法ゼリー": 12307,
+  "アイテム保護魔法ゼリー袋(10,000個)": 13665,
+  "アカデミック月食の竜珠レジェンド選択袋": 12032,
+  "アサイ族の呪いの人形": 3173,
+  "アサシン月食の攻撃竜珠ユニーク選択袋": 12032,
+  "アサシン月食の竜珠エピック選択袋": 12032,
+  "アサシン月食の竜珠ユニーク選択袋": 12032,
+  "アサシン月食の竜珠レア袋": 12032,
+  "アサシン月食の竜珠レジェンドランダム袋": 12032,
+  "アサシン月食の竜珠レジェンド選択袋": 12032,
+  "アストラルジュエル": 1999849,
+  "アストラルストーン": 1999848,
+  "アストラルパウダー(500)": 1999830,
+  "アストラルパウダーボール(取引不可)": 1999801,
+  "アデプトの月食の竜珠レア袋": 12032,
+  "アビスウォーカーの月食の竜珠レア袋": 12032,
+  "アルゼンタの冷徹イヤリング(氷)": 18804,
+  "アルゼンタの冷徹イヤリング(火)": 18804,
+  "アルゼンタの冷徹イヤリング(闇)": 18804,
+  "アルゼンタの冷徹イヤリング(雷)": 18804,
+  "アルゼンタの冷徹ネックレス(氷)": 18805,
+  "アルゼンタの冷徹ネックレス(火)": 18805,
+  "アルゼンタの冷徹ネックレス(闇)": 18805,
+  "アルゼンタの冷徹ネックレス(雷)": 18805,
+  "アルゼンタの冷徹リング(氷)": 18803,
+  "アルゼンタの冷徹リング(火)": 18803,
+  "アルゼンタの冷徹リング(闇)": 18803,
+  "アルゼンタの冷徹リング(雷)": 18803,
+  "アルタのためのセイヴィア紋章袋": 12032,
+  "アルタのための崩壊の竜珠袋": 12032,
+  "アルタ月食の竜珠エピック選択袋": 12032,
+  "アルタ月食の竜珠ユニーク選択袋": 12032,
+  "アルタ月食の竜珠レジェンド選択袋": 12032,
+  "アルテイアのたいまつ": 13394,
+  "アレンデルトカゲ": 13946,
+  "アワフジツボ": 13209,
+  "アンバースデイウィング": 34530,
+  "アンバースデイウィング袋": 12032,
+  "アンバースデイテール": 34531,
+  "アンバースデイテール袋": 12032,
+  "アンバースデイデカール": 34532,
+  "アンバースデイデカール袋": 12032,
+  "アヴァランテの月食の竜珠レア袋": 12032,
+  "アークヘレティックの月食の竜珠レア袋": 12032,
+  "アーチャー月食の攻撃竜珠ユニーク選択袋": 12032,
+  "アーチャー月食の竜珠エピック選択袋": 12032,
+  "アーチャー月食の竜珠ユニーク選択袋": 12032,
+  "アーチャー月食の竜珠レア袋": 12032,
+  "アーチャー月食の竜珠レジェンドランダム袋": 12032,
+  "アーチャー月食の竜珠レジェンド選択袋": 12032,
+  "アーティラリーの月食の竜珠レア袋": 12032,
+  "イベールのタリスマン": 3599803,
+  "イベールの竜魂": 2999989,
+  "インクイジターの月食の竜珠レア袋": 12032,
+  "イーリンの竜珠改良槌": 15404,
+  "イーリンの竜珠改良槌(取引不可)": 15404,
+  "ウィンドウォーカーの月食の竜珠レア袋": 12032,
+  "ウォーリアー月食の攻撃竜珠ユニーク選択袋": 12032,
+  "ウォーリアー月食の竜珠エピック選択袋": 12032,
+  "ウォーリアー月食の竜珠ユニーク選択袋": 12032,
+  "ウォーリアー月食の竜珠レア袋": 12032,
+  "ウォーリアー月食の竜珠レジェンドランダム袋": 12032,
+  "ウォーリアー月食の竜珠レジェンド選択袋": 12032,
+  "ウンブラのタリスマン(エピック)": 18392,
+  "ウンブラのタリスマン(ノーマル)": 18392,
+  "ウンブラのタリスマン(マジック)": 18392,
+  "ウンブラのタリスマン(ユニーク)": 18392,
+  "ウンブラのタリスマン(レア)": 18392,
+  "ウンブラの破壊されたハンマー": 15962,
+  "エネルギー抽出変換器": 12592,
+  "エレクトリカの月食の竜珠レア袋": 12032,
+  "エレストラの月食の竜珠レア袋": 12032,
+  "エレメンタルリーフサブウェポン箱": 15918,
+  "エレメンタルリーフメインウェポン箱": 15917,
+  "エヴォハンマー：アルゼンタとの別れ": 15624,
+  "エヴォハンマー：アルゼンタの冷徹": 15624,
+  "エヴォハンマー：ジェレイントとの別れ": 15623,
+  "エヴォハンマー：ジェレイントの守護": 15623,
+  "エヴォハンマー：ヘイズフロストドラゴン(1段階)": 15600,
+  "エヴォハンマー：ヘイズフロストドラゴン(1段階)(取引可能)": 15600,
+  "エヴォハンマー：ヘイズフロストドラゴン(2段階)": 15600,
+  "エヴォハンマー：ヘイズフロストドラゴン(2段階)(取引可能)": 15600,
+  "エヴォハンマー：ヘイズフロストドラゴン(3段階)": 15600,
+  "エヴォハンマー：ヘイズフロストドラゴン(3段階)(取引可能)": 15600,
+  "オラクルフレイアの月食の竜珠レア袋": 12032,
+  "オーガダパのタリスマン(エピック)": 18391,
+  "オーガダパのタリスマン(ノーマル)": 18391,
+  "オーガダパのタリスマン(マジック)": 18391,
+  "オーガダパのタリスマン(ユニーク)": 18391,
+  "オーガダパのタリスマン(レア)": 18391,
+  "オーガダパの破壊されたラッパ": 15961,
+  "オーク族のお守り": 13206,
+  "カエルイズバック称号袋": 12032,
+  "カシウスのセイヴィア紋章(ヒロイック)": 3499804,
+  "カシウスのセイヴィア紋章(上級)": 3499804,
+  "カシウスのセイヴィア紋章(下級)": 3499804,
+  "カシウスのセイヴィア紋章(中級)": 3499804,
+  "カシウスの希望のハンマー": 2999830,
+  "カシウスの王冠": 36969,
+  "カシウスの王冠袋": 12032,
+  "カマチョーナチケット": 14641,
+  "カーライエンのセイヴィア紋章(ヒロイック)": 3499801,
+  "カーライエンのセイヴィア紋章(上級)": 3499801,
+  "カーライエンのセイヴィア紋章(下級)": 3499801,
+  "カーライエンのセイヴィア紋章(中級)": 3499801,
+  "カーライエンの信頼のハンマー": 2999830,
+  "カーリー月食の攻撃竜珠ユニーク選択袋": 12032,
+  "カーリー月食の竜珠エピック選択袋": 12032,
+  "カーリー月食の竜珠ユニーク選択袋": 12032,
+  "カーリー月食の竜珠レア袋": 12032,
+  "カーリー月食の竜珠レジェンドランダム袋": 12032,
+  "カーリー月食の竜珠レジェンド選択袋": 12032,
+  "ガルディアナの月食の竜珠レア袋": 12032,
+  "ガーディアンの月食の竜珠レア袋": 12032,
+  "ギアマスターの月食の竜珠レア袋": 12032,
+  "ギルドのHP回復ポーション": 12000,
+  "ギルドの特別なタリスマン袋": 12032,
+  "ギルド名声コイン": 15385,
+  "ギルド名誉コイン": 13935,
+  "クアノスのかけら": 15594,
+  "クアノスのタリスマン": 3599800,
+  "クリスタルポイント": 14966,
+  "クリスタルポイント(10000)": 14966,
+  "クリスタルポイント(100000)": 14966,
+  "クリスタルポイント(50000)": 14966,
+  "クルセイダーの月食の竜珠レア袋": 12032,
+  "クレリック月食の攻撃竜珠ユニーク選択袋": 12032,
+  "クレリック月食の竜珠エピック選択袋": 12032,
+  "クレリック月食の竜珠ユニーク選択袋": 12032,
+  "クレリック月食の竜珠レア袋": 12032,
+  "クレリック月食の竜珠レジェンドランダム袋": 12032,
+  "クレリック月食の竜珠レジェンド選択袋": 12032,
+  "クローニングの破片(3500個)選択袋": 14400,
+  "クローニングの破片(500個)選択袋": 14400,
+  "クローニングアクセサリー袋": 12032,
+  "クローニングアーマー(ユニーク)": 14657,
+  "クローニングアーマー(レジェンド)": 1999818,
+  "クローニングイヤリング(ユニーク)": 14664,
+  "クローニングイヤリング(レジェンド)": 1999825,
+  "クローニングウィング(ユニーク)": 14668,
+  "クローニングウィング(レジェンド)": 1999829,
+  "クローニンググローブ(ユニーク)": 14659,
+  "クローニンググローブ(レジェンド)": 1999820,
+  "クローニングサブウェポン(ユニーク)": 14662,
+  "クローニングサブウェポン(レジェンド)": 1999823,
+  "クローニングテール(ユニーク)": 14667,
+  "クローニングテール(レジェンド)": 1999828,
+  "クローニングデカール(ユニーク)": 14666,
+  "クローニングデカール(レジェンド)": 1999827,
+  "クローニングネックレス(ユニーク)": 14665,
+  "クローニングネックレス(レジェンド)": 1999826,
+  "クローニングブーツ(ユニーク)": 14660,
+  "クローニングブーツ(レジェンド)": 1999821,
+  "クローニングヘルム(ユニーク)": 14656,
+  "クローニングヘルム(レジェンド)": 1999817,
+  "クローニングボトム(ユニーク)": 14658,
+  "クローニングボトム(レジェンド)": 1999819,
+  "クローニングメインウェポン(ユニーク)": 14661,
+  "クローニングメインウェポン(レジェンド)": 1999822,
+  "クローニングリング(ユニーク)": 14663,
+  "クローニングリング(レジェンド)": 1999824,
+  "クローニング特殊防具袋": 12032,
+  "クローニング箱": 15873,
+  "クローニング防具袋": 12032,
+  "グラディエーターの月食の竜珠レア袋": 12032,
+  "グランドマスターの月食の竜珠レア袋": 12032,
+  "コミュニティポイント(350)": 14983,
+  "ゴールデンゴブリンコイン": 14981,
+  "ゴールドドラゴンイヤリング(混合)": 8216,
+  "ゴールドドラゴンイヤリング(物理)": 8216,
+  "ゴールドドラゴンイヤリング(魔法)": 8216,
+  "ゴールドドラゴンネックレス(混合)": 8206,
+  "ゴールドドラゴンネックレス(物理)": 8206,
+  "ゴールドドラゴンネックレス(魔法)": 8206,
+  "ゴールドドラゴンリング(混合)": 8158,
+  "ゴールドドラゴンリング(物理)": 8158,
+  "ゴールドドラゴンリング(魔法)": 8158,
+  "ゴールドワイバーン交換券": 14698,
+  "ゴールド袋(100,000)": 12032,
+  "シャリカのタリスマン": 3599801,
+  "シャリカの鎖": 15595,
+  "シューティングスターの月食の竜珠レア袋": 12032,
+  "シルバードラゴンイヤリング(氷)": 8068,
+  "シルバードラゴンイヤリング(火)": 8068,
+  "シルバードラゴンイヤリング(闇)": 8068,
+  "シルバードラゴンイヤリング(雷)": 8068,
+  "シルバードラゴンネックレス(氷)": 8058,
+  "シルバードラゴンネックレス(火)": 8058,
+  "シルバードラゴンネックレス(闇)": 8058,
+  "シルバードラゴンネックレス(雷)": 8058,
+  "シルバードラゴンリング(氷)": 8048,
+  "シルバードラゴンリング(火)": 8048,
+  "シルバードラゴンリング(闇)": 8048,
+  "シルバードラゴンリング(雷)": 8048,
+  "シルバーハンターの月食の竜珠レア袋": 12032,
+  "シールドの紋章": 597,
+  "ジェレイントのスタート": 2999922,
+  "ジェレイントの守護イヤリング(混合)": 18801,
+  "ジェレイントの守護イヤリング(物理)": 18801,
+  "ジェレイントの守護イヤリング(魔法)": 18801,
+  "ジェレイントの守護ネックレス(混合)": 18802,
+  "ジェレイントの守護ネックレス(物理)": 18802,
+  "ジェレイントの守護ネックレス(魔法)": 18802,
+  "ジェレイントの守護リング(混合)": 18800,
+  "ジェレイントの守護リング(物理)": 18800,
+  "ジェレイントの守護リング(魔法)": 18800,
+  "ジェレイントの成長挑戦箱": 13587,
+  "ジェレイントの犠牲": 2999923,
+  "ジェレイントの犠牲袋": 2999923,
+  "スキル竜珠(幽幻/紅月/新緑)+10選択袋": 12032,
+  "スタッフの紋章": 346,
+  "スティングブリーザーの月食の竜珠レア袋": 12032,
+  "スナイパーの月食の竜珠レア袋": 12032,
+  "スパーリングのプロ称号袋": 12032,
+  "スピリットダンサーの月食の竜珠レア袋": 12032,
+  "スマッシャーの月食の竜珠レア袋": 12032,
+  "セイントの月食の竜珠レア袋": 12032,
+  "セイヴィア進化石選択袋": 12032,
+  "セレアナの月食の竜珠レア袋": 12032,
+  "ソウルイーターの月食の竜珠レア袋": 12032,
+  "ソーサレス月食の攻撃竜珠ユニーク選択袋": 12032,
+  "ソーサレス月食の竜珠エピック選択袋": 12032,
+  "ソーサレス月食の竜珠ユニーク選択袋": 12032,
+  "ソーサレス月食の竜珠レア袋": 12032,
+  "ソーサレス月食の竜珠レジェンドランダム袋": 12032,
+  "ソーサレス月食の竜珠レジェンド選択袋": 12032,
+  "ダグラスのセイヴィア紋章(ヒロイック)": 3499803,
+  "ダグラスのセイヴィア紋章(上級)": 3499803,
+  "ダグラスのセイヴィア紋章(下級)": 3499803,
+  "ダグラスのセイヴィア紋章(中級)": 3499803,
+  "ダグラスの勇気のハンマー": 2999830,
+  "ダークアベンジャーの月食の竜珠レア袋": 12032,
+  "ダークサマナーの月食の竜珠レア袋": 12032,
+  "ツヤツヤの白い羽袋": 12032,
+  "ティタニオンのタリスマン(エピック)": 18393,
+  "ティタニオンのタリスマン(ノーマル)": 18393,
+  "ティタニオンのタリスマン(マジック)": 18393,
+  "ティタニオンのタリスマン(ユニーク)": 18393,
+  "ティタニオンのタリスマン(レア)": 18393,
+  "ティタニオンの破壊されたエネルギー": 15964,
+  "テラマイのセイヴィア紋章(上級)": 3499802,
+  "テラマイのセイヴィア紋章(下級)": 3499802,
+  "テラマイのセイヴィア紋章(中級)": 3499802,
+  "テラマイの力": 2000030,
+  "テラマイの守護石ブローチLv.10分解袋": 12430,
+  "テラマイの守護石ブローチLv.2分解袋": 12430,
+  "テラマイの守護石ブローチLv.3分解袋": 12430,
+  "テラマイの守護石ブローチLv.4分解袋": 12430,
+  "テラマイの守護石ブローチLv.5分解袋": 12430,
+  "テラマイの守護石ブローチLv.6分解袋": 12430,
+  "テラマイの守護石ブローチLv.7分解袋": 12430,
+  "テラマイの守護石ブローチLv.8分解袋": 12430,
+  "テラマイの守護石ブローチLv.9分解袋": 12430,
+  "テラマイセイヴィア紋章(ヒロイック)": 3499802,
+  "テラマイ信念のハンマー": 2999830,
+  "テンペストの月食の竜珠レア袋": 12032,
+  "デザートグラス": 2999898,
+  "デストロイヤーの月食の竜珠レア袋": 12032,
+  "デュエリストの月食の竜珠レア袋": 12032,
+  "トリックスターの月食の竜珠レア袋": 12032,
+  "トワライトプリズムウィング": 36966,
+  "トワライトプリズムウィング袋": 12032,
+  "トワライトプリズムテール": 36967,
+  "トワライトプリズムテール袋": 12032,
+  "トワライトプリズムデカール": 36968,
+  "トワライトプリズムデカール袋": 12032,
+  "ドラゴンベイクドケーキ": 13872,
+  "ナイトメアジェレイントの紋章(ヒーリングエリア)": 18098,
+  "ナイトメアジェレイントプレート": 18060,
+  "ナイトメアバルナックプレート": 18060,
+  "ナイトメアバルナック紋章(ブレイクポイント)(エンシェント)": 18097,
+  "ナイトメアバルナック紋章(ブレイクポイント)(レジェンド)": 18097,
+  "ナイトメアマギカの月食の竜珠レア袋": 12032,
+  "ナクシルの完全な卵": 400,
+  "ヌルヌル水草": 12926,
+  "ネルウィンの三日月ブローチLv.10分解袋": 12430,
+  "ネルウィンの三日月ブローチLv.2分解袋": 12430,
+  "ネルウィンの三日月ブローチLv.3分解袋": 12430,
+  "ネルウィンの三日月ブローチLv.4分解袋": 12430,
+  "ネルウィンの三日月ブローチLv.5分解袋": 12430,
+  "ネルウィンの三日月ブローチLv.6分解袋": 12430,
+  "ネルウィンの三日月ブローチLv.7分解袋": 12430,
+  "ネルウィンの三日月ブローチLv.8分解袋": 12430,
+  "ネルウィンの三日月ブローチLv.9分解袋": 12430,
+  "ネルウィンの異界波紋石袋": 12653,
+  "ネルウィンの解放のかけら": 1999951,
+  "ネルウィンの解放のかけら袋": 1999951,
+  "ネルウィン異界波紋石": 12653,
+  "ノーマルブローチ袋": 13887,
+  "バルクの心臓のかけら": 14832,
+  "バルクの角": 12660,
+  "バレンティアの月食の竜珠レア袋": 12032,
+  "バーバリアンの月食の竜珠レア袋": 12032,
+  "パキハの機械部品": 14968,
+  "パキハの機械部品(トレード不可)": 14968,
+  "パニアの宝の鍵": 1999883,
+  "パラドックスの境界箱": 12498,
+  "パラドックスエリクシル": 12002,
+  "パラドックスタリスマン(ライト)選択袋": 12032,
+  "ビースティアレイナの月食の竜珠レア袋": 12032,
+  "フィジシャンの月食の竜珠レア袋": 12032,
+  "フローリーの月食の竜珠レア袋": 12032,
+  "ブラスティアの月食の竜珠レア袋": 12032,
+  "ブラックドラゴンの元素の特殊タリスマン": 18395,
+  "ブラックドラゴンの致命型特殊タリスマン": 18396,
+  "ブラッディファントムの月食の竜珠レア袋": 12032,
+  "ブリュンヒルドの仮面": 31790,
+  "ブリュンヒルドの氷のかけら": 14922,
+  "ブレイドダンサーの月食の竜珠レア袋": 12032,
+  "ブローチリング": 12556,
+  "ブローチ装飾(マジック)10個選択箱": 15810,
+  "ヘイズガストドラゴンの逆鱗": 15340,
+  "ヘイズフロストドラゴンの冷気が宿るタリスマン(1段階)": 2999829,
+  "ヘイズフロストドラゴンの冷気が宿るタリスマン(2段階)": 2999829,
+  "ヘイズフロストドラゴンの冷気が宿るタリスマン(3段階)": 2999829,
+  "ヘイズフロストドラゴンの冷気が宿るタリスマン(4段階)": 2999829,
+  "ヘイズフロストドラゴンの冷気が宿るタリスマン(5段階)": 2999829,
+  "ヘイズフロストドラゴンの冷気が宿るタリスマン(6段階)": 2999829,
+  "ヘイズフロストドラゴンの冷気が宿るタリスマン(7段階)": 2999829,
+  "ヘイズフロストドラゴンの壊れた宝珠のかけら": 15783,
+  "ヘイズフロストドラゴンの完全なタリスマン": 3599802,
+  "ヘイズフロストドラゴンの完全な宝珠": 15782,
+  "ヘイズフロストドラゴンの完全な宝珠(取引不可)": 15782,
+  "ヘイズフロストドラゴンの完全な宝珠袋": 12032,
+  "ヘイズフロストドラゴンの息吹": 13863,
+  "ヘイズフロストドラゴンの息吹袋": 12032,
+  "ヘイズフロストドラゴンの月食攻撃宝玉(アーマー)": 14923,
+  "ヘイズフロストドラゴンの月食攻撃宝玉(イヤリング)": 14923,
+  "ヘイズフロストドラゴンの月食攻撃宝玉(グローブ)": 14923,
+  "ヘイズフロストドラゴンの月食攻撃宝玉(サブウェポン)": 14923,
+  "ヘイズフロストドラゴンの月食攻撃宝玉(ネックレス)": 14923,
+  "ヘイズフロストドラゴンの月食攻撃宝玉(ブーツ)": 14923,
+  "ヘイズフロストドラゴンの月食攻撃宝玉(ヘルム)": 14923,
+  "ヘイズフロストドラゴンの月食攻撃宝玉(ボトム)": 14923,
+  "ヘイズフロストドラゴンの月食攻撃宝玉(メインウェポン)": 14923,
+  "ヘイズフロストドラゴンの月食攻撃宝玉(リング)": 14923,
+  "ヘイズフロストドラゴンの月食攻撃竜珠(エンシェント)": 18371,
+  "ヘイズフロストドラゴンの月食攻撃竜珠(レジェンド)": 18371,
+  "ヘイズフロストドラゴンの月食防御宝玉(アーマー)": 14926,
+  "ヘイズフロストドラゴンの月食防御宝玉(イヤリング)": 14926,
+  "ヘイズフロストドラゴンの月食防御宝玉(グローブ)": 14926,
+  "ヘイズフロストドラゴンの月食防御宝玉(サブウェポン)": 14926,
+  "ヘイズフロストドラゴンの月食防御宝玉(ネックレス)": 14926,
+  "ヘイズフロストドラゴンの月食防御宝玉(ブーツ)": 14926,
+  "ヘイズフロストドラゴンの月食防御宝玉(ヘルム)": 14926,
+  "ヘイズフロストドラゴンの月食防御宝玉(ボトム)": 14926,
+  "ヘイズフロストドラゴンの月食防御宝玉(メインウェポン)": 14926,
+  "ヘイズフロストドラゴンの月食防御宝玉(リング)": 14926,
+  "ヘイズフロストドラゴンの月食防御竜珠(エンシェント)": 18381,
+  "ヘイズフロストドラゴンの月食防御竜珠(レジェンド)": 18381,
+  "ヘイズフロストドラゴンの痕跡": 15784,
+  "ヘイズフロストドラゴンの鱗": 15596,
+  "ヘイズフロストドラゴンアーマー(エピック)": 35021,
+  "ヘイズフロストドラゴンアーマー(ユニーク)": 35021,
+  "ヘイズフロストドラゴンアーマー(レア)": 35021,
+  "ヘイズフロストドラゴンアーマー(レジェンド)": 35021,
+  "ヘイズフロストドラゴンイヤリング【極寒】(エピック)": 8396,
+  "ヘイズフロストドラゴンイヤリング【極寒】(ユニーク)": 8396,
+  "ヘイズフロストドラゴンイヤリング【極寒】(レア)": 8396,
+  "ヘイズフロストドラゴンイヤリング【極寒】(レジェンド)": 8396,
+  "ヘイズフロストドラゴングローブ(エピック)": 35023,
+  "ヘイズフロストドラゴングローブ(ユニーク)": 35023,
+  "ヘイズフロストドラゴングローブ(レア)": 35023,
+  "ヘイズフロストドラゴングローブ(レジェンド)": 35023,
+  "ヘイズフロストドラゴンサブウェポン(エピック)": 41995,
+  "ヘイズフロストドラゴンサブウェポン(ユニーク)": 41995,
+  "ヘイズフロストドラゴンサブウェポン(レア)": 41995,
+  "ヘイズフロストドラゴンサブウェポン(レジェンド)": 41995,
+  "ヘイズフロストドラゴンネックレス【寒氷】(エピック)": 8397,
+  "ヘイズフロストドラゴンネックレス【寒氷】(ユニーク)": 8397,
+  "ヘイズフロストドラゴンネックレス【寒氷】(レア)": 8397,
+  "ヘイズフロストドラゴンネックレス【寒氷】(レジェンド)": 8397,
+  "ヘイズフロストドラゴンブーツ(エピック)": 35024,
+  "ヘイズフロストドラゴンブーツ(ユニーク)": 35024,
+  "ヘイズフロストドラゴンブーツ(レア)": 35024,
+  "ヘイズフロストドラゴンブーツ(レジェンド)": 35024,
+  "ヘイズフロストドラゴンヘルム(エピック)": 35020,
+  "ヘイズフロストドラゴンヘルム(ユニーク)": 35020,
+  "ヘイズフロストドラゴンヘルム(レア)": 35020,
+  "ヘイズフロストドラゴンヘルム(レジェンド)": 35020,
+  "ヘイズフロストドラゴンボトム(エピック)": 35022,
+  "ヘイズフロストドラゴンボトム(ユニーク)": 35022,
+  "ヘイズフロストドラゴンボトム(レア)": 35022,
+  "ヘイズフロストドラゴンボトム(レジェンド)": 35022,
+  "ヘイズフロストドラゴンメインウェポン(エピック)": 41989,
+  "ヘイズフロストドラゴンメインウェポン(ユニーク)": 41989,
+  "ヘイズフロストドラゴンメインウェポン(レア)": 41989,
+  "ヘイズフロストドラゴンメインウェポン(レジェンド)": 41989,
+  "ヘイズフロストドラゴンリング【雪華】(エピック)": 8398,
+  "ヘイズフロストドラゴンリング【雪華】(ユニーク)": 8398,
+  "ヘイズフロストドラゴンリング【雪華】(レア)": 8398,
+  "ヘイズフロストドラゴンリング【雪華】(レジェンド)": 8398,
+  "ベチャっとした毛の塊": 12484,
+  "ベナプラガの月食の竜珠レア袋": 12032,
+  "ベルスカードの信頼": 2999926,
+  "ベルスカードの忠義": 2999925,
+  "ベルスカードの次元幸運石": 1999850,
+  "ベルスカードの次元幸運石100個袋": 12032,
+  "ベルスカードの解放のかけら": 1999936,
+  "ベルスカードの責任": 2999927,
+  "ベルスカードの責任挑戦箱": 13549,
+  "ベルスカードの黒騎士ブローチLv.10分解袋": 12430,
+  "ベルスカードの黒騎士ブローチLv.2分解袋": 12430,
+  "ベルスカードの黒騎士ブローチLv.3分解袋": 12430,
+  "ベルスカードの黒騎士ブローチLv.4分解袋": 12430,
+  "ベルスカードの黒騎士ブローチLv.5分解袋": 12430,
+  "ベルスカードの黒騎士ブローチLv.6分解袋": 12430,
+  "ベルスカードの黒騎士ブローチLv.7分解袋": 12430,
+  "ベルスカードの黒騎士ブローチLv.8分解袋": 12430,
+  "ベルスカードの黒騎士ブローチLv.9分解袋": 12430,
+  "ホワイトコア": 14104,
+  "ホワイトコアボール": 14122,
+  "ホワイトコアボール(取引不可)": 14122,
+  "マキナ月食の攻撃竜珠ユニーク選択袋": 12032,
+  "マキナ月食の竜珠エピック選択袋": 12032,
+  "マキナ月食の竜珠ユニーク選択袋": 12032,
+  "マキナ月食の竜珠レア袋": 12032,
+  "マキナ月食の竜珠レジェンドランダム袋": 12032,
+  "マキナ月食の竜珠レジェンド選択袋": 12032,
+  "マジェスティーの月食の竜珠レア袋": 12032,
+  "マーベリックの月食の竜珠レア袋": 12032,
+  "ミスティックナイトの月食の竜珠レア袋": 12032,
+  "ムエルトスの珠のかけら": 12125,
+  "ムエルトスの魔力": 14677,
+  "ムーンロードの月食の竜珠レア袋": 12032,
+  "メルカのタリスマン(エピック)": 18394,
+  "メルカのタリスマン(ノーマル)": 18394,
+  "メルカのタリスマン(マジック)": 18394,
+  "メルカのタリスマン(ユニーク)": 18394,
+  "メルカのタリスマン(レア)": 18394,
+  "メルカの破壊されたソウルエナジー": 15963,
+  "ユニーク英雄ブローチ(15段階)選択袋": 15737,
+  "ライトフューリーの月食の竜珠レア袋": 12032,
+  "ライドギアズの月食の竜珠レア袋": 12032,
+  "ラズライト": 15080,
+  "ラビリンスポイント": 15070,
+  "ランカーのたからもの": 13269,
+  "ランカーコイン": 14869,
+  "リッパーの月食の竜珠レア袋": 12032,
+  "リングマスターの月食の竜珠レア袋": 12032,
+  "ルイーナの月食の竜珠レア袋": 12032,
+  "ルーンのかけら": 15576,
+  "ルーンの原石": 15577,
+  "ルーンの清水": 15578,
+  "ルーンの結晶": 15719,
+  "ルーンの魔力": 15579,
+  "レイヴンの月食の竜珠レア袋": 12032,
+  "レジェンドペット選択箱": 14049,
+  "レンシア月食の攻撃竜珠ユニーク選択袋": 12032,
+  "レンシア月食の竜珠エピック選択袋": 12032,
+  "レンシア月食の竜珠ユニーク選択袋": 12032,
+  "レンシア月食の竜珠レア袋": 12032,
+  "レンシア月食の竜珠レジェンドランダム袋": 12032,
+  "レンシア月食の竜珠レジェンド選択袋": 12032,
+  "レヴァナントの月食の竜珠レア袋": 12032,
+  "ロッソエンパイアウィング": 33860,
+  "ロッソエンパイアテール": 33862,
+  "ロッソエンパイアデカール": 33863,
+  "ヴァズモスメインウェポン/サブウェポン(取引不可)選択袋": 12032,
+  "ヴァンダル月食の攻撃竜珠ユニーク選択袋": 12032,
+  "ヴァンダル月食の竜珠エピック選択袋": 12032,
+  "ヴァンダル月食の竜珠ユニーク袋": 12032,
+  "ヴァンダル月食の竜珠ユニーク選択袋": 12032,
+  "ヴァンダル月食の竜珠レア袋": 12032,
+  "ヴァンダル月食の竜珠レジェンドランダム袋": 12032,
+  "ヴァンダル月食の竜珠レジェンド選択袋": 12032,
+  "万年繭": 12963,
+  "上級ガーネット": 12017,
+  "上級ジェレイントの成長": 2999924,
+  "上級堅固な月食のかけら": 15690,
+  "上級月食のかけら": 15685,
+  "上級月食のかけら(100個)袋": 13507,
+  "上級月食の竜珠の破片袋(ディメンションラビリンス1階層)": 12032,
+  "上級清い月食のかけら": 15686,
+  "上級渇望のかけら": 12022,
+  "上級漆黒の月食のかけら": 15688,
+  "上級燃える月食のかけら": 15687,
+  "上級生命の清水": 12279,
+  "上級神聖な月食のかけら": 15685,
+  "上級純風の月食のかけら": 15689,
+  "上級蓬莱石": 15533,
+  "下級ジェレイントの成長": 2999924,
+  "不敗のメビウスの紋章": 18154,
+  "不敗のメビウスの紋章の破片": 15937,
+  "中型進化加速器": 2999808,
+  "中型進化加速器袋": 12032,
+  "中級ジェレイントの成長": 2999924,
+  "亡者の時間の涙": 2999971,
+  "使い捨て転送機": 2999810,
+  "依頼解決証明書": 12404,
+  "侵蝕のかけら": 13876,
+  "保護の変異型竜珠変換キューブ": 15374,
+  "保護の変異型竜珠変換キューブ(取引不可)": 15374,
+  "信念のテラマイブローチ箱": 2000026,
+  "信頼のギルドのタリスマン": 18310,
+  "傭兵のたいまつ箱": 13008,
+  "傭兵の密輸品箱": 13008,
+  "六角ボルト": 13144,
+  "冒険の鍵": 12154,
+  "冒険者のアイテム保護魔法ゼリー": 12307,
+  "冒険者の金貨": 12499,
+  "冥闇の塊": 13522,
+  "冥闇の星片": 14639,
+  "冥闇の邪気": 13071,
+  "冥骨の契約印章": 504,
+  "冬の宝石": 15590,
+  "冷たい共鳴の石(1段階)": 2999984,
+  "冷徹なギルドのタリスマン": 18315,
+  "凝縮された侵蝕のかけら": 12142,
+  "凝縮された暗黒の結晶体": 15407,
+  "凝縮された次元の気": 14675,
+  "分解された古代人の女神紋章(1段階)袋": 12032,
+  "分解された古代人の女神紋章(2段階)袋": 12032,
+  "分解された古代人の女神紋章(3段階)袋": 12032,
+  "分解された古代人の女神紋章(4段階)袋": 12032,
+  "分解された古代人の女神紋章(5段階)袋": 12032,
+  "分解された古代人の女神紋章(6段階)袋": 12032,
+  "分解された古代人の女神紋章(7段階)袋": 12032,
+  "分解された古代人の女神紋章(8段階)袋": 12032,
+  "分解された古代人の女神紋章(9段階)袋": 12032,
+  "初心者のための崩壊のアクセサリー竜珠袋": 12032,
+  "初心者向け月食アクセサリー竜珠(+10)袋": 12032,
+  "初心者向け月食属性変換竜珠(+10)袋": 12032,
+  "初心者向け月食防具竜珠(+10)袋": 12032,
+  "剣の紋章": 12,
+  "勇猛なギルドのタリスマン": 18313,
+  "古い遺跡の案内文": 12074,
+  "古代のヴァズモスメインウェポン": 41124,
+  "古代の保護の変異型防御竜珠(エンシェント)": 18326,
+  "古代の叡智": 15671,
+  "古代の呪われたヴァズモスメインウェポン": 42306,
+  "古代の壊れた竜珠の破片": 15861,
+  "古代の形状(防具)": 2999896,
+  "古代の竜珠": 15859,
+  "古代の竜珠の破片": 15860,
+  "古代の脅威の変異型防御竜珠(エンシェント)": 18223,
+  "古代人の力": 15851,
+  "古代人の力の結晶": 15866,
+  "古代人の呪術の花びら": 15854,
+  "古代人の図面": 2999801,
+  "古代人の図面の断片": 2999800,
+  "古代人の女神紋章(10段階)": 3499800,
+  "古代人の女神紋章(1段階)": 3499800,
+  "古代人の女神紋章(2段階)": 3499800,
+  "古代人の女神紋章(3段階)": 3499800,
+  "古代人の女神紋章(4段階)": 3499800,
+  "古代人の女神紋章(5段階)": 3499800,
+  "古代人の女神紋章(6段階)": 3499800,
+  "古代人の女神紋章(7段階)": 3499800,
+  "古代人の女神紋章(8段階)": 3499800,
+  "古代人の女神紋章(9段階)": 3499800,
+  "古代人の宝物材料袋": 14308,
+  "古代人の断片選択袋": 12032,
+  "古代人の混沌のメビウスの紋章": 15856,
+  "古代人の知識": 15849,
+  "古代人の礎": 2999876,
+  "古代人の紋様": 15848,
+  "古代人の記憶": 15852,
+  "古代人の防具[Ⅰ]強化ハンマー(+0～+4)": 15404,
+  "古代人の防具[Ⅰ]強化ハンマー(+10～+14)": 15404,
+  "古代人の防具[Ⅰ]強化ハンマー(+15～+19)": 15404,
+  "古代人の防具[Ⅰ]強化ハンマー(+5～+9)": 15404,
+  "古代兵器の設計図": 13674,
+  "古代遺跡のプレート": 18060,
+  "古代遺跡のプレート袋": 12032,
+  "古代遺跡の破片凝縮器": 14613,
+  "古代遺跡の破片凝縮器袋": 12032,
+  "古竜の力が宿った武器強化ハンマー(+11)": 14831,
+  "古竜の力が宿った武器強化ハンマー(+12)": 14831,
+  "古竜の力が宿った武器強化ハンマー(+13)": 14831,
+  "古竜の力が宿った武器強化ハンマー(+14)": 14831,
+  "古竜の力が宿った防具強化ハンマー(+11)": 14831,
+  "古竜の力が宿った防具強化ハンマー(+12)": 14831,
+  "古竜の力が宿った防具強化ハンマー(+13)": 14831,
+  "古竜の力が宿った防具強化ハンマー(+14)": 14831,
+  "古竜の古代アーマー": 3799801,
+  "古竜の古代グローブ": 3799803,
+  "古竜の古代ブーツ": 3799804,
+  "古竜の古代ヘルム": 3799800,
+  "古竜の古代ボトム": 3799802,
+  "古竜の武器進化石": 15404,
+  "古竜の気が宿ったランプ": 2999889,
+  "古竜の気が宿ったランプ(取引不可)": 2999889,
+  "古竜の燃える心臓": 2999843,
+  "古竜の燃える心臓(取引不可)": 2999843,
+  "古竜の燃える心臓袋": 12032,
+  "古竜の防具進化石": 15404,
+  "古竜の骨片": 2999802,
+  "古竜の骨片袋": 12032,
+  "古竜サブウェポン": 3899804,
+  "古竜メインウェポン": 3899800,
+  "咆哮する金竜のデカール袋": 37507,
+  "咆哮する金竜の尻尾袋": 37506,
+  "咆哮する金竜の翼袋": 37505,
+  "咲き誇る竜鱗": 2999842,
+  "団結のギルドのタリスマン": 18308,
+  "均衡のトークン": 14312,
+  "堅固な信念のテラマイブローチ袋": 2000031,
+  "堅固な月食のかけら": 15684,
+  "堕落したブラックドラゴンの記憶": 15969,
+  "堕落したブラックドラゴンの記憶(14個)袋": 12032,
+  "堕落したブラックドラゴンの記憶(5個)袋": 12032,
+  "堕落した世界の片鱗": 12012,
+  "境界の清水": 15333,
+  "境界の清水(取引不可)": 15333,
+  "壊れたリモコン": 13132,
+  "壊れた金糸武器の結晶": 2999875,
+  "壊れた金糸防具の結晶": 2999873,
+  "変形進化加速器": 2999809,
+  "変形進化加速器袋": 12032,
+  "変異型竜珠改良槌Ver.3": 15936,
+  "変異型竜珠改良槌Ver.3(取引不可)": 15936,
+  "夏の宝石": 15593,
+  "多尾のブレスレット": 2999974,
+  "夜明けの露の輝きの宝石": 2999899,
+  "夢の触媒": 13134,
+  "天狼のたてがみ": 15341,
+  "奪われた力のかけら": 15143,
+  "季節の宝石選択袋": 12032,
+  "守り人の紋章": 12567,
+  "守護のギルドのタリスマン": 18306,
+  "守護者の加護": 2999913,
+  "守護者の気": 2999915,
+  "守護者の気の結晶": 2999916,
+  "密林の古代グローブ": 35898,
+  "密林の古代グローブ(+3)袋": 12032,
+  "密林の古代グローブ(+6)袋": 12032,
+  "密林の古代グローブ(+9)袋": 12032,
+  "密林の古代グローブ[Ⅱ]": 35898,
+  "密林の古代グローブの破片": 15846,
+  "審判のワンド": 2000028,
+  "封印されたブローチ(エピック1段階)箱": 15737,
+  "封印された力のカーラブローチ": 1999846,
+  "封印された力のテラマイブローチ": 2000020,
+  "封印された力のネルウィンブローチ": 1999946,
+  "封印された力のバルナックブローチ": 1999845,
+  "封印された力のベルスカードブローチ": 1999931,
+  "小型進化加速器": 2999807,
+  "小型進化加速器袋": 12032,
+  "屍苔": 13016,
+  "崩れた境界の羅針盤(アークビショップ)": 12697,
+  "崩れた境界の羅針盤(カイロン)": 12697,
+  "崩れた境界の羅針盤(ガーディアン)": 12697,
+  "崩れた境界の羅針盤(ギガンテス)": 12697,
+  "崩れた境界の羅針盤(グラノーム)": 12697,
+  "崩れた境界の羅針盤(サフェントラ)": 12697,
+  "崩れた境界の羅針盤(タイフーン)": 12697,
+  "崩れた境界の羅針盤(ダイダロス)": 12697,
+  "崩れた境界の羅針盤(プロフェッサーK)": 12697,
+  "崩れた境界の羅針盤(ボルケーノ)": 12697,
+  "崩れた境界の羅針盤(マンティコア)": 12697,
+  "崩れた境界の羅針盤(ミスト)": 12697,
+  "崩れた境界の羅針盤ランダム袋": 12032,
+  "崩れた境界の羅針盤選択袋": 12032,
+  "崩壊した次元の力のかけら": 2999883,
+  "崩壊した次元の気": 2999882,
+  "崩壊した次元の記憶": 2999881,
+  "崩壊した武器刻印袋": 15561,
+  "崩壊の宝玉": 2999886,
+  "崩壊の攻撃宝玉": 2999887,
+  "崩壊の攻撃竜珠(エピック)": 3399803,
+  "崩壊の攻撃竜珠(ユニーク)": 3399803,
+  "崩壊の清水": 2999888,
+  "崩壊の清水(取引不可)": 2999888,
+  "崩壊の竜珠の破片": 2999884,
+  "崩壊の竜珠合成器": 2999830,
+  "崩壊の防御宝玉": 2999886,
+  "崩壊の防御竜珠(エピック)": 3399823,
+  "崩壊の防御竜珠(ユニーク)": 3399823,
+  "幽冥の招待状": 15399,
+  "幽冥の門の鍵": 13199,
+  "幽幻/紅月/新緑の竜珠選択袋(+10)": 12032,
+  "幽幻/紅月/新緑の竜珠選択袋(+15)": 12032,
+  "幽幻/紅月/新緑の竜珠選択袋(取引不可)": 12032,
+  "幽幻の核(アカデミック)": 13238,
+  "幽幻の核(アサシン)": 13238,
+  "幽幻の核(アルタ)": 13238,
+  "幽幻の核(アーチャー)": 13238,
+  "幽幻の核(ウォーリアー)": 13238,
+  "幽幻の核(カーリー)": 13238,
+  "幽幻の核(クレリック)": 13238,
+  "幽幻の核(ソーサレス)": 13238,
+  "幽幻の核(マキナ)": 13238,
+  "幽幻の核(レンシア)": 13238,
+  "幽幻の核(ヴァンダル)": 13238,
+  "幽幻の竜珠": 15296,
+  "弓の紋章": 200,
+  "強烈な黄金の羽根": 2999919,
+  "微かな黄金の羽根": 2999919,
+  "悪魔の骨の鈴": 2999972,
+  "悲しい目をした人形": 12232,
+  "成長する新芽スキル竜珠選択袋": 12032,
+  "成長の守石[12段階]：レベルアップボックス報酬袋": 12032,
+  "成長の守石[13段階]：レベルアップボックス報酬袋": 12032,
+  "成長の守石[8段階]：レベルアップボックス報酬袋": 12032,
+  "成長の守石[9段階]：レベルアップボックス報酬袋": 12032,
+  "手笠キノコ": 2999968,
+  "抽出されし根菌": 2999906,
+  "掲示板ポイント (600)": 15184,
+  "掲示板ポイント(25000)": 15184,
+  "掲示板ポイント(5000)": 15184,
+  "掲示板ポイント(50000)": 15184,
+  "揺るがぬ信念のキューブ": 13579,
+  "放電された転送機": 2999844,
+  "救援の証": 12301,
+  "救援者の象徴": 12405,
+  "断片化したブローチの残骸": 14722,
+  "新しい冒険者のための崩壊の竜珠袋": 12032,
+  "新緑の核(アカデミック)": 15430,
+  "新緑の核(アサシン)": 15430,
+  "新緑の核(アルタ)": 15430,
+  "新緑の核(アーチャー)": 15430,
+  "新緑の核(ウォーリアー)": 15430,
+  "新緑の核(カーリー)": 15430,
+  "新緑の核(クレリック)": 15430,
+  "新緑の核(ソーサレス)": 15430,
+  "新緑の核(マキナ)": 15430,
+  "新緑の核(レンシア)": 15430,
+  "新緑の核(ヴァンダル)": 15430,
+  "新緑の竜珠": 15433,
+  "星輝神仙のための4段階達成報酬袋": 12032,
+  "星輝神仙のための5段階達成報酬袋": 12032,
+  "星雲の生成痕跡帯": 2999934,
+  "春の宝石": 15591,
+  "時の砂": 2999804,
+  "時間旅行時計": 15327,
+  "暗黒の結晶": 15406,
+  "暴風の時空石": 12647,
+  "書き殴られた研究日誌": 12239,
+  "最上級スキル強化紋章(ラピッドブラスト)": 18026,
+  "最上級プレート(ラピッドブラスト)": 18062,
+  "最上級冒険の箱(アイテム保護魔法ゼリー)": 13458,
+  "最上級冒険の箱(アレンデル-1)": 15973,
+  "最上級冒険の箱(アレンデル-2)": 15973,
+  "最上級冒険の箱(カルシラ)": 15973,
+  "最上級冒険の箱(冥闇の星片)": 13458,
+  "最上級冒険の箱(竜珠、能力強化紋章)": 13458,
+  "最上級冒険の箱(箱舟の力)": 13458,
+  "最上級冒険の箱(箱舟墜落地点)": 15973,
+  "月光の月食の竜珠袋": 12032,
+  "月食のかけら": 15679,
+  "月食のエピック竜珠のかけら袋(ヘルム)": 12032,
+  "月食のノーマル竜珠のかけら袋(サブウェポン)": 12032,
+  "月食のノーマル竜珠のかけら袋(ヘルム)": 12032,
+  "月食のノーマル竜珠のかけら袋(メインウェポン)": 12032,
+  "月食のマジック竜珠のかけら袋(サブウェポン)": 12032,
+  "月食のマジック竜珠のかけら袋(ヘルム)": 12032,
+  "月食のマジック竜珠のかけら袋(メインウェポン)": 12032,
+  "月食のユニーク竜珠のかけら袋(ヘルム)": 12032,
+  "月食のレア竜珠のかけら袋(ヘルム)": 12032,
+  "月食のレジェンド竜珠のかけら袋(ヘルム)": 12032,
+  "月食の攻撃宝玉(アーマー)": 14923,
+  "月食の攻撃宝玉(イヤリング)": 14923,
+  "月食の攻撃宝玉(グローブ)": 14923,
+  "月食の攻撃宝玉(サブウェポン)": 14923,
+  "月食の攻撃宝玉(ネックレス)": 14923,
+  "月食の攻撃宝玉(ブーツ)": 14923,
+  "月食の攻撃宝玉(ヘルム)": 14923,
+  "月食の攻撃宝玉(ボトム)": 14923,
+  "月食の攻撃宝玉(メインウェポン)": 14923,
+  "月食の攻撃宝玉(リング)": 14923,
+  "月食の攻撃竜珠(エピック)": 18351,
+  "月食の攻撃竜珠(ノーマル)": 18351,
+  "月食の攻撃竜珠(マジック)": 18351,
+  "月食の攻撃竜珠(ユニーク)": 18351,
+  "月食の攻撃竜珠(レア)": 18351,
+  "月食の残骸": 15942,
+  "月食の竜珠(エンシェント)+5強化ハンマー": 15404,
+  "月食の竜珠(マジック)袋": 12032,
+  "月食の竜珠ユニーク選択袋": 12032,
+  "月食の竜珠レジェンド選択袋": 12032,
+  "月食の竜珠レジェンド選択袋(イベント)": 12032,
+  "月食の竜珠強化袋": 15825,
+  "月食の竜珠袋(ディメンションラビリンス2階層)": 12032,
+  "月食の竜珠袋(ディメンションラビリンス3階層)": 12032,
+  "月食の竜珠袋(ディメンションラビリンス4階層)": 12032,
+  "月食の結晶": 15944,
+  "月食の聖痕": 15678,
+  "月食の遺物": 15780,
+  "月食の遺物(イベント)": 15780,
+  "月食の防御宝玉(アーマー)": 14926,
+  "月食の防御宝玉(イヤリング)": 14926,
+  "月食の防御宝玉(グローブ)": 14926,
+  "月食の防御宝玉(サブウェポン)": 14926,
+  "月食の防御宝玉(ネックレス)": 14926,
+  "月食の防御宝玉(ブーツ)": 14926,
+  "月食の防御宝玉(ヘルム)": 14926,
+  "月食の防御宝玉(ボトム)": 14926,
+  "月食の防御宝玉(メインウェポン)": 14926,
+  "月食の防御宝玉(リング)": 14926,
+  "月食の防御竜珠(エピック)": 18361,
+  "月食の防御竜珠(ノーマル)": 18361,
+  "月食の防御竜珠(マジック)": 18361,
+  "月食の防御竜珠(ユニーク)": 18361,
+  "月食の防御竜珠(レア)": 18361,
+  "月食宝玉エンシェント選択袋": 12032,
+  "未来時空測定器(10段階)": 2999846,
+  "未来時空測定器(11段階)": 2999846,
+  "未来時空測定器(12段階)": 2999846,
+  "未来時空測定器(13段階)": 2999846,
+  "未来時空測定器(14段階)": 2999846,
+  "未来時空測定器(15段階)": 2999846,
+  "未来時空測定器(1段階)": 2999846,
+  "未来時空測定器(2段階)": 2999846,
+  "未来時空測定器(3段階)": 2999846,
+  "未来時空測定器(4段階)": 2999846,
+  "未来時空測定器(5段階)": 2999846,
+  "未来時空測定器(6段階)": 2999846,
+  "未来時空測定器(7段階)": 2999846,
+  "未来時空測定器(8段階)": 2999846,
+  "未来時空測定器(9段階)": 2999846,
+  "未来時空集約体": 12293,
+  "未知のオーラ": 15949,
+  "未知の古代アクセサリーの破片": 15842,
+  "未知の古代イヤリング": 18822,
+  "未知の古代イヤリング袋(+12)": 12032,
+  "未知の古代ネックレス": 18821,
+  "未知の古代ネックレス袋(+12)": 12032,
+  "未知の古代リング": 18823,
+  "未知の古代リング袋(+12)": 12032,
+  "未知の珠": 15948,
+  "未知の石のかけら": 12010,
+  "朱印の封蝋": 12345,
+  "東方の古代アーマー": 35911,
+  "東方の古代アーマー(+3)袋": 12032,
+  "東方の古代アーマー(+6)袋": 12032,
+  "東方の古代アーマー(+9)袋": 12032,
+  "東方の古代アーマー[Ⅱ]": 35911,
+  "東方の古代アーマーの破片": 15844,
+  "栴檀の実": 12903,
+  "棘付きの仮面": 2999967,
+  "標章刻印装置": 2999935,
+  "次元のダイス": 2999893,
+  "次元の地図の欠片": 15939,
+  "次元の核(ウォーリアー)": 2999823,
+  "次元の核クラス選択袋": 2999823,
+  "次元の残痕": 2999872,
+  "次元の気": 14676,
+  "次元の砂": 2999894,
+  "次元の砂(取引不可)": 2999894,
+  "次元の竜珠": 3399800,
+  "次元の竜珠+10選択袋": 12032,
+  "次元の竜珠袋": 12032,
+  "次元を宿したランプ": 2999889,
+  "次元を秘めたベルスカードブローチ箱": 1999929,
+  "次元スムージー": 2999890,
+  "次元パフェ": 2999891,
+  "次元転移ポーション": 12058,
+  "武陵仙境観光記念印章": 2999981,
+  "歪んだ共鳴のかけら": 15597,
+  "死血花の心臓": 2999969,
+  "残影の記録": 2999990,
+  "永劫の変異型竜珠進化器": 2999983,
+  "永劫の変異型竜珠進化器袋": 2999983,
+  "永劫の渇望のかけら": 2999982,
+  "永劫の異界の変異型竜珠(ユニーク)": 3399851,
+  "永劫の異界の変異型竜珠(レジェンド)": 3399851,
+  "永遠のタリスマン(2段階)選択袋": 12032,
+  "永遠のタリスマン(3段階)(イベント)ランダム袋": 12032,
+  "永遠のタリスマン(3段階)(イベント)選択袋": 12032,
+  "永遠のタリスマン(3段階)プリズム選択袋": 15980,
+  "永遠のタリスマン(3段階)ランダム袋": 12032,
+  "永遠のタリスマン(3段階)選択袋": 12032,
+  "永遠のタリスマン(4段階)(イベント)ランダム袋": 12032,
+  "永遠のタリスマン(4段階)(イベント)選択袋": 12032,
+  "永遠のタリスマン(4段階)プリズム選択袋": 15980,
+  "永遠のタリスマン(4段階)ランダム袋": 12032,
+  "永遠のタリスマン(4段階)選択袋": 12032,
+  "永遠のタリスマンの核(1段階)": 15643,
+  "永遠のタリスマンの核(2段階)": 15643,
+  "永遠のタリスマンの核(3段階)": 15643,
+  "永遠のタリスマンの核(4段階)": 15643,
+  "永遠のタリスマンの粉塵": 15947,
+  "永遠のタリスマン袋(1段階)": 12032,
+  "永遠のタリスマン袋(2段階)": 12032,
+  "永遠の世界のタリスマン(10段階)": 18230,
+  "永遠の世界のタリスマン(1段階)": 18230,
+  "永遠の世界のタリスマン(2段階)": 18230,
+  "永遠の世界のタリスマン(3段階)": 18230,
+  "永遠の世界のタリスマン(4段階)": 18230,
+  "永遠の世界のタリスマン(5段階)": 18230,
+  "永遠の世界のタリスマン(6段階)": 18230,
+  "永遠の世界のタリスマン(7段階)": 18230,
+  "永遠の世界のタリスマン(8段階)": 18230,
+  "永遠の世界のタリスマン(9段階)": 18230,
+  "永遠の体力の能力強化紋章(エピック)": 18430,
+  "永遠の体力の能力強化紋章(マジック)": 18430,
+  "永遠の体力の能力強化紋章(ユニーク)": 18451,
+  "永遠の体力の能力強化紋章(レア)": 18430,
+  "永遠の体力の能力強化紋章袋": 18430,
+  "永遠の加護のタリスマン(1段階)": 18459,
+  "永遠の加護のタリスマン(2段階)": 18459,
+  "永遠の加護のタリスマン(3段階)": 18459,
+  "永遠の加護のタリスマン(4段階)": 18459,
+  "永遠の加護のタリスマン(5段階)": 18459,
+  "永遠の加護の能力強化紋章(エピック)": 18428,
+  "永遠の加護の能力強化紋章(マジック)": 18428,
+  "永遠の加護の能力強化紋章(ユニーク)": 18449,
+  "永遠の加護の能力強化紋章(レア)": 18428,
+  "永遠の加護の能力強化紋章袋": 18428,
+  "永遠の変異型竜珠進化石": 2999833,
+  "永遠の変異型竜珠選択箱": 15728,
+  "永遠の攻撃/防御/究極の能力強化紋章(ユニーク)選択袋": 12032,
+  "永遠の攻撃型能力強化紋章(エピック)": 18416,
+  "永遠の攻撃型能力強化紋章(マジック)": 18416,
+  "永遠の攻撃型能力強化紋章(ユニーク)": 18437,
+  "永遠の攻撃型能力強化紋章(レア)": 18416,
+  "永遠の次元の変異型竜珠": 3399801,
+  "永遠の次元の変異型竜珠(ユニーク)": 3399801,
+  "永遠の次元の変異型竜珠(レジェンド)": 3399801,
+  "永遠の次元の幻影": 13748,
+  "永遠の次元の証票": 15938,
+  "永遠の気迫の能力強化紋章(エピック)": 18421,
+  "永遠の気迫の能力強化紋章(マジック)": 18421,
+  "永遠の気迫の能力強化紋章(ユニーク)": 18442,
+  "永遠の気迫の能力強化紋章(レア)": 18421,
+  "永遠の気迫の能力強化紋章袋": 18421,
+  "永遠の混沌のタリスマン": 18231,
+  "永遠の渇望のかけら": 2999832,
+  "永遠の生命のタリスマン(1段階)": 18464,
+  "永遠の生命のタリスマン(2段階)": 18464,
+  "永遠の生命のタリスマン(3段階)": 18464,
+  "永遠の生命のタリスマン(4段階)": 18464,
+  "永遠の生命のタリスマン(5段階)": 18464,
+  "永遠の生命の能力強化紋章(エピック)": 18418,
+  "永遠の生命の能力強化紋章(マジック)": 18418,
+  "永遠の生命の能力強化紋章(ユニーク)": 18439,
+  "永遠の生命の能力強化紋章(レア)": 18418,
+  "永遠の生命の能力強化紋章袋": 18418,
+  "永遠の疾風の能力強化紋章(エピック)": 18420,
+  "永遠の疾風の能力強化紋章(マジック)": 18420,
+  "永遠の疾風の能力強化紋章(ユニーク)": 18441,
+  "永遠の疾風の能力強化紋章(レア)": 18420,
+  "永遠の疾風の能力強化紋章袋": 18420,
+  "永遠の知恵の能力強化紋章(エピック)": 18419,
+  "永遠の知恵の能力強化紋章(マジック)": 18419,
+  "永遠の知恵の能力強化紋章(ユニーク)": 18440,
+  "永遠の知恵の能力強化紋章(レア)": 18419,
+  "永遠の知恵の能力強化紋章袋": 18419,
+  "永遠の破壊のタリスマン(1段階)": 18460,
+  "永遠の破壊のタリスマン(2段階)": 18460,
+  "永遠の破壊のタリスマン(3段階)": 18460,
+  "永遠の破壊のタリスマン(4段階)": 18460,
+  "永遠の破壊のタリスマン(5段階)": 18460,
+  "永遠の破壊の能力強化紋章(エピック)": 18431,
+  "永遠の破壊の能力強化紋章(マジック)": 18431,
+  "永遠の破壊の能力強化紋章(ユニーク)": 18452,
+  "永遠の破壊の能力強化紋章(レア)": 18431,
+  "永遠の破壊の能力強化紋章袋": 18431,
+  "永遠の究極の能力強化紋章(エピック)": 18445,
+  "永遠の究極の能力強化紋章(マジック)": 18445,
+  "永遠の究極の能力強化紋章(ユニーク)": 18445,
+  "永遠の究極の能力強化紋章(レア)": 18445,
+  "永遠の能力強化紋章(エピック)ランダム袋": 12032,
+  "永遠の能力強化紋章(ユニーク)選択袋": 12032,
+  "永遠の能力強化紋章箱": 14720,
+  "永遠の能力強化紋章箱のかけら": 12176,
+  "永遠の能力強化紋章袋(エピック)": 12032,
+  "永遠の致命のタリスマン(1段階)": 18462,
+  "永遠の致命のタリスマン(2段階)": 18462,
+  "永遠の致命のタリスマン(3段階)": 18462,
+  "永遠の致命のタリスマン(4段階)": 18462,
+  "永遠の致命のタリスマン(5段階)": 18462,
+  "永遠の致命の能力強化紋章(エピック)": 18427,
+  "永遠の致命の能力強化紋章(マジック)": 18427,
+  "永遠の致命の能力強化紋章(ユニーク)": 18448,
+  "永遠の致命の能力強化紋章(レア)": 18427,
+  "永遠の致命の能力強化紋章袋": 18427,
+  "永遠の苦痛の渦": 12637,
+  "永遠の苦痛の目(1段階)": 18232,
+  "永遠の苦痛の目(2段階)": 18232,
+  "永遠の苦痛の目(3段階)": 18232,
+  "永遠の苦痛の目(4段階)": 18232,
+  "永遠の苦痛の目(5段階)": 18232,
+  "永遠の鉄壁のタリスマン(1段階)": 18461,
+  "永遠の鉄壁のタリスマン(2段階)": 18461,
+  "永遠の鉄壁のタリスマン(3段階)": 18461,
+  "永遠の鉄壁のタリスマン(4段階)": 18461,
+  "永遠の鉄壁のタリスマン(5段階)": 18461,
+  "永遠の鉄壁の能力強化紋章(エピック)": 18429,
+  "永遠の鉄壁の能力強化紋章(マジック)": 18429,
+  "永遠の鉄壁の能力強化紋章(ユニーク)": 18450,
+  "永遠の鉄壁の能力強化紋章(レア)": 18429,
+  "永遠の鉄壁の能力強化紋章袋": 18429,
+  "永遠の防御型能力強化紋章(エピック)": 18417,
+  "永遠の防御型能力強化紋章(マジック)": 18417,
+  "永遠の防御型能力強化紋章(ユニーク)": 18438,
+  "永遠の防御型能力強化紋章(レア)": 18417,
+  "永遠の限界のタリスマン(1段階)": 18463,
+  "永遠の限界のタリスマン(2段階)": 18463,
+  "永遠の限界のタリスマン(3段階)": 18463,
+  "永遠の限界のタリスマン(4段階)": 18463,
+  "永遠の限界のタリスマン(5段階)": 18463,
+  "永遠の限界の能力強化紋章(エピック)": 18426,
+  "永遠の限界の能力強化紋章(マジック)": 18426,
+  "永遠の限界の能力強化紋章(ユニーク)": 18447,
+  "永遠の限界の能力強化紋章(レア)": 18426,
+  "永遠の限界の能力強化紋章袋": 18426,
+  "永遠の魔力のタリスマン(1段階)": 18458,
+  "永遠の魔力のタリスマン(2段階)": 18458,
+  "永遠の魔力のタリスマン(3段階)": 18458,
+  "永遠の魔力のタリスマン(4段階)": 18458,
+  "永遠の魔力のタリスマン(5段階)": 18458,
+  "永遠の魔力の能力強化紋章(エピック)": 18432,
+  "永遠の魔力の能力強化紋章(マジック)": 18432,
+  "永遠の魔力の能力強化紋章(ユニーク)": 18453,
+  "永遠の魔力の能力強化紋章(レア)": 18432,
+  "永遠の魔力の能力強化紋章袋": 18432,
+  "汚染されし意志": 13468,
+  "決意の破片": 13631,
+  "沸き立つ生命": 12021,
+  "洛陽のルーン強化ハンマー(+0～+6)": 14831,
+  "洛陽のルーン強化ハンマー(+0～+9)": 14831,
+  "洛陽のルーン強化ハンマー(+6～+14)袋": 12032,
+  "洛陽の鍵": 14945,
+  "海賊団の旗": 12091,
+  "深淵の古代ブーツ": 35914,
+  "深淵の古代ブーツ(+3)袋": 12032,
+  "深淵の古代ブーツ(+6)袋": 12032,
+  "深淵の古代ブーツ(+9)袋": 12032,
+  "深淵の古代ブーツ[Ⅱ]": 35914,
+  "深淵の古代ブーツの破片": 15847,
+  "混沌の理の鍵": 14945,
+  "清い月食のかけら": 15680,
+  "満開の保護の変異型防御竜珠": 18326,
+  "満開の脅威の変異型防御竜珠": 18223,
+  "漆黒の月食のかけら": 15682,
+  "激情を隠した冷徹なレッドイヤリング": 18804,
+  "激情を隠した冷徹なレッドネックレス": 18805,
+  "激情を隠した冷徹なレッドリング": 18803,
+  "濁った希望": 13520,
+  "灼熱石": 13249,
+  "無欠のハンマー": 14797,
+  "無欠の核": 2999939,
+  "無欠の結晶": 2999938,
+  "煌めくシールドの紋章": 597,
+  "煌めくスタッフの紋章": 346,
+  "煌めく剣の紋章": 12,
+  "煌めく弓の紋章": 200,
+  "燃える月食のかけら": 15681,
+  "独武の栄光イヤリング": 18847,
+  "独武の栄光ネックレス": 18846,
+  "独武の栄光リング": 18845,
+  "独武の記録箱": 1999977,
+  "独武討伐のタリスマン": 18277,
+  "独武討伐戦コイン": 14480,
+  "独武討伐戦コイン(シーズン3)": 14480,
+  "独武討伐戦挑戦状": 13136,
+  "独武討伐戦挑戦状(シーズン2)": 13136,
+  "独武討伐戦挑戦状(シーズン3)": 13136,
+  "独武討伐戦：報酬袋": 1999974,
+  "狭間のかけら": 2999880,
+  "猫目石": 12485,
+  "獄蓮の通門牌": 15529,
+  "現在のペンダント(10段階)": 13865,
+  "現在のペンダント(11段階)": 13865,
+  "現在のペンダント(12段階)": 13865,
+  "現在のペンダント(13段階)": 13865,
+  "現在のペンダント(14段階)": 13865,
+  "現在のペンダント(15段階)": 13865,
+  "現在のペンダント(1段階)": 13865,
+  "現在のペンダント(2段階)": 13865,
+  "現在のペンダント(3段階)": 13865,
+  "現在のペンダント(4段階)": 13865,
+  "現在のペンダント(5段階)": 13865,
+  "現在のペンダント(6段階)": 13865,
+  "現在のペンダント(7段階)": 13865,
+  "現在のペンダント(8段階)": 13865,
+  "現在のペンダント(9段階)": 13865,
+  "瓶詰めの石化像": 2999966,
+  "生命の古代ヘルム": 35915,
+  "生命の古代ヘルム(+3)袋": 12032,
+  "生命の古代ヘルム(+6)袋": 12032,
+  "生命の古代ヘルム(+9)袋": 12032,
+  "生命の古代ヘルム[Ⅱ]": 35915,
+  "生命の古代ヘルムの破片": 15843,
+  "略奪者の袋": 13142,
+  "異世界の古代サブウェポン": 42471,
+  "異世界の古代メインウェポン": 42470,
+  "異世界の古代武器の破片": 15841,
+  "異世界の古代武器袋": 12032,
+  "異次元跳躍体": 12575,
+  "異界に封印されたネルウィンブローチ箱": 1999944,
+  "異界の核(ウォーリアー)": 2999879,
+  "異界の竜珠": 3399802,
+  "異界の竜珠+10選択袋": 12032,
+  "白竜の氷片": 15078,
+  "白銀石": 15402,
+  "白銀蓮の刺繍": 15284,
+  "目覚めた魔力卵": 2999973,
+  "真夜中の流星の輝きの宝石": 2999902,
+  "真昼の太陽の輝きの宝石": 2999900,
+  "矛盾の世界のタリスマン": 3599805,
+  "矛盾の宝石抽出液": 15575,
+  "矛盾を抱いた心臓": 13137,
+  "砂の息吹のつぼみ": 2999870,
+  "砂の息吹の種": 2999869,
+  "破壊された遺跡の破片": 12145,
+  "祝福された[増幅]古竜のサブウェポン": 3899839,
+  "祝福された[増幅]古竜のメインウェポン": 3899835,
+  "祝福されたイベールのタリスマン": 3599803,
+  "祝福されたウンブラのタリスマン": 18392,
+  "祝福されたオーガダパのタリスマン": 18391,
+  "祝福されたクアノスのタリスマン": 3599800,
+  "祝福されたシャリカのタリスマン": 3599801,
+  "祝福されたジェレイントの成長": 2999924,
+  "祝福されたティタニオンのタリスマン": 18393,
+  "祝福されたブラックドラゴンの元素の特殊タリスマン": 18395,
+  "祝福されたブラックドラゴンの致命型特殊タリスマン": 18396,
+  "祝福されたブラックドラゴンエリアタリスマン選択袋": 15729,
+  "祝福されたヘイズフロストドラゴンの完全なタリスマン": 3599802,
+  "祝福されたメルカのタリスマン": 18394,
+  "祝福された矛盾の世界のタリスマン": 3599805,
+  "祝福された金竜のアーマー竜珠": 3399845,
+  "祝福された金竜のグローブ竜珠": 3399847,
+  "祝福された金竜のブーツ竜珠": 3399848,
+  "祝福された金竜のヘルム竜珠": 3399844,
+  "祝福された金竜のボトム竜珠": 3399846,
+  "祝福された金色のプレート": 18060,
+  "祝福された金色の体力の能力強化紋章": 3499818,
+  "祝福された金色の気迫の能力強化紋章": 3499815,
+  "祝福された金色の疾風の能力強化紋章": 3499816,
+  "祝福された金色の知恵の能力強化紋章": 3499817,
+  "祝福された金色の能力強化紋章選択袋": 12032,
+  "祝福された青い霜のタリスマン": 3599804,
+  "祝福の石(7日)": 13547,
+  "祝福を受けた勇猛なゴールデンイヤリング(混合)": 18801,
+  "祝福を受けた勇猛なゴールデンイヤリング(物理)": 18801,
+  "祝福を受けた勇猛なゴールデンイヤリング(魔法)": 18801,
+  "祝福を受けた勇猛なゴールデンネックレス(混合)": 18802,
+  "祝福を受けた勇猛なゴールデンネックレス(物理)": 18802,
+  "祝福を受けた勇猛なゴールデンネックレス(魔法)": 18802,
+  "祝福を受けた勇猛なゴールデンリング(混合)": 18800,
+  "祝福を受けた勇猛なゴールデンリング(物理)": 18800,
+  "祝福を受けた勇猛なゴールデンリング(魔法)": 18800,
+  "神聖な月食のかけら": 15679,
+  "秋の宝石": 15592,
+  "秩序のトークン": 13701,
+  "称号：ボーンドラゴンを打ち破った袋": 12032,
+  "称号：合体する袋": 12032,
+  "称号：堕落した英雄の救世主袋": 15973,
+  "称号：変身する袋": 12032,
+  "称号：強心臓袋": 12032,
+  "称号：次元の旅人袋": 12032,
+  "称号：進化する袋": 12032,
+  "称号：運命に抗った袋": 12032,
+  "竜の瞳": 15342,
+  "竜鱗の細工板": 2999885,
+  "箱舟の時の砂": 2999804,
+  "箱舟の石のかけら": 14429,
+  "精製された遺跡の破片": 12174,
+  "精製の万年筆": 2999937,
+  "精製の万年筆(取引不可)": 2999937,
+  "紅月の核(アカデミック)": 15368,
+  "紅月の核(アサシン)": 15368,
+  "紅月の核(アルタ)": 15368,
+  "紅月の核(アーチャー)": 15368,
+  "紅月の核(ウォーリアー)": 15368,
+  "紅月の核(カーリー)": 15368,
+  "紅月の核(クレリック)": 15368,
+  "紅月の核(ソーサレス)": 15368,
+  "紅月の核(マキナ)": 15368,
+  "紅月の核(レンシア)": 15368,
+  "紅月の核(ヴァンダル)": 15368,
+  "紅月の竜珠": 15358,
+  "紅蓮の竜脳香": 12101,
+  "純風の月食のかけら": 15683,
+  "脅威の変異型竜珠変換キューブ": 15374,
+  "脅威の変異型竜珠変換キューブ(取引不可)": 15374,
+  "腐った老木の樹液": 12131,
+  "腐敗の幕": 12441,
+  "腐敗の根源": 2999907,
+  "自然進化加速器": 2999845,
+  "致命型ギルドのタリスマン": 18314,
+  "舞い踊る灰": 13048,
+  "色あせた白い羽": 15375,
+  "色褪せたペンダント": 15334,
+  "色褪せた記憶(40個)袋": 12032,
+  "色褪せた追憶": 2999921,
+  "苔むした竜の爪": 12654,
+  "英雄の月食の竜珠+1強化ハンマー(+0～+14)": 15404,
+  "英雄の月食の竜珠+1強化ハンマー(+0～+14)(取引不可)": 15404,
+  "英雄の月食の竜珠+1強化ハンマー(+0～+9)": 15404,
+  "英雄の月食の竜珠+1強化ハンマー(+0～+9)(取引不可)": 15404,
+  "英雄の月食の竜珠+5強化ハンマー(+0～+14)": 15404,
+  "英雄の月食の竜珠+5強化ハンマー(+0～+14)(取引不可)": 15404,
+  "英雄の月食の竜珠+5強化ハンマー(+0～+9)": 15404,
+  "英雄の月食の竜珠+5強化ハンマー(+0～+9)(取引不可)": 15404,
+  "英雄ブローチコイン": 13526,
+  "蓬莱石": 15345,
+  "蝶珊瑚": 15869,
+  "調律コイン": 13121,
+  "超越の箱舟[未来]のコイン": 13524,
+  "超越の箱舟[現在]のコイン": 13524,
+  "超越の箱舟[過去]のコイン": 13524,
+  "超越の箱舟箱カードキー": 15867,
+  "超越転送機": 2999841,
+  "輝く冒険者の金貨": 14306,
+  "輝く混沌のキューブ": 13580,
+  "輝晶のアストラルパウダーボール(取引不可)": 1999803,
+  "追憶の時間が宿る箱": 2000016,
+  "進化する古代の形状(武器)": 2999895,
+  "進化する古代の形状(防具)": 2999896,
+  "進化の時計針": 2999805,
+  "進化の時計針袋": 12032,
+  "進化の歯車": 2999806,
+  "進化の歯車袋": 12032,
+  "運命の金色のプレート箱": 15613,
+  "過去の化石(10段階)": 13236,
+  "過去の化石(11段階)": 13236,
+  "過去の化石(12段階)": 13236,
+  "過去の化石(13段階)": 13236,
+  "過去の化石(14段階)": 13236,
+  "過去の化石(15段階)": 13236,
+  "過去の化石(1段階)": 13236,
+  "過去の化石(2段階)": 13236,
+  "過去の化石(3段階)": 13236,
+  "過去の化石(4段階)": 13236,
+  "過去の化石(5段階)": 13236,
+  "過去の化石(6段階)": 13236,
+  "過去の化石(7段階)": 13236,
+  "過去の化石(8段階)": 13236,
+  "過去の化石(9段階)": 13236,
+  "遺跡の破片": 12177,
+  "遺跡の破片凝縮器": 14613,
+  "邪根の変異型竜珠(エンシェント)": 3399843,
+  "邪根の変異型竜珠(ユニーク)": 3399843,
+  "邪根の変異型竜珠(レジェンド)": 3399843,
+  "邪根の変異型竜珠変換キューブ": 2999908,
+  "邪根の渇望のかけら": 2999904,
+  "金竜のアーマー": 3799979,
+  "金竜のアーマー竜珠": 3399845,
+  "金竜のグローブ": 3799981,
+  "金竜のグローブ竜珠": 3399847,
+  "金竜のブーツ": 3799982,
+  "金竜のブーツ竜珠": 3399848,
+  "金竜のヘルム": 3799978,
+  "金竜のヘルム竜珠": 3399844,
+  "金竜のボトム": 3799980,
+  "金竜のボトム竜珠": 3399846,
+  "金竜の守護玉": 14630,
+  "金竜の宝玉のかけら": 12124,
+  "金竜の竜珠安定器": 2999833,
+  "金竜の竜珠安定器の破片": 13947,
+  "金竜の逆鱗の粉塵": 2999917,
+  "金竜の鋭利な宝石": 14678,
+  "金竜の鱗粉": 2999803,
+  "金竜サブウェポン": 3899917,
+  "金竜メインウェポン": 3899913,
+  "金糸アーマー": 3799905,
+  "金糸アーマー[Ⅱ]": 3799905,
+  "金糸イヤリング": 18822,
+  "金糸グローブ": 3799907,
+  "金糸グローブ[Ⅱ]": 3799907,
+  "金糸サブウェポン": 3899874,
+  "金糸サブウェポン[Ⅱ]": 3899874,
+  "金糸ネックレス": 18821,
+  "金糸ブーツ": 3799908,
+  "金糸ブーツ[Ⅱ]": 3799908,
+  "金糸ヘルム": 3799904,
+  "金糸ヘルム[Ⅱ]": 3799904,
+  "金糸ボトム": 3799906,
+  "金糸ボトム[Ⅱ]": 3799906,
+  "金糸メインウェポン": 3899870,
+  "金糸メインウェポン[Ⅱ]": 3899870,
+  "金糸古代リング": 18823,
+  "金色の体力のプレート(20%)": 18060,
+  "金色の体力のプレート(70%)": 18060,
+  "金色の体力の能力強化紋章(1段階)": 3499814,
+  "金色の体力の能力強化紋章(2段階)": 3499814,
+  "金色の体力の能力強化紋章(3段階)": 3499814,
+  "金色の体力の能力強化紋章(4段階)": 3499814,
+  "金色の気迫のプレート(20%)": 18060,
+  "金色の気迫のプレート(70%)": 18060,
+  "金色の気迫の能力強化紋章(1段階)": 3499811,
+  "金色の気迫の能力強化紋章(2段階)": 3499811,
+  "金色の気迫の能力強化紋章(3段階)": 3499811,
+  "金色の気迫の能力強化紋章(4段階)": 3499811,
+  "金色の疾風のプレート(20%)": 18060,
+  "金色の疾風のプレート(70%)": 18060,
+  "金色の疾風の能力強化紋章(1段階)": 3499812,
+  "金色の疾風の能力強化紋章(2段階)": 3499812,
+  "金色の疾風の能力強化紋章(3段階)": 3499812,
+  "金色の疾風の能力強化紋章(4段階)": 3499812,
+  "金色の知恵のプレート(20%)": 18060,
+  "金色の知恵のプレート(70%)": 18060,
+  "金色の知恵の能力強化紋章(1段階)": 3499813,
+  "金色の知恵の能力強化紋章(2段階)": 3499813,
+  "金色の知恵の能力強化紋章(3段階)": 3499813,
+  "金色の知恵の能力強化紋章(4段階)": 3499813,
+  "金色の能力強化紋章(1段階)選択袋": 12032,
+  "金色の誓い": 13466,
+  "金色の追憶": 2999920,
+  "金色の追憶のかけら": 12064,
+  "金蓮宝": 15282,
+  "闇夜の星影の鍵": 14945,
+  "雫珊瑚": 15401,
+  "霜花のかけら": 13157,
+  "霜花称号袋": 12032,
+  "青い新芽のスキル竜珠選択袋": 12032,
+  "青い霜のタリスマン": 3599804,
+  "青い霜の枝": 13133,
+  "願いの花": 13521,
+  "風の傷称号袋": 12032,
+  "高純度の幽幻/紅月/新緑の核選択袋": 12032,
+  "高純度の幽幻の核": 12043,
+  "高純度の新緑の核": 15431,
+  "高純度の核選択袋": 12032,
+  "高純度の次元の核": 2999822,
+  "高純度の異界の核": 2999878,
+  "高純度の紅月の核": 15369,
+  "魂のかけら": 2999824,
+  "魔力のクローニングの破片": 1999901,
+  "魔力のクローニングの破片(100個)袋": 12104,
+  "魔力のクローニングアクセサリーの破片": 1999903,
+  "魔力のクローニング武器の破片": 14970,
+  "魔力のクローニング武器の破片(1000個)袋": 12032,
+  "魔力のクローニング特殊防具の破片": 1999902,
+  "魔力のクローニング防具の破片": 1999901,
+  "黄昏の夕焼けの輝きの宝石": 2999901,
+  "黄金の羽根": 2999919,
+  "黄金王権の勲章": 500,
+  "黄金色のカタマリ": 13662,
+  "黄金色のコイン": 14858,
+  "黄金蓮の刺繍": 15283,
+  "黎明の古代ボトム": 35897,
+  "黎明の古代ボトム(+3)袋": 12032,
+  "黎明の古代ボトム(+6)袋": 12032,
+  "黎明の古代ボトム(+9)袋": 12032,
+  "黎明の古代ボトム[Ⅱ]": 35897,
+  "黎明の古代ボトムの破片": 15845,
+  "黒々茸": 12957,
+  "黒き軍団の封印された呪文書": 13519
  }
 }

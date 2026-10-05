@@ -54,7 +54,8 @@ export interface Item {
   name_zh?: string;
   kind: ItemKind;
   slot?: string; // "ヘルム" "メイン武器" 等
-  grade?: string; // "ノーマル" "マジック" "レア" "エピック" "ユニーク" "レジェンド" "ディヴァイン" 等
+  grade?: string; // "ノーマル" "マジック" "レア" "エピック" "ユニーク" "レジェンド" "マスター" "エンシェント" 等
+  icon?: number; // クライアントのアイコン番号 (_IconImageIndex)。public/icons/{icon}.png
   level?: number;
   series?: string; // "金竜装備" "古竜装備" "ベルスカードアーティファクト" など系統
   max_enhance?: number;

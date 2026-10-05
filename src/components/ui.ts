@@ -28,11 +28,33 @@ export type ShownKind = ItemKind | "brooch";
 export const shownKind = (item: Item): ShownKind => (item.kind === "accessory" && item.slot === "ブローチ" ? "brooch" : item.kind);
 export const SHOWN_KIND_LABEL: Record<ShownKind, string> = { ...KIND_LABEL, brooch: "ブローチ" };
 
+const GRADE_CLASS: Record<string, string> = {
+  ノーマル: "grade-normal",
+  マジック: "grade-magic",
+  レア: "grade-rare",
+  エピック: "grade-epic",
+  ユニーク: "grade-unique",
+  レジェンド: "grade-legend",
+  マスター: "grade-master",
+  エンシェント: "grade-ancient",
+};
+
+/** 等級の色のクラス。「レジェンド/エンシェント」のように複数なら上位 (後ろ) の等級 */
+export const gradeClass = (grade?: string) => (grade ? (GRADE_CLASS[grade.split("/").at(-1)!] ?? "") : "");
+
+/** クライアントのアイテムアイコン (public/icons/{番号}.png) */
+export const itemIcon = (item: Item) => (item.icon !== undefined ? `<img class="item-icon" src="icons/${item.icon}.png" alt="" loading="lazy">` : "");
+
+/** アイテム名のリンク。name を渡すとその表示名で (グループ名など) */
+export function itemAnchor(item: Item, to: string, name = item.name) {
+  return `<a class="item-link kind-${item.kind} ${gradeClass(item.grade)}" href="${href("item", to)}">${itemIcon(item)}${esc(name)}</a>`;
+}
+
 export function itemLink(id: string, qty?: Qty["qty"]) {
   const item = itemById.get(id);
   const q = qty !== undefined && qty !== "" ? ` <span class="qty">×${esc(qty)}</span>` : "";
   if (!item) return `<span class="missing" title="未登録">${esc(id)}</span>${q}`;
-  return `<a class="item-link kind-${item.kind}" href="${href("item", id)}">${esc(item.name)}</a>${q}`;
+  return `${itemAnchor(item, id)}${q}`;
 }
 
 export function locationLink(id: string, kind: string) {
@@ -190,14 +212,14 @@ export function rateCell(rate?: number, text?: string) {
 
 export function itemMeta(item: Item) {
   const kind = SHOWN_KIND_LABEL[shownKind(item)];
-  const parts = [
-    kind,
-    item.slot === kind ? undefined : item.slot,
-    item.grade,
-    item.level ? `Lv${item.level}` : undefined,
-    item.max_enhance ? `最大+${item.max_enhance}` : undefined,
-  ].filter(Boolean);
-  return parts.map((p) => `<span class="chip">${esc(p)}</span>`).join("");
+  const chip = (p: string | undefined, cls = "") => (p ? `<span class="chip ${cls}">${esc(p)}</span>` : "");
+  return [
+    chip(kind),
+    chip(item.slot === kind ? undefined : item.slot),
+    chip(item.grade, gradeClass(item.grade)),
+    chip(item.level ? `Lv${item.level}` : undefined),
+    chip(item.max_enhance ? `最大+${item.max_enhance}` : undefined),
+  ].join("");
 }
 
 export const empty = (msg: string) => `<p class="empty">${esc(msg)}</p>`;

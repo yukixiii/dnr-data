@@ -55,6 +55,7 @@
         },
         "slot": { "type": "string" },
         "grade": { "type": "string" },
+        "icon": { "type": "integer", "minimum": 0 },
         "level": { "type": "number" },
         "series": { "type": "string" },
         "max_enhance": { "type": "number" },

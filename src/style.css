@@ -17,6 +17,15 @@
   --rate-low: #b3261e;
   --k-equip: #6a3fb0;
   --k-mat: #3b6f73;
+  /* 等級の色。ダークはゲーム内の色 (クライアントの値)、ライトは同じ色相を白背景で読める濃さにしたもの */
+  --g-normal: #5f5c57;
+  --g-magic: #557007;
+  --g-rare: #3a56d6;
+  --g-epic: #a04a0b;
+  --g-unique: #8143d1;
+  --g-legend: #c41d4a;
+  --g-master: #7a5d00;
+  --g-ancient: #0a6e68;
   --shadow: 0 1px 2px rgb(0 0 0 / 0.06);
   --radius: 10px;
   color-scheme: light;
@@ -42,6 +51,14 @@
     --rate-low: #f07a70;
     --k-equip: #b79af0;
     --k-mat: #7fc3c8;
+    --g-normal: #ffffff;
+    --g-magic: #88ab07;
+    --g-rare: #7992fe;
+    --g-epic: #ff9148;
+    --g-unique: #bf8bff;
+    --g-legend: #dc2355;
+    --g-master: #ffd232;
+    --g-ancient: #86fcf5;
     --shadow: none;
     color-scheme: dark;
   }
@@ -347,6 +364,52 @@ h2 .count {
 .item-link.kind-jade,
 .item-link.kind-heraldry {
   color: var(--k-equip);
+}
+/* 等級が分かるものは種類ではなく等級の色にする */
+.grade-normal {
+  --g: var(--g-normal);
+}
+.grade-magic {
+  --g: var(--g-magic);
+}
+.grade-rare {
+  --g: var(--g-rare);
+}
+.grade-epic {
+  --g: var(--g-epic);
+}
+.grade-unique {
+  --g: var(--g-unique);
+}
+.grade-legend {
+  --g: var(--g-legend);
+}
+.grade-master {
+  --g: var(--g-master);
+}
+.grade-ancient {
+  --g: var(--g-ancient);
+}
+.item-link[class*="grade-"],
+h1[class*="grade-"] {
+  color: var(--g);
+}
+.chip[class*="grade-"] {
+  color: var(--g);
+  box-shadow: inset 0 0 0 1px var(--g);
+  font-weight: 700;
+}
+/* アイコンの画像は 50px 角のセルで、周り 5px ほどは透明 (枠からはみ出す絵がある) */
+.item-icon {
+  width: 2em;
+  height: 2em;
+  margin: -0.4em 0.1em -0.4em -0.2em;
+  vertical-align: middle;
+}
+h1 .item-icon {
+  width: 50px;
+  height: 50px;
+  margin: -10px 4px -10px -5px;
 }
 .missing {
   color: var(--muted);

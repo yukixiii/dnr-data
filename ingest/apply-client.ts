@@ -37,7 +37,7 @@ interface CStat { name: string; value: string }
 interface CMat { item: string; qty: number; client_id?: number }
 interface CRow { rate: number; gold: number; materials: CMat[]; protect_qty: number; break_rate?: number; down?: [number, number] }
 interface CItem {
-  client_id: number; name: string; kind: string; slot?: string; grade?: string; level?: number; tier?: string; label?: string;
+  client_id: number; name: string; kind: string; slot?: string; grade?: string; icon?: number; level?: number; tier?: string; label?: string;
   stats?: CStat[]; stats_note?: string; variants_note?: string; enchant_id?: number; max_enhance?: number;
   levels?: Record<string, CStat[]>; stages?: Record<string, CStat[]>; tradable?: string; description?: string; set?: string;
 }
@@ -98,6 +98,8 @@ interface Export {
   sets: Record<string, { name: string | null; text: string | null; bonuses: { count: number; stats?: CStat[]; skill?: string }[]; items: string[] }>;
   // 総称のアイテム → 中身 (説明文「次の N種のアイテムが登場する。」)
   members?: Record<string, string[]>;
+  // data の id → アイコン番号 (_IconImageIndex)
+  icons?: Record<string, number>;
   new_items: string[];
 }
 
@@ -1488,6 +1490,14 @@ for (const [name] of missingMats) {
   });
   allIds.add(name);
   inc("material.stub");
+}
+
+// ---- アイコン (クライアントの _IconImageIndex。画像は dnr-client の icons.py が public/icons/ に書き出す) ----
+for (const it of [...items, ...materials]) {
+  const icon = ex.icons?.[it.id];
+  if (icon === undefined || it.icon === icon) continue;
+  it.icon = icon;
+  inc("icon");
 }
 
 // ---- 参照されなくなった出典 ----

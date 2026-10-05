@@ -1,7 +1,7 @@
 // 装備・素材一覧 (フィルタ・検索)。段階違いの同一装備は1件にまとめる
 import { allItems, defaultMember, ds, groupCountLabel, isIntra, listUnits, recipesByResult, tablesByItem, type ListUnit } from "../data.ts";
 import type { Item } from "../types.ts";
-import { SHOWN_KIND_LABEL, empty, esc, href, itemLink, itemMeta, regionBadges, shownKind, type ShownKind } from "../components/ui.ts";
+import { SHOWN_KIND_LABEL, empty, esc, itemAnchor, itemLink, itemMeta, regionBadges, shownKind, type ShownKind } from "../components/ui.ts";
 
 const EQUIP_KINDS: ShownKind[] = ["weapon", "armor", "accessory", "brooch", "special_armor", "artifact", "talisman", "jade", "heraldry"];
 const MAT_KINDS: ShownKind[] = ["material", "currency", "box", "consumable", "other"];
@@ -19,7 +19,7 @@ const unitName = (u: ListUnit) => u.group?.name ?? u.item.name;
 
 /** グループは名前で、ステータスのある最終段階のページへ */
 export const unitLink = (u: ListUnit) =>
-  u.group ? `<a class="item-link kind-${u.item.kind}" href="${href("item", defaultMember(u.group))}">${esc(u.group.name)}</a>` : itemLink(u.item.id);
+  u.group ? itemAnchor(u.item, defaultMember(u.group), u.group.name) : itemLink(u.item.id);
 
 function unitCard(u: ListUnit) {
   const { item, group, members } = u;

@@ -31,7 +31,7 @@ import { RECIPE_LABEL, recipeHeader, routeSection, stageTable } from "../compone
 import type { Transition } from "../route.ts";
 import { cmpKey, compareFloors, parseFloors } from "../floors.ts";
 import type { Item, ItemGroup, ItemSet, Ref, Stat, StatSet } from "../types.ts";
-import { empty, esc, href, itemLink, itemMeta, locationLink, rateCell, refInline, refList, regionBadges, statCell, statGrid, statSets } from "../components/ui.ts";
+import { empty, esc, gradeClass, href, itemIcon, itemLink, itemMeta, locationLink, rateCell, refInline, refList, regionBadges, statCell, statGrid, statSets } from "../components/ui.ts";
 import { dropTableHtml } from "./drops.ts";
 import { stepRows } from "./enhance.ts";
 import { REROLL_LABEL, optionSummary } from "./options.ts";
@@ -456,7 +456,7 @@ export function renderItemDetail(id: string) {
     item.series ? ` › <a href="#/items?series=${encodeURIComponent(item.series)}">${esc(item.series)}</a>` : ""
   }</nav>
   <header class="detail-head">
-    <h1>${esc(group ? group.name : item.name)}</h1>
+    <h1 class="${gradeClass(item.grade)}">${itemIcon(item)}${esc(group ? group.name : item.name)}</h1>
     <div class="names">${[item.name_ko, item.name_zh].filter(Boolean).map((n) => `<span>${esc(n)}</span>`).join("")}</div>
     ${group ? `<p class="focus-line">選択中: <strong>${esc(item.name)}</strong> <span class="muted">(${groupCountLabel(group)})</span></p>${stageNav(group, focus)}` : ""}
     <div class="meta">${itemMeta(item)}${
