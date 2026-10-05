@@ -46,6 +46,7 @@ export function renderHome() {
       <div><dt>作成レシピ</dt><dd>${ds.recipes.length}</dd></div>
       <div><dt>確率表</dt><dd><a href="${href("enhance")}">${ds.enhance_tables.length}</a></dd></div>
       <div><dt>報酬表</dt><dd><a href="${href("drops")}">${ds.drops.length}</a></dd></div>
+      <div><dt>ランダムオプション</dt><dd><a href="${href("options")}">${ds.option_tables.length}</a></dd></div>
     </dl>
   </section>
 

@@ -174,6 +174,34 @@ export interface ItemGroup {
   refs?: Ref[];
 }
 
+/** ランダムオプション (潜在能力) の候補 1 つ */
+export interface OptionEntry {
+  text: string; // "物理/魔法防御力6000上昇" など効果の説明
+  rate: number; // その行でこの候補が選ばれる確率 %
+}
+
+/** オプションの再付与 1 通り (箱舟の力など) */
+export interface OptionReroll {
+  kind: "random" | "select" | "lock"; // ランダム (取り消し不可) / 選択 (変更前に戻せる) / ロック (lock 行を固定)
+  lines: number[]; // 再付与される行 (1 始まり)
+  lock?: number; // 固定できる行の数
+  gold?: number;
+  materials: (Qty & { alt?: string[] })[]; // alt: 代わりに使えるアイテム (取引不可版など)
+}
+
+/** ランダムオプションの表 (data/option_tables.json)。行ごとに候補表から 1 つ選ばれる */
+export interface OptionTable {
+  id: string;
+  name: string;
+  applies_to: string[]; // Item.id
+  applies_parts?: Record<string, string>; // 総称のアイテム → この表が当たる部位 ("ヘルム・アーマー")
+  lines: string[]; // 行ごとの候補表 (pools の id)。行数 = 長さ
+  pools: Record<string, OptionEntry[]>;
+  rerolls: OptionReroll[];
+  notes?: string;
+  refs: Ref[];
+}
+
 export interface Dataset {
   sources: Source[];
   items: Item[];
@@ -183,4 +211,5 @@ export interface Dataset {
   drops: DropTable[];
   dungeons: Dungeon[];
   sets: ItemSet[];
+  option_tables: OptionTable[];
 }

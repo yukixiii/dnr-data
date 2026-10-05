@@ -7,7 +7,7 @@ import Ajv from "ajv";
 import type { Dataset, ItemGroup } from "../src/types.ts";
 import { baseNameOf, isGroupable } from "./groups-lib.ts";
 
-const COLLECTIONS = ["sources", "items", "materials", "recipes", "enhance_tables", "drops", "dungeons", "sets"] as const;
+const COLLECTIONS = ["sources", "items", "materials", "recipes", "enhance_tables", "drops", "dungeons", "sets", "option_tables"] as const;
 const DEF: Record<(typeof COLLECTIONS)[number], string> = {
   sources: "source",
   items: "item",
@@ -17,6 +17,7 @@ const DEF: Record<(typeof COLLECTIONS)[number], string> = {
   drops: "drop_table",
   dungeons: "dungeon",
   sets: "item_set",
+  option_tables: "option_table",
 };
 
 const root = new URL("../", import.meta.url);
@@ -57,7 +58,7 @@ async function main() {
     }
   };
   dup("items+materials", [...ds.items, ...ds.materials].map((x) => x.id));
-  for (const c of ["sources", "recipes", "enhance_tables", "drops", "dungeons", "sets"] as const) dup(c, ds[c].map((x) => x.id));
+  for (const c of ["sources", "recipes", "enhance_tables", "drops", "dungeons", "sets", "option_tables"] as const) dup(c, ds[c].map((x) => x.id));
 
   const itemIds = new Set([...ds.items, ...ds.materials].map((x) => x.id));
   const dungeonIds = new Set(ds.dungeons.map((x) => x.id));
@@ -88,6 +89,15 @@ async function main() {
     for (const [from, to] of Object.entries(tableAliases)) {
       if (!tableIds.has(to)) errors.push(`table_aliases ${from}: 転送先の表 "${to}" が無い`);
       if (tableIds.has(from)) errors.push(`table_aliases ${from}: 転送元の id が表として残っている`);
+    }
+  }
+  for (const t of ds.option_tables) {
+    t.applies_to.forEach((id) => needItem(`option ${t.id} applies_to`, id));
+    for (const id of Object.keys(t.applies_parts ?? {})) if (!t.applies_to.includes(id)) errors.push(`option ${t.id}: applies_parts の "${id}" が applies_to に無い`);
+    for (const p of t.lines) if (!t.pools[p]) errors.push(`option ${t.id}: 行の候補表 "${p}" が無い`);
+    for (const r of t.rerolls) {
+      for (const n of r.lines) if (n > t.lines.length) errors.push(`option ${t.id}: 再付与の行 ${n} が行数 ${t.lines.length} を超える`);
+      for (const m of r.materials) [m.item, ...(m.alt ?? [])].forEach((id) => needItem(`option ${t.id} reroll`, id));
     }
   }
   const setIds = new Set(ds.sets.map((x) => x.id));

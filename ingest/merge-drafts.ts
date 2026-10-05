@@ -118,8 +118,8 @@ function concat<K extends "recipes" | "enhance_tables" | "drops">(key: K): Datas
   return [...m.values()].sort((a, b) => a.id.localeCompare(b.id)) as Dataset[K];
 }
 
-// sets.json はクライアントデータ (apply:client) だけが作るので merge では書かない
-const out: Omit<Dataset, "sets"> = {
+// sets.json・option_tables.json はクライアントデータ (apply:client) だけが作るので merge では書かない
+const out: Omit<Dataset, "sets" | "option_tables"> = {
   sources: [...sources.values()].sort((a, b) => (b.published_at ?? "").localeCompare(a.published_at ?? "")),
   items,
   materials,

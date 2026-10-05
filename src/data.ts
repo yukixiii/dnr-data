@@ -1,6 +1,6 @@
 // data/*.json を読み込み、画面から引きやすい索引を作る。
 // JSON は別チャンクとして並行に読み込む (本体の JS を小さくし、データだけ後から取得する)
-const [sources, items, materials, recipes, enhanceTables, drops, dungeons, itemGroups, sets, aliases, tableAliases] = await Promise.all([
+const [sources, items, materials, recipes, enhanceTables, drops, dungeons, itemGroups, sets, optionTables, aliases, tableAliases] = await Promise.all([
   import("../data/sources.json"),
   import("../data/items.json"),
   import("../data/materials.json"),
@@ -10,10 +10,11 @@ const [sources, items, materials, recipes, enhanceTables, drops, dungeons, itemG
   import("../data/dungeons.json"),
   import("../data/item_groups.json"),
   import("../data/sets.json"),
+  import("../data/option_tables.json"),
   import("../ingest/aliases.json"),
   import("../ingest/table_aliases.json"),
 ]).then((ms) => ms.map((m) => m.default as unknown));
-import type { Dataset, DropEntry, DropTable, Dungeon, EnhanceTable, GroupMember, Item, ItemGroup, ItemSet, Recipe, Ref, Region, Source } from "./types.ts";
+import type { Dataset, DropEntry, DropTable, Dungeon, EnhanceTable, GroupMember, Item, ItemGroup, ItemSet, OptionTable, Recipe, Ref, Region, Source } from "./types.ts";
 
 export const ds: Dataset = {
   sources: sources as Source[],
@@ -24,6 +25,7 @@ export const ds: Dataset = {
   drops: drops as DropTable[],
   dungeons: dungeons as Dungeon[],
   sets: sets as ItemSet[],
+  option_tables: optionTables as OptionTable[],
 };
 
 const group = <T>(pairs: [string, T][]) => {
@@ -61,6 +63,12 @@ export const recipesByMaterial = group(ds.recipes.flatMap((r) => r.materials.map
 export const tablesByItem = group(ds.enhance_tables.flatMap((t) => t.applies_to.map((id) => [id, t] as [string, EnhanceTable])));
 export const tablesByMaterial = group(
   ds.enhance_tables.flatMap((t) => t.rows.flatMap((row) => (row.materials ?? []).map((m) => [m.item, t] as [string, EnhanceTable]))),
+);
+export const optionTableById = new Map(ds.option_tables.map((x) => [x.id, x]));
+export const optionTablesByItem = group(ds.option_tables.flatMap((t) => t.applies_to.map((id) => [id, t] as [string, OptionTable])));
+/** 素材 → それを再付与に使うランダムオプションの表 (代わりに使えるアイテムも含む) */
+export const optionTablesByMaterial = group(
+  ds.option_tables.flatMap((t) => t.rerolls.flatMap((r) => r.materials.flatMap((m) => [m.item, ...(m.alt ?? [])].map((x) => [x, t] as [string, OptionTable])))),
 );
 export const dropsByLocation = group(ds.drops.map((d) => [d.location, d]));
 /** アイテム → それを含む総称 (members を持つアイテム。「上級堅固な月食のかけら」→「上級月食のかけら」) */

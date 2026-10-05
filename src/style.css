@@ -853,3 +853,10 @@ a.via:hover {
   color: var(--accent);
   font-weight: 700;
 }
+
+/* ランダムオプションの候補: 値と確率を並べる */
+table.data.options .opt-val {
+  display: inline-block;
+  margin: 0 14px 2px 0;
+  white-space: nowrap;
+}

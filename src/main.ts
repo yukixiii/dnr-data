@@ -5,6 +5,7 @@ import { renderItemList } from "./views/itemList.ts";
 import { renderItemDetail } from "./views/itemDetail.ts";
 import { renderEnhanceList, renderEnhanceTable } from "./views/enhance.ts";
 import { renderDrops, renderDungeon, renderDungeonList } from "./views/drops.ts";
+import { renderOptionList, renderOptionTable } from "./views/options.ts";
 import { renderHome, renderSources } from "./views/home.ts";
 
 const app = document.getElementById("app")!;
@@ -32,6 +33,10 @@ function render({ path, query }: Route): { html: string; title: string; nav: str
       return id
         ? { html: renderEnhanceTable(id), title: "強化確率", nav: "enhance" }
         : { html: renderEnhanceList(query), title: "強化・段階確率", nav: "enhance" };
+    case "options":
+      return { html: renderOptionList(query), title: "ランダムオプション", nav: "options" };
+    case "option":
+      return { html: renderOptionTable(id), title: "ランダムオプション", nav: "options" };
     case "drops":
       return { html: renderDrops(query), title: "ドロップ率", nav: "drops" };
     case "dungeons":

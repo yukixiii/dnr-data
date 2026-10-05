@@ -156,6 +156,63 @@
         "refs": { "$ref": "#/definitions/refs" }
       }
     },
+    "option_table": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["id", "name", "applies_to", "lines", "pools", "rerolls", "refs"],
+      "properties": {
+        "id": { "type": "string" },
+        "name": { "type": "string" },
+        "applies_to": { "type": "array", "items": { "type": "string" } },
+        "applies_parts": { "type": "object", "additionalProperties": { "type": "string" } },
+        "lines": { "type": "array", "minItems": 1, "items": { "type": "string" } },
+        "pools": {
+          "type": "object",
+          "additionalProperties": {
+            "type": "array",
+            "minItems": 1,
+            "items": {
+              "type": "object",
+              "additionalProperties": false,
+              "required": ["text", "rate"],
+              "properties": {
+                "text": { "type": "string" },
+                "rate": { "type": "number", "minimum": 0, "maximum": 100 }
+              }
+            }
+          }
+        },
+        "rerolls": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": ["kind", "lines", "materials"],
+            "properties": {
+              "kind": { "enum": ["random", "select", "lock"] },
+              "lines": { "type": "array", "items": { "type": "integer", "minimum": 1 } },
+              "lock": { "type": "integer", "minimum": 1 },
+              "gold": { "type": "number" },
+              "materials": {
+                "type": "array",
+                "items": {
+                  "type": "object",
+                  "additionalProperties": false,
+                  "required": ["item", "qty"],
+                  "properties": {
+                    "item": { "type": "string" },
+                    "qty": { "type": ["number", "string"] },
+                    "alt": { "type": "array", "items": { "type": "string" } }
+                  }
+                }
+              }
+            }
+          }
+        },
+        "notes": { "type": "string" },
+        "refs": { "$ref": "#/definitions/refs" }
+      }
+    },
     "drop_table": {
       "type": "object",
       "additionalProperties": false,

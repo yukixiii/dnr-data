@@ -18,10 +18,12 @@
 //  - エリア報酬: ネストの中間 (エリア) 報酬の表 (client-area-*)、マップのトリガーの報酬の表 (client-trig-*) を作る。
 //  - ネストの最終報酬: ボスマップのトリガーの報酬を種類ごとに (client-final-<クリアID>-<種類>)。階層で変わるものは item_columns。
 //    ドロップ表の確率はクライアントで 0 にされているので、分解とクリア報酬は出る候補と個数だけ。
+//  - ランダムオプション: 再付与できるランダムオプション (古竜・金竜・金糸装備、竜珠など) の行・候補・確率・再付与の費用の表
+//    (data/option_tables.json、client-opt-<再付与グループ>-<最初の候補表>)。クライアントの値だけで毎回作り直す。
 //  - 能力値の名前は表記ゆれを 1 つに揃える (STAT_NAMES)。
 // export.json は非公開のツール (dnr-client) が書き出す。npm run merge / rename:ids の後は export.py → apply:client を再実行する。
 import { readFile, writeFile } from "node:fs/promises";
-import type { DropTable, EnhanceRow, EnhanceTable, Item, ItemGroup, ItemSet, Qty, Recipe, Ref, Source, Stat, StatSet } from "../src/types.ts";
+import type { DropTable, EnhanceRow, EnhanceTable, Item, ItemGroup, ItemSet, OptionReroll, OptionTable, Qty, Recipe, Ref, Source, Stat, StatSet } from "../src/types.ts";
 import { baseNameOf, completeGroups } from "./groups-lib.ts";
 
 const root = new URL("../", import.meta.url);
@@ -77,6 +79,18 @@ interface Export {
       rates?: [number, number][];
       rows: { from?: string; floors?: string; entries: { item: string; qty: number | string }[] }[];
     }[]
+  >;
+  // ランダムオプション (潜在能力)。lines = 行ごとの候補表、parts = 総称のアイテムに当たる部位
+  options?: Record<
+    string,
+    {
+      group: number;
+      lines: string[];
+      pools: Record<string, { text: string; rate: number }[]>;
+      rerolls: OptionReroll[];
+      items: string[];
+      parts?: Record<string, string>;
+    }
   >;
   clears?: Record<string, { clear_id: number; show: number; select: number; counts: Record<string, number>; boxes: { box: string; floors?: string; entries: { item: string; qty: number }[] }[] }[]>;
   materials: Record<string, { client_id: number; kind: string; grade?: string; description?: string }>;
@@ -1238,6 +1252,61 @@ const collapseGenerics = <R extends { entries: { item: string; qty: number | str
   }
 }
 
+// ---- ランダムオプション ----
+// 表の名前 (クライアントの再付与グループ → 装備の系統)。無いグループは対象のアイテム名を並べる
+const OPTION_NAMES: Record<number, string> = {
+  2: "古竜防具",
+  3: "古竜武器",
+  4: "古竜武器",
+  11: "古代の変異型防御竜珠",
+  22: "永遠の次元の変異型竜珠",
+  25: "崩壊の竜珠",
+  26: "金糸防具",
+  27: "金糸武器",
+  28: "金糸武器",
+  31: "邪根の変異型竜珠",
+  34: "ナイトメアジェレイントの紋章",
+  35: "金竜防具",
+  36: "金竜武器",
+  37: "永劫の異界の変異型竜珠",
+};
+const PART_SHORT: Record<string, string> = {
+  "ヘルム・アーマー・ボトム・グローブ・ブーツ": "防具",
+  "メインウェポン・サブウェポン": "武器",
+  "イヤリング・ネックレス・リング": "アクセサリー",
+};
+const optionTables: OptionTable[] = [];
+for (const [id, o] of Object.entries(ex.options ?? {})) {
+  const parts = [...new Set(Object.values(o.parts ?? {}))];
+  const base = OPTION_NAMES[o.group] ?? o.items.join("・");
+  const part = parts.length === 1 ? ` (${PART_SHORT[parts[0]] ?? parts[0]})` : "";
+  const kinds = new Set(o.rerolls.map((r) => r.kind));
+  const multi = new Set(o.lines).size < o.lines.length;
+  optionTables.push({
+    id,
+    name: `${base}のランダムオプション${part}`,
+    applies_to: o.items,
+    ...(o.parts ? { applies_parts: o.parts } : {}),
+    lines: o.lines,
+    pools: o.pools,
+    rerolls: o.rerolls,
+    notes: [
+      "日本版クライアントの値。行ごとに、その行の候補表から確率 (クライアントの重み) で 1 つ選ばれる。",
+      multi ? "同じ候補表の行で同じオプションが重なって付くかどうかは、クライアントからは分からない。" : "",
+      kinds.has("select") ? "ランダムオプションは変更を取り消せず、選択オプションは変更前のオプションを選んで取り消せる (選んでも材料は消費される)。" : "",
+      kinds.has("lock") ? "ロックオプションは指定した数の行を固定したまま、残りの行を再付与する。" : "",
+    ].join(""),
+    refs: [
+      { source: SRC },
+      ...(kinds.has("select") ? [{ source: "jp-notice-1151", note: "ランダム/選択オプションの説明" }] : []),
+      ...(kinds.has("lock") ? [{ source: "jp-notice-1287", note: "ロックオプションの説明" }] : []),
+    ],
+  });
+  for (const r of o.rerolls) for (const m of r.materials) for (const x of [m.item, ...(m.alt ?? [])]) if (!allIds.has(x)) missingMats.set(x, { item: x, qty: 0 });
+  inc("option");
+}
+optionTables.sort((a, b) => a.name.localeCompare(b.name, "ja") || a.id.localeCompare(b.id));
+
 // ---- 総称の中身 ----
 for (const [id, ms] of Object.entries(ex.members ?? {})) {
   const rec = materials.find((m) => m.id === id) ?? itemById.get(id);
@@ -1275,7 +1344,7 @@ for (const [name] of missingMats) {
 
 // ---- 参照されなくなった出典 ----
 const used = new Set<string>();
-for (const coll of [items, materials, outTables, recipes, sets, drops, await readJson<any[]>("data/dungeons.json"), groups] as any[][])
+for (const coll of [items, materials, outTables, recipes, sets, drops, optionTables, await readJson<any[]>("data/dungeons.json"), groups] as any[][])
   for (const rec of coll) for (const r of rec.refs ?? []) used.add(r.source);
 const outSources = sources.filter((s) => used.has(s.id));
 for (const s of sources) if (!used.has(s.id)) log.push(`参照されなくなった出典を削除 ${s.id}`);
@@ -1297,5 +1366,6 @@ if (!dry) {
   await writeJson("data/recipes.json", recipes);
   await writeJson("data/drops.json", drops);
   await writeJson("data/sets.json", sets);
+  await writeJson("data/option_tables.json", optionTables);
   await writeJson("data/item_groups.json", groups);
 }

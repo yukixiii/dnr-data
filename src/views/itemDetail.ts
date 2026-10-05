@@ -5,6 +5,8 @@ import {
   dropsByItem,
   dropsByLocation,
   isIntra,
+  optionTablesByItem,
+  optionTablesByMaterial,
   itemById,
   memberIndex,
   memberLabel,
@@ -32,6 +34,7 @@ import type { Item, ItemGroup, ItemSet, Ref, Stat, StatSet } from "../types.ts";
 import { empty, esc, href, itemLink, itemMeta, locationLink, rateCell, refInline, refList, regionBadges, statCell, statGrid, statSets } from "../components/ui.ts";
 import { dropTableHtml } from "./drops.ts";
 import { stepRows } from "./enhance.ts";
+import { REROLL_LABEL, optionSummary } from "./options.ts";
 
 // 説明文に推定・仮名称である旨が書かれているアイテム
 const PROVISIONAL = /名称[^。]*(推定|類推)|便宜上|仮の名称/;
@@ -294,6 +297,8 @@ export function renderItemDetail(id: string) {
   const usedIn = uniq(ids.flatMap((x) => recipesByMaterial.get(x) ?? []));
   const tables = newestFirst(uniq(ids.flatMap((x) => tablesByItem.get(x) ?? [])));
   const tablesUsing = uniq(ids.flatMap((x) => tablesByMaterial.get(x) ?? []));
+  const options = uniq(ids.flatMap((x) => optionTablesByItem.get(x) ?? []));
+  const optionsUsing = uniq(ids.flatMap((x) => optionTablesByMaterial.get(x) ?? []));
   const drops = ids.flatMap((x) => dropsByItem.get(x) ?? []).sort((a, b) => sortDate(b.table.refs).localeCompare(sortDate(a.table.refs)));
   // 箱の中身の表が複数 (提供割合の改定) なら新しい表を先に
   const contents = !group && item.kind === "box" ? newestFirst(dropsByLocation.get(focus) ?? []) : [];
@@ -366,6 +371,16 @@ export function renderItemDetail(id: string) {
       .join("")}</section>`);
   }
 
+  if (options.length) {
+    sections.push(`<section><h2>ランダムオプション</h2>${options
+      .map((t) => {
+        const target = group ? t.applies_to.filter((x) => ids.includes(x)).map(tag).join("") : "";
+        const part = ids.map((x) => t.applies_parts?.[x]).find(Boolean);
+        return `<p>${target}<a href="${href("option", t.id)}">${esc(t.name)}</a> <span class="muted">${esc(optionSummary(t))}${part ? ` / ${esc(part)}の物` : ""}</span></p>`;
+      })
+      .join("")}</section>`);
+  }
+
   if (drops.length) {
     sections.push(`<section><h2>入手先・ドロップ率</h2>
       <div class="table-wrap"><table class="data">
@@ -405,7 +420,7 @@ export function renderItemDetail(id: string) {
     sections.push(`<section><h2>入手方法メモ</h2><ul class="plain">${obtains.map((o) => `<li>${tag(o.id)}${esc(o.text)}</li>`).join("")}</ul></section>`);
   }
 
-  if (usedIn.length || tablesUsing.length) {
+  if (usedIn.length || tablesUsing.length || optionsUsing.length) {
     sections.push(`<section><h2>使用先</h2><ul class="plain">${usedIn
       .map((r) => {
         const used = r.materials.filter((m) => ids.includes(m.item));
@@ -414,6 +429,12 @@ export function renderItemDetail(id: string) {
           .join("");
       })
       .concat(tablesUsing.map((t) => `<li><a href="${href("enhance", t.id)}">${esc(t.name)}</a> の強化素材</li>`))
+      .concat(
+        optionsUsing.map((t) => {
+          const kinds = [...new Set(t.rerolls.filter((r) => r.materials.some((m) => [m.item, ...(m.alt ?? [])].some((x) => ids.includes(x)))).map((r) => REROLL_LABEL[r.kind]))];
+          return `<li><a href="${href("option", t.id)}">${esc(t.name)}</a> の再付与 <span class="muted">(${esc(kinds.join("・"))})</span></li>`;
+        }),
+      )
       .join("")}</ul></section>`);
   }
 
