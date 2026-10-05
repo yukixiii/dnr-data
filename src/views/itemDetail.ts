@@ -133,22 +133,32 @@ function statsSection(ids: string[], focus: string, group?: ItemGroup) {
   const missing = items.filter((it) => !it.stats?.length);
   const note = missing.length && withStats.length ? `<p class="muted">ステータス未登録: ${missing.map((it) => esc(memberLabel(it.id))).join("、")}</p>` : "";
   if (!withStats.length) return statSets(undefined);
-  // 「段階 × 能力」の1つの表にまとめる (強化値別など複数組あれば 条件 列を足す)。行が多すぎるときだけ段階ごとに分ける
-  const sets = withStats.flatMap((it) => shownSets(it).map((s) => ({ it, s })));
-  if (sets.length <= 40) {
+  // 「段階 × 能力」の1つの表にまとめる (強化値別など複数組あれば 条件 列を足す)。
+  // 行が多すぎるときは phase (攻撃竜珠/防御竜珠 など) ごとの表に分け、それでも多ければ段階ごとに折りたたむ
+  const setsOf = (its: Item[]) => its.flatMap((it) => shownSets(it).map((s) => ({ it, s })));
+  const grid = (its: Item[], caption?: string) => {
+    const sets = setsOf(its);
     const showSet = sets.some(({ s }) => !["基本", ""].includes(s.label));
-    return (
-      statGrid(
-        sets.map(({ it, s }) => ({
-          head: showSet ? [memberLabel(it.id), s.label] : [memberLabel(it.id)],
-          stats: s.stats,
-          cls: it.id === focus ? "is-focus" : undefined,
-        })),
-        showSet ? ["段階", "条件"] : ["段階"],
-      ) +
-      deltaNote +
-      note
+    // phase ごとの表では phase をキャプションに出すので、段階の列は等級などの label だけにする
+    const label = (id: string) => (caption ? (group.members.find((m) => m.item === id)?.label ?? memberLabel(id)) : memberLabel(id));
+    return statGrid(
+      sets.map(({ it, s }) => ({
+        head: showSet ? [label(it.id), s.label] : [label(it.id)],
+        stats: s.stats,
+        cls: it.id === focus ? "is-focus" : undefined,
+      })),
+      showSet ? ["段階", "条件"] : ["段階"],
+      { caption },
     );
+  };
+  if (setsOf(withStats).length <= 40) return grid(withStats) + deltaNote + note;
+  const phases = [...new Set(group.members.map((m) => m.phase))];
+  const byPhase = phases.map((ph) => ({
+    ph,
+    its: withStats.filter((it) => group.members.find((m) => m.item === it.id)?.phase === ph),
+  }));
+  if (phases.length > 1 && phases.every((ph) => ph) && byPhase.every(({ its }) => setsOf(its).length <= 40)) {
+    return byPhase.filter(({ its }) => its.length).map(({ ph, its }) => grid(its, ph)).join("") + deltaNote + note;
   }
   return (
     withStats
