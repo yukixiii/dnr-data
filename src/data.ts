@@ -1,6 +1,6 @@
 // data/*.json を読み込み、画面から引きやすい索引を作る。
 // JSON は別チャンクとして並行に読み込む (本体の JS を小さくし、データだけ後から取得する)
-const [sources, items, materials, recipes, enhanceTables, drops, dungeons, itemGroups, sets, optionTables, aliases, tableAliases] = await Promise.all([
+const [sources, items, materials, recipes, enhanceTables, drops, dungeons, itemGroups, sets, optionTables, aliases, tableAliases, optionAliases] = await Promise.all([
   import("../data/sources.json"),
   import("../data/items.json"),
   import("../data/materials.json"),
@@ -13,6 +13,7 @@ const [sources, items, materials, recipes, enhanceTables, drops, dungeons, itemG
   import("../data/option_tables.json"),
   import("../ingest/aliases.json"),
   import("../ingest/table_aliases.json"),
+  import("../ingest/option_aliases.json"),
 ]).then((ms) => ms.map((m) => m.default as unknown));
 import type { Dataset, DropEntry, DropTable, Dungeon, EnhanceTable, GroupMember, Item, ItemGroup, ItemSet, OptionTable, Recipe, Ref, Region, Source } from "./types.ts";
 
@@ -65,6 +66,9 @@ export const tablesByMaterial = group(
   ds.enhance_tables.flatMap((t) => t.rows.flatMap((row) => (row.materials ?? []).map((m) => [m.item, t] as [string, EnhanceTable]))),
 );
 export const optionTableById = new Map(ds.option_tables.map((x) => [x.id, x]));
+/** ランダムオプション表に吸収した強化表の旧 id → ランダムオプション表の id (ingest/option_aliases.json) */
+const optionAliasMap = optionAliases as Record<string, string>;
+export const optionAliasOf = (id: string): string | undefined => optionAliasMap[id];
 export const optionTablesByItem = group(ds.option_tables.flatMap((t) => t.applies_to.map((id) => [id, t] as [string, OptionTable])));
 /** 素材 → それを再付与に使うランダムオプションの表 (代わりに使えるアイテムも含む) */
 export const optionTablesByMaterial = group(

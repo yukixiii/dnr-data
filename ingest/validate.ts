@@ -90,6 +90,12 @@ async function main() {
       if (!tableIds.has(to)) errors.push(`table_aliases ${from}: 転送先の表 "${to}" が無い`);
       if (tableIds.has(from)) errors.push(`table_aliases ${from}: 転送元の id が表として残っている`);
     }
+    const optionIds = new Set(ds.option_tables.map((t) => t.id));
+    const optionAliases: Record<string, string> = await readJson("ingest/option_aliases.json");
+    for (const [from, to] of Object.entries(optionAliases)) {
+      if (!optionIds.has(to)) errors.push(`option_aliases ${from}: 転送先のランダムオプション表 "${to}" が無い`);
+      if (tableIds.has(from)) errors.push(`option_aliases ${from}: 転送元の id が強化表として残っている`);
+    }
   }
   for (const t of ds.option_tables) {
     t.applies_to.forEach((id) => needItem(`option ${t.id} applies_to`, id));

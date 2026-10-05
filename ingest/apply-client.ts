@@ -20,6 +20,7 @@
 //    ドロップ表の確率はクライアントで 0 にされているので、分解とクリア報酬は出る候補と個数だけ。
 //  - ランダムオプション: 再付与できるランダムオプション (古竜・金竜・金糸装備、竜珠など) の行・候補・確率・再付与の費用の表
 //    (data/option_tables.json、client-opt-<再付与グループ>-<最初の候補表>)。クライアントの値だけで毎回作り直す。
+//    同じ内容の告知・海外版の表とレシピ (箱舟の力の費用) は吸収して消し (OPTION_ABSORB)、出典と食い違いを残す (旧 id は ingest/option_aliases.json)。
 //  - 能力値の名前は表記ゆれを 1 つに揃える (STAT_NAMES)。
 // export.json は非公開のツール (dnr-client) が書き出す。npm run merge / rename:ids の後は export.py → apply:client を再実行する。
 import { readFile, writeFile } from "node:fs/promises";
@@ -1259,6 +1260,8 @@ const OPTION_NAMES: Record<number, string> = {
   3: "古竜武器",
   4: "古竜武器",
   11: "古代の変異型防御竜珠",
+  12: "月食のメイン/サブウェポン防御竜珠(ノーマル)",
+  13: "月食のメイン/サブウェポン防御竜珠(マジック)",
   22: "永遠の次元の変異型竜珠",
   25: "崩壊の竜珠",
   26: "金糸防具",
@@ -1306,6 +1309,114 @@ for (const [id, o] of Object.entries(ex.options ?? {})) {
   inc("option");
 }
 optionTables.sort((a, b) => a.name.localeCompare(b.name, "ja") || a.id.localeCompare(b.id));
+
+// 告知・海外版の表 (強化表の kind other 等) とレシピ (箱舟の力の再付与の費用) のうち、クライアントのランダムオプション表と
+// 同じ内容のものは、クライアントの表に吸収する: 元の表・レシピは消し、出典は refs (note に元の表の名前)、
+// 食い違いは notes に「告知では …」で残す。消した強化表の旧 id は ingest/option_aliases.json で転送する。
+// merge (ドラフト) をやり直すと元の表が戻るので、ここで毎回消す (内容は確認済みなので、ここに書いた refs・notes を使う)。
+const OPTION_ABSORB: { id: string; kind: "table" | "recipe"; into: string[]; ref: Ref; diff?: string }[] = [
+  // 古竜・金竜
+  {
+    id: "n1151-ancient-dragon-armor-randomopt",
+    kind: "table",
+    into: ["client-opt-2-838965129"],
+    ref: { source: "jp-notice-1151", note: "古竜装備ランダムオプション - 防具オプション (値)" },
+    diff: "スキル攻撃力のオプションは現在のクラスのスキルにだけ効く (告知)。",
+  },
+  { id: "n1246-elder-opt-armor", kind: "table", into: ["client-opt-2-838965129"], ref: { source: "jp-notice-1246", note: "古竜装備 ランダムオプション(防具) (値)" } },
+  { id: "cn3909-randopt-armor", kind: "table", into: ["client-opt-2-838965129", "client-opt-35-838965129"], ref: { source: "cn-dngamer-3909", note: "古竜・金竜防具 ランダムオプション出現確率 (CN版。値・確率とも同じ)" } },
+  {
+    id: "n1151-ancient-dragon-weapon-randomopt",
+    kind: "table",
+    into: ["client-opt-4-838965131"],
+    ref: { source: "jp-notice-1151", note: "古竜装備ランダムオプション - 武器オプション (値)" },
+    diff: "スキル攻撃力のオプションは現在のクラスのスキルにだけ効く (告知)。告知では古代の力のスキル攻撃力を「古代の竜珠」の列で記載している。",
+  },
+  { id: "n1246-elder-opt-weapon", kind: "table", into: ["client-opt-4-838965131"], ref: { source: "jp-notice-1246", note: "古竜装備 ランダムオプション(武器) (値)" } },
+  { id: "cn3909-randopt-weapon", kind: "table", into: ["client-opt-4-838965131", "client-opt-36-838965131"], ref: { source: "cn-dngamer-3909", note: "古竜・金竜武器 ランダムオプション出現確率 (CN版。値・確率とも同じ)" } },
+  { id: "cn8615-elder-armor-ark-random", kind: "recipe", into: ["client-opt-2-838965129"], ref: { source: "cn-dngamer-8615", note: "箱舟の力 - 通常 (選択不可) の費用 (CN版。同じ)" } },
+  { id: "cn8615-elder-armor-ark-select", kind: "recipe", into: ["client-opt-2-838965129"], ref: { source: "cn-dngamer-8615", note: "箱舟の力 - 通常 (選択可) の費用 (CN版。同じ)" } },
+  { id: "n1287-ark-lock-elder", kind: "recipe", into: ["client-opt-2-838965129"], ref: { source: "jp-notice-1287", note: "箱舟の力 - ロックオプション (1個固定) の費用" } },
+  // 金糸
+  { id: "n1287-goldthread-opt-armor", kind: "table", into: ["client-opt-26-838965129"], ref: { source: "jp-notice-1287", note: "金糸防具 ランダムオプション (値)" }, diff: "スキル攻撃力のオプションは現在のクラスのスキルにだけ効く (告知)。" },
+  { id: "n1287-goldthread-opt-weapon", kind: "table", into: ["client-opt-28-838965131"], ref: { source: "jp-notice-1287", note: "金糸武器 ランダムオプション (値)" }, diff: "スキル攻撃力のオプションは現在のクラスのスキルにだけ効く (告知)。" },
+  {
+    id: "n1387-goldthread-armor-randopt",
+    kind: "table",
+    into: ["client-opt-26-838965129"],
+    ref: { source: "jp-notice-1387", note: "金糸装備 防具ランダムオプション (値)" },
+    diff: "告知 1387 の表は行の見出しが [+1]～[+5] (強化段階のような書き方) だが、値は 1～5 段階の候補の値と同じで、クライアントの候補は強化段階では変わらない。",
+  },
+  {
+    id: "n1387-goldthread-weapon-randopt",
+    kind: "table",
+    into: ["client-opt-28-838965131"],
+    ref: { source: "jp-notice-1387", note: "金糸装備 武器ランダムオプション (値)" },
+    diff: "告知 1387 の表は行の見出しが [+1]～[+5] (強化段階のような書き方) だが、値は 1～5 段階の候補の値と同じで、クライアントの候補は強化段階では変わらない。告知では古代の力のスキル攻撃力を「古代の竜珠」の列で記載している。",
+  },
+  { id: "n1287-ark-lock-goldthread", kind: "recipe", into: ["client-opt-26-838965129"], ref: { source: "jp-notice-1287", note: "箱舟の力 - ロックオプション (1個固定) の費用" } },
+  // 崩壊の竜珠
+  {
+    id: "n1287-collapse-opt-armor",
+    kind: "table",
+    into: ["client-opt-25-838966541"],
+    ref: { source: "jp-notice-1287", note: "崩壊の竜珠 ランダムオプション(防具) (値)" },
+    diff: "告知では防具の候補をクラスマスタリーⅢ・マスター・2次転職Lv.50・メインの 4 種とし、「その他共通: 古代の力40%」と書いているが、クライアントの候補は補助スキルを含む 5 種で、古代の力は無い。",
+  },
+  { id: "n1287-collapse-opt-weapon", kind: "table", into: ["client-opt-25-838966547"], ref: { source: "jp-notice-1287", note: "崩壊の竜珠 ランダムオプション(武器) (値)" } },
+  { id: "n1287-collapse-opt-acc", kind: "table", into: ["client-opt-25-838966544"], ref: { source: "jp-notice-1287", note: "崩壊の竜珠 ランダムオプション(アクセ) (値)" } },
+  { id: "n1287-collapse-ark-random", kind: "recipe", into: ["client-opt-25-838966541", "client-opt-25-838966547", "client-opt-25-838966544"], ref: { source: "jp-notice-1287", note: "箱舟の力 - ランダムオプションの費用" } },
+  { id: "n1287-collapse-ark-select", kind: "recipe", into: ["client-opt-25-838966541", "client-opt-25-838966547", "client-opt-25-838966544"], ref: { source: "jp-notice-1287", note: "箱舟の力 - 選択オプションの費用" } },
+  // 変異型竜珠
+  {
+    id: "cn1090-eternal-mutant-option",
+    kind: "table",
+    into: ["client-opt-22-838966397", "client-opt-37-838971354"],
+    ref: { source: "cn-dngamer-1090", note: "永遠の次元/永劫の異界の変異型竜珠 ランダムオプション出現確率 (CN版。値・確率とも同じ)" },
+  },
+  { id: "n1311-jakon-ark-1000", kind: "recipe", into: ["client-opt-31-838966560"], ref: { source: "jp-notice-1311", note: "箱舟の力 - ランダムオプションの費用" } },
+  { id: "n1311-jakon-ark-2000", kind: "recipe", into: ["client-opt-31-838966560"], ref: { source: "jp-notice-1311", note: "箱舟の力 - ロックオプション1行の費用" } },
+  { id: "n1311-jakon-ark-4000", kind: "recipe", into: ["client-opt-31-838966560"], ref: { source: "jp-notice-1311", note: "箱舟の力 - ロックオプション2行の費用" } },
+  {
+    id: "n1193-mutant-jade-reroll-guard",
+    kind: "recipe",
+    into: ["client-opt-11-838964814"],
+    ref: { source: "jp-notice-1193", note: "箱舟の力 - 選択式の再付与の費用" },
+    diff: "告知では選択式の再付与の材料を「変異型竜珠進化石ver.3」1個 + パキハの機械部品 2個と書いているが、クライアントでは変異型竜珠改良槌Ver.3。",
+  },
+  {
+    id: "n1193-mutant-jade-reroll-threat",
+    kind: "recipe",
+    into: ["client-opt-11-838964814"],
+    ref: { source: "jp-notice-1193", note: "箱舟の力 - 選択式の再付与の費用" },
+    diff: "告知では選択式の再付与の材料を「変異型竜珠進化石ver.3」1個 + パキハの機械部品 2個と書いているが、クライアントでは変異型竜珠改良槌Ver.3。",
+  },
+  // ナイトメアジェレイントの紋章
+  { id: "n1362-nightmare-geraint-random-option", kind: "table", into: ["client-opt-34-838967732"], ref: { source: "jp-notice-1362", note: "ランダムオプション獲得率 (値・確率とも同じ)" } },
+  { id: "n1362-nightmare-geraint-lock", kind: "table", into: ["client-opt-34-838967732"], ref: { source: "jp-notice-1362", note: "箱舟の力 (ランダムオプション再設定/ロックオプション) の材料" } },
+];
+const optionById = new Map(optionTables.map((t) => [t.id, t]));
+const optionAliases: Record<string, string> = {};
+for (const a of OPTION_ABSORB) {
+  const targets = a.into.map((id) => optionById.get(id));
+  if (targets.some((t) => !t)) {
+    log.push(`ランダムオプション: ${a.id} の吸収先 ${a.into.join(", ")} が無いので残す`);
+    continue;
+  }
+  const list: { id: string }[] = a.kind === "table" ? outTables : recipes;
+  const i = list.findIndex((r) => r.id === a.id);
+  if (i >= 0) {
+    list.splice(i, 1);
+    inc("option.absorbed");
+  }
+  if (a.kind === "table") optionAliases[a.id] = a.into[0];
+  for (const t of targets as OptionTable[]) {
+    if (!t.refs.some((r) => r.source === a.ref.source && r.note === a.ref.note)) t.refs.push(a.ref);
+    if (a.diff && !t.notes?.includes(a.diff)) t.notes = `${t.notes ?? ""}${a.diff}`;
+  }
+}
+// 吸収した表の出典は「値」の出典なので、説明用に付けた告知 (1151/1287) と重なれば 1 つにする
+for (const t of optionTables) t.refs = t.refs.filter((r, i, rs) => !r.note?.endsWith("の説明") || !rs.some((x, j) => j !== i && x.source === r.source && !x.note?.endsWith("の説明")));
 
 // ---- 総称の中身 ----
 for (const [id, ms] of Object.entries(ex.members ?? {})) {
@@ -1367,5 +1478,6 @@ if (!dry) {
   await writeJson("data/drops.json", drops);
   await writeJson("data/sets.json", sets);
   await writeJson("data/option_tables.json", optionTables);
+  await writeJson("ingest/option_aliases.json", optionAliases);
   await writeJson("data/item_groups.json", groups);
 }
