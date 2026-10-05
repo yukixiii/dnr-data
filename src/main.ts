@@ -59,12 +59,27 @@ function update() {
 }
 
 // フィルタフォーム: 入力のたびに URL のクエリを書き換える (履歴は置き換え)
+// IME 変換中に再描画すると入力欄が作り直されて未確定の文字が確定してしまうため、変換が終わるまで待つ
 let debounce = 0;
+let composing = false;
+app.addEventListener("compositionstart", () => {
+  composing = true;
+  clearTimeout(debounce);
+});
+app.addEventListener("compositionend", (e) => {
+  composing = false;
+  scheduleFilter(e.target as HTMLElement);
+});
 app.addEventListener("input", (e) => {
-  const form = (e.target as HTMLElement).closest<HTMLFormElement>("form[data-filter]");
+  if (composing || (e as InputEvent).isComposing) return;
+  scheduleFilter(e.target as HTMLElement);
+});
+function scheduleFilter(target: HTMLElement) {
+  const form = target.closest<HTMLFormElement>("form[data-filter]");
   if (!form) return;
   clearTimeout(debounce);
   debounce = window.setTimeout(() => {
+    if (composing) return;
     const params = new URLSearchParams();
     new FormData(form).forEach((v, k) => v && params.set(k, String(v)));
     const base = location.hash.split("?")[0] || "#/";
@@ -79,7 +94,7 @@ app.addEventListener("input", (e) => {
       if (el && pos !== null && "setSelectionRange" in el && el.type === "search") el.setSelectionRange(pos, pos);
     }
   }, 150);
-});
+}
 app.addEventListener("submit", (e) => {
   const form = e.target as HTMLFormElement;
   e.preventDefault();
