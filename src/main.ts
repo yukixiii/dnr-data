@@ -38,7 +38,8 @@ function render({ path, query }: Route): { html: string; title: string; nav: str
     case "options":
       return { html: renderOptionList(query), title: "ランダムオプション", nav: "options" };
     case "option":
-      return { html: renderOptionTable(id), title: "ランダムオプション", nav: "options" };
+      // id が変わった表の旧いリンク
+      return { html: renderOptionTable(optionAliasOf(id) ?? id), title: "ランダムオプション", nav: "options" };
     case "drops":
       return { html: renderDrops(query), title: "ドロップ率", nav: "drops" };
     case "dungeons":

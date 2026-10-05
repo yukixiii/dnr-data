@@ -27146,6 +27146,3132 @@
     ]
   },
   {
+    "id": "client-box-536883733",
+    "location": "月食のノーマル竜珠のかけら袋(ヘルム)",
+    "location_kind": "box",
+    "label": "中身 (全て獲得)",
+    "entries": [
+      {
+        "item": "神聖な月食のかけら",
+        "rate_text": "確定",
+        "qty": 100
+      },
+      {
+        "item": "清い月食のかけら",
+        "rate_text": "確定",
+        "qty": 100
+      }
+    ],
+    "notes": "中身を全て獲得する袋 (クライアントのデータ)。",
+    "refs": [
+      {
+        "source": "jp-client-20261001"
+      }
+    ]
+  },
+  {
+    "id": "client-box-536883734",
+    "location": "月食のマジック竜珠のかけら袋(ヘルム)",
+    "location_kind": "box",
+    "label": "中身 (全て獲得)",
+    "entries": [
+      {
+        "item": "神聖な月食のかけら",
+        "rate_text": "確定",
+        "qty": 300
+      },
+      {
+        "item": "清い月食のかけら",
+        "rate_text": "確定",
+        "qty": 300
+      }
+    ],
+    "notes": "中身を全て獲得する袋 (クライアントのデータ)。",
+    "refs": [
+      {
+        "source": "jp-client-20261001"
+      }
+    ]
+  },
+  {
+    "id": "client-box-536883735",
+    "location": "月食のレア竜珠のかけら袋(ヘルム)",
+    "location_kind": "box",
+    "label": "中身 (全て獲得)",
+    "entries": [
+      {
+        "item": "上級神聖な月食のかけら",
+        "rate_text": "確定",
+        "qty": 10
+      },
+      {
+        "item": "上級清い月食のかけら",
+        "rate_text": "確定",
+        "qty": 10
+      }
+    ],
+    "notes": "中身を全て獲得する袋 (クライアントのデータ)。",
+    "refs": [
+      {
+        "source": "jp-client-20261001"
+      }
+    ]
+  },
+  {
+    "id": "client-box-536883736",
+    "location": "月食のエピック竜珠のかけら袋(ヘルム)",
+    "location_kind": "box",
+    "label": "中身 (全て獲得)",
+    "entries": [
+      {
+        "item": "上級神聖な月食のかけら",
+        "rate_text": "確定",
+        "qty": 42
+      },
+      {
+        "item": "上級清い月食のかけら",
+        "rate_text": "確定",
+        "qty": 42
+      }
+    ],
+    "notes": "中身を全て獲得する袋 (クライアントのデータ)。",
+    "refs": [
+      {
+        "source": "jp-client-20261001"
+      }
+    ]
+  },
+  {
+    "id": "client-box-536884634",
+    "location": "ウォーリアー月食の竜珠レジェンド選択袋",
+    "location_kind": "box",
+    "label": "選択",
+    "entries": [
+      {
+        "item": "ヘイズフロストドラゴンの月食防御竜珠(レジェンド)",
+        "rate_text": "選択"
+      },
+      {
+        "item": "ヘイズフロストドラゴンの月食攻撃竜珠(レジェンド)",
+        "rate_text": "選択"
+      }
+    ],
+    "notes": "中身から1つを選んで獲得 (クライアントのデータ)。",
+    "refs": [
+      {
+        "source": "jp-client-20261001"
+      }
+    ]
+  },
+  {
+    "id": "client-box-536884635",
+    "location": "アーチャー月食の竜珠レジェンド選択袋",
+    "location_kind": "box",
+    "label": "選択",
+    "entries": [
+      {
+        "item": "ヘイズフロストドラゴンの月食防御竜珠(レジェンド)",
+        "rate_text": "選択"
+      },
+      {
+        "item": "ヘイズフロストドラゴンの月食攻撃竜珠(レジェンド)",
+        "rate_text": "選択"
+      }
+    ],
+    "notes": "中身から1つを選んで獲得 (クライアントのデータ)。",
+    "refs": [
+      {
+        "source": "jp-client-20261001"
+      }
+    ]
+  },
+  {
+    "id": "client-box-536884636",
+    "location": "ソーサレス月食の竜珠レジェンド選択袋",
+    "location_kind": "box",
+    "label": "選択",
+    "entries": [
+      {
+        "item": "ヘイズフロストドラゴンの月食防御竜珠(レジェンド)",
+        "rate_text": "選択"
+      },
+      {
+        "item": "ヘイズフロストドラゴンの月食攻撃竜珠(レジェンド)",
+        "rate_text": "選択"
+      }
+    ],
+    "notes": "中身から1つを選んで獲得 (クライアントのデータ)。",
+    "refs": [
+      {
+        "source": "jp-client-20261001"
+      }
+    ]
+  },
+  {
+    "id": "client-box-536884637",
+    "location": "クレリック月食の竜珠レジェンド選択袋",
+    "location_kind": "box",
+    "label": "選択",
+    "entries": [
+      {
+        "item": "ヘイズフロストドラゴンの月食防御竜珠(レジェンド)",
+        "rate_text": "選択"
+      },
+      {
+        "item": "ヘイズフロストドラゴンの月食攻撃竜珠(レジェンド)",
+        "rate_text": "選択"
+      }
+    ],
+    "notes": "中身から1つを選んで獲得 (クライアントのデータ)。",
+    "refs": [
+      {
+        "source": "jp-client-20261001"
+      }
+    ]
+  },
+  {
+    "id": "client-box-536884639",
+    "location": "カーリー月食の竜珠レジェンド選択袋",
+    "location_kind": "box",
+    "label": "選択",
+    "entries": [
+      {
+        "item": "ヘイズフロストドラゴンの月食防御竜珠(レジェンド)",
+        "rate_text": "選択"
+      },
+      {
+        "item": "ヘイズフロストドラゴンの月食攻撃竜珠(レジェンド)",
+        "rate_text": "選択"
+      }
+    ],
+    "notes": "中身から1つを選んで獲得 (クライアントのデータ)。",
+    "refs": [
+      {
+        "source": "jp-client-20261001"
+      }
+    ]
+  },
+  {
+    "id": "client-box-536884640",
+    "location": "アサシン月食の竜珠レジェンド選択袋",
+    "location_kind": "box",
+    "label": "選択",
+    "entries": [
+      {
+        "item": "ヘイズフロストドラゴンの月食防御竜珠(レジェンド)",
+        "rate_text": "選択"
+      },
+      {
+        "item": "ヘイズフロストドラゴンの月食攻撃竜珠(レジェンド)",
+        "rate_text": "選択"
+      }
+    ],
+    "notes": "中身から1つを選んで獲得 (クライアントのデータ)。",
+    "refs": [
+      {
+        "source": "jp-client-20261001"
+      }
+    ]
+  },
+  {
+    "id": "client-box-536884641",
+    "location": "レンシア月食の竜珠レジェンド選択袋",
+    "location_kind": "box",
+    "label": "選択",
+    "entries": [
+      {
+        "item": "ヘイズフロストドラゴンの月食防御竜珠(レジェンド)",
+        "rate_text": "選択"
+      },
+      {
+        "item": "ヘイズフロストドラゴンの月食攻撃竜珠(レジェンド)",
+        "rate_text": "選択"
+      }
+    ],
+    "notes": "中身から1つを選んで獲得 (クライアントのデータ)。",
+    "refs": [
+      {
+        "source": "jp-client-20261001"
+      }
+    ]
+  },
+  {
+    "id": "client-box-536884642",
+    "location": "マキナ月食の竜珠レジェンド選択袋",
+    "location_kind": "box",
+    "label": "選択",
+    "entries": [
+      {
+        "item": "ヘイズフロストドラゴンの月食防御竜珠(レジェンド)",
+        "rate_text": "選択"
+      },
+      {
+        "item": "ヘイズフロストドラゴンの月食攻撃竜珠(レジェンド)",
+        "rate_text": "選択"
+      }
+    ],
+    "notes": "中身から1つを選んで獲得 (クライアントのデータ)。",
+    "refs": [
+      {
+        "source": "jp-client-20261001"
+      }
+    ]
+  },
+  {
+    "id": "client-box-536884643",
+    "location": "ヴァンダル月食の竜珠レジェンド選択袋",
+    "location_kind": "box",
+    "label": "選択",
+    "entries": [
+      {
+        "item": "ヘイズフロストドラゴンの月食防御竜珠(レジェンド)",
+        "rate_text": "選択"
+      },
+      {
+        "item": "ヘイズフロストドラゴンの月食攻撃竜珠(レジェンド)",
+        "rate_text": "選択"
+      }
+    ],
+    "notes": "中身から1つを選んで獲得 (クライアントのデータ)。",
+    "refs": [
+      {
+        "source": "jp-client-20261001"
+      }
+    ]
+  },
+  {
+    "id": "client-box-536884645",
+    "location": "ウォーリアー月食の攻撃竜珠ユニーク選択袋",
+    "location_kind": "box",
+    "label": "選択",
+    "entries": [
+      {
+        "item": "月食の攻撃竜珠(ユニーク)",
+        "rate_text": "選択"
+      }
+    ],
+    "notes": "中身から1つを選んで獲得 (クライアントのデータ)。",
+    "refs": [
+      {
+        "source": "jp-client-20261001"
+      }
+    ]
+  },
+  {
+    "id": "client-box-536884646",
+    "location": "アーチャー月食の攻撃竜珠ユニーク選択袋",
+    "location_kind": "box",
+    "label": "選択",
+    "entries": [
+      {
+        "item": "月食の攻撃竜珠(ユニーク)",
+        "rate_text": "選択"
+      }
+    ],
+    "notes": "中身から1つを選んで獲得 (クライアントのデータ)。",
+    "refs": [
+      {
+        "source": "jp-client-20261001"
+      }
+    ]
+  },
+  {
+    "id": "client-box-536884647",
+    "location": "ソーサレス月食の攻撃竜珠ユニーク選択袋",
+    "location_kind": "box",
+    "label": "選択",
+    "entries": [
+      {
+        "item": "月食の攻撃竜珠(ユニーク)",
+        "rate_text": "選択"
+      }
+    ],
+    "notes": "中身から1つを選んで獲得 (クライアントのデータ)。",
+    "refs": [
+      {
+        "source": "jp-client-20261001"
+      }
+    ]
+  },
+  {
+    "id": "client-box-536884648",
+    "location": "クレリック月食の攻撃竜珠ユニーク選択袋",
+    "location_kind": "box",
+    "label": "選択",
+    "entries": [
+      {
+        "item": "月食の攻撃竜珠(ユニーク)",
+        "rate_text": "選択"
+      }
+    ],
+    "notes": "中身から1つを選んで獲得 (クライアントのデータ)。",
+    "refs": [
+      {
+        "source": "jp-client-20261001"
+      }
+    ]
+  },
+  {
+    "id": "client-box-536884650",
+    "location": "カーリー月食の攻撃竜珠ユニーク選択袋",
+    "location_kind": "box",
+    "label": "選択",
+    "entries": [
+      {
+        "item": "月食の攻撃竜珠(ユニーク)",
+        "rate_text": "選択"
+      }
+    ],
+    "notes": "中身から1つを選んで獲得 (クライアントのデータ)。",
+    "refs": [
+      {
+        "source": "jp-client-20261001"
+      }
+    ]
+  },
+  {
+    "id": "client-box-536884651",
+    "location": "アサシン月食の攻撃竜珠ユニーク選択袋",
+    "location_kind": "box",
+    "label": "選択",
+    "entries": [
+      {
+        "item": "月食の攻撃竜珠(ユニーク)",
+        "rate_text": "選択"
+      }
+    ],
+    "notes": "中身から1つを選んで獲得 (クライアントのデータ)。",
+    "refs": [
+      {
+        "source": "jp-client-20261001"
+      }
+    ]
+  },
+  {
+    "id": "client-box-536884652",
+    "location": "レンシア月食の攻撃竜珠ユニーク選択袋",
+    "location_kind": "box",
+    "label": "選択",
+    "entries": [
+      {
+        "item": "月食の攻撃竜珠(ユニーク)",
+        "rate_text": "選択"
+      }
+    ],
+    "notes": "中身から1つを選んで獲得 (クライアントのデータ)。",
+    "refs": [
+      {
+        "source": "jp-client-20261001"
+      }
+    ]
+  },
+  {
+    "id": "client-box-536884653",
+    "location": "マキナ月食の攻撃竜珠ユニーク選択袋",
+    "location_kind": "box",
+    "label": "選択",
+    "entries": [
+      {
+        "item": "月食の攻撃竜珠(ユニーク)",
+        "rate_text": "選択"
+      }
+    ],
+    "notes": "中身から1つを選んで獲得 (クライアントのデータ)。",
+    "refs": [
+      {
+        "source": "jp-client-20261001"
+      }
+    ]
+  },
+  {
+    "id": "client-box-536884654",
+    "location": "ヴァンダル月食の攻撃竜珠ユニーク選択袋",
+    "location_kind": "box",
+    "label": "選択",
+    "entries": [
+      {
+        "item": "月食の攻撃竜珠(ユニーク)",
+        "rate_text": "選択"
+      }
+    ],
+    "notes": "中身から1つを選んで獲得 (クライアントのデータ)。",
+    "refs": [
+      {
+        "source": "jp-client-20261001"
+      }
+    ]
+  },
+  {
+    "id": "client-box-536884667",
+    "location": "ウォーリアー月食の竜珠エピック選択袋",
+    "location_kind": "box",
+    "label": "選択",
+    "entries": [
+      {
+        "item": "月食の防御竜珠(エピック)",
+        "rate_text": "選択"
+      },
+      {
+        "item": "月食の攻撃竜珠(エピック)",
+        "rate_text": "選択"
+      }
+    ],
+    "notes": "中身から1つを選んで獲得 (クライアントのデータ)。",
+    "refs": [
+      {
+        "source": "jp-client-20261001"
+      }
+    ]
+  },
+  {
+    "id": "client-box-536884668",
+    "location": "アーチャー月食の竜珠エピック選択袋",
+    "location_kind": "box",
+    "label": "選択",
+    "entries": [
+      {
+        "item": "月食の防御竜珠(エピック)",
+        "rate_text": "選択"
+      },
+      {
+        "item": "月食の攻撃竜珠(エピック)",
+        "rate_text": "選択"
+      }
+    ],
+    "notes": "中身から1つを選んで獲得 (クライアントのデータ)。",
+    "refs": [
+      {
+        "source": "jp-client-20261001"
+      }
+    ]
+  },
+  {
+    "id": "client-box-536884669",
+    "location": "ソーサレス月食の竜珠エピック選択袋",
+    "location_kind": "box",
+    "label": "選択",
+    "entries": [
+      {
+        "item": "月食の防御竜珠(エピック)",
+        "rate_text": "選択"
+      },
+      {
+        "item": "月食の攻撃竜珠(エピック)",
+        "rate_text": "選択"
+      }
+    ],
+    "notes": "中身から1つを選んで獲得 (クライアントのデータ)。",
+    "refs": [
+      {
+        "source": "jp-client-20261001"
+      }
+    ]
+  },
+  {
+    "id": "client-box-536884670",
+    "location": "クレリック月食の竜珠エピック選択袋",
+    "location_kind": "box",
+    "label": "選択",
+    "entries": [
+      {
+        "item": "月食の防御竜珠(エピック)",
+        "rate_text": "選択"
+      },
+      {
+        "item": "月食の攻撃竜珠(エピック)",
+        "rate_text": "選択"
+      }
+    ],
+    "notes": "中身から1つを選んで獲得 (クライアントのデータ)。",
+    "refs": [
+      {
+        "source": "jp-client-20261001"
+      }
+    ]
+  },
+  {
+    "id": "client-box-536884672",
+    "location": "カーリー月食の竜珠エピック選択袋",
+    "location_kind": "box",
+    "label": "選択",
+    "entries": [
+      {
+        "item": "月食の防御竜珠(エピック)",
+        "rate_text": "選択"
+      },
+      {
+        "item": "月食の攻撃竜珠(エピック)",
+        "rate_text": "選択"
+      }
+    ],
+    "notes": "中身から1つを選んで獲得 (クライアントのデータ)。",
+    "refs": [
+      {
+        "source": "jp-client-20261001"
+      }
+    ]
+  },
+  {
+    "id": "client-box-536884673",
+    "location": "アサシン月食の竜珠エピック選択袋",
+    "location_kind": "box",
+    "label": "選択",
+    "entries": [
+      {
+        "item": "月食の防御竜珠(エピック)",
+        "rate_text": "選択"
+      },
+      {
+        "item": "月食の攻撃竜珠(エピック)",
+        "rate_text": "選択"
+      }
+    ],
+    "notes": "中身から1つを選んで獲得 (クライアントのデータ)。",
+    "refs": [
+      {
+        "source": "jp-client-20261001"
+      }
+    ]
+  },
+  {
+    "id": "client-box-536884674",
+    "location": "レンシア月食の竜珠エピック選択袋",
+    "location_kind": "box",
+    "label": "選択",
+    "entries": [
+      {
+        "item": "月食の防御竜珠(エピック)",
+        "rate_text": "選択"
+      },
+      {
+        "item": "月食の攻撃竜珠(エピック)",
+        "rate_text": "選択"
+      }
+    ],
+    "notes": "中身から1つを選んで獲得 (クライアントのデータ)。",
+    "refs": [
+      {
+        "source": "jp-client-20261001"
+      }
+    ]
+  },
+  {
+    "id": "client-box-536884675",
+    "location": "マキナ月食の竜珠エピック選択袋",
+    "location_kind": "box",
+    "label": "選択",
+    "entries": [
+      {
+        "item": "月食の防御竜珠(エピック)",
+        "rate_text": "選択"
+      },
+      {
+        "item": "月食の攻撃竜珠(エピック)",
+        "rate_text": "選択"
+      }
+    ],
+    "notes": "中身から1つを選んで獲得 (クライアントのデータ)。",
+    "refs": [
+      {
+        "source": "jp-client-20261001"
+      }
+    ]
+  },
+  {
+    "id": "client-box-536884676",
+    "location": "ヴァンダル月食の竜珠エピック選択袋",
+    "location_kind": "box",
+    "label": "選択",
+    "entries": [
+      {
+        "item": "月食の防御竜珠(エピック)",
+        "rate_text": "選択"
+      },
+      {
+        "item": "月食の攻撃竜珠(エピック)",
+        "rate_text": "選択"
+      }
+    ],
+    "notes": "中身から1つを選んで獲得 (クライアントのデータ)。",
+    "refs": [
+      {
+        "source": "jp-client-20261001"
+      }
+    ]
+  },
+  {
+    "id": "client-box-536885505",
+    "location": "月食のユニーク竜珠のかけら袋(ヘルム)",
+    "location_kind": "box",
+    "label": "中身 (全て獲得)",
+    "entries": [
+      {
+        "item": "上級神聖な月食のかけら",
+        "rate_text": "確定",
+        "qty": 170
+      },
+      {
+        "item": "上級清い月食のかけら",
+        "rate_text": "確定",
+        "qty": 170
+      },
+      {
+        "item": "月食の聖痕",
+        "rate_text": "確定",
+        "qty": 42
+      }
+    ],
+    "notes": "中身を全て獲得する袋 (クライアントのデータ)。",
+    "refs": [
+      {
+        "source": "jp-client-20261001"
+      }
+    ]
+  },
+  {
+    "id": "client-box-536885515",
+    "location": "月食のレジェンド竜珠のかけら袋(ヘルム)",
+    "location_kind": "box",
+    "label": "中身 (全て獲得)",
+    "entries": [
+      {
+        "item": "上級神聖な月食のかけら",
+        "rate_text": "確定",
+        "qty": 682
+      },
+      {
+        "item": "上級清い月食のかけら",
+        "rate_text": "確定",
+        "qty": 682
+      },
+      {
+        "item": "月食の聖痕",
+        "rate_text": "確定",
+        "qty": 170
+      },
+      {
+        "item": "ヘイズフロストドラゴンの壊れた宝珠のかけら",
+        "rate_text": "確定",
+        "qty": 5
+      }
+    ],
+    "notes": "中身を全て獲得する袋 (クライアントのデータ)。",
+    "refs": [
+      {
+        "source": "jp-client-20261001"
+      }
+    ]
+  },
+  {
+    "id": "client-box-536885717",
+    "location": "ウォーリアー月食の竜珠レジェンドランダム袋",
+    "location_kind": "box",
+    "label": "中身",
+    "entries": [
+      {
+        "item": "ヘイズフロストドラゴンの月食防御竜珠(レジェンド)",
+        "rate": 47.0588
+      },
+      {
+        "item": "ヘイズフロストドラゴンの月食攻撃竜珠(レジェンド)",
+        "rate": 52.9412
+      }
+    ],
+    "notes": "確率はクライアントのデータの重みから計算した値。",
+    "refs": [
+      {
+        "source": "jp-client-20261001"
+      }
+    ]
+  },
+  {
+    "id": "client-box-536885718",
+    "location": "アーチャー月食の竜珠レジェンドランダム袋",
+    "location_kind": "box",
+    "label": "中身",
+    "entries": [
+      {
+        "item": "ヘイズフロストドラゴンの月食防御竜珠(レジェンド)",
+        "rate": 47.0588
+      },
+      {
+        "item": "ヘイズフロストドラゴンの月食攻撃竜珠(レジェンド)",
+        "rate": 52.9412
+      }
+    ],
+    "notes": "確率はクライアントのデータの重みから計算した値。",
+    "refs": [
+      {
+        "source": "jp-client-20261001"
+      }
+    ]
+  },
+  {
+    "id": "client-box-536885719",
+    "location": "ソーサレス月食の竜珠レジェンドランダム袋",
+    "location_kind": "box",
+    "label": "中身",
+    "entries": [
+      {
+        "item": "ヘイズフロストドラゴンの月食防御竜珠(レジェンド)",
+        "rate": 47.0588
+      },
+      {
+        "item": "ヘイズフロストドラゴンの月食攻撃竜珠(レジェンド)",
+        "rate": 52.9412
+      }
+    ],
+    "notes": "確率はクライアントのデータの重みから計算した値。",
+    "refs": [
+      {
+        "source": "jp-client-20261001"
+      }
+    ]
+  },
+  {
+    "id": "client-box-536885720",
+    "location": "クレリック月食の竜珠レジェンドランダム袋",
+    "location_kind": "box",
+    "label": "中身",
+    "entries": [
+      {
+        "item": "ヘイズフロストドラゴンの月食防御竜珠(レジェンド)",
+        "rate": 47.0588
+      },
+      {
+        "item": "ヘイズフロストドラゴンの月食攻撃竜珠(レジェンド)",
+        "rate": 52.9412
+      }
+    ],
+    "notes": "確率はクライアントのデータの重みから計算した値。",
+    "refs": [
+      {
+        "source": "jp-client-20261001"
+      }
+    ]
+  },
+  {
+    "id": "client-box-536885722",
+    "location": "カーリー月食の竜珠レジェンドランダム袋",
+    "location_kind": "box",
+    "label": "中身",
+    "entries": [
+      {
+        "item": "ヘイズフロストドラゴンの月食防御竜珠(レジェンド)",
+        "rate": 47.0588
+      },
+      {
+        "item": "ヘイズフロストドラゴンの月食攻撃竜珠(レジェンド)",
+        "rate": 52.9412
+      }
+    ],
+    "notes": "確率はクライアントのデータの重みから計算した値。",
+    "refs": [
+      {
+        "source": "jp-client-20261001"
+      }
+    ]
+  },
+  {
+    "id": "client-box-536885723",
+    "location": "アサシン月食の竜珠レジェンドランダム袋",
+    "location_kind": "box",
+    "label": "中身",
+    "entries": [
+      {
+        "item": "ヘイズフロストドラゴンの月食防御竜珠(レジェンド)",
+        "rate": 47.0588
+      },
+      {
+        "item": "ヘイズフロストドラゴンの月食攻撃竜珠(レジェンド)",
+        "rate": 52.9412
+      }
+    ],
+    "notes": "確率はクライアントのデータの重みから計算した値。",
+    "refs": [
+      {
+        "source": "jp-client-20261001"
+      }
+    ]
+  },
+  {
+    "id": "client-box-536885724",
+    "location": "レンシア月食の竜珠レジェンドランダム袋",
+    "location_kind": "box",
+    "label": "中身",
+    "entries": [
+      {
+        "item": "ヘイズフロストドラゴンの月食防御竜珠(レジェンド)",
+        "rate": 47.0588
+      },
+      {
+        "item": "ヘイズフロストドラゴンの月食攻撃竜珠(レジェンド)",
+        "rate": 52.9412
+      }
+    ],
+    "notes": "確率はクライアントのデータの重みから計算した値。",
+    "refs": [
+      {
+        "source": "jp-client-20261001"
+      }
+    ]
+  },
+  {
+    "id": "client-box-536885725",
+    "location": "マキナ月食の竜珠レジェンドランダム袋",
+    "location_kind": "box",
+    "label": "中身",
+    "entries": [
+      {
+        "item": "ヘイズフロストドラゴンの月食防御竜珠(レジェンド)",
+        "rate": 47.0588
+      },
+      {
+        "item": "ヘイズフロストドラゴンの月食攻撃竜珠(レジェンド)",
+        "rate": 52.9412
+      }
+    ],
+    "notes": "確率はクライアントのデータの重みから計算した値。",
+    "refs": [
+      {
+        "source": "jp-client-20261001"
+      }
+    ]
+  },
+  {
+    "id": "client-box-536885726",
+    "location": "ヴァンダル月食の竜珠レジェンドランダム袋",
+    "location_kind": "box",
+    "label": "中身",
+    "entries": [
+      {
+        "item": "ヘイズフロストドラゴンの月食防御竜珠(レジェンド)",
+        "rate": 47.0588
+      },
+      {
+        "item": "ヘイズフロストドラゴンの月食攻撃竜珠(レジェンド)",
+        "rate": 52.9412
+      }
+    ],
+    "notes": "確率はクライアントのデータの重みから計算した値。",
+    "refs": [
+      {
+        "source": "jp-client-20261001"
+      }
+    ]
+  },
+  {
+    "id": "client-box-536885751",
+    "location": "ウォーリアー月食の竜珠ユニーク選択袋",
+    "location_kind": "box",
+    "label": "選択",
+    "entries": [
+      {
+        "item": "月食の防御竜珠(ユニーク)",
+        "rate_text": "選択"
+      },
+      {
+        "item": "月食の攻撃竜珠(ユニーク)",
+        "rate_text": "選択"
+      }
+    ],
+    "notes": "中身から1つを選んで獲得 (クライアントのデータ)。",
+    "refs": [
+      {
+        "source": "jp-client-20261001"
+      }
+    ]
+  },
+  {
+    "id": "client-box-536885752",
+    "location": "アーチャー月食の竜珠ユニーク選択袋",
+    "location_kind": "box",
+    "label": "選択",
+    "entries": [
+      {
+        "item": "月食の防御竜珠(ユニーク)",
+        "rate_text": "選択"
+      },
+      {
+        "item": "月食の攻撃竜珠(ユニーク)",
+        "rate_text": "選択"
+      }
+    ],
+    "notes": "中身から1つを選んで獲得 (クライアントのデータ)。",
+    "refs": [
+      {
+        "source": "jp-client-20261001"
+      }
+    ]
+  },
+  {
+    "id": "client-box-536885753",
+    "location": "ソーサレス月食の竜珠ユニーク選択袋",
+    "location_kind": "box",
+    "label": "選択",
+    "entries": [
+      {
+        "item": "月食の防御竜珠(ユニーク)",
+        "rate_text": "選択"
+      },
+      {
+        "item": "月食の攻撃竜珠(ユニーク)",
+        "rate_text": "選択"
+      }
+    ],
+    "notes": "中身から1つを選んで獲得 (クライアントのデータ)。",
+    "refs": [
+      {
+        "source": "jp-client-20261001"
+      }
+    ]
+  },
+  {
+    "id": "client-box-536885754",
+    "location": "クレリック月食の竜珠ユニーク選択袋",
+    "location_kind": "box",
+    "label": "選択",
+    "entries": [
+      {
+        "item": "月食の防御竜珠(ユニーク)",
+        "rate_text": "選択"
+      },
+      {
+        "item": "月食の攻撃竜珠(ユニーク)",
+        "rate_text": "選択"
+      }
+    ],
+    "notes": "中身から1つを選んで獲得 (クライアントのデータ)。",
+    "refs": [
+      {
+        "source": "jp-client-20261001"
+      }
+    ]
+  },
+  {
+    "id": "client-box-536885756",
+    "location": "カーリー月食の竜珠ユニーク選択袋",
+    "location_kind": "box",
+    "label": "選択",
+    "entries": [
+      {
+        "item": "月食の防御竜珠(ユニーク)",
+        "rate_text": "選択"
+      },
+      {
+        "item": "月食の攻撃竜珠(ユニーク)",
+        "rate_text": "選択"
+      }
+    ],
+    "notes": "中身から1つを選んで獲得 (クライアントのデータ)。",
+    "refs": [
+      {
+        "source": "jp-client-20261001"
+      }
+    ]
+  },
+  {
+    "id": "client-box-536885757",
+    "location": "アサシン月食の竜珠ユニーク選択袋",
+    "location_kind": "box",
+    "label": "選択",
+    "entries": [
+      {
+        "item": "月食の防御竜珠(ユニーク)",
+        "rate_text": "選択"
+      },
+      {
+        "item": "月食の攻撃竜珠(ユニーク)",
+        "rate_text": "選択"
+      }
+    ],
+    "notes": "中身から1つを選んで獲得 (クライアントのデータ)。",
+    "refs": [
+      {
+        "source": "jp-client-20261001"
+      }
+    ]
+  },
+  {
+    "id": "client-box-536885758",
+    "location": "レンシア月食の竜珠ユニーク選択袋",
+    "location_kind": "box",
+    "label": "選択",
+    "entries": [
+      {
+        "item": "月食の防御竜珠(ユニーク)",
+        "rate_text": "選択"
+      },
+      {
+        "item": "月食の攻撃竜珠(ユニーク)",
+        "rate_text": "選択"
+      }
+    ],
+    "notes": "中身から1つを選んで獲得 (クライアントのデータ)。",
+    "refs": [
+      {
+        "source": "jp-client-20261001"
+      }
+    ]
+  },
+  {
+    "id": "client-box-536885759",
+    "location": "マキナ月食の竜珠ユニーク選択袋",
+    "location_kind": "box",
+    "label": "選択",
+    "entries": [
+      {
+        "item": "月食の防御竜珠(ユニーク)",
+        "rate_text": "選択"
+      },
+      {
+        "item": "月食の攻撃竜珠(ユニーク)",
+        "rate_text": "選択"
+      }
+    ],
+    "notes": "中身から1つを選んで獲得 (クライアントのデータ)。",
+    "refs": [
+      {
+        "source": "jp-client-20261001"
+      }
+    ]
+  },
+  {
+    "id": "client-box-536885760",
+    "location": "ヴァンダル月食の竜珠ユニーク選択袋",
+    "location_kind": "box",
+    "label": "選択",
+    "entries": [
+      {
+        "item": "月食の防御竜珠(ユニーク)",
+        "rate_text": "選択"
+      },
+      {
+        "item": "月食の攻撃竜珠(ユニーク)",
+        "rate_text": "選択"
+      }
+    ],
+    "notes": "中身から1つを選んで獲得 (クライアントのデータ)。",
+    "refs": [
+      {
+        "source": "jp-client-20261001"
+      }
+    ]
+  },
+  {
+    "id": "client-box-536886012",
+    "location": "月食の竜珠(マジック)袋",
+    "location_kind": "box",
+    "label": "中身 (全て獲得)",
+    "entries": [
+      {
+        "item": "月食の防御竜珠(マジック)",
+        "rate_text": "確定"
+      },
+      {
+        "item": "月食の防御竜珠(マジック)",
+        "rate_text": "確定",
+        "qty": 2
+      },
+      {
+        "item": "月食の攻撃竜珠(マジック)",
+        "rate_text": "確定"
+      },
+      {
+        "item": "月食の攻撃竜珠(マジック)",
+        "rate_text": "確定",
+        "qty": 2
+      }
+    ],
+    "notes": "中身を全て獲得する袋 (クライアントのデータ)。",
+    "refs": [
+      {
+        "source": "jp-client-20261001"
+      }
+    ]
+  },
+  {
+    "id": "client-box-536886029",
+    "location": "ヴァンダル月食の竜珠レア袋",
+    "location_kind": "box",
+    "label": "中身 (全て獲得)",
+    "entries": [
+      {
+        "item": "月食の防御竜珠(レア)",
+        "rate_text": "確定"
+      },
+      {
+        "item": "月食の攻撃竜珠(レア)",
+        "rate_text": "確定"
+      },
+      {
+        "item": "月食の攻撃竜珠(レア)",
+        "rate_text": "確定",
+        "qty": 2
+      }
+    ],
+    "notes": "中身を全て獲得する袋 (クライアントのデータ)。",
+    "refs": [
+      {
+        "source": "jp-client-20261001"
+      }
+    ]
+  },
+  {
+    "id": "client-box-536886064",
+    "location": "ヴァンダル月食の竜珠ユニーク袋",
+    "location_kind": "box",
+    "label": "中身 (全て獲得)",
+    "entries": [
+      {
+        "item": "月食の防御竜珠(ユニーク)",
+        "rate_text": "確定"
+      },
+      {
+        "item": "月食の防御竜珠(ユニーク)",
+        "rate_text": "確定",
+        "qty": 2
+      },
+      {
+        "item": "月食の攻撃竜珠(ユニーク)",
+        "rate_text": "確定"
+      },
+      {
+        "item": "月食の攻撃竜珠(ユニーク)",
+        "rate_text": "確定",
+        "qty": 2
+      }
+    ],
+    "notes": "中身を全て獲得する袋 (クライアントのデータ)。",
+    "refs": [
+      {
+        "source": "jp-client-20261001"
+      }
+    ]
+  },
+  {
+    "id": "client-box-536886296",
+    "location": "ウォーリアー月食の竜珠レア袋",
+    "location_kind": "box",
+    "label": "中身 (全て獲得)",
+    "entries": [
+      {
+        "item": "月食の防御竜珠(レア)",
+        "rate_text": "確定"
+      },
+      {
+        "item": "月食の攻撃竜珠(レア)",
+        "rate_text": "確定"
+      },
+      {
+        "item": "月食の攻撃竜珠(レア)",
+        "rate_text": "確定",
+        "qty": 2
+      }
+    ],
+    "notes": "中身を全て獲得する袋 (クライアントのデータ)。",
+    "refs": [
+      {
+        "source": "jp-client-20261001"
+      }
+    ]
+  },
+  {
+    "id": "client-box-536886297",
+    "location": "アーチャー月食の竜珠レア袋",
+    "location_kind": "box",
+    "label": "中身 (全て獲得)",
+    "entries": [
+      {
+        "item": "月食の防御竜珠(レア)",
+        "rate_text": "確定"
+      },
+      {
+        "item": "月食の攻撃竜珠(レア)",
+        "rate_text": "確定"
+      },
+      {
+        "item": "月食の攻撃竜珠(レア)",
+        "rate_text": "確定",
+        "qty": 2
+      }
+    ],
+    "notes": "中身を全て獲得する袋 (クライアントのデータ)。",
+    "refs": [
+      {
+        "source": "jp-client-20261001"
+      }
+    ]
+  },
+  {
+    "id": "client-box-536886298",
+    "location": "ソーサレス月食の竜珠レア袋",
+    "location_kind": "box",
+    "label": "中身 (全て獲得)",
+    "entries": [
+      {
+        "item": "月食の防御竜珠(レア)",
+        "rate_text": "確定"
+      },
+      {
+        "item": "月食の攻撃竜珠(レア)",
+        "rate_text": "確定"
+      },
+      {
+        "item": "月食の攻撃竜珠(レア)",
+        "rate_text": "確定",
+        "qty": 2
+      }
+    ],
+    "notes": "中身を全て獲得する袋 (クライアントのデータ)。",
+    "refs": [
+      {
+        "source": "jp-client-20261001"
+      }
+    ]
+  },
+  {
+    "id": "client-box-536886299",
+    "location": "クレリック月食の竜珠レア袋",
+    "location_kind": "box",
+    "label": "中身 (全て獲得)",
+    "entries": [
+      {
+        "item": "月食の防御竜珠(レア)",
+        "rate_text": "確定"
+      },
+      {
+        "item": "月食の攻撃竜珠(レア)",
+        "rate_text": "確定"
+      },
+      {
+        "item": "月食の攻撃竜珠(レア)",
+        "rate_text": "確定",
+        "qty": 2
+      }
+    ],
+    "notes": "中身を全て獲得する袋 (クライアントのデータ)。",
+    "refs": [
+      {
+        "source": "jp-client-20261001"
+      }
+    ]
+  },
+  {
+    "id": "client-box-536886301",
+    "location": "カーリー月食の竜珠レア袋",
+    "location_kind": "box",
+    "label": "中身 (全て獲得)",
+    "entries": [
+      {
+        "item": "月食の防御竜珠(レア)",
+        "rate_text": "確定"
+      },
+      {
+        "item": "月食の攻撃竜珠(レア)",
+        "rate_text": "確定"
+      },
+      {
+        "item": "月食の攻撃竜珠(レア)",
+        "rate_text": "確定",
+        "qty": 2
+      }
+    ],
+    "notes": "中身を全て獲得する袋 (クライアントのデータ)。",
+    "refs": [
+      {
+        "source": "jp-client-20261001"
+      }
+    ]
+  },
+  {
+    "id": "client-box-536886302",
+    "location": "アサシン月食の竜珠レア袋",
+    "location_kind": "box",
+    "label": "中身 (全て獲得)",
+    "entries": [
+      {
+        "item": "月食の防御竜珠(レア)",
+        "rate_text": "確定"
+      },
+      {
+        "item": "月食の攻撃竜珠(レア)",
+        "rate_text": "確定"
+      },
+      {
+        "item": "月食の攻撃竜珠(レア)",
+        "rate_text": "確定",
+        "qty": 2
+      }
+    ],
+    "notes": "中身を全て獲得する袋 (クライアントのデータ)。",
+    "refs": [
+      {
+        "source": "jp-client-20261001"
+      }
+    ]
+  },
+  {
+    "id": "client-box-536886303",
+    "location": "レンシア月食の竜珠レア袋",
+    "location_kind": "box",
+    "label": "中身 (全て獲得)",
+    "entries": [
+      {
+        "item": "月食の防御竜珠(レア)",
+        "rate_text": "確定"
+      },
+      {
+        "item": "月食の攻撃竜珠(レア)",
+        "rate_text": "確定"
+      },
+      {
+        "item": "月食の攻撃竜珠(レア)",
+        "rate_text": "確定",
+        "qty": 2
+      }
+    ],
+    "notes": "中身を全て獲得する袋 (クライアントのデータ)。",
+    "refs": [
+      {
+        "source": "jp-client-20261001"
+      }
+    ]
+  },
+  {
+    "id": "client-box-536886304",
+    "location": "マキナ月食の竜珠レア袋",
+    "location_kind": "box",
+    "label": "中身 (全て獲得)",
+    "entries": [
+      {
+        "item": "月食の防御竜珠(レア)",
+        "rate_text": "確定"
+      },
+      {
+        "item": "月食の攻撃竜珠(レア)",
+        "rate_text": "確定"
+      },
+      {
+        "item": "月食の攻撃竜珠(レア)",
+        "rate_text": "確定",
+        "qty": 2
+      }
+    ],
+    "notes": "中身を全て獲得する袋 (クライアントのデータ)。",
+    "refs": [
+      {
+        "source": "jp-client-20261001"
+      }
+    ]
+  },
+  {
+    "id": "client-box-536886876",
+    "location": "グラディエーターの月食の竜珠レア袋",
+    "location_kind": "box",
+    "label": "中身 (全て獲得)",
+    "entries": [
+      {
+        "item": "月食の防御竜珠(レア)",
+        "rate_text": "確定"
+      },
+      {
+        "item": "月食の攻撃竜珠(レア)",
+        "rate_text": "確定"
+      },
+      {
+        "item": "月食の攻撃竜珠(レア)",
+        "rate_text": "確定",
+        "qty": 2
+      }
+    ],
+    "notes": "中身を全て獲得する袋 (クライアントのデータ)。",
+    "refs": [
+      {
+        "source": "jp-client-20261001"
+      }
+    ]
+  },
+  {
+    "id": "client-box-536886877",
+    "location": "ムーンロードの月食の竜珠レア袋",
+    "location_kind": "box",
+    "label": "中身 (全て獲得)",
+    "entries": [
+      {
+        "item": "月食の防御竜珠(レア)",
+        "rate_text": "確定"
+      },
+      {
+        "item": "月食の攻撃竜珠(レア)",
+        "rate_text": "確定"
+      },
+      {
+        "item": "月食の攻撃竜珠(レア)",
+        "rate_text": "確定",
+        "qty": 2
+      }
+    ],
+    "notes": "中身を全て獲得する袋 (クライアントのデータ)。",
+    "refs": [
+      {
+        "source": "jp-client-20261001"
+      }
+    ]
+  },
+  {
+    "id": "client-box-536886878",
+    "location": "バーバリアンの月食の竜珠レア袋",
+    "location_kind": "box",
+    "label": "中身 (全て獲得)",
+    "entries": [
+      {
+        "item": "月食の防御竜珠(レア)",
+        "rate_text": "確定"
+      },
+      {
+        "item": "月食の攻撃竜珠(レア)",
+        "rate_text": "確定"
+      },
+      {
+        "item": "月食の攻撃竜珠(レア)",
+        "rate_text": "確定",
+        "qty": 2
+      }
+    ],
+    "notes": "中身を全て獲得する袋 (クライアントのデータ)。",
+    "refs": [
+      {
+        "source": "jp-client-20261001"
+      }
+    ]
+  },
+  {
+    "id": "client-box-536886879",
+    "location": "デストロイヤーの月食の竜珠レア袋",
+    "location_kind": "box",
+    "label": "中身 (全て獲得)",
+    "entries": [
+      {
+        "item": "月食の防御竜珠(レア)",
+        "rate_text": "確定"
+      },
+      {
+        "item": "月食の攻撃竜珠(レア)",
+        "rate_text": "確定"
+      },
+      {
+        "item": "月食の攻撃竜珠(レア)",
+        "rate_text": "確定",
+        "qty": 2
+      }
+    ],
+    "notes": "中身を全て獲得する袋 (クライアントのデータ)。",
+    "refs": [
+      {
+        "source": "jp-client-20261001"
+      }
+    ]
+  },
+  {
+    "id": "client-box-536886880",
+    "location": "ダークアベンジャーの月食の竜珠レア袋",
+    "location_kind": "box",
+    "label": "中身 (全て獲得)",
+    "entries": [
+      {
+        "item": "月食の防御竜珠(レア)",
+        "rate_text": "確定"
+      },
+      {
+        "item": "月食の攻撃竜珠(レア)",
+        "rate_text": "確定"
+      },
+      {
+        "item": "月食の攻撃竜珠(レア)",
+        "rate_text": "確定",
+        "qty": 2
+      }
+    ],
+    "notes": "中身を全て獲得する袋 (クライアントのデータ)。",
+    "refs": [
+      {
+        "source": "jp-client-20261001"
+      }
+    ]
+  },
+  {
+    "id": "client-box-536886881",
+    "location": "ミスティックナイトの月食の竜珠レア袋",
+    "location_kind": "box",
+    "label": "中身 (全て獲得)",
+    "entries": [
+      {
+        "item": "月食の防御竜珠(レア)",
+        "rate_text": "確定"
+      },
+      {
+        "item": "月食の攻撃竜珠(レア)",
+        "rate_text": "確定"
+      },
+      {
+        "item": "月食の攻撃竜珠(レア)",
+        "rate_text": "確定",
+        "qty": 2
+      }
+    ],
+    "notes": "中身を全て獲得する袋 (クライアントのデータ)。",
+    "refs": [
+      {
+        "source": "jp-client-20261001"
+      }
+    ]
+  },
+  {
+    "id": "client-box-536886882",
+    "location": "グランドマスターの月食の竜珠レア袋",
+    "location_kind": "box",
+    "label": "中身 (全て獲得)",
+    "entries": [
+      {
+        "item": "月食の防御竜珠(レア)",
+        "rate_text": "確定"
+      },
+      {
+        "item": "月食の攻撃竜珠(レア)",
+        "rate_text": "確定"
+      },
+      {
+        "item": "月食の攻撃竜珠(レア)",
+        "rate_text": "確定",
+        "qty": 2
+      }
+    ],
+    "notes": "中身を全て獲得する袋 (クライアントのデータ)。",
+    "refs": [
+      {
+        "source": "jp-client-20261001"
+      }
+    ]
+  },
+  {
+    "id": "client-box-536886883",
+    "location": "スナイパーの月食の竜珠レア袋",
+    "location_kind": "box",
+    "label": "中身 (全て獲得)",
+    "entries": [
+      {
+        "item": "月食の防御竜珠(レア)",
+        "rate_text": "確定"
+      },
+      {
+        "item": "月食の攻撃竜珠(レア)",
+        "rate_text": "確定"
+      },
+      {
+        "item": "月食の攻撃竜珠(レア)",
+        "rate_text": "確定",
+        "qty": 2
+      }
+    ],
+    "notes": "中身を全て獲得する袋 (クライアントのデータ)。",
+    "refs": [
+      {
+        "source": "jp-client-20261001"
+      }
+    ]
+  },
+  {
+    "id": "client-box-536886884",
+    "location": "アーティラリーの月食の竜珠レア袋",
+    "location_kind": "box",
+    "label": "中身 (全て獲得)",
+    "entries": [
+      {
+        "item": "月食の防御竜珠(レア)",
+        "rate_text": "確定"
+      },
+      {
+        "item": "月食の攻撃竜珠(レア)",
+        "rate_text": "確定"
+      },
+      {
+        "item": "月食の攻撃竜珠(レア)",
+        "rate_text": "確定",
+        "qty": 2
+      }
+    ],
+    "notes": "中身を全て獲得する袋 (クライアントのデータ)。",
+    "refs": [
+      {
+        "source": "jp-client-20261001"
+      }
+    ]
+  },
+  {
+    "id": "client-box-536886885",
+    "location": "テンペストの月食の竜珠レア袋",
+    "location_kind": "box",
+    "label": "中身 (全て獲得)",
+    "entries": [
+      {
+        "item": "月食の防御竜珠(レア)",
+        "rate_text": "確定"
+      },
+      {
+        "item": "月食の攻撃竜珠(レア)",
+        "rate_text": "確定"
+      },
+      {
+        "item": "月食の攻撃竜珠(レア)",
+        "rate_text": "確定",
+        "qty": 2
+      }
+    ],
+    "notes": "中身を全て獲得する袋 (クライアントのデータ)。",
+    "refs": [
+      {
+        "source": "jp-client-20261001"
+      }
+    ]
+  },
+  {
+    "id": "client-box-536886886",
+    "location": "ウィンドウォーカーの月食の竜珠レア袋",
+    "location_kind": "box",
+    "label": "中身 (全て獲得)",
+    "entries": [
+      {
+        "item": "月食の防御竜珠(レア)",
+        "rate_text": "確定"
+      },
+      {
+        "item": "月食の攻撃竜珠(レア)",
+        "rate_text": "確定"
+      },
+      {
+        "item": "月食の攻撃竜珠(レア)",
+        "rate_text": "確定",
+        "qty": 2
+      }
+    ],
+    "notes": "中身を全て獲得する袋 (クライアントのデータ)。",
+    "refs": [
+      {
+        "source": "jp-client-20261001"
+      }
+    ]
+  },
+  {
+    "id": "client-box-536886887",
+    "location": "シルバーハンターの月食の竜珠レア袋",
+    "location_kind": "box",
+    "label": "中身 (全て獲得)",
+    "entries": [
+      {
+        "item": "月食の防御竜珠(レア)",
+        "rate_text": "確定"
+      },
+      {
+        "item": "月食の攻撃竜珠(レア)",
+        "rate_text": "確定"
+      },
+      {
+        "item": "月食の攻撃竜珠(レア)",
+        "rate_text": "確定",
+        "qty": 2
+      }
+    ],
+    "notes": "中身を全て獲得する袋 (クライアントのデータ)。",
+    "refs": [
+      {
+        "source": "jp-client-20261001"
+      }
+    ]
+  },
+  {
+    "id": "client-box-536886888",
+    "location": "セレアナの月食の竜珠レア袋",
+    "location_kind": "box",
+    "label": "中身 (全て獲得)",
+    "entries": [
+      {
+        "item": "月食の防御竜珠(レア)",
+        "rate_text": "確定"
+      },
+      {
+        "item": "月食の攻撃竜珠(レア)",
+        "rate_text": "確定"
+      },
+      {
+        "item": "月食の攻撃竜珠(レア)",
+        "rate_text": "確定",
+        "qty": 2
+      }
+    ],
+    "notes": "中身を全て獲得する袋 (クライアントのデータ)。",
+    "refs": [
+      {
+        "source": "jp-client-20261001"
+      }
+    ]
+  },
+  {
+    "id": "client-box-536886889",
+    "location": "エレストラの月食の竜珠レア袋",
+    "location_kind": "box",
+    "label": "中身 (全て獲得)",
+    "entries": [
+      {
+        "item": "月食の防御竜珠(レア)",
+        "rate_text": "確定"
+      },
+      {
+        "item": "月食の攻撃竜珠(レア)",
+        "rate_text": "確定"
+      },
+      {
+        "item": "月食の攻撃竜珠(レア)",
+        "rate_text": "確定",
+        "qty": 2
+      }
+    ],
+    "notes": "中身を全て獲得する袋 (クライアントのデータ)。",
+    "refs": [
+      {
+        "source": "jp-client-20261001"
+      }
+    ]
+  },
+  {
+    "id": "client-box-536886890",
+    "location": "スマッシャーの月食の竜珠レア袋",
+    "location_kind": "box",
+    "label": "中身 (全て獲得)",
+    "entries": [
+      {
+        "item": "月食の防御竜珠(レア)",
+        "rate_text": "確定"
+      },
+      {
+        "item": "月食の攻撃竜珠(レア)",
+        "rate_text": "確定"
+      },
+      {
+        "item": "月食の攻撃竜珠(レア)",
+        "rate_text": "確定",
+        "qty": 2
+      }
+    ],
+    "notes": "中身を全て獲得する袋 (クライアントのデータ)。",
+    "refs": [
+      {
+        "source": "jp-client-20261001"
+      }
+    ]
+  },
+  {
+    "id": "client-box-536886891",
+    "location": "マジェスティーの月食の竜珠レア袋",
+    "location_kind": "box",
+    "label": "中身 (全て獲得)",
+    "entries": [
+      {
+        "item": "月食の防御竜珠(レア)",
+        "rate_text": "確定"
+      },
+      {
+        "item": "月食の攻撃竜珠(レア)",
+        "rate_text": "確定"
+      },
+      {
+        "item": "月食の攻撃竜珠(レア)",
+        "rate_text": "確定",
+        "qty": 2
+      }
+    ],
+    "notes": "中身を全て獲得する袋 (クライアントのデータ)。",
+    "refs": [
+      {
+        "source": "jp-client-20261001"
+      }
+    ]
+  },
+  {
+    "id": "client-box-536886892",
+    "location": "ナイトメアマギカの月食の竜珠レア袋",
+    "location_kind": "box",
+    "label": "中身 (全て獲得)",
+    "entries": [
+      {
+        "item": "月食の防御竜珠(レア)",
+        "rate_text": "確定"
+      },
+      {
+        "item": "月食の攻撃竜珠(レア)",
+        "rate_text": "確定"
+      },
+      {
+        "item": "月食の攻撃竜珠(レア)",
+        "rate_text": "確定",
+        "qty": 2
+      }
+    ],
+    "notes": "中身を全て獲得する袋 (クライアントのデータ)。",
+    "refs": [
+      {
+        "source": "jp-client-20261001"
+      }
+    ]
+  },
+  {
+    "id": "client-box-536886893",
+    "location": "ガーディアンの月食の竜珠レア袋",
+    "location_kind": "box",
+    "label": "中身 (全て獲得)",
+    "entries": [
+      {
+        "item": "月食の防御竜珠(レア)",
+        "rate_text": "確定"
+      },
+      {
+        "item": "月食の攻撃竜珠(レア)",
+        "rate_text": "確定"
+      },
+      {
+        "item": "月食の攻撃竜珠(レア)",
+        "rate_text": "確定",
+        "qty": 2
+      }
+    ],
+    "notes": "中身を全て獲得する袋 (クライアントのデータ)。",
+    "refs": [
+      {
+        "source": "jp-client-20261001"
+      }
+    ]
+  },
+  {
+    "id": "client-box-536886894",
+    "location": "クルセイダーの月食の竜珠レア袋",
+    "location_kind": "box",
+    "label": "中身 (全て獲得)",
+    "entries": [
+      {
+        "item": "月食の防御竜珠(レア)",
+        "rate_text": "確定"
+      },
+      {
+        "item": "月食の攻撃竜珠(レア)",
+        "rate_text": "確定"
+      },
+      {
+        "item": "月食の攻撃竜珠(レア)",
+        "rate_text": "確定",
+        "qty": 2
+      }
+    ],
+    "notes": "中身を全て獲得する袋 (クライアントのデータ)。",
+    "refs": [
+      {
+        "source": "jp-client-20261001"
+      }
+    ]
+  },
+  {
+    "id": "client-box-536886895",
+    "location": "セイントの月食の竜珠レア袋",
+    "location_kind": "box",
+    "label": "中身 (全て獲得)",
+    "entries": [
+      {
+        "item": "月食の防御竜珠(レア)",
+        "rate_text": "確定"
+      },
+      {
+        "item": "月食の攻撃竜珠(レア)",
+        "rate_text": "確定"
+      },
+      {
+        "item": "月食の攻撃竜珠(レア)",
+        "rate_text": "確定",
+        "qty": 2
+      }
+    ],
+    "notes": "中身を全て獲得する袋 (クライアントのデータ)。",
+    "refs": [
+      {
+        "source": "jp-client-20261001"
+      }
+    ]
+  },
+  {
+    "id": "client-box-536886896",
+    "location": "インクイジターの月食の竜珠レア袋",
+    "location_kind": "box",
+    "label": "中身 (全て獲得)",
+    "entries": [
+      {
+        "item": "月食の防御竜珠(レア)",
+        "rate_text": "確定"
+      },
+      {
+        "item": "月食の攻撃竜珠(レア)",
+        "rate_text": "確定"
+      },
+      {
+        "item": "月食の攻撃竜珠(レア)",
+        "rate_text": "確定",
+        "qty": 2
+      }
+    ],
+    "notes": "中身を全て獲得する袋 (クライアントのデータ)。",
+    "refs": [
+      {
+        "source": "jp-client-20261001"
+      }
+    ]
+  },
+  {
+    "id": "client-box-536886897",
+    "location": "アークヘレティックの月食の竜珠レア袋",
+    "location_kind": "box",
+    "label": "中身 (全て獲得)",
+    "entries": [
+      {
+        "item": "月食の防御竜珠(レア)",
+        "rate_text": "確定"
+      },
+      {
+        "item": "月食の攻撃竜珠(レア)",
+        "rate_text": "確定"
+      },
+      {
+        "item": "月食の攻撃竜珠(レア)",
+        "rate_text": "確定",
+        "qty": 2
+      }
+    ],
+    "notes": "中身を全て獲得する袋 (クライアントのデータ)。",
+    "refs": [
+      {
+        "source": "jp-client-20261001"
+      }
+    ]
+  },
+  {
+    "id": "client-box-536886898",
+    "location": "シューティングスターの月食の竜珠レア袋",
+    "location_kind": "box",
+    "label": "中身 (全て獲得)",
+    "entries": [
+      {
+        "item": "月食の防御竜珠(レア)",
+        "rate_text": "確定"
+      },
+      {
+        "item": "月食の攻撃竜珠(レア)",
+        "rate_text": "確定"
+      },
+      {
+        "item": "月食の攻撃竜珠(レア)",
+        "rate_text": "確定",
+        "qty": 2
+      }
+    ],
+    "notes": "中身を全て獲得する袋 (クライアントのデータ)。",
+    "refs": [
+      {
+        "source": "jp-client-20261001"
+      }
+    ]
+  },
+  {
+    "id": "client-box-536886899",
+    "location": "ギアマスターの月食の竜珠レア袋",
+    "location_kind": "box",
+    "label": "中身 (全て獲得)",
+    "entries": [
+      {
+        "item": "月食の防御竜珠(レア)",
+        "rate_text": "確定"
+      },
+      {
+        "item": "月食の攻撃竜珠(レア)",
+        "rate_text": "確定"
+      },
+      {
+        "item": "月食の攻撃竜珠(レア)",
+        "rate_text": "確定",
+        "qty": 2
+      }
+    ],
+    "notes": "中身を全て獲得する袋 (クライアントのデータ)。",
+    "refs": [
+      {
+        "source": "jp-client-20261001"
+      }
+    ]
+  },
+  {
+    "id": "client-box-536886900",
+    "location": "アデプトの月食の竜珠レア袋",
+    "location_kind": "box",
+    "label": "中身 (全て獲得)",
+    "entries": [
+      {
+        "item": "月食の防御竜珠(レア)",
+        "rate_text": "確定"
+      },
+      {
+        "item": "月食の攻撃竜珠(レア)",
+        "rate_text": "確定"
+      },
+      {
+        "item": "月食の攻撃竜珠(レア)",
+        "rate_text": "確定",
+        "qty": 2
+      }
+    ],
+    "notes": "中身を全て獲得する袋 (クライアントのデータ)。",
+    "refs": [
+      {
+        "source": "jp-client-20261001"
+      }
+    ]
+  },
+  {
+    "id": "client-box-536886901",
+    "location": "フィジシャンの月食の竜珠レア袋",
+    "location_kind": "box",
+    "label": "中身 (全て獲得)",
+    "entries": [
+      {
+        "item": "月食の防御竜珠(レア)",
+        "rate_text": "確定"
+      },
+      {
+        "item": "月食の攻撃竜珠(レア)",
+        "rate_text": "確定"
+      },
+      {
+        "item": "月食の攻撃竜珠(レア)",
+        "rate_text": "確定",
+        "qty": 2
+      }
+    ],
+    "notes": "中身を全て獲得する袋 (クライアントのデータ)。",
+    "refs": [
+      {
+        "source": "jp-client-20261001"
+      }
+    ]
+  },
+  {
+    "id": "client-box-536886902",
+    "location": "ライドギアズの月食の竜珠レア袋",
+    "location_kind": "box",
+    "label": "中身 (全て獲得)",
+    "entries": [
+      {
+        "item": "月食の防御竜珠(レア)",
+        "rate_text": "確定"
+      },
+      {
+        "item": "月食の攻撃竜珠(レア)",
+        "rate_text": "確定"
+      },
+      {
+        "item": "月食の攻撃竜珠(レア)",
+        "rate_text": "確定",
+        "qty": 2
+      }
+    ],
+    "notes": "中身を全て獲得する袋 (クライアントのデータ)。",
+    "refs": [
+      {
+        "source": "jp-client-20261001"
+      }
+    ]
+  },
+  {
+    "id": "client-box-536886903",
+    "location": "ダークサマナーの月食の竜珠レア袋",
+    "location_kind": "box",
+    "label": "中身 (全て獲得)",
+    "entries": [
+      {
+        "item": "月食の防御竜珠(レア)",
+        "rate_text": "確定"
+      },
+      {
+        "item": "月食の攻撃竜珠(レア)",
+        "rate_text": "確定"
+      },
+      {
+        "item": "月食の攻撃竜珠(レア)",
+        "rate_text": "確定",
+        "qty": 2
+      }
+    ],
+    "notes": "中身を全て獲得する袋 (クライアントのデータ)。",
+    "refs": [
+      {
+        "source": "jp-client-20261001"
+      }
+    ]
+  },
+  {
+    "id": "client-box-536886904",
+    "location": "ソウルイーターの月食の竜珠レア袋",
+    "location_kind": "box",
+    "label": "中身 (全て獲得)",
+    "entries": [
+      {
+        "item": "月食の防御竜珠(レア)",
+        "rate_text": "確定"
+      },
+      {
+        "item": "月食の攻撃竜珠(レア)",
+        "rate_text": "確定"
+      },
+      {
+        "item": "月食の攻撃竜珠(レア)",
+        "rate_text": "確定",
+        "qty": 2
+      }
+    ],
+    "notes": "中身を全て獲得する袋 (クライアントのデータ)。",
+    "refs": [
+      {
+        "source": "jp-client-20261001"
+      }
+    ]
+  },
+  {
+    "id": "client-box-536886905",
+    "location": "ブレイドダンサーの月食の竜珠レア袋",
+    "location_kind": "box",
+    "label": "中身 (全て獲得)",
+    "entries": [
+      {
+        "item": "月食の防御竜珠(レア)",
+        "rate_text": "確定"
+      },
+      {
+        "item": "月食の攻撃竜珠(レア)",
+        "rate_text": "確定"
+      },
+      {
+        "item": "月食の攻撃竜珠(レア)",
+        "rate_text": "確定",
+        "qty": 2
+      }
+    ],
+    "notes": "中身を全て獲得する袋 (クライアントのデータ)。",
+    "refs": [
+      {
+        "source": "jp-client-20261001"
+      }
+    ]
+  },
+  {
+    "id": "client-box-536886906",
+    "location": "スピリットダンサーの月食の竜珠レア袋",
+    "location_kind": "box",
+    "label": "中身 (全て獲得)",
+    "entries": [
+      {
+        "item": "月食の防御竜珠(レア)",
+        "rate_text": "確定"
+      },
+      {
+        "item": "月食の攻撃竜珠(レア)",
+        "rate_text": "確定"
+      },
+      {
+        "item": "月食の攻撃竜珠(レア)",
+        "rate_text": "確定",
+        "qty": 2
+      }
+    ],
+    "notes": "中身を全て獲得する袋 (クライアントのデータ)。",
+    "refs": [
+      {
+        "source": "jp-client-20261001"
+      }
+    ]
+  },
+  {
+    "id": "client-box-536886907",
+    "location": "オラクルフレイアの月食の竜珠レア袋",
+    "location_kind": "box",
+    "label": "中身 (全て獲得)",
+    "entries": [
+      {
+        "item": "月食の防御竜珠(レア)",
+        "rate_text": "確定"
+      },
+      {
+        "item": "月食の攻撃竜珠(レア)",
+        "rate_text": "確定"
+      },
+      {
+        "item": "月食の攻撃竜珠(レア)",
+        "rate_text": "確定",
+        "qty": 2
+      }
+    ],
+    "notes": "中身を全て獲得する袋 (クライアントのデータ)。",
+    "refs": [
+      {
+        "source": "jp-client-20261001"
+      }
+    ]
+  },
+  {
+    "id": "client-box-536886908",
+    "location": "リッパーの月食の竜珠レア袋",
+    "location_kind": "box",
+    "label": "中身 (全て獲得)",
+    "entries": [
+      {
+        "item": "月食の防御竜珠(レア)",
+        "rate_text": "確定"
+      },
+      {
+        "item": "月食の攻撃竜珠(レア)",
+        "rate_text": "確定"
+      },
+      {
+        "item": "月食の攻撃竜珠(レア)",
+        "rate_text": "確定",
+        "qty": 2
+      }
+    ],
+    "notes": "中身を全て獲得する袋 (クライアントのデータ)。",
+    "refs": [
+      {
+        "source": "jp-client-20261001"
+      }
+    ]
+  },
+  {
+    "id": "client-box-536886909",
+    "location": "レイヴンの月食の竜珠レア袋",
+    "location_kind": "box",
+    "label": "中身 (全て獲得)",
+    "entries": [
+      {
+        "item": "月食の防御竜珠(レア)",
+        "rate_text": "確定"
+      },
+      {
+        "item": "月食の攻撃竜珠(レア)",
+        "rate_text": "確定"
+      },
+      {
+        "item": "月食の攻撃竜珠(レア)",
+        "rate_text": "確定",
+        "qty": 2
+      }
+    ],
+    "notes": "中身を全て獲得する袋 (クライアントのデータ)。",
+    "refs": [
+      {
+        "source": "jp-client-20261001"
+      }
+    ]
+  },
+  {
+    "id": "client-box-536886910",
+    "location": "ライトフューリーの月食の竜珠レア袋",
+    "location_kind": "box",
+    "label": "中身 (全て獲得)",
+    "entries": [
+      {
+        "item": "月食の防御竜珠(レア)",
+        "rate_text": "確定"
+      },
+      {
+        "item": "月食の攻撃竜珠(レア)",
+        "rate_text": "確定"
+      },
+      {
+        "item": "月食の攻撃竜珠(レア)",
+        "rate_text": "確定",
+        "qty": 2
+      }
+    ],
+    "notes": "中身を全て獲得する袋 (クライアントのデータ)。",
+    "refs": [
+      {
+        "source": "jp-client-20261001"
+      }
+    ]
+  },
+  {
+    "id": "client-box-536886911",
+    "location": "アビスウォーカーの月食の竜珠レア袋",
+    "location_kind": "box",
+    "label": "中身 (全て獲得)",
+    "entries": [
+      {
+        "item": "月食の防御竜珠(レア)",
+        "rate_text": "確定"
+      },
+      {
+        "item": "月食の攻撃竜珠(レア)",
+        "rate_text": "確定"
+      },
+      {
+        "item": "月食の攻撃竜珠(レア)",
+        "rate_text": "確定",
+        "qty": 2
+      }
+    ],
+    "notes": "中身を全て獲得する袋 (クライアントのデータ)。",
+    "refs": [
+      {
+        "source": "jp-client-20261001"
+      }
+    ]
+  },
+  {
+    "id": "client-box-536886912",
+    "location": "ブラッディファントムの月食の竜珠レア袋",
+    "location_kind": "box",
+    "label": "中身 (全て獲得)",
+    "entries": [
+      {
+        "item": "月食の防御竜珠(レア)",
+        "rate_text": "確定"
+      },
+      {
+        "item": "月食の攻撃竜珠(レア)",
+        "rate_text": "確定"
+      },
+      {
+        "item": "月食の攻撃竜珠(レア)",
+        "rate_text": "確定",
+        "qty": 2
+      }
+    ],
+    "notes": "中身を全て獲得する袋 (クライアントのデータ)。",
+    "refs": [
+      {
+        "source": "jp-client-20261001"
+      }
+    ]
+  },
+  {
+    "id": "client-box-536886913",
+    "location": "フローリーの月食の竜珠レア袋",
+    "location_kind": "box",
+    "label": "中身 (全て獲得)",
+    "entries": [
+      {
+        "item": "月食の防御竜珠(レア)",
+        "rate_text": "確定"
+      },
+      {
+        "item": "月食の攻撃竜珠(レア)",
+        "rate_text": "確定"
+      },
+      {
+        "item": "月食の攻撃竜珠(レア)",
+        "rate_text": "確定",
+        "qty": 2
+      }
+    ],
+    "notes": "中身を全て獲得する袋 (クライアントのデータ)。",
+    "refs": [
+      {
+        "source": "jp-client-20261001"
+      }
+    ]
+  },
+  {
+    "id": "client-box-536886914",
+    "location": "スティングブリーザーの月食の竜珠レア袋",
+    "location_kind": "box",
+    "label": "中身 (全て獲得)",
+    "entries": [
+      {
+        "item": "月食の防御竜珠(レア)",
+        "rate_text": "確定"
+      },
+      {
+        "item": "月食の攻撃竜珠(レア)",
+        "rate_text": "確定"
+      },
+      {
+        "item": "月食の攻撃竜珠(レア)",
+        "rate_text": "確定",
+        "qty": 2
+      }
+    ],
+    "notes": "中身を全て獲得する袋 (クライアントのデータ)。",
+    "refs": [
+      {
+        "source": "jp-client-20261001"
+      }
+    ]
+  },
+  {
+    "id": "client-box-536886915",
+    "location": "アヴァランテの月食の竜珠レア袋",
+    "location_kind": "box",
+    "label": "中身 (全て獲得)",
+    "entries": [
+      {
+        "item": "月食の防御竜珠(レア)",
+        "rate_text": "確定"
+      },
+      {
+        "item": "月食の攻撃竜珠(レア)",
+        "rate_text": "確定"
+      },
+      {
+        "item": "月食の攻撃竜珠(レア)",
+        "rate_text": "確定",
+        "qty": 2
+      }
+    ],
+    "notes": "中身を全て獲得する袋 (クライアントのデータ)。",
+    "refs": [
+      {
+        "source": "jp-client-20261001"
+      }
+    ]
+  },
+  {
+    "id": "client-box-536886916",
+    "location": "バレンティアの月食の竜珠レア袋",
+    "location_kind": "box",
+    "label": "中身 (全て獲得)",
+    "entries": [
+      {
+        "item": "月食の防御竜珠(レア)",
+        "rate_text": "確定"
+      },
+      {
+        "item": "月食の攻撃竜珠(レア)",
+        "rate_text": "確定"
+      },
+      {
+        "item": "月食の攻撃竜珠(レア)",
+        "rate_text": "確定",
+        "qty": 2
+      }
+    ],
+    "notes": "中身を全て獲得する袋 (クライアントのデータ)。",
+    "refs": [
+      {
+        "source": "jp-client-20261001"
+      }
+    ]
+  },
+  {
+    "id": "client-box-536886917",
+    "location": "ベナプラガの月食の竜珠レア袋",
+    "location_kind": "box",
+    "label": "中身 (全て獲得)",
+    "entries": [
+      {
+        "item": "月食の防御竜珠(レア)",
+        "rate_text": "確定"
+      },
+      {
+        "item": "月食の攻撃竜珠(レア)",
+        "rate_text": "確定"
+      },
+      {
+        "item": "月食の攻撃竜珠(レア)",
+        "rate_text": "確定",
+        "qty": 2
+      }
+    ],
+    "notes": "中身を全て獲得する袋 (クライアントのデータ)。",
+    "refs": [
+      {
+        "source": "jp-client-20261001"
+      }
+    ]
+  },
+  {
+    "id": "client-box-536886918",
+    "location": "ガルディアナの月食の竜珠レア袋",
+    "location_kind": "box",
+    "label": "中身 (全て獲得)",
+    "entries": [
+      {
+        "item": "月食の防御竜珠(レア)",
+        "rate_text": "確定"
+      },
+      {
+        "item": "月食の攻撃竜珠(レア)",
+        "rate_text": "確定"
+      },
+      {
+        "item": "月食の攻撃竜珠(レア)",
+        "rate_text": "確定",
+        "qty": 2
+      }
+    ],
+    "notes": "中身を全て獲得する袋 (クライアントのデータ)。",
+    "refs": [
+      {
+        "source": "jp-client-20261001"
+      }
+    ]
+  },
+  {
+    "id": "client-box-536886919",
+    "location": "ルイーナの月食の竜珠レア袋",
+    "location_kind": "box",
+    "label": "中身 (全て獲得)",
+    "entries": [
+      {
+        "item": "月食の防御竜珠(レア)",
+        "rate_text": "確定"
+      },
+      {
+        "item": "月食の攻撃竜珠(レア)",
+        "rate_text": "確定"
+      },
+      {
+        "item": "月食の攻撃竜珠(レア)",
+        "rate_text": "確定",
+        "qty": 2
+      }
+    ],
+    "notes": "中身を全て獲得する袋 (クライアントのデータ)。",
+    "refs": [
+      {
+        "source": "jp-client-20261001"
+      }
+    ]
+  },
+  {
+    "id": "client-box-536886920",
+    "location": "ブラスティアの月食の竜珠レア袋",
+    "location_kind": "box",
+    "label": "中身 (全て獲得)",
+    "entries": [
+      {
+        "item": "月食の防御竜珠(レア)",
+        "rate_text": "確定"
+      },
+      {
+        "item": "月食の攻撃竜珠(レア)",
+        "rate_text": "確定"
+      },
+      {
+        "item": "月食の攻撃竜珠(レア)",
+        "rate_text": "確定",
+        "qty": 2
+      }
+    ],
+    "notes": "中身を全て獲得する袋 (クライアントのデータ)。",
+    "refs": [
+      {
+        "source": "jp-client-20261001"
+      }
+    ]
+  },
+  {
+    "id": "client-box-536886921",
+    "location": "エレクトリカの月食の竜珠レア袋",
+    "location_kind": "box",
+    "label": "中身 (全て獲得)",
+    "entries": [
+      {
+        "item": "月食の防御竜珠(レア)",
+        "rate_text": "確定"
+      },
+      {
+        "item": "月食の攻撃竜珠(レア)",
+        "rate_text": "確定"
+      },
+      {
+        "item": "月食の攻撃竜珠(レア)",
+        "rate_text": "確定",
+        "qty": 2
+      }
+    ],
+    "notes": "中身を全て獲得する袋 (クライアントのデータ)。",
+    "refs": [
+      {
+        "source": "jp-client-20261001"
+      }
+    ]
+  },
+  {
+    "id": "client-box-536886922",
+    "location": "デュエリストの月食の竜珠レア袋",
+    "location_kind": "box",
+    "label": "中身 (全て獲得)",
+    "entries": [
+      {
+        "item": "月食の防御竜珠(レア)",
+        "rate_text": "確定"
+      },
+      {
+        "item": "月食の攻撃竜珠(レア)",
+        "rate_text": "確定"
+      },
+      {
+        "item": "月食の攻撃竜珠(レア)",
+        "rate_text": "確定",
+        "qty": 2
+      }
+    ],
+    "notes": "中身を全て獲得する袋 (クライアントのデータ)。",
+    "refs": [
+      {
+        "source": "jp-client-20261001"
+      }
+    ]
+  },
+  {
+    "id": "client-box-536886923",
+    "location": "トリックスターの月食の竜珠レア袋",
+    "location_kind": "box",
+    "label": "中身 (全て獲得)",
+    "entries": [
+      {
+        "item": "月食の防御竜珠(レア)",
+        "rate_text": "確定"
+      },
+      {
+        "item": "月食の攻撃竜珠(レア)",
+        "rate_text": "確定"
+      },
+      {
+        "item": "月食の攻撃竜珠(レア)",
+        "rate_text": "確定",
+        "qty": 2
+      }
+    ],
+    "notes": "中身を全て獲得する袋 (クライアントのデータ)。",
+    "refs": [
+      {
+        "source": "jp-client-20261001"
+      }
+    ]
+  },
+  {
+    "id": "client-box-536886924",
+    "location": "レヴァナントの月食の竜珠レア袋",
+    "location_kind": "box",
+    "label": "中身 (全て獲得)",
+    "entries": [
+      {
+        "item": "月食の防御竜珠(レア)",
+        "rate_text": "確定"
+      },
+      {
+        "item": "月食の攻撃竜珠(レア)",
+        "rate_text": "確定"
+      },
+      {
+        "item": "月食の攻撃竜珠(レア)",
+        "rate_text": "確定",
+        "qty": 2
+      }
+    ],
+    "notes": "中身を全て獲得する袋 (クライアントのデータ)。",
+    "refs": [
+      {
+        "source": "jp-client-20261001"
+      }
+    ]
+  },
+  {
+    "id": "client-box-536886925",
+    "location": "マーベリックの月食の竜珠レア袋",
+    "location_kind": "box",
+    "label": "中身 (全て獲得)",
+    "entries": [
+      {
+        "item": "月食の防御竜珠(レア)",
+        "rate_text": "確定"
+      },
+      {
+        "item": "月食の攻撃竜珠(レア)",
+        "rate_text": "確定"
+      },
+      {
+        "item": "月食の攻撃竜珠(レア)",
+        "rate_text": "確定",
+        "qty": 2
+      }
+    ],
+    "notes": "中身を全て獲得する袋 (クライアントのデータ)。",
+    "refs": [
+      {
+        "source": "jp-client-20261001"
+      }
+    ]
+  },
+  {
+    "id": "client-box-536886986",
+    "location": "ビースティアレイナの月食の竜珠レア袋",
+    "location_kind": "box",
+    "label": "中身 (全て獲得)",
+    "entries": [
+      {
+        "item": "月食の防御竜珠(レア)",
+        "rate_text": "確定"
+      },
+      {
+        "item": "月食の攻撃竜珠(レア)",
+        "rate_text": "確定"
+      },
+      {
+        "item": "月食の攻撃竜珠(レア)",
+        "rate_text": "確定",
+        "qty": 2
+      }
+    ],
+    "notes": "中身を全て獲得する袋 (クライアントのデータ)。",
+    "refs": [
+      {
+        "source": "jp-client-20261001"
+      }
+    ]
+  },
+  {
+    "id": "client-box-536887730",
+    "location": "成長の守石[8段階]：レベルアップボックス報酬袋",
+    "location_kind": "box",
+    "label": "中身 (全て獲得)",
+    "entries": [
+      {
+        "item": "崩壊の防御竜珠(エピック)",
+        "rate_text": "確定"
+      },
+      {
+        "item": "満開の脅威の変異型防御竜珠",
+        "rate_text": "確定"
+      },
+      {
+        "item": "満開の保護の変異型防御竜珠",
+        "rate_text": "確定"
+      }
+    ],
+    "notes": "中身を全て獲得する袋 (クライアントのデータ)。",
+    "refs": [
+      {
+        "source": "jp-client-20261001"
+      }
+    ]
+  },
+  {
+    "id": "client-box-536887848",
+    "location": "アルタ月食の竜珠レジェンド選択袋",
+    "location_kind": "box",
+    "label": "選択",
+    "entries": [
+      {
+        "item": "ヘイズフロストドラゴンの月食防御竜珠(レジェンド)",
+        "rate_text": "選択"
+      },
+      {
+        "item": "ヘイズフロストドラゴンの月食攻撃竜珠(レジェンド)",
+        "rate_text": "選択"
+      }
+    ],
+    "notes": "中身から1つを選んで獲得 (クライアントのデータ)。",
+    "refs": [
+      {
+        "source": "jp-client-20261001"
+      }
+    ]
+  },
+  {
+    "id": "client-box-536887860",
+    "location": "アルタ月食の竜珠ユニーク選択袋",
+    "location_kind": "box",
+    "label": "選択",
+    "entries": [
+      {
+        "item": "月食の防御竜珠(ユニーク)",
+        "rate_text": "選択"
+      },
+      {
+        "item": "月食の攻撃竜珠(ユニーク)",
+        "rate_text": "選択"
+      }
+    ],
+    "notes": "中身から1つを選んで獲得 (クライアントのデータ)。",
+    "refs": [
+      {
+        "source": "jp-client-20261001"
+      }
+    ]
+  },
+  {
+    "id": "client-box-536887872",
+    "location": "アルタ月食の竜珠エピック選択袋",
+    "location_kind": "box",
+    "label": "選択",
+    "entries": [
+      {
+        "item": "月食の防御竜珠(エピック)",
+        "rate_text": "選択"
+      },
+      {
+        "item": "月食の攻撃竜珠(エピック)",
+        "rate_text": "選択"
+      }
+    ],
+    "notes": "中身から1つを選んで獲得 (クライアントのデータ)。",
+    "refs": [
+      {
+        "source": "jp-client-20261001"
+      }
+    ]
+  },
+  {
+    "id": "client-box-536887915",
+    "location": "リングマスターの月食の竜珠レア袋",
+    "location_kind": "box",
+    "label": "中身 (全て獲得)",
+    "entries": [
+      {
+        "item": "月食の防御竜珠(レア)",
+        "rate_text": "確定"
+      },
+      {
+        "item": "月食の攻撃竜珠(レア)",
+        "rate_text": "確定"
+      },
+      {
+        "item": "月食の攻撃竜珠(レア)",
+        "rate_text": "確定",
+        "qty": 2
+      }
+    ],
+    "notes": "中身を全て獲得する袋 (クライアントのデータ)。",
+    "refs": [
+      {
+        "source": "jp-client-20261001"
+      }
+    ]
+  },
+  {
+    "id": "client-box-536887951",
+    "location": "アルタのための崩壊の竜珠袋",
+    "location_kind": "box",
+    "label": "中身 (全て獲得)",
+    "entries": [
+      {
+        "item": "崩壊の防御竜珠(エピック)",
+        "rate_text": "確定"
+      },
+      {
+        "item": "崩壊の攻撃竜珠(エピック)",
+        "rate_text": "確定"
+      }
+    ],
+    "notes": "中身を全て獲得する袋 (クライアントのデータ)。",
+    "refs": [
+      {
+        "source": "jp-client-20261001"
+      }
+    ]
+  },
+  {
+    "id": "client-box-536888078",
+    "location": "新しい冒険者のための崩壊の竜珠袋",
+    "location_kind": "box",
+    "label": "中身 (全て獲得)",
+    "entries": [
+      {
+        "item": "崩壊の防御竜珠(エピック)",
+        "rate_text": "確定"
+      },
+      {
+        "item": "崩壊の攻撃竜珠(エピック)",
+        "rate_text": "確定"
+      }
+    ],
+    "notes": "中身を全て獲得する袋 (クライアントのデータ)。",
+    "refs": [
+      {
+        "source": "jp-client-20261001"
+      }
+    ]
+  },
+  {
+    "id": "client-box-536888180",
+    "location": "初心者のための崩壊のアクセサリー竜珠袋",
+    "location_kind": "box",
+    "label": "中身 (全て獲得)",
+    "entries": [
+      {
+        "item": "崩壊の攻撃竜珠(エピック)",
+        "rate_text": "確定"
+      },
+      {
+        "item": "崩壊の攻撃竜珠(エピック)",
+        "rate_text": "確定",
+        "qty": 2
+      },
+      {
+        "item": "崩壊の防御竜珠(エピック)",
+        "rate_text": "確定"
+      }
+    ],
+    "notes": "中身を全て獲得する袋 (クライアントのデータ)。",
+    "refs": [
+      {
+        "source": "jp-client-20261001"
+      }
+    ]
+  },
+  {
+    "id": "client-box-536888389",
+    "location": "初心者向け月食防具竜珠(+10)袋",
+    "location_kind": "box",
+    "label": "中身 (全て獲得)",
+    "entries": [
+      {
+        "item": "ヘイズフロストドラゴンの月食防御竜珠(エンシェント)",
+        "rate_text": "確定"
+      },
+      {
+        "item": "ヘイズフロストドラゴンの月食攻撃竜珠(エンシェント)",
+        "rate_text": "確定"
+      }
+    ],
+    "notes": "中身を全て獲得する袋 (クライアントのデータ)。",
+    "refs": [
+      {
+        "source": "jp-client-20261001"
+      }
+    ]
+  },
+  {
+    "id": "client-box-536888390",
+    "location": "初心者向け月食アクセサリー竜珠(+10)袋",
+    "location_kind": "box",
+    "label": "中身 (全て獲得)",
+    "entries": [
+      {
+        "item": "ヘイズフロストドラゴンの月食防御竜珠(エンシェント)",
+        "rate_text": "確定"
+      },
+      {
+        "item": "ヘイズフロストドラゴンの月食攻撃竜珠(エンシェント)",
+        "rate_text": "確定"
+      },
+      {
+        "item": "ヘイズフロストドラゴンの月食攻撃竜珠(エンシェント)",
+        "rate_text": "確定",
+        "qty": 2
+      }
+    ],
+    "notes": "中身を全て獲得する袋 (クライアントのデータ)。",
+    "refs": [
+      {
+        "source": "jp-client-20261001"
+      }
+    ]
+  },
+  {
+    "id": "client-box-536888412",
+    "location": "初心者向け月食属性変換竜珠(+10)袋",
+    "location_kind": "box",
+    "label": "中身 (全て獲得)",
+    "entries": [
+      {
+        "item": "ヘイズフロストドラゴンの月食攻撃竜珠(エンシェント)",
+        "rate_text": "確定"
+      }
+    ],
+    "notes": "中身を全て獲得する袋 (クライアントのデータ)。",
+    "refs": [
+      {
+        "source": "jp-client-20261001"
+      }
+    ]
+  },
+  {
+    "id": "client-box-805315788",
+    "location": "+10防具/サブウェポン月食の竜珠袋",
+    "location_kind": "box",
+    "label": "中身 (全て獲得)",
+    "entries": [
+      {
+        "item": "ヘイズフロストドラゴンの月食防御竜珠(エンシェント)",
+        "rate_text": "確定"
+      },
+      {
+        "item": "ヘイズフロストドラゴンの月食攻撃竜珠(エンシェント)",
+        "rate_text": "確定"
+      }
+    ],
+    "notes": "中身を全て獲得する袋 (クライアントのデータ)。",
+    "refs": [
+      {
+        "source": "jp-client-20261001"
+      }
+    ]
+  },
+  {
+    "id": "client-box-805315789",
+    "location": "+10アクセサリー月食の竜珠袋",
+    "location_kind": "box",
+    "label": "中身 (全て獲得)",
+    "entries": [
+      {
+        "item": "ヘイズフロストドラゴンの月食防御竜珠(エンシェント)",
+        "rate_text": "確定"
+      },
+      {
+        "item": "ヘイズフロストドラゴンの月食攻撃竜珠(エンシェント)",
+        "rate_text": "確定"
+      },
+      {
+        "item": "ヘイズフロストドラゴンの月食攻撃竜珠(エンシェント)",
+        "rate_text": "確定",
+        "qty": 2
+      }
+    ],
+    "notes": "中身を全て獲得する袋 (クライアントのデータ)。",
+    "refs": [
+      {
+        "source": "jp-client-20261001"
+      }
+    ]
+  },
+  {
+    "id": "client-box-536887731",
+    "location": "成長の守石[9段階]：レベルアップボックス報酬袋",
+    "location_kind": "box",
+    "label": "中身 (全て獲得)",
+    "entries": [
+      {
+        "item": "崩壊の攻撃竜珠(エピック)",
+        "rate_text": "確定"
+      },
+      {
+        "item": "スキル竜珠(幽幻/紅月/新緑)+10選択袋",
+        "rate_text": "確定",
+        "qty": 3
+      }
+    ],
+    "notes": "中身を全て獲得する袋 (クライアントのデータ)。",
+    "refs": [
+      {
+        "source": "jp-client-20261001"
+      }
+    ]
+  },
+  {
     "id": "client-clear-11210",
     "location": "[名誉]ヘイズゴールドドラゴンネスト",
     "location_kind": "dungeon",

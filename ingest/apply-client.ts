@@ -51,13 +51,13 @@ interface Export {
   enhance: Record<string, { enchant_id: number; level_offset: number; rows: Record<string, CRow>; max_level: number }>;
   enchants: Record<string, Record<string, CRow>>;
   // 製作: compound_id / 交換: shop_row (+where, result_qty) / 進化: change_row (+accelerators)
-  recipes: Record<string, { compound_id?: number; shop_row?: number; change_row?: number; rate?: number; gold?: number; materials?: { item: string; qty: number }[]; where?: string; result_qty?: number; accelerators?: string[] }>;
-  new_recipes: (Omit<Recipe, "refs"> & { accelerators?: string[] })[];
+  recipes: Record<string, { compound_id?: number; shop_row?: number; change_row?: number; rate?: number; gold?: number; materials?: { item: string; qty: number }[]; where?: string; result_qty?: number; accelerators?: string[]; from_level?: number }>;
+  new_recipes: (Omit<Recipe, "refs"> & { accelerators?: string[]; note?: string })[];
   // all: 中身を全て獲得する袋 (_Type 112)
   boxes: Record<string, { client_id: number; select: boolean; all?: boolean; entries: { item: string; qty: number; rate?: number }[] }>;
   // 分解の結果 (確率はクライアントに無い)。levels は強化段階の範囲 [from, to]
   // plus0_only: 強化できる装備だが +0 の分解表しか無い
-  dismantles?: Record<string, { client_id: number; gold?: number; plus0_only?: boolean; rows: { levels: [number, number]; entries: { item: string; qty: number }[] }[] }>;
+  dismantles?: Record<string, { client_id: number; gold?: number; plus0_only?: boolean; note?: string; rows: { levels: [number, number]; entries: { item: string; qty: number }[] }[] }>;
   // ダンジョンのクリア報酬の箱 (確率はクライアントに無い)。counts は箱の種類ごとの個数
   // ネストのエリア (関門) 報酬 (nestareadrop.lua)。times はパーティー員 1 人あたりの回数
   nest_areas?: Record<string, { map_id: number; area: number; mode?: string; rows: { floors?: string; times?: number; entries: { item: string; qty: number }[] }[] }[]>;
@@ -566,7 +566,9 @@ const NAME_OVERRIDE: Record<string, string> = {
   "client-enh-847258874": "金糸防具 強化",
   "client-enh-847258879": "金糸武器 強化",
   "client-enh-847258881": "金糸アクセサリー 強化",
-  "client-enh-847258892": "崩壊の竜珠 強化",
+  "client-enh-847258811": "ヘイズフロストドラゴンの月食防御竜珠(エンシェント) 強化",
+  "client-enh-847258812": "ヘイズフロストドラゴンの月食攻撃竜珠(エンシェント) 強化",
+  "client-enh-847258892": "崩壊の竜珠(エピック) 強化",
   "client-enh-847258912": "金糸防具[Ⅱ] 強化",
   "client-enh-847258917": "金糸武器[Ⅱ] 強化",
 };
@@ -912,6 +914,7 @@ for (const r of recipes) {
     m.qty = cm.qty;
     if (!what.includes("個数")) what.push("個数");
   }
+  if (c.from_level && !r.notes?.includes(`+${c.from_level}`)) keepOld(r, "notes", `ベースは +${c.from_level} が条件 (クライアントの進化表)。`);
   if (c.where && !r.where) r.where = c.where;
   if (c.result_qty && c.result_qty > 1 && r.result_qty === undefined) r.result_qty = c.result_qty;
   if (diffs.length) {
@@ -928,10 +931,11 @@ const recipeIds = new Set(recipes.map((r) => r.id));
 const KIND_NOTE: Record<string, string> = { shop: "クライアントのショップ表の交換", chg: "クライアントの進化表 (加速器などで変換)", cmp: "クライアントの製作表" };
 for (const nr of ex.new_recipes ?? []) {
   if (recipeIds.has(nr.id)) continue;
-  const { accelerators, ...rest } = nr;
+  const { accelerators, note, ...rest } = nr;
   const kind = nr.id.split("-")[1];
   const rec: Recipe = { ...rest, refs: [{ source: SRC }] };
   const notes = [KIND_NOTE[kind]];
+  if (note) notes.push(note);
   if (accelerators && accelerators.length > 1) notes.push(`使える加速器: ${accelerators.join("・")}。`);
   rec.notes = notes.filter(Boolean).join("。").replace(/。。/g, "。");
   if (!rec.notes.endsWith("。")) rec.notes += "。";
@@ -1006,7 +1010,7 @@ const drops = await readJson<DropTable[]>("data/drops.json");
           base,
           materials: [],
           ...(d.gold ? { gold: d.gold } : {}),
-          notes: [lv, cand, "クライアントの分解表。"].filter(Boolean).join(""),
+          notes: [d.note, lv, cand, "クライアントの分解表。"].filter(Boolean).join(""),
           refs: [{ source: SRC }],
         });
         inc("dismantle");
@@ -1260,10 +1264,8 @@ const OPTION_NAMES: Record<number, string> = {
   3: "古竜武器",
   4: "古竜武器",
   11: "古代の変異型防御竜珠",
-  12: "月食のメイン/サブウェポン防御竜珠(ノーマル)",
-  13: "月食のメイン/サブウェポン防御竜珠(マジック)",
   22: "永遠の次元の変異型竜珠",
-  25: "崩壊の竜珠",
+  25: "崩壊の竜珠(エピック)",
   26: "金糸防具",
   27: "金糸武器",
   28: "金糸武器",
@@ -1278,10 +1280,18 @@ const PART_SHORT: Record<string, string> = {
   "メインウェポン・サブウェポン": "武器",
   "イヤリング・ネックレス・リング": "アクセサリー",
 };
+/** 対象のアイテム名を並べる。等級だけ違うものは「名前(レジェンド/エンシェント)」にまとめる */
+function gradeJoin(ids: string[]): string {
+  const ORDER = ["ノーマル", "マジック", "レア", "エピック", "ユニーク", "レジェンド", "エンシェント"];
+  const ms = ids.map((id) => id.match(/^(.*)\((ノーマル|マジック|レア|エピック|ユニーク|レジェンド|エンシェント)\)$/));
+  if (ids.length > 1 && ms.every((m) => m && m[1] === ms[0]![1]))
+    return `${ms[0]![1]}(${ms.map((m) => m![2]).sort((a, b) => ORDER.indexOf(a) - ORDER.indexOf(b)).join("/")})`;
+  return ids.join("・");
+}
 const optionTables: OptionTable[] = [];
 for (const [id, o] of Object.entries(ex.options ?? {})) {
   const parts = [...new Set(Object.values(o.parts ?? {}))];
-  const base = OPTION_NAMES[o.group] ?? o.items.join("・");
+  const base = OPTION_NAMES[o.group] ?? gradeJoin(o.items);
   const part = parts.length === 1 ? ` (${PART_SHORT[parts[0]] ?? parts[0]})` : "";
   const kinds = new Set(o.rerolls.map((r) => r.kind));
   const multi = new Set(o.lines).size < o.lines.length;
@@ -1391,6 +1401,15 @@ const OPTION_ABSORB: { id: string; kind: "table" | "recipe"; into: string[]; ref
     ref: { source: "jp-notice-1193", note: "箱舟の力 - 選択式の再付与の費用" },
     diff: "告知では選択式の再付与の材料を「変異型竜珠進化石ver.3」1個 + パキハの機械部品 2個と書いているが、クライアントでは変異型竜珠改良槌Ver.3。",
   },
+  // 月食の竜珠 (ノーマル～エンシェント。等級ごと・部位ごとの表すべて)
+  {
+    id: "n1193-eclipse-jade-reroll",
+    kind: "recipe",
+    into: [12, 13, 14, 15, 16, 18].flatMap((g) =>
+      (g <= 13 ? ["838962516", "838962096"] : ["838962516", "838962768", "838962810", "838962096", "838962348", "838962390"]).map((p) => `client-opt-${g}-${p}`),
+    ),
+    ref: { source: "jp-notice-1193", note: "箱舟の力 - 選択式の再付与の費用" },
+  },
   // ナイトメアバルナック紋章 (レジェンド・エンシェントで候補の値が違う。CN 版は 1 つの表に両方の値)
   {
     id: "cn564-nm-barnac-option",
@@ -1406,6 +1425,15 @@ const OPTION_ABSORB: { id: string; kind: "table" | "recipe"; into: string[]; ref
 ];
 const optionById = new Map(optionTables.map((t) => [t.id, t]));
 const optionAliases: Record<string, string> = {};
+// 表の id (再付与グループ) が変わったもの: 旧 id から転送する
+const OPTION_RENAMED: Record<string, string> = {
+  // 月食の竜珠をレジェンドまで載せたので、エンシェントと同じ表が先にレジェンドのグループ (18) で作られる
+  ...Object.fromEntries(["838962516", "838962768", "838962810", "838962096", "838962348", "838962390"].map((p) => [`client-opt-17-${p}`, `client-opt-18-${p}`])),
+  // 月食のメイン/サブウェポン防御竜珠を月食の防御竜珠に統合 (候補表は全部位で同じ)
+  "client-opt-12-838962348": "client-opt-12-838962096",
+  "client-opt-13-838962348": "client-opt-13-838962096",
+};
+for (const [from, to] of Object.entries(OPTION_RENAMED)) if (optionById.has(to) && !optionById.has(from)) optionAliases[from] = to;
 for (const a of OPTION_ABSORB) {
   const targets = a.into.map((id) => optionById.get(id));
   if (targets.some((t) => !t)) {

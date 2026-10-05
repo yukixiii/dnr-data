@@ -6,7 +6,14 @@ import type { Item, ItemGroup } from "../src/types.ts";
 const EQUIP_KINDS = new Set(["weapon", "armor", "accessory", "special_armor", "artifact", "talisman", "jade", "heraldry"]);
 
 /** 名前の規則に当てはまっても別物として扱うもの */
-export const GROUP_EXCLUDE = new Set(["永遠のタリスマン", "永遠のタリスマン1段階", "[未完]王城の紋章"]);
+export const GROUP_EXCLUDE = new Set([
+  "永遠のタリスマン",
+  "永遠のタリスマン1段階",
+  "[未完]王城の紋章",
+  // 崩壊の竜珠のエピックは新規・復帰向けの別ルートで、ユニーク (月食の竜珠の系列の最後) へは進化しない
+  "崩壊の攻撃竜珠(エピック)",
+  "崩壊の防御竜珠(エピック)",
+]);
 
 /**
  * まとめる対象。装備系 kind に加え、段階付きで能力値を持つ「その他」(超越の箱舟の 過去の化石 等) と、

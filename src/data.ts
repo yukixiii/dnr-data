@@ -66,7 +66,7 @@ export const tablesByMaterial = group(
   ds.enhance_tables.flatMap((t) => t.rows.flatMap((row) => (row.materials ?? []).map((m) => [m.item, t] as [string, EnhanceTable]))),
 );
 export const optionTableById = new Map(ds.option_tables.map((x) => [x.id, x]));
-/** ランダムオプション表に吸収した強化表の旧 id → ランダムオプション表の id (ingest/option_aliases.json) */
+/** ランダムオプション表に吸収した強化表の旧 id・id が変わったランダムオプション表の旧 id → ランダムオプション表の id (ingest/option_aliases.json) */
 const optionAliasMap = optionAliases as Record<string, string>;
 export const optionAliasOf = (id: string): string | undefined => optionAliasMap[id];
 export const optionTablesByItem = group(ds.option_tables.flatMap((t) => t.applies_to.map((id) => [id, t] as [string, OptionTable])));
