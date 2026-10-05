@@ -61,6 +61,8 @@ interface Export {
   map_triggers?: Record<string, { key: string; rows: { trigger: string; floors?: string; entries: { item: string; qty: number }[] }[] }>;
   // 一般ネスト (12 ネスト) のクリア報酬。common = 共通、nests = ネスト固有 (ボスマップのトリガーが共通と同時に落とすグループ)
   general_nests?: { common: NestFloorRow[]; nests: { name: string; map_id: number; group: number; rows: NestFloorRow[] }[] };
+  // ラビリンス (メイズモード) の報酬。stage = ステージクリア時のワープ、erosion = 侵蝕モードのクリア。groups は中身の同じドロップグループ
+  labyrinth?: Partial<Record<"stage" | "erosion", { groups: number[]; rows: NestFloorRow[] }[]>>;
   clears?: Record<string, { clear_id: number; show: number; select: number; counts: Record<string, number>; boxes: { box: string; floors?: string; entries: { item: string; qty: number }[] }[] }[]>;
   materials: Record<string, { client_id: number; kind: string; grade?: string; description?: string }>;
   sets: Record<string, { name: string | null; text: string | null; bonuses: { count: number; stats?: CStat[]; skill?: string }[]; items: string[] }>;
@@ -1115,6 +1117,49 @@ const drops = await readJson<DropTable[]>("data/drops.json");
         refs: [{ source: SRC }],
       });
       inc("nest");
+    }
+  }
+}
+
+// ---- ラビリンス (メイズモード) の報酬 ----
+{
+  for (let i = drops.length - 1; i >= 0; i--) if (drops[i].id.startsWith("client-maze-")) drops.splice(i, 1);
+  const MAZE = "ラビリンス(メイズモード)";
+  const NO_RATE = "クライアントのデータには確率が無い (0 で配布されている) ため、出る候補と個数だけを載せている。同じアイテムが個数違いで並ぶもの (×N と ×3N など) は、どの個数が出るかの確率が不明。";
+  // 総称 (members) の中身がすべて同じ個数で並ぶ階層は、総称 1 つにまとめる (上級月食のかけら 6 種など)
+  const generics = [...items, ...materials].filter((i) => i.members?.length);
+  const collapse = (r: NestFloorRow) => {
+    let es = r.entries;
+    for (const g of generics) {
+      const qs = g.members!.map((m) => JSON.stringify(es.filter((e) => e.item === m).map((e) => e.qty)));
+      if (qs[0] === "[]" || new Set(qs).size !== 1) continue;
+      const at = es.findIndex((e) => g.members!.includes(e.item));
+      const mine = es.filter((e) => e.item === g.members![0]).map((e) => ({ item: g.id, qty: e.qty }));
+      es = es.filter((e) => !g.members!.includes(e.item));
+      es.splice(at, 0, ...mine);
+    }
+    return { ...r, entries: es };
+  };
+  const KINDS = {
+    stage: {
+      label: "ステージクリア報酬 (候補)",
+      notes: "各ステージ (ゾーン) をクリアしてワープが開くときに、パーティー全員に落ちる (アセンション1階層以上。それ未満は空の表)。メイズのマップは一般ネストのマップを使い回していて、元のネストごとに表が分かれているが中身は同じ。上級月食のかけらは 6 種類それぞれの行が同じ個数で並んでいるのでまとめている。",
+    },
+    erosion: { label: "侵蝕モードのクリア報酬 (候補)", notes: "侵蝕を適用してクリアしたとき、最終ステージで落ちる (侵蝕報酬箱)。" },
+  } as const;
+  for (const [k, def] of Object.entries(KINDS) as [keyof typeof KINDS, (typeof KINDS)[keyof typeof KINDS]][]) {
+    for (const [i, t] of (ex.labyrinth?.[k] ?? []).entries()) {
+      drops.push({
+        id: `client-maze-${k}${i ? `-${i}` : ""}`,
+        location: MAZE,
+        location_kind: "dungeon",
+        label: def.label,
+        entries: t.rows.map(collapse).flatMap((r) => r.entries.map((e) => ({ item: e.item, floors: r.floors, qty: e.qty }))),
+        layout: "item_columns",
+        notes: `${def.notes}${NO_RATE}`,
+        refs: [{ source: SRC }],
+      });
+      inc("maze");
     }
   }
 }
