@@ -81,6 +81,35 @@ function areaTableHtml(entries: ShownEntry[]) {
     </table></div>`;
 }
 
+/**
+ * アイテムを列にした階層表 (layout: item_columns): 行 = 階層、列 = アイテム (出てきた順)、セル = 個数 (同じアイテムの個数違いは「/」で並べる)。
+ * 階層の指定が無い (全階層の) アイテムは列にせず、表の上に並べる。
+ */
+function itemColumnsHtml(entries: ShownEntry[]) {
+  const isAll = (e: ShownEntry) => !e.floors?.trim() || e.floors.trim() === ALL_FLOORS;
+  const all = entries.filter(isAll);
+  const cols = [...new Set(entries.filter((e) => !isAll(e)).map((e) => e.item))];
+  const rows = new Map<string, { label: string; qty: Map<string, string[]> }>();
+  for (const e of entries) {
+    if (isAll(e)) continue;
+    const label = e.floors!.trim();
+    const key = floorRowKey(label);
+    const row = rows.get(key) ?? rows.set(key, { label, qty: new Map() }).get(key)!;
+    const qs = row.qty.get(e.item) ?? row.qty.set(e.item, []).get(e.item)!;
+    const q = e.qty === undefined || e.qty === "" ? "○" : String(e.qty);
+    if (!qs.includes(q)) qs.push(q);
+  }
+  const ordered = [...rows.values()].sort((a, b) => compareFloors(a.label, b.label));
+  const body = ordered
+    .map(({ label, qty }) => `<tr><th>${esc(label)}</th>${cols.map((c) => `<td class="num">${esc((qty.get(c) ?? []).join(" / "))}</td>`).join("")}</tr>`)
+    .join("");
+  return `${all.length ? `<p><strong>${ALL_FLOORS}:</strong> ${all.map((e) => `${itemLink(e.item, e.qty)}${viaNote(e.via)}`).join("、")}</p>` : ""}
+    <div class="table-wrap"><table class="data item-columns">
+      <thead><tr><th>階層</th>${cols.map((c) => `<th>${itemLink(c)}</th>`).join("")}</tr></thead>
+      <tbody>${body}</tbody>
+    </table></div>`;
+}
+
 /** 階層表にする表: 階層の指定が 2 種類以上あるもの */
 const byFloor = (t: DropTable) => new Set(t.entries.map((e) => e.floors?.trim()).filter((f) => f && f !== ALL_FLOORS)).size >= 2;
 
@@ -90,6 +119,7 @@ export function dropTableHtml(t: DropTable) {
     refDate(t.refs) ? `<span class="muted">${esc(refDate(t.refs))} 告知</span>` : ""
   }</h3>
     ${t.notes ? `<p class="note">${esc(t.notes)}</p>` : ""}`;
+  if (t.layout === "item_columns") return `<div class="drop-table">${head}${itemColumnsHtml(entries)}</div>`;
   if (byFloor(t)) return `<div class="drop-table">${head}${floorTableHtml(entries)}</div>`;
   // ダンジョン・コンテンツの表はすべて「どこで何が出るか」の形にする (箱の中身・商店などは従来の一覧)
   if (dungeonById.has(t.location)) return `<div class="drop-table">${head}${areaTableHtml(entries)}</div>`;

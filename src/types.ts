@@ -140,6 +140,8 @@ export interface DropTable {
   location_kind: "dungeon" | "box" | "shop" | "quest" | "gather" | "other";
   label?: string; // "クリア報酬" "採集" 等
   entries: DropEntry[];
+  // 表示の形。item_columns: 行 = 階層、列 = アイテム、セル = 個数 (全階層の行は表の上に書く)
+  layout?: "item_columns";
   notes?: string;
   refs: Ref[];
 }

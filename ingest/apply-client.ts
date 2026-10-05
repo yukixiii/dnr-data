@@ -59,6 +59,8 @@ interface Export {
   nest_areas?: Record<string, { map_id: number; area: number; rows: { floors?: string; times?: number; entries: { item: string; qty: number }[] }[] }[]>;
   // マップのトリガーが落とす報酬 (trigger.ini)。key はマップのファイル名 (表の id に使う)
   map_triggers?: Record<string, { key: string; rows: { trigger: string; floors?: string; entries: { item: string; qty: number }[] }[] }>;
+  // 一般ネスト (12 ネスト) のクリア報酬。common = 共通、nests = ネスト固有 (ボスマップのトリガーが共通と同時に落とすグループ)
+  general_nests?: { common: NestFloorRow[]; nests: { name: string; map_id: number; group: number; rows: NestFloorRow[] }[] };
   clears?: Record<string, { clear_id: number; show: number; select: number; counts: Record<string, number>; boxes: { box: string; floors?: string; entries: { item: string; qty: number }[] }[] }[]>;
   materials: Record<string, { client_id: number; kind: string; grade?: string; description?: string }>;
   sets: Record<string, { name: string | null; text: string | null; bonuses: { count: number; stats?: CStat[]; skill?: string }[]; items: string[] }>;
@@ -75,6 +77,7 @@ const tables = await readJson<EnhanceTable[]>("data/enhance_tables.json");
 const recipes = await readJson<Recipe[]>("data/recipes.json");
 const groups = await readJson<ItemGroup[]>("data/item_groups.json");
 
+type NestFloorRow = { floors: string; entries: { item: string; qty: number | string }[] };
 const SRC = ex.source;
 const srcRec: Source = {
   id: SRC,
@@ -1034,6 +1037,85 @@ const drops = await readJson<DropTable[]>("data/drops.json");
       refs: [{ source: SRC }],
     });
     inc("trigger");
+  }
+}
+
+// ---- 一般ネスト (12 ネスト) のクリア報酬 ----
+{
+  for (let i = drops.length - 1; i >= 0; i--) if (drops[i].id.startsWith("client-nest-")) drops.splice(i, 1);
+  const g = ex.general_nests;
+  const NEST = "一般ネスト(12ネスト)";
+  const NO_RATE = "クライアントのデータには確率が無い (0 で配布されている) ため、出る候補と個数だけを載せている。同じアイテムが個数違いで並ぶもの (×N と ×3N など) は、どの個数が出るかの確率が不明。";
+  const HEAD = "ボスを倒したときの最終報酬 (クライアントのマップのトリガー)。共通の表とネスト固有の表が、階層ごとの行がそれぞれ 1 回ずつ落ちる。疲労度ブースト使用時は同じ表が追加で落ちる。";
+  if (g?.common.length) {
+    drops.push({
+      id: "client-nest-common",
+      location: NEST,
+      location_kind: "dungeon",
+      label: "クリア報酬 (共通・候補)",
+      entries: g.common.flatMap((r) => r.entries.map((e) => ({ item: e.item, floors: r.floors, qty: e.qty }))),
+      layout: "item_columns",
+      notes: `12 ネスト共通。${HEAD}${NO_RATE}`,
+      refs: [{ source: SRC }],
+    });
+    inc("nest");
+  }
+  if (g?.nests.length) {
+    const ALL = "全階層";
+    // ネストごとの月食のかけら (階層のある行) の個数が、どのネスト・どのかけらでも同じなら、
+    // 「ネストごとに何が出るか」と「階層ごとの個数」(総称の上級月食のかけら) の 2 つの表に分ける
+    const counts = new Map<string, Map<string, (number | string)[]>>(); // ネスト名・アイテム → 階層 → 個数
+    for (const n of g.nests)
+      for (const r of n.rows) {
+        if (r.floors === ALL) continue;
+        for (const e of r.entries) {
+          const key = `${n.name}\t${e.item}`;
+          const byFloor = counts.get(key) ?? counts.set(key, new Map()).get(key)!;
+          byFloor.set(r.floors, [...(byFloor.get(r.floors) ?? []), e.qty]);
+        }
+      }
+    const sigs = new Set([...counts.values()].map((m) => JSON.stringify([...m])));
+    const SHARD = "上級月食のかけら";
+    const shared = sigs.size === 1 && [...counts.keys()].every((k) => /\t上級.+月食のかけら$/.test(k));
+    if (shared) {
+      drops.push({
+        id: "client-nest-specific",
+        location: NEST,
+        location_kind: "dungeon",
+        label: "クリア報酬 (ネスト固有・候補)",
+        entries: g.nests.flatMap((n) => {
+          const fixed = n.rows.filter((r) => r.floors === ALL).flatMap((r) => r.entries.map((e) => ({ item: e.item, from: n.name, qty: e.qty })));
+          const shards = [...new Set(n.rows.filter((r) => r.floors !== ALL).flatMap((r) => r.entries.map((e) => e.item)))].map((item) => ({ item, from: n.name }));
+          return [...fixed, ...shards];
+        }),
+        notes: `共通の報酬に加えて、ネストごとに落ちるもの。月食のかけらの個数は階層で変わり、どのネスト・どのかけらも同じ (下の「ネスト固有の月食のかけらの個数」の表)。${HEAD}${NO_RATE}`,
+        refs: [{ source: SRC }],
+      });
+      const [one] = counts.values();
+      drops.push({
+        id: "client-nest-specific-qty",
+        location: NEST,
+        location_kind: "dungeon",
+        label: "ネスト固有の月食のかけらの個数 (候補)",
+        entries: [...one].flatMap(([floors, qs]) => qs.map((qty) => ({ item: SHARD, floors, qty }))),
+        layout: "item_columns",
+        notes: `ネスト固有の表のかけら (2 種類) それぞれの、階層ごとの個数。${NO_RATE}`,
+        refs: [{ source: SRC }],
+      });
+      inc("nest", 2);
+    } else {
+      console.warn("一般ネストの固有のかけらの個数がネストごとに違うので、階層表 (獲得元 = ネスト名) のまま出す");
+      drops.push({
+        id: "client-nest-specific",
+        location: NEST,
+        location_kind: "dungeon",
+        label: "クリア報酬 (ネスト固有・候補)",
+        entries: g.nests.flatMap((n) => n.rows.flatMap((r) => r.entries.map((e) => ({ item: e.item, from: n.name, floors: r.floors, qty: e.qty })))),
+        notes: `共通の報酬に加えて、ネストごとに落ちるもの。${HEAD}${NO_RATE}`,
+        refs: [{ source: SRC }],
+      });
+      inc("nest");
+    }
   }
 }
 

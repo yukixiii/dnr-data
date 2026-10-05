@@ -182,6 +182,7 @@
             }
           }
         },
+        "layout": { "enum": ["item_columns"] },
         "notes": { "type": "string" },
         "refs": { "$ref": "#/definitions/refs" }
       }
