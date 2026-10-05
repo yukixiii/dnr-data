@@ -21247,6 +21247,126 @@
     "notes": "クライアントのショップ表の交換。"
   },
   {
+    "id": "client-shop-241101235",
+    "type": "exchange",
+    "result": "アンバースデイウィング",
+    "materials": [
+      {
+        "item": "救援の証",
+        "qty": 60
+      }
+    ],
+    "where": "入場権限発行機「セイヴィア」",
+    "result_qty": 1,
+    "refs": [
+      {
+        "source": "jp-client-20261001",
+        "note": "交換の費用"
+      }
+    ],
+    "notes": "クライアントのショップ表の交換。"
+  },
+  {
+    "id": "client-shop-241101236",
+    "type": "exchange",
+    "result": "アンバースデイテール",
+    "materials": [
+      {
+        "item": "救援の証",
+        "qty": 60
+      }
+    ],
+    "where": "入場権限発行機「セイヴィア」",
+    "result_qty": 1,
+    "refs": [
+      {
+        "source": "jp-client-20261001",
+        "note": "交換の費用"
+      }
+    ],
+    "notes": "クライアントのショップ表の交換。"
+  },
+  {
+    "id": "client-shop-241101237",
+    "type": "exchange",
+    "result": "アンバースデイデカール",
+    "materials": [
+      {
+        "item": "救援の証",
+        "qty": 60
+      }
+    ],
+    "where": "入場権限発行機「セイヴィア」",
+    "result_qty": 1,
+    "refs": [
+      {
+        "source": "jp-client-20261001",
+        "note": "交換の費用"
+      }
+    ],
+    "notes": "クライアントのショップ表の交換。"
+  },
+  {
+    "id": "client-shop-241101230",
+    "type": "exchange",
+    "result": "トワライトプリズムウィング",
+    "materials": [
+      {
+        "item": "救援者の象徴",
+        "qty": 60
+      }
+    ],
+    "where": "入場権限発行機「セイヴィア」",
+    "result_qty": 1,
+    "refs": [
+      {
+        "source": "jp-client-20261001",
+        "note": "交換の費用"
+      }
+    ],
+    "notes": "クライアントのショップ表の交換。"
+  },
+  {
+    "id": "client-shop-241101231",
+    "type": "exchange",
+    "result": "トワライトプリズムテール",
+    "materials": [
+      {
+        "item": "救援者の象徴",
+        "qty": 60
+      }
+    ],
+    "where": "入場権限発行機「セイヴィア」",
+    "result_qty": 1,
+    "refs": [
+      {
+        "source": "jp-client-20261001",
+        "note": "交換の費用"
+      }
+    ],
+    "notes": "クライアントのショップ表の交換。"
+  },
+  {
+    "id": "client-shop-241101232",
+    "type": "exchange",
+    "result": "トワライトプリズムデカール",
+    "materials": [
+      {
+        "item": "救援者の象徴",
+        "qty": 60
+      }
+    ],
+    "where": "入場権限発行機「セイヴィア」",
+    "result_qty": 1,
+    "refs": [
+      {
+        "source": "jp-client-20261001",
+        "note": "交換の費用"
+      }
+    ],
+    "notes": "クライアントのショップ表の交換。"
+  },
+  {
     "id": "client-dis-268511812-0-0",
     "type": "dismantle",
     "result": "ホワイトコア",
