@@ -1391,6 +1391,15 @@ const OPTION_ABSORB: { id: string; kind: "table" | "recipe"; into: string[]; ref
     ref: { source: "jp-notice-1193", note: "箱舟の力 - 選択式の再付与の費用" },
     diff: "告知では選択式の再付与の材料を「変異型竜珠進化石ver.3」1個 + パキハの機械部品 2個と書いているが、クライアントでは変異型竜珠改良槌Ver.3。",
   },
+  // ナイトメアバルナック紋章 (レジェンド・エンシェントで候補の値が違う。CN 版は 1 つの表に両方の値)
+  {
+    id: "cn564-nm-barnac-option",
+    kind: "table",
+    into: ["client-opt-32-838966667", "client-opt-32-838966668"],
+    ref: { source: "cn-dngamer-564", note: "ナイトメアバルナック紋章 ランダムオプション分布 (CN版。値・確率とも同じ)" },
+  },
+  { id: "cn8615-nm-barnac-ark-random", kind: "recipe", into: ["client-opt-32-838966667", "client-opt-32-838966668"], ref: { source: "cn-dngamer-8615", note: "箱舟の力 - 通常 (選択不可) の費用 (CN版。同じ)" } },
+  { id: "cn8615-nm-barnac-ark-select", kind: "recipe", into: ["client-opt-32-838966667", "client-opt-32-838966668"], ref: { source: "cn-dngamer-8615", note: "箱舟の力 - 通常 (選択可) の費用 (CN版。同じ)" } },
   // ナイトメアジェレイントの紋章
   { id: "n1362-nightmare-geraint-random-option", kind: "table", into: ["client-opt-34-838967732"], ref: { source: "jp-notice-1362", note: "ランダムオプション獲得率 (値・確率とも同じ)" } },
   { id: "n1362-nightmare-geraint-lock", kind: "table", into: ["client-opt-34-838967732"], ref: { source: "jp-notice-1362", note: "箱舟の力 (ランダムオプション再設定/ロックオプション) の材料" } },
