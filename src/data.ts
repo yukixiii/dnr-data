@@ -1,6 +1,6 @@
 // data/*.json を読み込み、画面から引きやすい索引を作る。
 // JSON は別チャンクとして並行に読み込む (本体の JS を小さくし、データだけ後から取得する)
-const [sources, items, materials, recipes, enhanceTables, drops, dungeons, itemGroups, sets, optionTables, aliases, tableAliases, optionAliases] = await Promise.all([
+const [sources, items, materials, recipes, enhanceTables, drops, dungeons, itemGroups, sets, optionTables, changelogDays, aliases, tableAliases, optionAliases] = await Promise.all([
   import("../data/sources.json"),
   import("../data/items.json"),
   import("../data/materials.json"),
@@ -11,11 +11,12 @@ const [sources, items, materials, recipes, enhanceTables, drops, dungeons, itemG
   import("../data/item_groups.json"),
   import("../data/sets.json"),
   import("../data/option_tables.json"),
+  import("../data/changelog.json"),
   import("../ingest/aliases.json"),
   import("../ingest/table_aliases.json"),
   import("../ingest/option_aliases.json"),
 ]).then((ms) => ms.map((m) => m.default as unknown));
-import type { Dataset, DropEntry, DropTable, Dungeon, EnhanceTable, GroupMember, Item, ItemGroup, ItemSet, OptionTable, Recipe, Ref, Region, Source } from "./types.ts";
+import type { ChangelogDay, Dataset, DropEntry, DropTable, Dungeon, EnhanceTable, GroupMember, Item, ItemGroup, ItemSet, OptionTable, Recipe, Ref, Region, Source } from "./types.ts";
 
 export const ds: Dataset = {
   sources: sources as Source[],
@@ -28,6 +29,9 @@ export const ds: Dataset = {
   sets: sets as ItemSet[],
   option_tables: optionTables as OptionTable[],
 };
+
+/** 更新履歴 (新しい日付が先頭) */
+export const changelog = changelogDays as ChangelogDay[];
 
 const group = <T>(pairs: [string, T][]) => {
   const m = new Map<string, T[]>();

@@ -203,6 +203,19 @@ export interface OptionTable {
   refs: Ref[];
 }
 
+/** 更新履歴 (data/changelog.json)。新しい日付が先頭 */
+export interface ChangelogDay {
+  date: string;
+  changes: ChangelogEntry[];
+}
+
+export interface ChangelogEntry {
+  kind: "add" | "tidy" | "view" | "fix";
+  text: string;
+  /** item: アイテムかグループの id / dungeon: ダンジョンの id / page: "items?series=…" のような #/ 以下のパス (label を表示) */
+  links?: { kind: "item" | "dungeon" | "page"; id: string; label?: string }[];
+}
+
 export interface Dataset {
   sources: Source[];
   items: Item[];

@@ -2,6 +2,7 @@
 import { ds, lastUpdated, listUnits, recipesByResult, sortDate, sourceById, tablesByItem } from "../data.ts";
 import { esc, href } from "../components/ui.ts";
 import { unitLink } from "./itemList.ts";
+import { renderRecentChanges } from "./changelog.ts";
 
 export function renderHome() {
   // 系統ごとの装備数 (段階違いは1件)。最新の公式お知らせで扱われた系統 (=最新装備) を先に並べる
@@ -69,6 +70,8 @@ export function renderHome() {
       : ""
   }
 
+  ${renderRecentChanges()}
+
   <section><h2>最近の公式アップデート</h2><ul class="plain">${latestSources
     .map((s) => `<li><span class="muted">${esc(s.published_at ?? "")}</span> <a href="${esc(s.url)}" target="_blank" rel="noopener">${esc(s.title)}</a></li>`)
     .join("")}</ul>
@@ -82,7 +85,7 @@ export function renderSources() {
   for (const s of ds.sources) byRegion[s.region].push(s);
   const label = { JP: "日本", KR: "韓国", CN: "中国" };
   const kindLabel = { official: "公式", wiki: "Wiki", community: "コミュニティ" };
-  return `<h1>出典・更新履歴</h1>
+  return `<h1>出典</h1>
   <p>各データには出典を付けています。<span class="badge region-JP">JP</span> 日本版、<span class="badge region-KR">KR</span> 韓国版、<span class="badge region-CN">CN</span> 中国版の情報です。能力値・強化確率・レシピなどは日本版ゲームクライアントのデータを正とし、告知と違う場合は元の値を注記に残しています。日本版で値が分からない場合のみ海外版の値で補完し、「海外版の値」と表示しています。海外版は実装時期や数値が日本版と異なる場合があります。</p>
   ${(Object.keys(byRegion) as (keyof typeof byRegion)[])
     .filter((r) => byRegion[r].length)

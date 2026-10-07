@@ -4,7 +4,7 @@
 //   npm run validate -- ingest/drafts/x.json   1ファイルにまとめたドラフト(Dataset形式)を検証
 import { readFile } from "node:fs/promises";
 import Ajv from "ajv";
-import type { Dataset, ItemGroup } from "../src/types.ts";
+import type { ChangelogDay, Dataset, ItemGroup } from "../src/types.ts";
 import { baseNameOf, isGroupable } from "./groups-lib.ts";
 
 const COLLECTIONS = ["sources", "items", "materials", "recipes", "enhance_tables", "drops", "dungeons", "sets", "option_tables"] as const;
@@ -148,6 +148,22 @@ async function main() {
     for (const it of all) byBase.set(baseNameOf(it.id), [...(byBase.get(baseNameOf(it.id)) ?? []), it.id]);
     for (const [k, ids] of byBase)
       if (ids.length >= 2 && ids.some((id) => !groupOf.has(id))) warnings.push(`警告: グループ未割り当て ${k} <= ${ids.filter((id) => !groupOf.has(id)).join(" , ")} (npm run gen:groups)`);
+  }
+  // 更新履歴 (data/ のみ): 日付は新しい順で重複なし、リンク先は実在するもの
+  if (!draft) {
+    const days: ChangelogDay[] = await readJson("data/changelog.json");
+    const groupIds = new Set((await readJson("data/item_groups.json")).map((g: ItemGroup) => g.id));
+    const vc = ajv.getSchema("dnr.schema.json#/definitions/changelog_day")!;
+    days.forEach((d, i) => {
+      if (!vc(d)) for (const e of vc.errors ?? []) errors.push(`changelog[${i}] ${d.date}: ${e.instancePath} ${e.message} ${JSON.stringify(e.params)}`);
+      if (i > 0 && !(d.date < days[i - 1].date)) errors.push(`changelog[${i}] ${d.date}: 日付が新しい順でないか重複している`);
+      for (const c of d.changes ?? [])
+        for (const l of c.links ?? []) {
+          if (l.kind === "item" && !itemIds.has(l.id) && !groupIds.has(l.id)) errors.push(`changelog ${d.date}: 未定義のアイテム "${l.id}"`);
+          if (l.kind === "dungeon" && !dungeonIds.has(l.id)) errors.push(`changelog ${d.date}: 未定義のダンジョン "${l.id}"`);
+          if (l.kind === "page" && !l.label) errors.push(`changelog ${d.date}: ページのリンク "${l.id}" に label が無い`);
+        }
+    });
   }
   if (warnings.length) console.warn(warnings.join("\n"));
 

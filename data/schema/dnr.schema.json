@@ -286,6 +286,40 @@
         "notes": { "type": "string" },
         "refs": { "$ref": "#/definitions/refs" }
       }
+    },
+    "changelog_day": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["date", "changes"],
+      "properties": {
+        "date": { "$ref": "#/definitions/date" },
+        "changes": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": ["kind", "text"],
+            "properties": {
+              "kind": { "enum": ["add", "tidy", "view", "fix"] },
+              "text": { "type": "string", "minLength": 1 },
+              "links": {
+                "type": "array",
+                "items": {
+                  "type": "object",
+                  "additionalProperties": false,
+                  "required": ["kind", "id"],
+                  "properties": {
+                    "kind": { "enum": ["item", "dungeon", "page"] },
+                    "id": { "type": "string" },
+                    "label": { "type": "string" }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
     }
   }
 }

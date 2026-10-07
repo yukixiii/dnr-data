@@ -923,3 +923,49 @@ table.data.options .opt-val {
   margin: 0 14px 2px 0;
   white-space: nowrap;
 }
+
+/* 更新履歴: 種別のチップ + 本文 + 関連リンク */
+ul.changelog {
+  list-style: none;
+  padding: 0;
+  margin: 0 0 8px;
+}
+ul.changelog li {
+  display: flex;
+  gap: 8px;
+  align-items: baseline;
+  padding: 5px 0;
+  border-bottom: 1px solid var(--border);
+}
+ul.changelog li:last-child {
+  border-bottom: 0;
+}
+ul.changelog .chip {
+  flex: none;
+  font-weight: 700;
+}
+.chip.cl-add {
+  background: var(--accent-soft);
+  color: var(--accent);
+}
+.chip.cl-tidy {
+  color: var(--k-mat);
+}
+.chip.cl-view {
+  color: var(--k-equip);
+}
+.chip.cl-fix {
+  color: var(--rate-mid);
+}
+.cl-links {
+  display: inline-flex;
+  flex-wrap: wrap;
+  gap: 4px 10px;
+  margin-left: 4px;
+  font-size: 0.9em;
+}
+.recent-changes h3 {
+  font-size: 0.95rem;
+  margin: 10px 0 2px;
+  color: var(--muted);
+}
