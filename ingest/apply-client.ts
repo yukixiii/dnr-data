@@ -53,6 +53,8 @@ interface Export {
   // 製作: compound_id / 交換: shop_row (+where, result_qty) / 進化: change_row (+accelerators)
   recipes: Record<string, { compound_id?: number; shop_row?: number; change_row?: number; rate?: number; gold?: number; materials?: { item: string; qty: number }[]; where?: string; result_qty?: number; accelerators?: string[]; from_level?: number }>;
   new_recipes: (Omit<Recipe, "refs"> & { accelerators?: string[]; note?: string })[];
+  // レシピ id → 鍛冶屋の生産表の場所 (「鍛冶屋 → アイテム生産 → タブ → …」)
+  recipe_where?: Record<string, string>;
   // all: 中身を全て獲得する袋 (_Type 112)
   boxes: Record<string, { client_id: number; select: boolean; all?: boolean; entries: { item: string; qty: number; rate?: number }[] }>;
   // 分解の結果 (確率はクライアントに無い)。levels は強化段階の範囲 [from, to]
@@ -925,6 +927,14 @@ for (const r of recipes) {
   }
   addRef(r.refs, c.change_row !== undefined ? "進化の組み合わせ" : c.shop_row !== undefined ? "交換の費用" : "ゴールド・成功率・個数");
   inc("recipe");
+}
+// 鍛冶屋の生産表の場所 (告知の場所の記載があればそのまま)
+for (const r of recipes) {
+  const w = ex.recipe_where?.[r.id];
+  if (w && !r.where) {
+    r.where = w;
+    inc("recipe.where");
+  }
 }
 if (removedRecipes.length) log.push(`クライアントで確認できない分割レシピを削除 ${removedRecipes.length} 件: ${removedRecipes.slice(0, 8).join(", ")}${removedRecipes.length > 8 ? " ほか" : ""}`);
 
