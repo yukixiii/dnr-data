@@ -17,6 +17,7 @@
 //  - クリア報酬: ダンジョンのクリア報酬の箱 (金箱・銀箱) の表 (client-clear-*) を作る。
 //  - エリア報酬: ネストの中間 (エリア) 報酬の表 (client-area-*)、マップのトリガーの報酬の表 (client-trig-*) を作る。
 //  - ネストの最終報酬: ボスマップのトリガーの報酬を種類ごとに (client-final-<クリアID>-<種類>)。階層で変わるものは item_columns。
+//  - 討伐報酬: 次元の狭間系のボス・ルートの魔物を倒したときの報酬 (client-kill-<クリアID>-<ドロップグループ>)。
 //    ドロップ表の確率はクライアントで 0 にされているので、分解とクリア報酬は出る候補と個数だけ。
 //  - ランダムオプション: 再付与できるランダムオプション (古竜・金竜・金糸装備、竜珠など) の行・候補・確率・再付与の費用の表
 //    (data/option_tables.json、client-opt-<再付与グループ>-<最初の候補表>)。クライアントの値だけで毎回作り直す。
@@ -82,6 +83,11 @@ interface Export {
       rates?: [number, number][];
       rows: { from?: string; floors?: string; entries: { item: string; qty: number | string }[] }[];
     }[]
+  >;
+  // 魔物の討伐報酬 (次元の狭間系)。kind = boss / heraldry / talisman / world / event、group = 魔物のドロップグループ
+  kills?: Record<
+    string,
+    { key: number; kind: string; group: number; monsters: string[]; rows: { floors?: string; entries: { item: string; qty: number | string }[] }[] }[]
   >;
   // ランダムオプション (潜在能力)。lines = 行ごとの候補表、parts = 総称のアイテムに当たる部位
   options?: Record<
@@ -1265,6 +1271,45 @@ const collapseGenerics = <R extends { entries: { item: string; qty: number | str
         refs: [{ source: SRC }],
       });
       inc("final");
+    }
+  }
+}
+
+// ---- 魔物の討伐報酬 (次元の狭間系のボス・ルートの魔物) ----
+{
+  for (let i = drops.length - 1; i >= 0; i--) if (drops[i].id.startsWith("client-kill-")) drops.splice(i, 1);
+  const KINDS: Record<string, { label: string; notes: string }> = {
+    boss: { label: "ボスの討伐報酬 (候補)", notes: "ボス (次元管理者) を倒したときの報酬。" },
+    heraldry: { label: "紋章ルートの討伐報酬 (候補)", notes: "ボスのあとの紋章ルートで出る魔物 (どれか 1 体) を倒したときの報酬。" },
+    talisman: { label: "タリスマンルートの討伐報酬 (候補)", notes: "ボスのあとのタリスマンルートで出る魔物 (どれか 1 体) を倒したときの報酬。" },
+    world: { label: "世界ルートの討伐報酬 (候補)", notes: "ボスのあとの世界ルートで出る魔物 (どれか 1 体) を倒したときの報酬。" },
+    event: { label: "イベントの魔物の討伐報酬 (候補)", notes: "ルート中に確率で起きるイベントで出る魔物を倒したときの報酬。" },
+  };
+  const EXTRA: Record<string, string> = {
+    崩壊した次元の狭間:
+      "ボス (変異したSC-31) と、そのあとのルート (次元ルート、ダブルボスのときはもう 1 体) で出る変異した魔物 (どれか 1 体) が同じ表を落とす。",
+  };
+  for (const [dungeon, ts] of Object.entries(ex.kills ?? {})) {
+    for (const t of ts) {
+      const def = KINDS[t.kind] ?? { label: `${t.kind} (候補)`, notes: "" };
+      const rows = t.rows.map(collapseGenerics);
+      const floors = new Set(rows.map((r) => r.floors).filter(Boolean));
+      drops.push({
+        id: `client-kill-${t.key}-${t.group}`,
+        location: dungeon,
+        location_kind: "dungeon",
+        label: t.kind === "boss" && EXTRA[dungeon] ? "ボス・変異した魔物の討伐報酬 (候補)" : t.kind === "event" ? `イベント (${t.monsters.join("・")}) の討伐報酬 (候補)` : def.label,
+        entries: rows.flatMap((r) => r.entries.map((e) => ({ item: e.item, ...(r.floors ? { floors: r.floors } : {}), qty: e.qty }))),
+        ...(floors.size >= 2 ? { layout: "item_columns" as const } : {}),
+        notes: [
+          t.kind === "boss" && EXTRA[dungeon] ? EXTRA[dungeon] : def.notes,
+          `魔物: ${t.monsters.join("・")} (クライアントの魔物の表のドロップグループ ${t.group})。`,
+          floors.size >= 2 ? "階層によって中身が変わる。" : "",
+          NO_RATE_QTY,
+        ].join(""),
+        refs: [{ source: SRC }],
+      });
+      inc("kill");
     }
   }
 }

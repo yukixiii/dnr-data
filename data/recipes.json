@@ -26739,6 +26739,245 @@
     "notes": "クライアントの製作表。"
   },
   {
+    "id": "client-chg-295295",
+    "type": "evolve",
+    "result": "異世界の古代メインウェポン",
+    "base": "古代人のメインウェポン(Lv95)",
+    "materials": [
+      {
+        "item": "古代人の名誉",
+        "qty": 1
+      }
+    ],
+    "refs": [
+      {
+        "source": "jp-client-20261001",
+        "note": "進化の組み合わせ"
+      }
+    ],
+    "notes": "クライアントの進化表 (加速器などで変換)。+20 の装備から進化する。"
+  },
+  {
+    "id": "client-chg-295319",
+    "type": "evolve",
+    "result": "異世界の古代サブウェポン",
+    "base": "古代人のサブウェポン(Lv95)",
+    "materials": [
+      {
+        "item": "古代人の名誉",
+        "qty": 1
+      }
+    ],
+    "refs": [
+      {
+        "source": "jp-client-20261001",
+        "note": "進化の組み合わせ"
+      }
+    ],
+    "notes": "クライアントの進化表 (加速器などで変換)。+20 の装備から進化する。"
+  },
+  {
+    "id": "client-chg-295478",
+    "type": "evolve",
+    "result": "異世界の古代メインウェポン",
+    "base": "古代人のメインウェポン",
+    "materials": [
+      {
+        "item": "古代人の名誉",
+        "qty": 1
+      }
+    ],
+    "refs": [
+      {
+        "source": "jp-client-20261001",
+        "note": "進化の組み合わせ"
+      }
+    ],
+    "notes": "クライアントの進化表 (加速器などで変換)。+20 の装備から進化する。"
+  },
+  {
+    "id": "client-chg-295502",
+    "type": "evolve",
+    "result": "異世界の古代サブウェポン",
+    "base": "古代人のサブウェポン",
+    "materials": [
+      {
+        "item": "古代人の名誉",
+        "qty": 1
+      }
+    ],
+    "refs": [
+      {
+        "source": "jp-client-20261001",
+        "note": "進化の組み合わせ"
+      }
+    ],
+    "notes": "クライアントの進化表 (加速器などで変換)。+20 の装備から進化する。"
+  },
+  {
+    "id": "client-chg-295512",
+    "type": "evolve",
+    "result": "古代人のメインウェポン",
+    "base": "古代人のメインウェポン(Lv95)",
+    "materials": [
+      {
+        "item": "古代人の万能霊薬",
+        "qty": 1
+      }
+    ],
+    "refs": [
+      {
+        "source": "jp-client-20261001",
+        "note": "進化の組み合わせ"
+      }
+    ],
+    "notes": "クライアントの進化表 (加速器などで変換)。"
+  },
+  {
+    "id": "client-chg-295536",
+    "type": "evolve",
+    "result": "古代人のサブウェポン",
+    "base": "古代人のサブウェポン(Lv95)",
+    "materials": [
+      {
+        "item": "古代人の万能霊薬",
+        "qty": 1
+      }
+    ],
+    "refs": [
+      {
+        "source": "jp-client-20261001",
+        "note": "進化の組み合わせ"
+      }
+    ],
+    "notes": "クライアントの進化表 (加速器などで変換)。"
+  },
+  {
+    "id": "client-cmp-77588",
+    "type": "craft",
+    "result": "古代人のメインウェポン(Lv95)",
+    "materials": [
+      {
+        "item": "古びた古代人の武器のかけら",
+        "qty": 10
+      },
+      {
+        "item": "知恵の糸",
+        "qty": 100
+      }
+    ],
+    "gold": 100,
+    "rate": 100,
+    "where": "鍛冶屋 → アイテム生産 → 古代人",
+    "refs": [
+      {
+        "source": "jp-client-20261001"
+      }
+    ],
+    "notes": "クライアントの製作表。"
+  },
+  {
+    "id": "client-cmp-77612",
+    "type": "craft",
+    "result": "古代人のサブウェポン(Lv95)",
+    "materials": [
+      {
+        "item": "古びた古代人の武器のかけら",
+        "qty": 10
+      },
+      {
+        "item": "知恵の糸",
+        "qty": 100
+      }
+    ],
+    "gold": 100,
+    "rate": 100,
+    "where": "鍛冶屋 → アイテム生産 → 古代人",
+    "refs": [
+      {
+        "source": "jp-client-20261001"
+      }
+    ],
+    "notes": "クライアントの製作表。"
+  },
+  {
+    "id": "client-shop-28101405",
+    "type": "exchange",
+    "result": "キロスの哀歓",
+    "materials": [
+      {
+        "item": "古代人の知識",
+        "qty": 1
+      }
+    ],
+    "where": "【闇の女神官】タルト・【闇の女神官】ビスケ・【闇の女神官】モカ「材料」",
+    "result_qty": 10,
+    "refs": [
+      {
+        "source": "jp-client-20261001"
+      }
+    ],
+    "notes": "クライアントのショップ表の交換。"
+  },
+  {
+    "id": "client-shop-28101407",
+    "type": "exchange",
+    "result": "知恵の糸",
+    "materials": [
+      {
+        "item": "古代人の紋様",
+        "qty": 1
+      }
+    ],
+    "where": "【闇の女神官】タルト・【闇の女神官】ビスケ・【闇の女神官】モカ「材料」",
+    "result_qty": 10,
+    "refs": [
+      {
+        "source": "jp-client-20261001"
+      }
+    ],
+    "notes": "クライアントのショップ表の交換。"
+  },
+  {
+    "id": "client-shop-33001226",
+    "type": "exchange",
+    "result": "古代人の万能霊薬",
+    "gold": 1,
+    "materials": [],
+    "where": "【冒険者ギルド員】デトリー・【冒険者ギルド員】デービット・【金魚香】チョウフ ほか「雑貨」",
+    "result_qty": 1,
+    "refs": [
+      {
+        "source": "jp-client-20261001"
+      }
+    ],
+    "notes": "クライアントのショップ表の交換。"
+  },
+  {
+    "id": "client-cmp-536885580",
+    "type": "craft",
+    "result": "古代人の名誉",
+    "materials": [
+      {
+        "item": "異世界の古代武器の破片",
+        "qty": 10
+      },
+      {
+        "item": "古代人の紋様",
+        "qty": 200
+      }
+    ],
+    "gold": 1000,
+    "rate": 100,
+    "where": "鍛冶屋 → アイテム生産 → 古代人",
+    "refs": [
+      {
+        "source": "jp-client-20261001"
+      }
+    ],
+    "notes": "クライアントの製作表。"
+  },
+  {
     "id": "client-dis-268511812-0-0",
     "type": "dismantle",
     "result": "ホワイトコア",
