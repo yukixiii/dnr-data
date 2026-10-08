@@ -969,3 +969,72 @@ ul.changelog .chip {
   margin: 10px 0 2px;
   color: var(--muted);
 }
+
+/* 日韓アップデート: 告知ごとのカード、セクションは折りたたみ */
+.pn-tabs {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  margin: 8px 0 16px;
+}
+.pn-tabs .chip {
+  font-size: 0.85rem;
+  padding: 2px 12px;
+  text-decoration: none;
+}
+.pn-tabs .chip.is-active {
+  background: var(--accent-soft);
+  color: var(--accent);
+  font-weight: 700;
+}
+article.patchnote {
+  margin: 0 0 28px;
+}
+article.patchnote > h2 {
+  margin-bottom: 2px;
+}
+details.pn-section {
+  margin: 6px 0;
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  background: var(--surface);
+  padding: 6px 12px;
+}
+details.pn-section > summary {
+  cursor: pointer;
+  font-weight: 700;
+  padding: 4px 0;
+}
+details.pn-section > summary .muted {
+  font-weight: 400;
+  font-size: 0.85em;
+}
+.pn-body {
+  min-width: 0;
+  overflow-wrap: anywhere;
+}
+.pn-body h4 {
+  margin: 16px 0 6px;
+  font-size: 1rem;
+}
+.pn-body h5 {
+  margin: 10px 0 4px;
+  font-size: 0.92rem;
+  color: var(--muted);
+}
+.pn-body ul {
+  margin: 4px 0 8px;
+  padding-left: 1.3em;
+}
+.pn-body p {
+  margin: 4px 0 8px;
+}
+.pn-body table.data td,
+.pn-body table.data th {
+  white-space: normal;
+}
+.pn-img,
+.pn-src {
+  font-size: 0.85rem;
+  color: var(--muted);
+}

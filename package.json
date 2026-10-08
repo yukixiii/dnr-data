@@ -9,6 +9,7 @@
     "preview": "vite preview",
     "validate": "tsx ingest/validate.ts",
     "fetch:notices": "tsx ingest/fetch-notices.ts",
+    "fetch:patchnote": "tsx ingest/fetch-patchnote.ts",
     "fetch:page": "tsx ingest/fetch-page.ts",
     "import:dngamer": "tsx ingest/import-dngamer.ts",
     "merge": "tsx ingest/merge-drafts.ts",

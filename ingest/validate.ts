@@ -4,7 +4,7 @@
 //   npm run validate -- ingest/drafts/x.json   1ファイルにまとめたドラフト(Dataset形式)を検証
 import { readFile } from "node:fs/promises";
 import Ajv from "ajv";
-import type { ChangelogDay, Dataset, ItemGroup } from "../src/types.ts";
+import type { ChangelogDay, Dataset, ItemGroup, PatchCell, PatchNote } from "../src/types.ts";
 import { baseNameOf, isGroupable } from "./groups-lib.ts";
 
 const COLLECTIONS = ["sources", "items", "materials", "recipes", "enhance_tables", "drops", "dungeons", "sets", "option_tables"] as const;
@@ -165,6 +165,25 @@ async function main() {
         }
     });
   }
+  // 日韓のアップデート (data/ のみ): 新しい順、id 重複なし、表は結合マスを広げると長方形になること
+  if (!draft) {
+    const notes: PatchNote[] = await readJson("data/patchnotes.json");
+    const vp = ajv.getSchema("dnr.schema.json#/definitions/patch_note")!;
+    const seen = new Set<string>();
+    notes.forEach((n, i) => {
+      if (!vp(n)) for (const e of vp.errors ?? []) errors.push(`patchnotes[${i}] ${n.id}: ${e.instancePath} ${e.message} ${JSON.stringify(e.params)}`);
+      if (seen.has(n.id)) errors.push(`patchnotes ${n.id}: id が重複している`);
+      seen.add(n.id);
+      if (i > 0 && n.date > notes[i - 1].date) errors.push(`patchnotes ${n.id}: 日付が新しい順でない`);
+      n.sections?.forEach((s) =>
+        s.blocks?.forEach((b, j) => {
+          if (b.type !== "table") return;
+          const widths = tableWidths([...(b.head ?? []), ...b.rows]);
+          if (new Set(widths).size > 1) errors.push(`patchnotes ${n.id} 「${s.heading}」 blocks[${j}]: 表の列数が行ごとに違う (${widths.join(",")})`);
+        }),
+      );
+    });
+  }
   if (warnings.length) console.warn(warnings.join("\n"));
 
   const counts = COLLECTIONS.map((c) => `${c}=${ds[c].length}`).join(" ") + groupCount;
@@ -177,3 +196,22 @@ async function main() {
 }
 
 await main();
+
+/** 結合マスを広げたときの各行の列数 */
+function tableWidths(rows: PatchCell[][]): number[] {
+  const carry: number[] = []; // 列ごとに、上の行の rowspan があと何行続くか
+  return rows.map((row) => {
+    let col = 0;
+    const skip = () => {
+      while (carry[col] > 0) carry[col++]--;
+    };
+    for (const c of row) {
+      skip();
+      const rs = typeof c === "string" ? 1 : (c.rowspan ?? 1);
+      const cs = typeof c === "string" ? 1 : (c.colspan ?? 1);
+      for (let k = 0; k < cs; k++) carry[col++] = rs - 1;
+    }
+    skip();
+    return col;
+  });
+}

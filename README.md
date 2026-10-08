@@ -30,6 +30,7 @@ npm run build      # validate → 型チェック → dist/ に静的ファイ�
 | `sources.json` | 出典 (URL・地域 JP/KR/CN・公開日・取得日) |
 | `item_groups.json` | 強化・段階・増幅・等級・物理/魔法/混合などの違いだけの同一装備のまとめ (メンバーは段階順) |
 | `sets.json` | セット効果 (必要数ごとの能力値・スキル)。アイテムの `set` から参照 |
+| `patchnotes.json` | 画面の「日韓アップデート」。告知ごとにセクション → ブロック (見出し・段落・箇条書き・表)。KR は日本語訳、新しい順。下書きは `npm run fetch:patchnote -- kr <番号>` / `jp <お知らせ番号>` で `ingest/drafts/patchnotes/` に作る |
 | `changelog.json` | 画面の「更新履歴」(日付ごとの 追加/整理/表示/修正 と関連リンク)。新しい日付が先頭 |
 
 原則:

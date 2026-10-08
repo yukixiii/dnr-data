@@ -8,6 +8,7 @@ import { renderDrops, renderDungeon, renderDungeonList } from "./views/drops.ts"
 import { renderOptionList, renderOptionTable } from "./views/options.ts";
 import { renderHome, renderSources } from "./views/home.ts";
 import { renderChangelog } from "./views/changelog.ts";
+import { renderPatchnotes } from "./views/patchnotes.ts";
 
 const app = document.getElementById("app")!;
 
@@ -47,6 +48,8 @@ function render({ path, query }: Route): { html: string; title: string; nav: str
       return { html: renderDungeonList(), title: "ダンジョン", nav: "dungeons" };
     case "dungeon":
       return { html: renderDungeon(id), title: id, nav: "dungeons" };
+    case "patchnotes":
+      return { html: renderPatchnotes(query), title: "日韓アップデート", nav: "patchnotes" };
     case "changelog":
       return { html: renderChangelog(), title: "更新履歴", nav: "changelog" };
     case "sources":

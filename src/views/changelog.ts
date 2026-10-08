@@ -28,7 +28,7 @@ function dayHtml(d: ChangelogDay, limit = Infinity, h = "h2") {
 
 export function renderChangelog() {
   return `<h1>更新履歴</h1>
-  <p class="muted">このサイトのデータと表示の主な変更です。ゲーム本体のアップデートは<a href="${href("sources")}">出典</a>の公式お知らせをご覧ください。</p>
+  <p class="muted">このサイトのデータと表示の主な変更です。ゲーム本体のアップデートは<a href="${href("patchnotes")}">日韓アップデート</a>をご覧ください。</p>
   ${changelog.map((d) => dayHtml(d)).join("")}`;
 }
 

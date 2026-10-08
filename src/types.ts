@@ -216,6 +216,44 @@ export interface ChangelogEntry {
   links?: { kind: "item" | "dungeon" | "page"; id: string; label?: string }[];
 }
 
+/** 日韓のアップデート告知 (data/patchnotes.json、新しい順)。KR は日本語訳、JP は原文を整理したもの */
+export interface PatchNote {
+  /** "kr-<パッチノート番号>" / "jp-notice-<お知らせ番号>" */
+  id: string;
+  region: "KR" | "JP";
+  /** 実施日 (告知の日付) YYYY-MM-DD */
+  date: string;
+  /** 原題 */
+  title: string;
+  /** 原題の日本語訳 (KR) */
+  title_ja?: string;
+  url: string;
+  fetched_at: string;
+  sections: PatchSection[];
+}
+
+export interface PatchSection {
+  heading: string;
+  /** 原題 (KR の見出しを訳したとき) */
+  heading_orig?: string;
+  /** セクションの原文 */
+  url?: string;
+  /** 全文ではなく要約だけを載せている */
+  summary_only?: boolean;
+  blocks: PatchBlock[];
+}
+
+/** 表のマス。結合マスだけ rowspan / colspan を持つ */
+export type PatchCell = string | { text: string; rowspan?: number; colspan?: number };
+
+export type PatchBlock =
+  | { type: "h"; level: 1 | 2; text: string }
+  | { type: "p"; text: string }
+  | { type: "ul"; items: string[] }
+  | { type: "table"; head?: PatchCell[][]; rows: PatchCell[][]; note?: string }
+  /** 画像は載せず「原文参照」とだけ出す */
+  | { type: "img"; alt?: string };
+
 export interface Dataset {
   sources: Source[];
   items: Item[];
