@@ -1,5 +1,23 @@
 [
   {
+    "id": "jp-notice-1475",
+    "url": "https://dnr-hangame.brabragames.jp/news/notice.html?mode=read&no=1475",
+    "region": "JP",
+    "kind": "official",
+    "title": "2026年10月21日アップデート＆イベント情報",
+    "published_at": "2026-10-21",
+    "fetched_at": "2026-10-21"
+  },
+  {
+    "id": "jp-notice-1477",
+    "url": "https://dnr-hangame.brabragames.jp/news/notice.html?mode=read&no=1477",
+    "region": "JP",
+    "kind": "official",
+    "title": "逆説の戦士、パラドックスウォーリアー",
+    "published_at": "2026-10-21",
+    "fetched_at": "2026-10-21"
+  },
+  {
     "id": "jp-vipwiki-status",
     "url": "https://wikiwiki.jp/vipdranes/ステータス・装備",
     "region": "JP",
@@ -484,11 +502,11 @@
     "fetched_at": "2026-10-04"
   },
   {
-    "id": "jp-client-20261001",
+    "id": "jp-client-20261021",
     "url": "https://dnr-hangame.brabragames.jp/",
     "region": "JP",
     "kind": "official",
-    "title": "ドラゴンネストR ゲームクライアントのデータ (2026-10-01 更新時点)",
-    "fetched_at": "2026-10-04"
+    "title": "ドラゴンネストR ゲームクライアントのデータ (2026-10-21 更新時点)",
+    "fetched_at": "2026-10-21"
   }
 ]

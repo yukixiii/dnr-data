@@ -186,6 +186,8 @@ async function jp(no: string) {
     }
     if (sections.length) sections[sections.length - 1].blocks.push(b);
   }
+  // 大見出しの無い告知 (新職業の紹介など) は本文全体を 1 セクションにする
+  if (!sections.length) sections.push({ heading: title, url, blocks });
   return {
     id: `jp-notice-${no}`,
     region: "JP",

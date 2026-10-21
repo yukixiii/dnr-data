@@ -33,7 +33,7 @@
     ],
     "refs": [
       {
-        "source": "jp-client-20261001"
+        "source": "jp-client-20261021"
       }
     ]
   },
@@ -58,7 +58,7 @@
     ],
     "refs": [
       {
-        "source": "jp-client-20261001"
+        "source": "jp-client-20261021"
       }
     ]
   },
@@ -122,7 +122,7 @@
     ],
     "refs": [
       {
-        "source": "jp-client-20261001"
+        "source": "jp-client-20261021"
       }
     ]
   },
@@ -169,7 +169,7 @@
     ],
     "refs": [
       {
-        "source": "jp-client-20261001"
+        "source": "jp-client-20261021"
       }
     ]
   },
@@ -185,7 +185,7 @@
     ],
     "refs": [
       {
-        "source": "jp-client-20261001"
+        "source": "jp-client-20261021"
       }
     ]
   },
@@ -215,7 +215,7 @@
     ],
     "refs": [
       {
-        "source": "jp-client-20261001"
+        "source": "jp-client-20261021"
       }
     ]
   },
@@ -244,7 +244,7 @@
     ],
     "refs": [
       {
-        "source": "jp-client-20261001"
+        "source": "jp-client-20261021"
       }
     ]
   },
@@ -276,7 +276,53 @@
     ],
     "refs": [
       {
-        "source": "jp-client-20261001"
+        "source": "jp-client-20261021"
+      }
+    ]
+  },
+  {
+    "id": "client-864027647",
+    "name": "逆説の防具",
+    "description": "逆説の防具間でセット効果がある。",
+    "bonuses": [
+      {
+        "count": 5,
+        "skill": "敵の残りHPが50%以上の場合、全ての攻撃が命中するごとにHPに比例して増加する追加ダメージが発生する。 HPが50%より1%上がるごとに追加ダメージが2%ずつ増加 PvPでは適用されない。"
+      }
+    ],
+    "refs": [
+      {
+        "source": "jp-client-20261021"
+      }
+    ]
+  },
+  {
+    "id": "client-864027648",
+    "name": "レア等級以上の逆説のアクセサリー",
+    "description": "レア等級以上の逆説のアクセサリー間でセット効果がある。",
+    "bonuses": [
+      {
+        "count": 2,
+        "stats": [
+          {
+            "name": "属性%",
+            "value": "10.00%"
+          }
+        ]
+      },
+      {
+        "count": 4,
+        "stats": [
+          {
+            "name": "物魔攻撃%",
+            "value": "15.00%"
+          }
+        ]
+      }
+    ],
+    "refs": [
+      {
+        "source": "jp-client-20261021"
       }
     ]
   },
@@ -314,7 +360,7 @@
     ],
     "refs": [
       {
-        "source": "jp-client-20261001"
+        "source": "jp-client-20261021"
       }
     ]
   }

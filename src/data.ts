@@ -20,7 +20,8 @@ const [sources, items, materials, recipes, enhanceTables, drops, dungeons, itemG
 import type { ChangelogDay, PatchNote, Dataset, DropEntry, DropTable, Dungeon, EnhanceTable, GroupMember, Item, ItemGroup, ItemSet, OptionTable, Recipe, Ref, Region, Source } from "./types.ts";
 
 export const ds: Dataset = {
-  sources: sources as Source[],
+  // 公開日の新しい順 (公開日の無いクライアント・確率表などは最後)。ファイルの並びに関係なく出典一覧・トップの最近の告知に新しい物が出る
+  sources: [...(sources as Source[])].sort((a, b) => (b.published_at ?? "").localeCompare(a.published_at ?? "")),
   items: items as Item[],
   materials: materials as Item[],
   recipes: recipes as Recipe[],
