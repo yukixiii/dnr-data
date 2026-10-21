@@ -12,6 +12,31 @@ function cellHtml(c: PatchCell, tag: "th" | "td") {
   return `<${tag}${span}>${text(c.text)}</${tag}>`;
 }
 
+const rowHtml = (r: PatchCell[], tag: "th" | "td") => `<tr>${r.map((c) => cellHtml(c, tag)).join("")}</tr>`;
+const cellText = (c: PatchCell) => (typeof c === "string" ? c : c.text);
+
+// 日本版の告知の表は見出し行が分かれていないので、形から見出しを決める。
+// 2 列だけの表は「項目 | 値」として左の列を見出しにし、それ以外は空のマスの無い 1 行目 (縦に結合していればその行数ぶん) を見出しにする
+function tableHtml(b: Extract<PatchBlock, { type: "table" }>) {
+  let head = b.head ?? [];
+  let rows = b.rows;
+  let kv = false;
+  if (!head.length && rows.length > 1) {
+    if (rows.every((r) => r.length === 2 && cellText(r[0]))) kv = true;
+    else if (rows[0].every((c) => cellText(c))) {
+      const n = Math.max(...rows[0].map((c) => (typeof c === "string" ? 1 : (c.rowspan ?? 1))));
+      head = rows.slice(0, n);
+      rows = rows.slice(n);
+    }
+  }
+  const body = kv
+    ? rows.map((r) => `<tr>${cellHtml(r[0], "th")}${cellHtml(r[1], "td")}</tr>`).join("")
+    : rows.map((r) => rowHtml(r, "td")).join("");
+  return `<div class="table-wrap"><table class="data${kv ? " pn-kv" : ""}">${
+    head.length ? `<thead>${head.map((r) => rowHtml(r, "th")).join("")}</thead>` : ""
+  }<tbody>${body}</tbody></table></div>${b.note ? `<p class="pn-note">${text(b.note)}</p>` : ""}`;
+}
+
 function blockHtml(b: ViewBlock, s: PatchSection) {
   switch (b.type) {
     case "h":
@@ -21,11 +46,7 @@ function blockHtml(b: ViewBlock, s: PatchSection) {
     case "ul":
       return `<ul>${b.items.map((i) => `<li>${text(i)}</li>`).join("")}</ul>`;
     case "table":
-      return `<div class="table-wrap"><table class="data">${
-        b.head?.length ? `<thead>${b.head.map((r) => `<tr>${r.map((c) => cellHtml(c, "th")).join("")}</tr>`).join("")}</thead>` : ""
-      }<tbody>${b.rows.map((r) => `<tr>${r.map((c) => cellHtml(c, "td")).join("")}</tr>`).join("")}</tbody></table></div>${
-        b.note ? `<p class="muted">${text(b.note)}</p>` : ""
-      }`;
+      return tableHtml(b);
     case "img":
     case "imgs": {
       const label = `画像${b.type === "img" && b.alt ? `: ${esc(b.alt)}` : b.type === "imgs" && b.count > 1 ? ` ×${b.count}` : ""} (原文参照)`;
@@ -37,7 +58,7 @@ function blockHtml(b: ViewBlock, s: PatchSection) {
 function sectionHtml(s: PatchSection) {
   const orig = s.heading_orig && s.heading_orig !== s.heading ? ` <span class="muted">${esc(s.heading_orig)}</span>` : "";
   const src = s.url ? `<p class="pn-src"><a href="${esc(s.url)}" target="_blank" rel="noopener">原文 ↗</a></p>` : "";
-  return `<details class="pn-section"><summary>${esc(s.heading)}${orig}${s.summary_only ? ` <span class="chip">要約</span>` : ""}</summary>
+  return `<details class="pn-section"><summary><span class="pn-heading">${esc(s.heading)}</span>${orig}${s.summary_only ? ` <span class="chip">要約</span>` : ""}</summary>
     <div class="pn-body">${imgRuns(s.blocks)
       .map((b) => blockHtml(b, s))
       .join("")}${src}</div></details>`;
@@ -57,8 +78,8 @@ function imgRuns(blocks: PatchBlock[]): ViewBlock[] {
 
 function noteHtml(n: PatchNote) {
   return `<article class="patchnote" id="pn-${esc(n.id)}">
-    <h2><span class="badge region-${n.region}">${n.region}</span> ${esc(n.date)} ${esc(n.title_ja ?? n.title)}</h2>
-    <p class="muted">${n.title_ja ? `原題: ${esc(n.title)} ・ ` : ""}<a href="${esc(n.url)}" target="_blank" rel="noopener">公式の告知 ↗</a>${
+    <h2 class="pn-title"><span class="badge region-${n.region}">${n.region}</span> ${esc(n.title_ja ?? n.title)}</h2>
+    <p class="pn-meta">${n.title_ja ? `原題: ${esc(n.title)} ・ ` : ""}<a href="${esc(n.url)}" target="_blank" rel="noopener">公式の告知 ↗</a>${
       n.region === "KR" ? " ・ 非公式の日本語訳です。名称は日本版にあるものは日本版の表記にしています。" : ""
     }</p>
     ${n.sections.map(sectionHtml).join("")}
