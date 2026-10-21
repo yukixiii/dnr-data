@@ -1,6 +1,6 @@
 // 日韓のアップデート (data/patchnotes.json)
 import { patchnotes } from "../data.ts";
-import { esc } from "../components/ui.ts";
+import { esc, href } from "../components/ui.ts";
 import type { PatchBlock, PatchCell, PatchNote, PatchSection } from "../types.ts";
 
 // 本文の改行は <br> にする (表のマス内の改行など)
@@ -65,14 +65,58 @@ function noteHtml(n: PatchNote) {
   </article>`;
 }
 
+const INTRO = `<p class="muted">韓国版と日本版のアップデート告知の内容をまとめています。韓国版は日本語訳、日本版は公式お知らせの内容を整理したものです。イベント・パッケージなどは要約のみです。正確な内容は各公式の告知をご覧ください。</p>`;
+
+// 地域で絞った告知を日付ごとにまとめる (データが新しい順なので日付も新しい順)
+function byDate(region: string | null) {
+  const days = new Map<string, PatchNote[]>();
+  for (const n of patchnotes) if (!region || n.region === region) days.set(n.date, [...(days.get(n.date) ?? []), n]);
+  return days;
+}
+
+const dayHref = (date: string, region: string | null) => `${href("patchnotes", date)}${region ? `?region=${region}` : ""}`;
+
 export function renderPatchnotes(query: URLSearchParams) {
   const region = query.get("region");
-  const list = patchnotes.filter((n) => !region || n.region === region);
+  const days = byDate(region);
   const tab = (r: string | null, label: string) =>
     `<a class="chip${r === region ? " is-active" : ""}" href="#/patchnotes${r ? `?region=${r}` : ""}">${label}</a>`;
   return `<h1>日韓アップデート</h1>
-  <p class="muted">韓国版と日本版のアップデート告知の内容をまとめています。韓国版は日本語訳、日本版は公式お知らせの内容を整理したものです。イベント・パッケージなどは要約のみです。正確な内容は各公式の告知をご覧ください。</p>
+  ${INTRO}
   <nav class="pn-tabs">${tab(null, "すべて")}${tab("KR", "韓国")}${tab("JP", "日本")}</nav>
-  ${list.length ? list.map(noteHtml).join("") : `<p>まだありません。</p>`}`;
+  ${
+    days.size
+      ? `<ul class="cards pn-days">${[...days.entries()]
+          .map(
+            ([date, notes]) => `<li class="card"><div class="card-title"><a href="${dayHref(date, region)}">${esc(date)}</a></div>
+          <ul class="pn-day-notes">${notes
+            .map(
+              (n) =>
+                `<li><span class="badge region-${n.region}">${n.region}</span> ${esc(n.title_ja ?? n.title)} <span class="muted">${n.sections.length} 項目</span></li>`,
+            )
+            .join("")}</ul></li>`,
+          )
+          .join("")}</ul>`
+      : `<p>まだありません。</p>`
+  }`;
+}
+
+/** 1 日分のページ。同じ日の告知 (日本の複数のお知らせ、日韓の両方) をまとめて出す */
+export function renderPatchnoteDay(date: string, query: URLSearchParams) {
+  const region = query.get("region");
+  const days = byDate(region);
+  const dates = [...days.keys()];
+  const i = dates.indexOf(date);
+  const crumbs = `<nav class="crumbs"><a href="${href("patchnotes")}${region ? `?region=${region}` : ""}">日韓アップデート一覧</a></nav>`;
+  if (i < 0) return `${crumbs}<h1>${esc(date)} のアップデート</h1><p>この日のアップデートはありません。</p>`;
+  const newer = dates[i - 1];
+  const older = dates[i + 1];
+  return `${crumbs}
+  <h1>${esc(date)} のアップデート</h1>
+  ${INTRO}
+  ${days.get(date)!.map(noteHtml).join("")}
+  <nav class="pn-pager">${newer ? `<a href="${dayHref(newer, region)}">← ${esc(newer)}</a>` : "<span></span>"}${
+    older ? `<a href="${dayHref(older, region)}">${esc(older)} →</a>` : "<span></span>"
+  }</nav>`;
 }
 

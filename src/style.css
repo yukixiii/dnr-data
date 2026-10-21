@@ -1033,6 +1033,24 @@ details.pn-section > summary .muted {
 .pn-body table.data th {
   white-space: normal;
 }
+.pn-days {
+  grid-template-columns: 1fr;
+}
+.pn-day-notes {
+  list-style: none;
+  margin: 4px 0 0;
+  padding: 0;
+  font-size: 0.9rem;
+}
+.pn-day-notes li {
+  margin: 2px 0;
+}
+.pn-pager {
+  display: flex;
+  justify-content: space-between;
+  gap: 12px;
+  margin: 24px 0 8px;
+}
 .pn-img,
 .pn-src {
   font-size: 0.85rem;
