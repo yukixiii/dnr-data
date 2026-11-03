@@ -40,6 +40,8 @@ interface CRow { rate: number; gold: number; materials: CMat[]; protect_qty: num
 interface CItem {
   client_id: number; name: string; kind: string; slot?: string; grade?: string; icon?: number; level?: number; tier?: string; label?: string;
   stats?: CStat[]; stats_note?: string; variants_note?: string; enchant_id?: number; max_enhance?: number;
+  // 使うと強化表だけが違う版に変わるアイテム (金竜の竜珠安定器など) を使った後の強化表
+  enchant_change?: { enchant_id: number; label: string; change_id: number; rows: Record<string, CRow> };
   levels?: Record<string, CStat[]>; stages?: Record<string, CStat[]>; tradable?: string; description?: string; set?: string;
 }
 interface Export {
@@ -433,18 +435,36 @@ for (const it of [...items, ...materials]) {
 // ---- 強化表 ----
 const qtyOk = (q: Qty["qty"]) => typeof q === "number";
 const PROTECT = /ゼリー/;
-function clientRow(level: string, c: CRow, prev?: EnhanceRow): EnhanceRow {
+// 対象アイテムが別の強化表の版に変わる (金竜の竜珠安定器など) ときの、その版の表 (対象で 1 つに決まるときだけ)
+type Change = { label: string; rows: Record<string, CRow> };
+function changeOf(applies: string[]): Change | undefined {
+  // 部位ごとに強化 ID は違っても、確率・費用・破壊が同じなら 1 つとみなす
+  const cs = new Map(applies.map((a) => ex.items[a]?.enchant_change).filter((c) => !!c).map((c) => [`${c!.label}\t${JSON.stringify(c!.rows)}`, c!]));
+  return cs.size === 1 ? [...cs.values()][0] : undefined;
+}
+function failText(c: CRow) {
+  const parts: string[] = [];
+  if (c.break_rate) parts.push(`破壊 ${c.break_rate}%`);
+  if (c.down && (c.down[0] || c.down[1])) parts.push(c.down[0] === c.down[1] ? `-${c.down[0]}` : `-${c.down[0]}～-${c.down[1]}`);
+  if (c.protect_qty) parts.push(`保護ゼリー ${c.protect_qty} 個で防止`);
+  return parts.join("、");
+}
+function clientRow(level: string, c: CRow, prev?: EnhanceRow, change?: Change): EnhanceRow {
   const row: EnhanceRow = { level, rate: c.rate };
   if (c.gold) row.gold = c.gold;
   const mats: Qty[] = c.materials.map((m) => ({ item: matId(m), qty: m.qty }));
   if (mats.length) row.materials = mats;
   if (prev?.on_fail) row.on_fail = prev.on_fail;
   else if (c.rate < 100) {
-    const parts: string[] = [];
-    if (c.break_rate) parts.push(`破壊 ${c.break_rate}%`);
-    if (c.down && (c.down[0] || c.down[1])) parts.push(c.down[0] === c.down[1] ? `-${c.down[0]}` : `-${c.down[0]}～-${c.down[1]}`);
-    if (c.protect_qty) parts.push(`保護ゼリー ${c.protect_qty} 個で防止`);
-    if (parts.length) row.on_fail = parts.join("、");
+    const t = failText(c);
+    if (t) row.on_fail = t;
+  }
+  // 別の版に変わった後の失敗時 (金竜の竜珠安定器使用後は破壊なし 等)。既に書いてあれば足さない
+  const lv = /^\+(\d+)$/.exec(level.trim())?.[1]; // 行の段階 = 強化後の段階の表だけ
+  const cc = lv !== undefined ? change?.rows[lv] : undefined;
+  if (change && cc && c.rate < 100 && !row.on_fail?.includes(change.label)) {
+    const after = failText(cc) || "破壊・段階ダウンなし";
+    if (after !== failText(c)) row.on_fail = `${row.on_fail ?? "変化なし"} (${change.label}: ${after})`;
   }
   if (prev?.rate_text && !/[\d.]+%/.test(prev.rate_text)) row.rate_text = prev.rate_text;
   return row;
@@ -517,7 +537,7 @@ for (const t of tables) {
       rows.push(statsMoved ? (({ stats, ...r }) => r)(row) : row);
       continue;
     }
-    const nr = clientRow(row.level, cr, row);
+    const nr = clientRow(row.level, cr, row, c.level_offset ? undefined : changeOf(t.applies_to));
     if (!statsMoved && row.stats) nr.stats = row.stats;
     if (row.rate !== undefined && Math.abs(row.rate - cr.rate) > 1e-6) diffs.push(`${row.level} 確率${row.rate}%`);
     if (typeof row.gold === "number" && row.gold !== (cr.gold || undefined)) diffs.push(`${row.level} ${row.gold}G`);
@@ -536,7 +556,7 @@ for (const t of tables) {
     // 海外版だけの表 → 日本版クライアントの表に置き換え (全段階)
     const all = ex.enchants[String(c.enchant_id)] ?? {};
     const off = c.level_offset;
-    t.rows = Object.entries(all).map(([lv, cr]) => clientRow(off ? `[+${Number(lv) - off}]` : `+${lv}`, cr));
+    t.rows = Object.entries(all).map(([lv, cr]) => clientRow(off ? `[+${Number(lv) - off}]` : `+${lv}`, cr, undefined, off ? undefined : changeOf(t.applies_to)));
     t.name = t.name.replace(/\s*\((CN|KR)版\)$/, "").replace(/\s*\(海外版\)$/, "");
     t.notes = `日本版クライアントの値 (${ex.pak_date}時点)。以前は海外版の表 (${t.refs.map((r) => r.source).join(", ")}) を掲載していた。`;
     t.refs = [{ source: SRC }];
@@ -581,6 +601,7 @@ const NAME_OVERRIDE: Record<string, string> = {
   "client-enh-847258892": "崩壊の竜珠(エピック) 強化",
   "client-enh-847258912": "金糸防具[Ⅱ] 強化",
   "client-enh-847258917": "金糸武器[Ⅱ] 強化",
+  "client-enh-847258905": "金竜の竜珠 強化",
 };
 // 対象アイテム名に共通部分が無くても統合してよいグループ (別系統が同じ強化 ID を共有しているもの)
 const MERGE_ALLOW = new Set<string>([
@@ -746,7 +767,7 @@ const tableAliases = await readJson<Record<string, string>>("ingest/table_aliase
         if (onFail) prev.on_fail = onFail;
         const rateText = prevs.find((r) => r.rate_text && !/[\d.]+%|記載なし|不明/.test(r.rate_text))?.rate_text;
         if (rateText) prev.rate_text = rateText;
-        const row = clientRow(`+${lv}`, cr, prev);
+        const row = clientRow(`+${lv}`, cr, prev, changeOf(applies));
         const st = statsFrom.flatMap(({ map, note }) =>
           (map.get(Number(lv))?.stats ?? []).map((x) => (note && !x.note ? { ...x, note } : note ? { ...x, note: `${note} ${x.note}` } : x)),
         );

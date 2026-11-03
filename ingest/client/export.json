@@ -72758,7 +72758,234 @@
      "value": "600"
     }
    ],
-   "enchant_id": 847258939,
+   "enchant_change": {
+    "enchant_id": 847258939,
+    "label": "金竜の竜珠安定器使用後",
+    "change_id": 2051,
+    "rows": {
+     "1": {
+      "rate": 100.0,
+      "gold": 100000.0,
+      "materials": [
+       {
+        "item": "金色の追憶",
+        "qty": 1,
+        "client_id": 268511287
+       },
+       {
+        "item": "色褪せた追憶",
+        "qty": 10,
+        "client_id": 268511288
+       }
+      ],
+      "protect_qty": 0,
+      "break_rate": 0.0,
+      "down": [
+       0,
+       0
+      ]
+     },
+     "2": {
+      "rate": 100.0,
+      "gold": 110000.0,
+      "materials": [
+       {
+        "item": "金色の追憶",
+        "qty": 1,
+        "client_id": 268511287
+       },
+       {
+        "item": "色褪せた追憶",
+        "qty": 15,
+        "client_id": 268511288
+       }
+      ],
+      "protect_qty": 0,
+      "break_rate": 0.0,
+      "down": [
+       0,
+       0
+      ]
+     },
+     "3": {
+      "rate": 100.0,
+      "gold": 120000.0,
+      "materials": [
+       {
+        "item": "金色の追憶",
+        "qty": 1,
+        "client_id": 268511287
+       },
+       {
+        "item": "色褪せた追憶",
+        "qty": 20,
+        "client_id": 268511288
+       }
+      ],
+      "protect_qty": 0,
+      "break_rate": 0.0,
+      "down": [
+       0,
+       0
+      ]
+     },
+     "4": {
+      "rate": 100.0,
+      "gold": 130000.0,
+      "materials": [
+       {
+        "item": "金色の追憶",
+        "qty": 1,
+        "client_id": 268511287
+       },
+       {
+        "item": "色褪せた追憶",
+        "qty": 25,
+        "client_id": 268511288
+       }
+      ],
+      "protect_qty": 0,
+      "break_rate": 0.0,
+      "down": [
+       0,
+       0
+      ]
+     },
+     "5": {
+      "rate": 100.0,
+      "gold": 140000.0,
+      "materials": [
+       {
+        "item": "金色の追憶",
+        "qty": 1,
+        "client_id": 268511287
+       },
+       {
+        "item": "色褪せた追憶",
+        "qty": 30,
+        "client_id": 268511288
+       }
+      ],
+      "protect_qty": 0,
+      "break_rate": 0.0,
+      "down": [
+       0,
+       0
+      ]
+     },
+     "6": {
+      "rate": 50.0,
+      "gold": 150000.0,
+      "materials": [
+       {
+        "item": "金色の追憶",
+        "qty": 1,
+        "client_id": 268511287
+       },
+       {
+        "item": "色褪せた追憶",
+        "qty": 35,
+        "client_id": 268511288
+       }
+      ],
+      "protect_qty": 0,
+      "break_rate": 0.0,
+      "down": [
+       0,
+       0
+      ]
+     },
+     "7": {
+      "rate": 45.0,
+      "gold": 200000.0,
+      "materials": [
+       {
+        "item": "金色の追憶",
+        "qty": 1,
+        "client_id": 268511287
+       },
+       {
+        "item": "色褪せた追憶",
+        "qty": 40,
+        "client_id": 268511288
+       }
+      ],
+      "protect_qty": 0,
+      "break_rate": 0.0,
+      "down": [
+       0,
+       0
+      ]
+     },
+     "8": {
+      "rate": 35.0,
+      "gold": 225000.0,
+      "materials": [
+       {
+        "item": "金色の追憶",
+        "qty": 1,
+        "client_id": 268511287
+       },
+       {
+        "item": "色褪せた追憶",
+        "qty": 45,
+        "client_id": 268511288
+       }
+      ],
+      "protect_qty": 0,
+      "break_rate": 0.0,
+      "down": [
+       0,
+       0
+      ]
+     },
+     "9": {
+      "rate": 25.0,
+      "gold": 225000.0,
+      "materials": [
+       {
+        "item": "金色の追憶",
+        "qty": 1,
+        "client_id": 268511287
+       },
+       {
+        "item": "色褪せた追憶",
+        "qty": 50,
+        "client_id": 268511288
+       }
+      ],
+      "protect_qty": 0,
+      "break_rate": 0.0,
+      "down": [
+       0,
+       0
+      ]
+     },
+     "10": {
+      "rate": 15.0,
+      "gold": 250000.0,
+      "materials": [
+       {
+        "item": "金色の追憶",
+        "qty": 1,
+        "client_id": 268511287
+       },
+       {
+        "item": "色褪せた追憶",
+        "qty": 100,
+        "client_id": 268511288
+       }
+      ],
+      "protect_qty": 0,
+      "break_rate": 0.0,
+      "down": [
+       0,
+       0
+      ]
+     }
+    }
+   },
+   "enchant_id": 847258906,
    "max_enhance": 10,
    "levels": {
     "+1": [
@@ -72926,7 +73153,234 @@
      "value": "30,000"
     }
    ],
-   "enchant_id": 847258941,
+   "enchant_change": {
+    "enchant_id": 847258941,
+    "label": "金竜の竜珠安定器使用後",
+    "change_id": 2051,
+    "rows": {
+     "1": {
+      "rate": 100.0,
+      "gold": 100000.0,
+      "materials": [
+       {
+        "item": "金色の追憶",
+        "qty": 1,
+        "client_id": 268511287
+       },
+       {
+        "item": "色褪せた追憶",
+        "qty": 10,
+        "client_id": 268511288
+       }
+      ],
+      "protect_qty": 0,
+      "break_rate": 0.0,
+      "down": [
+       0,
+       0
+      ]
+     },
+     "2": {
+      "rate": 100.0,
+      "gold": 110000.0,
+      "materials": [
+       {
+        "item": "金色の追憶",
+        "qty": 1,
+        "client_id": 268511287
+       },
+       {
+        "item": "色褪せた追憶",
+        "qty": 15,
+        "client_id": 268511288
+       }
+      ],
+      "protect_qty": 0,
+      "break_rate": 0.0,
+      "down": [
+       0,
+       0
+      ]
+     },
+     "3": {
+      "rate": 100.0,
+      "gold": 120000.0,
+      "materials": [
+       {
+        "item": "金色の追憶",
+        "qty": 1,
+        "client_id": 268511287
+       },
+       {
+        "item": "色褪せた追憶",
+        "qty": 20,
+        "client_id": 268511288
+       }
+      ],
+      "protect_qty": 0,
+      "break_rate": 0.0,
+      "down": [
+       0,
+       0
+      ]
+     },
+     "4": {
+      "rate": 100.0,
+      "gold": 130000.0,
+      "materials": [
+       {
+        "item": "金色の追憶",
+        "qty": 1,
+        "client_id": 268511287
+       },
+       {
+        "item": "色褪せた追憶",
+        "qty": 25,
+        "client_id": 268511288
+       }
+      ],
+      "protect_qty": 0,
+      "break_rate": 0.0,
+      "down": [
+       0,
+       0
+      ]
+     },
+     "5": {
+      "rate": 100.0,
+      "gold": 140000.0,
+      "materials": [
+       {
+        "item": "金色の追憶",
+        "qty": 1,
+        "client_id": 268511287
+       },
+       {
+        "item": "色褪せた追憶",
+        "qty": 30,
+        "client_id": 268511288
+       }
+      ],
+      "protect_qty": 0,
+      "break_rate": 0.0,
+      "down": [
+       0,
+       0
+      ]
+     },
+     "6": {
+      "rate": 50.0,
+      "gold": 150000.0,
+      "materials": [
+       {
+        "item": "金色の追憶",
+        "qty": 1,
+        "client_id": 268511287
+       },
+       {
+        "item": "色褪せた追憶",
+        "qty": 35,
+        "client_id": 268511288
+       }
+      ],
+      "protect_qty": 0,
+      "break_rate": 0.0,
+      "down": [
+       0,
+       0
+      ]
+     },
+     "7": {
+      "rate": 45.0,
+      "gold": 200000.0,
+      "materials": [
+       {
+        "item": "金色の追憶",
+        "qty": 1,
+        "client_id": 268511287
+       },
+       {
+        "item": "色褪せた追憶",
+        "qty": 40,
+        "client_id": 268511288
+       }
+      ],
+      "protect_qty": 0,
+      "break_rate": 0.0,
+      "down": [
+       0,
+       0
+      ]
+     },
+     "8": {
+      "rate": 35.0,
+      "gold": 225000.0,
+      "materials": [
+       {
+        "item": "金色の追憶",
+        "qty": 1,
+        "client_id": 268511287
+       },
+       {
+        "item": "色褪せた追憶",
+        "qty": 45,
+        "client_id": 268511288
+       }
+      ],
+      "protect_qty": 0,
+      "break_rate": 0.0,
+      "down": [
+       0,
+       0
+      ]
+     },
+     "9": {
+      "rate": 25.0,
+      "gold": 225000.0,
+      "materials": [
+       {
+        "item": "金色の追憶",
+        "qty": 1,
+        "client_id": 268511287
+       },
+       {
+        "item": "色褪せた追憶",
+        "qty": 50,
+        "client_id": 268511288
+       }
+      ],
+      "protect_qty": 0,
+      "break_rate": 0.0,
+      "down": [
+       0,
+       0
+      ]
+     },
+     "10": {
+      "rate": 15.0,
+      "gold": 250000.0,
+      "materials": [
+       {
+        "item": "金色の追憶",
+        "qty": 1,
+        "client_id": 268511287
+       },
+       {
+        "item": "色褪せた追憶",
+        "qty": 100,
+        "client_id": 268511288
+       }
+      ],
+      "protect_qty": 0,
+      "break_rate": 0.0,
+      "down": [
+       0,
+       0
+      ]
+     }
+    }
+   },
+   "enchant_id": 847258908,
    "max_enhance": 10,
    "levels": {
     "+1": [
@@ -73094,7 +73548,234 @@
      "value": "30,000"
     }
    ],
-   "enchant_id": 847258942,
+   "enchant_change": {
+    "enchant_id": 847258942,
+    "label": "金竜の竜珠安定器使用後",
+    "change_id": 2051,
+    "rows": {
+     "1": {
+      "rate": 100.0,
+      "gold": 100000.0,
+      "materials": [
+       {
+        "item": "金色の追憶",
+        "qty": 1,
+        "client_id": 268511287
+       },
+       {
+        "item": "色褪せた追憶",
+        "qty": 10,
+        "client_id": 268511288
+       }
+      ],
+      "protect_qty": 0,
+      "break_rate": 0.0,
+      "down": [
+       0,
+       0
+      ]
+     },
+     "2": {
+      "rate": 100.0,
+      "gold": 110000.0,
+      "materials": [
+       {
+        "item": "金色の追憶",
+        "qty": 1,
+        "client_id": 268511287
+       },
+       {
+        "item": "色褪せた追憶",
+        "qty": 15,
+        "client_id": 268511288
+       }
+      ],
+      "protect_qty": 0,
+      "break_rate": 0.0,
+      "down": [
+       0,
+       0
+      ]
+     },
+     "3": {
+      "rate": 100.0,
+      "gold": 120000.0,
+      "materials": [
+       {
+        "item": "金色の追憶",
+        "qty": 1,
+        "client_id": 268511287
+       },
+       {
+        "item": "色褪せた追憶",
+        "qty": 20,
+        "client_id": 268511288
+       }
+      ],
+      "protect_qty": 0,
+      "break_rate": 0.0,
+      "down": [
+       0,
+       0
+      ]
+     },
+     "4": {
+      "rate": 100.0,
+      "gold": 130000.0,
+      "materials": [
+       {
+        "item": "金色の追憶",
+        "qty": 1,
+        "client_id": 268511287
+       },
+       {
+        "item": "色褪せた追憶",
+        "qty": 25,
+        "client_id": 268511288
+       }
+      ],
+      "protect_qty": 0,
+      "break_rate": 0.0,
+      "down": [
+       0,
+       0
+      ]
+     },
+     "5": {
+      "rate": 100.0,
+      "gold": 140000.0,
+      "materials": [
+       {
+        "item": "金色の追憶",
+        "qty": 1,
+        "client_id": 268511287
+       },
+       {
+        "item": "色褪せた追憶",
+        "qty": 30,
+        "client_id": 268511288
+       }
+      ],
+      "protect_qty": 0,
+      "break_rate": 0.0,
+      "down": [
+       0,
+       0
+      ]
+     },
+     "6": {
+      "rate": 50.0,
+      "gold": 150000.0,
+      "materials": [
+       {
+        "item": "金色の追憶",
+        "qty": 1,
+        "client_id": 268511287
+       },
+       {
+        "item": "色褪せた追憶",
+        "qty": 35,
+        "client_id": 268511288
+       }
+      ],
+      "protect_qty": 0,
+      "break_rate": 0.0,
+      "down": [
+       0,
+       0
+      ]
+     },
+     "7": {
+      "rate": 45.0,
+      "gold": 200000.0,
+      "materials": [
+       {
+        "item": "金色の追憶",
+        "qty": 1,
+        "client_id": 268511287
+       },
+       {
+        "item": "色褪せた追憶",
+        "qty": 40,
+        "client_id": 268511288
+       }
+      ],
+      "protect_qty": 0,
+      "break_rate": 0.0,
+      "down": [
+       0,
+       0
+      ]
+     },
+     "8": {
+      "rate": 35.0,
+      "gold": 225000.0,
+      "materials": [
+       {
+        "item": "金色の追憶",
+        "qty": 1,
+        "client_id": 268511287
+       },
+       {
+        "item": "色褪せた追憶",
+        "qty": 45,
+        "client_id": 268511288
+       }
+      ],
+      "protect_qty": 0,
+      "break_rate": 0.0,
+      "down": [
+       0,
+       0
+      ]
+     },
+     "9": {
+      "rate": 25.0,
+      "gold": 225000.0,
+      "materials": [
+       {
+        "item": "金色の追憶",
+        "qty": 1,
+        "client_id": 268511287
+       },
+       {
+        "item": "色褪せた追憶",
+        "qty": 50,
+        "client_id": 268511288
+       }
+      ],
+      "protect_qty": 0,
+      "break_rate": 0.0,
+      "down": [
+       0,
+       0
+      ]
+     },
+     "10": {
+      "rate": 15.0,
+      "gold": 250000.0,
+      "materials": [
+       {
+        "item": "金色の追憶",
+        "qty": 1,
+        "client_id": 268511287
+       },
+       {
+        "item": "色褪せた追憶",
+        "qty": 100,
+        "client_id": 268511288
+       }
+      ],
+      "protect_qty": 0,
+      "break_rate": 0.0,
+      "down": [
+       0,
+       0
+      ]
+     }
+    }
+   },
+   "enchant_id": 847258909,
    "max_enhance": 10,
    "levels": {
     "+1": [
@@ -73262,7 +73943,234 @@
      "value": "50,000"
     }
    ],
-   "enchant_id": 847258938,
+   "enchant_change": {
+    "enchant_id": 847258938,
+    "label": "金竜の竜珠安定器使用後",
+    "change_id": 2051,
+    "rows": {
+     "1": {
+      "rate": 100.0,
+      "gold": 100000.0,
+      "materials": [
+       {
+        "item": "金色の追憶",
+        "qty": 1,
+        "client_id": 268511287
+       },
+       {
+        "item": "色褪せた追憶",
+        "qty": 10,
+        "client_id": 268511288
+       }
+      ],
+      "protect_qty": 0,
+      "break_rate": 0.0,
+      "down": [
+       0,
+       0
+      ]
+     },
+     "2": {
+      "rate": 100.0,
+      "gold": 110000.0,
+      "materials": [
+       {
+        "item": "金色の追憶",
+        "qty": 1,
+        "client_id": 268511287
+       },
+       {
+        "item": "色褪せた追憶",
+        "qty": 15,
+        "client_id": 268511288
+       }
+      ],
+      "protect_qty": 0,
+      "break_rate": 0.0,
+      "down": [
+       0,
+       0
+      ]
+     },
+     "3": {
+      "rate": 100.0,
+      "gold": 120000.0,
+      "materials": [
+       {
+        "item": "金色の追憶",
+        "qty": 1,
+        "client_id": 268511287
+       },
+       {
+        "item": "色褪せた追憶",
+        "qty": 20,
+        "client_id": 268511288
+       }
+      ],
+      "protect_qty": 0,
+      "break_rate": 0.0,
+      "down": [
+       0,
+       0
+      ]
+     },
+     "4": {
+      "rate": 100.0,
+      "gold": 130000.0,
+      "materials": [
+       {
+        "item": "金色の追憶",
+        "qty": 1,
+        "client_id": 268511287
+       },
+       {
+        "item": "色褪せた追憶",
+        "qty": 25,
+        "client_id": 268511288
+       }
+      ],
+      "protect_qty": 0,
+      "break_rate": 0.0,
+      "down": [
+       0,
+       0
+      ]
+     },
+     "5": {
+      "rate": 100.0,
+      "gold": 140000.0,
+      "materials": [
+       {
+        "item": "金色の追憶",
+        "qty": 1,
+        "client_id": 268511287
+       },
+       {
+        "item": "色褪せた追憶",
+        "qty": 30,
+        "client_id": 268511288
+       }
+      ],
+      "protect_qty": 0,
+      "break_rate": 0.0,
+      "down": [
+       0,
+       0
+      ]
+     },
+     "6": {
+      "rate": 50.0,
+      "gold": 150000.0,
+      "materials": [
+       {
+        "item": "金色の追憶",
+        "qty": 1,
+        "client_id": 268511287
+       },
+       {
+        "item": "色褪せた追憶",
+        "qty": 35,
+        "client_id": 268511288
+       }
+      ],
+      "protect_qty": 0,
+      "break_rate": 0.0,
+      "down": [
+       0,
+       0
+      ]
+     },
+     "7": {
+      "rate": 45.0,
+      "gold": 200000.0,
+      "materials": [
+       {
+        "item": "金色の追憶",
+        "qty": 1,
+        "client_id": 268511287
+       },
+       {
+        "item": "色褪せた追憶",
+        "qty": 40,
+        "client_id": 268511288
+       }
+      ],
+      "protect_qty": 0,
+      "break_rate": 0.0,
+      "down": [
+       0,
+       0
+      ]
+     },
+     "8": {
+      "rate": 35.0,
+      "gold": 225000.0,
+      "materials": [
+       {
+        "item": "金色の追憶",
+        "qty": 1,
+        "client_id": 268511287
+       },
+       {
+        "item": "色褪せた追憶",
+        "qty": 45,
+        "client_id": 268511288
+       }
+      ],
+      "protect_qty": 0,
+      "break_rate": 0.0,
+      "down": [
+       0,
+       0
+      ]
+     },
+     "9": {
+      "rate": 25.0,
+      "gold": 225000.0,
+      "materials": [
+       {
+        "item": "金色の追憶",
+        "qty": 1,
+        "client_id": 268511287
+       },
+       {
+        "item": "色褪せた追憶",
+        "qty": 50,
+        "client_id": 268511288
+       }
+      ],
+      "protect_qty": 0,
+      "break_rate": 0.0,
+      "down": [
+       0,
+       0
+      ]
+     },
+     "10": {
+      "rate": 15.0,
+      "gold": 250000.0,
+      "materials": [
+       {
+        "item": "金色の追憶",
+        "qty": 1,
+        "client_id": 268511287
+       },
+       {
+        "item": "色褪せた追憶",
+        "qty": 100,
+        "client_id": 268511288
+       }
+      ],
+      "protect_qty": 0,
+      "break_rate": 0.0,
+      "down": [
+       0,
+       0
+      ]
+     }
+    }
+   },
+   "enchant_id": 847258905,
    "max_enhance": 10,
    "levels": {
     "+1": [
@@ -73430,7 +74338,234 @@
      "value": "225,000"
     }
    ],
-   "enchant_id": 847258940,
+   "enchant_change": {
+    "enchant_id": 847258940,
+    "label": "金竜の竜珠安定器使用後",
+    "change_id": 2051,
+    "rows": {
+     "1": {
+      "rate": 100.0,
+      "gold": 100000.0,
+      "materials": [
+       {
+        "item": "金色の追憶",
+        "qty": 1,
+        "client_id": 268511287
+       },
+       {
+        "item": "色褪せた追憶",
+        "qty": 10,
+        "client_id": 268511288
+       }
+      ],
+      "protect_qty": 0,
+      "break_rate": 0.0,
+      "down": [
+       0,
+       0
+      ]
+     },
+     "2": {
+      "rate": 100.0,
+      "gold": 110000.0,
+      "materials": [
+       {
+        "item": "金色の追憶",
+        "qty": 1,
+        "client_id": 268511287
+       },
+       {
+        "item": "色褪せた追憶",
+        "qty": 15,
+        "client_id": 268511288
+       }
+      ],
+      "protect_qty": 0,
+      "break_rate": 0.0,
+      "down": [
+       0,
+       0
+      ]
+     },
+     "3": {
+      "rate": 100.0,
+      "gold": 120000.0,
+      "materials": [
+       {
+        "item": "金色の追憶",
+        "qty": 1,
+        "client_id": 268511287
+       },
+       {
+        "item": "色褪せた追憶",
+        "qty": 20,
+        "client_id": 268511288
+       }
+      ],
+      "protect_qty": 0,
+      "break_rate": 0.0,
+      "down": [
+       0,
+       0
+      ]
+     },
+     "4": {
+      "rate": 100.0,
+      "gold": 130000.0,
+      "materials": [
+       {
+        "item": "金色の追憶",
+        "qty": 1,
+        "client_id": 268511287
+       },
+       {
+        "item": "色褪せた追憶",
+        "qty": 25,
+        "client_id": 268511288
+       }
+      ],
+      "protect_qty": 0,
+      "break_rate": 0.0,
+      "down": [
+       0,
+       0
+      ]
+     },
+     "5": {
+      "rate": 100.0,
+      "gold": 140000.0,
+      "materials": [
+       {
+        "item": "金色の追憶",
+        "qty": 1,
+        "client_id": 268511287
+       },
+       {
+        "item": "色褪せた追憶",
+        "qty": 30,
+        "client_id": 268511288
+       }
+      ],
+      "protect_qty": 0,
+      "break_rate": 0.0,
+      "down": [
+       0,
+       0
+      ]
+     },
+     "6": {
+      "rate": 50.0,
+      "gold": 150000.0,
+      "materials": [
+       {
+        "item": "金色の追憶",
+        "qty": 1,
+        "client_id": 268511287
+       },
+       {
+        "item": "色褪せた追憶",
+        "qty": 35,
+        "client_id": 268511288
+       }
+      ],
+      "protect_qty": 0,
+      "break_rate": 0.0,
+      "down": [
+       0,
+       0
+      ]
+     },
+     "7": {
+      "rate": 45.0,
+      "gold": 200000.0,
+      "materials": [
+       {
+        "item": "金色の追憶",
+        "qty": 1,
+        "client_id": 268511287
+       },
+       {
+        "item": "色褪せた追憶",
+        "qty": 40,
+        "client_id": 268511288
+       }
+      ],
+      "protect_qty": 0,
+      "break_rate": 0.0,
+      "down": [
+       0,
+       0
+      ]
+     },
+     "8": {
+      "rate": 35.0,
+      "gold": 225000.0,
+      "materials": [
+       {
+        "item": "金色の追憶",
+        "qty": 1,
+        "client_id": 268511287
+       },
+       {
+        "item": "色褪せた追憶",
+        "qty": 45,
+        "client_id": 268511288
+       }
+      ],
+      "protect_qty": 0,
+      "break_rate": 0.0,
+      "down": [
+       0,
+       0
+      ]
+     },
+     "9": {
+      "rate": 25.0,
+      "gold": 225000.0,
+      "materials": [
+       {
+        "item": "金色の追憶",
+        "qty": 1,
+        "client_id": 268511287
+       },
+       {
+        "item": "色褪せた追憶",
+        "qty": 50,
+        "client_id": 268511288
+       }
+      ],
+      "protect_qty": 0,
+      "break_rate": 0.0,
+      "down": [
+       0,
+       0
+      ]
+     },
+     "10": {
+      "rate": 15.0,
+      "gold": 250000.0,
+      "materials": [
+       {
+        "item": "金色の追憶",
+        "qty": 1,
+        "client_id": 268511287
+       },
+       {
+        "item": "色褪せた追憶",
+        "qty": 100,
+        "client_id": 268511288
+       }
+      ],
+      "protect_qty": 0,
+      "break_rate": 0.0,
+      "down": [
+       0,
+       0
+      ]
+     }
+    }
+   },
+   "enchant_id": 847258907,
    "max_enhance": 10,
    "levels": {
     "+1": [
@@ -142901,7 +144036,7 @@
    "max_level": 20
   },
   "client-enh-847258938": {
-   "enchant_id": 847258938,
+   "enchant_id": 847258905,
    "level_offset": 0,
    "rows": {
     "+1": {
@@ -143030,7 +144165,7 @@
       }
      ],
      "protect_qty": 0,
-     "break_rate": 0.0,
+     "break_rate": 100.0,
      "down": [
       0,
       0
@@ -143052,7 +144187,7 @@
       }
      ],
      "protect_qty": 0,
-     "break_rate": 0.0,
+     "break_rate": 100.0,
      "down": [
       0,
       0
@@ -143074,7 +144209,7 @@
       }
      ],
      "protect_qty": 0,
-     "break_rate": 0.0,
+     "break_rate": 100.0,
      "down": [
       0,
       0
@@ -143096,7 +144231,7 @@
       }
      ],
      "protect_qty": 0,
-     "break_rate": 0.0,
+     "break_rate": 100.0,
      "down": [
       0,
       0
@@ -143118,7 +144253,7 @@
       }
      ],
      "protect_qty": 0,
-     "break_rate": 0.0,
+     "break_rate": 100.0,
      "down": [
       0,
       0
@@ -188841,7 +189976,7 @@
     ]
    }
   },
-  "847258939": {
+  "847258906": {
    "1": {
     "rate": 100.0,
     "gold": 100000.0,
@@ -188968,7 +190103,7 @@
      }
     ],
     "protect_qty": 0,
-    "break_rate": 0.0,
+    "break_rate": 100.0,
     "down": [
      0,
      0
@@ -188990,7 +190125,7 @@
      }
     ],
     "protect_qty": 0,
-    "break_rate": 0.0,
+    "break_rate": 100.0,
     "down": [
      0,
      0
@@ -189012,7 +190147,7 @@
      }
     ],
     "protect_qty": 0,
-    "break_rate": 0.0,
+    "break_rate": 100.0,
     "down": [
      0,
      0
@@ -189034,7 +190169,7 @@
      }
     ],
     "protect_qty": 0,
-    "break_rate": 0.0,
+    "break_rate": 100.0,
     "down": [
      0,
      0
@@ -189056,14 +190191,14 @@
      }
     ],
     "protect_qty": 0,
-    "break_rate": 0.0,
+    "break_rate": 100.0,
     "down": [
      0,
      0
     ]
    }
   },
-  "847258941": {
+  "847258908": {
    "1": {
     "rate": 100.0,
     "gold": 100000.0,
@@ -189190,7 +190325,7 @@
      }
     ],
     "protect_qty": 0,
-    "break_rate": 0.0,
+    "break_rate": 100.0,
     "down": [
      0,
      0
@@ -189212,7 +190347,7 @@
      }
     ],
     "protect_qty": 0,
-    "break_rate": 0.0,
+    "break_rate": 100.0,
     "down": [
      0,
      0
@@ -189234,7 +190369,7 @@
      }
     ],
     "protect_qty": 0,
-    "break_rate": 0.0,
+    "break_rate": 100.0,
     "down": [
      0,
      0
@@ -189256,7 +190391,7 @@
      }
     ],
     "protect_qty": 0,
-    "break_rate": 0.0,
+    "break_rate": 100.0,
     "down": [
      0,
      0
@@ -189278,14 +190413,14 @@
      }
     ],
     "protect_qty": 0,
-    "break_rate": 0.0,
+    "break_rate": 100.0,
     "down": [
      0,
      0
     ]
    }
   },
-  "847258942": {
+  "847258909": {
    "1": {
     "rate": 100.0,
     "gold": 100000.0,
@@ -189412,7 +190547,7 @@
      }
     ],
     "protect_qty": 0,
-    "break_rate": 0.0,
+    "break_rate": 100.0,
     "down": [
      0,
      0
@@ -189434,7 +190569,7 @@
      }
     ],
     "protect_qty": 0,
-    "break_rate": 0.0,
+    "break_rate": 100.0,
     "down": [
      0,
      0
@@ -189456,7 +190591,7 @@
      }
     ],
     "protect_qty": 0,
-    "break_rate": 0.0,
+    "break_rate": 100.0,
     "down": [
      0,
      0
@@ -189478,7 +190613,7 @@
      }
     ],
     "protect_qty": 0,
-    "break_rate": 0.0,
+    "break_rate": 100.0,
     "down": [
      0,
      0
@@ -189500,14 +190635,14 @@
      }
     ],
     "protect_qty": 0,
-    "break_rate": 0.0,
+    "break_rate": 100.0,
     "down": [
      0,
      0
     ]
    }
   },
-  "847258938": {
+  "847258905": {
    "1": {
     "rate": 100.0,
     "gold": 100000.0,
@@ -189634,7 +190769,7 @@
      }
     ],
     "protect_qty": 0,
-    "break_rate": 0.0,
+    "break_rate": 100.0,
     "down": [
      0,
      0
@@ -189656,7 +190791,7 @@
      }
     ],
     "protect_qty": 0,
-    "break_rate": 0.0,
+    "break_rate": 100.0,
     "down": [
      0,
      0
@@ -189678,7 +190813,7 @@
      }
     ],
     "protect_qty": 0,
-    "break_rate": 0.0,
+    "break_rate": 100.0,
     "down": [
      0,
      0
@@ -189700,7 +190835,7 @@
      }
     ],
     "protect_qty": 0,
-    "break_rate": 0.0,
+    "break_rate": 100.0,
     "down": [
      0,
      0
@@ -189722,14 +190857,14 @@
      }
     ],
     "protect_qty": 0,
-    "break_rate": 0.0,
+    "break_rate": 100.0,
     "down": [
      0,
      0
     ]
    }
   },
-  "847258940": {
+  "847258907": {
    "1": {
     "rate": 100.0,
     "gold": 100000.0,
@@ -189856,7 +190991,7 @@
      }
     ],
     "protect_qty": 0,
-    "break_rate": 0.0,
+    "break_rate": 100.0,
     "down": [
      0,
      0
@@ -189878,7 +191013,7 @@
      }
     ],
     "protect_qty": 0,
-    "break_rate": 0.0,
+    "break_rate": 100.0,
     "down": [
      0,
      0
@@ -189900,7 +191035,7 @@
      }
     ],
     "protect_qty": 0,
-    "break_rate": 0.0,
+    "break_rate": 100.0,
     "down": [
      0,
      0
@@ -189922,7 +191057,7 @@
      }
     ],
     "protect_qty": 0,
-    "break_rate": 0.0,
+    "break_rate": 100.0,
     "down": [
      0,
      0
@@ -189944,7 +191079,7 @@
      }
     ],
     "protect_qty": 0,
-    "break_rate": 0.0,
+    "break_rate": 100.0,
     "down": [
      0,
      0
