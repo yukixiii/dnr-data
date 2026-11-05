@@ -15,7 +15,8 @@
     "merge": "tsx ingest/merge-drafts.ts",
     "gen:groups": "tsx ingest/gen-groups.ts",
     "apply:client": "tsx ingest/apply-client.ts",
-    "rename:ids": "tsx ingest/rename-ids.ts"
+    "rename:ids": "tsx ingest/rename-ids.ts",
+    "terms": "tsx ingest/terms.ts"
   },
   "devDependencies": {
     "@types/node": "^26.6.4",
