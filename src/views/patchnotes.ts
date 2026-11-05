@@ -2,7 +2,7 @@
 import { patchnotes } from "../data.ts";
 import { esc, href } from "../components/ui.ts";
 import { patchImgPath } from "../patchnote-img.ts";
-import type { PatchBlock, PatchCell, PatchNote, PatchSection } from "../types.ts";
+import type { PatchBlock, PatchCell, PatchListItem, PatchNote, PatchSection } from "../types.ts";
 
 // 本文の改行は <br> にする (表のマス内の改行など)
 const text = (s: string) => esc(s).replace(/\n/g, "<br>");
@@ -38,7 +38,11 @@ function tableHtml(b: Extract<PatchBlock, { type: "table" }>) {
   }<tbody>${body}</tbody></table></div>${b.note ? `<p class="pn-note">${text(b.note)}</p>` : ""}`;
 }
 
-function blockHtml(b: ViewBlock, s: PatchSection, noteId: string) {
+// 原文で字下げされた子の項目は入れ子の ul にする
+const listHtml = (items: PatchListItem[]): string =>
+  `<ul>${items.map((i) => (typeof i === "string" ? `<li>${text(i)}</li>` : `<li>${text(i.text)}${listHtml(i.items)}</li>`)).join("")}</ul>`;
+
+function blockHtml(b: ViewBlock, s: PatchSection, noteId: string): string {
   if (b.type === "img" && b.src) return figureHtml(b, noteId);
   switch (b.type) {
     case "h":
@@ -46,7 +50,11 @@ function blockHtml(b: ViewBlock, s: PatchSection, noteId: string) {
     case "p":
       return `<p>${text(b.text)}</p>`;
     case "ul":
-      return `<ul>${b.items.map((i) => `<li>${text(i)}</li>`).join("")}</ul>`;
+      return listHtml(b.items);
+    case "aside":
+      return `<aside class="pn-aside">${b.title ? `<p class="pn-aside-title">${text(b.title)}</p>` : ""}${b.blocks
+        .map((c: PatchBlock) => blockHtml(c, s, noteId))
+        .join("")}</aside>`;
     case "table":
       return tableHtml(b);
     case "img":

@@ -246,10 +246,15 @@ export interface PatchSection {
 /** 表のマス。結合マスだけ rowspan / colspan を持つ */
 export type PatchCell = string | { text: string; rowspan?: number; colspan?: number };
 
+/** 箇条書きの項目。原文で字下げされた子の項目があるものは { text, items } にする */
+export type PatchListItem = string | { text: string; items: PatchListItem[] };
+
 export type PatchBlock =
   | { type: "h"; level: 1 | 2; text: string }
   | { type: "p"; text: string }
-  | { type: "ul"; items: string[] }
+  | { type: "ul"; items: PatchListItem[] }
+  /** 原文に無い補足 (訳だけでは分かりにくいところを整理した説明)。訳と区別して枠付きで出す */
+  | { type: "aside"; title?: string; blocks: PatchBlock[] }
   | { type: "table"; head?: PatchCell[][]; rows: PatchCell[][]; note?: string }
   /**
    * 画像。src (原文の画像 URL) があるものだけ public/patchnote-img/ に取り込んで表示する (説明に必要な画像だけ src を残す)。

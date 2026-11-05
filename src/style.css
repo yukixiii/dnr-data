@@ -1136,6 +1136,31 @@ details.pn-section > summary .muted {
   font-size: 0.85rem;
   color: var(--muted);
 }
+/* 入れ子の箇条書き (原文で字下げされた項目) */
+.pn-body li > ul {
+  margin: 2px 0 4px;
+  padding-left: 1.3em;
+  list-style-type: circle;
+}
+/* 原文に無い補足。訳と区別して枠に入れる */
+.pn-aside {
+  margin: 12px 0 14px;
+  padding: 10px 14px;
+  border: 1px solid var(--border);
+  border-left: 4px solid var(--accent);
+  border-radius: 0 var(--radius) var(--radius) 0;
+  background: var(--accent-soft);
+}
+.pn-aside > :first-child {
+  margin-top: 0;
+}
+.pn-aside > :last-child {
+  margin-bottom: 0;
+}
+.pn-body .pn-aside-title {
+  font-weight: 700;
+  margin-bottom: 4px;
+}
 @media (max-width: 600px) {
   details.pn-section > summary {
     padding: 10px 12px 10px 34px;

@@ -13,7 +13,7 @@ import sharp from "sharp";
 import { load, type CheerioAPI } from "cheerio";
 import type { AnyNode, Element } from "domhandler";
 import { get, sleep, UA } from "./lib.ts";
-import type { PatchBlock, PatchCell, PatchNote, PatchSection } from "../src/types.ts";
+import type { PatchBlock, PatchCell, PatchListItem, PatchNote, PatchSection } from "../src/types.ts";
 import { patchImgPath } from "../src/patchnote-img.ts";
 
 const RAW_DIR = new URL("./raw/", import.meta.url);
@@ -37,9 +37,19 @@ const clean = (s: string) =>
 // HTML 片をブロック列に変換する。
 // 本文は「行」(br・p・div で区切る) と表・画像の並びとして読み、行の先頭記号で見出し・箇条書きを分ける。
 // 1 マスだけの表 (JP の見出し枠・画像枠) は表とせず中身を本文として読む。
+// 箇条書きは囲む p・div の margin-left (KR は 40px / 80px) を字下げとして読み、深いものを前の項目の子にする。
 export function toBlocks($: CheerioAPI, root: AnyNode[]): PatchBlock[] {
   const out: PatchBlock[] = [];
   let line = "";
+  let indent = 0;
+  const indents = new Map<PatchBlock, number[]>();
+  const pushItem = (item: string) => {
+    const last = out[out.length - 1];
+    const ul: PatchBlock = last?.type === "ul" ? last : { type: "ul", items: [] };
+    if (ul !== last) out.push(ul);
+    (ul as { items: string[] }).items.push(item);
+    indents.set(ul, [...(indents.get(ul) ?? []), indent]);
+  };
   const flush = () => {
     const t = clean(line);
     line = "";
@@ -47,10 +57,7 @@ export function toBlocks($: CheerioAPI, root: AnyNode[]): PatchBlock[] {
     const m = t.match(/^(?:◆|■|【|\[|◇)/) ? 1 : t.match(/^(?:▷|▶|◎|●)/) ? 2 : 0;
     // ▶ を箇条書きの記号に使う文 (「〜했습니다.」「〜ました。」) は見出しにしない
     if (m === 2 && /(다\.|。)$/.test(t)) {
-      const item = t.replace(/^[▷▶◎●]\s*/, "");
-      const last = out[out.length - 1];
-      if (last?.type === "ul") last.items.push(item);
-      else out.push({ type: "ul", items: [item] });
+      pushItem(t.replace(/^[▷▶◎●]\s*/, ""));
       return;
     }
     if (m) {
@@ -59,10 +66,7 @@ export function toBlocks($: CheerioAPI, root: AnyNode[]): PatchBlock[] {
     }
     const li = t.match(/^(?:•|・|·|ㆍ|-|‐|※)\s*(.*)$/);
     if (li) {
-      const item = t.startsWith("※") ? t : li[1];
-      const last = out[out.length - 1];
-      if (last?.type === "ul") last.items.push(item);
-      else out.push({ type: "ul", items: [item] });
+      pushItem(t.startsWith("※") ? t : li[1]);
       return;
     }
     out.push({ type: "p", text: t });
@@ -137,13 +141,33 @@ export function toBlocks($: CheerioAPI, root: AnyNode[]): PatchBlock[] {
       }
       const isBlock = /^(p|div|li|h\d|tr|ul|ol|hr|center|blockquote)$/.test(tag);
       if (isBlock) flush();
+      const outer = indent;
+      const ml = ($(el).attr("style") ?? "").match(/margin-left:\s*(\d+)px/);
+      if (isBlock && ml) indent = Number(ml[1]);
       walk(el.children);
       if (isBlock) flush();
+      indent = outer;
     }
   };
   walk(root);
   flush();
+  for (const [ul, ind] of indents) if (ul.type === "ul") ul.items = nestItems(ul.items as string[], ind);
   return out;
+}
+
+// 字下げの深さ (px) の列から入れ子の箇条書きを作る。前の項目より深いものはその子にする
+function nestItems(items: string[], ind: number[]): PatchListItem[] {
+  type Node = { text: string; items: Node[] };
+  const top: Node[] = [];
+  const stack: { px: number; node: Node }[] = [];
+  items.forEach((text, i) => {
+    const node: Node = { text, items: [] };
+    while (stack.length && stack[stack.length - 1].px >= ind[i]) stack.pop();
+    (stack.length ? stack[stack.length - 1].node.items : top).push(node);
+    stack.push({ px: ind[i], node });
+  });
+  const plain = (ns: Node[]): PatchListItem[] => ns.map((n) => (n.items.length ? { text: n.text, items: plain(n.items) } : n.text));
+  return plain(top);
 }
 
 async function kr(no: string) {

@@ -6,12 +6,15 @@
 // 3. 原文のセクションに訳語集の語があるのに、訳の同じセクションにその日本語表記が無いもの (訳し漏れ・表記ゆれの候補)
 // 訳語集に無い語は、日本版クライアントの表 (dnr-client の shops.py: 商店、itemtable の名前など) で探してから追記する。
 import { readFile, readdir } from "node:fs/promises";
-import type { PatchBlock, PatchNote, PatchSection } from "../src/types.ts";
+import type { PatchBlock, PatchListItem, PatchNote, PatchSection } from "../src/types.ts";
 
 type Term = { ko: string; ja: string; how: string; note?: string };
 
 const root = new URL("../", import.meta.url);
 const read = async <T>(p: string): Promise<T> => JSON.parse(await readFile(new URL(p, root), "utf8"));
+
+const listText = (items: PatchListItem[]): string =>
+  items.map((i) => (typeof i === "string" ? i : [i.text, listText(i.items)].join("\n"))).join("\n");
 
 function blockText(b: PatchBlock): string {
   switch (b.type) {
@@ -19,7 +22,9 @@ function blockText(b: PatchBlock): string {
     case "p":
       return b.text;
     case "ul":
-      return b.items.join("\n");
+      return listText(b.items);
+    case "aside":
+      return [b.title ?? "", ...b.blocks.map(blockText)].join("\n");
     case "table":
       return [...(b.head ?? []), ...b.rows]
         .flat()

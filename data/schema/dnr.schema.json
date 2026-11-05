@@ -364,6 +364,18 @@
       ]
     },
     "patch_rows": { "type": "array", "items": { "type": "array", "minItems": 1, "items": { "$ref": "#/definitions/patch_cell" } } },
+    "patch_list": {
+      "type": "array", "minItems": 1,
+      "items": {
+        "oneOf": [
+          { "type": "string", "minLength": 1 },
+          {
+            "type": "object", "additionalProperties": false, "required": ["text", "items"],
+            "properties": { "text": { "type": "string", "minLength": 1 }, "items": { "$ref": "#/definitions/patch_list" } }
+          }
+        ]
+      }
+    },
     "patch_block": {
       "oneOf": [
         {
@@ -376,7 +388,15 @@
         },
         {
           "type": "object", "additionalProperties": false, "required": ["type", "items"],
-          "properties": { "type": { "const": "ul" }, "items": { "type": "array", "minItems": 1, "items": { "type": "string", "minLength": 1 } } }
+          "properties": { "type": { "const": "ul" }, "items": { "$ref": "#/definitions/patch_list" } }
+        },
+        {
+          "type": "object", "additionalProperties": false, "required": ["type", "blocks"],
+          "properties": {
+            "type": { "const": "aside" },
+            "title": { "type": "string", "minLength": 1 },
+            "blocks": { "type": "array", "minItems": 1, "items": { "$ref": "#/definitions/patch_block" } }
+          }
         },
         {
           "type": "object", "additionalProperties": false, "required": ["type", "rows"],
