@@ -1179,6 +1179,23 @@ details.pn-section > summary .muted {
   border: 1px dashed var(--border);
   border-radius: 6px;
 }
+.pn-fig {
+  margin: 10px 0 14px;
+}
+.pn-fig img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  background: #000;
+}
+.pn-fig figcaption {
+  margin-top: 4px;
+  font-size: 0.85rem;
+  color: var(--muted);
+  max-width: 700px;
+}
 .pn-src {
   margin-top: 16px;
   text-align: right;

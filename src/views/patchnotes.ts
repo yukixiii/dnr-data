@@ -1,6 +1,7 @@
 // 日韓のアップデート (data/patchnotes.json)
 import { patchnotes } from "../data.ts";
 import { esc, href } from "../components/ui.ts";
+import { patchImgPath } from "../patchnote-img.ts";
 import type { PatchBlock, PatchCell, PatchNote, PatchSection } from "../types.ts";
 
 // 本文の改行は <br> にする (表のマス内の改行など)
@@ -37,7 +38,8 @@ function tableHtml(b: Extract<PatchBlock, { type: "table" }>) {
   }<tbody>${body}</tbody></table></div>${b.note ? `<p class="pn-note">${text(b.note)}</p>` : ""}`;
 }
 
-function blockHtml(b: ViewBlock, s: PatchSection) {
+function blockHtml(b: ViewBlock, s: PatchSection, noteId: string) {
+  if (b.type === "img" && b.src) return figureHtml(b, noteId);
   switch (b.type) {
     case "h":
       return b.level === 1 ? `<h4>${text(b.text)}</h4>` : `<h5>${text(b.text)}</h5>`;
@@ -55,12 +57,21 @@ function blockHtml(b: ViewBlock, s: PatchSection) {
   }
 }
 
-function sectionHtml(s: PatchSection) {
+// 取り込んだ画像 (public/patchnote-img/)。原文の表示幅を上限に、狭い画面では縮める。クリックで原寸
+function figureHtml(b: Extract<PatchBlock, { type: "img" }>, noteId: string) {
+  const file = patchImgPath(noteId, b.src!);
+  const size = b.width && b.height ? ` width="${b.width}" height="${b.height}"` : "";
+  return `<figure class="pn-fig"><a href="${esc(file)}" target="_blank" rel="noopener"><img src="${esc(file)}" alt="${esc(b.caption ?? b.alt ?? "")}"${size} loading="lazy" decoding="async"></a>${
+    b.caption ? `<figcaption>${text(b.caption)}</figcaption>` : ""
+  }</figure>`;
+}
+
+function sectionHtml(s: PatchSection, noteId: string) {
   const orig = s.heading_orig && s.heading_orig !== s.heading ? ` <span class="muted">${esc(s.heading_orig)}</span>` : "";
   const src = s.url ? `<p class="pn-src"><a href="${esc(s.url)}" target="_blank" rel="noopener">原文 ↗</a></p>` : "";
   return `<details class="pn-section"><summary><span class="pn-heading">${esc(s.heading)}</span>${orig}${s.summary_only ? ` <span class="chip">要約</span>` : ""}</summary>
     <div class="pn-body">${imgRuns(s.blocks)
-      .map((b) => blockHtml(b, s))
+      .map((b) => blockHtml(b, s, noteId))
       .join("")}${src}</div></details>`;
 }
 
@@ -70,8 +81,9 @@ function imgRuns(blocks: PatchBlock[]): ViewBlock[] {
   const out: ViewBlock[] = [];
   for (const b of blocks) {
     const last = out[out.length - 1];
-    if (b.type === "img" && !b.alt && last?.type === "imgs") last.count++;
-    else out.push(b.type === "img" && !b.alt ? { type: "imgs", count: 1 } : b);
+    const bare = b.type === "img" && !b.alt && !b.src;
+    if (bare && last?.type === "imgs") last.count++;
+    else out.push(bare ? { type: "imgs", count: 1 } : b);
   }
   return out;
 }
@@ -82,7 +94,7 @@ function noteHtml(n: PatchNote) {
     <p class="pn-meta">${n.title_ja ? `原題: ${esc(n.title)} ・ ` : ""}<a href="${esc(n.url)}" target="_blank" rel="noopener">公式の告知 ↗</a>${
       n.region === "KR" ? " ・ 非公式の日本語訳です。名称は日本版にあるものは日本版の表記にしています。" : ""
     }</p>
-    ${n.sections.map(sectionHtml).join("")}
+    ${n.sections.map((s) => sectionHtml(s, n.id)).join("")}
   </article>`;
 }
 

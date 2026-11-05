@@ -4,11 +4,17 @@
 //   npm run fetch:patchnote -- jp 1466     日本のお知らせ (raw/notice-1466.html が無ければ取得)
 // どちらも ingest/drafts/patchnotes/<id>.json に下書きを出す。翻訳・要約は下書きの文字列を書き換えて行い、
 // 人手でレビューしてから data/patchnotes.json に入れること (自動反映はしない)。
-import { mkdir, readFile, writeFile } from "node:fs/promises";
+// 下書きの画像には原文の URL (src) と表示サイズが入る。説明に必要な画像 (UI・ツールチップ・地図など) だけ src を残し、
+// 風景・宣伝画像・スキル演出の動画などは src を消す。data/patchnotes.json に入れた後に
+//   npm run fetch:patchnote -- images kr-201   src のある画像を public/patchnote-img/<id>/ に webp で取り込む
+import { access, mkdir, readFile, writeFile } from "node:fs/promises";
+import { fileURLToPath } from "node:url";
+import sharp from "sharp";
 import { load, type CheerioAPI } from "cheerio";
 import type { AnyNode, Element } from "domhandler";
 import { get, sleep, UA } from "./lib.ts";
 import type { PatchBlock, PatchCell, PatchNote, PatchSection } from "../src/types.ts";
+import { patchImgPath } from "../src/patchnote-img.ts";
 
 const RAW_DIR = new URL("./raw/", import.meta.url);
 const DRAFT_DIR = new URL("./drafts/patchnotes/", import.meta.url);
@@ -90,7 +96,18 @@ export function toBlocks($: CheerioAPI, root: AnyNode[]): PatchBlock[] {
       }
       if (tag === "img") {
         flush();
-        out.push({ type: "img", alt: clean($(el).attr("alt") ?? "") || undefined });
+        const src = $(el).attr("src") ?? "";
+        const size = (k: string) => {
+          const v = Number(($(el).attr("style") ?? "").match(new RegExp(`(?:^|[;\\s])${k}:\\s*(\\d+)px`))?.[1] ?? $(el).attr(k));
+          return v > 0 ? v : undefined;
+        };
+        out.push({
+          type: "img",
+          alt: clean($(el).attr("alt") ?? "") || undefined,
+          src: src ? new URL(src, "https://patchnote.dragonnest.com/").href.replace(/^http:/, "https:") : undefined,
+          width: size("width"),
+          height: size("height"),
+        });
         continue;
       }
       if (tag === "table") {
@@ -199,9 +216,36 @@ async function jp(no: string) {
   } satisfies PatchNote;
 }
 
+// data/patchnotes.json の告知のうち src のある画像を取り込む (既にあるものは飛ばす)。webp (品質 90) に変換し、
+// 原文の表示幅の 2 倍を超える大きさは縮める
+async function images(id: string) {
+  const notes: PatchNote[] = JSON.parse(await readFile(new URL("../data/patchnotes.json", import.meta.url), "utf8"));
+  const note = notes.find((n) => n.id === id);
+  if (!note) throw new Error(`data/patchnotes.json に ${id} が無い`);
+  const imgs = note.sections.flatMap((s) => s.blocks).filter((b) => b.type === "img" && b.src) as Extract<PatchBlock, { type: "img" }>[];
+  await mkdir(new URL(`../public/patchnote-img/${id}/`, import.meta.url), { recursive: true });
+  for (const b of imgs) {
+    const out = new URL(`../public/${patchImgPath(id, b.src!)}`, import.meta.url);
+    if (await access(out).then(() => true, () => false)) continue;
+    const res = await fetch(b.src!, { headers: { "User-Agent": UA } });
+    if (!res.ok) throw new Error(`${res.status} ${b.src}`);
+    let img = sharp(Buffer.from(await res.arrayBuffer()), { animated: true });
+    const meta = await img.metadata();
+    if (b.width && meta.width && meta.width > b.width * 2) img = img.resize({ width: b.width * 2 });
+    await img.webp({ quality: 90 }).toFile(fileURLToPath(out));
+    console.log(`${patchImgPath(id, b.src!)} (${meta.width}x${meta.height})`);
+    await sleep(300);
+  }
+  console.log(`${imgs.length} images`);
+}
+
 const [region, no] = process.argv.slice(2);
+if (region === "images" && no) {
+  await images(no);
+  process.exit(0);
+}
 if (!/^(kr|jp)$/.test(region ?? "") || !/^\d+$/.test(no ?? "")) {
-  console.error("usage: fetch-patchnote kr|jp <no>");
+  console.error("usage: fetch-patchnote kr|jp <no> / fetch-patchnote images <id>");
   process.exit(1);
 }
 await mkdir(RAW_DIR, { recursive: true });

@@ -251,8 +251,11 @@ export type PatchBlock =
   | { type: "p"; text: string }
   | { type: "ul"; items: string[] }
   | { type: "table"; head?: PatchCell[][]; rows: PatchCell[][]; note?: string }
-  /** 画像は載せず「原文参照」とだけ出す */
-  | { type: "img"; alt?: string };
+  /**
+   * 画像。src (原文の画像 URL) があるものだけ public/patchnote-img/ に取り込んで表示する (説明に必要な画像だけ src を残す)。
+   * src が無いものは「原文参照」とだけ出す。width / height は原文での表示サイズ、caption は画像内の文字の訳など
+   */
+  | { type: "img"; alt?: string; src?: string; width?: number; height?: number; caption?: string };
 
 export interface Dataset {
   sources: Source[];

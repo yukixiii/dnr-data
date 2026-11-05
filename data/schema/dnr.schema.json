@@ -389,7 +389,14 @@
         },
         {
           "type": "object", "additionalProperties": false, "required": ["type"],
-          "properties": { "type": { "const": "img" }, "alt": { "type": "string" } }
+          "properties": {
+            "type": { "const": "img" },
+            "alt": { "type": "string" },
+            "src": { "type": "string", "pattern": "^https://" },
+            "width": { "type": "integer", "minimum": 1 },
+            "height": { "type": "integer", "minimum": 1 },
+            "caption": { "type": "string" }
+          }
         }
       ]
     }

@@ -2,7 +2,8 @@
 // 使い方:
 //   npm run validate                       data/*.json を検証
 //   npm run validate -- ingest/drafts/x.json   1ファイルにまとめたドラフト(Dataset形式)を検証
-import { readFile } from "node:fs/promises";
+import { access, readFile } from "node:fs/promises";
+import { patchImgPath } from "../src/patchnote-img.ts";
 import Ajv from "ajv";
 import type { ChangelogDay, Dataset, ItemGroup, PatchCell, PatchNote } from "../src/types.ts";
 import { baseNameOf, isGroupable } from "./groups-lib.ts";
@@ -170,6 +171,7 @@ async function main() {
     const notes: PatchNote[] = await readJson("data/patchnotes.json");
     const vp = ajv.getSchema("dnr.schema.json#/definitions/patch_note")!;
     const seen = new Set<string>();
+    const imgChecks: Promise<unknown>[] = [];
     notes.forEach((n, i) => {
       if (!vp(n)) for (const e of vp.errors ?? []) errors.push(`patchnotes[${i}] ${n.id}: ${e.instancePath} ${e.message} ${JSON.stringify(e.params)}`);
       if (seen.has(n.id)) errors.push(`patchnotes ${n.id}: id が重複している`);
@@ -177,12 +179,14 @@ async function main() {
       if (i > 0 && n.date > notes[i - 1].date) errors.push(`patchnotes ${n.id}: 日付が新しい順でない`);
       n.sections?.forEach((s) =>
         s.blocks?.forEach((b, j) => {
+          if (b.type === "img" && b.src) imgChecks.push(access(`public/${patchImgPath(n.id, b.src)}`).catch(() => errors.push(`patchnotes ${n.id} 「${s.heading}」 blocks[${j}]: 画像を取り込んでいない (npm run fetch:patchnote -- images ${n.id})`)));
           if (b.type !== "table") return;
           const widths = tableWidths([...(b.head ?? []), ...b.rows]);
           if (new Set(widths).size > 1) errors.push(`patchnotes ${n.id} 「${s.heading}」 blocks[${j}]: 表の列数が行ごとに違う (${widths.join(",")})`);
         }),
       );
     });
+    await Promise.all(imgChecks);
   }
   if (warnings.length) console.warn(warnings.join("\n"));
 
